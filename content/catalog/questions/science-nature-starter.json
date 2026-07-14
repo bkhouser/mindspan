@@ -1,0 +1,2662 @@
+[
+  {
+    "catalogKey": "science-nature-starter.element-symbol.thorium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for thorium?",
+    "canonicalAnswer": "Th",
+    "aliases": [],
+    "distractors": [
+      "Pa",
+      "Te",
+      "Mg"
+    ],
+    "explanation": "Th is the standard chemical symbol for thorium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; thorium is represented by Th.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1115"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.terbium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of terbium?",
+    "canonicalAnswer": "65",
+    "aliases": [],
+    "distractors": [
+      "95",
+      "164",
+      "70"
+    ],
+    "explanation": "terbium has atomic number 65.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every terbium atom has 65.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1838"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.beli",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Beli orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Jupiter",
+      "Earth",
+      "Kepler-1625 b"
+    ],
+    "explanation": "Beli is a satellite of Saturn.",
+    "details": "Beli is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70072817"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.mark-wainberg",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Mark Wainberg?",
+    "canonicalAnswer": "HIV/AIDS",
+    "aliases": [],
+    "distractors": [
+      "dentistry",
+      "astronautics",
+      "history of Russia"
+    ],
+    "explanation": "Mark Wainberg worked primarily in HIV/AIDS.",
+    "details": "HIV/AIDS is recorded as the principal field of work associated with Mark Wainberg.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3294273"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.sagittarius",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Sagittarius?",
+    "canonicalAnswer": "Sgr",
+    "aliases": [],
+    "distractors": [
+      "Dra",
+      "UMa",
+      "Cam"
+    ],
+    "explanation": "Sgr is the standard abbreviation for Sagittarius.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Sagittarius is abbreviated Sgr.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8866"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.fecal-incontinence",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats fecal incontinence?",
+    "canonicalAnswer": "gastroenterology",
+    "aliases": [],
+    "distractors": [
+      "intensive care medicine",
+      "cardiology",
+      "pulmonology"
+    ],
+    "explanation": "gastroenterology is the specialty associated with fecal incontinence.",
+    "details": "Medical specialties organize care by body system or disease group; fecal incontinence is associated with gastroenterology.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1147182"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.protactinium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for protactinium?",
+    "canonicalAnswer": "Pa",
+    "aliases": [],
+    "distractors": [
+      "Te",
+      "Mg",
+      "Nb"
+    ],
+    "explanation": "Pa is the standard chemical symbol for protactinium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; protactinium is represented by Pa.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1109"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.americium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of americium?",
+    "canonicalAnswer": "95",
+    "aliases": [],
+    "distractors": [
+      "164",
+      "70",
+      "150"
+    ],
+    "explanation": "americium has atomic number 95.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every americium atom has 95.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1872"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.pan",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Pan orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Earth",
+      "Kepler-1625 b",
+      "Mars"
+    ],
+    "explanation": "Pan is a satellite of Saturn.",
+    "details": "Pan is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q17705"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.horace-wells",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Horace Wells?",
+    "canonicalAnswer": "dentistry",
+    "aliases": [],
+    "distractors": [
+      "astronautics",
+      "history of Russia",
+      "botany"
+    ],
+    "explanation": "Horace Wells worked primarily in dentistry.",
+    "details": "dentistry is recorded as the principal field of work associated with Horace Wells.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q733410"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.draco",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Draco?",
+    "canonicalAnswer": "Dra",
+    "aliases": [],
+    "distractors": [
+      "UMa",
+      "Cam",
+      "Dor"
+    ],
+    "explanation": "Dra is the standard abbreviation for Draco.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Draco is abbreviated Dra.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8675"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.cerebral-hypoxia",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats cerebral hypoxia?",
+    "canonicalAnswer": "intensive care medicine",
+    "aliases": [],
+    "distractors": [
+      "cardiology",
+      "pulmonology",
+      "oncology"
+    ],
+    "explanation": "intensive care medicine is the specialty associated with cerebral hypoxia.",
+    "details": "Medical specialties organize care by body system or disease group; cerebral hypoxia is associated with intensive care medicine.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q2249526"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.tellurium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for tellurium?",
+    "canonicalAnswer": "Te",
+    "aliases": [],
+    "distractors": [
+      "Mg",
+      "Nb",
+      "Lv"
+    ],
+    "explanation": "Te is the standard chemical symbol for tellurium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; tellurium is represented by Te.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1100"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unhexquadium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unhexquadium?",
+    "canonicalAnswer": "164",
+    "aliases": [],
+    "distractors": [
+      "70",
+      "150",
+      "152"
+    ],
+    "explanation": "unhexquadium has atomic number 164.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unhexquadium atom has 164.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30929350"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.ganymede",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Ganymede orbit?",
+    "canonicalAnswer": "Jupiter",
+    "aliases": [],
+    "distractors": [
+      "Kepler-1625 b",
+      "Mars",
+      "Uranus"
+    ],
+    "explanation": "Ganymede is a satellite of Jupiter.",
+    "details": "Ganymede is gravitationally bound to Jupiter and travels around it in orbit.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3169"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.barys-kit",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Barys Kit?",
+    "canonicalAnswer": "astronautics",
+    "aliases": [],
+    "distractors": [
+      "history of Russia",
+      "botany",
+      "digital humanities"
+    ],
+    "explanation": "Barys Kit worked primarily in astronautics.",
+    "details": "astronautics is recorded as the principal field of work associated with Barys Kit.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q45305"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.ursa-major",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Ursa Major?",
+    "canonicalAnswer": "UMa",
+    "aliases": [],
+    "distractors": [
+      "Cam",
+      "Dor",
+      "Sct"
+    ],
+    "explanation": "UMa is the standard abbreviation for Ursa Major.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Ursa Major is abbreviated UMa.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8918"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.collapse",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats collapse?",
+    "canonicalAnswer": "cardiology",
+    "aliases": [],
+    "distractors": [
+      "pulmonology",
+      "oncology",
+      "endocrinology"
+    ],
+    "explanation": "cardiology is the specialty associated with collapse.",
+    "details": "Medical specialties organize care by body system or disease group; collapse is associated with cardiology.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18054140"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.magnesium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for magnesium?",
+    "canonicalAnswer": "Mg",
+    "aliases": [],
+    "distractors": [
+      "Nb",
+      "Lv",
+      "He"
+    ],
+    "explanation": "Mg is the standard chemical symbol for magnesium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; magnesium is represented by Mg.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q660"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.ytterbium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of ytterbium?",
+    "canonicalAnswer": "70",
+    "aliases": [],
+    "distractors": [
+      "150",
+      "152",
+      "151"
+    ],
+    "explanation": "ytterbium has atomic number 70.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every ytterbium atom has 70.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1855"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.hyrrokkin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Hyrrokkin orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Mars",
+      "Uranus",
+      "Neptune"
+    ],
+    "explanation": "Hyrrokkin is a satellite of Saturn.",
+    "details": "Hyrrokkin is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18032"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.sergei-bakhrushin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Sergei Bakhrushin?",
+    "canonicalAnswer": "history of Russia",
+    "aliases": [],
+    "distractors": [
+      "botany",
+      "digital humanities",
+      "photography"
+    ],
+    "explanation": "Sergei Bakhrushin worked primarily in history of Russia.",
+    "details": "history of Russia is recorded as the principal field of work associated with Sergei Bakhrushin.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3479714"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.camelopardalis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Camelopardalis?",
+    "canonicalAnswer": "Cam",
+    "aliases": [],
+    "distractors": [
+      "Dor",
+      "Sct",
+      "Lac"
+    ],
+    "explanation": "Cam is the standard abbreviation for Camelopardalis.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Camelopardalis is abbreviated Cam.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8832"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.apparent-life-threatening-event-syndrome",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats apparent life-threatening event syndrome?",
+    "canonicalAnswer": "pulmonology",
+    "aliases": [],
+    "distractors": [
+      "oncology",
+      "endocrinology",
+      "pathology"
+    ],
+    "explanation": "pulmonology is the specialty associated with apparent life-threatening event syndrome.",
+    "details": "Medical specialties organize care by body system or disease group; apparent life-threatening event syndrome is associated with pulmonology.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1472019"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.niobium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for niobium?",
+    "canonicalAnswer": "Nb",
+    "aliases": [],
+    "distractors": [
+      "Lv",
+      "He",
+      "B"
+    ],
+    "explanation": "Nb is the standard chemical symbol for niobium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; niobium is represented by Nb.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1046"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unpentnilium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unpentnilium?",
+    "canonicalAnswer": "150",
+    "aliases": [],
+    "distractors": [
+      "152",
+      "151",
+      "146"
+    ],
+    "explanation": "unpentnilium has atomic number 150.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unpentnilium atom has 150.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551919"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.s-2004-s-12",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does S/2004 S 12 orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "explanation": "S/2004 S 12 is a satellite of Saturn.",
+    "details": "S/2004 S 12 is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18211"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.hans-winkler",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Hans Winkler?",
+    "canonicalAnswer": "botany",
+    "aliases": [],
+    "distractors": [
+      "digital humanities",
+      "photography",
+      "rocket science"
+    ],
+    "explanation": "Hans Winkler worked primarily in botany.",
+    "details": "botany is recorded as the principal field of work associated with Hans Winkler.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q77892"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.dorado",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Dorado?",
+    "canonicalAnswer": "Dor",
+    "aliases": [],
+    "distractors": [
+      "Sct",
+      "Lac",
+      "Lib"
+    ],
+    "explanation": "Dor is the standard abbreviation for Dorado.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Dorado is abbreviated Dor.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8837"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.cyst",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats cyst?",
+    "canonicalAnswer": "oncology",
+    "aliases": [],
+    "distractors": [
+      "endocrinology",
+      "pathology",
+      "emergency medicine"
+    ],
+    "explanation": "oncology is the specialty associated with cyst.",
+    "details": "Medical specialties organize care by body system or disease group; cyst is associated with oncology.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q193211"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.livermorium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for livermorium?",
+    "canonicalAnswer": "Lv",
+    "aliases": [],
+    "distractors": [
+      "He",
+      "B",
+      "Rb"
+    ],
+    "explanation": "Lv is the standard chemical symbol for livermorium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; livermorium is represented by Lv.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1304"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unpentbium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unpentbium?",
+    "canonicalAnswer": "152",
+    "aliases": [],
+    "distractors": [
+      "151",
+      "146",
+      "142"
+    ],
+    "explanation": "unpentbium has atomic number 152.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unpentbium atom has 152.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551918"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.s-2006-s-3",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does S/2006 S 3 orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Neptune",
+      "Pluto",
+      "Jupiter"
+    ],
+    "explanation": "S/2006 S 3 is a satellite of Saturn.",
+    "details": "S/2006 S 3 is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18228"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.nikolai-grube",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Nikolai Grube?",
+    "canonicalAnswer": "digital humanities",
+    "aliases": [],
+    "distractors": [
+      "photography",
+      "rocket science",
+      "international relations"
+    ],
+    "explanation": "Nikolai Grube worked primarily in digital humanities.",
+    "details": "digital humanities is recorded as the principal field of work associated with Nikolai Grube.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q85715"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.scutum",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Scutum?",
+    "canonicalAnswer": "Sct",
+    "aliases": [],
+    "distractors": [
+      "Lac",
+      "Lib",
+      "Mon"
+    ],
+    "explanation": "Sct is the standard abbreviation for Scutum.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Scutum is abbreviated Sct.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10529"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.complications-of-diabetes-mellitus",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats complications of diabetes mellitus?",
+    "canonicalAnswer": "endocrinology",
+    "aliases": [],
+    "distractors": [
+      "pathology",
+      "emergency medicine",
+      "infectious diseases"
+    ],
+    "explanation": "endocrinology is the specialty associated with complications of diabetes mellitus.",
+    "details": "Medical specialties organize care by body system or disease group; complications of diabetes mellitus is associated with endocrinology.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q4198677"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.helium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for helium?",
+    "canonicalAnswer": "He",
+    "aliases": [],
+    "distractors": [
+      "B",
+      "Rb",
+      "Ce"
+    ],
+    "explanation": "He is the standard chemical symbol for helium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; helium is represented by He.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q560"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unpentunium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unpentunium?",
+    "canonicalAnswer": "151",
+    "aliases": [],
+    "distractors": [
+      "146",
+      "142",
+      "153"
+    ],
+    "explanation": "unpentunium has atomic number 151.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unpentunium atom has 151.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551921"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.siarnaq",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Siarnaq orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Pluto",
+      "Jupiter",
+      "Earth"
+    ],
+    "explanation": "Siarnaq is a satellite of Saturn.",
+    "details": "Siarnaq is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18024"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.harriet-chalmers-adams",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Harriet Chalmers Adams?",
+    "canonicalAnswer": "photography",
+    "aliases": [],
+    "distractors": [
+      "rocket science",
+      "international relations",
+      "mechanics"
+    ],
+    "explanation": "Harriet Chalmers Adams worked primarily in photography.",
+    "details": "photography is recorded as the principal field of work associated with Harriet Chalmers Adams.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q670843"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.lacerta",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Lacerta?",
+    "canonicalAnswer": "Lac",
+    "aliases": [],
+    "distractors": [
+      "Lib",
+      "Mon",
+      "Ori"
+    ],
+    "explanation": "Lac is the standard abbreviation for Lacerta.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Lacerta is abbreviated Lac.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10430"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.fat-necrosis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats fat necrosis?",
+    "canonicalAnswer": "pathology",
+    "aliases": [],
+    "distractors": [
+      "emergency medicine",
+      "infectious diseases",
+      "obstetrics and gynaecology"
+    ],
+    "explanation": "pathology is the specialty associated with fat necrosis.",
+    "details": "Medical specialties organize care by body system or disease group; fat necrosis is associated with pathology.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q5437240"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.boron",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for boron?",
+    "canonicalAnswer": "B",
+    "aliases": [],
+    "distractors": [
+      "Rb",
+      "Ce",
+      "Mc"
+    ],
+    "explanation": "B is the standard chemical symbol for boron.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; boron is represented by B.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q618"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadhexium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadhexium?",
+    "canonicalAnswer": "146",
+    "aliases": [],
+    "distractors": [
+      "142",
+      "153",
+      "145"
+    ],
+    "explanation": "unquadhexium has atomic number 146.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadhexium atom has 146.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551926"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.thrymr",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Thrymr orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Jupiter",
+      "Earth",
+      "Kepler-1625 b"
+    ],
+    "explanation": "Thrymr is a satellite of Saturn.",
+    "details": "Thrymr is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18223"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.vasily-mishin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Vasily Mishin?",
+    "canonicalAnswer": "rocket science",
+    "aliases": [],
+    "distractors": [
+      "international relations",
+      "mechanics",
+      "politics"
+    ],
+    "explanation": "Vasily Mishin worked primarily in rocket science.",
+    "details": "rocket science is recorded as the principal field of work associated with Vasily Mishin.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q948941"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.libra",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Libra?",
+    "canonicalAnswer": "Lib",
+    "aliases": [],
+    "distractors": [
+      "Mon",
+      "Ori",
+      "Aps"
+    ],
+    "explanation": "Lib is the standard abbreviation for Libra.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Libra is abbreviated Lib.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10580"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.fluoride-toxicity",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats fluoride toxicity?",
+    "canonicalAnswer": "emergency medicine",
+    "aliases": [],
+    "distractors": [
+      "infectious diseases",
+      "obstetrics and gynaecology",
+      "medical genetics"
+    ],
+    "explanation": "emergency medicine is the specialty associated with fluoride toxicity.",
+    "details": "Medical specialties organize care by body system or disease group; fluoride toxicity is associated with emergency medicine.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3074499"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.rubidium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for rubidium?",
+    "canonicalAnswer": "Rb",
+    "aliases": [],
+    "distractors": [
+      "Ce",
+      "Mc",
+      "Pd"
+    ],
+    "explanation": "Rb is the standard chemical symbol for rubidium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; rubidium is represented by Rb.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q895"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadbium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadbium?",
+    "canonicalAnswer": "142",
+    "aliases": [],
+    "distractors": [
+      "153",
+      "145",
+      "144"
+    ],
+    "explanation": "unquadbium has atomic number 142.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadbium atom has 142.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551927"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.bergelmir",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Bergelmir orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Jupiter",
+      "Earth",
+      "Kepler-1625 b"
+    ],
+    "explanation": "Bergelmir is a satellite of Saturn.",
+    "details": "Bergelmir is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18195"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.ole-w-ver",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Ole Wæver?",
+    "canonicalAnswer": "international relations",
+    "aliases": [],
+    "distractors": [
+      "mechanics",
+      "politics",
+      "astrophysics"
+    ],
+    "explanation": "Ole Wæver worked primarily in international relations.",
+    "details": "international relations is recorded as the principal field of work associated with Ole Wæver.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3275839"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.monoceros",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Monoceros?",
+    "canonicalAnswer": "Mon",
+    "aliases": [],
+    "distractors": [
+      "Ori",
+      "Aps",
+      "Tau"
+    ],
+    "explanation": "Mon is the standard abbreviation for Monoceros.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Monoceros is abbreviated Mon.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10428"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.biliary-sludge",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats biliary sludge?",
+    "canonicalAnswer": "gastroenterology",
+    "aliases": [],
+    "distractors": [
+      "obstetrics and gynaecology",
+      "medical genetics",
+      "internal medicine"
+    ],
+    "explanation": "gastroenterology is the specialty associated with biliary sludge.",
+    "details": "Medical specialties organize care by body system or disease group; biliary sludge is associated with gastroenterology.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1492283"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.cerium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for cerium?",
+    "canonicalAnswer": "Ce",
+    "aliases": [],
+    "distractors": [
+      "Mc",
+      "Pd",
+      "S"
+    ],
+    "explanation": "Ce is the standard chemical symbol for cerium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; cerium is represented by Ce.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1385"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unpenttrium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unpenttrium?",
+    "canonicalAnswer": "153",
+    "aliases": [],
+    "distractors": [
+      "145",
+      "144",
+      "148"
+    ],
+    "explanation": "unpenttrium has atomic number 153.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unpenttrium atom has 153.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551924"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.moon",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Moon orbit?",
+    "canonicalAnswer": "Earth",
+    "aliases": [],
+    "distractors": [
+      "Kepler-1625 b",
+      "Mars",
+      "Uranus"
+    ],
+    "explanation": "Moon is a satellite of Earth.",
+    "details": "Moon is gravitationally bound to Earth and travels around it in orbit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q405"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.anatoli-blagonravov",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Anatoli Blagonravov?",
+    "canonicalAnswer": "mechanics",
+    "aliases": [],
+    "distractors": [
+      "politics",
+      "astrophysics",
+      "poetry"
+    ],
+    "explanation": "Anatoli Blagonravov worked primarily in mechanics.",
+    "details": "mechanics is recorded as the principal field of work associated with Anatoli Blagonravov.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q919846"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.orion",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Orion?",
+    "canonicalAnswer": "Ori",
+    "aliases": [],
+    "distractors": [
+      "Aps",
+      "Tau",
+      "Eri"
+    ],
+    "explanation": "Ori is the standard abbreviation for Orion.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Orion is abbreviated Ori.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8860"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.sweating-sickness",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats sweating sickness?",
+    "canonicalAnswer": "infectious diseases",
+    "aliases": [],
+    "distractors": [
+      "medical genetics",
+      "internal medicine",
+      "neurology"
+    ],
+    "explanation": "infectious diseases is the specialty associated with sweating sickness.",
+    "details": "Medical specialties organize care by body system or disease group; sweating sickness is associated with infectious diseases.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q920766"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.moscovium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for moscovium?",
+    "canonicalAnswer": "Mc",
+    "aliases": [],
+    "distractors": [
+      "Pd",
+      "S",
+      "Ni"
+    ],
+    "explanation": "Mc is the standard chemical symbol for moscovium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; moscovium is represented by Mc.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1303"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadpentium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadpentium?",
+    "canonicalAnswer": "145",
+    "aliases": [],
+    "distractors": [
+      "144",
+      "148",
+      "141"
+    ],
+    "explanation": "unquadpentium has atomic number 145.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadpentium atom has 145.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551930"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.helene",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Helene orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Kepler-1625 b",
+      "Mars",
+      "Uranus"
+    ],
+    "explanation": "Helene is a satellite of Saturn.",
+    "details": "Helene is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q17875"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.lise-thiry",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Lise Thiry?",
+    "canonicalAnswer": "politics",
+    "aliases": [],
+    "distractors": [
+      "astrophysics",
+      "poetry",
+      "biochemistry"
+    ],
+    "explanation": "Lise Thiry worked primarily in politics.",
+    "details": "politics is recorded as the principal field of work associated with Lise Thiry.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3242526"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.apus",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Apus?",
+    "canonicalAnswer": "Aps",
+    "aliases": [],
+    "distractors": [
+      "Tau",
+      "Eri",
+      "Gem"
+    ],
+    "explanation": "Aps is the standard abbreviation for Apus.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Apus is abbreviated Aps.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10506"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.frostbite",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats frostbite?",
+    "canonicalAnswer": "emergency medicine",
+    "aliases": [],
+    "distractors": [
+      "internal medicine",
+      "neurology",
+      "gynaecology"
+    ],
+    "explanation": "emergency medicine is the specialty associated with frostbite.",
+    "details": "Medical specialties organize care by body system or disease group; frostbite is associated with emergency medicine.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1350326"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.palladium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for palladium?",
+    "canonicalAnswer": "Pd",
+    "aliases": [],
+    "distractors": [
+      "S",
+      "Ni",
+      "Sr"
+    ],
+    "explanation": "Pd is the standard chemical symbol for palladium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; palladium is represented by Pd.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1089"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadquadium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadquadium?",
+    "canonicalAnswer": "144",
+    "aliases": [],
+    "distractors": [
+      "148",
+      "141",
+      "143"
+    ],
+    "explanation": "unquadquadium has atomic number 144.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadquadium atom has 144.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551931"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.angrboda",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Angrboda orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Mars",
+      "Uranus",
+      "Neptune"
+    ],
+    "explanation": "Angrboda is a satellite of Saturn.",
+    "details": "Angrboda is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70072703"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.hans-bethe",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Hans Bethe?",
+    "canonicalAnswer": "astrophysics",
+    "aliases": [],
+    "distractors": [
+      "poetry",
+      "biochemistry",
+      "history"
+    ],
+    "explanation": "Hans Bethe worked primarily in astrophysics.",
+    "details": "astrophysics is recorded as the principal field of work associated with Hans Bethe.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q155794"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.taurus",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Taurus?",
+    "canonicalAnswer": "Tau",
+    "aliases": [],
+    "distractors": [
+      "Eri",
+      "Gem",
+      "Cyg"
+    ],
+    "explanation": "Tau is the standard abbreviation for Taurus.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Taurus is abbreviated Tau.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10570"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.embryo-loss",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats embryo loss?",
+    "canonicalAnswer": "obstetrics and gynaecology",
+    "aliases": [],
+    "distractors": [
+      "neurology",
+      "gynaecology",
+      "family medicine"
+    ],
+    "explanation": "obstetrics and gynaecology is the specialty associated with embryo loss.",
+    "details": "Medical specialties organize care by body system or disease group; embryo loss is associated with obstetrics and gynaecology.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q64698726"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.sulfur",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for sulfur?",
+    "canonicalAnswer": "S",
+    "aliases": [],
+    "distractors": [
+      "Ni",
+      "Sr",
+      "Xe"
+    ],
+    "explanation": "S is the standard chemical symbol for sulfur.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; sulfur is represented by S.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q682"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadoctium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadoctium?",
+    "canonicalAnswer": "148",
+    "aliases": [],
+    "distractors": [
+      "141",
+      "143",
+      "98"
+    ],
+    "explanation": "unquadoctium has atomic number 148.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadoctium atom has 148.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551928"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.polydeuces",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Polydeuces orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Uranus",
+      "Neptune",
+      "Pluto"
+    ],
+    "explanation": "Polydeuces is a satellite of Saturn.",
+    "details": "Polydeuces is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q17882"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.may-ayim",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with May Ayim?",
+    "canonicalAnswer": "poetry",
+    "aliases": [],
+    "distractors": [
+      "biochemistry",
+      "history",
+      "endocrinology"
+    ],
+    "explanation": "May Ayim worked primarily in poetry.",
+    "details": "poetry is recorded as the principal field of work associated with May Ayim.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q106655"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.eridanus",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Eridanus?",
+    "canonicalAnswer": "Eri",
+    "aliases": [],
+    "distractors": [
+      "Gem",
+      "Cyg",
+      "Cet"
+    ],
+    "explanation": "Eri is the standard abbreviation for Eridanus.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Eridanus is abbreviated Eri.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10433"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.condyloma",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats Condyloma?",
+    "canonicalAnswer": "infectious diseases",
+    "aliases": [],
+    "distractors": [
+      "gynaecology",
+      "family medicine",
+      "dermatology"
+    ],
+    "explanation": "infectious diseases is the specialty associated with Condyloma.",
+    "details": "Medical specialties organize care by body system or disease group; Condyloma is associated with infectious diseases.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q738101"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.nickel",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for nickel?",
+    "canonicalAnswer": "Ni",
+    "aliases": [],
+    "distractors": [
+      "Sr",
+      "Xe",
+      "Ne"
+    ],
+    "explanation": "Ni is the standard chemical symbol for nickel.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; nickel is represented by Ni.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q744"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadunium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadunium?",
+    "canonicalAnswer": "141",
+    "aliases": [],
+    "distractors": [
+      "143",
+      "98",
+      "135"
+    ],
+    "explanation": "unquadunium has atomic number 141.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadunium atom has 141.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551935"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.mundilfari",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Mundilfari orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Neptune",
+      "Pluto",
+      "Jupiter"
+    ],
+    "explanation": "Mundilfari is a satellite of Saturn.",
+    "details": "Mundilfari is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18183"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.john-howard-northrop",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with John Howard Northrop?",
+    "canonicalAnswer": "biochemistry",
+    "aliases": [],
+    "distractors": [
+      "history",
+      "endocrinology",
+      "ethology"
+    ],
+    "explanation": "John Howard Northrop worked primarily in biochemistry.",
+    "details": "biochemistry is recorded as the principal field of work associated with John Howard Northrop.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q106399"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.gemini",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Gemini?",
+    "canonicalAnswer": "Gem",
+    "aliases": [],
+    "distractors": [
+      "Cyg",
+      "Cet",
+      "Psc"
+    ],
+    "explanation": "Gem is the standard abbreviation for Gemini.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Gemini is abbreviated Gem.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8923"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.cancer-of-unknown-primary-origin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats cancer of unknown primary origin?",
+    "canonicalAnswer": "oncology",
+    "aliases": [],
+    "distractors": [
+      "family medicine",
+      "dermatology",
+      "gastroenterology"
+    ],
+    "explanation": "oncology is the specialty associated with cancer of unknown primary origin.",
+    "details": "Medical specialties organize care by body system or disease group; cancer of unknown primary origin is associated with oncology.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1024546"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.strontium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for strontium?",
+    "canonicalAnswer": "Sr",
+    "aliases": [],
+    "distractors": [
+      "Xe",
+      "Ne",
+      "Ubn"
+    ],
+    "explanation": "Sr is the standard chemical symbol for strontium.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; strontium is represented by Sr.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q938"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.unquadtrium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of unquadtrium?",
+    "canonicalAnswer": "143",
+    "aliases": [],
+    "distractors": [
+      "98",
+      "135",
+      "134"
+    ],
+    "explanation": "unquadtrium has atomic number 143.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unquadtrium atom has 143.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3551933"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.fenrir",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Fenrir orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Pluto",
+      "Jupiter",
+      "Earth"
+    ],
+    "explanation": "Fenrir is a satellite of Saturn.",
+    "details": "Fenrir is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18229"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.yury-pobedonostsev",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Yury Pobedonostsev?",
+    "canonicalAnswer": "rocket science",
+    "aliases": [],
+    "distractors": [
+      "endocrinology",
+      "ethology",
+      "psychology"
+    ],
+    "explanation": "Yury Pobedonostsev worked primarily in rocket science.",
+    "details": "rocket science is recorded as the principal field of work associated with Yury Pobedonostsev.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q524307"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.cygnus",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Cygnus?",
+    "canonicalAnswer": "Cyg",
+    "aliases": [],
+    "distractors": [
+      "Cet",
+      "Psc",
+      "Col"
+    ],
+    "explanation": "Cyg is the standard abbreviation for Cygnus.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Cygnus is abbreviated Cyg.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8921"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.disease-specialty.dwarfism",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Medicine"
+    ],
+    "prompt": "Which medical specialty most directly treats dwarfism?",
+    "canonicalAnswer": "medical genetics",
+    "aliases": [],
+    "distractors": [
+      "dermatology",
+      "gastroenterology",
+      "intensive care medicine"
+    ],
+    "explanation": "medical genetics is the specialty associated with dwarfism.",
+    "details": "Medical specialties organize care by body system or disease group; dwarfism is associated with medical genetics.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q194101"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-symbol.xenon",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the chemical symbol for xenon?",
+    "canonicalAnswer": "Xe",
+    "aliases": [],
+    "distractors": [
+      "Ne",
+      "Ubn",
+      "Rh"
+    ],
+    "explanation": "Xe is the standard chemical symbol for xenon.",
+    "details": "Periodic-table symbols provide a universal shorthand for elements; xenon is represented by Xe.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1106"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.element-number.californium",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Chemistry"
+    ],
+    "prompt": "What is the atomic number of californium?",
+    "canonicalAnswer": "98",
+    "aliases": [],
+    "distractors": [
+      "135",
+      "134",
+      "133"
+    ],
+    "explanation": "californium has atomic number 98.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every californium atom has 98.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1888"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.moon-parent.gunnlod",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "Which astronomical body does Gunnlod orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": [
+      "Jupiter",
+      "Earth",
+      "Kepler-1625 b"
+    ],
+    "explanation": "Gunnlod is a satellite of Saturn.",
+    "details": "Gunnlod is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70141886"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.scientist-field.ernst-nolte",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Scientists"
+    ],
+    "prompt": "Which scientific field is most closely associated with Ernst Nolte?",
+    "canonicalAnswer": "history",
+    "aliases": [],
+    "distractors": [
+      "ethology",
+      "psychology",
+      "oriental studies"
+    ],
+    "explanation": "Ernst Nolte worked primarily in history.",
+    "details": "history is recorded as the principal field of work associated with Ernst Nolte.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q65108"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "science-nature-starter.constellation-abbreviation.cetus",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "science-nature-starter"
+    ],
+    "subtopics": [
+      "Astronomy"
+    ],
+    "prompt": "What is the standard three-letter abbreviation for the constellation Cetus?",
+    "canonicalAnswer": "Cet",
+    "aliases": [],
+    "distractors": [
+      "Psc",
+      "Col",
+      "Pup"
+    ],
+    "explanation": "Cet is the standard abbreviation for Cetus.",
+    "details": "Astronomers use standardized abbreviations in star names and charts; Cetus is abbreviated Cet.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q8839"
+    },
+    "expiresAt": null
+  }
+]

@@ -1,0 +1,2676 @@
+[
+  {
+    "catalogKey": "history-starter.event-year.cudgel-war",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Cudgel War occur?",
+    "canonicalAnswer": "1596",
+    "aliases": [],
+    "distractors": [
+      "1927",
+      "1905",
+      "1848"
+    ],
+    "explanation": "Cudgel War occurred in 1596.",
+    "details": "1596 places Cudgel War in its chronological historical context.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q974160"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-the-assunpink-creek",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of the Assunpink Creek fought?",
+    "canonicalAnswer": "Trenton",
+    "aliases": [],
+    "distractors": [
+      "Borodino",
+      "Horns of Hattin",
+      "Ardennes"
+    ],
+    "explanation": "The Battle of the Assunpink Creek took place at Trenton.",
+    "details": "Trenton is the recorded location of the Battle of the Assunpink Creek.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233417"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.japan-china-joint-declaration-on-building-a-partnership-of-friendship-and-cooper",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Japan–China Joint Declaration on Building a Partnership of Friendship and Cooperation for Peace and Development concluded or published?",
+    "canonicalAnswer": "1998",
+    "aliases": [],
+    "distractors": [
+      "2010",
+      "1939",
+      "1922"
+    ],
+    "explanation": "Japan–China Joint Declaration on Building a Partnership of Friendship and Cooperation for Peace and Development dates to 1998.",
+    "details": "The date 1998 identifies the historical setting in which Japan–China Joint Declaration on Building a Partnership of Friendship and Cooperation for Peace and Development was concluded.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q6159220"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.duchy-of-brabant",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Duchy of Brabant?",
+    "canonicalAnswer": "Coop of Brussels",
+    "aliases": [],
+    "distractors": [
+      "Königsberg",
+      "Devín",
+      "Neustrelitz"
+    ],
+    "explanation": "Coop of Brussels served as the capital of Duchy of Brabant.",
+    "details": "Coop of Brussels was the principal political center recorded for Duchy of Brabant.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q159856"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.haile-selassie-i",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Haile Selassie I associated with?",
+    "canonicalAnswer": "Ethiopian Empire",
+    "aliases": [],
+    "distractors": [
+      "Morocco",
+      "Sweden",
+      "Indonesia"
+    ],
+    "explanation": "Haile Selassie I is associated with Ethiopian Empire.",
+    "details": "Ethiopian Empire is the recorded country connected with the reign or citizenship of Haile Selassie I.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q41178"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.guangzhou-uprising",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Guangzhou Uprising occur?",
+    "canonicalAnswer": "1927",
+    "aliases": [],
+    "distractors": [
+      "1905",
+      "1848",
+      "1921"
+    ],
+    "explanation": "Guangzhou Uprising occurred in 1927.",
+    "details": "1927 places Guangzhou Uprising in its chronological historical context.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1038900"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-borodino",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Borodino fought?",
+    "canonicalAnswer": "Borodino",
+    "aliases": [],
+    "distractors": [
+      "Horns of Hattin",
+      "Ardennes",
+      "Lugou Bridge"
+    ],
+    "explanation": "The Battle of Borodino took place at Borodino.",
+    "details": "Borodino is the recorded location of the Battle of Borodino.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q184320"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.bangkok-rules",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Bangkok Rules concluded or published?",
+    "canonicalAnswer": "2010",
+    "aliases": [],
+    "distractors": [
+      "1939",
+      "1922",
+      "1977"
+    ],
+    "explanation": "Bangkok Rules dates to 2010.",
+    "details": "The date 2010 identifies the historical setting in which Bangkok Rules was concluded.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q22906629"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.duchy-of-prussia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Duchy of Prussia?",
+    "canonicalAnswer": "Königsberg",
+    "aliases": [
+      "Konigsberg"
+    ],
+    "distractors": [
+      "Devín",
+      "Neustrelitz",
+      "Zanzibar City"
+    ],
+    "explanation": "Königsberg served as the capital of Duchy of Prussia.",
+    "details": "Königsberg was the principal political center recorded for Duchy of Prussia.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q153091"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.mohammed-vi-of-morocco",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Mohammed VI of Morocco associated with?",
+    "canonicalAnswer": "Morocco",
+    "aliases": [],
+    "distractors": [
+      "Sweden",
+      "Indonesia",
+      "Kingdom of England"
+    ],
+    "explanation": "Mohammed VI of Morocco is associated with Morocco.",
+    "details": "Morocco is the recorded country connected with the reign or citizenship of Mohammed VI of Morocco.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57553"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.odz-insurrection",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Łódź insurrection occur?",
+    "canonicalAnswer": "1905",
+    "aliases": [],
+    "distractors": [
+      "1848",
+      "1921",
+      "1846"
+    ],
+    "explanation": "Łódź insurrection occurred in 1905.",
+    "details": "1905 places Łódź insurrection in its chronological historical context.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q766868"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-hattin",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Hattin fought?",
+    "canonicalAnswer": "Horns of Hattin",
+    "aliases": [],
+    "distractors": [
+      "Ardennes",
+      "Lugou Bridge",
+      "Nouaillé-Maupertuis"
+    ],
+    "explanation": "The Battle of Hattin took place at Horns of Hattin.",
+    "details": "Horns of Hattin is the recorded location of the Battle of Hattin.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233568"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.munich-agreement",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Munich agreement concluded or published?",
+    "canonicalAnswer": "1939",
+    "aliases": [],
+    "distractors": [
+      "1922",
+      "1977",
+      "756"
+    ],
+    "explanation": "Munich agreement dates to 1939.",
+    "details": "The date 1939 identifies the historical setting in which Munich agreement was concluded.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q154255"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.samo-s-realm",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Samo's realm?",
+    "canonicalAnswer": "Devín",
+    "aliases": [
+      "Devin"
+    ],
+    "distractors": [
+      "Neustrelitz",
+      "Zanzibar City",
+      "Munich"
+    ],
+    "explanation": "Devín served as the capital of Samo's realm.",
+    "details": "Devín was the principal political center recorded for Samo's realm.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q149427"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.gustaf-v-of-sweden",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Gustaf V of Sweden associated with?",
+    "canonicalAnswer": "Sweden",
+    "aliases": [],
+    "distractors": [
+      "Indonesia",
+      "Kingdom of England",
+      "Myanmar"
+    ],
+    "explanation": "Gustaf V of Sweden is associated with Sweden.",
+    "details": "Sweden is the recorded country connected with the reign or citizenship of Gustaf V of Sweden.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52890"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.greater-poland-uprising-of-1848",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Greater Poland Uprising of 1848 occur?",
+    "canonicalAnswer": "1848",
+    "aliases": [],
+    "distractors": [
+      "1921",
+      "1846",
+      "1898"
+    ],
+    "explanation": "Greater Poland Uprising of 1848 occurred in 1848.",
+    "details": "1848 places Greater Poland Uprising of 1848 in its chronological historical context.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q835649"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-the-ardennes",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of the Ardennes fought?",
+    "canonicalAnswer": "Ardennes",
+    "aliases": [],
+    "distractors": [
+      "Lugou Bridge",
+      "Nouaillé-Maupertuis",
+      "Gromovo"
+    ],
+    "explanation": "The Battle of the Ardennes took place at Ardennes.",
+    "details": "Ardennes is the recorded location of the Battle of the Ardennes.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q221703"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.thomson-urrutia-treaty",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Thomson–Urrutia Treaty concluded or published?",
+    "canonicalAnswer": "1922",
+    "aliases": [],
+    "distractors": [
+      "1977",
+      "756",
+      "1864"
+    ],
+    "explanation": "Thomson–Urrutia Treaty dates to 1922.",
+    "details": "The date 1922 identifies the historical setting in which Thomson–Urrutia Treaty was concluded.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q7795915"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.grand-duchy-of-mecklenburg-strelitz",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Grand Duchy of Mecklenburg-Strelitz?",
+    "canonicalAnswer": "Neustrelitz",
+    "aliases": [],
+    "distractors": [
+      "Zanzibar City",
+      "Munich",
+      "Muscat"
+    ],
+    "explanation": "Neustrelitz served as the capital of Grand Duchy of Mecklenburg-Strelitz.",
+    "details": "Neustrelitz was the principal political center recorded for Grand Duchy of Mecklenburg-Strelitz.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q161215"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.airlangga",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Airlangga associated with?",
+    "canonicalAnswer": "Indonesia",
+    "aliases": [],
+    "distractors": [
+      "Kingdom of England",
+      "Myanmar",
+      "Achaemenid Empire"
+    ],
+    "explanation": "Airlangga is associated with Indonesia.",
+    "details": "Indonesia is the recorded country connected with the reign or citizenship of Airlangga.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q47179"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.majimaji-war",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Majimaji War occur?",
+    "canonicalAnswer": "1905",
+    "aliases": [],
+    "distractors": [
+      "1846",
+      "1898",
+      "1930"
+    ],
+    "explanation": "Majimaji War occurred in 1905.",
+    "details": "1905 places Majimaji War in its chronological historical context.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q705553"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.marco-polo-bridge-incident",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Marco Polo Bridge incident fought?",
+    "canonicalAnswer": "Lugou Bridge",
+    "aliases": [],
+    "distractors": [
+      "Nouaillé-Maupertuis",
+      "Gromovo",
+      "Lake Trasimeno"
+    ],
+    "explanation": "The Marco Polo Bridge incident took place at Lugou Bridge.",
+    "details": "Lugou Bridge is the recorded location of the Marco Polo Bridge incident.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q219230"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.protocol-ii",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Protocol II concluded or published?",
+    "canonicalAnswer": "1977",
+    "aliases": [],
+    "distractors": [
+      "756",
+      "1864",
+      "1871"
+    ],
+    "explanation": "Protocol II dates to 1977.",
+    "details": "The date 1977 identifies the historical setting in which Protocol II was concluded.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q2401715"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.sultanate-of-zanzibar",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Sultanate of Zanzibar?",
+    "canonicalAnswer": "Zanzibar City",
+    "aliases": [],
+    "distractors": [
+      "Munich",
+      "Muscat",
+      "Veliky Novgorod"
+    ],
+    "explanation": "Zanzibar City served as the capital of Sultanate of Zanzibar.",
+    "details": "Zanzibar City was the principal political center recorded for Sultanate of Zanzibar.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q157904"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.richard-i-of-england",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Richard I of England associated with?",
+    "canonicalAnswer": "Kingdom of England",
+    "aliases": [],
+    "distractors": [
+      "Myanmar",
+      "Achaemenid Empire",
+      "Grand Duchy of Baden"
+    ],
+    "explanation": "Richard I of England is associated with Kingdom of England.",
+    "details": "Kingdom of England is the recorded country connected with the reign or citizenship of Richard I of England.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q42305"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.malabar-rebellion",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Malabar Rebellion occur?",
+    "canonicalAnswer": "1921",
+    "aliases": [],
+    "distractors": [
+      "1898",
+      "1930",
+      "1943"
+    ],
+    "explanation": "Malabar Rebellion occurred in 1921.",
+    "details": "1921 places Malabar Rebellion in its chronological historical context.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q944568"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-poitiers",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Poitiers fought?",
+    "canonicalAnswer": "Nouaillé-Maupertuis",
+    "aliases": [
+      "Nouaille-Maupertuis"
+    ],
+    "distractors": [
+      "Gromovo",
+      "Lake Trasimeno",
+      "Stockach"
+    ],
+    "explanation": "The Battle of Poitiers took place at Nouaillé-Maupertuis.",
+    "details": "Nouaillé-Maupertuis is the recorded location of the Battle of Poitiers.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q201692"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.donation-of-pepin",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Donation of Pepin concluded or published?",
+    "canonicalAnswer": "756",
+    "aliases": [],
+    "distractors": [
+      "1864",
+      "1871",
+      "2017"
+    ],
+    "explanation": "Donation of Pepin dates to 756.",
+    "details": "The date 756 identifies the historical setting in which Donation of Pepin was concluded.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q973573"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.kingdom-of-bavaria",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Bavaria?",
+    "canonicalAnswer": "Munich",
+    "aliases": [],
+    "distractors": [
+      "Muscat",
+      "Veliky Novgorod",
+      "Dresden"
+    ],
+    "explanation": "Munich served as the capital of Kingdom of Bavaria.",
+    "details": "Munich was the principal political center recorded for Kingdom of Bavaria.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q154195"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.bagyidaw",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Bagyidaw associated with?",
+    "canonicalAnswer": "Myanmar",
+    "aliases": [],
+    "distractors": [
+      "Achaemenid Empire",
+      "Grand Duchy of Baden",
+      "United Kingdom of Israel"
+    ],
+    "explanation": "Bagyidaw is associated with Myanmar.",
+    "details": "Myanmar is the recorded country connected with the reign or citizenship of Bagyidaw.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q38422"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.1905-tibetan-rebellion",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did 1905 Tibetan Rebellion occur?",
+    "canonicalAnswer": "1905",
+    "aliases": [],
+    "distractors": [
+      "1930",
+      "1943",
+      "1746"
+    ],
+    "explanation": "1905 Tibetan Rebellion occurred in 1905.",
+    "details": "1905 places 1905 Tibetan Rebellion in its chronological historical context.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q866901"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-kelja",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Kelja fought?",
+    "canonicalAnswer": "Gromovo",
+    "aliases": [],
+    "distractors": [
+      "Lake Trasimeno",
+      "Stockach",
+      "Hefei"
+    ],
+    "explanation": "The Battle of Kelja took place at Gromovo.",
+    "details": "Gromovo is the recorded location of the Battle of Kelja.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q211211"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.geneva-convention-of-1864",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Geneva Convention of 1864 concluded or published?",
+    "canonicalAnswer": "1864",
+    "aliases": [],
+    "distractors": [
+      "1871",
+      "2017",
+      "2001"
+    ],
+    "explanation": "Geneva Convention of 1864 dates to 1864.",
+    "details": "The date 1864 identifies the historical setting in which Geneva Convention of 1864 was concluded.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q610272"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.muscat-and-oman",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Muscat and Oman?",
+    "canonicalAnswer": "Muscat",
+    "aliases": [],
+    "distractors": [
+      "Veliky Novgorod",
+      "Dresden",
+      "Frankfurt am Main"
+    ],
+    "explanation": "Muscat served as the capital of Muscat and Oman.",
+    "details": "Muscat was the principal political center recorded for Muscat and Oman.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q157734"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.christina-of-sweden",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Christina of Sweden associated with?",
+    "canonicalAnswer": "Sweden",
+    "aliases": [],
+    "distractors": [
+      "Grand Duchy of Baden",
+      "United Kingdom of Israel",
+      "Carolingian Empire"
+    ],
+    "explanation": "Christina of Sweden is associated with Sweden.",
+    "details": "Sweden is the recorded country connected with the reign or citizenship of Christina of Sweden.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52937"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.revolution-of-maria-da-fonte",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Revolution of Maria da Fonte occur?",
+    "canonicalAnswer": "1846",
+    "aliases": [],
+    "distractors": [
+      "1943",
+      "1746",
+      "1911"
+    ],
+    "explanation": "Revolution of Maria da Fonte occurred in 1846.",
+    "details": "1846 places Revolution of Maria da Fonte in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q760027"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-lake-trasimene",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Lake Trasimene fought?",
+    "canonicalAnswer": "Lake Trasimeno",
+    "aliases": [],
+    "distractors": [
+      "Stockach",
+      "Hefei",
+      "Nola"
+    ],
+    "explanation": "The Battle of Lake Trasimene took place at Lake Trasimeno.",
+    "details": "Lake Trasimeno is the recorded location of the Battle of Lake Trasimene.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q207250"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.sino-japanese-friendship-and-trade-treaty",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Sino-Japanese Friendship and Trade Treaty concluded or published?",
+    "canonicalAnswer": "1871",
+    "aliases": [],
+    "distractors": [
+      "2017",
+      "2001",
+      "1921"
+    ],
+    "explanation": "Sino-Japanese Friendship and Trade Treaty dates to 1871.",
+    "details": "The date 1871 identifies the historical setting in which Sino-Japanese Friendship and Trade Treaty was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q701091"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.novgorod-republic",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Novgorod Republic?",
+    "canonicalAnswer": "Veliky Novgorod",
+    "aliases": [],
+    "distractors": [
+      "Dresden",
+      "Frankfurt am Main",
+      "Lalibela"
+    ],
+    "explanation": "Veliky Novgorod served as the capital of Novgorod Republic.",
+    "details": "Veliky Novgorod was the principal political center recorded for Novgorod Republic.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q151536"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.edward-i-of-england",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Edward I of England associated with?",
+    "canonicalAnswer": "Kingdom of England",
+    "aliases": [],
+    "distractors": [
+      "United Kingdom of Israel",
+      "Carolingian Empire",
+      "Polish–Lithuanian Commonwealth"
+    ],
+    "explanation": "Edward I of England is associated with Kingdom of England.",
+    "details": "Kingdom of England is the recorded country connected with the reign or citizenship of Edward I of England.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57798"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.bava-beccaris-massacre",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Bava-Beccaris Massacre occur?",
+    "canonicalAnswer": "1898",
+    "aliases": [],
+    "distractors": [
+      "1746",
+      "1911",
+      "1806"
+    ],
+    "explanation": "Bava-Beccaris Massacre occurred in 1898.",
+    "details": "1898 places Bava-Beccaris Massacre in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q687490"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-stockach",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Stockach fought?",
+    "canonicalAnswer": "Stockach",
+    "aliases": [],
+    "distractors": [
+      "Hefei",
+      "Nola",
+      "Khalkhyn River"
+    ],
+    "explanation": "The Battle of Stockach took place at Stockach.",
+    "details": "Stockach is the recorded location of the Battle of Stockach.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q186107"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.treaty-on-the-prohibition-of-nuclear-weapons",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Treaty on the Prohibition of Nuclear Weapons concluded or published?",
+    "canonicalAnswer": "2017",
+    "aliases": [],
+    "distractors": [
+      "2001",
+      "1921",
+      "1999"
+    ],
+    "explanation": "Treaty on the Prohibition of Nuclear Weapons dates to 2017.",
+    "details": "The date 2017 identifies the historical setting in which Treaty on the Prohibition of Nuclear Weapons was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q28130514"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.kingdom-of-saxony",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Saxony?",
+    "canonicalAnswer": "Dresden",
+    "aliases": [],
+    "distractors": [
+      "Frankfurt am Main",
+      "Lalibela",
+      "Valencia"
+    ],
+    "explanation": "Dresden served as the capital of Kingdom of Saxony.",
+    "details": "Dresden was the principal political center recorded for Kingdom of Saxony.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q153015"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.darius-i",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Darius I associated with?",
+    "canonicalAnswer": "Achaemenid Empire",
+    "aliases": [],
+    "distractors": [
+      "Carolingian Empire",
+      "Polish–Lithuanian Commonwealth",
+      "France"
+    ],
+    "explanation": "Darius I is associated with Achaemenid Empire.",
+    "details": "Achaemenid Empire is the recorded country connected with the reign or citizenship of Darius I.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q44387"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.autumn-harvest-uprising",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Autumn Harvest Uprising occur?",
+    "canonicalAnswer": "1927",
+    "aliases": [],
+    "distractors": [
+      "1911",
+      "1806",
+      "1794"
+    ],
+    "explanation": "Autumn Harvest Uprising occurred in 1927.",
+    "details": "1927 places Autumn Harvest Uprising in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q992318"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-xiaoyao-ford",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Xiaoyao Ford fought?",
+    "canonicalAnswer": "Hefei",
+    "aliases": [],
+    "distractors": [
+      "Nola",
+      "Khalkhyn River",
+      "Azincourt"
+    ],
+    "explanation": "The Battle of Xiaoyao Ford took place at Hefei.",
+    "details": "Hefei is the recorded location of the Battle of Xiaoyao Ford.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q210423"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.inter-american-democratic-charter",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Inter-American Democratic Charter concluded or published?",
+    "canonicalAnswer": "2001",
+    "aliases": [],
+    "distractors": [
+      "1921",
+      "1999",
+      "2013"
+    ],
+    "explanation": "Inter-American Democratic Charter dates to 2001.",
+    "details": "The date 2001 identifies the historical setting in which Inter-American Democratic Charter was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1567881"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.east-francia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of East Francia?",
+    "canonicalAnswer": "Frankfurt am Main",
+    "aliases": [],
+    "distractors": [
+      "Lalibela",
+      "Valencia",
+      "Warsaw"
+    ],
+    "explanation": "Frankfurt am Main served as the capital of East Francia.",
+    "details": "Frankfurt am Main was the principal political center recorded for East Francia.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q153080"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.friedrich-ii-grand-duke-of-baden",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Friedrich II, Grand Duke of Baden associated with?",
+    "canonicalAnswer": "Grand Duchy of Baden",
+    "aliases": [],
+    "distractors": [
+      "Polish–Lithuanian Commonwealth",
+      "France",
+      "Norway"
+    ],
+    "explanation": "Friedrich II, Grand Duke of Baden is associated with Grand Duchy of Baden.",
+    "details": "Grand Duchy of Baden is the recorded country connected with the reign or citizenship of Friedrich II, Grand Duke of Baden.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57414"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.tambov-rebellion",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Tambov Rebellion occur?",
+    "canonicalAnswer": "1921",
+    "aliases": [],
+    "distractors": [
+      "1806",
+      "1794",
+      "1573"
+    ],
+    "explanation": "Tambov Rebellion occurred in 1921.",
+    "details": "1921 places Tambov Rebellion in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q811250"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-nola",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Nola fought?",
+    "canonicalAnswer": "Nola",
+    "aliases": [],
+    "distractors": [
+      "Khalkhyn River",
+      "Azincourt",
+      "Shizugatake"
+    ],
+    "explanation": "The Battle of Nola took place at Nola.",
+    "details": "Nola is the recorded location of the Battle of Nola.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233402"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.declaration-recognising-the-right-to-a-flag-of-states-having-no-sea-coast",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Declaration recognising the Right to a Flag of States having no Sea-coast concluded or published?",
+    "canonicalAnswer": "1921",
+    "aliases": [],
+    "distractors": [
+      "1999",
+      "2013",
+      "1995"
+    ],
+    "explanation": "Declaration recognising the Right to a Flag of States having no Sea-coast dates to 1921.",
+    "details": "The date 1921 identifies the historical setting in which Declaration recognising the Right to a Flag of States having no Sea-coast was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q16733518"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.zagwe-dynasty",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Zagwe dynasty?",
+    "canonicalAnswer": "Lalibela",
+    "aliases": [],
+    "distractors": [
+      "Valencia",
+      "Warsaw",
+      "Leuven"
+    ],
+    "explanation": "Lalibela served as the capital of Zagwe dynasty.",
+    "details": "Lalibela was the principal political center recorded for Zagwe dynasty.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q140446"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.david",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch David associated with?",
+    "canonicalAnswer": "United Kingdom of Israel",
+    "aliases": [],
+    "distractors": [
+      "France",
+      "Norway",
+      "Kingdom of Württemberg"
+    ],
+    "explanation": "David is associated with United Kingdom of Israel.",
+    "details": "United Kingdom of Israel is the recorded country connected with the reign or citizenship of David.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q41370"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.musha-incident",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Musha incident occur?",
+    "canonicalAnswer": "1930",
+    "aliases": [],
+    "distractors": [
+      "1794",
+      "1573",
+      "2005"
+    ],
+    "explanation": "Musha incident occurred in 1930.",
+    "details": "1930 places Musha incident in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q714535"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battles-of-khalkhin-gol",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battles of Khalkhin Gol fought?",
+    "canonicalAnswer": "Khalkhyn River",
+    "aliases": [],
+    "distractors": [
+      "Azincourt",
+      "Shizugatake",
+      "Alçıtepe"
+    ],
+    "explanation": "The Battles of Khalkhin Gol took place at Khalkhyn River.",
+    "details": "Khalkhyn River is the recorded location of the Battles of Khalkhin Gol.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q188925"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.optional-protocol-to-the-convention-on-the-elimination-of-all-forms-of-discrimin",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women concluded or published?",
+    "canonicalAnswer": "1999",
+    "aliases": [],
+    "distractors": [
+      "2013",
+      "1995",
+      "1996"
+    ],
+    "explanation": "Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women dates to 1999.",
+    "details": "The date 1999 identifies the historical setting in which Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q7099022"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.kingdom-of-valencia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Valencia?",
+    "canonicalAnswer": "Valencia",
+    "aliases": [],
+    "distractors": [
+      "Warsaw",
+      "Leuven",
+      "Vienna"
+    ],
+    "explanation": "Valencia served as the capital of Kingdom of Valencia.",
+    "details": "Valencia was the principal political center recorded for Kingdom of Valencia.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q142417"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.louis-the-pious",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Louis the Pious associated with?",
+    "canonicalAnswer": "Carolingian Empire",
+    "aliases": [],
+    "distractors": [
+      "Norway",
+      "Kingdom of Württemberg",
+      "Germany"
+    ],
+    "explanation": "Louis the Pious is associated with Carolingian Empire.",
+    "details": "Carolingian Empire is the recorded country connected with the reign or citizenship of Louis the Pious.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43974"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.treblinka-uprising",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Treblinka uprising occur?",
+    "canonicalAnswer": "1943",
+    "aliases": [],
+    "distractors": [
+      "1573",
+      "2005",
+      "1917"
+    ],
+    "explanation": "Treblinka uprising occurred in 1943.",
+    "details": "1943 places Treblinka uprising in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q760029"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-agincourt",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Agincourt fought?",
+    "canonicalAnswer": "Azincourt",
+    "aliases": [],
+    "distractors": [
+      "Shizugatake",
+      "Alçıtepe",
+      "Queenston Heights National Historic Site of Canada"
+    ],
+    "explanation": "The Battle of Agincourt took place at Azincourt.",
+    "details": "Azincourt is the recorded location of the Battle of Agincourt.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q188495"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.cross-strait-service-trade-agreement",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Cross-Strait Service Trade Agreement concluded or published?",
+    "canonicalAnswer": "2013",
+    "aliases": [],
+    "distractors": [
+      "1995",
+      "1996",
+      "855"
+    ],
+    "explanation": "Cross-Strait Service Trade Agreement dates to 2013.",
+    "details": "The date 2013 identifies the historical setting in which Cross-Strait Service Trade Agreement was concluded.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15240451"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.duchy-of-warsaw",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Duchy of Warsaw?",
+    "canonicalAnswer": "Warsaw",
+    "aliases": [],
+    "distractors": [
+      "Leuven",
+      "Vienna",
+      "Suwayda"
+    ],
+    "explanation": "Warsaw served as the capital of Duchy of Warsaw.",
+    "details": "Warsaw was the principal political center recorded for Duchy of Warsaw.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q152115"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.micha-korybut-wisniowiecki",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Michał Korybut Wiśniowiecki associated with?",
+    "canonicalAnswer": "Polish–Lithuanian Commonwealth",
+    "aliases": [],
+    "distractors": [
+      "Kingdom of Württemberg",
+      "Germany",
+      "Qing dynasty"
+    ],
+    "explanation": "Michał Korybut Wiśniowiecki is associated with Polish–Lithuanian Commonwealth.",
+    "details": "Polish–Lithuanian Commonwealth is the recorded country connected with the reign or citizenship of Michał Korybut Wiśniowiecki.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54041"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.jacobite-rising-of-1745",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Jacobite rising of 1745 occur?",
+    "canonicalAnswer": "1746",
+    "aliases": [],
+    "distractors": [
+      "2005",
+      "1917",
+      "1915"
+    ],
+    "explanation": "Jacobite rising of 1745 occurred in 1746.",
+    "details": "1746 places Jacobite rising of 1745 in its chronological historical context.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1049945"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-shizugatake",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Shizugatake fought?",
+    "canonicalAnswer": "Shizugatake",
+    "aliases": [],
+    "distractors": [
+      "Alçıtepe",
+      "Queenston Heights National Historic Site of Canada",
+      "Épehy"
+    ],
+    "explanation": "The Battle of Shizugatake took place at Shizugatake.",
+    "details": "Shizugatake is the recorded location of the Battle of Shizugatake.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q225562"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.split-agreement",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Split Agreement concluded or published?",
+    "canonicalAnswer": "1995",
+    "aliases": [],
+    "distractors": [
+      "1996",
+      "855",
+      "1949"
+    ],
+    "explanation": "Split Agreement dates to 1995.",
+    "details": "The date 1995 identifies the historical setting in which Split Agreement was concluded.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3540932"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.county-of-louvain",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of county of Louvain?",
+    "canonicalAnswer": "Leuven",
+    "aliases": [],
+    "distractors": [
+      "Vienna",
+      "Suwayda",
+      "Tripunithura"
+    ],
+    "explanation": "Leuven served as the capital of county of Louvain.",
+    "details": "Leuven was the principal political center recorded for county of Louvain.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q143309"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.joscelin-i-count-of-edessa",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Joscelin I, Count of Edessa associated with?",
+    "canonicalAnswer": "France",
+    "aliases": [],
+    "distractors": [
+      "Germany",
+      "Qing dynasty",
+      "Hungary"
+    ],
+    "explanation": "Joscelin I, Count of Edessa is associated with France.",
+    "details": "France is the recorded country connected with the reign or citizenship of Joscelin I, Count of Edessa.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q51719"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.bai-lang-rebellion",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Bai Lang Rebellion occur?",
+    "canonicalAnswer": "1911",
+    "aliases": [],
+    "distractors": [
+      "1917",
+      "1915",
+      "1413"
+    ],
+    "explanation": "Bai Lang Rebellion occurred in 1911.",
+    "details": "1911 places Bai Lang Rebellion in its chronological historical context.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q847759"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.second-battle-of-krithia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Second Battle of Krithia fought?",
+    "canonicalAnswer": "Alçıtepe",
+    "aliases": [
+      "Alcıtepe"
+    ],
+    "distractors": [
+      "Queenston Heights National Historic Site of Canada",
+      "Épehy",
+      "Nikopol"
+    ],
+    "explanation": "The Second Battle of Krithia took place at Alçıtepe.",
+    "details": "Alçıtepe is the recorded location of the Second Battle of Krithia.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233379"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.african-nuclear-weapon-free-zone-treaty",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was African Nuclear Weapon Free Zone Treaty concluded or published?",
+    "canonicalAnswer": "1996",
+    "aliases": [],
+    "distractors": [
+      "855",
+      "1949",
+      "843"
+    ],
+    "explanation": "African Nuclear Weapon Free Zone Treaty dates to 1996.",
+    "details": "The date 1996 identifies the historical setting in which African Nuclear Weapon Free Zone Treaty was concluded.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1468283"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.habsburg-monarchy",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Habsburg monarchy?",
+    "canonicalAnswer": "Vienna",
+    "aliases": [],
+    "distractors": [
+      "Suwayda",
+      "Tripunithura",
+      "Zagreb"
+    ],
+    "explanation": "Vienna served as the capital of Habsburg monarchy.",
+    "details": "Vienna was the principal political center recorded for Habsburg monarchy.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q153136"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.w-adys-aw-iv-vasa",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Władysław IV Vasa associated with?",
+    "canonicalAnswer": "Polish–Lithuanian Commonwealth",
+    "aliases": [],
+    "distractors": [
+      "Qing dynasty",
+      "Hungary",
+      "Byzantine Empire"
+    ],
+    "explanation": "Władysław IV Vasa is associated with Polish–Lithuanian Commonwealth.",
+    "details": "Polish–Lithuanian Commonwealth is the recorded country connected with the reign or citizenship of Władysław IV Vasa.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54054"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.slovak-uprising-1848-1849",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Slovak Uprising 1848-1849 occur?",
+    "canonicalAnswer": "1848",
+    "aliases": [],
+    "distractors": [
+      "1915",
+      "1413",
+      "1918"
+    ],
+    "explanation": "Slovak Uprising 1848-1849 occurred in 1848.",
+    "details": "1848 places Slovak Uprising 1848-1849 in its chronological historical context.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q751143"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-queenston-heights",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Queenston Heights fought?",
+    "canonicalAnswer": "Queenston Heights National Historic Site of Canada",
+    "aliases": [],
+    "distractors": [
+      "Épehy",
+      "Nikopol",
+      "Tây Ninh"
+    ],
+    "explanation": "The Battle of Queenston Heights took place at Queenston Heights National Historic Site of Canada.",
+    "details": "Queenston Heights National Historic Site of Canada is the recorded location of the Battle of Queenston Heights.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q200682"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.treaty-of-prum",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Treaty of Prüm concluded or published?",
+    "canonicalAnswer": "855",
+    "aliases": [],
+    "distractors": [
+      "1949",
+      "843",
+      "2019"
+    ],
+    "explanation": "Treaty of Prüm dates to 855.",
+    "details": "The date 855 identifies the historical setting in which Treaty of Prüm was concluded.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q835646"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.jabal-druze",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Jabal Druze?",
+    "canonicalAnswer": "Suwayda",
+    "aliases": [],
+    "distractors": [
+      "Tripunithura",
+      "Zagreb",
+      "Baghdad"
+    ],
+    "explanation": "Suwayda served as the capital of Jabal Druze.",
+    "details": "Suwayda was the principal political center recorded for Jabal Druze.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q146740"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.harald-v-of-norway",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Harald V of Norway associated with?",
+    "canonicalAnswer": "Norway",
+    "aliases": [],
+    "distractors": [
+      "Hungary",
+      "Byzantine Empire",
+      "Kingdom of Poland"
+    ],
+    "explanation": "Harald V of Norway is associated with Norway.",
+    "details": "Norway is the recorded country connected with the reign or citizenship of Harald V of Norway.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57287"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.coluna-prestes",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Coluna Prestes occur?",
+    "canonicalAnswer": "1921",
+    "aliases": [],
+    "distractors": [
+      "1413",
+      "1918",
+      "1160"
+    ],
+    "explanation": "Coluna Prestes occurred in 1921.",
+    "details": "1921 places Coluna Prestes in its chronological historical context.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1112912"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-epehy",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Épehy fought?",
+    "canonicalAnswer": "Épehy",
+    "aliases": [
+      "Epehy"
+    ],
+    "distractors": [
+      "Nikopol",
+      "Tây Ninh",
+      "Sele"
+    ],
+    "explanation": "The Battle of Épehy took place at Épehy.",
+    "details": "Épehy is the recorded location of the Battle of Épehy.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q203234"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.fourth-geneva-convention",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Fourth Geneva Convention concluded or published?",
+    "canonicalAnswer": "1949",
+    "aliases": [],
+    "distractors": [
+      "843",
+      "2019",
+      "2021"
+    ],
+    "explanation": "Fourth Geneva Convention dates to 1949.",
+    "details": "The date 1949 identifies the historical setting in which Fourth Geneva Convention was concluded.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q973748"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.kingdom-of-cochin",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Cochin?",
+    "canonicalAnswer": "Tripunithura",
+    "aliases": [],
+    "distractors": [
+      "Zagreb",
+      "Baghdad",
+      "Tainan"
+    ],
+    "explanation": "Tripunithura served as the capital of Kingdom of Cochin.",
+    "details": "Tripunithura was the principal political center recorded for Kingdom of Cochin.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q150056"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.wilhelm-ii-of-wurttemberg",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Wilhelm II of Württemberg associated with?",
+    "canonicalAnswer": "Kingdom of Württemberg",
+    "aliases": [
+      "Kingdom of Wurttemberg"
+    ],
+    "distractors": [
+      "Byzantine Empire",
+      "Kingdom of Poland",
+      "Grand Duchy of Mecklenburg-Schwerin"
+    ],
+    "explanation": "Wilhelm II of Württemberg is associated with Kingdom of Württemberg.",
+    "details": "Kingdom of Württemberg is the recorded country connected with the reign or citizenship of Wilhelm II of Württemberg.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57263"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.greater-poland-uprising-of-1806",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did Greater Poland Uprising of 1806 occur?",
+    "canonicalAnswer": "1806",
+    "aliases": [],
+    "distractors": [
+      "1918",
+      "1160",
+      "1865"
+    ],
+    "explanation": "Greater Poland Uprising of 1806 occurred in 1806.",
+    "details": "1806 places Greater Poland Uprising of 1806 in its chronological historical context.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q705962"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.battle-of-nicopolis",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Nicopolis fought?",
+    "canonicalAnswer": "Nikopol",
+    "aliases": [],
+    "distractors": [
+      "Tây Ninh",
+      "Sele",
+      "Galicia"
+    ],
+    "explanation": "The Battle of Nicopolis took place at Nikopol.",
+    "details": "Nikopol is the recorded location of the Battle of Nicopolis.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q212220"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.treaty-of-verdun",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Treaty of Verdun concluded or published?",
+    "canonicalAnswer": "843",
+    "aliases": [],
+    "distractors": [
+      "2019",
+      "2021",
+      "1895"
+    ],
+    "explanation": "Treaty of Verdun dates to 843.",
+    "details": "The date 843 identifies the historical setting in which Treaty of Verdun was concluded.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q134840"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.independent-state-of-croatia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Independent State of Croatia?",
+    "canonicalAnswer": "Zagreb",
+    "aliases": [],
+    "distractors": [
+      "Baghdad",
+      "Tainan",
+      "Zeila"
+    ],
+    "explanation": "Zagreb served as the capital of Independent State of Croatia.",
+    "details": "Zagreb was the principal political center recorded for Independent State of Croatia.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q153128"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.ernst-august-duke-of-brunswick",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Ernst August, Duke of Brunswick associated with?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Kingdom of Poland",
+      "Grand Duchy of Mecklenburg-Schwerin",
+      "Russian Empire"
+    ],
+    "explanation": "Ernst August, Duke of Brunswick is associated with Germany.",
+    "details": "Germany is the recorded country connected with the reign or citizenship of Ernst August, Duke of Brunswick.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57672"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.event-year.march-action",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "World Events"
+    ],
+    "prompt": "In what year did March Action occur?",
+    "canonicalAnswer": "1921",
+    "aliases": [],
+    "distractors": [
+      "1160",
+      "1865",
+      "1914"
+    ],
+    "explanation": "March Action occurred in 1921.",
+    "details": "1921 places March Action in its chronological historical context.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q878528"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.battle-location.operation-junction-city",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Operation Junction City fought?",
+    "canonicalAnswer": "Tây Ninh",
+    "aliases": [
+      "Tay Ninh"
+    ],
+    "distractors": [
+      "Sele",
+      "Galicia",
+      "Stamford Bridge"
+    ],
+    "explanation": "The Operation Junction City took place at Tây Ninh.",
+    "details": "Tây Ninh is the recorded location of the Operation Junction City.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q220882"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.treaty-year.regional-roaming-agreement",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Regional Roaming Agreement concluded or published?",
+    "canonicalAnswer": "2019",
+    "aliases": [],
+    "distractors": [
+      "2021",
+      "1895",
+      "2014"
+    ],
+    "explanation": "Regional Roaming Agreement dates to 2019.",
+    "details": "The date 2019 identifies the historical setting in which Regional Roaming Agreement was concluded.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q63078193"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.empire-capital.kingdom-of-iraq",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Iraq?",
+    "canonicalAnswer": "Baghdad",
+    "aliases": [],
+    "distractors": [
+      "Tainan",
+      "Zeila",
+      "Berlin"
+    ],
+    "explanation": "Baghdad served as the capital of Kingdom of Iraq.",
+    "details": "Baghdad was the principal political center recorded for Kingdom of Iraq.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q149805"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "history-starter.monarch-country.empress-dowager-cixi",
+    "topicSlug": "history",
+    "packSlugs": [
+      "history-starter"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Empress Dowager Cixi associated with?",
+    "canonicalAnswer": "Qing dynasty",
+    "aliases": [],
+    "distractors": [
+      "Grand Duchy of Mecklenburg-Schwerin",
+      "Russian Empire",
+      "Kingdom of Bavaria"
+    ],
+    "explanation": "Empress Dowager Cixi is associated with Qing dynasty.",
+    "details": "Qing dynasty is the recorded country connected with the reign or citizenship of Empress Dowager Cixi.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q47842"
+    },
+    "expiresAt": null
+  }
+]

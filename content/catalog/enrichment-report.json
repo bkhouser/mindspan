@@ -1,0 +1,1675 @@
+{
+  "generatedAt": "2026-07-13T23:25:04.814Z",
+  "total": 1060,
+  "enriched": 822,
+  "alreadyRich": 41,
+  "unresolvedCount": 238,
+  "unresolved": [
+    {
+      "catalogKey": "arts-literature-starter.opentdb.0a0325e2c28fbd1e",
+      "pack": "arts-literature-starter",
+      "prompt": "How many plays is Shakespeare generally considered to have written?",
+      "answer": "37",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.230cecf7b3247ce3",
+      "pack": "arts-literature-starter",
+      "prompt": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
+      "answer": "Fluffy",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.8229f0a0b40f56e7",
+      "pack": "arts-literature-starter",
+      "prompt": "What was the name of Captain Nemo's submarine in \"20,000 Leagues Under the Sea\"?",
+      "answer": "The Nautilus",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.f57c1d8371a821e7",
+      "pack": "arts-literature-starter",
+      "prompt": "What's Harry Potter's dad's name?",
+      "answer": "James Potter",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.749102c4d3669593",
+      "pack": "arts-literature-starter",
+      "prompt": "Who wrote the play 'Angels in America'?",
+      "answer": "Tony Kusher",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.f6c8a9e34538299e",
+      "pack": "arts-literature-starter",
+      "prompt": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+      "answer": "42",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.d688fc10a225c5f4",
+      "pack": "arts-literature-starter",
+      "prompt": "How many books are in the Chronicles of Narnia series?",
+      "answer": "7",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.abd02539d2f9ede5",
+      "pack": "arts-literature-starter",
+      "prompt": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+      "answer": "A million to one",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.a044d213a31ab7dc",
+      "pack": "arts-literature-starter",
+      "prompt": "In Terry Pratchett's Discworld novel 'Wyrd Sisters', which of these are not one of the three main witches?",
+      "answer": "Winny Hathersham",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.7e20b018519f2ef2",
+      "pack": "arts-literature-starter",
+      "prompt": "In the \"Harry Potter\" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+      "answer": "Answer a riddle",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.9b43450b74e4ee0d",
+      "pack": "arts-literature-starter",
+      "prompt": "What is the make and model of the tour vehicles in \"Jurassic Park\" (1990)?",
+      "answer": "1989 Toyota Land Cruiser",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.ac5bbab7c25d70d4",
+      "pack": "arts-literature-starter",
+      "prompt": "What nationality was the surrealist painter Salvador Dali?",
+      "answer": "Spanish",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.17e30bdfcf20eb13",
+      "pack": "arts-literature-starter",
+      "prompt": "What position does Harry Potter play in Quidditch?",
+      "answer": "Seeker",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.90f172246775cbfd",
+      "pack": "arts-literature-starter",
+      "prompt": "What was the last message of the Dolphins in \"The Hitchhiker's Guide to the Galaxy\"?",
+      "answer": "\"So long, and thanks for all the fish.\"",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.bf681f54aa70d486",
+      "pack": "arts-literature-starter",
+      "prompt": "When was the play \"Macbeth\" written?",
+      "answer": "1606",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.c0dbc8c0eec2329a",
+      "pack": "arts-literature-starter",
+      "prompt": "Which of the following is not a piece from the 1950's musical West Side Story?",
+      "answer": "The Back Alley",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.cf8b2fdf3ac51f4d",
+      "pack": "arts-literature-starter",
+      "prompt": "Which of these musicals won the Tony Award for Best Musical?",
+      "answer": "Rent",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.7501b6c1aa7ce3c3",
+      "pack": "arts-literature-starter",
+      "prompt": "Which time signature is commonly known as “Cut Time?”",
+      "answer": "2/2",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.f3b1511fd8952141",
+      "pack": "arts-literature-starter",
+      "prompt": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+      "answer": "4",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.0086f0862dd22f46",
+      "pack": "arts-literature-starter",
+      "prompt": "In the Harry Potter universe, what is Cornelius Fudge's middle name?",
+      "answer": "Oswald",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.78d701ec8e63f810",
+      "pack": "arts-literature-starter",
+      "prompt": "What is Hermione Granger's middle name?",
+      "answer": "Jean",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.e47c1d6b37756fe6",
+      "pack": "arts-literature-starter",
+      "prompt": "What is Ron Weasley's middle name?",
+      "answer": "Bilius",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.f8f8145ee94d41c8",
+      "pack": "arts-literature-starter",
+      "prompt": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+      "answer": "1502",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.55413466fa679f20",
+      "pack": "arts-literature-starter",
+      "prompt": "What year was the Mona Lisa finished?",
+      "answer": "1504",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.212b740605a3a7c8",
+      "pack": "arts-literature-starter",
+      "prompt": "Where does the book \"The Silence of the Lambs\" get its title from?",
+      "answer": "The main character's trauma in childhood",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.1cd7dc2afd1c138b",
+      "pack": "arts-literature-starter",
+      "prompt": "Which of the following is NOT a work done by Shakespeare?",
+      "answer": "Trial of Temperance",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "arts-literature-starter.opentdb.27937af9b6844014",
+      "pack": "arts-literature-starter",
+      "prompt": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+      "answer": "Chorus",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.64faa6d441a0d465",
+      "pack": "easy-does-it",
+      "prompt": "How many heads does Cerberus have?",
+      "answer": "3",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.7dcd13363b49df12",
+      "pack": "easy-does-it",
+      "prompt": "In the  Rossini opera, what was the name of 'The Barber of Seville'?",
+      "answer": "Figaro",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.156aeec902055d73",
+      "pack": "easy-does-it",
+      "prompt": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+      "answer": "1-7",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.7cb14e3723da4947",
+      "pack": "easy-does-it",
+      "prompt": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
+      "answer": "Eris",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.dccbb84411f85182",
+      "pack": "easy-does-it",
+      "prompt": "What 1970's American ballad referred to the 1959 plane crash as the \"the day the music died\"?",
+      "answer": "American Pie",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.9800e24197aa3b47",
+      "pack": "easy-does-it",
+      "prompt": "What do you call a baby bat?",
+      "answer": "Pup",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.ba8c10a3960a3637",
+      "pack": "easy-does-it",
+      "prompt": "What does the United States of America celebrate during the 4th of July?",
+      "answer": "The signing of the Declaration of Independence",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.7d180f804ef859cb",
+      "pack": "easy-does-it",
+      "prompt": "What is \"dabbing\"?",
+      "answer": "A dance",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.b92d89bacc347924",
+      "pack": "easy-does-it",
+      "prompt": "What is the capital of the US State of New York?",
+      "answer": "Albany",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.04ca3fe5fd5e94bb",
+      "pack": "easy-does-it",
+      "prompt": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+      "answer": "Sabrina",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.ff8f9066877d3fdb",
+      "pack": "easy-does-it",
+      "prompt": "When was the FC Schalke 04 founded?",
+      "answer": "1904",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.a0d87d8f291c7710",
+      "pack": "easy-does-it",
+      "prompt": "When was the movie 'Con Air' released?",
+      "answer": "1997",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.ce252b3ea1bfc2f9",
+      "pack": "easy-does-it",
+      "prompt": "Which nation claims ownership of Antarctica?",
+      "answer": "No one, but there are claims.",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "easy-does-it.opentdb.f164cbc8b878f45a",
+      "pack": "easy-does-it",
+      "prompt": "Which of these characters in \"Stranger Things\" has the power of Telekinesis?",
+      "answer": "Eleven",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.e11c09689d4ff217",
+      "pack": "film-television-starter",
+      "prompt": "How many seasons did \"Stargate SG-1\" have?",
+      "answer": "10",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.f7717cc63ae7d8b9",
+      "pack": "film-television-starter",
+      "prompt": "How many seasons did the Sci-Fi television show \"Stargate Atlantis\" have?",
+      "answer": "5",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.541573dc75788504",
+      "pack": "film-television-starter",
+      "prompt": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+      "answer": "Kaltag, Nikki, and Star",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.e84c720f2013e5b9",
+      "pack": "film-television-starter",
+      "prompt": "In the movie \"Cast Away\" the main protagonist's best friend while on the island is named",
+      "answer": "Wilson",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.c2fda5b731bef6f7",
+      "pack": "film-television-starter",
+      "prompt": "In the movie \"V for Vendetta,\" what is the date that masked vigilante \"V\" urges people to remember?",
+      "answer": "November 5th",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.6768ec1e82be87f3",
+      "pack": "film-television-starter",
+      "prompt": "In the show \"Dragonball Z\", what is the name of Cell's most powerful attack?",
+      "answer": "Solar Kamehameha",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.37d3812a6e51b0c2",
+      "pack": "film-television-starter",
+      "prompt": "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
+      "answer": "Time And Relative Dimensions In Space",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.00a4f415954325bf",
+      "pack": "film-television-starter",
+      "prompt": "In Two and a Half Men, what is Alan Harper's son's name?",
+      "answer": "Jake",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.ccedb6d83ed24179",
+      "pack": "film-television-starter",
+      "prompt": "The 2016 Disney animated film 'Moana' is based on which culture?",
+      "answer": "Polynesian",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.5f8c65fa4f9fdc5e",
+      "pack": "film-television-starter",
+      "prompt": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+      "answer": "Highlander",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.e85f908aa5e71cb1",
+      "pack": "film-television-starter",
+      "prompt": "What is the real name of the famous spanish humorist, El Risitas?",
+      "answer": "Juan Joya Borga",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.38ae8ac08e9b04de",
+      "pack": "film-television-starter",
+      "prompt": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+      "answer": "Groovy.",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.ff5bddc289d29032",
+      "pack": "film-television-starter",
+      "prompt": "What was the name of the police officer in the cartoon \"Top Cat\"?",
+      "answer": "Dibble",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.2babdf874221a7c4",
+      "pack": "film-television-starter",
+      "prompt": "When did the TV show Rick and Morty first air on Adult Swim?",
+      "answer": "2013",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.7d3a1c96fd744560",
+      "pack": "film-television-starter",
+      "prompt": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+      "answer": "Oscar",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.f7d2b3e9220072d0",
+      "pack": "film-television-starter",
+      "prompt": "Which of the following movies was not based on a novel by Stephen King?",
+      "answer": "The Thing",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.866923886eb4bdac",
+      "pack": "film-television-starter",
+      "prompt": "Who won Big Brother 2014 UK?",
+      "answer": "Helen Wood",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.1bf64a78e6615853",
+      "pack": "film-television-starter",
+      "prompt": "Baron Silas Greenback is the arch nemesis of which cartoon hero?",
+      "answer": "Danger Mouse",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.e24c67ac55a65352",
+      "pack": "film-television-starter",
+      "prompt": "How much money did the 2019 Marvel movie \"Avengers: Endgame\" grossed for it's record-breaking worldwide opening weekend?",
+      "answer": "1.2 billion USD",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.57cfd4fde9ff851e",
+      "pack": "film-television-starter",
+      "prompt": "In Naruto: Shippuden, which of the following elements is a \"Kekkei Tōta?\"",
+      "answer": "Particle Style",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.f8e0e8f7839fa09c",
+      "pack": "film-television-starter",
+      "prompt": "In the Friday The 13th series, what is Jason's mother's first name?",
+      "answer": "Pamela",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.e1f38f71f81ec7f6",
+      "pack": "film-television-starter",
+      "prompt": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+      "answer": "Tilly",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.326b1d9d6fa7596d",
+      "pack": "film-television-starter",
+      "prompt": "The killer in the 1981 film 'My Bloody Valentine' wears what sort of outfit?",
+      "answer": "Mining gear",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.665824324ed3ff3a",
+      "pack": "film-television-starter",
+      "prompt": "What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?",
+      "answer": "$5",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.a784f1d96925b2c5",
+      "pack": "film-television-starter",
+      "prompt": "What is the correct phrase for the Latin saying \"Romanes Eunt Domus\" in Monty Python's Life of Brian?",
+      "answer": "Romani Ite Domum",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.af34a7c4268cd3a9",
+      "pack": "film-television-starter",
+      "prompt": "What is the name of the character Nicolas Cage plays in the movie \"National Treasure?\"",
+      "answer": "Benjamin Franklin Gates",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.7e744a3e3cb609c2",
+      "pack": "film-television-starter",
+      "prompt": "What is the name of the dog that played Toto in the 1939 film \"The Wizard of Oz\"?",
+      "answer": "Terry",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.a8de0f26e87e044b",
+      "pack": "film-television-starter",
+      "prompt": "What is the name of the inspector in the series \"On the Buses\"?",
+      "answer": "Blakey",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.29cf1952d561be8c",
+      "pack": "film-television-starter",
+      "prompt": "What is the name of the main antagonists in Battlestar Galactica?",
+      "answer": "The Cylons",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.8e73330e28fa1665",
+      "pack": "film-television-starter",
+      "prompt": "What was another suggested name for, the 1985 film, Back to the Future?",
+      "answer": "Spaceman From Pluto",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.b4ba51d8d20ca43c",
+      "pack": "film-television-starter",
+      "prompt": "What was Nickelodeon's original name?",
+      "answer": "Pinwheel",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.54f8d03762b7cde1",
+      "pack": "film-television-starter",
+      "prompt": "Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?",
+      "answer": "The Vikings",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.543a5e2dda55fe76",
+      "pack": "film-television-starter",
+      "prompt": "Which character does voice actress Tara Strong NOT voice?",
+      "answer": "Bubbles (2016)",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.249df81e9ae679e7",
+      "pack": "film-television-starter",
+      "prompt": "Which of following is rude and dishonorable by Klingon standards?",
+      "answer": "Taking his D'k tahg",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.d04597617c008f55",
+      "pack": "film-television-starter",
+      "prompt": "Which one of these action movies are shot entirely in one take?",
+      "answer": "Victoria",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.671e457da610f534",
+      "pack": "film-television-starter",
+      "prompt": "Which track by \"Massive Attack\" is used for the theme of \"House\"?",
+      "answer": "Teardrop",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.3a2f5107dde224e3",
+      "pack": "film-television-starter",
+      "prompt": "In the 1976 film 'Taxi Driver', how many guns did Travis buy from the salesman?",
+      "answer": "4",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "film-television-starter.opentdb.8da34da409f7379b",
+      "pack": "film-television-starter",
+      "prompt": "Which actors made up the trio in \"The Good, the Bad, and the Ugly\"?",
+      "answer": "Clint Eastwood, Eli Wallach, and Lee Van Cleef",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "geography-starter.landmark-country.church-of-the-ascension-kolomenskoye",
+      "pack": "geography-starter",
+      "prompt": "Which country contains the landmark Church of the Ascension, Kolomenskoye?",
+      "answer": "Russia",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "geography-starter.river-mouth.maroni",
+      "pack": "geography-starter",
+      "prompt": "Into what body of water does the Maroni flow?",
+      "answer": "Atlantic Ocean",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "geography-starter.landmark-country.holy-trinity-church-in-listy",
+      "pack": "geography-starter",
+      "prompt": "Which country contains the landmark Holy Trinity Church in Listy?",
+      "answer": "Russia",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "geography-starter.mountain-country.ober-gabelhorn",
+      "pack": "geography-starter",
+      "prompt": "In which country is Ober Gabelhorn located?",
+      "answer": "Switzerland",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "geography-starter.mountain-country.aiguille-du-jardin",
+      "pack": "geography-starter",
+      "prompt": "In which country is Aiguille du Jardin located?",
+      "answer": "France",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "geography-starter.landmark-country.baltic-rail-terminal",
+      "pack": "geography-starter",
+      "prompt": "Which country contains the landmark Baltic rail terminal?",
+      "answer": "Russia",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "geography-starter.river-mouth.sergipe-river",
+      "pack": "geography-starter",
+      "prompt": "Into what body of water does the Sergipe River flow?",
+      "answer": "Atlantic Ocean",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "geography-starter.mountain-country.les-courtes",
+      "pack": "geography-starter",
+      "prompt": "In which country is Les Courtes located?",
+      "answer": "France",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "geography-starter.landmark-country.voronezh-state-agrarian-university",
+      "pack": "geography-starter",
+      "prompt": "Which country contains the landmark Voronezh State Agrarian University?",
+      "answer": "Russia",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "geography-starter.mountain-country.mont-brouillard",
+      "pack": "geography-starter",
+      "prompt": "In which country is Mont Brouillard located?",
+      "answer": "Italy",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "history-starter.treaty-year.japan-china-joint-declaration-on-building-a-partnership-of-friendship-and-cooper",
+      "pack": "history-starter",
+      "prompt": "In what year was Japan–China Joint Declaration on Building a Partnership of Friendship and Cooperation for Peace and Development concluded or published?",
+      "answer": "1998",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "history-starter.event-year.guangzhou-uprising",
+      "pack": "history-starter",
+      "prompt": "In what year did Guangzhou Uprising occur?",
+      "answer": "1927",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "history-starter.empire-capital.duchy-of-prussia",
+      "pack": "history-starter",
+      "prompt": "What was the capital of Duchy of Prussia?",
+      "answer": "Königsberg",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "history-starter.battle-location.battle-of-kelja",
+      "pack": "history-starter",
+      "prompt": "Where was the Battle of Kelja fought?",
+      "answer": "Gromovo",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "history-starter.empire-capital.county-of-louvain",
+      "pack": "history-starter",
+      "prompt": "What was the capital of county of Louvain?",
+      "answer": "Leuven",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.cd249218bd676220",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "By definition, where does an abyssopelagic animal live?",
+      "answer": "At the bottom of the ocean",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.6bcb72cf21b8704a",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Five dollars is worth how many nickles?",
+      "answer": "100",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.a6662c1022168a5b",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "How many legs do butterflies have?",
+      "answer": "6",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.7d0ed1e26acab775",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+      "answer": "Key",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.053e457224f7e636",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Jaguar Cars was previously owned by which car manfacturer?",
+      "answer": "Ford",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.6bdfda80ac3653c8",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "The greek god Poseidon was the god of what?",
+      "answer": "The Sea",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.7f0b0e929f05524a",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "The LS7 engine is how many cubic inches?",
+      "answer": "427",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.0ad579adeb64b0e3",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What machine element is located in the center of fidget spinners?",
+      "answer": "Bearings",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.f0f583a72a976ecc",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What mythology did the god \"Apollo\" come from?",
+      "answer": "Greek and Roman",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.d67115ddb0284bf4",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "When was the Playstation 3 released?",
+      "answer": "November 11, 2006",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.c862aa6146071e12",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Which sign of the zodiac comes between Virgo and Scorpio?",
+      "answer": "Libra",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.e920e22d69ba632e",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+      "answer": "Set",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.2898661cf918495d",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "In 2013 how much money was lost by Nigerian scams?",
+      "answer": "$12.7 Billion",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.ce1fa64c03ec087e",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "In the Morse code, which letter is indicated by 3 dots?",
+      "answer": "S",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.22d5b3c375bcbe79",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
+      "answer": "A Horse",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.a074e0e85c29f61a",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What is the name for a male bee that comes from an unfertilized egg?",
+      "answer": "Drone",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.e82e2945efae7176",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What is the name of the first human being in Norse mythology?",
+      "answer": "Ask",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.62d5ad49e527b799",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What is the scientific name for the \"Polar Bear\"?",
+      "answer": "Ursus Maritimus",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.f51edbc9174e36ad",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Which greek god/goddess tossed a golden apple with the words \"for the fairest\" into the middle of the feast of the gods?",
+      "answer": "Eris",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.729f755b6108dc15",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Which of the following is not one of the Greek Fates?",
+      "answer": "Narcissus",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.5e94587e8a5b4336",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Which river flows through the Scottish city of Glasgow?",
+      "answer": "Clyde",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.63cc0bef6f90e309",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Who was the Roman god of fire?",
+      "answer": "Vulcan",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.4a288047494fc497",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
+      "answer": "7 years",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.f2377b41af2b2e4f",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "How many known living species of hyenas are there?",
+      "answer": "4",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.7706d5be21915542",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "How much horsepower is produced by the SD40-2 Locomotive?",
+      "answer": "3,000",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.fdf72faf55829f6b",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "In \"Battle Cats\", what is Moneko / MISS Moneko's critical percentage rate?",
+      "answer": "15%",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.c3ae348a24629dd4",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "In 2014, over 6 million General Motors vehicles were recalled due to what critical flaw?",
+      "answer": "Faulty ignition switch",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.88de431a8f448112",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "In the MMO RPG \"Realm of the Mad God\", what dungeon is widely considered to be the most difficult?",
+      "answer": "The Shatter's",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.2decfd761a4edb67",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Nidhogg is a mythical creature from what mythology?",
+      "answer": "Norse",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.397d5ff6d9f9e55b",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What is the romanized Chinese word for \"airplane\"?",
+      "answer": "Feiji",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.155c332e175ff40e",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What is the romanized Korean word for \"heart\"?",
+      "answer": "Simjang",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.db845012e84b80d9",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "What year did the Chevrolet LUV mini truck make its debut?",
+      "answer": "1972",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.5ea4d8ee5f5e8268",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Which one of these chassis codes are used by BMW 3-series?",
+      "answer": "E46",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.0e4f5a08ab5c1ff1",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Which species of Brown Bear is not extinct?",
+      "answer": "Syrian Brown Bear",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "lifestyle-culture-starter.opentdb.472808e30ea59582",
+      "pack": "lifestyle-culture-starter",
+      "prompt": "Who is the Egyptian god of reproduction and lettuce?",
+      "answer": "Min",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.5005d07f0a1f1c9f",
+      "pack": "masterworks",
+      "prompt": "George Orwell wrote this book, which is often considered a statement on government oversight.",
+      "answer": "1984",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.b8291c782a9f0a66",
+      "pack": "masterworks",
+      "prompt": "How many Harry Potter books are there?",
+      "answer": "7",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.b57c7a48942faa9c",
+      "pack": "masterworks",
+      "prompt": "Which band recorded the album \"Parallel Lines\"?",
+      "answer": "Blondie",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.f34075db69023aaf",
+      "pack": "masterworks",
+      "prompt": "Which classical composer wrote the \"Moonlight Sonata\"?",
+      "answer": "Ludvig Van Beethoven",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.5ac2faece6d9d842",
+      "pack": "masterworks",
+      "prompt": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+      "answer": "The Thorn of Camorr",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.f439265475e3b221",
+      "pack": "masterworks",
+      "prompt": "In the novel \"Lord of the Rings\", how many rings of power were given to the race of man?",
+      "answer": "9",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.c7e5cfd67cb98307",
+      "pack": "masterworks",
+      "prompt": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+      "answer": "The Greasers",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.25c7c5e9ac237634",
+      "pack": "masterworks",
+      "prompt": "What was the name of the Mysterious Island, in Jules Verne's \"The Mysterious Island\"?",
+      "answer": "Lincoln Island",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.80bd0b461454934b",
+      "pack": "masterworks",
+      "prompt": "What's the most common time signature for rock songs?",
+      "answer": "4/4",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.fff28900f6cc3ab7",
+      "pack": "masterworks",
+      "prompt": "Which Aerosmith album featured \"Walk This Way\"?",
+      "answer": "Toys in the Attic",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.f44e324f560dae42",
+      "pack": "masterworks",
+      "prompt": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+      "answer": "John",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.7facd482f786f7e5",
+      "pack": "masterworks",
+      "prompt": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, \"DAMN.\"?",
+      "answer": "U2",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.251b9d7922cc1289",
+      "pack": "masterworks",
+      "prompt": "In the book \"The Martian\", how long was Mark Watney trapped on Mars (in Sols)?",
+      "answer": "549 Days",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "masterworks.opentdb.d6558e658d818102",
+      "pack": "masterworks",
+      "prompt": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+      "answer": "Astoria Greengrass",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.f6063b5d2eb9aa32",
+      "pack": "music-starter",
+      "prompt": "How many strings are there on a cello?",
+      "answer": "4",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.ad7821fa48b57e84",
+      "pack": "music-starter",
+      "prompt": "How many studio albums have the duo Daft Punk released?",
+      "answer": "4",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.6809589c171e3bc9",
+      "pack": "music-starter",
+      "prompt": "What is the name of Rivers Cuomo's wife?",
+      "answer": "Kyoko Ito",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.08b461b7ed2b718a",
+      "pack": "music-starter",
+      "prompt": "What is the name of the album released in 2014 by American band Maroon 5?",
+      "answer": "V",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.b9219db8d0bf91ab",
+      "pack": "music-starter",
+      "prompt": "What was the best selling album of 2015?",
+      "answer": "Adele, 25",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.f8b49551f4084d46",
+      "pack": "music-starter",
+      "prompt": "When was Gangnam Style uploaded to YouTube?",
+      "answer": "2012",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.4a3662b32e04d3c7",
+      "pack": "music-starter",
+      "prompt": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+      "answer": "Recess",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.faf5b4692be3eedb",
+      "pack": "music-starter",
+      "prompt": "Which year was the album \"Year of the Snitch\" by Death Grips released?",
+      "answer": "2018",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.f94e997cd0fbd58d",
+      "pack": "music-starter",
+      "prompt": "Who was featured in the song \"Words\" by Feint?",
+      "answer": "Laura Brehm",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.59ec11a6b0fa512c",
+      "pack": "music-starter",
+      "prompt": "In which year was the Megadeth album \"Peace Sells... but Who's Buying?\" released?",
+      "answer": "1986",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.fac50a755983f71f",
+      "pack": "music-starter",
+      "prompt": "Johnny Cash did a cover of this song written by lead singer of Nine Inch Nails, Trent Reznor.",
+      "answer": "Hurt",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.368f85e4d205b3e2",
+      "pack": "music-starter",
+      "prompt": "Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?",
+      "answer": "Play",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.92db457dcb0b5b80",
+      "pack": "music-starter",
+      "prompt": "Rick Astley's hit song \"Never Gonna Give You Up\" was released in what year?",
+      "answer": "1987",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.15d0d9b52623403e",
+      "pack": "music-starter",
+      "prompt": "The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?",
+      "answer": "3rd",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.c4e0d9aa6bb7300f",
+      "pack": "music-starter",
+      "prompt": "What date is referenced in the 1971 song \"September\" by Earth, Wind & Fire?",
+      "answer": "21st of September",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.c84e64d18222d3d9",
+      "pack": "music-starter",
+      "prompt": "What is the relationship between the band members of American rock band King of Leon?",
+      "answer": "Brothers & cousins",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.d92f5d6e3635fad8",
+      "pack": "music-starter",
+      "prompt": "What year was Red Hot Chill Pepper's album \"Californication\" released?",
+      "answer": "1999",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.eda52e36629c9581",
+      "pack": "music-starter",
+      "prompt": "When did The Beatles release the LP \"Please Please Me\"?",
+      "answer": "1963",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.83478d7cb7f649fb",
+      "pack": "music-starter",
+      "prompt": "Which Beatle wrote and sang the song \"Why Don't We Do It in the Road\" after being inspired by seeing two monkeys copulating in the street?",
+      "answer": "Paul",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.f2a34c8ee230af54",
+      "pack": "music-starter",
+      "prompt": "Which of the following music bands is not from Finland?",
+      "answer": "Sabaton",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.8503dc25d72aa1bf",
+      "pack": "music-starter",
+      "prompt": "Which of these is not a member of the virtual band Gorillaz?",
+      "answer": "Phi Cypher",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.da52b113850bcf9e",
+      "pack": "music-starter",
+      "prompt": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+      "answer": "Don't Ever Play Yourself",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.ab5b00d4e8beee01",
+      "pack": "music-starter",
+      "prompt": "Which one of these artists appears in the album Deltron 3030?",
+      "answer": "Dan the Automater",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.386bd2ce42260009",
+      "pack": "music-starter",
+      "prompt": "Which Queen song was covered by Brittany Murphy in the 2006 film \"Happy Feet\"?",
+      "answer": "Somebody to Love",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.abe206be0b3a7c61",
+      "pack": "music-starter",
+      "prompt": "Which song is not by TheFatRat?",
+      "answer": "Ascent",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.d222b0b1f39da8c7",
+      "pack": "music-starter",
+      "prompt": "In the Panic! At the Disco's song \"Nothern Downpour\", which lyric follows 'I know the world's a broken bone'.",
+      "answer": "\"So melt your headaches call it home\"",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.636a61913fb31cc7",
+      "pack": "music-starter",
+      "prompt": "Panic! At the Disco's sixth album \"Pray For The Wicked\" was released on which date?",
+      "answer": "June 22, 2018",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.edb5eef75a98876e",
+      "pack": "music-starter",
+      "prompt": "What is the stage name of New Zealand singer Phillipa \"Pip\" Brown?",
+      "answer": "Ladyhawke",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.c79e60be45d413d4",
+      "pack": "music-starter",
+      "prompt": "What year did Dire Straits's Song \"Money for Nothing\" release?",
+      "answer": "1985",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.1cb8979d8a0422a9",
+      "pack": "music-starter",
+      "prompt": "What year was Min Yoongi from South Korea boy band \"BTS\" born in?",
+      "answer": "1993",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.e05bb46ca0dd424a",
+      "pack": "music-starter",
+      "prompt": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+      "answer": "\"A rainy Lithuanian / Is dancing as an Indian\"",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.8b56fadd83bb401a",
+      "pack": "music-starter",
+      "prompt": "Which of the following is NOT a real song from the band Thousand Foot Krutch?",
+      "answer": "Limitless Fury",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.8add098d071d5d3e",
+      "pack": "music-starter",
+      "prompt": "Which of these songs is NOT included in the Suicide Squad OST?",
+      "answer": "Skies on Fire - AC/DC",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.ca076e0ad4fbcf77",
+      "pack": "music-starter",
+      "prompt": "Which of these songs was released in 1996?",
+      "answer": "The Smashing Pumpkins - \"1979\"",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.362b3d83e79c3abc",
+      "pack": "music-starter",
+      "prompt": "Which song in rapper Kanye West's album \"The Life of Pablo\" features Rihanna?",
+      "answer": "Famous",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "music-starter.opentdb.2b0d41f42d508b6d",
+      "pack": "music-starter",
+      "prompt": "Which year was the album \"Floral Shoppe\" by Macintosh Plus released?",
+      "answer": "2011",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "science-nature-starter.scientist-field.barys-kit",
+      "pack": "science-nature-starter",
+      "prompt": "Which scientific field is most closely associated with Barys Kit?",
+      "answer": "astronautics",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "science-nature-starter.disease-specialty.collapse",
+      "pack": "science-nature-starter",
+      "prompt": "Which medical specialty most directly treats collapse?",
+      "answer": "cardiology",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "science-nature-starter.scientist-field.sergei-bakhrushin",
+      "pack": "science-nature-starter",
+      "prompt": "Which scientific field is most closely associated with Sergei Bakhrushin?",
+      "answer": "history of Russia",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "science-nature-starter.scientist-field.vasily-mishin",
+      "pack": "science-nature-starter",
+      "prompt": "Which scientific field is most closely associated with Vasily Mishin?",
+      "answer": "rocket science",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "science-nature-starter.scientist-field.lise-thiry",
+      "pack": "science-nature-starter",
+      "prompt": "Which scientific field is most closely associated with Lise Thiry?",
+      "answer": "politics",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "science-nature-starter.disease-specialty.condyloma",
+      "pack": "science-nature-starter",
+      "prompt": "Which medical specialty most directly treats Condyloma?",
+      "answer": "infectious diseases",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "science-nature-starter.scientist-field.yury-pobedonostsev",
+      "pack": "science-nature-starter",
+      "prompt": "Which scientific field is most closely associated with Yury Pobedonostsev?",
+      "answer": "rocket science",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.87b5bd0d26c3f595",
+      "pack": "sound-and-song",
+      "prompt": "\"The Singing Cowboy\" Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+      "answer": "White Christmas",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.b24ae37660325d52",
+      "pack": "sound-and-song",
+      "prompt": "According to the American rapper Nelly, what should you do when its hot in here?",
+      "answer": "Take off all your clothes",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.fd9a16175e66f648",
+      "pack": "sound-and-song",
+      "prompt": "The band Muse released their first album, Showbiz, in what year?",
+      "answer": "1999",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.d4f1be31941da552",
+      "pack": "sound-and-song",
+      "prompt": "Which of the following is not a studio album by the band Pink Floyd?",
+      "answer": "Moving Pictures",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.524601420c5cbffa",
+      "pack": "sound-and-song",
+      "prompt": "Which of these are NOT a Men at Work song?",
+      "answer": "Basket Case",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.822dce7c73118c21",
+      "pack": "sound-and-song",
+      "prompt": "Which of these is the name of a song by Tears for Fears?",
+      "answer": "Shout",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.35a005944c857af4",
+      "pack": "sound-and-song",
+      "prompt": "Madonna's song \"Hung Up\" includes a piece from which popular 70s song?",
+      "answer": "Gimmie! Gimmie! Gimme! (A Man After Midnight)",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.617f792c38c24b54",
+      "pack": "sound-and-song",
+      "prompt": "The song \"Caramelldansen\" is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+      "answer": "Swedish",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.5bb2b826ef2ca7f6",
+      "pack": "sound-and-song",
+      "prompt": "What is the first track on Kanye West's 808s & Heartbreak?",
+      "answer": "Say You Will",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.1d6bae9832ac71dd",
+      "pack": "sound-and-song",
+      "prompt": "What was the title of ABBA`s first UK hit single?",
+      "answer": "Waterloo",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.ffbc87ad70422f36",
+      "pack": "sound-and-song",
+      "prompt": "When did Tame Impala release their second album?",
+      "answer": "2012",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.9a6ba85410f63f49",
+      "pack": "sound-and-song",
+      "prompt": "When was the 3rd album \"Notes from the Underground\" of the band \"Hollywood Undead\" released?",
+      "answer": "2013",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.42707e54984a2138",
+      "pack": "sound-and-song",
+      "prompt": "Which American family band had a 1986 top 10 hit with the song 'Crush On You'?",
+      "answer": "The Jets",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.b84bf990b30721ac",
+      "pack": "sound-and-song",
+      "prompt": "Which song by Swedish electronic musician Avicii samples the song \"Something's Got A Hold On Me\" by Etta James?",
+      "answer": "Levels",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.81d615c576928e78",
+      "pack": "sound-and-song",
+      "prompt": "Who had a 1973 hit with the song 'Hocus Pocus'?",
+      "answer": "Focus",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.7e3c328b09c3e2ed",
+      "pack": "sound-and-song",
+      "prompt": "In Kendrick Lamar's 2012 album, \"Good Kid, M.A.A.D City\", the album's story takes place in which city?",
+      "answer": "Compton",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.3371822a7d86a3cc",
+      "pack": "sound-and-song",
+      "prompt": "What is the official name of Prince's backing band?",
+      "answer": "The Revolution",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.e27669a30f4aa37e",
+      "pack": "sound-and-song",
+      "prompt": "What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released?",
+      "answer": "2004",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "sound-and-song.opentdb.13303f6dd30eeada",
+      "pack": "sound-and-song",
+      "prompt": "Which of these songs is not by Tatsuro Yamashita?",
+      "answer": "Lucky Lady Feel So Good",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "space-and-beyond.scientist-field.ivan-dedov",
+      "pack": "space-and-beyond",
+      "prompt": "Which scientific field is most closely associated with Ivan Dedov?",
+      "answer": "endocrinology",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "space-and-beyond.spacecraft-operator.stsat-2a",
+      "pack": "space-and-beyond",
+      "prompt": "Which organization operated STSAT-2A?",
+      "answer": "Korea Aerospace Research Institute",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "space-and-beyond.spacecraft-operator.belka",
+      "pack": "space-and-beyond",
+      "prompt": "Which organization operated BelKA?",
+      "answer": "National Academy of Sciences of Belarus",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "space-and-beyond.spacecraft-launch-year.lares",
+      "pack": "space-and-beyond",
+      "prompt": "In what year was LARES launched?",
+      "answer": "2012",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "space-and-beyond.scientist-field.peter-bartrum",
+      "pack": "space-and-beyond",
+      "prompt": "Which scientific field is most closely associated with Peter Bartrum?",
+      "answer": "history of Wales",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.athlete-country.georg-meier",
+      "pack": "sports-starter",
+      "prompt": "Which country did athlete Georg Meier represent or hold citizenship in?",
+      "answer": "Germany",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.athlete-sport.hansi-hinterseer",
+      "pack": "sports-starter",
+      "prompt": "In which sport did Hansi Hinterseer compete?",
+      "answer": "alpine skiing",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.athlete-country.hermann-eppenhoff",
+      "pack": "sports-starter",
+      "prompt": "Which country did athlete Hermann Eppenhoff represent or hold citizenship in?",
+      "answer": "Germany",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.competition-sport.yugoslav-handball-championship",
+      "pack": "sports-starter",
+      "prompt": "Which sport is contested in Yugoslav Handball Championship?",
+      "answer": "handball",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.athlete-sport.annegret-richter",
+      "pack": "sports-starter",
+      "prompt": "In which sport did Annegret Richter compete?",
+      "answer": "athletics",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.athlete-country.michael-uhrmann",
+      "pack": "sports-starter",
+      "prompt": "Which country did athlete Michael Uhrmann represent or hold citizenship in?",
+      "answer": "Germany",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "sports-starter.athlete-sport.elena-lashmanova",
+      "pack": "sports-starter",
+      "prompt": "In which sport did Elena Lashmanova compete?",
+      "answer": "athletics",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.bd30c1875934370b",
+      "pack": "trivia-101",
+      "prompt": "How many manned moon landings have there been?",
+      "answer": "6",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.09317bf1d975f72b",
+      "pack": "trivia-101",
+      "prompt": "How many seasons did the Sci-Fi television show \"Stargate Universe\" have?",
+      "answer": "2",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.7969e1066cb1ca9b",
+      "pack": "trivia-101",
+      "prompt": "How would one say goodbye in Spanish?",
+      "answer": "Adiós",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.4134b68f7b005189",
+      "pack": "trivia-101",
+      "prompt": "Human cells typically have how many copies of each gene?",
+      "answer": "2",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.8f45b3c242b2ff09",
+      "pack": "trivia-101",
+      "prompt": "In \"Star Trek: Voyager\", which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+      "answer": "Pathfinder",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.1630b6594ee7c4b0",
+      "pack": "trivia-101",
+      "prompt": "King Henry VIII was the second monarch of which European royal house?",
+      "answer": "Tudor",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.f6db4ba256b6052f",
+      "pack": "trivia-101",
+      "prompt": "The LS1 engine is how many cubic inches?",
+      "answer": "346",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.1eba43c67ec5eeca",
+      "pack": "trivia-101",
+      "prompt": "What is the atomic mass of Carbon?",
+      "answer": "12",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.2aa2bf4e5b71d505",
+      "pack": "trivia-101",
+      "prompt": "When does \"Rogue One: A Star Wars Story\" take place chronologically in the series?",
+      "answer": "Between Episode 3 and 4",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.d9a9d54b9c3df34c",
+      "pack": "trivia-101",
+      "prompt": "Which car tire manufacturer is famous for its \"Eagle\" brand of tires, and is the official tire supplier of NASCAR?",
+      "answer": "Goodyear",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.70d41876eb243f77",
+      "pack": "trivia-101",
+      "prompt": "Which movie contains the quote, \"Say hello to my little friend!\"?",
+      "answer": "Scarface",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.5fa652b7e134c0e6",
+      "pack": "trivia-101",
+      "prompt": "In what year was McDonald's founded?",
+      "answer": "1955",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.83bde02035017c23",
+      "pack": "trivia-101",
+      "prompt": "On the periodic table of elements, what is the symbol for Tin?",
+      "answer": "Sn",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "trivia-101.opentdb.ca7652453dec9850",
+      "pack": "trivia-101",
+      "prompt": "What year did Australia become a federation?",
+      "answer": "1901",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "world-turning-points.turning-point-year.greater-poland-uprising-of-1794",
+      "pack": "world-turning-points",
+      "prompt": "In what year did Greater Poland Uprising of 1794 occur?",
+      "answer": "1794",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "world-turning-points.treaty-year.quirinal-treaty",
+      "pack": "world-turning-points",
+      "prompt": "In what year was Quirinal Treaty concluded or published?",
+      "answer": "2021",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "world-turning-points.treaty-year.beijing-convention-1895",
+      "pack": "world-turning-points",
+      "prompt": "In what year was Beijing Convention (1895) concluded or published?",
+      "answer": "1895",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "world-turning-points.treaty-year.treaty-on-the-adoption-of-the-republic-of-crimea-to-russia",
+      "pack": "world-turning-points",
+      "prompt": "In what year was Treaty on the Adoption of the Republic of Crimea to Russia concluded or published?",
+      "answer": "2014",
+      "reason": "No reliable article title"
+    },
+    {
+      "catalogKey": "world-turning-points.turning-point-year.2005-belize-unrest",
+      "pack": "world-turning-points",
+      "prompt": "In what year did 2005 Belize unrest occur?",
+      "answer": "2005",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "world-turning-points.monarch-country.frederick-francis-iii",
+      "pack": "world-turning-points",
+      "prompt": "Which country is monarch Frederick Francis III associated with?",
+      "answer": "Grand Duchy of Mecklenburg-Schwerin",
+      "reason": "No usable multi-sentence article extract"
+    },
+    {
+      "catalogKey": "world-turning-points.monarch-country.frederick-francis-ii",
+      "pack": "world-turning-points",
+      "prompt": "Which country is monarch Frederick Francis II associated with?",
+      "answer": "Grand Duchy of Mecklenburg-Schwerin",
+      "reason": "No usable multi-sentence article extract"
+    }
+  ]
+}

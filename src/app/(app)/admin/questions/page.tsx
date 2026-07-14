@@ -16,7 +16,7 @@ export default async function QuestionsAdminPage() {
       supabase
         .from("question_versions")
         .select(
-          "id,question_id,prompt,status,difficulty,topics(id,name),questions(question_subtopics(subtopics(name)))",
+          "id,question_id,prompt,status,difficulty,answer_mode,topics(id,name),questions(question_subtopics(subtopics(name)))",
         )
         .order("created_at", { ascending: false })
         .limit(30),
@@ -66,6 +66,15 @@ export default async function QuestionsAdminPage() {
               placeholder="Question prompt"
               required
             />
+            <label className="flex min-h-11 items-center gap-3 rounded-xl border border-white/15 px-3 text-sm font-bold sm:col-span-2">
+              <input
+                className="size-4 accent-[var(--brand)]"
+                name="answerMode"
+                type="checkbox"
+                value="required_choice"
+              />
+              Required multiple choice (always shown at 50% value)
+            </label>
             <input
               className={inputClass}
               name="answer"
@@ -170,6 +179,9 @@ export default async function QuestionsAdminPage() {
                   <div className="flex gap-2 text-xs">
                     <b className="text-[var(--brand)]">{topic?.name}</b>
                     <span>Difficulty {question.difficulty}</span>
+                    {question.answer_mode === "required_choice" ? (
+                      <span>Required choice · 50%</span>
+                    ) : null}
                     <span className="ml-auto uppercase">{question.status}</span>
                   </div>
                   <p className="mt-2 text-sm leading-6">{question.prompt}</p>

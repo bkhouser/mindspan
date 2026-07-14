@@ -1,0 +1,2666 @@
+[
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.cd249218bd676220",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "By definition, where does an abyssopelagic animal live?",
+    "canonicalAnswer": "At the bottom of the ocean",
+    "aliases": [],
+    "distractors": [
+      "In the desert",
+      "On top of a mountain",
+      "Inside a tree"
+    ],
+    "explanation": "The correct answer is At the bottom of the ocean.",
+    "details": "Remember the association in this Animals question: At the bottom of the ocean is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.6bcb72cf21b8704a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Five dollars is worth how many nickles?",
+    "canonicalAnswer": "100",
+    "aliases": [],
+    "distractors": [
+      "50",
+      "25",
+      "69"
+    ],
+    "explanation": "The correct answer is 100.",
+    "details": "Remember the association in this General Knowledge question: 100 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.13cd0d054ef22655",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Hippocampus is the Latin name for which marine creature?",
+    "canonicalAnswer": "Seahorse",
+    "aliases": [],
+    "distractors": [
+      "Dolphin",
+      "Whale",
+      "Octopus"
+    ],
+    "explanation": "The correct answer is Seahorse.",
+    "details": "Remember the association in this Animals question: Seahorse is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.a6662c1022168a5b",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "How many legs do butterflies have?",
+    "canonicalAnswer": "6",
+    "aliases": [
+      "six"
+    ],
+    "distractors": [
+      "2",
+      "4",
+      "0"
+    ],
+    "explanation": "The correct answer is 6.",
+    "details": "Remember the association in this Animals question: 6 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.7d0ed1e26acab775",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In the video-game franchise Kingdom Hearts, the main protagonist, carries a weapon with what shape?",
+    "canonicalAnswer": "Key",
+    "aliases": [],
+    "distractors": [
+      "Sword",
+      "Pen",
+      "Cellphone"
+    ],
+    "explanation": "The correct answer is Key.",
+    "details": "Remember the association in this General Knowledge question: Key is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.053e457224f7e636",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Jaguar Cars was previously owned by which car manfacturer?",
+    "canonicalAnswer": "Ford",
+    "aliases": [],
+    "distractors": [
+      "Chrysler",
+      "General Motors",
+      "Fiat"
+    ],
+    "explanation": "The correct answer is Ford.",
+    "details": "Remember the association in this Vehicles question: Ford is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.12a07363891a9e3a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "The ancient Roman god of war was commonly known as which of the following?",
+    "canonicalAnswer": "Mars",
+    "aliases": [],
+    "distractors": [
+      "Jupiter",
+      "Juno",
+      "Ares"
+    ],
+    "explanation": "The correct answer is Mars.",
+    "details": "Remember the association in this Mythology question: Mars is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.6bdfda80ac3653c8",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "The greek god Poseidon was the god of what?",
+    "canonicalAnswer": "The Sea",
+    "aliases": [],
+    "distractors": [
+      "War",
+      "Sun",
+      "Fire"
+    ],
+    "explanation": "The correct answer is The Sea.",
+    "details": "Remember the association in this Mythology question: The Sea is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.ad1c93f0c9d3d0b2",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "The likeness of which president is featured on the rare $2 bill of USA currency?",
+    "canonicalAnswer": "Thomas Jefferson",
+    "aliases": [],
+    "distractors": [
+      "Martin Van Buren",
+      "Ulysses Grant",
+      "John Quincy Adams"
+    ],
+    "explanation": "The correct answer is Thomas Jefferson.",
+    "details": "Remember the association in this General Knowledge question: Thomas Jefferson is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.7f0b0e929f05524a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "The LS7 engine is how many cubic inches?",
+    "canonicalAnswer": "427",
+    "aliases": [],
+    "distractors": [
+      "346",
+      "364",
+      "376"
+    ],
+    "explanation": "The correct answer is 427.",
+    "details": "Remember the association in this Vehicles question: 427 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.c5206ef7a82bdc58",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the collective noun for a group of crows?",
+    "canonicalAnswer": "Murder",
+    "aliases": [],
+    "distractors": [
+      "Pack",
+      "Gaggle",
+      "Herd"
+    ],
+    "explanation": "The correct answer is Murder.",
+    "details": "Remember the association in this Animals question: Murder is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.03ce0e9c9ed2fb3f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is the famous Papa John's last name?",
+    "canonicalAnswer": "Schnatter",
+    "aliases": [],
+    "distractors": [
+      "Chowder",
+      "Williams",
+      "ANDERSON"
+    ],
+    "explanation": "The correct answer is Schnatter.",
+    "details": "Remember the association in this General Knowledge question: Schnatter is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.5e8b7663eb4be904",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the fastest  land animal?",
+    "canonicalAnswer": "Cheetah",
+    "aliases": [],
+    "distractors": [
+      "Lion",
+      "Thomson’s Gazelle",
+      "Pronghorn Antelope"
+    ],
+    "explanation": "The correct answer is Cheetah.",
+    "details": "Remember the association in this Animals question: Cheetah is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.faf8190f892bbde1",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is the Spanish word for \"donkey\"?",
+    "canonicalAnswer": "Burro",
+    "aliases": [],
+    "distractors": [
+      "Caballo",
+      "Toro",
+      "Perro"
+    ],
+    "explanation": "The correct answer is Burro.",
+    "details": "Remember the association in this General Knowledge question: Burro is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.0ad579adeb64b0e3",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What machine element is located in the center of fidget spinners?",
+    "canonicalAnswer": "Bearings",
+    "aliases": [],
+    "distractors": [
+      "Axles",
+      "Gears",
+      "Belts"
+    ],
+    "explanation": "The correct answer is Bearings.",
+    "details": "Remember the association in this General Knowledge question: Bearings is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.f0f583a72a976ecc",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "What mythology did the god \"Apollo\" come from?",
+    "canonicalAnswer": "Greek and Roman",
+    "aliases": [],
+    "distractors": [
+      "Roman and Spanish",
+      "Greek and Chinese",
+      "Greek, Roman and Norse"
+    ],
+    "explanation": "The correct answer is Greek and Roman.",
+    "details": "Remember the association in this Mythology question: Greek and Roman is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.00064a8239bfcc95",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "When someone is inexperienced they are said to be what color?",
+    "canonicalAnswer": "Green",
+    "aliases": [],
+    "distractors": [
+      "Red",
+      "Blue",
+      "Yellow"
+    ],
+    "explanation": "The correct answer is Green.",
+    "details": "Remember the association in this General Knowledge question: Green is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d67115ddb0284bf4",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "When was the Playstation 3 released?",
+    "canonicalAnswer": "November 11, 2006",
+    "aliases": [],
+    "distractors": [
+      "January 8, 2007",
+      "December 25, 2007",
+      "July 16, 2006"
+    ],
+    "explanation": "The correct answer is November 11, 2006.",
+    "details": "Remember the association in this General Knowledge question: November 11, 2006 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.45be0e4cb0d7d4b1",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Where are the cars of the brand \"Ferrari\" manufactured?",
+    "canonicalAnswer": "Italy",
+    "aliases": [],
+    "distractors": [
+      "Romania",
+      "Germany",
+      "Russia"
+    ],
+    "explanation": "The correct answer is Italy.",
+    "details": "Remember the association in this Vehicles question: Italy is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.70cdaf60cd71058a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which car tire manufacturer is famous for its \"P Zero\" line?",
+    "canonicalAnswer": "Pirelli",
+    "aliases": [],
+    "distractors": [
+      "Goodyear",
+      "Bridgestone",
+      "Michelin"
+    ],
+    "explanation": "The correct answer is Pirelli.",
+    "details": "Remember the association in this Vehicles question: Pirelli is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.de4f017f6aff8d1c",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Which class of animals are newts members of?",
+    "canonicalAnswer": "Amphibian",
+    "aliases": [],
+    "distractors": [
+      "Fish",
+      "Reptiles",
+      "Mammals"
+    ],
+    "explanation": "The correct answer is Amphibian.",
+    "details": "Remember the association in this Animals question: Amphibian is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.dcadda70d319cd2a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which Greek & Roman god was known as the god of music, truth and prophecy, healing, the sun and light, plague, poetry, and more?",
+    "canonicalAnswer": "Apollo",
+    "aliases": [],
+    "distractors": [
+      "Aphrodite",
+      "Artemis",
+      "Athena"
+    ],
+    "explanation": "The correct answer is Apollo.",
+    "details": "Remember the association in this Mythology question: Apollo is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.509505171a7e569c",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which of these mythological creatures is said to be half-man and half-horse?",
+    "canonicalAnswer": "Centaur",
+    "aliases": [],
+    "distractors": [
+      "Minotaur",
+      "Pegasus",
+      "Gorgon"
+    ],
+    "explanation": "The correct answer is Centaur.",
+    "details": "Remember the association in this Mythology question: Centaur is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.c862aa6146071e12",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which sign of the zodiac comes between Virgo and Scorpio?",
+    "canonicalAnswer": "Libra",
+    "aliases": [],
+    "distractors": [
+      "Gemini",
+      "Taurus",
+      "Capricorn"
+    ],
+    "explanation": "The correct answer is Libra.",
+    "details": "Remember the association in this General Knowledge question: Libra is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.a667ccc80678adee",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Who in Greek mythology, who led the Argonauts in search of the Golden Fleece?",
+    "canonicalAnswer": "Jason",
+    "aliases": [],
+    "distractors": [
+      "Castor",
+      "Daedalus",
+      "Odysseus"
+    ],
+    "explanation": "The correct answer is Jason.",
+    "details": "Remember the association in this Mythology question: Jason is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.62ba60655c965b3d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Who was the King of Gods in Ancient Greek mythology?",
+    "canonicalAnswer": "Zeus",
+    "aliases": [],
+    "distractors": [
+      "Apollo",
+      "Hermes",
+      "Poseidon"
+    ],
+    "explanation": "The correct answer is Zeus.",
+    "details": "Remember the association in this Mythology question: Zeus is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.34de776b417ea086",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "According to Japanese folklore, what is the favorite food of the Kappa.",
+    "canonicalAnswer": "Cucumbers",
+    "aliases": [],
+    "distractors": [
+      "Kabocha",
+      "Nasu",
+      "Soba"
+    ],
+    "explanation": "The correct answer is Cucumbers.",
+    "details": "Remember the association in this Mythology question: Cucumbers is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.e920e22d69ba632e",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "According to the Egyptian Myth of Osiris, who murdered Osiris?",
+    "canonicalAnswer": "Set",
+    "aliases": [],
+    "distractors": [
+      "Horus",
+      "Ra",
+      "Anhur"
+    ],
+    "explanation": "The correct answer is Set.",
+    "details": "Remember the association in this Mythology question: Set is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.e3d78ce6a8fabeb9",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "According to the United States' CDC, one in how many Americans die annually due to smoking?",
+    "canonicalAnswer": "Five",
+    "aliases": [],
+    "distractors": [
+      "Twenty",
+      "Ten",
+      "One hundred"
+    ],
+    "explanation": "The correct answer is Five.",
+    "details": "Remember the association in this General Knowledge question: Five is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.f05ab8dffec444b2",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?",
+    "canonicalAnswer": "World War II",
+    "aliases": [],
+    "distractors": [
+      "Vietnam War",
+      "American Civil War",
+      "American Revolutionary War"
+    ],
+    "explanation": "The correct answer is World War II.",
+    "details": "Remember the association in this General Knowledge question: World War II is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.2898661cf918495d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In 2013 how much money was lost by Nigerian scams?",
+    "canonicalAnswer": "$12.7 Billion",
+    "aliases": [],
+    "distractors": [
+      "$95 Million",
+      "$956 Million",
+      "$2.7 Billion"
+    ],
+    "explanation": "The correct answer is $12.7 Billion.",
+    "details": "Remember the association in this General Knowledge question: $12.7 Billion is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.6716b957f325ea57",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "In African mythology, Anansi is a trickster and storyteller who takes the shape of which animal?",
+    "canonicalAnswer": "Spider",
+    "aliases": [],
+    "distractors": [
+      "Wild dog",
+      "Monkey",
+      "Crocodile"
+    ],
+    "explanation": "The correct answer is Spider.",
+    "details": "Remember the association in this Mythology question: Spider is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.4aab193b3ed432eb",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "In Greek Mythology, who killed Achilles?",
+    "canonicalAnswer": "Paris",
+    "aliases": [],
+    "distractors": [
+      "Hector",
+      "Helen",
+      "Pericles"
+    ],
+    "explanation": "The correct answer is Paris.",
+    "details": "Remember the association in this Mythology question: Paris is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.ce1fa64c03ec087e",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In the Morse code, which letter is indicated by 3 dots?",
+    "canonicalAnswer": "S",
+    "aliases": [],
+    "distractors": [
+      "O",
+      "A",
+      "C"
+    ],
+    "explanation": "The correct answer is S.",
+    "details": "Remember the association in this General Knowledge question: S is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.79106d036d62b3ee",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "The dish Fugu, is made from what family of fish?",
+    "canonicalAnswer": "Pufferfish",
+    "aliases": [],
+    "distractors": [
+      "Bass",
+      "Salmon",
+      "Mackerel"
+    ],
+    "explanation": "The correct answer is Pufferfish.",
+    "details": "Remember the association in this Animals question: Pufferfish is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.22d5b3c375bcbe79",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "The Hippogriff, not to be confused with the Griffon, is a magical creature with the front half of an eagle, and the back half of what?",
+    "canonicalAnswer": "A Horse",
+    "aliases": [],
+    "distractors": [
+      "A Dragon",
+      "A Tiger",
+      "A Lion"
+    ],
+    "explanation": "The correct answer is A Horse.",
+    "details": "Remember the association in this Mythology question: A Horse is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.c5eb3c66ef275c3c",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "This Greek mythological figure is the god/goddess of battle strategy (among other things).",
+    "canonicalAnswer": "Athena",
+    "aliases": [],
+    "distractors": [
+      "Ares",
+      "Artemis",
+      "Apollo"
+    ],
+    "explanation": "The correct answer is Athena.",
+    "details": "Remember the association in this Mythology question: Athena is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.ec09665924c7fc1b",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What alcoholic drink is mainly made from juniper berries?",
+    "canonicalAnswer": "Gin",
+    "aliases": [],
+    "distractors": [
+      "Vodka",
+      "Rum",
+      "Tequila"
+    ],
+    "explanation": "The correct answer is Gin.",
+    "details": "Remember the association in this General Knowledge question: Gin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.cac7baa5417f2f06",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What are rhino's horn made of?",
+    "canonicalAnswer": "Keratin",
+    "aliases": [],
+    "distractors": [
+      "Bone",
+      "Ivory",
+      "Skin"
+    ],
+    "explanation": "The correct answer is Keratin.",
+    "details": "Remember the association in this Animals question: Keratin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.92ece00bd991c4f3",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "What country is the Hussarya supercar, made by the car manufacturer \"Arrinera\", assembled in?",
+    "canonicalAnswer": "Poland",
+    "aliases": [],
+    "distractors": [
+      "China",
+      "Sweden",
+      "Italy"
+    ],
+    "explanation": "The correct answer is Poland.",
+    "details": "Remember the association in this Vehicles question: Poland is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.0ea8bdc8093b1f34",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+    "canonicalAnswer": "Pugs",
+    "aliases": [],
+    "distractors": [
+      "Bulldogs",
+      "Boxers",
+      "Chihuahua"
+    ],
+    "explanation": "The correct answer is Pugs.",
+    "details": "Remember the association in this Animals question: Pugs is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.3500b4884c0473f5",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the collective noun for rats?",
+    "canonicalAnswer": "Mischief",
+    "aliases": [],
+    "distractors": [
+      "Pack",
+      "Race",
+      "Drift"
+    ],
+    "explanation": "The correct answer is Mischief.",
+    "details": "Remember the association in this Animals question: Mischief is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d636f9e2ebb213df",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+    "canonicalAnswer": "Mad Cow disease",
+    "aliases": [],
+    "distractors": [
+      "Weil's disease",
+      "Milk fever",
+      "Foot-and-mouth disease"
+    ],
+    "explanation": "The correct answer is Mad Cow disease.",
+    "details": "Remember the association in this Animals question: Mad Cow disease is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.aecb763f66863931",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the fastest animal?",
+    "canonicalAnswer": "Peregrine Falcon",
+    "aliases": [],
+    "distractors": [
+      "Golden Eagle",
+      "Cheetah",
+      "Horsefly"
+    ],
+    "explanation": "The correct answer is Peregrine Falcon.",
+    "details": "Remember the association in this Animals question: Peregrine Falcon is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.a074e0e85c29f61a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the name for a male bee that comes from an unfertilized egg?",
+    "canonicalAnswer": "Drone",
+    "aliases": [],
+    "distractors": [
+      "Soldier",
+      "Worker",
+      "Male"
+    ],
+    "explanation": "The correct answer is Drone.",
+    "details": "Remember the association in this Animals question: Drone is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.b56e90ec7da26f5f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the name of the family that the domestic cat is a member of?",
+    "canonicalAnswer": "Felidae",
+    "aliases": [],
+    "distractors": [
+      "Felinae",
+      "Felis",
+      "Cat"
+    ],
+    "explanation": "The correct answer is Felidae.",
+    "details": "Remember the association in this Animals question: Felidae is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.e82e2945efae7176",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "What is the name of the first human being in Norse mythology?",
+    "canonicalAnswer": "Ask",
+    "aliases": [],
+    "distractors": [
+      "Asmund",
+      "Ake",
+      "Asger"
+    ],
+    "explanation": "The correct answer is Ask.",
+    "details": "Remember the association in this Mythology question: Ask is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d5e47161e0569dc2",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "What is the name of the Greek god of peaceful deaths?",
+    "canonicalAnswer": "Thanatos",
+    "aliases": [],
+    "distractors": [
+      "Tartarus",
+      "Hades",
+      "Moros"
+    ],
+    "explanation": "The correct answer is Thanatos.",
+    "details": "Remember the association in this Mythology question: Thanatos is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.62d5ad49e527b799",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the scientific name for the \"Polar Bear\"?",
+    "canonicalAnswer": "Ursus Maritimus",
+    "aliases": [],
+    "distractors": [
+      "Polar Bear",
+      "Ursus Spelaeus",
+      "Ursus Arctos"
+    ],
+    "explanation": "The correct answer is Ursus Maritimus.",
+    "details": "Remember the association in this Animals question: Ursus Maritimus is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.581a8721aa2a5903",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Where did the pineapple plant originate?",
+    "canonicalAnswer": "South America",
+    "aliases": [],
+    "distractors": [
+      "Hawaii",
+      "Europe",
+      "Asia"
+    ],
+    "explanation": "The correct answer is South America.",
+    "details": "Remember the association in this General Knowledge question: South America is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.dfb97220eba861a7",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
+    "canonicalAnswer": "Scorpion",
+    "aliases": [],
+    "distractors": [
+      "Snake",
+      "Bull",
+      "Horse"
+    ],
+    "explanation": "The correct answer is Scorpion.",
+    "details": "Remember the association in this Vehicles question: Scorpion is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.9287d3de8737d27f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which car manufacturer created the \"Aventador\"?",
+    "canonicalAnswer": "Lamborghini",
+    "aliases": [],
+    "distractors": [
+      "Ferrari",
+      "Pagani",
+      "Bugatti"
+    ],
+    "explanation": "The correct answer is Lamborghini.",
+    "details": "Remember the association in this Vehicles question: Lamborghini is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.f51edbc9174e36ad",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which greek god/goddess tossed a golden apple with the words \"for the fairest\" into the middle of the feast of the gods?",
+    "canonicalAnswer": "Eris",
+    "aliases": [],
+    "distractors": [
+      "Hades",
+      "Ares",
+      "Artemis"
+    ],
+    "explanation": "The correct answer is Eris.",
+    "details": "Remember the association in this Mythology question: Eris is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.99556f168b2cbf76",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a \"Guardians of the Galaxy\" themed ride?",
+    "canonicalAnswer": "Twilight Zone Tower of Terror",
+    "aliases": [],
+    "distractors": [
+      "The Haunted Mansion",
+      "Pirates of the Caribbean",
+      "Peter Pan's Flight"
+    ],
+    "explanation": "The correct answer is Twilight Zone Tower of Terror.",
+    "details": "Remember the association in this General Knowledge question: Twilight Zone Tower of Terror is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.368cadaa687fd74b",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which of the following car models has been badge-engineered (rebadged) the most?",
+    "canonicalAnswer": "Isuzu Trooper",
+    "aliases": [],
+    "distractors": [
+      "Holden Monaro",
+      "Suzuki Swift",
+      "Chevy Camaro"
+    ],
+    "explanation": "The correct answer is Isuzu Trooper.",
+    "details": "Remember the association in this Vehicles question: Isuzu Trooper is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d69acdebc5d9bd8d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which of the following carbonated soft drinks were introduced first?",
+    "canonicalAnswer": "Dr. Pepper",
+    "aliases": [],
+    "distractors": [
+      "Coca-Cola",
+      "Sprite",
+      "Mountain Dew"
+    ],
+    "explanation": "The correct answer is Dr. Pepper.",
+    "details": "Remember the association in this General Knowledge question: Dr. Pepper is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.729f755b6108dc15",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which of the following is not one of the Greek Fates?",
+    "canonicalAnswer": "Narcissus",
+    "aliases": [],
+    "distractors": [
+      "Clotho",
+      "Atropos",
+      "Lachesis"
+    ],
+    "explanation": "The correct answer is Narcissus.",
+    "details": "Remember the association in this Mythology question: Narcissus is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.e99ad35eefa02329",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which of the following Mesopotamian mythological figures was NOT a deity?",
+    "canonicalAnswer": "Enkidu",
+    "aliases": [],
+    "distractors": [
+      "Enki",
+      "Enlil",
+      "Enkimdu"
+    ],
+    "explanation": "The correct answer is Enkidu.",
+    "details": "Remember the association in this Mythology question: Enkidu is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d559cdcee290438c",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which of these Roman gods doesn't have a counterpart in Greek mythology?",
+    "canonicalAnswer": "Janus",
+    "aliases": [],
+    "distractors": [
+      "Vulcan",
+      "Juno",
+      "Mars"
+    ],
+    "explanation": "The correct answer is Janus.",
+    "details": "Remember the association in this Mythology question: Janus is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.9ba27bcffb656d65",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Which of these species is not extinct?",
+    "canonicalAnswer": "Komodo dragon",
+    "aliases": [],
+    "distractors": [
+      "Japanese sea lion",
+      "Tasmanian tiger",
+      "Saudi gazelle"
+    ],
+    "explanation": "The correct answer is Komodo dragon.",
+    "details": "Remember the association in this Animals question: Komodo dragon is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.9ba3d823b6400df9",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which one of the following is not made by Ford?",
+    "canonicalAnswer": "Camry",
+    "aliases": [],
+    "distractors": [
+      "Fusion",
+      "Model A",
+      "F-150"
+    ],
+    "explanation": "The correct answer is Camry.",
+    "details": "Remember the association in this Vehicles question: Camry is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.5e94587e8a5b4336",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which river flows through the Scottish city of Glasgow?",
+    "canonicalAnswer": "Clyde",
+    "aliases": [],
+    "distractors": [
+      "Tay",
+      "Dee",
+      "Tweed"
+    ],
+    "explanation": "The correct answer is Clyde.",
+    "details": "Remember the association in this General Knowledge question: Clyde is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.63cc0bef6f90e309",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Who was the Roman god of fire?",
+    "canonicalAnswer": "Vulcan",
+    "aliases": [],
+    "distractors": [
+      "Apollo",
+      "Jupiter",
+      "Mercury"
+    ],
+    "explanation": "The correct answer is Vulcan.",
+    "details": "Remember the association in this Mythology question: Vulcan is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.4a288047494fc497",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
+    "canonicalAnswer": "7 years",
+    "aliases": [],
+    "distractors": [
+      "2 years",
+      "8 years",
+      "6 months"
+    ],
+    "explanation": "The correct answer is 7 years.",
+    "details": "Remember the association in this General Knowledge question: 7 years is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.f2377b41af2b2e4f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "How many known living species of hyenas are there?",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "four"
+    ],
+    "distractors": [
+      "8",
+      "2",
+      "6"
+    ],
+    "explanation": "The correct answer is 4.",
+    "details": "Remember the association in this Animals question: 4 is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.7706d5be21915542",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "How much horsepower is produced by the SD40-2 Locomotive?",
+    "canonicalAnswer": "3,000",
+    "aliases": [],
+    "distractors": [
+      "3,200",
+      "2,578",
+      "2,190"
+    ],
+    "explanation": "The correct answer is 3,000.",
+    "details": "Remember the association in this Vehicles question: 3,000 is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.fdf72faf55829f6b",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In \"Battle Cats\", what is Moneko / MISS Moneko's critical percentage rate?",
+    "canonicalAnswer": "15%",
+    "aliases": [],
+    "distractors": [
+      "20%",
+      "10%",
+      "25%"
+    ],
+    "explanation": "The correct answer is 15%.",
+    "details": "Remember the association in this General Knowledge question: 15% is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.c3ae348a24629dd4",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "In 2014, over 6 million General Motors vehicles were recalled due to what critical flaw?",
+    "canonicalAnswer": "Faulty ignition switch",
+    "aliases": [],
+    "distractors": [
+      "Malfunctioning gas pedal",
+      "Breaking fuel lines",
+      "Faulty brake pads"
+    ],
+    "explanation": "The correct answer is Faulty ignition switch.",
+    "details": "Remember the association in this Vehicles question: Faulty ignition switch is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d2fe95b222d5ee39",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "In Greek Mythology, who was the daughter of King Minos?",
+    "canonicalAnswer": "Ariadne",
+    "aliases": [],
+    "distractors": [
+      "Athena",
+      "Ariel",
+      "Alana"
+    ],
+    "explanation": "The correct answer is Ariadne.",
+    "details": "Remember the association in this Mythology question: Ariadne is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.88de431a8f448112",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In the MMO RPG \"Realm of the Mad God\", what dungeon is widely considered to be the most difficult?",
+    "canonicalAnswer": "The Shatter's",
+    "aliases": [],
+    "distractors": [
+      "Snake Pit",
+      "The Tomb of the Acient's",
+      "The Puppet Master's Theater"
+    ],
+    "explanation": "The correct answer is The Shatter's.",
+    "details": "Remember the association in this General Knowledge question: The Shatter's is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.f634aa16e1caeb0d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Located in Chile, El Teniente is the world's largest underground mine for what metal?",
+    "canonicalAnswer": "Copper",
+    "aliases": [],
+    "distractors": [
+      "Iron",
+      "Nickel",
+      "Silver"
+    ],
+    "explanation": "The correct answer is Copper.",
+    "details": "Remember the association in this General Knowledge question: Copper is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.2decfd761a4edb67",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Nidhogg is a mythical creature from what mythology?",
+    "canonicalAnswer": "Norse",
+    "aliases": [],
+    "distractors": [
+      "Egyptian",
+      "Greek",
+      "Hindu"
+    ],
+    "explanation": "The correct answer is Norse.",
+    "details": "Remember the association in this Mythology question: Norse is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.93f3bbb9d4c2cd64",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Talos, the mythical giant bronze man, was the protector of which island?",
+    "canonicalAnswer": "Crete",
+    "aliases": [],
+    "distractors": [
+      "Sardinia",
+      "Sicily",
+      "Cyprus"
+    ],
+    "explanation": "The correct answer is Crete.",
+    "details": "Remember the association in this Mythology question: Crete is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.8f17c65474615692",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "To which biological phylum do all mammals, birds and reptiles belong?",
+    "canonicalAnswer": "Chordata",
+    "aliases": [],
+    "distractors": [
+      "Echinodermata",
+      "Annelida",
+      "Placazoa"
+    ],
+    "explanation": "The correct answer is Chordata.",
+    "details": "Remember the association in this Animals question: Chordata is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.ddcd07129f8cb56f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Unlike on most salamanders, this part of a newt is flat?",
+    "canonicalAnswer": "Tail",
+    "aliases": [],
+    "distractors": [
+      "Head",
+      "Teeth",
+      "Feet"
+    ],
+    "explanation": "The correct answer is Tail.",
+    "details": "Remember the association in this Animals question: Tail is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.27c0def3f0e90018",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What bird is born with claws on its wing digits?",
+    "canonicalAnswer": "Hoatzin",
+    "aliases": [],
+    "distractors": [
+      "Cormorant",
+      "Cassowary",
+      "Secretary bird"
+    ],
+    "explanation": "The correct answer is Hoatzin.",
+    "details": "Remember the association in this Animals question: Hoatzin is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.397d5ff6d9f9e55b",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is the romanized Chinese word for \"airplane\"?",
+    "canonicalAnswer": "Feiji",
+    "aliases": [],
+    "distractors": [
+      "Qiche",
+      "Zongxian",
+      "Huojian"
+    ],
+    "explanation": "The correct answer is Feiji.",
+    "details": "Remember the association in this General Knowledge question: Feiji is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.155c332e175ff40e",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is the romanized Korean word for \"heart\"?",
+    "canonicalAnswer": "Simjang",
+    "aliases": [],
+    "distractors": [
+      "Aejeong",
+      "Jeongsin",
+      "Segseu"
+    ],
+    "explanation": "The correct answer is Simjang.",
+    "details": "Remember the association in this General Knowledge question: Simjang is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.0993ecd776d1ad31",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the scientific name of the Budgerigar?",
+    "canonicalAnswer": "Melopsittacus undulatus",
+    "aliases": [],
+    "distractors": [
+      "Nymphicus hollandicus",
+      "Pyrrhura molinae",
+      "Ara macao"
+    ],
+    "explanation": "The correct answer is Melopsittacus undulatus.",
+    "details": "Remember the association in this Animals question: Melopsittacus undulatus is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.e8eef0071a9fe1a3",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What scientific family does the Aardwolf belong to?",
+    "canonicalAnswer": "Hyaenidae",
+    "aliases": [],
+    "distractors": [
+      "Canidae",
+      "Felidae",
+      "Eupleridae"
+    ],
+    "explanation": "The correct answer is Hyaenidae.",
+    "details": "Remember the association in this Animals question: Hyaenidae is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.b47bc86f4a3f2130",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What was Bank of America originally established as?",
+    "canonicalAnswer": "Bank of Italy",
+    "aliases": [],
+    "distractors": [
+      "Bank of Long Island",
+      "Bank of Pennsylvania",
+      "Bank of Charlotte"
+    ],
+    "explanation": "The correct answer is Bank of Italy.",
+    "details": "Remember the association in this General Knowledge question: Bank of Italy is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.db845012e84b80d9",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "What year did the Chevrolet LUV mini truck make its debut?",
+    "canonicalAnswer": "1972",
+    "aliases": [],
+    "distractors": [
+      "1982",
+      "1975",
+      "1973"
+    ],
+    "explanation": "The correct answer is 1972.",
+    "details": "Remember the association in this Vehicles question: 1972 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.e9184e4c6fc3059f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Where is Apple Inc. headquartered?",
+    "canonicalAnswer": "Cupertino, California",
+    "aliases": [],
+    "distractors": [
+      "Redwood City, California",
+      "Redmond, Washington",
+      "Santa Monica, CA"
+    ],
+    "explanation": "The correct answer is Cupertino, California.",
+    "details": "Remember the association in this General Knowledge question: Cupertino, California is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.89a5edbf8b556f33",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which Audi does not use Haldex based all wheel drive system?",
+    "canonicalAnswer": "Audi A8",
+    "aliases": [],
+    "distractors": [
+      "Audi TT",
+      "Audi S3",
+      "Audi A3"
+    ],
+    "explanation": "The correct answer is Audi A8.",
+    "details": "Remember the association in this Vehicles question: Audi A8 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.d6cd9d02fc14bad7",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which car is the first mass-produced hybrid vehicle?",
+    "canonicalAnswer": "Toyota Prius",
+    "aliases": [],
+    "distractors": [
+      "Chevrolet Volt",
+      "Honda Fit",
+      "Peugeot 308 R HYbrid"
+    ],
+    "explanation": "The correct answer is Toyota Prius.",
+    "details": "Remember the association in this Vehicles question: Toyota Prius is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.ca985e79da73429d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which church's interior in Vatican City was designed in 1503 by renaissance architects including Bramante, Michelangelo and Bernini?",
+    "canonicalAnswer": "St. Peter's Basilica",
+    "aliases": [],
+    "distractors": [
+      "Catania Cathedral",
+      "St. Mark’s Basilica",
+      "The Duomo of Florence"
+    ],
+    "explanation": "The correct answer is St. Peter's Basilica.",
+    "details": "Remember the association in this General Knowledge question: St. Peter's Basilica is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.26792fd12c855ed2",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which of the following is not another name for the eggplant?",
+    "canonicalAnswer": "Potimarron",
+    "aliases": [],
+    "distractors": [
+      "Brinjal",
+      "Guinea Squash",
+      "Melongene"
+    ],
+    "explanation": "The correct answer is Potimarron.",
+    "details": "Remember the association in this General Knowledge question: Potimarron is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.01404181100db0d7",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Which of these animals is NOT a lizard?",
+    "canonicalAnswer": "Tuatara",
+    "aliases": [],
+    "distractors": [
+      "Komodo Dragon",
+      "Gila Monster",
+      "Green Iguana"
+    ],
+    "explanation": "The correct answer is Tuatara.",
+    "details": "Remember the association in this Animals question: Tuatara is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.bb35551883421012",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which of these cities does NOT have a United States Minting location?",
+    "canonicalAnswer": "St. Louis, MO",
+    "aliases": [],
+    "distractors": [
+      "San Fransisco, CA",
+      "Philidelphia, PA",
+      "West Point, NY"
+    ],
+    "explanation": "The correct answer is St. Louis, MO.",
+    "details": "Remember the association in this General Knowledge question: St. Louis, MO is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.9ba5c6fb2d016a34",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Which of these is a colony of polyps and not a jellyfish?",
+    "canonicalAnswer": "Portuguese Man-of-War",
+    "aliases": [],
+    "distractors": [
+      "Sea Wasp",
+      "Irukandji",
+      "Sea Nettle"
+    ],
+    "explanation": "The correct answer is Portuguese Man-of-War.",
+    "details": "Remember the association in this Animals question: Portuguese Man-of-War is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.5ea4d8ee5f5e8268",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which one of these chassis codes are used by BMW 3-series?",
+    "canonicalAnswer": "E46",
+    "aliases": [],
+    "distractors": [
+      "E39",
+      "E85",
+      "F10"
+    ],
+    "explanation": "The correct answer is E46.",
+    "details": "Remember the association in this Vehicles question: E46 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.0e4f5a08ab5c1ff1",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "Which species of Brown Bear is not extinct?",
+    "canonicalAnswer": "Syrian Brown Bear",
+    "aliases": [],
+    "distractors": [
+      "California Grizzly Bear",
+      "Atlas Bear",
+      "Mexican Grizzly Bear"
+    ],
+    "explanation": "The correct answer is Syrian Brown Bear.",
+    "details": "Remember the association in this Animals question: Syrian Brown Bear is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.363c9b1d9985170d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Who founded the Khan Academy?",
+    "canonicalAnswer": "Sal Khan",
+    "aliases": [],
+    "distractors": [
+      "Ben Khan",
+      "Kitt Khan",
+      "Adel Khan"
+    ],
+    "explanation": "The correct answer is Sal Khan.",
+    "details": "Remember the association in this General Knowledge question: Sal Khan is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.1698b57df9e93325",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Who is a minor god that is protector and creator of various arts, such as cheese making and bee keeping.",
+    "canonicalAnswer": "Aristaeus",
+    "aliases": [],
+    "distractors": [
+      "Autonoe",
+      "Carme",
+      "Cephisso"
+    ],
+    "explanation": "The correct answer is Aristaeus.",
+    "details": "Remember the association in this Mythology question: Aristaeus is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "lifestyle-culture-starter.opentdb.472808e30ea59582",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "lifestyle-culture-starter"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Who is the Egyptian god of reproduction and lettuce?",
+    "canonicalAnswer": "Min",
+    "aliases": [],
+    "distractors": [
+      "Menu",
+      "Mut",
+      "Meret"
+    ],
+    "explanation": "The correct answer is Min.",
+    "details": "Remember the association in this Mythology question: Min is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

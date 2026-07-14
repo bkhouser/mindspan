@@ -44,5 +44,6 @@ jobs:
       - run: npm run db:verify
       - run: npm run db:test:rls
       - run: npm run db:test:import
+      - run: npm run db:test:auth
       - run: npx playwright install --with-deps
       - run: npm run test:e2e

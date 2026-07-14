@@ -1,0 +1,1402 @@
+[
+  {
+    "catalogKey": "sound-and-song.opentdb.31fdbe70463eee68",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "\"Hallelujah\" is a song written by which Canadian recording artist?",
+    "canonicalAnswer": "Leonard Cohen",
+    "aliases": [],
+    "distractors": [
+      "Kory Lefkowits",
+      "Ryan Letourneau",
+      "Justin Bieber"
+    ],
+    "explanation": "The correct answer is Leonard Cohen.",
+    "details": "Remember the association in this Entertainment: Music question: Leonard Cohen is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.87b5bd0d26c3f595",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "\"The Singing Cowboy\" Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+    "canonicalAnswer": "White Christmas",
+    "aliases": [],
+    "distractors": [
+      "Frosty the Snowman",
+      "Rudolph the Red-Nosed Reindeer",
+      "Here Comes Santa Claus"
+    ],
+    "explanation": "The correct answer is White Christmas.",
+    "details": "Remember the association in this Entertainment: Music question: White Christmas is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.b24ae37660325d52",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "According to the American rapper Nelly, what should you do when its hot in here?",
+    "canonicalAnswer": "Take off all your clothes",
+    "aliases": [],
+    "distractors": [
+      "Take a cool shower",
+      "Drink some water",
+      "Go skinny dipping"
+    ],
+    "explanation": "The correct answer is Take off all your clothes.",
+    "details": "Remember the association in this Entertainment: Music question: Take off all your clothes is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.fd9a16175e66f648",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The band Muse released their first album, Showbiz, in what year?",
+    "canonicalAnswer": "1999",
+    "aliases": [],
+    "distractors": [
+      "1998",
+      "2000",
+      "2001"
+    ],
+    "explanation": "The correct answer is 1999.",
+    "details": "Remember the association in this Entertainment: Music question: 1999 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.ac541d374efcebb6",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which English guitarist has the nickname \"Slowhand\"?",
+    "canonicalAnswer": "Eric Clapton",
+    "aliases": [],
+    "distractors": [
+      "Mark Knopfler",
+      "Jeff Beck",
+      "Jimmy Page"
+    ],
+    "explanation": "The correct answer is Eric Clapton.",
+    "details": "Remember the association in this Entertainment: Music question: Eric Clapton is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.eed0cd1f1452fa9c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Nirvana album had a naked baby on the cover?",
+    "canonicalAnswer": "Nevermind",
+    "aliases": [],
+    "distractors": [
+      "Bleach",
+      "In Utero",
+      "Incesticide"
+    ],
+    "explanation": "The correct answer is Nevermind.",
+    "details": "Remember the association in this Entertainment: Music question: Nevermind is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.d4f1be31941da552",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of the following is not a studio album by the band Pink Floyd?",
+    "canonicalAnswer": "Moving Pictures",
+    "aliases": [],
+    "distractors": [
+      "The Dark Side of the Moon",
+      "Wish You Were Here",
+      "Animals"
+    ],
+    "explanation": "The correct answer is Moving Pictures.",
+    "details": "Remember the association in this Entertainment: Music question: Moving Pictures is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.524601420c5cbffa",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these are NOT a Men at Work song?",
+    "canonicalAnswer": "Basket Case",
+    "aliases": [],
+    "distractors": [
+      "Dr. Heckyll and Mr. Jive",
+      "Who Can It Be Now?",
+      "Be Good Johnny"
+    ],
+    "explanation": "The correct answer is Basket Case.",
+    "details": "Remember the association in this Entertainment: Music question: Basket Case is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.822dce7c73118c21",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these is the name of a song by Tears for Fears?",
+    "canonicalAnswer": "Shout",
+    "aliases": [],
+    "distractors": [
+      "Scream",
+      "Yell",
+      "Shriek"
+    ],
+    "explanation": "The correct answer is Shout.",
+    "details": "Remember the association in this Entertainment: Music question: Shout is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.f2de304d80e6a3b7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which rap group released the album \"Straight Outta Compton\"?",
+    "canonicalAnswer": "N.W.A",
+    "aliases": [],
+    "distractors": [
+      "Wu-Tang Clan",
+      "Run-D.M.C.",
+      "Beastie Boys"
+    ],
+    "explanation": "The correct answer is N.W.A.",
+    "details": "Remember the association in this Entertainment: Music question: N.W.A is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.f9285c7fdf757e3c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the lead singer of Green Day?",
+    "canonicalAnswer": "Billie Joe Armstrong",
+    "aliases": [],
+    "distractors": [
+      "Mike Dirnt",
+      "Sean Hughes",
+      "Tré Cool"
+    ],
+    "explanation": "The correct answer is Billie Joe Armstrong.",
+    "details": "Remember the association in this Entertainment: Music question: Billie Joe Armstrong is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.1336ccae4f178e30",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who was \"Kung Fu Fighting\" in 1974?",
+    "canonicalAnswer": "Carl Douglas",
+    "aliases": [],
+    "distractors": [
+      "The Bee Gees",
+      "Heatwave",
+      "Kool & the Gang"
+    ],
+    "explanation": "The correct answer is Carl Douglas.",
+    "details": "Remember the association in this Entertainment: Music question: Carl Douglas is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.6e81abacd2f72862",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "'74–'75 is a 1993 single from the album Ring by what American band?",
+    "canonicalAnswer": "The Connells",
+    "aliases": [],
+    "distractors": [
+      "R.E.M.",
+      "The Ocean Blue",
+      "The Bangles"
+    ],
+    "explanation": "The correct answer is The Connells.",
+    "details": "Remember the association in this Entertainment: Music question: The Connells is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.85cdaedf1bbfab40",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "EDM record label Monstercat is based in which country?",
+    "canonicalAnswer": "Canada",
+    "aliases": [],
+    "distractors": [
+      "United States",
+      "Australia",
+      "United Kingdom"
+    ],
+    "explanation": "The correct answer is Canada.",
+    "details": "Remember the association in this Entertainment: Music question: Canada is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.c8143b016ba4b4a1",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "In August 1964, who introduced the Beatles to cannabis?",
+    "canonicalAnswer": "Bob Dylan",
+    "aliases": [],
+    "distractors": [
+      "Jim Morrison",
+      "Brian Epstein",
+      "Jerry Garcia"
+    ],
+    "explanation": "The correct answer is Bob Dylan.",
+    "details": "Remember the association in this Entertainment: Music question: Bob Dylan is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.35a005944c857af4",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Madonna's song \"Hung Up\" includes a piece from which popular 70s song?",
+    "canonicalAnswer": "Gimmie! Gimmie! Gimme! (A Man After Midnight)",
+    "aliases": [],
+    "distractors": [
+      "Staying Alive",
+      "Night Fever",
+      "The Chain"
+    ],
+    "explanation": "The correct answer is Gimmie! Gimmie! Gimme! (A Man After Midnight).",
+    "details": "Remember the association in this Entertainment: Music question: Gimmie! Gimmie! Gimme! (A Man After Midnight) is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.617f792c38c24b54",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The song \"Caramelldansen\" is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+    "canonicalAnswer": "Swedish",
+    "aliases": [],
+    "distractors": [
+      "Hungarian",
+      "Finnish",
+      "Chinese"
+    ],
+    "explanation": "The correct answer is Swedish.",
+    "details": "Remember the association in this Entertainment: Music question: Swedish is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.f05cedd0393b3848",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The song \"Feel Good Inc.\" by British band Gorillaz features which hip hop group?",
+    "canonicalAnswer": "De La Soul",
+    "aliases": [],
+    "distractors": [
+      "Public Enemy",
+      "OutKast",
+      "Cypress Hill"
+    ],
+    "explanation": "The correct answer is De La Soul.",
+    "details": "Remember the association in this Entertainment: Music question: De La Soul is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.920bf17c4be51564",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The Who's eponymous line, \"Teenage Wasteland\", appears in which of their songs?",
+    "canonicalAnswer": "Baba O' Riley",
+    "aliases": [],
+    "distractors": [
+      "The Seeker",
+      "Won't Get Fooled Again",
+      "Pinball Wizard"
+    ],
+    "explanation": "The correct answer is Baba O' Riley.",
+    "details": "Remember the association in this Entertainment: Music question: Baba O' Riley is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.5bb2b826ef2ca7f6",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the first track on Kanye West's 808s & Heartbreak?",
+    "canonicalAnswer": "Say You Will",
+    "aliases": [],
+    "distractors": [
+      "Welcome to Heartbreak",
+      "Street Lights",
+      "Heartless"
+    ],
+    "explanation": "The correct answer is Say You Will.",
+    "details": "Remember the association in this Entertainment: Music question: Say You Will is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.d2f2031c6468c242",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What M83 was featured in Grand Theft Auto V's radio?",
+    "canonicalAnswer": "Midnight City",
+    "aliases": [],
+    "distractors": [
+      "Outro",
+      "Reunion",
+      "Wait"
+    ],
+    "explanation": "The correct answer is Midnight City.",
+    "details": "Remember the association in this Entertainment: Music question: Midnight City is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.59771013cae6f82d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was the name of Pink Floyd's first studio album?",
+    "canonicalAnswer": "The Piper at the Gates of Dawn",
+    "aliases": [],
+    "distractors": [
+      "Ummagumma",
+      "More",
+      "Atom Heart Mother"
+    ],
+    "explanation": "The correct answer is The Piper at the Gates of Dawn.",
+    "details": "Remember the association in this Entertainment: Music question: The Piper at the Gates of Dawn is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.1d6bae9832ac71dd",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was the title of ABBA`s first UK hit single?",
+    "canonicalAnswer": "Waterloo",
+    "aliases": [],
+    "distractors": [
+      "Mamma Mia",
+      "Fernando",
+      "Dancing Queen"
+    ],
+    "explanation": "The correct answer is Waterloo.",
+    "details": "Remember the association in this Entertainment: Music question: Waterloo is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.588c3cd4897b6a82",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was The Velvet Underground's first album called?",
+    "canonicalAnswer": "The Velvet Underground & Nico",
+    "aliases": [],
+    "distractors": [
+      "Loaded",
+      "The Velvet Underground",
+      "White Light / White Heat"
+    ],
+    "explanation": "The correct answer is The Velvet Underground & Nico.",
+    "details": "Remember the association in this Entertainment: Music question: The Velvet Underground & Nico is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.ffbc87ad70422f36",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "When did Tame Impala release their second album?",
+    "canonicalAnswer": "2012",
+    "aliases": [],
+    "distractors": [
+      "2015",
+      "2010",
+      "1967"
+    ],
+    "explanation": "The correct answer is 2012.",
+    "details": "Remember the association in this Entertainment: Music question: 2012 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.9a6ba85410f63f49",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "When was the 3rd album \"Notes from the Underground\" of the band \"Hollywood Undead\" released?",
+    "canonicalAnswer": "2013",
+    "aliases": [],
+    "distractors": [
+      "2011",
+      "2014",
+      "2009"
+    ],
+    "explanation": "The correct answer is 2013.",
+    "details": "Remember the association in this Entertainment: Music question: 2013 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.5e67c1a8f712ecff",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which album by American rapper Kanye West contained songs such as \"Love Lockdown\", \"Paranoid\" and \"Heartless\"?",
+    "canonicalAnswer": "808s & Heartbreak",
+    "aliases": [],
+    "distractors": [
+      "Late Registration",
+      "The Life of Pablo",
+      "Graduation"
+    ],
+    "explanation": "The correct answer is 808s & Heartbreak.",
+    "details": "Remember the association in this Entertainment: Music question: 808s & Heartbreak is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.3531a40c8a57ee46",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which alternative rock band released the critically-acclaimed album \"OK Computer\"?",
+    "canonicalAnswer": "Radiohead",
+    "aliases": [],
+    "distractors": [
+      "R.E.M.",
+      "Nirvana",
+      "Coldplay"
+    ],
+    "explanation": "The correct answer is Radiohead.",
+    "details": "Remember the association in this Entertainment: Music question: Radiohead is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.42707e54984a2138",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which American family band had a 1986 top 10 hit with the song 'Crush On You'?",
+    "canonicalAnswer": "The Jets",
+    "aliases": [],
+    "distractors": [
+      "DeBarge",
+      "The Jacksons",
+      "The Cover Girls"
+    ],
+    "explanation": "The correct answer is The Jets.",
+    "details": "Remember the association in this Entertainment: Music question: The Jets is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.e7c09d9204625073",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which artist or group did John Lennon consider \"son(s) of the Beatles\"?",
+    "canonicalAnswer": "Jeff Lynne's Electric Light Orchestra",
+    "aliases": [],
+    "distractors": [
+      "The Rolling Stones",
+      "Pink Floyd",
+      "The Who"
+    ],
+    "explanation": "The correct answer is Jeff Lynne's Electric Light Orchestra.",
+    "details": "Remember the association in this Entertainment: Music question: Jeff Lynne's Electric Light Orchestra is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.36a9266712331260",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which band released the album \"Sonic Highways\" in 2014?",
+    "canonicalAnswer": "Foo Fighters",
+    "aliases": [],
+    "distractors": [
+      "Coldplay",
+      "Nickelback",
+      "The Flaming Lips"
+    ],
+    "explanation": "The correct answer is Foo Fighters.",
+    "details": "Remember the association in this Entertainment: Music question: Foo Fighters is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.15f85c49ed71c83e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which genre of Hip Hop does MC Frontalot rap?",
+    "canonicalAnswer": "Nerdcore",
+    "aliases": [],
+    "distractors": [
+      "Horrorcore",
+      "Christian",
+      "Crunk"
+    ],
+    "explanation": "The correct answer is Nerdcore.",
+    "details": "Remember the association in this Entertainment: Music question: Nerdcore is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.94d3c736af165334",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these songs by artist Eminem contain the lyric \"Nice to meet you. Hi, my name is... I forgot my name!\"?",
+    "canonicalAnswer": "Rain Man",
+    "aliases": [],
+    "distractors": [
+      "Without Me",
+      "Kim",
+      "Square Dance"
+    ],
+    "explanation": "The correct answer is Rain Man.",
+    "details": "Remember the association in this Entertainment: Music question: Rain Man is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.e1d04cfb327a9014",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these songs is NOT in The Beatles' album \"Sgt. Pepper's Lonely Hearts Club Band\"?",
+    "canonicalAnswer": "Strawberry Fields Forever",
+    "aliases": [],
+    "distractors": [
+      "Getting Better",
+      "Fixing a Hole",
+      "Lucy in the Sky with Diamonds"
+    ],
+    "explanation": "The correct answer is Strawberry Fields Forever.",
+    "details": "Remember the association in this Entertainment: Music question: Strawberry Fields Forever is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.b84bf990b30721ac",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which song by Swedish electronic musician Avicii samples the song \"Something's Got A Hold On Me\" by Etta James?",
+    "canonicalAnswer": "Levels",
+    "aliases": [],
+    "distractors": [
+      "Fade Into Darkness",
+      "Silhouettes",
+      "Seek Bromance"
+    ],
+    "explanation": "The correct answer is Levels.",
+    "details": "Remember the association in this Entertainment: Music question: Levels is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.d327b1faad8194cf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which song in Drake's \"Views\" features Future?",
+    "canonicalAnswer": "Grammys",
+    "aliases": [],
+    "distractors": [
+      "Too Good",
+      "Faithful",
+      "Pop Style"
+    ],
+    "explanation": "The correct answer is Grammys.",
+    "details": "Remember the association in this Entertainment: Music question: Grammys is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.81d615c576928e78",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who had a 1973 hit with the song 'Hocus Pocus'?",
+    "canonicalAnswer": "Focus",
+    "aliases": [],
+    "distractors": [
+      "Pilot",
+      "Rush",
+      "AC/DC"
+    ],
+    "explanation": "The correct answer is Focus.",
+    "details": "Remember the association in this Entertainment: Music question: Focus is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.c246e460cb5fbdf4",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the artist of the recent new album the Uncanny Valley?",
+    "canonicalAnswer": "Perturbator",
+    "aliases": [],
+    "distractors": [
+      "Carpenter Brut",
+      "GOST",
+      "Dan Terminus"
+    ],
+    "explanation": "The correct answer is Perturbator.",
+    "details": "Remember the association in this Entertainment: Music question: Perturbator is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.563a5b7fde875802",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the founder and leader of industrial rock band, 'Nine Inch Nails'?",
+    "canonicalAnswer": "Trent Reznor",
+    "aliases": [],
+    "distractors": [
+      "Marilyn Manson",
+      "Robin Finck",
+      "Josh Homme"
+    ],
+    "explanation": "The correct answer is Trent Reznor.",
+    "details": "Remember the association in this Entertainment: Music question: Trent Reznor is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.9e3d88d6349858ce",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who released the 1991 album \"Out of Time\"?",
+    "canonicalAnswer": "R.E.M.",
+    "aliases": [],
+    "distractors": [
+      "U2",
+      "Coldplay",
+      "The Rolling Stones"
+    ],
+    "explanation": "The correct answer is R.E.M..",
+    "details": "Remember the association in this Entertainment: Music question: R.E.M. is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.7266cfbe3c9410ef",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who was the lead singer and frontman of rock band R.E.M?",
+    "canonicalAnswer": "Michael Stipe",
+    "aliases": [],
+    "distractors": [
+      "Chris Martin",
+      "Thom Yorke",
+      "George Michael"
+    ],
+    "explanation": "The correct answer is Michael Stipe.",
+    "details": "Remember the association in this Entertainment: Music question: Michael Stipe is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.63095922729f022f",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who wrote the musical composition, \"Rhapsody In Blue\"?",
+    "canonicalAnswer": "George Gershwin",
+    "aliases": [],
+    "distractors": [
+      "Irving Berlin",
+      "Duke Ellington",
+      "Johnny Mandel"
+    ],
+    "explanation": "The correct answer is George Gershwin.",
+    "details": "Remember the association in this Entertainment: Music question: George Gershwin is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.a924ab1b45fa7ec4",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "A Caixa Malacacheta is what kind of musical instrument which is commonly used in Latin American music?",
+    "canonicalAnswer": "Snare Drum",
+    "aliases": [],
+    "distractors": [
+      "Cow Bell",
+      "Bass Drum",
+      "Maraca"
+    ],
+    "explanation": "The correct answer is Snare Drum.",
+    "details": "Remember the association in this Entertainment: Music question: Snare Drum is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.7e3c328b09c3e2ed",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "In Kendrick Lamar's 2012 album, \"Good Kid, M.A.A.D City\", the album's story takes place in which city?",
+    "canonicalAnswer": "Compton",
+    "aliases": [],
+    "distractors": [
+      "Detroit",
+      "New York",
+      "Baltimore"
+    ],
+    "explanation": "The correct answer is Compton.",
+    "details": "Remember the association in this Entertainment: Music question: Compton is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.a34d9c76a456f18d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the English title of the vaporwave track \"リサフランク420 / 現代のコンピュー\" by Macintosh Plus (Vektroid)?",
+    "canonicalAnswer": "Lisa Frank 420 / Modern Computing",
+    "aliases": [],
+    "distractors": [
+      "Smoke Weed 420 / Everyday",
+      "Make Your Move 420 / My Mind",
+      "It's All In Your Head 420 / Understand"
+    ],
+    "explanation": "The correct answer is Lisa Frank 420 / Modern Computing.",
+    "details": "Remember the association in this Entertainment: Music question: Lisa Frank 420 / Modern Computing is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.3371822a7d86a3cc",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the official name of Prince's backing band?",
+    "canonicalAnswer": "The Revolution",
+    "aliases": [],
+    "distractors": [
+      "The Paupers",
+      "The Wailers",
+      "The Heartbreakers"
+    ],
+    "explanation": "The correct answer is The Revolution.",
+    "details": "Remember the association in this Entertainment: Music question: The Revolution is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.e27669a30f4aa37e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What year was Huun Huur Tu's album Altai Sayan Tandy-Uula released?",
+    "canonicalAnswer": "2004",
+    "aliases": [],
+    "distractors": [
+      "1993",
+      "2006",
+      "2010"
+    ],
+    "explanation": "The correct answer is 2004.",
+    "details": "Remember the association in this Entertainment: Music question: 2004 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.7ca999540673bfce",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which iconic album cover features the pulsar waves of CP 1919 placed in the center of the cover?",
+    "canonicalAnswer": "Unknown Pleasures",
+    "aliases": [],
+    "distractors": [
+      "The Dark Side of the Moon",
+      "London Calling",
+      "The Velvet Underground & Nico"
+    ],
+    "explanation": "The correct answer is Unknown Pleasures.",
+    "details": "Remember the association in this Entertainment: Music question: Unknown Pleasures is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.6d9f1d2134e317d7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these aliases has NOT been used by electronic musician Aphex Twin?",
+    "canonicalAnswer": "Burial",
+    "aliases": [],
+    "distractors": [
+      "Caustic Window",
+      "Bradley Strider",
+      "GAK"
+    ],
+    "explanation": "The correct answer is Burial.",
+    "details": "Remember the association in this Entertainment: Music question: Burial is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sound-and-song.opentdb.13303f6dd30eeada",
+    "topicSlug": "music",
+    "packSlugs": [
+      "sound-and-song"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these songs is not by Tatsuro Yamashita?",
+    "canonicalAnswer": "Lucky Lady Feel So Good",
+    "aliases": [],
+    "distractors": [
+      "Merry-Go Round",
+      "Let's Dance Baby",
+      "Love Talkin'"
+    ],
+    "explanation": "The correct answer is Lucky Lady Feel So Good.",
+    "details": "Remember the association in this Entertainment: Music question: Lucky Lady Feel So Good is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

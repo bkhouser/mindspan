@@ -2,6 +2,7 @@ import {
   BookOpenCheck,
   Clock3,
   Flag,
+  MessageSquareWarning,
   Package,
   Shield,
   Users,
@@ -13,6 +14,7 @@ import { requireSysAdmin } from "@/lib/auth";
 import {
   createBetaInvite,
   togglePack,
+  updateFeedbackStatus,
   updateGlobalTimer,
   updateUserRole,
 } from "./actions";
@@ -27,6 +29,7 @@ export default async function AdminPage({
   const [
     { data: packs },
     { data: reports },
+    { data: feedbackReports },
     { data: users },
     { count: questionCount },
     { data: settings },
@@ -41,6 +44,14 @@ export default async function AdminPage({
       .eq("status", "open")
       .order("created_at", { ascending: false })
       .limit(10),
+    supabase
+      .from("feedback_reports")
+      .select(
+        "id,category,impact,description,expected_behavior,page_path,user_agent,app_version,contact_allowed,status,created_at,reporter:profiles!feedback_reports_reporter_user_id_fkey(display_name)",
+      )
+      .in("status", ["open", "reviewing"])
+      .order("created_at", { ascending: false })
+      .limit(20),
     supabase
       .from("profiles")
       .select("id,display_name,role,beta_access_granted_at,created_at")
@@ -90,7 +101,9 @@ export default async function AdminPage({
         </Card>
         <Card className="p-5">
           <Flag className="text-[var(--danger)]" />
-          <p className="mt-4 text-3xl font-black">{reports?.length ?? 0}</p>
+          <p className="mt-4 text-3xl font-black">
+            {(reports?.length ?? 0) + (feedbackReports?.length ?? 0)}
+          </p>
           <span className="text-sm text-[var(--muted)]">Open reports</span>
         </Card>
       </section>
@@ -235,6 +248,146 @@ export default async function AdminPage({
             {!reports?.length ? (
               <p className="text-sm text-[var(--muted)]">
                 Nothing needs review.
+              </p>
+            ) : null}
+          </div>
+        </Card>
+        <Card className="p-6 xl:col-span-2">
+          <div className="flex items-center gap-3">
+            <MessageSquareWarning className="text-[var(--brand)]" />
+            <div>
+              <h2 className="text-xl font-black">Beta feedback</h2>
+              <p className="text-sm text-[var(--muted)]">
+                Open and reviewing app reports
+              </p>
+            </div>
+          </div>
+          <div className="mt-5 grid gap-4 lg:grid-cols-2">
+            {feedbackReports?.map((report) => {
+              const reporter = Array.isArray(report.reporter)
+                ? report.reporter[0]
+                : report.reporter;
+              return (
+                <article className="rounded-2xl bg-white/5 p-5" key={report.id}>
+                  <div className="flex flex-wrap items-center gap-2 text-xs font-black uppercase tracking-wide">
+                    <span className="rounded-full bg-[var(--brand)]/15 px-2.5 py-1 text-[var(--brand)]">
+                      {report.category}
+                    </span>
+                    <span
+                      className={
+                        report.impact === "blocking"
+                          ? "text-red-200"
+                          : "text-amber-100"
+                      }
+                    >
+                      {report.impact}
+                    </span>
+                    {report.status === "reviewing" ? (
+                      <span className="text-sky-200">reviewing</span>
+                    ) : null}
+                  </div>
+                  <p className="mt-3 whitespace-pre-wrap text-sm leading-6">
+                    {report.description}
+                  </p>
+                  {report.expected_behavior ? (
+                    <p className="mt-3 text-sm text-[var(--muted)]">
+                      <b className="text-slate-200">Expected:</b>{" "}
+                      {report.expected_behavior}
+                    </p>
+                  ) : null}
+                  <dl className="mt-4 grid gap-1 text-xs text-[var(--muted)] sm:grid-cols-2">
+                    <div>
+                      <dt className="inline font-bold text-slate-300">
+                        From:{" "}
+                      </dt>
+                      <dd className="inline">
+                        {reporter?.display_name ?? "Unknown player"}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt className="inline font-bold text-slate-300">
+                        Page:{" "}
+                      </dt>
+                      <dd className="inline">{report.page_path}</dd>
+                    </div>
+                    <div>
+                      <dt className="inline font-bold text-slate-300">
+                        Version:{" "}
+                      </dt>
+                      <dd className="inline">
+                        {report.app_version ?? "Unknown"}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt className="inline font-bold text-slate-300">
+                        Follow-up:{" "}
+                      </dt>
+                      <dd className="inline">
+                        {report.contact_allowed ? "Allowed" : "No"}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt className="inline font-bold text-slate-300">
+                        Submitted:{" "}
+                      </dt>
+                      <dd className="inline">
+                        {new Date(report.created_at).toLocaleString()}
+                      </dd>
+                    </div>
+                  </dl>
+                  {report.user_agent ? (
+                    <details className="mt-4 text-xs text-[var(--muted)]">
+                      <summary className="cursor-pointer font-bold text-slate-300">
+                        Technical context
+                      </summary>
+                      <p className="mt-2 break-words leading-5">
+                        {report.user_agent}
+                      </p>
+                    </details>
+                  ) : null}
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {report.status === "open" ? (
+                      <form action={updateFeedbackStatus}>
+                        <input
+                          name="feedbackId"
+                          type="hidden"
+                          value={report.id}
+                        />
+                        <input name="status" type="hidden" value="reviewing" />
+                        <button className="rounded-full bg-sky-300/15 px-3 py-1.5 text-xs font-black text-sky-100">
+                          Reviewing
+                        </button>
+                      </form>
+                    ) : null}
+                    <form action={updateFeedbackStatus}>
+                      <input
+                        name="feedbackId"
+                        type="hidden"
+                        value={report.id}
+                      />
+                      <input name="status" type="hidden" value="resolved" />
+                      <button className="rounded-full bg-emerald-300/15 px-3 py-1.5 text-xs font-black text-emerald-100">
+                        Resolve
+                      </button>
+                    </form>
+                    <form action={updateFeedbackStatus}>
+                      <input
+                        name="feedbackId"
+                        type="hidden"
+                        value={report.id}
+                      />
+                      <input name="status" type="hidden" value="dismissed" />
+                      <button className="rounded-full bg-white/5 px-3 py-1.5 text-xs font-black text-[var(--muted)]">
+                        Dismiss
+                      </button>
+                    </form>
+                  </div>
+                </article>
+              );
+            })}
+            {!feedbackReports?.length ? (
+              <p className="text-sm text-[var(--muted)]">
+                No beta feedback needs review.
               </p>
             ) : null}
           </div>

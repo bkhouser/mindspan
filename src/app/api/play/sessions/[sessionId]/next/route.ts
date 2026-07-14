@@ -9,6 +9,14 @@ import type {
 } from "@/domain/types";
 import { ApiError, apiContext, errorResponse } from "@/lib/api";
 
+const QUERY_BATCH_SIZE = 100;
+
+function batches<T>(values: T[], size = QUERY_BATCH_SIZE): T[][] {
+  return Array.from({ length: Math.ceil(values.length / size) }, (_, index) =>
+    values.slice(index * size, (index + 1) * size),
+  );
+}
+
 export async function POST(
   _: Request,
   { params }: { params: Promise<{ sessionId: string }> },
@@ -68,28 +76,42 @@ export async function POST(
     ];
     if (!questionIds.length) throw new ApiError("NO_QUESTIONS_AVAILABLE", 404);
 
-    let query = admin
-      .from("question_versions")
-      .select(
-        "id,question_id,topic_id,prompt,difficulty,time_limit_seconds,question_media(media_assets(*)),topics(slug,name)",
-      )
-      .in("question_id", questionIds)
-      .eq("status", "published")
-      .or(`expires_at.is.null,expires_at.gt.${new Date().toISOString()}`);
-    if (session.mode === "topic" && session.topic_id)
-      query = query.eq("topic_id", session.topic_id);
-    const { data: versions, error } = await query;
-    if (error) throw error;
-    const ids = versions?.map((version) => version.question_id) ?? [];
-    const { data: states } = ids.length
-      ? await admin
-          .from("user_question_state")
+    const now = new Date().toISOString();
+    const versionResults = await Promise.all(
+      batches(questionIds).map((questionIdBatch) => {
+        let query = admin
+          .from("question_versions")
           .select(
-            "question_id,correct_count,last_correct,next_review_at,last_session_sequence",
+            "id,question_id,topic_id,prompt,canonical_answer,answer_mode,difficulty,time_limit_seconds,question_media(media_assets(*)),topics(slug,name)",
           )
-          .eq("user_id", user.id)
-          .in("question_id", ids)
-      : { data: [] };
+          .in("question_id", questionIdBatch)
+          .eq("status", "published")
+          .or(`expires_at.is.null,expires_at.gt.${now}`);
+        if (session.mode === "topic" && session.topic_id)
+          query = query.eq("topic_id", session.topic_id);
+        return query;
+      }),
+    );
+    const versionError = versionResults.find((result) => result.error)?.error;
+    if (versionError) throw versionError;
+    const versions = versionResults.flatMap((result) => result.data ?? []);
+    const ids = versions?.map((version) => version.question_id) ?? [];
+    const stateResults = ids.length
+      ? await Promise.all(
+          batches(ids).map((questionIdBatch) =>
+            admin
+              .from("user_question_state")
+              .select(
+                "question_id,correct_count,last_correct,next_review_at,last_session_sequence",
+              )
+              .eq("user_id", user.id)
+              .in("question_id", questionIdBatch),
+          ),
+        )
+      : [];
+    const stateError = stateResults.find((result) => result.error)?.error;
+    if (stateError) throw stateError;
+    const states = stateResults.flatMap((result) => result.data ?? []);
     const stateMap = new Map(
       states?.map((state) => [state.question_id, state]),
     );
@@ -133,12 +155,13 @@ export async function POST(
     }
     const priorCorrectCount =
       stateMap.get(version.question_id)?.correct_count ?? 0;
+    const requiredChoices = version.answer_mode === "required_choice";
     const score = scoreAttempt({
       difficulty: version.difficulty as Difficulty,
       proficiency,
       priorCorrectCount,
       remainingRatio: 1,
-      assisted: false,
+      assisted: requiredChoices,
       correct: true,
     });
     const timerLimitSeconds = scaleQuestionTimer(
@@ -192,9 +215,35 @@ export async function POST(
         };
     }
     if (!topic) throw new ApiError("TOPIC_NOT_FOUND", 500);
+    let initialChoices;
+    if (requiredChoices) {
+      const { data: distractors, error: distractorError } = await admin
+        .from("distractors")
+        .select("id,answer")
+        .eq("question_version_id", version.id)
+        .order("sort_order");
+      if (distractorError) throw distractorError;
+      if (distractors?.length !== 3)
+        throw new ApiError("CHOICES_UNAVAILABLE", 409);
+      const shuffled = [
+        ...distractors.map((item) => ({ id: item.id, text: item.answer })),
+        { id: "canonical", text: version.canonical_answer },
+      ];
+      for (let index = shuffled.length - 1; index > 0; index -= 1) {
+        const swap = Math.floor(Math.random() * (index + 1));
+        [shuffled[index], shuffled[swap]] = [shuffled[swap], shuffled[index]];
+      }
+      initialChoices = {
+        choices: shuffled,
+        assistance: "required_choices" as const,
+        pointFactor: 0.5,
+        revisedPointCeiling: score.startingPoints,
+      };
+    }
     const response: QuestionPresentation = {
       id: presentation.id,
       prompt: version.prompt,
+      answerMode: requiredChoices ? "required_choice" : "recall",
       topic: {
         id: version.topic_id,
         slug: topic.slug as TopicSlug,
@@ -207,6 +256,7 @@ export async function POST(
       startingPoints: score.startingPoints,
       expiresAt: expiresAt.toISOString(),
       mediaLoadDeadline: loadingDeadline?.toISOString() ?? null,
+      ...(initialChoices ? { initialChoices } : {}),
     };
     return NextResponse.json(response);
   } catch (error) {

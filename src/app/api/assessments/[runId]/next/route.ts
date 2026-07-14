@@ -53,7 +53,7 @@ export async function POST(
     let query = admin
       .from("question_versions")
       .select(
-        "id,question_id,prompt,difficulty,time_limit_seconds,question_media(media_assets(*))",
+        "id,question_id,prompt,canonical_answer,answer_mode,difficulty,time_limit_seconds,question_media(media_assets(*))",
       )
       .eq("topic_id", topic.id)
       .eq("difficulty", difficulty)
@@ -65,7 +65,7 @@ export async function POST(
       const fallback = await admin
         .from("question_versions")
         .select(
-          "id,question_id,prompt,difficulty,time_limit_seconds,question_media(media_assets(*))",
+          "id,question_id,prompt,canonical_answer,answer_mode,difficulty,time_limit_seconds,question_media(media_assets(*))",
         )
         .eq("topic_id", topic.id)
         .eq("status", "published")
@@ -123,9 +123,36 @@ export async function POST(
           transcriptAvailable: Boolean(asset.transcript),
         };
     }
+    const requiredChoices = version.answer_mode === "required_choice";
+    let initialChoices;
+    if (requiredChoices) {
+      const { data: distractors, error: distractorError } = await admin
+        .from("distractors")
+        .select("id,answer")
+        .eq("question_version_id", version.id)
+        .order("sort_order");
+      if (distractorError) throw distractorError;
+      if (distractors?.length !== 3)
+        throw new ApiError("CHOICES_UNAVAILABLE", 409);
+      const shuffled = [
+        ...distractors.map((item) => ({ id: item.id, text: item.answer })),
+        { id: "canonical", text: version.canonical_answer },
+      ];
+      for (let index = shuffled.length - 1; index > 0; index -= 1) {
+        const swap = Math.floor(Math.random() * (index + 1));
+        [shuffled[index], shuffled[swap]] = [shuffled[swap], shuffled[index]];
+      }
+      initialChoices = {
+        choices: shuffled,
+        assistance: "required_choices" as const,
+        pointFactor: 0.5,
+        revisedPointCeiling: 0,
+      };
+    }
     const response: QuestionPresentation = {
       id: presentation.id,
       prompt: version.prompt,
+      answerMode: requiredChoices ? "required_choice" : "recall",
       topic: { id: topic.id, slug: topic.slug as TopicSlug, name: topic.name },
       difficulty: version.difficulty as Difficulty,
       media,
@@ -134,6 +161,7 @@ export async function POST(
       startingPoints: 0,
       expiresAt: expiresAt.toISOString(),
       mediaLoadDeadline: loadingDeadline?.toISOString() ?? null,
+      ...(initialChoices ? { initialChoices } : {}),
     };
     return NextResponse.json(response);
   } catch (error) {

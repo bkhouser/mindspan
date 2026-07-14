@@ -3,12 +3,14 @@ import {
   BookOpenCheck,
   Brain,
   CircleUserRound,
+  KeyRound,
   LayoutDashboard,
   Package,
   Shield,
   Users,
 } from "lucide-react";
 import Link from "next/link";
+import { FeedbackNavLink } from "@/components/feedback-nav-link";
 
 const links = [
   { href: "/home", label: "Home", icon: LayoutDashboard },
@@ -18,6 +20,7 @@ const links = [
   { href: "/groups", label: "Groups", icon: Users },
   { href: "/achievements", label: "Achievements", icon: Award },
   { href: "/profile", label: "Profile", icon: CircleUserRound },
+  { href: "/account", label: "Account", icon: KeyRound },
 ];
 
 export function AppNav({ isAdmin }: { isAdmin: boolean }) {
@@ -43,6 +46,7 @@ export function AppNav({ isAdmin }: { isAdmin: boolean }) {
             {label}
           </Link>
         ))}
+        <FeedbackNavLink />
         {isAdmin ? (
           <Link
             className="inline-flex min-h-11 shrink-0 items-center gap-3 rounded-2xl px-3 py-2 text-sm font-bold text-amber-200 hover:bg-white/5"

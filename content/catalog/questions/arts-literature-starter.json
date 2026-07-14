@@ -1,0 +1,2672 @@
+[
+  {
+    "catalogKey": "arts-literature-starter.opentdb.b395331dfb51d441",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "\"Doctor Who\" star David Tennant performed in a rendition of which Shakespearean play?",
+    "canonicalAnswer": "Hamlet",
+    "aliases": [],
+    "distractors": [
+      "The Tempest",
+      "Othello",
+      "The Taming of the Shrew"
+    ],
+    "explanation": "The correct answer is Hamlet.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Hamlet is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f352307dad76306a",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "\"Green Eggs And Ham\" is a book by which author?",
+    "canonicalAnswer": "Dr. Seuss",
+    "aliases": [],
+    "distractors": [
+      "Beatrix Potter",
+      "Roald Dahl",
+      "A.A. Milne"
+    ],
+    "explanation": "The correct answer is Dr. Seuss.",
+    "details": "Remember the association in this Entertainment: Books question: Dr. Seuss is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0a0325e2c28fbd1e",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "How many plays is Shakespeare generally considered to have written?",
+    "canonicalAnswer": "37",
+    "aliases": [],
+    "distractors": [
+      "18",
+      "54",
+      "25"
+    ],
+    "explanation": "The correct answer is 37.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: 37 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0332d88074f2c9c6",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "In Shakespeare's play Julius Caesar, Caesar's last words were...",
+    "canonicalAnswer": "Et tu, Brute?",
+    "aliases": [],
+    "distractors": [
+      "Iacta alea est!",
+      "Vidi, vini, vici.",
+      "Aegri somnia vana."
+    ],
+    "explanation": "The correct answer is Et tu, Brute?.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Et tu, Brute? is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.efd1d835c20ebdbe",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Under what pseudonym did Stephen King publish five novels between 1977 and 1984?",
+    "canonicalAnswer": "Richard Bachman",
+    "aliases": [],
+    "distractors": [
+      "J. D. Robb",
+      "Mark Twain",
+      "Lewis Carroll"
+    ],
+    "explanation": "The correct answer is Richard Bachman.",
+    "details": "Remember the association in this Entertainment: Books question: Richard Bachman is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.8b4a6252730d62a1",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the name of Sherlock Holmes's brother?",
+    "canonicalAnswer": "Mycroft Holmes",
+    "aliases": [],
+    "distractors": [
+      "Mederi Holmes",
+      "Martin Holmes",
+      "Herbie Hancock Holmes"
+    ],
+    "explanation": "The correct answer is Mycroft Holmes.",
+    "details": "Remember the association in this Entertainment: Books question: Mycroft Holmes is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.acbe94dd44a8a9c7",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "What is the name of the Japanese art of folding paper into decorative shapes and figures?",
+    "canonicalAnswer": "Origami",
+    "aliases": [],
+    "distractors": [
+      "Sumi-e",
+      "Ukiyo-e",
+      "Haiku"
+    ],
+    "explanation": "The correct answer is Origami.",
+    "details": "Remember the association in this Art question: Origami is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.230cecf7b3247ce3",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the name of the three headed dog in Harry Potter and the Sorcerer's Stone?",
+    "canonicalAnswer": "Fluffy",
+    "aliases": [],
+    "distractors": [
+      "Spike",
+      "Poofy",
+      "Spot"
+    ],
+    "explanation": "The correct answer is Fluffy.",
+    "details": "Remember the association in this Entertainment: Books question: Fluffy is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.524fc4c79fee7dea",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What was Sir Handel's original name in \"The Railway Series\" and it's animated counterpart \"Thomas and Friends?\"",
+    "canonicalAnswer": "Falcon",
+    "aliases": [],
+    "distractors": [
+      "Eagle",
+      "Kyte",
+      "Swallow"
+    ],
+    "explanation": "The correct answer is Falcon.",
+    "details": "Remember the association in this Entertainment: Books question: Falcon is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.54620ad4429d1260",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What was the first ever entry written for the SCP Foundation collaborative writing project?",
+    "canonicalAnswer": "SCP-173",
+    "aliases": [],
+    "distractors": [
+      "SCP-001",
+      "SCP-999",
+      "SCP-1459"
+    ],
+    "explanation": "The correct answer is SCP-173.",
+    "details": "Remember the association in this Entertainment: Books question: SCP-173 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.8229f0a0b40f56e7",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What was the name of Captain Nemo's submarine in \"20,000 Leagues Under the Sea\"?",
+    "canonicalAnswer": "The Nautilus",
+    "aliases": [],
+    "distractors": [
+      "The Neptune",
+      "The Poseidon",
+      "The Atlantis"
+    ],
+    "explanation": "The correct answer is The Nautilus.",
+    "details": "Remember the association in this Entertainment: Books question: The Nautilus is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f57c1d8371a821e7",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What's Harry Potter's dad's name?",
+    "canonicalAnswer": "James Potter",
+    "aliases": [],
+    "distractors": [
+      "Joey Potter",
+      "Frank Potter",
+      "Hairy Potter Sr."
+    ],
+    "explanation": "The correct answer is James Potter.",
+    "details": "Remember the association in this Entertainment: Books question: James Potter is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f0e9bf69e9a66bdd",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which famous spy novelist wrote the childrens' story \"Chitty-Chitty-Bang-Bang\"?",
+    "canonicalAnswer": "Ian Fleming",
+    "aliases": [],
+    "distractors": [
+      "Joseph Conrad",
+      "John Buchan",
+      "Graham Greene"
+    ],
+    "explanation": "The correct answer is Ian Fleming.",
+    "details": "Remember the association in this Entertainment: Books question: Ian Fleming is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.66a1d49d094265b0",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of the following is the world's best-selling book?",
+    "canonicalAnswer": "The Lord of the Rings",
+    "aliases": [],
+    "distractors": [
+      "The Little Prince",
+      "Harry Potter and the Philosopher's Stone",
+      "The Da Vinci Code"
+    ],
+    "explanation": "The correct answer is The Lord of the Rings.",
+    "details": "Remember the association in this Entertainment: Books question: The Lord of the Rings is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.a133103f1372b325",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which painting was not made by Vincent Van Gogh?",
+    "canonicalAnswer": "The Ninth Wave",
+    "aliases": [],
+    "distractors": [
+      "Café Terrace at Night",
+      "Bedroom In Arles",
+      "Starry Night"
+    ],
+    "explanation": "The correct answer is The Ninth Wave.",
+    "details": "Remember the association in this Art question: The Ninth Wave is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.2c144d7cdad718c8",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Which Shakespeare play inspired the musical 'West Side Story'?",
+    "canonicalAnswer": "Romeo & Juliet",
+    "aliases": [],
+    "distractors": [
+      "Hamlet",
+      "Macbeth",
+      "Othello"
+    ],
+    "explanation": "The correct answer is Romeo & Juliet.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Romeo & Juliet is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0dc6d01fa51fe71e",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which Van Gogh painting depicts the view from his asylum in Saint-Rémy-de-Provence in southern France?",
+    "canonicalAnswer": "The Starry Night",
+    "aliases": [],
+    "distractors": [
+      "Wheatfields with Crows",
+      "The Sower with Setting Sun",
+      "The Church at Auvers"
+    ],
+    "explanation": "The correct answer is The Starry Night.",
+    "details": "Remember the association in this Art question: The Starry Night is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0ae976903dbf1d8f",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who painted \"Swans Reflecting Elephants\", \"Sleep\", and \"The Persistence of Memory\"?",
+    "canonicalAnswer": "Salvador Dali",
+    "aliases": [],
+    "distractors": [
+      "Jackson Pollock",
+      "Vincent van Gogh",
+      "Edgar Degas"
+    ],
+    "explanation": "The correct answer is Salvador Dali.",
+    "details": "Remember the association in this Art question: Salvador Dali is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.ad72a00b12a7783a",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who painted \"The Starry Night\"?",
+    "canonicalAnswer": "Vincent van Gogh",
+    "aliases": [],
+    "distractors": [
+      "Edvard Munch",
+      "Pablo Picasso",
+      "Claude Monet"
+    ],
+    "explanation": "The correct answer is Vincent van Gogh.",
+    "details": "Remember the association in this Art question: Vincent van Gogh is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.827857d5a30d4b08",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who painted the biblical fresco The Creation of Adam?",
+    "canonicalAnswer": "Michelangelo",
+    "aliases": [],
+    "distractors": [
+      "Leonardo da Vinci",
+      "Caravaggio",
+      "Rembrandt"
+    ],
+    "explanation": "The correct answer is Michelangelo.",
+    "details": "Remember the association in this Art question: Michelangelo is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f6b4db495f4e5021",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who painted the Mona Lisa?",
+    "canonicalAnswer": "Leonardo da Vinci",
+    "aliases": [],
+    "distractors": [
+      "Pablo Picasso",
+      "Claude Monet",
+      "Vincent van Gogh"
+    ],
+    "explanation": "The correct answer is Leonardo da Vinci.",
+    "details": "Remember the association in this Art question: Leonardo da Vinci is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.016ef242e405f131",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who painted the Sistine Chapel?",
+    "canonicalAnswer": "Michelangelo",
+    "aliases": [],
+    "distractors": [
+      "Leonardo da Vinci",
+      "Pablo Picasso",
+      "Raphael"
+    ],
+    "explanation": "The correct answer is Michelangelo.",
+    "details": "Remember the association in this Art question: Michelangelo is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0e608c2e41d22145",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who sculpted the statue of David?",
+    "canonicalAnswer": "Michelangelo",
+    "aliases": [],
+    "distractors": [
+      "Gian Lorenzo Bernini",
+      "Auguste Rodin",
+      "Donatello"
+    ],
+    "explanation": "The correct answer is Michelangelo.",
+    "details": "Remember the association in this Art question: Michelangelo is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.9a9e41bcd9c93730",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote \"Harry Potter\"?",
+    "canonicalAnswer": "J.K. Rowling",
+    "aliases": [],
+    "distractors": [
+      "J.R.R. Tolkien",
+      "Terry Pratchett",
+      "Daniel Radcliffe"
+    ],
+    "explanation": "The correct answer is J.K. Rowling.",
+    "details": "Remember the association in this Entertainment: Books question: J.K. Rowling is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.52b03238ea9a6084",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Who wrote the award winning musical \"In The Heights\"?",
+    "canonicalAnswer": "Lin-Manuel Miranda",
+    "aliases": [],
+    "distractors": [
+      "Steven Sondheim",
+      "Francis Scott Key",
+      "John Phillips Sousa"
+    ],
+    "explanation": "The correct answer is Lin-Manuel Miranda.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Lin-Manuel Miranda is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.749102c4d3669593",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Who wrote the play 'Angels in America'?",
+    "canonicalAnswer": "Tony Kusher",
+    "aliases": [],
+    "distractors": [
+      "Tom Stoppard",
+      "Matthew Lopez",
+      "Anthony Neilson"
+    ],
+    "explanation": "The correct answer is Tony Kusher.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Tony Kusher is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f6c8a9e34538299e",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "According to The Hitchhiker's Guide to the Galaxy book, the answer to life, the universe and everything else is...",
+    "canonicalAnswer": "42",
+    "aliases": [],
+    "distractors": [
+      "Loving everyone around you",
+      "Chocolate",
+      "Death"
+    ],
+    "explanation": "The correct answer is 42.",
+    "details": "Remember the association in this Entertainment: Books question: 42 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.df26da1473472524",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "By what name was the author Eric Blair better known?",
+    "canonicalAnswer": "George Orwell",
+    "aliases": [],
+    "distractors": [
+      "Aldous Huxley",
+      "Ernest Hemingway",
+      "Ray Bradbury"
+    ],
+    "explanation": "The correct answer is George Orwell.",
+    "details": "Remember the association in this Entertainment: Books question: George Orwell is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.d688fc10a225c5f4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "How many books are in the Chronicles of Narnia series?",
+    "canonicalAnswer": "7",
+    "aliases": [
+      "seven"
+    ],
+    "distractors": [
+      "6",
+      "8",
+      "5"
+    ],
+    "explanation": "The correct answer is 7.",
+    "details": "Remember the association in this Entertainment: Books question: 7 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.abd02539d2f9ede5",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "In Jeff Wayne's Musical Version of War of the Worlds, the chances of anything coming from Mars are...",
+    "canonicalAnswer": "A million to one",
+    "aliases": [],
+    "distractors": [
+      "A billion to one",
+      "A trillion to one",
+      "A hundred to one"
+    ],
+    "explanation": "The correct answer is A million to one.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: A million to one is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.a5b4e3b51b129366",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In Michael Crichton's novel \"Jurassic Park\", John Hammond meets his demise at the claws of which dinosaur?",
+    "canonicalAnswer": "Procompsognathus",
+    "aliases": [],
+    "distractors": [
+      "Dilophosaurus",
+      "Tyrannosaurus Rex",
+      "Velociraptor"
+    ],
+    "explanation": "The correct answer is Procompsognathus.",
+    "details": "Remember the association in this Entertainment: Books question: Procompsognathus is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.a044d213a31ab7dc",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In Terry Pratchett's Discworld novel 'Wyrd Sisters', which of these are not one of the three main witches?",
+    "canonicalAnswer": "Winny Hathersham",
+    "aliases": [],
+    "distractors": [
+      "Granny Weatherwax",
+      "Nanny Ogg",
+      "Magrat Garlick"
+    ],
+    "explanation": "The correct answer is Winny Hathersham.",
+    "details": "Remember the association in this Entertainment: Books question: Winny Hathersham is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.7e20b018519f2ef2",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the \"Harry Potter\" novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+    "canonicalAnswer": "Answer a riddle",
+    "aliases": [],
+    "distractors": [
+      "Rhythmically tap barrels with a wand",
+      "Speak a password",
+      "Knock in sequence"
+    ],
+    "explanation": "The correct answer is Answer a riddle.",
+    "details": "Remember the association in this Entertainment: Books question: Answer a riddle is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0cf1d8771f60d4b0",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "In which Shakespeare play does the character Marcellus say, \"Something is rotten in the state of Denmark\"?",
+    "canonicalAnswer": "Hamlet",
+    "aliases": [],
+    "distractors": [
+      "Macbeth",
+      "King Lear",
+      "Twelfth Night"
+    ],
+    "explanation": "The correct answer is Hamlet.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Hamlet is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.653a1da4f18e5ae2",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "In which Shakespearean play will you find the suicide of Ophelia?",
+    "canonicalAnswer": "Hamlet",
+    "aliases": [],
+    "distractors": [
+      "Macbeth",
+      "Othello",
+      "King Lear"
+    ],
+    "explanation": "The correct answer is Hamlet.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Hamlet is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.4a393d0102047d06",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "The Andrew Lloyd Webber musical \"Cats\" is based off a book of poems written by which author?",
+    "canonicalAnswer": "T.S. Elliot",
+    "aliases": [],
+    "distractors": [
+      "Andrew Lloyd Webber",
+      "Emily Dickenson",
+      "Robert Frost"
+    ],
+    "explanation": "The correct answer is T.S. Elliot.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: T.S. Elliot is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.3363f2dfdd209978",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "The book \"Fahrenheit 451\" was written by whom?",
+    "canonicalAnswer": "Ray Bradbury",
+    "aliases": [],
+    "distractors": [
+      "R. L. Stine",
+      "Wolfgang Amadeus Mozart",
+      "Stephen King"
+    ],
+    "explanation": "The correct answer is Ray Bradbury.",
+    "details": "Remember the association in this Entertainment: Books question: Ray Bradbury is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.b872ddce46d16da4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "The book \"The Little Prince\" was written by...",
+    "canonicalAnswer": "Antoine de Saint-Exupéry",
+    "aliases": [
+      "Antoine de Saint-Exupery"
+    ],
+    "distractors": [
+      "Miguel de Cervantes Saavedra",
+      "Jane Austen",
+      "F. Scott Fitzgerald"
+    ],
+    "explanation": "The correct answer is Antoine de Saint-Exupéry.",
+    "details": "Remember the association in this Entertainment: Books question: Antoine de Saint-Exupéry is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.ef68cf0ffe12bdd9",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "The musical \"Dirty Rotten Scoundrels\" is set in what country?",
+    "canonicalAnswer": "France",
+    "aliases": [],
+    "distractors": [
+      "USA",
+      "Germany",
+      "Sweden"
+    ],
+    "explanation": "The correct answer is France.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: France is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.e8c58e62e9aa0092",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "The novel \"Of Mice And Men\" was written by what author?",
+    "canonicalAnswer": "John Steinbeck",
+    "aliases": [],
+    "distractors": [
+      "George Orwell",
+      "Mark Twain",
+      "Harper Lee"
+    ],
+    "explanation": "The correct answer is John Steinbeck.",
+    "details": "Remember the association in this Entertainment: Books question: John Steinbeck is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.ebc2a564c5508245",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "The World Chess Championship in Chess, Act 1 is set in which Italian city?",
+    "canonicalAnswer": "Merano",
+    "aliases": [],
+    "distractors": [
+      "Venice",
+      "Milan",
+      "Rome"
+    ],
+    "explanation": "The correct answer is Merano.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Merano is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.78c25b77c79a09dc",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+    "canonicalAnswer": "The Dresden Files",
+    "aliases": [],
+    "distractors": [
+      "A Hat in Time",
+      "The Cinder Spires",
+      "My Life as a Teenage Wizard"
+    ],
+    "explanation": "The correct answer is The Dresden Files.",
+    "details": "Remember the association in this Entertainment: Books question: The Dresden Files is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.4fba1a0903576cae",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the fourth book of the Old Testament?",
+    "canonicalAnswer": "Numbers",
+    "aliases": [],
+    "distractors": [
+      "Genesis",
+      "Exodus",
+      "Leviticus"
+    ],
+    "explanation": "The correct answer is Numbers.",
+    "details": "Remember the association in this Entertainment: Books question: Numbers is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.9b43450b74e4ee0d",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the make and model of the tour vehicles in \"Jurassic Park\" (1990)?",
+    "canonicalAnswer": "1989 Toyota Land Cruiser",
+    "aliases": [],
+    "distractors": [
+      "1989 Jeep Wrangler YJ Sahar",
+      "1989 Ford Explorer XLT",
+      "Mercedes M-Class"
+    ],
+    "explanation": "The correct answer is 1989 Toyota Land Cruiser.",
+    "details": "Remember the association in this Entertainment: Books question: 1989 Toyota Land Cruiser is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.ac5bbab7c25d70d4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "What nationality was the surrealist painter Salvador Dali?",
+    "canonicalAnswer": "Spanish",
+    "aliases": [],
+    "distractors": [
+      "Italian",
+      "French",
+      "Portuguese"
+    ],
+    "explanation": "The correct answer is Spanish.",
+    "details": "Remember the association in this Art question: Spanish is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.064ed814a11e4a0c",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "What play is the quote \"Hell is other people\" from?",
+    "canonicalAnswer": "No Exit",
+    "aliases": [],
+    "distractors": [
+      "The Devil and the Good Lord",
+      "The Condemned of Altona",
+      "The Flies"
+    ],
+    "explanation": "The correct answer is No Exit.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: No Exit is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.17e30bdfcf20eb13",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What position does Harry Potter play in Quidditch?",
+    "canonicalAnswer": "Seeker",
+    "aliases": [],
+    "distractors": [
+      "Beater",
+      "Chaser",
+      "Keeper"
+    ],
+    "explanation": "The correct answer is Seeker.",
+    "details": "Remember the association in this Entertainment: Books question: Seeker is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.8cb684e96447fb08",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "What was George Bizet's last opera?",
+    "canonicalAnswer": "Carmen",
+    "aliases": [],
+    "distractors": [
+      "Don Rodrigue",
+      "Grisélidis",
+      "Les pêcheurs de perles"
+    ],
+    "explanation": "The correct answer is Carmen.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Carmen is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.90f172246775cbfd",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What was the last message of the Dolphins in \"The Hitchhiker's Guide to the Galaxy\"?",
+    "canonicalAnswer": "\"So long, and thanks for all the fish.\"",
+    "aliases": [],
+    "distractors": [
+      "\"The answer is 42.\"",
+      "\"Land of the brave.\"",
+      "\"Goodbye cruel world!\""
+    ],
+    "explanation": "The correct answer is \"So long, and thanks for all the fish.\".",
+    "details": "Remember the association in this Entertainment: Books question: \"So long, and thanks for all the fish.\" is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.286348d7c2503bff",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What was the pen name of novelist, Mary Ann Evans?",
+    "canonicalAnswer": "George Eliot",
+    "aliases": [],
+    "distractors": [
+      "George Orwell",
+      "George Bernard Shaw",
+      "George Saunders"
+    ],
+    "explanation": "The correct answer is George Eliot.",
+    "details": "Remember the association in this Entertainment: Books question: George Eliot is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.bf681f54aa70d486",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "When was the play \"Macbeth\" written?",
+    "canonicalAnswer": "1606",
+    "aliases": [],
+    "distractors": [
+      "1605",
+      "1723",
+      "1628"
+    ],
+    "explanation": "The correct answer is 1606.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: 1606 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f7e9e5f6d0d4a425",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which artist’s studio was known as 'The Factory'?",
+    "canonicalAnswer": "Andy Warhol",
+    "aliases": [],
+    "distractors": [
+      "Roy Lichtenstein",
+      "David Hockney",
+      "Peter Blake"
+    ],
+    "explanation": "The correct answer is Andy Warhol.",
+    "details": "Remember the association in this Art question: Andy Warhol is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0b707393d3a7c543",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which artist's style was to use small different colored dots to create a picture?",
+    "canonicalAnswer": "Georges Seurat",
+    "aliases": [],
+    "distractors": [
+      "Paul Cézanne",
+      "Vincent Van Gogh",
+      "Henri Rousseau"
+    ],
+    "explanation": "The correct answer is Georges Seurat.",
+    "details": "Remember the association in this Art question: Georges Seurat is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.db80087a98e01186",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which novel by John Grisham was conceived on a road trip to Florida while thinking about stolen books with his wife?",
+    "canonicalAnswer": "Camino Island",
+    "aliases": [],
+    "distractors": [
+      "Rogue Lawyer",
+      "Gray Mountain",
+      "The Litigators"
+    ],
+    "explanation": "The correct answer is Camino Island.",
+    "details": "Remember the association in this Entertainment: Books question: Camino Island is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.7c3fbc243fd62cfe",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of the following authors was not born in England?",
+    "canonicalAnswer": "Arthur Conan Doyle",
+    "aliases": [],
+    "distractors": [
+      "Graham Greene",
+      "H G Wells",
+      "Arthur C Clarke"
+    ],
+    "explanation": "The correct answer is Arthur Conan Doyle.",
+    "details": "Remember the association in this Entertainment: Books question: Arthur Conan Doyle is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.c0dbc8c0eec2329a",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Which of the following is not a piece from the 1950's musical West Side Story?",
+    "canonicalAnswer": "The Back Alley",
+    "aliases": [],
+    "distractors": [
+      "Maria",
+      "Tonight",
+      "Mambo"
+    ],
+    "explanation": "The correct answer is The Back Alley.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: The Back Alley is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.d2f66e018ed70f48",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of the following was the author of \"Username Evie\"?",
+    "canonicalAnswer": "Joe Sugg",
+    "aliases": [],
+    "distractors": [
+      "Zoe Sugg",
+      "Joe Weller",
+      "Alfie Deyes"
+    ],
+    "explanation": "The correct answer is Joe Sugg.",
+    "details": "Remember the association in this Entertainment: Books question: Joe Sugg is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.3096afed17137eaf",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which of these are the name of a famous marker brand?",
+    "canonicalAnswer": "Copic",
+    "aliases": [],
+    "distractors": [
+      "Dopix",
+      "Cofix",
+      "Marx"
+    ],
+    "explanation": "The correct answer is Copic.",
+    "details": "Remember the association in this Art question: Copic is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.49307361a1c22b3e",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of these book series is by James Patterson?",
+    "canonicalAnswer": "Maximum Ride",
+    "aliases": [],
+    "distractors": [
+      "Harry Potter",
+      "The Legend of Xanth",
+      "The Bartemaeus Trilogy"
+    ],
+    "explanation": "The correct answer is Maximum Ride.",
+    "details": "Remember the association in this Entertainment: Books question: Maximum Ride is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.cf8b2fdf3ac51f4d",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Which of these musicals won the Tony Award for Best Musical?",
+    "canonicalAnswer": "Rent",
+    "aliases": [],
+    "distractors": [
+      "The Color Purple",
+      "American Idiot",
+      "Newsies"
+    ],
+    "explanation": "The correct answer is Rent.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Rent is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.5d49dca418246404",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which one of these paintings is not by Caspar David Friedrich?",
+    "canonicalAnswer": "The Black Sea",
+    "aliases": [],
+    "distractors": [
+      "The Sea of Ice",
+      "Wanderer above the Sea of Fog",
+      "The Monk by the Sea"
+    ],
+    "explanation": "The correct answer is The Black Sea.",
+    "details": "Remember the association in this Art question: The Black Sea is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.7501b6c1aa7ce3c3",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which time signature is commonly known as “Cut Time?”",
+    "canonicalAnswer": "2/2",
+    "aliases": [],
+    "distractors": [
+      "4/4",
+      "6/8",
+      "3/4"
+    ],
+    "explanation": "The correct answer is 2/2.",
+    "details": "Remember the association in this Art question: 2/2 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.5478c2d7457abb3d",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who designed the Chupa Chups logo?",
+    "canonicalAnswer": "Salvador Dali",
+    "aliases": [],
+    "distractors": [
+      "Pablo Picasso",
+      "Andy Warhol",
+      "Vincent van Gogh"
+    ],
+    "explanation": "The correct answer is Salvador Dali.",
+    "details": "Remember the association in this Art question: Salvador Dali is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f13e9741c8036410",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Who is the musical director for the award winning musical \"Hamilton\"?",
+    "canonicalAnswer": "Alex Lacamoire",
+    "aliases": [],
+    "distractors": [
+      "Lin-Manuel Miranda",
+      "Renee Elise-Goldberry",
+      "Leslie Odom Jr."
+    ],
+    "explanation": "The correct answer is Alex Lacamoire.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Alex Lacamoire is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.894b412b46db84a6",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Who painted the epic mural Guernica?",
+    "canonicalAnswer": "Pablo Picasso",
+    "aliases": [],
+    "distractors": [
+      "Francisco Goya",
+      "Leonardo da Vinci",
+      "Henri Matisse"
+    ],
+    "explanation": "The correct answer is Pablo Picasso.",
+    "details": "Remember the association in this Art question: Pablo Picasso is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.5653ded4aa68cec9",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Who played Marquis de Lafayette and Thomas Jefferson in the original Broadway run of Hamilton?",
+    "canonicalAnswer": "Daveed Diggs",
+    "aliases": [],
+    "distractors": [
+      "Lin-Manuel Miranda",
+      "Javier Muñoz",
+      "Wayne Brady"
+    ],
+    "explanation": "The correct answer is Daveed Diggs.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Daveed Diggs is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.6abb804734177ae4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote the children's story \"The Little Match Girl\"?",
+    "canonicalAnswer": "Hans Christian Andersen",
+    "aliases": [],
+    "distractors": [
+      "Charles Dickens",
+      "Lewis Carroll",
+      "Oscar Wilde"
+    ],
+    "explanation": "The correct answer is Hans Christian Andersen.",
+    "details": "Remember the association in this Entertainment: Books question: Hans Christian Andersen is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.df976a2066a0b531",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "After England, more Shakespeare plays are set in this present day country than in any other.",
+    "canonicalAnswer": "Italy",
+    "aliases": [],
+    "distractors": [
+      "United States",
+      "Greece",
+      "France"
+    ],
+    "explanation": "The correct answer is Italy.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Italy is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.e06e5a8abb568805",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Albrecht Dürer's birthplace and place of death were in...",
+    "canonicalAnswer": "Nürnberg",
+    "aliases": [
+      "Nurnberg"
+    ],
+    "distractors": [
+      "Augsburg",
+      "Bamberg",
+      "Berlin"
+    ],
+    "explanation": "The correct answer is Nürnberg.",
+    "details": "Remember the association in this Art question: Nürnberg is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f3b1511fd8952141",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "How many paint and pastel versions of \"The Scream\" is Norwegian painter Edvard Munch believed to have produced?",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "four"
+    ],
+    "distractors": [
+      "1",
+      "3",
+      "2"
+    ],
+    "explanation": "The correct answer is 4.",
+    "details": "Remember the association in this Art question: 4 is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.b08b8c32efbfc2f4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "In Macbeth, the eyes of what animals were used in the Witches' cauldron?",
+    "canonicalAnswer": "Newts",
+    "aliases": [],
+    "distractors": [
+      "Humans",
+      "Sharks",
+      "Squids"
+    ],
+    "explanation": "The correct answer is Newts.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Newts is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.d79807a7d0e8e75a",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the \"Harry Potter\" series, what is Headmaster Dumbledore's full name?",
+    "canonicalAnswer": "Albus Percival Wulfric Brian Dumbledore",
+    "aliases": [],
+    "distractors": [
+      "Albus Valum Jetta Mobius Dumbledore",
+      "Albus James Lunae Otto Dumbledore",
+      "Albus Valencium Horatio Kul Dumbledore"
+    ],
+    "explanation": "The correct answer is Albus Percival Wulfric Brian Dumbledore.",
+    "details": "Remember the association in this Entertainment: Books question: Albus Percival Wulfric Brian Dumbledore is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.fd80e0afbdea01b8",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
+    "canonicalAnswer": "Badger",
+    "aliases": [],
+    "distractors": [
+      "Fox",
+      "Frog",
+      "Rabbit"
+    ],
+    "explanation": "The correct answer is Badger.",
+    "details": "Remember the association in this Entertainment: Books question: Badger is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.0086f0862dd22f46",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the Harry Potter universe, what is Cornelius Fudge's middle name?",
+    "canonicalAnswer": "Oswald",
+    "aliases": [],
+    "distractors": [
+      "James",
+      "Harold",
+      "Christopher"
+    ],
+    "explanation": "The correct answer is Oswald.",
+    "details": "Remember the association in this Entertainment: Books question: Oswald is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.68a41b72fabe1be5",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In The Lies Of Locke Lamora, what does \"Lamora\" mean in Throne Therin?",
+    "canonicalAnswer": "Shadow",
+    "aliases": [],
+    "distractors": [
+      "Thievery",
+      "Justice",
+      "Chaos"
+    ],
+    "explanation": "The correct answer is Shadow.",
+    "details": "Remember the association in this Entertainment: Books question: Shadow is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.e0c8993e681146b4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
+    "canonicalAnswer": "Terisiare",
+    "aliases": [],
+    "distractors": [
+      "Aerona",
+      "Shiv",
+      "Jamuraa"
+    ],
+    "explanation": "The correct answer is Terisiare.",
+    "details": "Remember the association in this Entertainment: Books question: Terisiare is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.ed905b52d9f64f46",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In which classic novel is there a character named Homer Simpson?",
+    "canonicalAnswer": "The Day of the Locust",
+    "aliases": [],
+    "distractors": [
+      "Catch-22",
+      "Of Mice and Men",
+      "A Separate Peace"
+    ],
+    "explanation": "The correct answer is The Day of the Locust.",
+    "details": "Remember the association in this Entertainment: Books question: The Day of the Locust is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.12fb6e4a8571e553",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Painter Piet Mondrian (1872 - 1944) was a part of what movement?",
+    "canonicalAnswer": "Neoplasticism",
+    "aliases": [],
+    "distractors": [
+      "Precisionism",
+      "Cubism",
+      "Impressionism"
+    ],
+    "explanation": "The correct answer is Neoplasticism.",
+    "details": "Remember the association in this Art question: Neoplasticism is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.66194afb1be4aeab",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "The painting \"The Starry Night\" by Vincent van Gogh was part of which art movement?",
+    "canonicalAnswer": "Post-Impressionism",
+    "aliases": [],
+    "distractors": [
+      "Romanticism",
+      "Neoclassical",
+      "Impressionism"
+    ],
+    "explanation": "The correct answer is Post-Impressionism.",
+    "details": "Remember the association in this Art question: Post-Impressionism is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.2f5a5e3911866c3f",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "What French sculptor designed the Statue of Liberty?",
+    "canonicalAnswer": "Frédéric Auguste Bartholdi",
+    "aliases": [
+      "Frederic Auguste Bartholdi"
+    ],
+    "distractors": [
+      "Jean-Léon Gérôme",
+      "Auguste Rodin",
+      "Henri Matisse"
+    ],
+    "explanation": "The correct answer is Frédéric Auguste Bartholdi.",
+    "details": "Remember the association in this Art question: Frédéric Auguste Bartholdi is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.78d701ec8e63f810",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is Hermione Granger's middle name?",
+    "canonicalAnswer": "Jean",
+    "aliases": [],
+    "distractors": [
+      "Jane",
+      "Emma",
+      "Jo"
+    ],
+    "explanation": "The correct answer is Jean.",
+    "details": "Remember the association in this Entertainment: Books question: Jean is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.e47c1d6b37756fe6",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is Ron Weasley's middle name?",
+    "canonicalAnswer": "Bilius",
+    "aliases": [],
+    "distractors": [
+      "Arthur",
+      "John",
+      "Dominic"
+    ],
+    "explanation": "The correct answer is Bilius.",
+    "details": "Remember the association in this Entertainment: Books question: Bilius is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.7962f510d959ea6b",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "What is the name of Broadway's first \"long-run\" musical?",
+    "canonicalAnswer": "The Elves",
+    "aliases": [],
+    "distractors": [
+      "Wicked",
+      "Hamilton",
+      "The Book of Mormon"
+    ],
+    "explanation": "The correct answer is The Elves.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: The Elves is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.56d2e20f25a0c63d",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the name of the town in which Lily and James Potter are buried?",
+    "canonicalAnswer": "Godric's Hollow",
+    "aliases": [],
+    "distractors": [
+      "Hogsmeade",
+      "Ottery St. Catchpole",
+      "Little Hangleton"
+    ],
+    "explanation": "The correct answer is Godric's Hollow.",
+    "details": "Remember the association in this Entertainment: Books question: Godric's Hollow is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.f8f8145ee94d41c8",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "What year did Albrecht Dürer create the painting \"The Young Hare\"?",
+    "canonicalAnswer": "1502",
+    "aliases": [],
+    "distractors": [
+      "1702",
+      "1402",
+      "1602"
+    ],
+    "explanation": "The correct answer is 1502.",
+    "details": "Remember the association in this Art question: 1502 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.55413466fa679f20",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "What year was the Mona Lisa finished?",
+    "canonicalAnswer": "1504",
+    "aliases": [],
+    "distractors": [
+      "1487",
+      "1523",
+      "1511"
+    ],
+    "explanation": "The correct answer is 1504.",
+    "details": "Remember the association in this Art question: 1504 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.212b740605a3a7c8",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Where does the book \"The Silence of the Lambs\" get its title from?",
+    "canonicalAnswer": "The main character's trauma in childhood",
+    "aliases": [],
+    "distractors": [
+      "The relation it has with killing the innocents",
+      "The villain's favourite meal",
+      "The voice of innocent people being shut by the powerful"
+    ],
+    "explanation": "The correct answer is The main character's trauma in childhood.",
+    "details": "Remember the association in this Entertainment: Books question: The main character's trauma in childhood is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.9bc831fb5662f37a",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which author co-wrote \"The Communist Manifesto\" alongside Karl Marx?",
+    "canonicalAnswer": "Friedrich Engels",
+    "aliases": [],
+    "distractors": [
+      "Robert Owen",
+      "Alexander Kerensky",
+      "Paul Lafargue"
+    ],
+    "explanation": "The correct answer is Friedrich Engels.",
+    "details": "Remember the association in this Entertainment: Books question: Friedrich Engels is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.1cd7dc2afd1c138b",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of the following is NOT a work done by Shakespeare?",
+    "canonicalAnswer": "Trial of Temperance",
+    "aliases": [],
+    "distractors": [
+      "Measure For Measure",
+      "Titus Andronicus",
+      "Cymbeline"
+    ],
+    "explanation": "The correct answer is Trial of Temperance.",
+    "details": "Remember the association in this Entertainment: Books question: Trial of Temperance is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.a2ce7644466c12fe",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of these does Charlie NOT read in The Perks of Being a Wallflower?",
+    "canonicalAnswer": "The Grapes of Wrath",
+    "aliases": [],
+    "distractors": [
+      "Hamlet",
+      "The Great Gatsby",
+      "Peter Pan"
+    ],
+    "explanation": "The correct answer is The Grapes of Wrath.",
+    "details": "Remember the association in this Entertainment: Books question: The Grapes of Wrath is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.5d0ed1854851d813",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Visual Art"
+    ],
+    "prompt": "Which of these is not an additional variation of the color purple?",
+    "canonicalAnswer": "Kobicha",
+    "aliases": [],
+    "distractors": [
+      "Byzantium",
+      "Pomp and Power",
+      "Palatinate"
+    ],
+    "explanation": "The correct answer is Kobicha.",
+    "details": "Remember the association in this Art question: Kobicha is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.1aad9f2e06570da5",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Which Shakespeare play features the stage direction \"Enter a messenger, with two heads and a hand\"?",
+    "canonicalAnswer": "Titus Andronicus",
+    "aliases": [],
+    "distractors": [
+      "Othello",
+      "Macbeth",
+      "King Lear"
+    ],
+    "explanation": "The correct answer is Titus Andronicus.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Titus Andronicus is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.d01e7ab92434c707",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
+    "canonicalAnswer": "Brendon Urie",
+    "aliases": [],
+    "distractors": [
+      "Ed Sheeren",
+      "Tom Cruise",
+      "Dallon Weekes"
+    ],
+    "explanation": "The correct answer is Brendon Urie.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Brendon Urie is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.27937af9b6844014",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Musical Theatre"
+    ],
+    "prompt": "Who serves as the speaker of the prologue in Shakespeare's Romeo and Juliet?",
+    "canonicalAnswer": "Chorus",
+    "aliases": [],
+    "distractors": [
+      "Montague",
+      "Refrain",
+      "Capulet"
+    ],
+    "explanation": "The correct answer is Chorus.",
+    "details": "Remember the association in this Entertainment: Musicals & Theatres question: Chorus is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "arts-literature-starter.opentdb.31fcbe3f36ca1045",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "arts-literature-starter"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote the novel \"Moby-Dick\"?",
+    "canonicalAnswer": "Herman Melville",
+    "aliases": [],
+    "distractors": [
+      "William Golding",
+      "William Shakespeare",
+      "J. R. R. Tolkien"
+    ],
+    "explanation": "The correct answer is Herman Melville.",
+    "details": "Remember the association in this Entertainment: Books question: Herman Melville is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

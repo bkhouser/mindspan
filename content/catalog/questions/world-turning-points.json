@@ -1,0 +1,1406 @@
+[
+  {
+    "catalogKey": "world-turning-points.turning-point-year.greater-poland-uprising-of-1794",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Greater Poland Uprising of 1794 occur?",
+    "canonicalAnswer": "1794",
+    "aliases": [],
+    "distractors": [
+      "1865",
+      "1914",
+      "1937"
+    ],
+    "explanation": "Greater Poland Uprising of 1794 occurred in 1794.",
+    "details": "1794 places Greater Poland Uprising of 1794 in its chronological historical context.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1117601"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-the-silarius-river",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of the Silarius River fought?",
+    "canonicalAnswer": "Sele",
+    "aliases": [],
+    "distractors": [
+      "Galicia",
+      "Stamford Bridge",
+      "Chandannagar"
+    ],
+    "explanation": "The Battle of the Silarius River took place at Sele.",
+    "details": "Sele is the recorded location of the Battle of the Silarius River.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233344"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.quirinal-treaty",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Quirinal Treaty concluded or published?",
+    "canonicalAnswer": "2021",
+    "aliases": [],
+    "distractors": [
+      "1895",
+      "2014",
+      "2005"
+    ],
+    "explanation": "Quirinal Treaty dates to 2021.",
+    "details": "The date 2021 identifies the historical setting in which Quirinal Treaty was concluded.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q97485569"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.kingdom-of-tungning",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Tungning?",
+    "canonicalAnswer": "Tainan",
+    "aliases": [],
+    "distractors": [
+      "Zeila",
+      "Berlin",
+      "Puhar"
+    ],
+    "explanation": "Tainan served as the capital of Kingdom of Tungning.",
+    "details": "Tainan was the principal political center recorded for Kingdom of Tungning.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q152855"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.sigismund-iii-vasa",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Sigismund III Vasa associated with?",
+    "canonicalAnswer": "Polish–Lithuanian Commonwealth",
+    "aliases": [],
+    "distractors": [
+      "Russian Empire",
+      "Kingdom of Bavaria",
+      "Herodian Kingdom of Judea"
+    ],
+    "explanation": "Sigismund III Vasa is associated with Polish–Lithuanian Commonwealth.",
+    "details": "Polish–Lithuanian Commonwealth is the recorded country connected with the reign or citizenship of Sigismund III Vasa.",
+    "difficulty": 1,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52940"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.july-revolt-of-1927",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did July Revolt of 1927 occur?",
+    "canonicalAnswer": "1927",
+    "aliases": [],
+    "distractors": [
+      "1914",
+      "1937",
+      "1903"
+    ],
+    "explanation": "July Revolt of 1927 occurred in 1927.",
+    "details": "1927 places July Revolt of 1927 in its chronological historical context.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q684762"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.brusilov-offensive",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Brusilov Offensive fought?",
+    "canonicalAnswer": "Galicia",
+    "aliases": [],
+    "distractors": [
+      "Stamford Bridge",
+      "Chandannagar",
+      "Panipat"
+    ],
+    "explanation": "The Brusilov Offensive took place at Galicia.",
+    "details": "Galicia is the recorded location of the Brusilov Offensive.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q221967"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.beijing-convention-1895",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Beijing Convention (1895) concluded or published?",
+    "canonicalAnswer": "1895",
+    "aliases": [],
+    "distractors": [
+      "2014",
+      "2005",
+      "1831"
+    ],
+    "explanation": "Beijing Convention (1895) dates to 1895.",
+    "details": "The date 1895 identifies the historical setting in which Beijing Convention (1895) was concluded.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15931852"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.ifat-sultanate",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Ifat Sultanate?",
+    "canonicalAnswer": "Zeila",
+    "aliases": [],
+    "distractors": [
+      "Berlin",
+      "Puhar",
+      "Stuttgart"
+    ],
+    "explanation": "Zeila served as the capital of Ifat Sultanate.",
+    "details": "Zeila was the principal political center recorded for Ifat Sultanate.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q157727"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.gustaf-vi-adolf-of-sweden",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Gustaf VI Adolf of Sweden associated with?",
+    "canonicalAnswer": "Sweden",
+    "aliases": [],
+    "distractors": [
+      "Kingdom of Bavaria",
+      "Herodian Kingdom of Judea",
+      "Bhutan"
+    ],
+    "explanation": "Gustaf VI Adolf of Sweden is associated with Sweden.",
+    "details": "Sweden is the recorded country connected with the reign or citizenship of Gustaf VI Adolf of Sweden.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52878"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.uprising-in-west-hungary",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Uprising in West-Hungary occur?",
+    "canonicalAnswer": "1921",
+    "aliases": [],
+    "distractors": [
+      "1937",
+      "1903",
+      "1862"
+    ],
+    "explanation": "Uprising in West-Hungary occurred in 1921.",
+    "details": "1921 places Uprising in West-Hungary in its chronological historical context.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1219590"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-stamford-bridge",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Stamford Bridge fought?",
+    "canonicalAnswer": "Stamford Bridge",
+    "aliases": [],
+    "distractors": [
+      "Chandannagar",
+      "Panipat",
+      "Chinsurah"
+    ],
+    "explanation": "The Battle of Stamford Bridge took place at Stamford Bridge.",
+    "details": "Stamford Bridge is the recorded location of the Battle of Stamford Bridge.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q203225"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.treaty-on-the-adoption-of-the-republic-of-crimea-to-russia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Treaty on the Adoption of the Republic of Crimea to Russia concluded or published?",
+    "canonicalAnswer": "2014",
+    "aliases": [],
+    "distractors": [
+      "2005",
+      "1831",
+      "969"
+    ],
+    "explanation": "Treaty on the Adoption of the Republic of Crimea to Russia dates to 2014.",
+    "details": "The date 2014 identifies the historical setting in which Treaty on the Adoption of the Republic of Crimea to Russia was concluded.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15963166"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.people-s-republic-of-zanzibar",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of People's Republic of Zanzibar?",
+    "canonicalAnswer": "Zanzibar City",
+    "aliases": [],
+    "distractors": [
+      "Puhar",
+      "Stuttgart",
+      "Hithadhoo"
+    ],
+    "explanation": "Zanzibar City served as the capital of People's Republic of Zanzibar.",
+    "details": "Zanzibar City was the principal political center recorded for People's Republic of Zanzibar.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q157535"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.louis-i-of-hungary",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Louis I of Hungary associated with?",
+    "canonicalAnswer": "Hungary",
+    "aliases": [],
+    "distractors": [
+      "Herodian Kingdom of Judea",
+      "Bhutan",
+      "Ancient Rome"
+    ],
+    "explanation": "Louis I of Hungary is associated with Hungary.",
+    "details": "Hungary is the recorded country connected with the reign or citizenship of Louis I of Hungary.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q53998"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.desmond-rebellions",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Desmond Rebellions occur?",
+    "canonicalAnswer": "1573",
+    "aliases": [],
+    "distractors": [
+      "1903",
+      "1862",
+      "1991"
+    ],
+    "explanation": "Desmond Rebellions occurred in 1573.",
+    "details": "1573 places Desmond Rebellions in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1200808"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-chandannagar",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Chandannagar fought?",
+    "canonicalAnswer": "Chandannagar",
+    "aliases": [],
+    "distractors": [
+      "Panipat",
+      "Chinsurah",
+      "Jhelum River"
+    ],
+    "explanation": "The Battle of Chandannagar took place at Chandannagar.",
+    "details": "Chandannagar is the recorded location of the Battle of Chandannagar.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q211220"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.prum-convention",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Prüm Convention concluded or published?",
+    "canonicalAnswer": "2005",
+    "aliases": [],
+    "distractors": [
+      "1831",
+      "969",
+      "1926"
+    ],
+    "explanation": "Prüm Convention dates to 2005.",
+    "details": "The date 2005 identifies the historical setting in which Prüm Convention was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q543481"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.north-german-confederation",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of North German Confederation?",
+    "canonicalAnswer": "Berlin",
+    "aliases": [],
+    "distractors": [
+      "Stuttgart",
+      "Hithadhoo",
+      "Doğubayazıt"
+    ],
+    "explanation": "Berlin served as the capital of North German Confederation.",
+    "details": "Berlin was the principal political center recorded for North German Confederation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q150981"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.romanos-iii-argyros",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Romanos III Argyros associated with?",
+    "canonicalAnswer": "Byzantine Empire",
+    "aliases": [],
+    "distractors": [
+      "Bhutan",
+      "Ancient Rome",
+      "Durrani Empire"
+    ],
+    "explanation": "Romanos III Argyros is associated with Byzantine Empire.",
+    "details": "Byzantine Empire is the recorded country connected with the reign or citizenship of Romanos III Argyros.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q41657"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.2005-belize-unrest",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did 2005 Belize unrest occur?",
+    "canonicalAnswer": "2005",
+    "aliases": [],
+    "distractors": [
+      "1862",
+      "1991",
+      "1932"
+    ],
+    "explanation": "2005 Belize unrest occurred in 2005.",
+    "details": "2005 places 2005 Belize unrest in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1149912"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-panipat",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Panipat fought?",
+    "canonicalAnswer": "Panipat",
+    "aliases": [],
+    "distractors": [
+      "Chinsurah",
+      "Jhelum River",
+      "Biga River"
+    ],
+    "explanation": "The Battle of Panipat took place at Panipat.",
+    "details": "Panipat is the recorded location of the Battle of Panipat.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233414"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.treaty-of-the-eighteen-articles",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Treaty of the Eighteen Articles concluded or published?",
+    "canonicalAnswer": "1831",
+    "aliases": [],
+    "distractors": [
+      "969",
+      "1926",
+      "1992"
+    ],
+    "explanation": "Treaty of the Eighteen Articles dates to 1831.",
+    "details": "The date 1831 identifies the historical setting in which Treaty of the Eighteen Articles was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3536945"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.chola-dynasty",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Chola dynasty?",
+    "canonicalAnswer": "Puhar",
+    "aliases": [],
+    "distractors": [
+      "Hithadhoo",
+      "Doğubayazıt",
+      "Schwerin"
+    ],
+    "explanation": "Puhar served as the capital of Chola dynasty.",
+    "details": "Puhar was the principal political center recorded for Chola dynasty.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q151148"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.sigismund-i-the-old",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Sigismund I the Old associated with?",
+    "canonicalAnswer": "Kingdom of Poland",
+    "aliases": [],
+    "distractors": [
+      "Ancient Rome",
+      "Durrani Empire",
+      "Grand Duchy of Lithuania"
+    ],
+    "explanation": "Sigismund I the Old is associated with Kingdom of Poland.",
+    "details": "Kingdom of Poland is the recorded country connected with the reign or citizenship of Sigismund I the Old.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54056"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.toplica-insurrection",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Toplica insurrection occur?",
+    "canonicalAnswer": "1917",
+    "aliases": [],
+    "distractors": [
+      "1991",
+      "1932",
+      "1849"
+    ],
+    "explanation": "Toplica insurrection occurred in 1917.",
+    "details": "1917 places Toplica insurrection in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1107316"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-chinsurah",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Chinsurah fought?",
+    "canonicalAnswer": "Chinsurah",
+    "aliases": [],
+    "distractors": [
+      "Jhelum River",
+      "Biga River",
+      "Girona"
+    ],
+    "explanation": "The Battle of Chinsurah took place at Chinsurah.",
+    "details": "Chinsurah is the recorded location of the Battle of Chinsurah.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q211219"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.treaty-of-safar",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Treaty of Safar concluded or published?",
+    "canonicalAnswer": "969",
+    "aliases": [],
+    "distractors": [
+      "1926",
+      "1992",
+      "2020"
+    ],
+    "explanation": "Treaty of Safar dates to 969.",
+    "details": "The date 969 identifies the historical setting in which Treaty of Safar was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q42534103"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.kingdom-of-wurttemberg",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Württemberg?",
+    "canonicalAnswer": "Stuttgart",
+    "aliases": [],
+    "distractors": [
+      "Doğubayazıt",
+      "Schwerin",
+      "Kassel"
+    ],
+    "explanation": "Stuttgart served as the capital of Kingdom of Württemberg.",
+    "details": "Stuttgart was the principal political center recorded for Kingdom of Württemberg.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q159631"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.frederick-francis-iii",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Frederick Francis III associated with?",
+    "canonicalAnswer": "Grand Duchy of Mecklenburg-Schwerin",
+    "aliases": [],
+    "distractors": [
+      "Durrani Empire",
+      "Grand Duchy of Lithuania",
+      "Kingdom of Bohemia"
+    ],
+    "explanation": "Frederick Francis III is associated with Grand Duchy of Mecklenburg-Schwerin.",
+    "details": "Grand Duchy of Mecklenburg-Schwerin is the recorded country connected with the reign or citizenship of Frederick Francis III.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57974"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.tapani-incident",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Tapani Incident occur?",
+    "canonicalAnswer": "1915",
+    "aliases": [],
+    "distractors": [
+      "1932",
+      "1849",
+      "1851"
+    ],
+    "explanation": "Tapani Incident occurred in 1915.",
+    "details": "1915 places Tapani Incident in its chronological historical context.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q707864"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-the-hydaspes",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of the Hydaspes fought?",
+    "canonicalAnswer": "Jhelum River",
+    "aliases": [],
+    "distractors": [
+      "Biga River",
+      "Girona",
+      "Cabezón de Pisuerga"
+    ],
+    "explanation": "The Battle of the Hydaspes took place at Jhelum River.",
+    "details": "Jhelum River is the recorded location of the Battle of the Hydaspes.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q213074"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.international-convention-against-doping-in-sport",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was International Convention against Doping in Sport concluded or published?",
+    "canonicalAnswer": "2005",
+    "aliases": [],
+    "distractors": [
+      "1992",
+      "2020",
+      "1985"
+    ],
+    "explanation": "International Convention against Doping in Sport dates to 2005.",
+    "details": "The date 2005 identifies the historical setting in which International Convention against Doping in Sport was concluded.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15991223"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.united-suvadive-republic",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of United Suvadive Republic?",
+    "canonicalAnswer": "Hithadhoo",
+    "aliases": [],
+    "distractors": [
+      "Schwerin",
+      "Kassel",
+      "Milan"
+    ],
+    "explanation": "Hithadhoo served as the capital of United Suvadive Republic.",
+    "details": "Hithadhoo was the principal political center recorded for United Suvadive Republic.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q150069"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.frederick-francis-ii",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Frederick Francis II associated with?",
+    "canonicalAnswer": "Grand Duchy of Mecklenburg-Schwerin",
+    "aliases": [],
+    "distractors": [
+      "Grand Duchy of Lithuania",
+      "Kingdom of Bohemia",
+      "Kuwait"
+    ],
+    "explanation": "Frederick Francis II is associated with Grand Duchy of Mecklenburg-Schwerin.",
+    "details": "Grand Duchy of Mecklenburg-Schwerin is the recorded country connected with the reign or citizenship of Frederick Francis II.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57976"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.cabochien-revolt",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Cabochien Revolt occur?",
+    "canonicalAnswer": "1413",
+    "aliases": [],
+    "distractors": [
+      "1849",
+      "1851",
+      "1705"
+    ],
+    "explanation": "Cabochien Revolt occurred in 1413.",
+    "details": "1413 places Cabochien Revolt in its chronological historical context.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q962676"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-the-granicus",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of the Granicus fought?",
+    "canonicalAnswer": "Biga River",
+    "aliases": [],
+    "distractors": [
+      "Girona",
+      "Cabezón de Pisuerga",
+      "Kulikovo Field"
+    ],
+    "explanation": "The Battle of the Granicus took place at Biga River.",
+    "details": "Biga River is the recorded location of the Battle of the Granicus.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q192938"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.slavery-convention",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was Slavery Convention concluded or published?",
+    "canonicalAnswer": "1926",
+    "aliases": [],
+    "distractors": [
+      "2020",
+      "1985",
+      "1957"
+    ],
+    "explanation": "Slavery Convention dates to 1926.",
+    "details": "The date 1926 identifies the historical setting in which Slavery Convention was concluded.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q589276"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.republic-of-ararat",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Republic of Ararat?",
+    "canonicalAnswer": "Doğubayazıt",
+    "aliases": [
+      "Dogubayazıt"
+    ],
+    "distractors": [
+      "Kassel",
+      "Milan",
+      "Liège"
+    ],
+    "explanation": "Doğubayazıt served as the capital of Republic of Ararat.",
+    "details": "Doğubayazıt was the principal political center recorded for Republic of Ararat.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q150061"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.w-adys-aw-i-the-elbow-high",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Władysław I the Elbow-high associated with?",
+    "canonicalAnswer": "Kingdom of Poland",
+    "aliases": [],
+    "distractors": [
+      "Kingdom of Bohemia",
+      "Kuwait",
+      "Zhou dynasty"
+    ],
+    "explanation": "Władysław I the Elbow-high is associated with Kingdom of Poland.",
+    "details": "Kingdom of Poland is the recorded country connected with the reign or citizenship of Władysław I the Elbow-high.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54048"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.greater-poland-uprising",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Greater Poland uprising occur?",
+    "canonicalAnswer": "1918",
+    "aliases": [],
+    "distractors": [
+      "1851",
+      "1705",
+      "1382"
+    ],
+    "explanation": "Greater Poland uprising occurred in 1918.",
+    "details": "1918 places Greater Poland uprising in its chronological historical context.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q698027"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-gerona",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Gerona fought?",
+    "canonicalAnswer": "Girona",
+    "aliases": [],
+    "distractors": [
+      "Cabezón de Pisuerga",
+      "Kulikovo Field",
+      "Sellasia"
+    ],
+    "explanation": "The Battle of Gerona took place at Girona.",
+    "details": "Girona is the recorded location of the Battle of Gerona.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q208816"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.european-charter-for-regional-or-minority-languages",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was European Charter for Regional or Minority Languages concluded or published?",
+    "canonicalAnswer": "1992",
+    "aliases": [],
+    "distractors": [
+      "1985",
+      "1957",
+      "1968"
+    ],
+    "explanation": "European Charter for Regional or Minority Languages dates to 1992.",
+    "details": "The date 1992 identifies the historical setting in which European Charter for Regional or Minority Languages was concluded.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q106308"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.grand-duchy-of-mecklenburg-schwerin",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Grand Duchy of Mecklenburg-Schwerin?",
+    "canonicalAnswer": "Schwerin",
+    "aliases": [],
+    "distractors": [
+      "Milan",
+      "Liège",
+      "Bruges"
+    ],
+    "explanation": "Schwerin served as the capital of Grand Duchy of Mecklenburg-Schwerin.",
+    "details": "Schwerin was the principal political center recorded for Grand Duchy of Mecklenburg-Schwerin.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q158445"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.nicholas-ii-of-russia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch Nicholas II of Russia associated with?",
+    "canonicalAnswer": "Russian Empire",
+    "aliases": [],
+    "distractors": [
+      "Kuwait",
+      "Zhou dynasty",
+      "Ancient Egypt"
+    ],
+    "explanation": "Nicholas II of Russia is associated with Russian Empire.",
+    "details": "Russian Empire is the recorded country connected with the reign or citizenship of Nicholas II of Russia.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q40787"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.turning-point-year.heiji-rebellion",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Turning Points"
+    ],
+    "prompt": "In what year did Heiji rebellion occur?",
+    "canonicalAnswer": "1160",
+    "aliases": [],
+    "distractors": [
+      "1705",
+      "1382",
+      "1542"
+    ],
+    "explanation": "Heiji rebellion occurred in 1160.",
+    "details": "1160 places Heiji rebellion in its chronological historical context.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q944859"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.battle-location.battle-of-cabezon",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Military History"
+    ],
+    "prompt": "Where was the Battle of Cabezón fought?",
+    "canonicalAnswer": "Cabezón de Pisuerga",
+    "aliases": [
+      "Cabezon de Pisuerga"
+    ],
+    "distractors": [
+      "Kulikovo Field",
+      "Sellasia",
+      "Artois"
+    ],
+    "explanation": "The Battle of Cabezón took place at Cabezón de Pisuerga.",
+    "details": "Cabezón de Pisuerga is the recorded location of the Battle of Cabezón.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q209721"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.treaty-year.eu-uk-trade-and-cooperation-agreement",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Diplomatic History"
+    ],
+    "prompt": "In what year was EU–UK Trade and Cooperation Agreement concluded or published?",
+    "canonicalAnswer": "2020",
+    "aliases": [],
+    "distractors": [
+      "1957",
+      "1968",
+      "1904"
+    ],
+    "explanation": "EU–UK Trade and Cooperation Agreement dates to 2020.",
+    "details": "The date 2020 identifies the historical setting in which EU–UK Trade and Cooperation Agreement was concluded.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q104469222"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.empire-capital.kingdom-of-westphalia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Empires & Civilizations"
+    ],
+    "prompt": "What was the capital of Kingdom of Westphalia?",
+    "canonicalAnswer": "Kassel",
+    "aliases": [],
+    "distractors": [
+      "Liège",
+      "Bruges",
+      "Antakya"
+    ],
+    "explanation": "Kassel served as the capital of Kingdom of Westphalia.",
+    "details": "Kassel was the principal political center recorded for Kingdom of Westphalia.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q153943"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "world-turning-points.monarch-country.john-iii-of-sweden",
+    "topicSlug": "history",
+    "packSlugs": [
+      "world-turning-points"
+    ],
+    "subtopics": [
+      "Royal History"
+    ],
+    "prompt": "Which country is monarch John III of Sweden associated with?",
+    "canonicalAnswer": "Sweden",
+    "aliases": [],
+    "distractors": [
+      "Zhou dynasty",
+      "Ancient Egypt",
+      "Eswatini"
+    ],
+    "explanation": "John III of Sweden is associated with Sweden.",
+    "details": "Sweden is the recorded country connected with the reign or citizenship of John III of Sweden.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52944"
+    },
+    "expiresAt": null
+  }
+]

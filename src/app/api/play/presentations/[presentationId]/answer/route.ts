@@ -44,16 +44,29 @@ export async function POST(
       .eq("id", presentation.question_version_id)
       .single();
     if (!version) throw new ApiError("QUESTION_NOT_FOUND", 404);
-    const [{ data: aliases }, { data: distractors }] = await Promise.all([
-      admin
-        .from("answer_aliases")
-        .select("answer")
-        .eq("question_version_id", version.id),
-      admin
-        .from("distractors")
-        .select("answer")
-        .eq("question_version_id", version.id),
-    ]);
+    const [{ data: aliases }, { data: distractors }, { data: packLinks }] =
+      await Promise.all([
+        admin
+          .from("answer_aliases")
+          .select("answer")
+          .eq("question_version_id", version.id),
+        admin
+          .from("distractors")
+          .select("answer")
+          .eq("question_version_id", version.id),
+        admin
+          .from("pack_questions")
+          .select("packs(name)")
+          .eq("question_id", version.question_id),
+      ]);
+    const packNames = [
+      ...new Set(
+        (packLinks ?? []).flatMap((link) => {
+          const pack = Array.isArray(link.packs) ? link.packs[0] : link.packs;
+          return pack?.name ? [pack.name] : [];
+        }),
+      ),
+    ].sort((left, right) => left.localeCompare(right));
     const assessmentMode = presentation.algorithm_version === "assessment-v1";
     const now = Date.now();
     const started = new Date(
@@ -88,7 +101,9 @@ export async function POST(
       proficiency: Number(presentation.proficiency_snapshot),
       priorCorrectCount: presentation.prior_correct_count,
       remainingRatio,
-      assisted: presentation.choices_revealed,
+      assisted:
+        presentation.choices_revealed ||
+        version.answer_mode === "required_choice",
       correct: accepted,
     });
     const score = assessmentMode
@@ -145,6 +160,7 @@ export async function POST(
     const uniqueDelta = questionState ? 0 : 1;
     const scoreSnapshot = {
       ...score,
+      answerMode: version.answer_mode,
       elapsedMs,
       priorAttemptCount: questionState?.attempt_count ?? 0,
       timerLimitSeconds: presentation.timer_limit_seconds,
@@ -280,6 +296,7 @@ export async function POST(
       explanation: version.explanation,
       details: version.details,
       source: citation,
+      packNames,
       earnedPoints: score.earnedPoints,
       topicMastery: mastery,
       subtopicMastery,

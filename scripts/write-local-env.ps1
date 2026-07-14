@@ -27,6 +27,7 @@ $content = @(
     "NEXT_PUBLIC_SITE_URL=http://127.0.0.1:3000"
     "NEXT_PUBLIC_SUPABASE_URL=$apiUrl"
     "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=$publishableKey"
+    "NEXT_PUBLIC_GOOGLE_AUTH_ENABLED=false"
     "SUPABASE_SECRET_KEY=$secretKey"
     "INITIAL_SYS_ADMIN_EMAIL=admin@mindspan.local"
 )

@@ -115,6 +115,64 @@ try {
     "a system admin must have global operational visibility",
   );
 
+  const { data: feedback, error: feedbackError } = await member.client
+    .from("feedback_reports")
+    .insert({
+      reporter_user_id: member.id,
+      category: "bug",
+      impact: "annoying",
+      description: "The feedback RLS verification report.",
+      page_path: "/play",
+    })
+    .select("id")
+    .single();
+  assert(
+    !feedbackError && Boolean(feedback),
+    `an active player must be able to submit feedback${feedbackError ? `: ${feedbackError.message}` : ""}`,
+  );
+  const { data: hiddenFeedback } = await outsider.client
+    .from("feedback_reports")
+    .select("id")
+    .eq("id", feedback.id);
+  assert(
+    hiddenFeedback?.length === 0,
+    "another player must not see private feedback",
+  );
+  const { data: spoofedFeedback, error: spoofedFeedbackError } =
+    await member.client
+      .from("feedback_reports")
+      .insert({
+        reporter_user_id: owner.id,
+        category: "other",
+        impact: "minor",
+        description: "This reporter identity must be rejected.",
+        page_path: "/home",
+      })
+      .select("id");
+  assert(
+    Boolean(spoofedFeedbackError) || spoofedFeedback?.length === 0,
+    "a player must not submit feedback as another user",
+  );
+  const { data: adminFeedback } = await systemAdmin.client
+    .from("feedback_reports")
+    .update({ status: "reviewing" })
+    .eq("id", feedback.id)
+    .select("id,status");
+  assert(
+    adminFeedback?.[0]?.status === "reviewing",
+    "a system admin must be able to review feedback",
+  );
+  const { data: memberFeedbackUpdate, error: memberFeedbackUpdateError } =
+    await member.client
+      .from("feedback_reports")
+      .update({ status: "resolved" })
+      .eq("id", feedback.id)
+      .select("id");
+  assert(
+    Boolean(memberFeedbackUpdateError) || memberFeedbackUpdate?.length === 0,
+    "a normal player must not change feedback status",
+  );
+
   const { data: settings } = await member.client
     .from("system_settings")
     .select("default_timer_seconds")
@@ -229,7 +287,12 @@ try {
     "Role escalation, immediate revocation, and final-admin protection passed",
   );
 } finally {
-  if (groupId) await admin.from("groups").delete().eq("id", groupId);
-  for (const id of createdUsers.reverse())
-    await admin.auth.admin.deleteUser(id);
+  if (groupId) {
+    const { error } = await admin.from("groups").delete().eq("id", groupId);
+    if (error) throw error;
+  }
+  for (const id of createdUsers.reverse()) {
+    const { error } = await admin.auth.admin.deleteUser(id);
+    if (error) throw error;
+  }
 }

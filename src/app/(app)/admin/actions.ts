@@ -98,3 +98,33 @@ export async function updateGlobalTimer(formData: FormData) {
   revalidatePath("/admin");
   revalidatePath("/play");
 }
+
+export async function updateFeedbackStatus(formData: FormData) {
+  const { user } = await requireSysAdmin();
+  const input = z
+    .object({
+      feedbackId: z.string().uuid(),
+      status: z.enum(["reviewing", "resolved", "dismissed"]),
+    })
+    .parse(Object.fromEntries(formData));
+  const admin = createAdminClient();
+  const now = new Date().toISOString();
+  const { error } = await admin
+    .from("feedback_reports")
+    .update({
+      status: input.status,
+      updated_at: now,
+      reviewed_at: now,
+      reviewed_by: user.id,
+    })
+    .eq("id", input.feedbackId);
+  if (error) throw error;
+  await admin.from("admin_audit_log").insert({
+    actor_user_id: user.id,
+    action: `feedback.${input.status}`,
+    target_table: "feedback_reports",
+    target_id: input.feedbackId,
+    after_data: { status: input.status },
+  });
+  revalidatePath("/admin");
+}

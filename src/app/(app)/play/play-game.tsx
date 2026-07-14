@@ -1,12 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import {
   CheckCircle2,
   ChevronRight,
   Clock3,
   HelpCircle,
   Pause,
+  Sparkles,
   XCircle,
 } from "lucide-react";
 import type {
@@ -23,6 +24,7 @@ import { DifficultyStars } from "@/components/difficulty-stars";
 import { QuestionTimerBar } from "@/components/question-timer-bar";
 import { remainingScoringRatio } from "@/domain/timer-rules";
 import { useEnterToAdvance } from "@/hooks/use-enter-to-advance";
+import { dismissPlayIntroduction } from "./actions";
 
 interface Option {
   id: string;
@@ -30,11 +32,13 @@ interface Option {
 }
 interface Props {
   initialMode: PlayMode;
+  initialSelectedId?: string;
+  autoStart?: boolean;
   topics: Option[];
   packs: Option[];
-  groups: Array<Option & { timerSecondsOverride: number | null }>;
-  globalTimerSeconds: number;
   immediateChoiceSubmit: boolean;
+  showPlayIntro: boolean;
+  standardTimerSeconds: number;
 }
 type Phase = "setup" | "loading" | "question" | "result";
 
@@ -51,15 +55,16 @@ async function api<T>(url: string, body: unknown): Promise<T> {
 
 export function PlayGame({
   initialMode,
+  initialSelectedId,
+  autoStart = false,
   topics,
   packs,
-  groups,
-  globalTimerSeconds,
   immediateChoiceSubmit,
+  showPlayIntro,
+  standardTimerSeconds,
 }: Props) {
   const [mode, setMode] = useState<PlayMode>(initialMode);
-  const [selectedId, setSelectedId] = useState("");
-  const [selectedGroupId, setSelectedGroupId] = useState("");
+  const [selectedId, setSelectedId] = useState(initialSelectedId ?? "");
   const [sessionId, setSessionId] = useState<string>();
   const [presentation, setPresentation] = useState<QuestionPresentation>();
   const [choices, setChoices] = useState<ChoiceReveal>();
@@ -79,8 +84,24 @@ export function PlayGame({
   const [reportStatus, setReportStatus] = useState<string>();
   const [runStartedAt, setRunStartedAt] = useState(0);
   const [runElapsedMs, setRunElapsedMs] = useState(0);
+  const [introVisible, setIntroVisible] = useState(showPlayIntro);
+  const [introError, setIntroError] = useState<string>();
+  const [, startIntroTransition] = useTransition();
   const submitting = useRef(false);
   const markingMediaReady = useRef(false);
+  const autoStartAttempted = useRef(false);
+
+  function turnOffIntroduction() {
+    setIntroVisible(false);
+    setIntroError(undefined);
+    startIntroTransition(async () => {
+      const result = await dismissPlayIntroduction();
+      if (!result.ok) {
+        setIntroVisible(true);
+        setIntroError("Could not save that preference. Please try again.");
+      }
+    });
+  }
 
   const loadNext = useCallback(async (activeSession: string) => {
     setPhase("loading");
@@ -98,6 +119,7 @@ export function PlayGame({
         {},
       );
       setPresentation(next);
+      setChoices(next.initialChoices);
       setRemainingMs(next.timeLimitSeconds * 1000);
       setMediaReady(!next.media);
       markingMediaReady.current = false;
@@ -112,7 +134,7 @@ export function PlayGame({
     }
   }, []);
 
-  async function start() {
+  const start = useCallback(async () => {
     setPhase("loading");
     setError(undefined);
     setRunStartedAt(Date.now());
@@ -122,7 +144,6 @@ export function PlayGame({
         mode,
         topicId: mode === "topic" ? selectedId : undefined,
         packId: mode === "pack" ? selectedId : undefined,
-        groupId: selectedGroupId || undefined,
       });
       setSessionId(session.id);
       await loadNext(session.id);
@@ -134,7 +155,13 @@ export function PlayGame({
       );
       setPhase("setup");
     }
-  }
+  }, [loadNext, mode, selectedId]);
+
+  useEffect(() => {
+    if (!autoStart || autoStartAttempted.current || !initialSelectedId) return;
+    autoStartAttempted.current = true;
+    void start();
+  }, [autoStart, initialSelectedId, start]);
 
   const submit = useCallback(
     async (value: string, timedOut = false) => {
@@ -269,7 +296,7 @@ export function PlayGame({
   const livePoints = presentation
     ? Math.round(
         presentation.startingPoints *
-          (choices ? 0.5 : 1) *
+          (choices?.assistance === "show_choices" ? 0.5 : 1) *
           (0.25 + 0.75 * scoringTimeRatio),
       )
     : 0;
@@ -283,6 +310,55 @@ export function PlayGame({
         <h1 className="mt-2 text-4xl font-black tracking-tight">
           Pick your path
         </h1>
+        {introVisible ? (
+          <Card className="mt-7 border-emerald-300/20 bg-emerald-300/[.07] p-5 sm:p-6">
+            <div className="flex items-start gap-4">
+              <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-emerald-300/15 text-emerald-200">
+                <Sparkles aria-hidden="true" size={21} />
+              </span>
+              <div className="min-w-0 flex-1">
+                <h2 className="text-xl font-black">Welcome to Play</h2>
+                <p className="mt-2 text-[var(--muted)]">
+                  Build your leaderboard score by demonstrating new knowledge:
+                </p>
+                <ul className="mt-3 list-disc space-y-2 pl-5 text-sm leading-6 text-[var(--muted)] marker:text-emerald-300">
+                  <li>Novel and difficult questions are worth more.</li>
+                  <li>
+                    The standard timer is {standardTimerSeconds} seconds. Point
+                    value decreases over time; a timeout earns zero points.
+                  </li>
+                  <li>Showing choices halves the remaining point value.</li>
+                  <li>
+                    Required multiple-choice questions show choices immediately
+                    and begin at half value.
+                  </li>
+                  <li>
+                    Answering the same question correctly is worth less each
+                    time, eventually reaching zero.
+                  </li>
+                  <li>
+                    Lifetime points determine your group leaderboard position.
+                  </li>
+                </ul>
+                <button
+                  className="mt-4 text-sm font-black text-[var(--brand)] hover:underline"
+                  onClick={turnOffIntroduction}
+                  type="button"
+                >
+                  Don’t show this again
+                </button>
+              </div>
+            </div>
+          </Card>
+        ) : null}
+        {introError ? (
+          <p
+            className="mt-3 text-sm font-bold text-[var(--danger)]"
+            role="alert"
+          >
+            {introError}
+          </p>
+        ) : null}
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
           {(["mixed", "topic", "pack"] as PlayMode[]).map((value) => (
             <button
@@ -317,29 +393,6 @@ export function PlayGame({
             ))}
           </select>
         ) : null}
-        <label className="mt-5 block text-sm font-bold">
-          Timer rules
-          <select
-            className="mt-2 min-h-12 w-full rounded-2xl border border-white/15 bg-[var(--surface)] px-4"
-            onChange={(event) => setSelectedGroupId(event.target.value)}
-            value={selectedGroupId}
-          >
-            <option value="">
-              Personal play — global default ({globalTimerSeconds}s)
-            </option>
-            {groups.map((group) => (
-              <option key={group.id} value={group.id}>
-                {group.name} —{" "}
-                {group.timerSecondsOverride ?? globalTimerSeconds}s
-                {group.timerSecondsOverride ? " override" : " global"}
-              </option>
-            ))}
-          </select>
-        </label>
-        <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-          A group can change the answer window. Time-based points and mastery
-          remain normalized to the {globalTimerSeconds}-second global baseline.
-        </p>
         {error ? (
           <p className="mt-4 text-sm text-[var(--danger)]" role="alert">
             {error}
@@ -372,55 +425,120 @@ export function PlayGame({
       <div className="mx-auto max-w-3xl">
         <AchievementCelebration achievements={result.achievements} />
         <Card
-          className={`overflow-hidden border-t-4 ${result.correct ? "border-t-emerald-300" : "border-t-rose-300"}`}
+          className={`overflow-hidden ${result.correct ? "border-emerald-300/25" : "border-rose-300/30"}`}
         >
-          <div className="p-6 sm:p-8">
-            <div className="flex items-center gap-3">
-              {result.correct ? (
-                <CheckCircle2 className="text-emerald-300" />
-              ) : (
-                <XCircle className="text-rose-300" />
-              )}
-              <p className="font-black">
-                {result.correct ? "That’s right" : "Not this time"}
-              </p>
-              <b className="ml-auto text-[var(--accent)]">
-                +{result.earnedPoints} pts
-              </b>
+          <div
+            className={`border-b border-white/10 p-6 sm:p-8 ${result.correct ? "bg-gradient-to-br from-emerald-300/[.13] via-emerald-300/[.04] to-transparent" : "bg-gradient-to-br from-rose-300/[.13] via-rose-300/[.04] to-transparent"}`}
+          >
+            <div className="flex items-center gap-4">
+              <span
+                className={`grid size-12 shrink-0 place-items-center rounded-2xl ${result.correct ? "bg-emerald-300/15 text-emerald-200" : "bg-rose-300/15 text-rose-200"}`}
+              >
+                {result.correct ? (
+                  <CheckCircle2 aria-hidden="true" size={26} />
+                ) : (
+                  <XCircle aria-hidden="true" size={26} />
+                )}
+              </span>
+              <div className="min-w-0">
+                <p className="whitespace-nowrap text-[10px] font-black uppercase tracking-[.16em] text-[var(--muted)] sm:text-xs sm:tracking-[.18em]">
+                  Answer result
+                </p>
+                <p className="mt-1 text-xl font-black">
+                  {result.correct ? "That’s right" : "Not this time"}
+                </p>
+              </div>
+              <div className="ml-auto shrink-0 rounded-2xl border border-white/10 bg-black/15 px-3 py-2 text-right sm:px-4">
+                <b className="block text-xl text-[var(--accent)]">
+                  +{result.earnedPoints.toLocaleString()}
+                </b>
+                <span className="block text-[10px] font-black uppercase tracking-[.12em] text-[var(--muted)]">
+                  points earned
+                </span>
+              </div>
             </div>
-            <h2 className="mt-7 text-3xl font-black">
+            <div className="mt-5 flex flex-wrap items-center gap-2.5">
+              <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-bold">
+                {presentation.topic.name}
+              </span>
+              {result.packNames.length ? (
+                <span
+                  className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-bold"
+                  data-testid="question-pack"
+                >
+                  {result.packNames.join(", ")}
+                </span>
+              ) : null}
+              <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5">
+                <span className="text-xs font-bold text-[var(--muted)]">
+                  Difficulty
+                </span>
+                <DifficultyStars
+                  difficulty={presentation.difficulty}
+                  size={13}
+                />
+              </span>
+            </div>
+          </div>
+          <div className="p-6 sm:p-8">
+            <div className="rounded-2xl border border-white/10 bg-black/15 p-4 sm:p-5">
+              <p className="text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
+                Question
+              </p>
+              <p className="mt-2 text-sm font-bold leading-6 sm:text-base">
+                {presentation.prompt}
+              </p>
+            </div>
+            <p className="mt-6 text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
+              Correct answer
+            </p>
+            <h2 className="mt-2 text-3xl font-black sm:text-4xl">
               {result.canonicalAnswer}
             </h2>
-            <p className="mt-4 text-lg leading-8">{result.explanation}</p>
-            <div className="mt-5 rounded-2xl bg-white/5 p-4">
-              <p className="leading-7 text-[var(--muted)]">{result.details}</p>
-              <a
-                className="mt-3 inline-block text-sm font-bold text-[var(--brand)] underline"
-                href={result.source.url}
-                rel="noreferrer"
-                target="_blank"
-              >
-                {result.source.label}
-              </a>
+            <div className="mt-6 border-t border-white/10 pt-6">
+              <p className="text-lg font-bold leading-8">
+                {result.explanation}
+              </p>
+              <p className="mt-4 leading-7 text-[var(--muted)]">
+                {result.details}
+              </p>
             </div>
-            <div className="mt-6 flex items-center justify-between rounded-2xl bg-emerald-300/10 p-4">
-              <span className="text-sm">
-                {presentation.topic.name} proficiency
-              </span>
-              <b>{Math.round(result.topicMastery.proficiency * 100)}%</b>
-            </div>
-            {result.subtopicMastery.length ? (
-              <div className="mt-3 flex flex-wrap gap-2">
-                {result.subtopicMastery.map((subtopic) => (
-                  <span
-                    className="rounded-full bg-white/5 px-3 py-1.5 text-xs font-bold text-[var(--muted)]"
-                    key={subtopic.id}
-                  >
-                    {subtopic.name} {Math.round(subtopic.proficiency * 100)}%
-                  </span>
-                ))}
+            <div
+              className="mt-6 rounded-2xl border border-emerald-300/15 bg-emerald-300/[.07] p-4 sm:p-5"
+              data-testid="topic-proficiency"
+            >
+              <div className="flex items-end justify-between gap-4">
+                <div>
+                  <p className="text-[11px] font-black uppercase tracking-[.14em] text-[var(--muted)]">
+                    Topic proficiency
+                  </p>
+                  <p className="mt-1 font-bold">{presentation.topic.name}</p>
+                </div>
+                <b className="text-2xl">
+                  {Math.round(result.topicMastery.proficiency * 100)}%
+                </b>
               </div>
-            ) : null}
+              <div className="mt-3 h-2 overflow-hidden rounded-full bg-black/20">
+                <div
+                  className="h-full rounded-full bg-emerald-300"
+                  style={{
+                    width: `${Math.max(0, Math.min(100, Math.round(result.topicMastery.proficiency * 100)))}%`,
+                  }}
+                />
+              </div>
+              {result.subtopicMastery.length ? (
+                <div className="mt-4 flex flex-wrap gap-2 border-t border-white/10 pt-4">
+                  {result.subtopicMastery.map((subtopic) => (
+                    <span
+                      className="rounded-full bg-black/15 px-3 py-1.5 text-xs font-bold text-[var(--muted)]"
+                      key={subtopic.id}
+                    >
+                      {subtopic.name} {Math.round(subtopic.proficiency * 100)}%
+                    </span>
+                  ))}
+                </div>
+              ) : null}
+            </div>
             {result.achievements.length ? (
               <div className="mt-5 rounded-2xl border border-amber-300/30 bg-amber-300/10 p-4">
                 <b>Achievement unlocked</b>
@@ -551,6 +669,11 @@ export function PlayGame({
         <h1 className="text-2xl font-black leading-tight sm:text-4xl">
           {presentation.prompt}
         </h1>
+        {presentation.answerMode === "required_choice" ? (
+          <p className="mt-4 text-sm font-bold text-[var(--muted)]">
+            Multiple choice · shown at 50% value
+          </p>
+        ) : null}
         {choices ? (
           <div className="mt-8 grid gap-3 sm:grid-cols-2">
             {choices.choices.map((choice) => (

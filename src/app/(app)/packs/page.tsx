@@ -1,4 +1,5 @@
-import { LockKeyhole, PackageOpen, Sparkles } from "lucide-react";
+import Link from "next/link";
+import { LockKeyhole, PackageOpen, Play, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
 import {
@@ -6,6 +7,7 @@ import {
   calculatePackProgress,
 } from "@/domain/pack-progress";
 import { requireUser } from "@/lib/auth";
+import { fetchAllPages } from "@/lib/supabase-pagination";
 import { unlockPack } from "./actions";
 
 function AverageDifficulty({
@@ -37,13 +39,48 @@ function AverageDifficulty({
 export default async function PacksPage() {
   const { user, supabase } = await requireUser();
   const now = new Date().toISOString();
+
+  async function loadAllPackQuestions() {
+    return fetchAllPages((from, to) =>
+      supabase
+        .from("pack_questions")
+        .select("pack_id,question_id")
+        .order("pack_id")
+        .order("question_id")
+        .range(from, to),
+    );
+  }
+
+  async function loadAllQuestionStates() {
+    return fetchAllPages((from, to) =>
+      supabase
+        .from("user_question_state")
+        .select("question_id,attempt_count,correct_count")
+        .eq("user_id", user.id)
+        .order("question_id")
+        .range(from, to),
+    );
+  }
+
+  async function loadAllPublishedVersions() {
+    return fetchAllPages((from, to) =>
+      supabase
+        .from("question_versions")
+        .select("question_id,difficulty")
+        .eq("status", "published")
+        .or(`expires_at.is.null,expires_at.gt.${now}`)
+        .order("question_id")
+        .range(from, to),
+    );
+  }
+
   const [
     { data: packs },
     { data: unlocks },
     { data: ledger },
-    { data: packQuestions },
-    { data: questionStates },
-    { data: publishedVersions },
+    packQuestions,
+    questionStates,
+    publishedVersions,
   ] = await Promise.all([
     supabase
       .from("packs")
@@ -53,16 +90,9 @@ export default async function PacksPage() {
       .order("name"),
     supabase.from("pack_unlocks").select("pack_id").eq("user_id", user.id),
     supabase.from("insight_ledger").select("amount").eq("user_id", user.id),
-    supabase.from("pack_questions").select("pack_id,question_id"),
-    supabase
-      .from("user_question_state")
-      .select("question_id,attempt_count,correct_count")
-      .eq("user_id", user.id),
-    supabase
-      .from("question_versions")
-      .select("question_id,difficulty")
-      .eq("status", "published")
-      .or(`expires_at.is.null,expires_at.gt.${now}`),
+    loadAllPackQuestions(),
+    loadAllQuestionStates(),
+    loadAllPublishedVersions(),
   ]);
   const owned = new Set(unlocks?.map((item) => item.pack_id));
   const balance = ledger?.reduce((sum, item) => sum + item.amount, 0) ?? 0;
@@ -70,14 +100,12 @@ export default async function PacksPage() {
     publishedVersions?.map((version) => version.question_id),
   );
   const progressByPack = calculatePackProgress(
-    (packQuestions ?? []).filter((link) =>
-      playableQuestions.has(link.question_id),
-    ),
-    questionStates ?? [],
+    packQuestions.filter((link) => playableQuestions.has(link.question_id)),
+    questionStates,
   );
   const averageDifficultyByPack = calculatePackAverageDifficulty(
-    packQuestions ?? [],
-    publishedVersions ?? [],
+    packQuestions,
+    publishedVersions,
   );
   const unlockedPacks = packs?.filter((pack) => owned.has(pack.id)) ?? [];
   const lockedPacks = packs?.filter((pack) => !owned.has(pack.id)) ?? [];
@@ -89,7 +117,7 @@ export default async function PacksPage() {
           <p className="text-sm font-black uppercase tracking-[.2em] text-[var(--brand)]">
             Question catalog
           </p>
-          <h1 className="mt-2 text-4xl font-black">Packs</h1>
+          <h1 className="mt-2 text-4xl font-black">Question Packs</h1>
         </div>
         <div className="inline-flex items-center gap-2 rounded-full bg-amber-300/10 px-4 py-2 font-black text-amber-200">
           <Sparkles aria-hidden="true" size={18} />
@@ -113,7 +141,7 @@ export default async function PacksPage() {
         </div>
         <Card className="mt-4 overflow-hidden">
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[820px] text-sm">
+            <table className="w-full min-w-[900px] text-sm">
               <caption className="sr-only">
                 Progress through unlocked question packs
               </caption>
@@ -136,6 +164,9 @@ export default async function PacksPage() {
                   </th>
                   <th className="px-5 py-3 text-center" scope="col">
                     Correct
+                  </th>
+                  <th className="px-5 py-3 text-right" scope="col">
+                    <span className="sr-only">Actions</span>
                   </th>
                 </tr>
               </thead>
@@ -177,6 +208,20 @@ export default async function PacksPage() {
                       </td>
                       <td className="px-5 py-4 text-center font-black text-emerald-200">
                         {progress.correct}
+                      </td>
+                      <td className="px-5 py-4 text-right">
+                        <Link
+                          aria-label={`Play ${pack.name}`}
+                          className="inline-flex min-h-10 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[var(--brand)] px-4 py-2 font-black text-slate-950 transition hover:bg-[var(--brand-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
+                          href={`/play?mode=pack&packId=${encodeURIComponent(pack.id)}&start=1`}
+                        >
+                          <Play
+                            aria-hidden="true"
+                            fill="currentColor"
+                            size={14}
+                          />
+                          Play pack
+                        </Link>
                       </td>
                     </tr>
                   );

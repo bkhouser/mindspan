@@ -1,0 +1,2662 @@
+[
+  {
+    "catalogKey": "geography-starter.country-capital.greece",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Greece?",
+    "canonicalAnswer": "Athens",
+    "aliases": [],
+    "distractors": [
+      "Vaduz",
+      "Valletta",
+      "New Delhi"
+    ],
+    "explanation": "Athens is the capital of Greece.",
+    "details": "Athens serves as the national capital and a principal seat of government for Greece.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q41"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.cyprus",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Cyprus located?",
+    "canonicalAnswer": "Europe",
+    "aliases": [],
+    "distractors": [
+      "Insular Oceania",
+      "Asia",
+      "South America"
+    ],
+    "explanation": "Cyprus is located in Europe.",
+    "details": "Europe is the continent used to geographically classify Cyprus.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q229"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.colorado-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Colorado River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Mediterranean Sea"
+    ],
+    "explanation": "The Colorado River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Colorado River.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q270627"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.stecknadelhorn",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Stecknadelhorn located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Italy",
+      "United Kingdom",
+      "France"
+    ],
+    "explanation": "Stecknadelhorn is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Stecknadelhorn.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30444"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.susa",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Susa?",
+    "canonicalAnswer": "Iran",
+    "aliases": [],
+    "distractors": [
+      "Russia",
+      "Vatican City",
+      "South Korea"
+    ],
+    "explanation": "Susa is in Iran.",
+    "details": "Iran is the country associated with the location of Susa.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q180773"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.liechtenstein",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Liechtenstein?",
+    "canonicalAnswer": "Vaduz",
+    "aliases": [],
+    "distractors": [
+      "Valletta",
+      "New Delhi",
+      "Warsaw"
+    ],
+    "explanation": "Vaduz is the capital of Liechtenstein.",
+    "details": "Vaduz serves as the national capital and a principal seat of government for Liechtenstein.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q347"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.fiji",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Fiji located?",
+    "canonicalAnswer": "Insular Oceania",
+    "aliases": [],
+    "distractors": [
+      "Asia",
+      "South America",
+      "North America"
+    ],
+    "explanation": "Fiji is located in Insular Oceania.",
+    "details": "Insular Oceania is the continent used to geographically classify Fiji.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q712"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.kuiseb-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Kuiseb River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Indian Ocean",
+      "Mediterranean Sea",
+      "North Sea"
+    ],
+    "explanation": "The Kuiseb River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Kuiseb River.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1432995"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.witenalpstock",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Witenalpstock located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "United Kingdom",
+      "France",
+      "Japan"
+    ],
+    "explanation": "Witenalpstock is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Witenalpstock.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43313"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.church-of-the-ascension-kolomenskoye",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Church of the Ascension, Kolomenskoye?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Vatican City",
+      "South Korea",
+      "Syria"
+    ],
+    "explanation": "Church of the Ascension, Kolomenskoye is in Russia.",
+    "details": "Russia is the country associated with the location of Church of the Ascension, Kolomenskoye.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q220951"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.malta",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Malta?",
+    "canonicalAnswer": "Valletta",
+    "aliases": [],
+    "distractors": [
+      "New Delhi",
+      "Warsaw",
+      "Wellington"
+    ],
+    "explanation": "Valletta is the capital of Malta.",
+    "details": "Valletta serves as the national capital and a principal seat of government for Malta.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q233"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.vanuatu",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Vanuatu located?",
+    "canonicalAnswer": "Insular Oceania",
+    "aliases": [],
+    "distractors": [
+      "South America",
+      "North America",
+      "Oceania"
+    ],
+    "explanation": "Vanuatu is located in Insular Oceania.",
+    "details": "Insular Oceania is the continent used to geographically classify Vanuatu.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q686"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.ave-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Ave River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Mediterranean Sea",
+      "North Sea",
+      "Black Sea"
+    ],
+    "explanation": "The Ave River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Ave River.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q14591"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.piz-alv",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Piz Alv located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "France",
+      "Japan",
+      "Indonesia"
+    ],
+    "explanation": "Piz Alv is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Piz Alv.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43288"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.st-peter-s-basilica",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark St. Peter's Basilica?",
+    "canonicalAnswer": "Vatican City",
+    "aliases": [],
+    "distractors": [
+      "South Korea",
+      "Syria",
+      "Switzerland"
+    ],
+    "explanation": "St. Peter's Basilica is in Vatican City.",
+    "details": "Vatican City is the country associated with the location of St. Peter's Basilica.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q12512"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.india",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of India?",
+    "canonicalAnswer": "New Delhi",
+    "aliases": [],
+    "distractors": [
+      "Warsaw",
+      "Wellington",
+      "Palikir"
+    ],
+    "explanation": "New Delhi is the capital of India.",
+    "details": "New Delhi serves as the national capital and a principal seat of government for India.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q668"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.slovenia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Slovenia located?",
+    "canonicalAnswer": "Europe",
+    "aliases": [],
+    "distractors": [
+      "North America",
+      "Oceania",
+      "Africa"
+    ],
+    "explanation": "Slovenia is located in Europe.",
+    "details": "Europe is the continent used to geographically classify Slovenia.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q215"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.congo",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Congo flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "North Sea",
+      "Black Sea",
+      "Gulf of Mexico"
+    ],
+    "explanation": "The Congo empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Congo.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3503"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.lenzspitze",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Lenzspitze located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Japan",
+      "Indonesia",
+      "Pakistan"
+    ],
+    "explanation": "Lenzspitze is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Lenzspitze.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30436"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.namsan-seoul-tower",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Namsan Seoul Tower?",
+    "canonicalAnswer": "South Korea",
+    "aliases": [],
+    "distractors": [
+      "Syria",
+      "Switzerland",
+      "United States"
+    ],
+    "explanation": "Namsan Seoul Tower is in South Korea.",
+    "details": "South Korea is the country associated with the location of Namsan Seoul Tower.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q69134"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.poland",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Poland?",
+    "canonicalAnswer": "Warsaw",
+    "aliases": [],
+    "distractors": [
+      "Wellington",
+      "Palikir",
+      "Suva"
+    ],
+    "explanation": "Warsaw is the capital of Poland.",
+    "details": "Warsaw serves as the national capital and a principal seat of government for Poland.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q36"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.indonesia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Indonesia located?",
+    "canonicalAnswer": "Asia",
+    "aliases": [],
+    "distractors": [
+      "Oceania",
+      "Africa",
+      "Europe"
+    ],
+    "explanation": "Indonesia is located in Asia.",
+    "details": "Asia is the continent used to geographically classify Indonesia.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q252"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.nunez-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Nunez River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Black Sea",
+      "Gulf of Mexico",
+      "Pacific Ocean"
+    ],
+    "explanation": "The Nunez River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Nunez River.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q767474"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.grand-pilier-d-angle",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Grand Pilier d'Angle located?",
+    "canonicalAnswer": "Italy",
+    "aliases": [],
+    "distractors": [
+      "Indonesia",
+      "Pakistan",
+      "Argentina"
+    ],
+    "explanation": "Grand Pilier d'Angle is located in Italy.",
+    "details": "Italy is the country recorded for the location of Grand Pilier d'Angle.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30441"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.umayyad-mosque",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Umayyad Mosque?",
+    "canonicalAnswer": "Syria",
+    "aliases": [],
+    "distractors": [
+      "Switzerland",
+      "United States",
+      "Iraq"
+    ],
+    "explanation": "Umayyad Mosque is in Syria.",
+    "details": "Syria is the country associated with the location of Umayyad Mosque.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q183562"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.new-zealand",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of New Zealand?",
+    "canonicalAnswer": "Wellington",
+    "aliases": [],
+    "distractors": [
+      "Palikir",
+      "Suva",
+      "Port Moresby"
+    ],
+    "explanation": "Wellington is the capital of New Zealand.",
+    "details": "Wellington serves as the national capital and a principal seat of government for New Zealand.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q664"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.luxembourg",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Luxembourg located?",
+    "canonicalAnswer": "Europe",
+    "aliases": [],
+    "distractors": [
+      "Africa",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "explanation": "Luxembourg is located in Europe.",
+    "details": "Europe is the continent used to geographically classify Luxembourg.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q32"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.maroni",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Maroni flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Gulf of Mexico",
+      "Pacific Ocean",
+      "Indian Ocean"
+    ],
+    "explanation": "The Maroni empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Maroni.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1369002"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.beinn-bhuidhe",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Beinn Bhuidhe located?",
+    "canonicalAnswer": "United Kingdom",
+    "aliases": [],
+    "distractors": [
+      "Pakistan",
+      "Argentina",
+      "Tajikistan"
+    ],
+    "explanation": "Beinn Bhuidhe is located in United Kingdom.",
+    "details": "United Kingdom is the country recorded for the location of Beinn Bhuidhe.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q41204"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.holy-trinity-church-in-listy",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Holy Trinity Church in Listy?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "United States",
+      "Iraq",
+      "Spain"
+    ],
+    "explanation": "Holy Trinity Church in Listy is in Russia.",
+    "details": "Russia is the country associated with the location of Holy Trinity Church in Listy.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q210032"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.federated-states-of-micronesia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Federated States of Micronesia?",
+    "canonicalAnswer": "Palikir",
+    "aliases": [],
+    "distractors": [
+      "Suva",
+      "Port Moresby",
+      "Nairobi"
+    ],
+    "explanation": "Palikir is the capital of Federated States of Micronesia.",
+    "details": "Palikir serves as the national capital and a principal seat of government for Federated States of Micronesia.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q702"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.chile",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Chile located?",
+    "canonicalAnswer": "South America",
+    "aliases": [],
+    "distractors": [
+      "Europe",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "explanation": "Chile is located in South America.",
+    "details": "South America is the continent used to geographically classify Chile.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q298"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.orinoco-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Orinoco River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Mediterranean Sea"
+    ],
+    "explanation": "The Orinoco River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Orinoco River.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q131792"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.gross-fiescherhorn",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Gross Fiescherhorn located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Argentina",
+      "Tajikistan",
+      "Bolivia"
+    ],
+    "explanation": "Gross Fiescherhorn is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Gross Fiescherhorn.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30495"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.chapel-bridge",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Chapel Bridge?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Iraq",
+      "Spain",
+      "Germany"
+    ],
+    "explanation": "Chapel Bridge is in Switzerland.",
+    "details": "Switzerland is the country associated with the location of Chapel Bridge.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q25225"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.fiji",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Fiji?",
+    "canonicalAnswer": "Suva",
+    "aliases": [],
+    "distractors": [
+      "Port Moresby",
+      "Nairobi",
+      "Apia"
+    ],
+    "explanation": "Suva is the capital of Fiji.",
+    "details": "Suva serves as the national capital and a principal seat of government for Fiji.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q712"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.timor-leste",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Timor-Leste located?",
+    "canonicalAnswer": "Asia",
+    "aliases": [],
+    "distractors": [
+      "Insular Oceania",
+      "South America",
+      "North America"
+    ],
+    "explanation": "Timor-Leste is located in Asia.",
+    "details": "Asia is the continent used to geographically classify Timor-Leste.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q574"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.draa-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Draa River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Mediterranean Sea"
+    ],
+    "explanation": "The Draa River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Draa River.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q486636"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.lauteraarhorn",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Lauteraarhorn located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Tajikistan",
+      "Bolivia",
+      "Iran"
+    ],
+    "explanation": "Lauteraarhorn is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Lauteraarhorn.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30499"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.karim-khan-citadel",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Karim Khan Citadel?",
+    "canonicalAnswer": "Iran",
+    "aliases": [],
+    "distractors": [
+      "Spain",
+      "Germany",
+      "India"
+    ],
+    "explanation": "Karim Khan Citadel is in Iran.",
+    "details": "Iran is the country associated with the location of Karim Khan Citadel.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q206220"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.papua-new-guinea",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Papua New Guinea?",
+    "canonicalAnswer": "Port Moresby",
+    "aliases": [],
+    "distractors": [
+      "Nairobi",
+      "Apia",
+      "Funafuti"
+    ],
+    "explanation": "Port Moresby is the capital of Papua New Guinea.",
+    "details": "Port Moresby serves as the national capital and a principal seat of government for Papua New Guinea.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q691"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.belize",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Belize located?",
+    "canonicalAnswer": "North America",
+    "aliases": [],
+    "distractors": [
+      "Asia",
+      "South America",
+      "Oceania"
+    ],
+    "explanation": "Belize is located in North America.",
+    "details": "North America is the continent used to geographically classify Belize.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q242"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.blavet",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Blavet flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Indian Ocean",
+      "Mediterranean Sea",
+      "North Sea"
+    ],
+    "explanation": "The Blavet empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Blavet.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q745809"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.salbitschijen",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Salbitschijen located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Bolivia",
+      "Iran",
+      "Spain"
+    ],
+    "explanation": "Salbitschijen is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Salbitschijen.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43172"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.veliky-ustyug",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Veliky Ustyug?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Germany",
+      "India",
+      "United Arab Emirates"
+    ],
+    "explanation": "Veliky Ustyug is in Russia.",
+    "details": "Russia is the country associated with the location of Veliky Ustyug.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q111048"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.kenya",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Kenya?",
+    "canonicalAnswer": "Nairobi",
+    "aliases": [],
+    "distractors": [
+      "Apia",
+      "Funafuti",
+      "Nukuʻalofa"
+    ],
+    "explanation": "Nairobi is the capital of Kenya.",
+    "details": "Nairobi serves as the national capital and a principal seat of government for Kenya.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q114"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.barbados",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Barbados located?",
+    "canonicalAnswer": "North America",
+    "aliases": [],
+    "distractors": [
+      "South America",
+      "Oceania",
+      "Africa"
+    ],
+    "explanation": "Barbados is located in North America.",
+    "details": "North America is the continent used to geographically classify Barbados.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q244"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.mira-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Mira River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Mediterranean Sea",
+      "North Sea",
+      "Black Sea"
+    ],
+    "explanation": "The Mira River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Mira River.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q16671"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.ober-gabelhorn",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Ober Gabelhorn located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Iran",
+      "Spain",
+      "Russia"
+    ],
+    "explanation": "Ober Gabelhorn is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Ober Gabelhorn.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30490"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.hollywood-sign",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Hollywood Sign?",
+    "canonicalAnswer": "United States",
+    "aliases": [],
+    "distractors": [
+      "India",
+      "United Arab Emirates",
+      "Belgium"
+    ],
+    "explanation": "Hollywood Sign is in United States.",
+    "details": "United States is the country associated with the location of Hollywood Sign.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q180376"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.samoa",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Samoa?",
+    "canonicalAnswer": "Apia",
+    "aliases": [],
+    "distractors": [
+      "Funafuti",
+      "Nukuʻalofa",
+      "Honiara"
+    ],
+    "explanation": "Apia is the capital of Samoa.",
+    "details": "Apia serves as the national capital and a principal seat of government for Samoa.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q683"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.nauru",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Nauru located?",
+    "canonicalAnswer": "Oceania",
+    "aliases": [],
+    "distractors": [
+      "North America",
+      "Africa",
+      "Europe"
+    ],
+    "explanation": "Nauru is located in Oceania.",
+    "details": "Oceania is the continent used to geographically classify Nauru.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q697"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.massa-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Massa River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "North Sea",
+      "Black Sea",
+      "Gulf of Mexico"
+    ],
+    "explanation": "The Massa River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Massa River.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q39755"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.mont-blanc-du-tacul",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Mont Blanc du Tacul located?",
+    "canonicalAnswer": "France",
+    "aliases": [],
+    "distractors": [
+      "Spain",
+      "Russia",
+      "United States"
+    ],
+    "explanation": "Mont Blanc du Tacul is located in France.",
+    "details": "France is the country recorded for the location of Mont Blanc du Tacul.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30438"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.al-kadhimiya-mosque",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Al-Kadhimiya Mosque?",
+    "canonicalAnswer": "Iraq",
+    "aliases": [],
+    "distractors": [
+      "United Arab Emirates",
+      "Belgium",
+      "Luxembourg"
+    ],
+    "explanation": "Al-Kadhimiya Mosque is in Iraq.",
+    "details": "Iraq is the country associated with the location of Al-Kadhimiya Mosque.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q154116"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.tuvalu",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Tuvalu?",
+    "canonicalAnswer": "Funafuti",
+    "aliases": [],
+    "distractors": [
+      "Nukuʻalofa",
+      "Honiara",
+      "Port Vila"
+    ],
+    "explanation": "Funafuti is the capital of Tuvalu.",
+    "details": "Funafuti serves as the national capital and a principal seat of government for Tuvalu.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q672"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.india",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is India located?",
+    "canonicalAnswer": "Asia",
+    "aliases": [],
+    "distractors": [
+      "Oceania",
+      "Africa",
+      "Europe"
+    ],
+    "explanation": "India is located in Asia.",
+    "details": "Asia is the continent used to geographically classify India.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q668"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.rio-de-la-plata",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Río de la Plata flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Black Sea",
+      "Gulf of Mexico",
+      "Pacific Ocean"
+    ],
+    "explanation": "The Río de la Plata empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Río de la Plata.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q35827"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.weissmies",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Weissmies located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Russia",
+      "United States",
+      "Turkey"
+    ],
+    "explanation": "Weissmies is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Weissmies.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30529"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.lenin-s-mausoleum",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Lenin's Mausoleum?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Belgium",
+      "Luxembourg",
+      "Japan"
+    ],
+    "explanation": "Lenin's Mausoleum is in Russia.",
+    "details": "Russia is the country associated with the location of Lenin's Mausoleum.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q191414"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.tonga",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Tonga?",
+    "canonicalAnswer": "Nukuʻalofa",
+    "aliases": [],
+    "distractors": [
+      "Honiara",
+      "Port Vila",
+      "Bratislava"
+    ],
+    "explanation": "Nukuʻalofa is the capital of Tonga.",
+    "details": "Nukuʻalofa serves as the national capital and a principal seat of government for Tonga.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q678"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.belarus",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Belarus located?",
+    "canonicalAnswer": "Europe",
+    "aliases": [],
+    "distractors": [
+      "Africa",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "explanation": "Belarus is located in Europe.",
+    "details": "Europe is the continent used to geographically classify Belarus.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q184"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.orange-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Orange River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Gulf of Mexico",
+      "Pacific Ocean",
+      "Indian Ocean"
+    ],
+    "explanation": "The Orange River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Orange River.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q181475"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.aiguille-du-jardin",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Aiguille du Jardin located?",
+    "canonicalAnswer": "France",
+    "aliases": [],
+    "distractors": [
+      "United States",
+      "Turkey",
+      "South Korea"
+    ],
+    "explanation": "Aiguille du Jardin is located in France.",
+    "details": "France is the country recorded for the location of Aiguille du Jardin.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30502"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.saint-andrew-s-cathedral-st-petersburg",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Saint Andrew's Cathedral, St Petersburg?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Luxembourg",
+      "Japan",
+      "France"
+    ],
+    "explanation": "Saint Andrew's Cathedral, St Petersburg is in Russia.",
+    "details": "Russia is the country associated with the location of Saint Andrew's Cathedral, St Petersburg.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q152271"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.solomon-islands",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Solomon Islands?",
+    "canonicalAnswer": "Honiara",
+    "aliases": [],
+    "distractors": [
+      "Port Vila",
+      "Bratislava",
+      "Skopje"
+    ],
+    "explanation": "Honiara is the capital of Solomon Islands.",
+    "details": "Honiara serves as the national capital and a principal seat of government for Solomon Islands.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q685"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.peru",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Peru located?",
+    "canonicalAnswer": "South America",
+    "aliases": [],
+    "distractors": [
+      "Europe",
+      "Insular Oceania",
+      "Asia"
+    ],
+    "explanation": "Peru is located in South America.",
+    "details": "South America is the continent used to geographically classify Peru.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q419"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.olfusa",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Ölfusá flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Mediterranean Sea"
+    ],
+    "explanation": "The Ölfusá empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Ölfusá.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q297018"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.mount-fuji",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Mount Fuji located?",
+    "canonicalAnswer": "Japan",
+    "aliases": [],
+    "distractors": [
+      "Turkey",
+      "South Korea",
+      "Germany"
+    ],
+    "explanation": "Mount Fuji is located in Japan.",
+    "details": "Japan is the country recorded for the location of Mount Fuji.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q39231"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.trinity-lavra-of-st-sergius",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Trinity Lavra of St. Sergius?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Japan",
+      "France",
+      "Australia"
+    ],
+    "explanation": "Trinity Lavra of St. Sergius is in Russia.",
+    "details": "Russia is the country associated with the location of Trinity Lavra of St. Sergius.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q211962"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.vanuatu",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Vanuatu?",
+    "canonicalAnswer": "Port Vila",
+    "aliases": [],
+    "distractors": [
+      "Bratislava",
+      "Skopje",
+      "Phnom Penh"
+    ],
+    "explanation": "Port Vila is the capital of Vanuatu.",
+    "details": "Port Vila serves as the national capital and a principal seat of government for Vanuatu.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q686"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.argentina",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Argentina located?",
+    "canonicalAnswer": "South America",
+    "aliases": [],
+    "distractors": [
+      "Insular Oceania",
+      "Asia",
+      "North America"
+    ],
+    "explanation": "Argentina is located in South America.",
+    "details": "South America is the continent used to geographically classify Argentina.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q414"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.gallegos-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Gallegos River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Pacific Ocean",
+      "Indian Ocean",
+      "Mediterranean Sea"
+    ],
+    "explanation": "The Gallegos River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Gallegos River.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q474602"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.bristen",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Bristen located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "South Korea",
+      "Germany",
+      "Slovakia"
+    ],
+    "explanation": "Bristen is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Bristen.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43299"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.baltic-rail-terminal",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Baltic rail terminal?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "France",
+      "Australia",
+      "Canada"
+    ],
+    "explanation": "Baltic rail terminal is in Russia.",
+    "details": "Russia is the country associated with the location of Baltic rail terminal.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q50913"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.slovakia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Slovakia?",
+    "canonicalAnswer": "Bratislava",
+    "aliases": [],
+    "distractors": [
+      "Skopje",
+      "Phnom Penh",
+      "Buenos Aires"
+    ],
+    "explanation": "Bratislava is the capital of Slovakia.",
+    "details": "Bratislava serves as the national capital and a principal seat of government for Slovakia.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q214"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.egypt",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Egypt located?",
+    "canonicalAnswer": "Africa",
+    "aliases": [],
+    "distractors": [
+      "Asia",
+      "South America",
+      "North America"
+    ],
+    "explanation": "Egypt is located in Africa.",
+    "details": "Africa is the continent used to geographically classify Egypt.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q79"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.saloum-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Saloum River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Indian Ocean",
+      "Mediterranean Sea",
+      "North Sea"
+    ],
+    "explanation": "The Saloum River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Saloum River.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q940142"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.chruzlistock",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Chrüzlistock located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "Germany",
+      "Slovakia",
+      "People's Republic of China"
+    ],
+    "explanation": "Chrüzlistock is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Chrüzlistock.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43291"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.moskovsky-railway-station",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Moskovsky railway station?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Australia",
+      "Canada",
+      "Belarus"
+    ],
+    "explanation": "Moskovsky railway station is in Russia.",
+    "details": "Russia is the country associated with the location of Moskovsky railway station.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q139318"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.north-macedonia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of North Macedonia?",
+    "canonicalAnswer": "Skopje",
+    "aliases": [],
+    "distractors": [
+      "Phnom Penh",
+      "Buenos Aires",
+      "Yaren District"
+    ],
+    "explanation": "Skopje is the capital of North Macedonia.",
+    "details": "Skopje serves as the national capital and a principal seat of government for North Macedonia.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q221"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.latvia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Latvia located?",
+    "canonicalAnswer": "Europe",
+    "aliases": [],
+    "distractors": [
+      "South America",
+      "North America",
+      "Oceania"
+    ],
+    "explanation": "Latvia is located in Europe.",
+    "details": "Europe is the continent used to geographically classify Latvia.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q211"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.sergipe-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Sergipe River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Mediterranean Sea",
+      "North Sea",
+      "Black Sea"
+    ],
+    "explanation": "The Sergipe River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Sergipe River.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1153044"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.les-courtes",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Les Courtes located?",
+    "canonicalAnswer": "France",
+    "aliases": [],
+    "distractors": [
+      "Slovakia",
+      "People's Republic of China",
+      "Austria"
+    ],
+    "explanation": "Les Courtes is located in France.",
+    "details": "France is the country recorded for the location of Les Courtes.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q38128"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.st-basil-s-cathedral",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark St. Basil's Cathedral?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Canada",
+      "Belarus",
+      "Poland"
+    ],
+    "explanation": "St. Basil's Cathedral is in Russia.",
+    "details": "Russia is the country associated with the location of St. Basil's Cathedral.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q129846"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.cambodia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Cambodia?",
+    "canonicalAnswer": "Phnom Penh",
+    "aliases": [],
+    "distractors": [
+      "Buenos Aires",
+      "Yaren District",
+      "Reykjavík"
+    ],
+    "explanation": "Phnom Penh is the capital of Cambodia.",
+    "details": "Phnom Penh serves as the national capital and a principal seat of government for Cambodia.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q424"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.australia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Australia located?",
+    "canonicalAnswer": "Oceania",
+    "aliases": [],
+    "distractors": [
+      "North America",
+      "Africa",
+      "Europe"
+    ],
+    "explanation": "Australia is located in Oceania.",
+    "details": "Oceania is the continent used to geographically classify Australia.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q408"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.aille-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Aille River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "North Sea",
+      "Black Sea",
+      "Gulf of Mexico"
+    ],
+    "explanation": "The Aille River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Aille River.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q405212"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.huetstock",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Huetstock located?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "People's Republic of China",
+      "Austria",
+      "Iceland"
+    ],
+    "explanation": "Huetstock is located in Switzerland.",
+    "details": "Switzerland is the country recorded for the location of Huetstock.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q43268"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.voronezh-state-agrarian-university",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Voronezh State Agrarian University?",
+    "canonicalAnswer": "Russia",
+    "aliases": [],
+    "distractors": [
+      "Belarus",
+      "Poland",
+      "Georgia"
+    ],
+    "explanation": "Voronezh State Agrarian University is in Russia.",
+    "details": "Russia is the country associated with the location of Voronezh State Agrarian University.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q137355"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-capital.argentina",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Countries & Capitals"
+    ],
+    "prompt": "What is the capital of Argentina?",
+    "canonicalAnswer": "Buenos Aires",
+    "aliases": [],
+    "distractors": [
+      "Yaren District",
+      "Reykjavík",
+      "Majuro"
+    ],
+    "explanation": "Buenos Aires is the capital of Argentina.",
+    "details": "Buenos Aires serves as the national capital and a principal seat of government for Argentina.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q414"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.country-continent.federated-states-of-micronesia",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "World Regions"
+    ],
+    "prompt": "On which continent is Federated States of Micronesia located?",
+    "canonicalAnswer": "Oceania",
+    "aliases": [],
+    "distractors": [
+      "Africa",
+      "Europe",
+      "Insular Oceania"
+    ],
+    "explanation": "Federated States of Micronesia is located in Oceania.",
+    "details": "Oceania is the continent used to geographically classify Federated States of Micronesia.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q702"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.river-mouth.cavado-river",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Rivers"
+    ],
+    "prompt": "Into what body of water does the Cávado River flow?",
+    "canonicalAnswer": "Atlantic Ocean",
+    "aliases": [],
+    "distractors": [
+      "Black Sea",
+      "Gulf of Mexico",
+      "Pacific Ocean"
+    ],
+    "explanation": "The Cávado River empties into Atlantic Ocean.",
+    "details": "Atlantic Ocean is recorded as the terminal water body or mouth of the Cávado River.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q14582"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.mountain-country.mont-brouillard",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Mountains"
+    ],
+    "prompt": "In which country is Mont Brouillard located?",
+    "canonicalAnswer": "Italy",
+    "aliases": [],
+    "distractors": [
+      "Austria",
+      "Iceland",
+      "Mexico"
+    ],
+    "explanation": "Mont Brouillard is located in Italy.",
+    "details": "Italy is the country recorded for the location of Mont Brouillard.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q30488"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "geography-starter.landmark-country.teide",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "geography-starter"
+    ],
+    "subtopics": [
+      "Landmarks"
+    ],
+    "prompt": "Which country contains the landmark Teide?",
+    "canonicalAnswer": "Spain",
+    "aliases": [],
+    "distractors": [
+      "Poland",
+      "Georgia",
+      "Sweden"
+    ],
+    "explanation": "Teide is in Spain.",
+    "details": "Spain is the country associated with the location of Teide.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q38954"
+    },
+    "expiresAt": null
+  }
+]

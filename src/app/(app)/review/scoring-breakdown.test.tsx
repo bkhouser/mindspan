@@ -46,4 +46,20 @@ describe("ScoringBreakdown", () => {
 
     expect(screen.getByText("1 point earned")).toBeVisible();
   });
+
+  it("identifies the automatic discount for required multiple choice", () => {
+    render(
+      <ScoringBreakdown
+        correct
+        earnedPoints={20}
+        snapshot={{
+          ...snapshot,
+          answerMode: "required_choice",
+          assistanceFactor: 0.5,
+        }}
+      />,
+    );
+
+    expect(screen.getByText("Required multiple choice")).toBeVisible();
+  });
 });

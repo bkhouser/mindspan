@@ -1,0 +1,117 @@
+{
+  "catalogVersion": "2026.07.13.3",
+  "packs": [
+    {
+      "slug": "science-nature-starter",
+      "name": "Science & Nature Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "history-starter",
+      "name": "History Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "geography-starter",
+      "name": "Geography Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "sports-starter",
+      "name": "Sports Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "arts-literature-starter",
+      "name": "Arts & Literature Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "film-television-starter",
+      "name": "Film & Television Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "music-starter",
+      "name": "Music Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "lifestyle-culture-starter",
+      "name": "Lifestyle & Culture Starter",
+      "target": 100,
+      "existingSeedCount": 5,
+      "generatedTarget": 95,
+      "difficulty": [14, 19, 29, 19, 14]
+    },
+    {
+      "slug": "space-and-beyond",
+      "name": "Space & Beyond",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [0, 0, 10, 30, 10]
+    },
+    {
+      "slug": "world-turning-points",
+      "name": "World Turning Points",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 20, 10, 5]
+    },
+    {
+      "slug": "masterworks",
+      "name": "Masterworks",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 20, 10, 5]
+    },
+    {
+      "slug": "sound-and-song",
+      "name": "Sound & Song",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 20, 10, 5]
+    },
+    {
+      "slug": "easy-does-it",
+      "name": "Easy Does It",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [25, 15, 10, 0, 0]
+    },
+    {
+      "slug": "trivia-101",
+      "name": "Trivia 101",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [20, 18, 10, 2, 0]
+    }
+  ]
+}

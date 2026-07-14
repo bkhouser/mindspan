@@ -1,0 +1,2668 @@
+[
+  {
+    "catalogKey": "film-television-starter.opentdb.a6f171c4724fcc1f",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "At the end of the 2001 film \"Rat Race\", whose concert do the contestants crash?",
+    "canonicalAnswer": "Smash Mouth",
+    "aliases": [],
+    "distractors": [
+      "Bowling for Soup",
+      "Sum 41",
+      "Linkin Park"
+    ],
+    "explanation": "The correct answer is Smash Mouth.",
+    "details": "Remember the association in this Entertainment: Film question: Smash Mouth is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.b82ddad0c80d3001",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "For the film \"Raiders of The Lost Ark\", what was Harrison Ford sick with during the filming of the Cairo chase?",
+    "canonicalAnswer": "Dysentery",
+    "aliases": [],
+    "distractors": [
+      "Anemia",
+      "Constipation",
+      "Acid Reflux"
+    ],
+    "explanation": "The correct answer is Dysentery.",
+    "details": "Remember the association in this Entertainment: Film question: Dysentery is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e11c09689d4ff217",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "How many seasons did \"Stargate SG-1\" have?",
+    "canonicalAnswer": "10",
+    "aliases": [
+      "ten"
+    ],
+    "distractors": [
+      "3",
+      "7",
+      "12"
+    ],
+    "explanation": "The correct answer is 10.",
+    "details": "Remember the association in this Entertainment: Television question: 10 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f7717cc63ae7d8b9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "How many seasons did the Sci-Fi television show \"Stargate Atlantis\" have?",
+    "canonicalAnswer": "5",
+    "aliases": [
+      "five"
+    ],
+    "distractors": [
+      "10",
+      "2",
+      "7"
+    ],
+    "explanation": "The correct answer is 5.",
+    "details": "Remember the association in this Entertainment: Television question: 5 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.152965adab256185",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In \"Jurassic World\", what is the name of the dinosaur that is a genetic hybrid?",
+    "canonicalAnswer": "Indominus Rex",
+    "aliases": [],
+    "distractors": [
+      "Mosasaurus",
+      "Pteranodon",
+      "Tyrannosaurus Rex"
+    ],
+    "explanation": "The correct answer is Indominus Rex.",
+    "details": "Remember the association in this Entertainment: Film question: Indominus Rex is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.b0535da26bc6e089",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In Big Hero 6, what fictional city is the Big Hero 6 from?",
+    "canonicalAnswer": "San Fransokyo",
+    "aliases": [],
+    "distractors": [
+      "San Tokyo",
+      "Tokysisco",
+      "Sankyo"
+    ],
+    "explanation": "The correct answer is San Fransokyo.",
+    "details": "Remember the association in this Entertainment: Film question: San Fransokyo is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.d5346b9988f72c8a",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In Game of Thrones, what continent lies across the Narrow Sea from Westeros?",
+    "canonicalAnswer": "Essos",
+    "aliases": [],
+    "distractors": [
+      "Easteros",
+      "Westereast",
+      "Esuntos"
+    ],
+    "explanation": "The correct answer is Essos.",
+    "details": "Remember the association in this Entertainment: Television question: Essos is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.8505f8debceed770",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In season one of the Netflix political drama \"House of Cards\", what government position does Frank Underwood hold?",
+    "canonicalAnswer": "House Majority Whip",
+    "aliases": [],
+    "distractors": [
+      "Attorney General",
+      "President",
+      "Chief of Staff"
+    ],
+    "explanation": "The correct answer is House Majority Whip.",
+    "details": "Remember the association in this Entertainment: Television question: House Majority Whip is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.541573dc75788504",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the 1995 film \"Balto\", who are Steele's accomplices?",
+    "canonicalAnswer": "Kaltag, Nikki, and Star",
+    "aliases": [],
+    "distractors": [
+      "Dusty, Kirby, and Ralph",
+      "Nuk, Yak, and Sumac",
+      "Jenna, Sylvie, and Dixie"
+    ],
+    "explanation": "The correct answer is Kaltag, Nikki, and Star.",
+    "details": "Remember the association in this Entertainment: Film question: Kaltag, Nikki, and Star is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e84c720f2013e5b9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the movie \"Cast Away\" the main protagonist's best friend while on the island is named",
+    "canonicalAnswer": "Wilson",
+    "aliases": [],
+    "distractors": [
+      "Carson",
+      "Jackson",
+      "Willy"
+    ],
+    "explanation": "The correct answer is Wilson.",
+    "details": "Remember the association in this Entertainment: Film question: Wilson is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.48651b1e7f0f1120",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the movie \"Spaceballs\", what are the Spaceballs attempting to steal from Planet Druidia?",
+    "canonicalAnswer": "Air",
+    "aliases": [],
+    "distractors": [
+      "The Schwartz",
+      "Princess Lonestar",
+      "Meatballs"
+    ],
+    "explanation": "The correct answer is Air.",
+    "details": "Remember the association in this Entertainment: Film question: Air is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.c2fda5b731bef6f7",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the movie \"V for Vendetta,\" what is the date that masked vigilante \"V\" urges people to remember?",
+    "canonicalAnswer": "November 5th",
+    "aliases": [],
+    "distractors": [
+      "November 6th",
+      "November 4th",
+      "September 5th"
+    ],
+    "explanation": "The correct answer is November 5th.",
+    "details": "Remember the association in this Entertainment: Film question: November 5th is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.6768ec1e82be87f3",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the show \"Dragonball Z\", what is the name of Cell's most powerful attack?",
+    "canonicalAnswer": "Solar Kamehameha",
+    "aliases": [],
+    "distractors": [
+      "Super Kamehameha",
+      "Cell Kamehameha",
+      "Android Kamehameha"
+    ],
+    "explanation": "The correct answer is Solar Kamehameha.",
+    "details": "Remember the association in this Entertainment: Television question: Solar Kamehameha is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.fd4033020479da36",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the show Stranger Things, what is Eleven's favorite breakfast food?",
+    "canonicalAnswer": "Eggo Waffles",
+    "aliases": [],
+    "distractors": [
+      "Toast",
+      "Captain Crunch",
+      "Bacon and Eggs"
+    ],
+    "explanation": "The correct answer is Eggo Waffles.",
+    "details": "Remember the association in this Entertainment: Television question: Eggo Waffles is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.37d3812a6e51b0c2",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
+    "canonicalAnswer": "Time And Relative Dimensions In Space",
+    "aliases": [],
+    "distractors": [
+      "Time And Resting Dimensions In Space",
+      "Time And Relative Dimensions In Style",
+      "Toilet Aid Rope Dog Is Soup"
+    ],
+    "explanation": "The correct answer is Time And Relative Dimensions In Space.",
+    "details": "Remember the association in this Entertainment: Television question: Time And Relative Dimensions In Space is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.0b9225e33094047e",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the TV show 'M*A*S*H', what was the nickname of Corporal Walter O'Reilly?",
+    "canonicalAnswer": "Radar",
+    "aliases": [],
+    "distractors": [
+      "Hawkeye",
+      "Hot Lips",
+      "Trapper"
+    ],
+    "explanation": "The correct answer is Radar.",
+    "details": "Remember the association in this Entertainment: Television question: Radar is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.00a4f415954325bf",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In Two and a Half Men, what is Alan Harper's son's name?",
+    "canonicalAnswer": "Jake",
+    "aliases": [],
+    "distractors": [
+      "John",
+      "Jeremy",
+      "James"
+    ],
+    "explanation": "The correct answer is Jake.",
+    "details": "Remember the association in this Entertainment: Television question: Jake is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.ccedb6d83ed24179",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "The 2016 Disney animated film 'Moana' is based on which culture?",
+    "canonicalAnswer": "Polynesian",
+    "aliases": [],
+    "distractors": [
+      "Native American",
+      "Japanese",
+      "Nordic"
+    ],
+    "explanation": "The correct answer is Polynesian.",
+    "details": "Remember the association in this Entertainment: Film question: Polynesian is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.5f8c65fa4f9fdc5e",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "The Queen song `A Kind Of Magic` is featured in which 1986 film?",
+    "canonicalAnswer": "Highlander",
+    "aliases": [],
+    "distractors": [
+      "Flash Gordon",
+      "Labyrinth",
+      "Howard the Duck"
+    ],
+    "explanation": "The correct answer is Highlander.",
+    "details": "Remember the association in this Entertainment: Film question: Highlander is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.b7f522ffa02b517c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What breed of dog was Marley in the film \"Marley & Me\" (2008)?",
+    "canonicalAnswer": "Labrador Retriever",
+    "aliases": [],
+    "distractors": [
+      "Golden Retriever",
+      "Dalmatian",
+      "Shiba Inu"
+    ],
+    "explanation": "The correct answer is Labrador Retriever.",
+    "details": "Remember the association in this Entertainment: Film question: Labrador Retriever is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.0d935659f6d08e5c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What is the name of the planet that the Doctor from television series \"Doctor Who\" comes from?",
+    "canonicalAnswer": "Gallifrey",
+    "aliases": [],
+    "distractors": [
+      "Sontar",
+      "Skaro",
+      "Mondas"
+    ],
+    "explanation": "The correct answer is Gallifrey.",
+    "details": "Remember the association in this Entertainment: Television question: Gallifrey is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e85f908aa5e71cb1",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What is the real name of the famous spanish humorist, El Risitas?",
+    "canonicalAnswer": "Juan Joya Borga",
+    "aliases": [],
+    "distractors": [
+      "Gabriel Garcia Marquez",
+      "Jesus Quintero",
+      "Ernesto Guevara"
+    ],
+    "explanation": "The correct answer is Juan Joya Borga.",
+    "details": "Remember the association in this Entertainment: Television question: Juan Joya Borga is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.38ae8ac08e9b04de",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was Bruce Campbell's iconic one-liner after getting a chainsaw hand in Evil Dead 2?",
+    "canonicalAnswer": "Groovy.",
+    "aliases": [],
+    "distractors": [
+      "Gnarly.",
+      "Perfect.",
+      "Nice."
+    ],
+    "explanation": "The correct answer is Groovy..",
+    "details": "Remember the association in this Entertainment: Film question: Groovy. is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.b461ce36301bc0f9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was the first feature-length computer-animated movie?",
+    "canonicalAnswer": "Toy Story",
+    "aliases": [],
+    "distractors": [
+      "Tron",
+      "Lion king",
+      "101 Dalmatians"
+    ],
+    "explanation": "The correct answer is Toy Story.",
+    "details": "Remember the association in this Entertainment: Film question: Toy Story is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.ff5bddc289d29032",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What was the name of the police officer in the cartoon \"Top Cat\"?",
+    "canonicalAnswer": "Dibble",
+    "aliases": [],
+    "distractors": [
+      "Barbrady",
+      "Mahoney",
+      "Murphy"
+    ],
+    "explanation": "The correct answer is Dibble.",
+    "details": "Remember the association in this Entertainment: Television question: Dibble is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.3dd77fe0f3de27a6",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What was the name of the the first episode of Doctor Who to air in 1963?",
+    "canonicalAnswer": "An Unearthly Child",
+    "aliases": [],
+    "distractors": [
+      "The Daleks",
+      "The Aztecs",
+      "The Edge of Destruction"
+    ],
+    "explanation": "The correct answer is An Unearthly Child.",
+    "details": "Remember the association in this Entertainment: Television question: An Unearthly Child is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e1fcd457b3b69939",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was the title of the first Bond movie, released in 1962?",
+    "canonicalAnswer": "Dr. No",
+    "aliases": [],
+    "distractors": [
+      "From Russia with Love",
+      "Goldfinger",
+      "Thunderball"
+    ],
+    "explanation": "The correct answer is Dr. No.",
+    "details": "Remember the association in this Entertainment: Film question: Dr. No is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.2babdf874221a7c4",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "When did the TV show Rick and Morty first air on Adult Swim?",
+    "canonicalAnswer": "2013",
+    "aliases": [],
+    "distractors": [
+      "2014",
+      "2016",
+      "2015"
+    ],
+    "explanation": "The correct answer is 2013.",
+    "details": "Remember the association in this Entertainment: Television question: 2013 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.b94fe374704b8b83",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which actor portrays \"Walter White\" in the series \"Breaking Bad\"?",
+    "canonicalAnswer": "Bryan Cranston",
+    "aliases": [],
+    "distractors": [
+      "Andrew Lincoln",
+      "Aaron Paul",
+      "RJ Mitte"
+    ],
+    "explanation": "The correct answer is Bryan Cranston.",
+    "details": "Remember the association in this Entertainment: Television question: Bryan Cranston is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.388bc681e02c4b76",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which movie released in 2016 features Superman and Batman fighting?",
+    "canonicalAnswer": "Batman v Superman: Dawn of Justice",
+    "aliases": [],
+    "distractors": [
+      "Batman v Superman: Superapocalypse",
+      "Batman v Superman: Black of Knight",
+      "Batman v Superman: Knightfall"
+    ],
+    "explanation": "The correct answer is Batman v Superman: Dawn of Justice.",
+    "details": "Remember the association in this Entertainment: Film question: Batman v Superman: Dawn of Justice is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7d3a1c96fd744560",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+    "canonicalAnswer": "Oscar",
+    "aliases": [],
+    "distractors": [
+      "Emmy",
+      "Tony",
+      "Grammy"
+    ],
+    "explanation": "The correct answer is Oscar.",
+    "details": "Remember the association in this Entertainment: Television question: Oscar is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7ad42b1556f49b6c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which of the following is not the name of a \"Bond Girl\"?",
+    "canonicalAnswer": "Vanessa Kensington",
+    "aliases": [],
+    "distractors": [
+      "Pam Bouvier",
+      "Mary Goodnight",
+      "Wai Lin"
+    ],
+    "explanation": "The correct answer is Vanessa Kensington.",
+    "details": "Remember the association in this Entertainment: Film question: Vanessa Kensington is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f7d2b3e9220072d0",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which of the following movies was not based on a novel by Stephen King?",
+    "canonicalAnswer": "The Thing",
+    "aliases": [],
+    "distractors": [
+      "Carrie",
+      "Misery",
+      "The Green Mile"
+    ],
+    "explanation": "The correct answer is The Thing.",
+    "details": "Remember the association in this Entertainment: Film question: The Thing is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.0dc867a4f2b41774",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which of these movies did Jeff Bridges not star in?",
+    "canonicalAnswer": "The Hateful Eight",
+    "aliases": [],
+    "distractors": [
+      "Tron: Legacy",
+      "The Giver",
+      "True Grit"
+    ],
+    "explanation": "The correct answer is The Hateful Eight.",
+    "details": "Remember the association in this Entertainment: Film question: The Hateful Eight is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.0651659780ae216b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who directed the Kill Bill movies?",
+    "canonicalAnswer": "Quentin Tarantino",
+    "aliases": [],
+    "distractors": [
+      "Arnold Schwarzenegger",
+      "David Lean",
+      "Stanley Kubrick"
+    ],
+    "explanation": "The correct answer is Quentin Tarantino.",
+    "details": "Remember the association in this Entertainment: Film question: Quentin Tarantino is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.185ec53272d02b3b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Who is the main character in the show \"Burn Notice\"?",
+    "canonicalAnswer": "Michael Westen",
+    "aliases": [],
+    "distractors": [
+      "Sam Axe",
+      "Fiona Glenanne",
+      "Madeline Westen"
+    ],
+    "explanation": "The correct answer is Michael Westen.",
+    "details": "Remember the association in this Entertainment: Television question: Michael Westen is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.866923886eb4bdac",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Who won Big Brother 2014 UK?",
+    "canonicalAnswer": "Helen Wood",
+    "aliases": [],
+    "distractors": [
+      "Christopher Hall",
+      "Pauline Bennett",
+      "Pavandeep \"Pav\" Paul"
+    ],
+    "explanation": "The correct answer is Helen Wood.",
+    "details": "Remember the association in this Entertainment: Television question: Helen Wood is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.1bf64a78e6615853",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Baron Silas Greenback is the arch nemesis of which cartoon hero?",
+    "canonicalAnswer": "Danger Mouse",
+    "aliases": [],
+    "distractors": [
+      "Bananaman",
+      "SuperTed",
+      "Captain Star"
+    ],
+    "explanation": "The correct answer is Danger Mouse.",
+    "details": "Remember the association in this Entertainment: Television question: Danger Mouse is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e24c67ac55a65352",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "How much money did the 2019 Marvel movie \"Avengers: Endgame\" grossed for it's record-breaking worldwide opening weekend?",
+    "canonicalAnswer": "1.2 billion USD",
+    "aliases": [],
+    "distractors": [
+      "640 million USD",
+      "456 million USD",
+      "392 million USD"
+    ],
+    "explanation": "The correct answer is 1.2 billion USD.",
+    "details": "Remember the association in this Entertainment: Film question: 1.2 billion USD is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7e37400688368130",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In Battlestar Galactica (2004), what is the name of the President of the Twelve Colonies?",
+    "canonicalAnswer": "Laura Roslin",
+    "aliases": [],
+    "distractors": [
+      "William Adama",
+      "Tricia Helfer",
+      "Harry Stills"
+    ],
+    "explanation": "The correct answer is Laura Roslin.",
+    "details": "Remember the association in this Entertainment: Television question: Laura Roslin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7620c0f38e783ba8",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In Game of Thrones what is the name of Jon Snow's sword?",
+    "canonicalAnswer": "Longclaw",
+    "aliases": [],
+    "distractors": [
+      "Oathkeeper",
+      "Widow's Wail",
+      "Needle"
+    ],
+    "explanation": "The correct answer is Longclaw.",
+    "details": "Remember the association in this Entertainment: Television question: Longclaw is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.57cfd4fde9ff851e",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In Naruto: Shippuden, which of the following elements is a \"Kekkei Tōta?\"",
+    "canonicalAnswer": "Particle Style",
+    "aliases": [],
+    "distractors": [
+      "Any Doujutsu",
+      "Shadow Style",
+      "Ice Style"
+    ],
+    "explanation": "The correct answer is Particle Style.",
+    "details": "Remember the association in this Entertainment: Television question: Particle Style is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.9fe3d7fa4d41227c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the 1979 British film \"Quadrophenia\" what is the name of the seaside city the mods are visiting?",
+    "canonicalAnswer": "Brighton",
+    "aliases": [],
+    "distractors": [
+      "Eastbourne",
+      "Mousehole",
+      "Bridlington"
+    ],
+    "explanation": "The correct answer is Brighton.",
+    "details": "Remember the association in this Entertainment: Film question: Brighton is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.0a3bc2420e7f4ee8",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the 2010 Nightmare on Elm Street reboot, who played Freddy Kruger?",
+    "canonicalAnswer": "Jackie Earle Haley",
+    "aliases": [],
+    "distractors": [
+      "Tyler Mane",
+      "Derek Mears",
+      "Gunnar Hansen"
+    ],
+    "explanation": "The correct answer is Jackie Earle Haley.",
+    "details": "Remember the association in this Entertainment: Film question: Jackie Earle Haley is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.a8547b1332b82cd9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the 2014 film \"Birdman\", what is the primary instrument in the score?",
+    "canonicalAnswer": "Drums",
+    "aliases": [],
+    "distractors": [
+      "Saxophone",
+      "Violin",
+      "Actual Live Birds Singing"
+    ],
+    "explanation": "The correct answer is Drums.",
+    "details": "Remember the association in this Entertainment: Film question: Drums is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f8e0e8f7839fa09c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the Friday The 13th series, what is Jason's mother's first name?",
+    "canonicalAnswer": "Pamela",
+    "aliases": [],
+    "distractors": [
+      "Mary",
+      "Christine",
+      "Angeline"
+    ],
+    "explanation": "The correct answer is Pamela.",
+    "details": "Remember the association in this Entertainment: Film question: Pamela is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.a6661300a280b17a",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In The Lord of the Rings: The Fellowship of the Ring, which one of the following characters from the book was left out of the film?",
+    "canonicalAnswer": "Tom Bombadil",
+    "aliases": [],
+    "distractors": [
+      "Strider",
+      "Barliman Butterbur",
+      "Celeborn"
+    ],
+    "explanation": "The correct answer is Tom Bombadil.",
+    "details": "Remember the association in this Entertainment: Film question: Tom Bombadil is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e664072f9d14af0c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the Sci-Fi television show Doctor Who, who plays the Tenth Doctor?",
+    "canonicalAnswer": "David Tennant",
+    "aliases": [],
+    "distractors": [
+      "William Hartnell",
+      "Peter Capaldi",
+      "Peter Davison"
+    ],
+    "explanation": "The correct answer is David Tennant.",
+    "details": "Remember the association in this Entertainment: Television question: David Tennant is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.4f1046a941ea1aea",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the show \"The Office\" who does Michael Scott eventually end up with?",
+    "canonicalAnswer": "Holly Flax",
+    "aliases": [],
+    "distractors": [
+      "Angela Martin",
+      "Jan Levinson",
+      "Pam Beesly"
+    ],
+    "explanation": "The correct answer is Holly Flax.",
+    "details": "Remember the association in this Entertainment: Television question: Holly Flax is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.3a295ad5cbbef852",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In which 1955 film does Frank Sinatra play Nathan Detroit?",
+    "canonicalAnswer": "Guys and Dolls",
+    "aliases": [],
+    "distractors": [
+      "Anchors Aweigh",
+      "From Here to Eternity",
+      "High Society"
+    ],
+    "explanation": "The correct answer is Guys and Dolls.",
+    "details": "Remember the association in this Entertainment: Film question: Guys and Dolls is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.2863d8e3421ae559",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "On the NBC show Community what was Star Burns' real name?",
+    "canonicalAnswer": "Alex",
+    "aliases": [],
+    "distractors": [
+      "Todd",
+      "Neal",
+      "Grimus"
+    ],
+    "explanation": "The correct answer is Alex.",
+    "details": "Remember the association in this Entertainment: Television question: Alex is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e1f38f71f81ec7f6",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+    "canonicalAnswer": "Tilly",
+    "aliases": [],
+    "distractors": [
+      "Tom",
+      "Tiny",
+      "None of the Above"
+    ],
+    "explanation": "The correct answer is Tilly.",
+    "details": "Remember the association in this Entertainment: Television question: Tilly is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.1b0e88dc7e350563",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "The 1939 movie \"The Wizard of Oz\" contained a horse that changed color, what material did they use to achieve this effect?",
+    "canonicalAnswer": "Gelatin",
+    "aliases": [],
+    "distractors": [
+      "Dye",
+      "Paint",
+      "CGI Effect"
+    ],
+    "explanation": "The correct answer is Gelatin.",
+    "details": "Remember the association in this Entertainment: Film question: Gelatin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.326b1d9d6fa7596d",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "The killer in the 1981 film 'My Bloody Valentine' wears what sort of outfit?",
+    "canonicalAnswer": "Mining gear",
+    "aliases": [],
+    "distractors": [
+      "Clown costume",
+      "Santa suit",
+      "Police uniform"
+    ],
+    "explanation": "The correct answer is Mining gear.",
+    "details": "Remember the association in this Entertainment: Film question: Mining gear is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7e652735c811b9ee",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "This movie contains the quote, \"I love the smell of napalm in the morning!\"",
+    "canonicalAnswer": "Apocalypse Now",
+    "aliases": [],
+    "distractors": [
+      "Platoon",
+      "The Deer Hunter",
+      "Full Metal Jacket"
+    ],
+    "explanation": "The correct answer is Apocalypse Now.",
+    "details": "Remember the association in this Entertainment: Film question: Apocalypse Now is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.665824324ed3ff3a",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What does Bart sell his soul for in The Simpsons episode 'Bart Sells His Soul'?",
+    "canonicalAnswer": "$5",
+    "aliases": [],
+    "distractors": [
+      "A Copy of Bonestorm 2",
+      "$100",
+      "A Giant Gobstopper"
+    ],
+    "explanation": "The correct answer is $5.",
+    "details": "Remember the association in this Entertainment: Television question: $5 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7b7c5ed1ab6217ee",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What is the birth name of Michael Caine?",
+    "canonicalAnswer": "Maurice Micklewhite",
+    "aliases": [],
+    "distractors": [
+      "Morris Coleman",
+      "Carl Myers",
+      "Martin Michaels"
+    ],
+    "explanation": "The correct answer is Maurice Micklewhite.",
+    "details": "Remember the association in this Entertainment: Film question: Maurice Micklewhite is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.a784f1d96925b2c5",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What is the correct phrase for the Latin saying \"Romanes Eunt Domus\" in Monty Python's Life of Brian?",
+    "canonicalAnswer": "Romani Ite Domum",
+    "aliases": [],
+    "distractors": [
+      "Romans Go Home",
+      "Roxani Ite Domum",
+      "Tomate Ite Domum"
+    ],
+    "explanation": "The correct answer is Romani Ite Domum.",
+    "details": "Remember the association in this Entertainment: Film question: Romani Ite Domum is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.4e3d19b8b7578ab4",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What is the correct spelling of the protagonist of the book in The NeverEnding Story (1984)?",
+    "canonicalAnswer": "Atreyu",
+    "aliases": [],
+    "distractors": [
+      "Atrayu",
+      "Atraiyu",
+      "Atraeyu"
+    ],
+    "explanation": "The correct answer is Atreyu.",
+    "details": "Remember the association in this Entertainment: Film question: Atreyu is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.af34a7c4268cd3a9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What is the name of the character Nicolas Cage plays in the movie \"National Treasure?\"",
+    "canonicalAnswer": "Benjamin Franklin Gates",
+    "aliases": [],
+    "distractors": [
+      "Thomas Jefferson Walker",
+      "George Washington Swanson",
+      "John Quincy Beckett"
+    ],
+    "explanation": "The correct answer is Benjamin Franklin Gates.",
+    "details": "Remember the association in this Entertainment: Film question: Benjamin Franklin Gates is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7e744a3e3cb609c2",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What is the name of the dog that played Toto in the 1939 film \"The Wizard of Oz\"?",
+    "canonicalAnswer": "Terry",
+    "aliases": [],
+    "distractors": [
+      "Tommy",
+      "Teddy",
+      "Toto"
+    ],
+    "explanation": "The correct answer is Terry.",
+    "details": "Remember the association in this Entertainment: Film question: Terry is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.a8de0f26e87e044b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What is the name of the inspector in the series \"On the Buses\"?",
+    "canonicalAnswer": "Blakey",
+    "aliases": [],
+    "distractors": [
+      "Harper",
+      "Naily",
+      "Gally"
+    ],
+    "explanation": "The correct answer is Blakey.",
+    "details": "Remember the association in this Entertainment: Television question: Blakey is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.29cf1952d561be8c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What is the name of the main antagonists in Battlestar Galactica?",
+    "canonicalAnswer": "The Cylons",
+    "aliases": [],
+    "distractors": [
+      "The Collective",
+      "The Federation",
+      "The Rebels"
+    ],
+    "explanation": "The correct answer is The Cylons.",
+    "details": "Remember the association in this Entertainment: Television question: The Cylons is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.8e73330e28fa1665",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was another suggested name for, the 1985 film, Back to the Future?",
+    "canonicalAnswer": "Spaceman From Pluto",
+    "aliases": [],
+    "distractors": [
+      "Hill Valley Time Travelers",
+      "The Time Travelers",
+      "The Lucky Man"
+    ],
+    "explanation": "The correct answer is Spaceman From Pluto.",
+    "details": "Remember the association in this Entertainment: Film question: Spaceman From Pluto is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.b4ba51d8d20ca43c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What was Nickelodeon's original name?",
+    "canonicalAnswer": "Pinwheel",
+    "aliases": [],
+    "distractors": [
+      "MTVKids",
+      "KidsTV",
+      "Splat!"
+    ],
+    "explanation": "The correct answer is Pinwheel.",
+    "details": "Remember the association in this Entertainment: Television question: Pinwheel is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.df789333c5ab2a12",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was the name of the protagonist in the movie Commando (1985)?",
+    "canonicalAnswer": "John Matrix",
+    "aliases": [],
+    "distractors": [
+      "Ben Richards",
+      "Douglas Quaid",
+      "Harry Tasker"
+    ],
+    "explanation": "The correct answer is John Matrix.",
+    "details": "Remember the association in this Entertainment: Film question: John Matrix is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.54f8d03762b7cde1",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which 1958 movie starred Kirk Douglas and Tony Curtis as half-brothers Einar and Eric?",
+    "canonicalAnswer": "The Vikings",
+    "aliases": [],
+    "distractors": [
+      "The Long Ships",
+      "Prince Valiant",
+      "Spartacus"
+    ],
+    "explanation": "The correct answer is The Vikings.",
+    "details": "Remember the association in this Entertainment: Film question: The Vikings is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.bc99ad379015885f",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which actor auditioned for the role of Luke Skywalker?",
+    "canonicalAnswer": "Kurt Russell",
+    "aliases": [],
+    "distractors": [
+      "Christopher Lambert",
+      "Laurence Fishburne",
+      "James Remar"
+    ],
+    "explanation": "The correct answer is Kurt Russell.",
+    "details": "Remember the association in this Entertainment: Film question: Kurt Russell is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f75413458e54529a",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which actor plays the role of the main antagonist in the 2011 movie \"Tower Heist?\"",
+    "canonicalAnswer": "Alan Alda",
+    "aliases": [],
+    "distractors": [
+      "Eddie Murphy",
+      "Alec Baldwin",
+      "Kevin Nealon"
+    ],
+    "explanation": "The correct answer is Alan Alda.",
+    "details": "Remember the association in this Entertainment: Film question: Alan Alda is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.6dd7a3ae412f089d",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which actor was not a major character in TV Show Freaks and Geeks?",
+    "canonicalAnswer": "Jonah Hill",
+    "aliases": [],
+    "distractors": [
+      "Jason Segel",
+      "Seth Rogen",
+      "James Franco"
+    ],
+    "explanation": "The correct answer is Jonah Hill.",
+    "details": "Remember the association in this Entertainment: Television question: Jonah Hill is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e3080e542eae0ef5",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which British writer wrote for both Doctor Who and Sherlock?",
+    "canonicalAnswer": "Steven Moffatt",
+    "aliases": [],
+    "distractors": [
+      "Phil Ford",
+      "Russell T Davies",
+      "Toby Whithouse"
+    ],
+    "explanation": "The correct answer is Steven Moffatt.",
+    "details": "Remember the association in this Entertainment: Television question: Steven Moffatt is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.543a5e2dda55fe76",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which character does voice actress Tara Strong NOT voice?",
+    "canonicalAnswer": "Bubbles (2016)",
+    "aliases": [],
+    "distractors": [
+      "Twilight Sparkle",
+      "Timmy Turner",
+      "Harley Quinn"
+    ],
+    "explanation": "The correct answer is Bubbles (2016).",
+    "details": "Remember the association in this Entertainment: Television question: Bubbles (2016) is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.e53ae31b77807209",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which director directed the movie \"Pan's Labyrinth\"?",
+    "canonicalAnswer": "Guillermo Del Toro",
+    "aliases": [],
+    "distractors": [
+      "Alfonso Cuarón",
+      "Alejandro González Iñárritu",
+      "Alejandro Jodorowsky"
+    ],
+    "explanation": "The correct answer is Guillermo Del Toro.",
+    "details": "Remember the association in this Entertainment: Film question: Guillermo Del Toro is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.24aa46e6de5a2055",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which former Star Trek actor directed Three Men and a Baby (1987)?",
+    "canonicalAnswer": "Leonard Nimoy",
+    "aliases": [],
+    "distractors": [
+      "William Shatner",
+      "George Takei",
+      "James Doohan"
+    ],
+    "explanation": "The correct answer is Leonard Nimoy.",
+    "details": "Remember the association in this Entertainment: Film question: Leonard Nimoy is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.74841f84b12945b3",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which iconic character is featured in movies such as \"The Enforcer\", \"Sudden Impact\", and \"The Dead Pool\"?",
+    "canonicalAnswer": "Dirty Harry",
+    "aliases": [],
+    "distractors": [
+      "Indiana Jones",
+      "James Bond",
+      "Harry Potter"
+    ],
+    "explanation": "The correct answer is Dirty Harry.",
+    "details": "Remember the association in this Entertainment: Film question: Dirty Harry is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.249df81e9ae679e7",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which of following is rude and dishonorable by Klingon standards?",
+    "canonicalAnswer": "Taking his D'k tahg",
+    "aliases": [],
+    "distractors": [
+      "Insulting and laughing at him at the dinner table",
+      "Reaching over and taking his meal",
+      "Punching him and taking his ship station position"
+    ],
+    "explanation": "The correct answer is Taking his D'k tahg.",
+    "details": "Remember the association in this Entertainment: Television question: Taking his D'k tahg is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f9dc2248a434308d",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which of these Disney classics was released in 1970?",
+    "canonicalAnswer": "The Aristocats",
+    "aliases": [],
+    "distractors": [
+      "One Hundred and One Dalmatians",
+      "The Fox and the Hound",
+      "The Little Mermaid"
+    ],
+    "explanation": "The correct answer is The Aristocats.",
+    "details": "Remember the association in this Entertainment: Film question: The Aristocats is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.d04597617c008f55",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which one of these action movies are shot entirely in one take?",
+    "canonicalAnswer": "Victoria",
+    "aliases": [],
+    "distractors": [
+      "Ip Man 2",
+      "The Bourne Legacy",
+      "Léon: The Professional"
+    ],
+    "explanation": "The correct answer is Victoria.",
+    "details": "Remember the association in this Entertainment: Film question: Victoria is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.671e457da610f534",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which track by \"Massive Attack\" is used for the theme of \"House\"?",
+    "canonicalAnswer": "Teardrop",
+    "aliases": [],
+    "distractors": [
+      "Protection",
+      "Angel",
+      "Black Milk"
+    ],
+    "explanation": "The correct answer is Teardrop.",
+    "details": "Remember the association in this Entertainment: Television question: Teardrop is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.ea1c66302cdb0a87",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who directed the 1973 film \"American Graffiti\"?",
+    "canonicalAnswer": "George Lucas",
+    "aliases": [],
+    "distractors": [
+      "Ron Howard",
+      "Francis Ford Coppola",
+      "Steven Spielberg"
+    ],
+    "explanation": "The correct answer is George Lucas.",
+    "details": "Remember the association in this Entertainment: Film question: George Lucas is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.dde3e774dd2eacae",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who played Baron Victor Frankestein in the 1957 Hammer horror film \"The Curse of Frankenstein\"?",
+    "canonicalAnswer": "Peter Cushing",
+    "aliases": [],
+    "distractors": [
+      "Boris Karloff",
+      "Vincent Price",
+      "Lon Chaney Jr."
+    ],
+    "explanation": "The correct answer is Peter Cushing.",
+    "details": "Remember the association in this Entertainment: Film question: Peter Cushing is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.fd03d6dc9742274f",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who plays \"Bruce Wayne\" in the 2008 movie \"The Dark Knight\"?",
+    "canonicalAnswer": "Christian Bale",
+    "aliases": [],
+    "distractors": [
+      "Michael Caine",
+      "Ron Dean",
+      "Heath Ledger"
+    ],
+    "explanation": "The correct answer is Christian Bale.",
+    "details": "Remember the association in this Entertainment: Film question: Christian Bale is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.44654760a7b8737c",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who was the director of \"Scott Pilgrim vs. the World (2010)\"?",
+    "canonicalAnswer": "Edgar Wright",
+    "aliases": [],
+    "distractors": [
+      "Phil Lord",
+      "Chris Miller",
+      "Seth Rogan"
+    ],
+    "explanation": "The correct answer is Edgar Wright.",
+    "details": "Remember the association in this Entertainment: Film question: Edgar Wright is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f4323c4ca43f76b9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In order to cut costs, what were most of the extras of Mad Max (1979) paid with?",
+    "canonicalAnswer": "Beer",
+    "aliases": [],
+    "distractors": [
+      "Fast food",
+      "Food stamps",
+      "They weren't paid"
+    ],
+    "explanation": "The correct answer is Beer.",
+    "details": "Remember the association in this Entertainment: Film question: Beer is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.796a2e1076711087",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the 1964 film \"Zulu\", what song does the British Army company sing before the final battle?",
+    "canonicalAnswer": "Men of Harlech",
+    "aliases": [],
+    "distractors": [
+      "Scotland the Brave",
+      "Colonel Bogey March",
+      "The British Grenadiers"
+    ],
+    "explanation": "The correct answer is Men of Harlech.",
+    "details": "Remember the association in this Entertainment: Film question: Men of Harlech is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.3a2f5107dde224e3",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In the 1976 film 'Taxi Driver', how many guns did Travis buy from the salesman?",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "four"
+    ],
+    "distractors": [
+      "2",
+      "6",
+      "1"
+    ],
+    "explanation": "The correct answer is 4.",
+    "details": "Remember the association in this Entertainment: Film question: 4 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.d3ea6a8d595946ac",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Prior to working at Wizards of the Coast, \"Mark Rosewater\" was a writer for which show?",
+    "canonicalAnswer": "Roseanne",
+    "aliases": [],
+    "distractors": [
+      "Boy Meets World",
+      "The X-Files",
+      "NYPD Blue"
+    ],
+    "explanation": "The correct answer is Roseanne.",
+    "details": "Remember the association in this Entertainment: Television question: Roseanne is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.eae5c019704e255d",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What did Alfred Hitchcock use as blood in the film \"Psycho\"?",
+    "canonicalAnswer": "Chocolate syrup",
+    "aliases": [],
+    "distractors": [
+      "Ketchup",
+      "Red food coloring",
+      "Maple syrup"
+    ],
+    "explanation": "The correct answer is Chocolate syrup.",
+    "details": "Remember the association in this Entertainment: Film question: Chocolate syrup is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.a7e1d0f606280844",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What is the species of the \"Predator\" in the 1987 movie \"Predator\"?",
+    "canonicalAnswer": "Yautja",
+    "aliases": [],
+    "distractors": [
+      "Xenomorph",
+      "Praetorian",
+      "Phocrex"
+    ],
+    "explanation": "The correct answer is Yautja.",
+    "details": "Remember the association in this Entertainment: Film question: Yautja is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.3c9c6ee3cbb445ed",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was the name of the actor who played Leatherface in the 1974 horror film, The Texas Chainsaw Massacre?",
+    "canonicalAnswer": "Gunnar Hansen",
+    "aliases": [],
+    "distractors": [
+      "Edwin Neal",
+      "John Dugan",
+      "Joe Bill Hogan"
+    ],
+    "explanation": "The correct answer is Gunnar Hansen.",
+    "details": "Remember the association in this Entertainment: Film question: Gunnar Hansen is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.8da34da409f7379b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which actors made up the trio in \"The Good, the Bad, and the Ugly\"?",
+    "canonicalAnswer": "Clint Eastwood, Eli Wallach, and Lee Van Cleef",
+    "aliases": [],
+    "distractors": [
+      "Sergio Leone, Ennio Morricone, and Tonino Delli Colli",
+      "Yul Brynner, Steve McQueen, and Charles Bronson",
+      "Aldo Giuffrè, Mario Brega, and Luigi Pistilli"
+    ],
+    "explanation": "The correct answer is Clint Eastwood, Eli Wallach, and Lee Van Cleef.",
+    "details": "Remember the association in this Entertainment: Film question: Clint Eastwood, Eli Wallach, and Lee Van Cleef is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.01feb52fe73fbe69",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which country does the YouTuber \"SinowBeats\" originate from?",
+    "canonicalAnswer": "Scotland",
+    "aliases": [],
+    "distractors": [
+      "England",
+      "Sweden",
+      "Germany"
+    ],
+    "explanation": "The correct answer is Scotland.",
+    "details": "Remember the association in this Entertainment: Television question: Scotland is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.7e978d6a8f5b3897",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which of these in the Star Trek series is NOT Klingon food?",
+    "canonicalAnswer": "Hors d'oeuvre",
+    "aliases": [],
+    "distractors": [
+      "Racht",
+      "Gagh",
+      "Bloodwine"
+    ],
+    "explanation": "The correct answer is Hors d'oeuvre.",
+    "details": "Remember the association in this Entertainment: Television question: Hors d'oeuvre is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.f843ff6dc46d2841",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which of these voices wasn't a choice for the House AI in \"The Simpsons Treehouse of Horror\" short, House of Whacks?",
+    "canonicalAnswer": "George Clooney",
+    "aliases": [],
+    "distractors": [
+      "Matthew Perry",
+      "Dennis Miller",
+      "Pierce Brosnan"
+    ],
+    "explanation": "The correct answer is George Clooney.",
+    "details": "Remember the association in this Entertainment: Television question: George Clooney is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "film-television-starter.opentdb.62193669c009c982",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "film-television-starter"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Who was the winner of \"Big Brother\" Season 10?",
+    "canonicalAnswer": "Dan Gheesling",
+    "aliases": [],
+    "distractors": [
+      "Bryce Kranyik",
+      "Ryan Sutfin",
+      "Chris Mundorf"
+    ],
+    "explanation": "The correct answer is Dan Gheesling.",
+    "details": "Remember the association in this Entertainment: Television question: Dan Gheesling is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

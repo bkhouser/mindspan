@@ -2,6 +2,12 @@ import { Crown, UserMinus, UserPlus } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CopyButton } from "@/components/copy-button";
+import { groupActivityLabel } from "@/domain/activity";
+import {
+  compareOverallPointStandings,
+  compareTopicPointStandings,
+  groupLeaderboardSummary,
+} from "@/domain/group-mastery";
 import { topicMastery, type MasteryState } from "@/domain/mastery";
 import type { TopicMastery } from "@/domain/types";
 import { Card } from "@/components/ui/card";
@@ -100,13 +106,7 @@ export default async function GroupPage({
           assistedCorrectAttempts: row.assisted_correct_attempts,
         } satisfies MasteryState),
       );
-      const overall =
-        (topics ?? []).reduce(
-          (sum, topic) =>
-            sum +
-            (mastery.find((item) => item.topicId === topic.id)?.rankScore ?? 0),
-          0,
-        ) / Math.max(1, topics?.length ?? 0);
+      const leaderboardSummary = groupLeaderboardSummary(mastery);
       const totalAttempts = rows.reduce(
         (sum, row) => sum + row.total_attempts,
         0,
@@ -117,7 +117,11 @@ export default async function GroupPage({
         name: profile?.display_name ?? "Member",
         role: membership.role,
         mastery,
-        overall,
+        rankedTopicCount: leaderboardSummary.rankedTopicCount,
+        proficiency: leaderboardSummary.proficiency,
+        topicPoints: Object.fromEntries(
+          rows.map((row) => [row.topic_id, Number(row.lifetime_points)]),
+        ),
         totalPoints: rows.reduce(
           (sum, row) => sum + Number(row.lifetime_points),
           0,
@@ -126,10 +130,13 @@ export default async function GroupPage({
         accuracy: totalAttempts ? correct / totalAttempts : 0,
       };
     })
-    .sort((a, b) => b.overall - a.overall);
+    .sort(compareOverallPointStandings);
   const feed = feedRows?.slice(0, 20);
   const nextCursor =
     feedRows && feedRows.length > 20 ? feedRows[19].created_at : null;
+  const activityTopicNames = new Map(
+    (topics ?? []).map((topic) => [topic.id, topic.name]),
+  );
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://127.0.0.1:3000";
   const inviteUrl = query.invite
     ? `${siteUrl}/login?invite=${encodeURIComponent(query.invite)}`
@@ -242,7 +249,10 @@ export default async function GroupPage({
             <GroupCoverage members={members} topics={topics ?? []} />
           </Card>
           <Card className="p-6">
-            <h2 className="text-xl font-black">Overall mastery</h2>
+            <h2 className="text-xl font-black">Overall leaderboard</h2>
+            <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
+              Ranked by lifetime points from valuable correct answers.
+            </p>
             <div className="mt-5 space-y-3">
               {members.map((member, index) => (
                 <div
@@ -250,7 +260,7 @@ export default async function GroupPage({
                   key={member.id}
                 >
                   <span className="w-6 text-center font-black text-[var(--accent)]">
-                    {index + 1}
+                    {member.totalPoints > 0 ? index + 1 : "—"}
                   </span>
                   <div className="min-w-0 flex-1">
                     <Link
@@ -259,13 +269,19 @@ export default async function GroupPage({
                     >
                       {member.name}
                     </Link>
-                    <small className="ml-2 text-[var(--muted)]">
-                      {member.unique} unique ·{" "}
-                      {Math.round(member.accuracy * 100)}% ·{" "}
-                      {member.totalPoints.toLocaleString()} pts
-                    </small>
+                    {member.proficiency == null ? (
+                      <small className="mt-1 block text-[var(--muted)]">
+                        No questions answered yet
+                      </small>
+                    ) : (
+                      <small className="mt-1 block text-[var(--muted)]">
+                        {Math.round(member.accuracy * 100)}% accuracy ·{" "}
+                        {member.unique} unique ·{" "}
+                        {Math.round(member.proficiency * 100)}% proficiency
+                      </small>
+                    )}
                   </div>
-                  <b>{Math.round(member.overall * 100)}%</b>
+                  <b>{member.totalPoints.toLocaleString()} pts</b>
                 </div>
               ))}
             </div>
@@ -275,13 +291,18 @@ export default async function GroupPage({
             <div className="mt-5 grid gap-5 md:grid-cols-2">
               {topics?.map((topic) => {
                 const ranked = members
-                  .map((member) => ({
-                    member,
-                    score:
-                      member.mastery.find((entry) => entry.topicId === topic.id)
-                        ?.rankScore ?? null,
-                  }))
-                  .sort((a, b) => (b.score ?? -1) - (a.score ?? -1));
+                  .map((member) => {
+                    const entry = member.mastery.find(
+                      (item) => item.topicId === topic.id,
+                    );
+                    return {
+                      member,
+                      points: member.topicPoints[topic.id] ?? 0,
+                      proficiency: entry?.proficiency ?? null,
+                      uniqueQuestions: entry?.uniqueQuestions ?? 0,
+                    };
+                  })
+                  .sort(compareTopicPointStandings);
                 return (
                   <div
                     className="rounded-2xl bg-white/[.035] p-4"
@@ -289,24 +310,33 @@ export default async function GroupPage({
                   >
                     <b>{topic.name}</b>
                     <ol className="mt-3 space-y-2">
-                      {ranked.map(({ member, score }, index) => (
-                        <li className="flex gap-2 text-sm" key={member.id}>
-                          <span className="w-5 text-[var(--muted)]">
-                            {score == null ? "—" : index + 1}
-                          </span>
-                          <Link
-                            className="min-w-0 flex-1 truncate"
-                            href={`/profiles/${member.id}`}
-                          >
-                            {member.name}
-                          </Link>
-                          <b>
-                            {score == null
-                              ? "Unranked"
-                              : `${Math.round(score * 100)}%`}
-                          </b>
-                        </li>
-                      ))}
+                      {ranked.map(
+                        (
+                          { member, points, proficiency, uniqueQuestions },
+                          index,
+                        ) => (
+                          <li className="flex gap-2 text-sm" key={member.id}>
+                            <span className="w-5 text-[var(--muted)]">
+                              {points > 0 ? index + 1 : "—"}
+                            </span>
+                            <div className="min-w-0 flex-1">
+                              <Link
+                                className="block truncate"
+                                href={`/profiles/${member.id}`}
+                              >
+                                {member.name}
+                              </Link>
+                              <small className="text-[var(--muted)]">
+                                {uniqueQuestions} unique
+                                {proficiency == null
+                                  ? ""
+                                  : ` · ${Math.round(proficiency * 100)}% proficiency`}
+                              </small>
+                            </div>
+                            <b>{points.toLocaleString()} pts</b>
+                          </li>
+                        ),
+                      )}
                     </ol>
                   </div>
                 );
@@ -387,7 +417,11 @@ export default async function GroupPage({
                 return (
                   <li className="text-sm leading-6" key={event.id}>
                     <b>{actor?.display_name ?? "A member"}</b>{" "}
-                    {event.kind.replaceAll("_", " ")}
+                    {groupActivityLabel(
+                      event.kind,
+                      event.payload,
+                      activityTopicNames,
+                    )}
                     <time className="block text-xs text-[var(--muted)]">
                       {new Date(event.created_at).toLocaleDateString()}
                     </time>

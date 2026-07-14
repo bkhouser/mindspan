@@ -67,6 +67,7 @@ export function AssessmentGame({ immediateChoiceSubmit = false }: Props) {
         `/api/assessments/${runId}/next`,
       );
       setQuestion(value);
+      setChoices(value.initialChoices);
       setMediaReady(!value.media);
       markingMediaReady.current = false;
     } catch (requestError) {
@@ -292,6 +293,11 @@ export function AssessmentGame({ immediateChoiceSubmit = false }: Props) {
           </div>
         ) : null}
         <h1 className="text-3xl font-black">{question.prompt}</h1>
+        {question.answerMode === "required_choice" ? (
+          <p className="mt-4 text-sm font-bold text-[var(--muted)]">
+            Multiple choice
+          </p>
+        ) : null}
         {choices ? (
           <div className="mt-7 grid gap-3 sm:grid-cols-2">
             {choices.choices.map((choice) => (

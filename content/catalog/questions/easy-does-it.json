@@ -1,0 +1,1404 @@
+[
+  {
+    "catalogKey": "easy-does-it.opentdb.39e77df462e20698",
+    "topicSlug": "history",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+    "canonicalAnswer": "Harper's Ferry",
+    "aliases": [],
+    "distractors": [
+      "Richmond",
+      "Harrisonburg",
+      "Martinsburg"
+    ],
+    "explanation": "The correct answer is Harper's Ferry.",
+    "details": "Remember the association in this History question: Harper's Ferry is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.3899396f304d9690",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "According to Sherlock Holmes, \"If you eliminate the impossible, whatever remains, however improbable, must be the...\"",
+    "canonicalAnswer": "Truth",
+    "aliases": [],
+    "distractors": [
+      "Answer",
+      "Cause",
+      "Source"
+    ],
+    "explanation": "The correct answer is Truth.",
+    "details": "Remember the association in this General Knowledge question: Truth is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.f83ff1219e86ff8e",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Guy's Grocery Games is hosted by which presenter?",
+    "canonicalAnswer": "Guy Fieri",
+    "aliases": [],
+    "distractors": [
+      "Guy Martin",
+      "Guy Ritchie",
+      "Ainsley Harriott"
+    ],
+    "explanation": "The correct answer is Guy Fieri.",
+    "details": "Remember the association in this Entertainment: Television question: Guy Fieri is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.64faa6d441a0d465",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "How many heads does Cerberus have?",
+    "canonicalAnswer": "3",
+    "aliases": [
+      "three"
+    ],
+    "distractors": [
+      "2",
+      "1",
+      "5"
+    ],
+    "explanation": "The correct answer is 3.",
+    "details": "Remember the association in this Mythology question: 3 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.d0c625e67ff72cb0",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "In \"ALF\", what was ALF's real name?",
+    "canonicalAnswer": "Gordon Shumway",
+    "aliases": [],
+    "distractors": [
+      "Gordon Milipp",
+      "Gordon Foster",
+      "Gordon von Gam"
+    ],
+    "explanation": "The correct answer is Gordon Shumway.",
+    "details": "Remember the association in this Entertainment: Film question: Gordon Shumway is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.ef66e20f740c6692",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "In golf, what name is given to a hole score of two under par?",
+    "canonicalAnswer": "Eagle",
+    "aliases": [],
+    "distractors": [
+      "Birdie",
+      "Bogey",
+      "Albatross"
+    ],
+    "explanation": "The correct answer is Eagle.",
+    "details": "Remember the association in this Sports question: Eagle is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.7dcd13363b49df12",
+    "topicSlug": "music",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "In the  Rossini opera, what was the name of 'The Barber of Seville'?",
+    "canonicalAnswer": "Figaro",
+    "aliases": [],
+    "distractors": [
+      "Angelo",
+      "Fernando",
+      "Dave"
+    ],
+    "explanation": "The correct answer is Figaro.",
+    "details": "Remember the association in this Entertainment: Music question: Figaro is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.156aeec902055d73",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+    "canonicalAnswer": "1-7",
+    "aliases": [],
+    "distractors": [
+      "1-5",
+      "1-6",
+      "2-6"
+    ],
+    "explanation": "The correct answer is 1-7.",
+    "details": "Remember the association in this Sports question: 1-7 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.0521f2041805faa5",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In the original Star Trek TV series, what was Captain James T. Kirk's middle name?",
+    "canonicalAnswer": "Tiberius",
+    "aliases": [],
+    "distractors": [
+      "Trevor",
+      "Travis",
+      "Tyrone"
+    ],
+    "explanation": "The correct answer is Tiberius.",
+    "details": "Remember the association in this Entertainment: Television question: Tiberius is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.c208bd4a3fd41826",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
+    "canonicalAnswer": "New Zealand",
+    "aliases": [],
+    "distractors": [
+      "South Africa",
+      "Australia",
+      "Madagascar"
+    ],
+    "explanation": "The correct answer is New Zealand.",
+    "details": "Remember the association in this Animals question: New Zealand is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.0773d22d29701c69",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "The Nike apparel and footwear brand takes it's name from the Greek goddess of what?",
+    "canonicalAnswer": "Victory",
+    "aliases": [],
+    "distractors": [
+      "Courage",
+      "Strength",
+      "Honor"
+    ],
+    "explanation": "The correct answer is Victory.",
+    "details": "Remember the association in this Mythology question: Victory is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.3b9df37bbde6ad9b",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "This element, when overcome with extreme heat and pressure, creates diamonds.",
+    "canonicalAnswer": "Carbon",
+    "aliases": [],
+    "distractors": [
+      "Nitrogen",
+      "Oxygen",
+      "Hydrogen"
+    ],
+    "explanation": "The correct answer is Carbon.",
+    "details": "Remember the association in this Science & Nature question: Carbon is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.7cb14e3723da4947",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "This Greek goddess's name was chosen for the dwarf planet responsible for discord on Pluto's classification amongst astronomers.",
+    "canonicalAnswer": "Eris",
+    "aliases": [],
+    "distractors": [
+      "Charon",
+      "Ceres",
+      "Dysnomia"
+    ],
+    "explanation": "The correct answer is Eris.",
+    "details": "Remember the association in this Mythology question: Eris is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.dccbb84411f85182",
+    "topicSlug": "music",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What 1970's American ballad referred to the 1959 plane crash as the \"the day the music died\"?",
+    "canonicalAnswer": "American Pie",
+    "aliases": [],
+    "distractors": [
+      "Kentucky Rain",
+      "I Will Always Love You",
+      "Rock 'n' Roll Suicide"
+    ],
+    "explanation": "The correct answer is American Pie.",
+    "details": "Remember the association in this Entertainment: Music question: American Pie is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.9bf9f8ba7aa2f6b5",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What colour is the female blackbird?",
+    "canonicalAnswer": "Brown",
+    "aliases": [],
+    "distractors": [
+      "Black",
+      "White",
+      "Yellow"
+    ],
+    "explanation": "The correct answer is Brown.",
+    "details": "Remember the association in this Animals question: Brown is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.9800e24197aa3b47",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What do you call a baby bat?",
+    "canonicalAnswer": "Pup",
+    "aliases": [],
+    "distractors": [
+      "Cub",
+      "Chick",
+      "Kid"
+    ],
+    "explanation": "The correct answer is Pup.",
+    "details": "Remember the association in this Animals question: Pup is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.3eb4e0fa6f61faee",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "What does DNA stand for?",
+    "canonicalAnswer": "Deoxyribonucleic Acid",
+    "aliases": [],
+    "distractors": [
+      "Deoxyribogenetic Acid",
+      "Deoxyribogenetic Atoms",
+      "Detoxic Acid"
+    ],
+    "explanation": "The correct answer is Deoxyribonucleic Acid.",
+    "details": "Remember the association in this Science & Nature question: Deoxyribonucleic Acid is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.fa5cd74d905c6f22",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "What does the letter 'S' stand for in 'NASA'?",
+    "canonicalAnswer": "Space",
+    "aliases": [],
+    "distractors": [
+      "Science",
+      "Society",
+      "Star"
+    ],
+    "explanation": "The correct answer is Space.",
+    "details": "Remember the association in this Science & Nature question: Space is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.ba8c10a3960a3637",
+    "topicSlug": "history",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "What does the United States of America celebrate during the 4th of July?",
+    "canonicalAnswer": "The signing of the Declaration of Independence",
+    "aliases": [],
+    "distractors": [
+      "The anniversary of the Battle of Gettysburg",
+      "The crossing of the Delaware River",
+      "The ratification of the Constitution"
+    ],
+    "explanation": "The correct answer is The signing of the Declaration of Independence.",
+    "details": "Remember the association in this History question: The signing of the Declaration of Independence is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.7d180f804ef859cb",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is \"dabbing\"?",
+    "canonicalAnswer": "A dance",
+    "aliases": [],
+    "distractors": [
+      "A medical procedure",
+      "A sport",
+      "A language"
+    ],
+    "explanation": "The correct answer is A dance.",
+    "details": "Remember the association in this General Knowledge question: A dance is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.f6e8c06f24125ebb",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "What is Canada's smallest province?",
+    "canonicalAnswer": "Prince Edward Island",
+    "aliases": [],
+    "distractors": [
+      "New Brunswick",
+      "Nova Scotia",
+      "Yukon"
+    ],
+    "explanation": "The correct answer is Prince Edward Island.",
+    "details": "Remember the association in this Geography question: Prince Edward Island is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.75d8133b4c9ae5ff",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is Grumpy Cat's real name?",
+    "canonicalAnswer": "Tardar Sauce",
+    "aliases": [],
+    "distractors": [
+      "Sauce",
+      "Minnie",
+      "Broccoli"
+    ],
+    "explanation": "The correct answer is Tardar Sauce.",
+    "details": "Remember the association in this Animals question: Tardar Sauce is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.450e34a2807a09ad",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "What is Laos?",
+    "canonicalAnswer": "Country",
+    "aliases": [],
+    "distractors": [
+      "Region",
+      "River",
+      "City"
+    ],
+    "explanation": "The correct answer is Country.",
+    "details": "Remember the association in this Geography question: Country is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.425276a0efdd7799",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "What is the capital of Scotland?",
+    "canonicalAnswer": "Edinburgh",
+    "aliases": [],
+    "distractors": [
+      "Glasgow",
+      "Dundee",
+      "London"
+    ],
+    "explanation": "The correct answer is Edinburgh.",
+    "details": "Remember the association in this Geography question: Edinburgh is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.b92d89bacc347924",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "What is the capital of the US State of New York?",
+    "canonicalAnswer": "Albany",
+    "aliases": [],
+    "distractors": [
+      "Buffalo",
+      "New York",
+      "Rochester"
+    ],
+    "explanation": "The correct answer is Albany.",
+    "details": "Remember the association in this Geography question: Albany is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.b17397bdc8dbac32",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "What is the largest animal currently on Earth?",
+    "canonicalAnswer": "Blue Whale",
+    "aliases": [],
+    "distractors": [
+      "Orca",
+      "Colossal Squid",
+      "Giraffe"
+    ],
+    "explanation": "The correct answer is Blue Whale.",
+    "details": "Remember the association in this Science & Nature question: Blue Whale is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.1ca147c97d9db6b8",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Animals"
+    ],
+    "prompt": "What is the scientific name for modern day humans?",
+    "canonicalAnswer": "Homo Sapiens",
+    "aliases": [],
+    "distractors": [
+      "Homo Ergaster",
+      "Homo Erectus",
+      "Homo Neanderthalensis"
+    ],
+    "explanation": "The correct answer is Homo Sapiens.",
+    "details": "Remember the association in this Animals question: Homo Sapiens is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.aa31640d14d53150",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "What mytological creatures have women's faces and vultures' bodies?",
+    "canonicalAnswer": "Harpies",
+    "aliases": [],
+    "distractors": [
+      "Mermaids",
+      "Nymph",
+      "Lilith"
+    ],
+    "explanation": "The correct answer is Harpies.",
+    "details": "Remember the association in this Mythology question: Harpies is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.8da6364216e3afe8",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "What was the first James Bond film?",
+    "canonicalAnswer": "Dr. No",
+    "aliases": [],
+    "distractors": [
+      "Goldfinger",
+      "From Russia With Love",
+      "Thunderball"
+    ],
+    "explanation": "The correct answer is Dr. No.",
+    "details": "Remember the association in this Entertainment: Film question: Dr. No is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.f2960042928e33d2",
+    "topicSlug": "history",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+    "canonicalAnswer": "Silk Road",
+    "aliases": [],
+    "distractors": [
+      "Spice Road",
+      "Clay Road",
+      "Salt Road"
+    ],
+    "explanation": "The correct answer is Silk Road.",
+    "details": "Remember the association in this History question: Silk Road is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.04ca3fe5fd5e94bb",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What was the name of the teenage witch played by Melisa Joan Hart who lives with her witch aunts Hilda and Zelda?",
+    "canonicalAnswer": "Sabrina",
+    "aliases": [],
+    "distractors": [
+      "Hermione",
+      "Dorothy",
+      "Dahlia"
+    ],
+    "explanation": "The correct answer is Sabrina.",
+    "details": "Remember the association in this Entertainment: Television question: Sabrina is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.18eb986bb73d8c7a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What was the name of the WWF professional wrestling tag team made up of the wrestlers Ax and Smash?",
+    "canonicalAnswer": "Demolition",
+    "aliases": [],
+    "distractors": [
+      "The Dream Team",
+      "The Bushwhackers",
+      "The British Bulldogs"
+    ],
+    "explanation": "The correct answer is Demolition.",
+    "details": "Remember the association in this General Knowledge question: Demolition is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.ff8f9066877d3fdb",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "When was the FC Schalke 04 founded?",
+    "canonicalAnswer": "1904",
+    "aliases": [],
+    "distractors": [
+      "1909",
+      "2008",
+      "1999"
+    ],
+    "explanation": "The correct answer is 1904.",
+    "details": "Remember the association in this Sports question: 1904 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.a0d87d8f291c7710",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "When was the movie 'Con Air' released?",
+    "canonicalAnswer": "1997",
+    "aliases": [],
+    "distractors": [
+      "1985",
+      "1999",
+      "1990"
+    ],
+    "explanation": "The correct answer is 1997.",
+    "details": "Remember the association in this Entertainment: Film question: 1997 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.a160dea133c90099",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "Which element has the chemical symbol 'Fe'?",
+    "canonicalAnswer": "Iron",
+    "aliases": [],
+    "distractors": [
+      "Gold",
+      "Silver",
+      "Tin"
+    ],
+    "explanation": "The correct answer is Iron.",
+    "details": "Remember the association in this Science & Nature question: Iron is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.b65a4c26a02790ae",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Mythology"
+    ],
+    "prompt": "Which figure from Greek mythology traveled to the underworld to return his wife Eurydice to the land of the living?",
+    "canonicalAnswer": "Orpheus",
+    "aliases": [],
+    "distractors": [
+      "Hercules",
+      "Perseus",
+      "Daedalus"
+    ],
+    "explanation": "The correct answer is Orpheus.",
+    "details": "Remember the association in this Mythology question: Orpheus is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.40b3e9b4b2121249",
+    "topicSlug": "history",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "Which German field marshal was known as the `Desert Fox`?",
+    "canonicalAnswer": "Erwin Rommel",
+    "aliases": [],
+    "distractors": [
+      "Ernst Busch",
+      "Wolfram Freiherr von Richthofen",
+      "Wilhelm List"
+    ],
+    "explanation": "The correct answer is Erwin Rommel.",
+    "details": "Remember the association in this History question: Erwin Rommel is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.5e7163fbe5bb3855",
+    "topicSlug": "history",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "Which modern day country is the region that was known as Phrygia in ancient times?",
+    "canonicalAnswer": "Turkey",
+    "aliases": [],
+    "distractors": [
+      "Syria",
+      "Greece",
+      "Egypt"
+    ],
+    "explanation": "The correct answer is Turkey.",
+    "details": "Remember the association in this History question: Turkey is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.ce252b3ea1bfc2f9",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "Which nation claims ownership of Antarctica?",
+    "canonicalAnswer": "No one, but there are claims.",
+    "aliases": [],
+    "distractors": [
+      "United States of America",
+      "United Nations",
+      "Australia"
+    ],
+    "explanation": "The correct answer is No one, but there are claims..",
+    "details": "Remember the association in this Geography question: No one, but there are claims. is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.8cf71644fa8b5973",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which of the following blood component forms a plug at the site of injuries?",
+    "canonicalAnswer": "Platelets",
+    "aliases": [],
+    "distractors": [
+      "Red blood cells",
+      "White blood cells",
+      "Blood plasma"
+    ],
+    "explanation": "The correct answer is Platelets.",
+    "details": "Remember the association in this General Knowledge question: Platelets is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.de708c7c0f4f5a20",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "Which of the following sports is not part of the triathlon?",
+    "canonicalAnswer": "Horse-Riding",
+    "aliases": [],
+    "distractors": [
+      "Cycling",
+      "Swimming",
+      "Running"
+    ],
+    "explanation": "The correct answer is Horse-Riding.",
+    "details": "Remember the association in this Sports question: Horse-Riding is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.f164cbc8b878f45a",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which of these characters in \"Stranger Things\" has the power of Telekinesis?",
+    "canonicalAnswer": "Eleven",
+    "aliases": [],
+    "distractors": [
+      "Mike",
+      "Lucas",
+      "Karen"
+    ],
+    "explanation": "The correct answer is Eleven.",
+    "details": "Remember the association in this Entertainment: Television question: Eleven is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.d05cd7f970e9f6f3",
+    "topicSlug": "music",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which singer was featured in Jack Ü (Skrillex & Diplo)'s 2015 song 'Where Are Ü Now'?",
+    "canonicalAnswer": "Justin Bieber",
+    "aliases": [],
+    "distractors": [
+      "Selena Gomez",
+      "Ellie Goulding",
+      "The Weeknd"
+    ],
+    "explanation": "The correct answer is Justin Bieber.",
+    "details": "Remember the association in this Entertainment: Music question: Justin Bieber is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.1b5a34c3e5f02757",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Who is depicted on the US hundred dollar bill?",
+    "canonicalAnswer": "Benjamin Franklin",
+    "aliases": [],
+    "distractors": [
+      "George Washington",
+      "Abraham Lincoln",
+      "Thomas Jefferson"
+    ],
+    "explanation": "The correct answer is Benjamin Franklin.",
+    "details": "Remember the association in this General Knowledge question: Benjamin Franklin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.92148e8a998fab6b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who is the main protagonist in, the 1985 film, Back to the Future?",
+    "canonicalAnswer": "Marty McFly",
+    "aliases": [],
+    "distractors": [
+      "Emmett \"Doc\" Brown",
+      "Biff Tannen",
+      "George McFly"
+    ],
+    "explanation": "The correct answer is Marty McFly.",
+    "details": "Remember the association in this Entertainment: Film question: Marty McFly is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.c01d026d8e1b31fc",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Who played Agent Fox Mulder in the TV sci-fi drama \"The X-Files\"?",
+    "canonicalAnswer": "David Duchovny",
+    "aliases": [],
+    "distractors": [
+      "Gillian Anderson",
+      "Robert Patrick",
+      "Mitch Pileggi"
+    ],
+    "explanation": "The correct answer is David Duchovny.",
+    "details": "Remember the association in this Entertainment: Television question: David Duchovny is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.f3e3740813e63d27",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Who plays Alice in the Resident Evil movies?",
+    "canonicalAnswer": "Milla Jovovich",
+    "aliases": [],
+    "distractors": [
+      "Madison Derpe",
+      "Milla Johnson",
+      "Kim Demp"
+    ],
+    "explanation": "The correct answer is Milla Jovovich.",
+    "details": "Remember the association in this Entertainment: Film question: Milla Jovovich is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.5a0194fbb8fae3be",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "canonicalAnswer": "Nico Rosberg",
+    "aliases": [],
+    "distractors": [
+      "Lewis Hamilton",
+      "Max Verstappen",
+      "Kimi Raikkonen"
+    ],
+    "explanation": "The correct answer is Nico Rosberg.",
+    "details": "Remember the association in this Sports question: Nico Rosberg is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.58cf990c0b5915a3",
+    "topicSlug": "music",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?",
+    "canonicalAnswer": "Prince",
+    "aliases": [],
+    "distractors": [
+      "Michael Jackson",
+      "Cameo",
+      "Rick James"
+    ],
+    "explanation": "The correct answer is Prince.",
+    "details": "Remember the association in this Entertainment: Music question: Prince is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "easy-does-it.opentdb.668f81343318c1cf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "easy-does-it"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Whose albums included \"Back in Black\" and \"Ballbreaker\"?",
+    "canonicalAnswer": "AC/DC",
+    "aliases": [],
+    "distractors": [
+      "Iron Maiden",
+      "Black Sabbath",
+      "Metallica"
+    ],
+    "explanation": "The correct answer is AC/DC.",
+    "details": "Remember the association in this Entertainment: Music question: AC/DC is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

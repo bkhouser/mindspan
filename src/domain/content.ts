@@ -1,10 +1,12 @@
 import { z } from "zod";
 
 export const questionImportSchema = z.object({
+  catalogKey: z.string().trim().min(3).max(160).optional(),
   topicSlug: z.string().min(1),
   packSlugs: z.array(z.string()).min(1),
   subtopics: z.array(z.string().trim().min(2).max(80)).max(8).default([]),
   prompt: z.string().min(5).max(1000),
+  answerMode: z.enum(["recall", "required_choice"]).default("recall"),
   canonicalAnswer: z.string().min(1).max(300),
   aliases: z.array(z.string().min(1)).default([]),
   distractors: z.array(z.string().min(1)).length(3),

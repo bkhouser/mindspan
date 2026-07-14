@@ -155,7 +155,124 @@ Let system administrators request draft aliases, distractors, subtopics,
 explanations, and source-search suggestions. All generated content must enter the
 existing review workflow; the model must never publish questions directly.
 
+### AI-generated custom personal packs
+
+**Status:** Candidate
+
+**Priority:** Premium candidate
+
+**Depends on:** AI content generation, source grounding, validation, moderation,
+cost controls, and pack-generation economics
+
+Let a player request a personal pack for a topic of their choice. Mindspan uses
+AI to propose, validate, and assemble the questions, then sells the finished pack
+to that player for a premium amount of Insight. The creation flow should show the
+proposed topic, scope, approximate difficulty, question count, price, and expected
+generation time before the player confirms the purchase.
+
+Proposed experience:
+
+1. The player enters a topic such as **Women in early aviation**, **1980s college
+   basketball**, or **Italian opera**.
+2. Mindspan checks the request for safety, reasonable scope, duplication with
+   existing packs, and sufficient reliable source material.
+3. The player selects a difficulty profile and one of a small number of pack
+   sizes.
+4. Mindspan quotes the premium Insight price before deducting currency.
+5. Generation runs asynchronously and produces a private draft pack with a clear
+   status and retry/refund behavior if creation fails.
+6. The player receives the pack after automated factual, answer-collision,
+   citation, formatting, and duplicate checks pass.
+
+Quality and fairness principles:
+
+- Ground factual claims in reputable sources and retain citations and generation
+  metadata for every generated question.
+- Use separate generation and verification passes; do not treat a model's first
+  answer as proof that a question is correct.
+- Validate canonical answers, aliases, distractors, dates, ambiguity, and
+  time-sensitive claims against the same structural rules used by authored packs.
+- Clearly label questions as AI-generated and provide an especially prominent
+  report path.
+- Make early custom packs private and practice-only. They should not affect
+  competitive points, group leaderboards, achievements, or shared mastery until
+  their quality is proven or the questions complete an appropriate review path.
+- Do not automatically publish one user's custom pack to other players. Sharing,
+  marketplace sales, and creator rewards require separate privacy, moderation,
+  licensing, and abuse requirements.
+- Apply per-user generation limits, predictable pack sizes, spend ceilings, and
+  idempotent Insight charges. Failed validation or generation must not consume
+  the purchase permanently.
+- Reject requests for unsafe material or topics that cannot support enough
+  reliable, age-appropriate trivia questions.
+
+Acceptance criteria:
+
+- The player sees and confirms the exact Insight price before generation begins.
+- Currency deduction and pack creation are transactional and retry-safe.
+- Every delivered question passes automated schema, citation, ambiguity,
+  duplication, and answer-quality checks.
+- A failed or rejected generation produces a clear explanation and automatic
+  Insight refund.
+- Custom content cannot influence competitive rankings while it remains
+  unreviewed.
+- System administrators can inspect, disable, regenerate, or refund a custom pack
+  without exposing unrelated private player data.
+
 ## Gameplay and learning
+
+### Depth-versus-breadth learning preference
+
+**Status:** Defined
+
+**Priority:** High candidate
+
+**Surface:** Player preferences and Mixed Play
+
+Add a player-controlled slider with **Increase depth of knowledge** at one end,
+**Increase breadth of knowledge** at the other, and **Balanced** as the default.
+The preference changes how Mixed Play chooses topics and difficulty; it does not
+change scoring, mastery calculations, question values, or leaderboard rules.
+
+Selection behavior:
+
+- Moving toward **depth** increases the weight of higher-difficulty questions in
+  the player's strongest or most-practiced selected interests, helping the player
+  turn familiarity into expertise.
+- Moving toward **breadth** increases the weight of topics and subtopics with low
+  proficiency or limited evidence, helping the player cover knowledge gaps.
+- The balanced midpoint preserves the ordinary adaptive scheduling mix.
+- Due retention reviews and the no-immediate-repeat rule continue to apply at all
+  slider positions.
+- Explicit Topic or Pack Play overrides this preference because the player has
+  already chosen what to study.
+- The system should respect topic interests and any future topic-deprioritization
+  controls. Breadth must not continually force a player into subjects they have
+  explicitly said they do not want to study.
+
+Implementation principles:
+
+- Persist the setting per user and synchronize it across devices.
+- Treat the slider as a continuous scheduling weight rather than three unrelated
+  modes, while providing accessible named values such as **Depth**, **Balanced**,
+  and **Breadth** for keyboard and screen-reader users.
+- Store the preference and selection-algorithm version with each play session so
+  question-selection behavior remains auditable.
+- Use bounded weighting: even the extreme depth setting retains some novel and
+  cross-topic questions, while the extreme breadth setting retains some practice
+  in established strengths.
+- Explain the effect beside the control with a short, live summary of the current
+  setting.
+
+Acceptance criteria:
+
+- Changing the slider measurably shifts topic and difficulty selection over a
+  deterministic simulation without excluding required reviews.
+- The preference never directly changes points, mastery evidence, achievements,
+  or competitive rank.
+- A player can reset the control to Balanced.
+- The setting works with keyboard input, exposes its value to assistive
+  technology, and persists across sessions and devices.
 
 ### Achievement-unlocked lifelines
 
@@ -234,6 +351,25 @@ must not turn the product into a mandatory daily trainer.
 
 Grow the licensed image, audio, and video catalog; add post-answer transcripts,
 playback accessibility, and media-specific review tools.
+
+### Beginner-friendly question packs
+
+**Status:** Candidate
+
+Add welcoming, intentionally easy packs for new players, casual groups, and
+players building confidence in weaker subjects. Possible names include **Easy
+Does It**, **Warm-Up Round**, **Trivia 101**, and **Confidence Builder**.
+
+Target an average difficulty around 1.5–2.0/5 with clear wording, familiar
+subjects, useful explanations, and enough breadth to introduce several main
+topics. Recommend these packs during onboarding or when a player has limited
+evidence in several topics, but keep them optional.
+
+Use the normal difficulty-based point values, repeat decay, assistance penalty,
+and retirement rules. This lets easy packs provide legitimate early leaderboard
+progress without making them more valuable than harder knowledge. Treat
+“Questions for Dummies” only as a concept reference unless branding review
+confirms that the name can be used.
 
 ### Licensed Jeopardy! archive expansion packs
 

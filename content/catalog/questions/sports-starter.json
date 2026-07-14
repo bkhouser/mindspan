@@ -1,0 +1,2664 @@
+[
+  {
+    "catalogKey": "sports-starter.athlete-sport.thomas-kretschmann",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Thomas Kretschmann compete?",
+    "canonicalAnswer": "competitive swimming",
+    "aliases": [],
+    "distractors": [
+      "fencing",
+      "weightlifting",
+      "auto racing"
+    ],
+    "explanation": "Thomas Kretschmann competed in competitive swimming.",
+    "details": "competitive swimming is the sport principally associated with athlete Thomas Kretschmann.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57614"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.robert-hubner",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Robert Hübner represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Hungary",
+      "Austria",
+      "German Reich"
+    ],
+    "explanation": "Robert Hübner is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Robert Hübner.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q77389"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.eks-rx",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does EKS RX play?",
+    "canonicalAnswer": "auto racing",
+    "aliases": [],
+    "distractors": [
+      "field hockey",
+      "association football",
+      "esports"
+    ],
+    "explanation": "EKS RX competes in auto racing.",
+    "details": "auto racing is the sport associated with the team EKS RX.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q20807437"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.kk-mzt-skopje",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of KK MZT Skopje?",
+    "canonicalAnswer": "Jane Sandanski Arena",
+    "aliases": [],
+    "distractors": [
+      "Scotiabank Saddledome",
+      "Grand Casino Arena",
+      "Desert Diamond Arena"
+    ],
+    "explanation": "KK MZT Skopje plays home events at Jane Sandanski Arena.",
+    "details": "Jane Sandanski Arena is recorded as the principal home venue of KK MZT Skopje.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q2918273"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.fis-cup",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in FIS Cup?",
+    "canonicalAnswer": "ski jumping",
+    "aliases": [],
+    "distractors": [
+      "Australian rules football",
+      "cycle sport",
+      "motorsport"
+    ],
+    "explanation": "FIS Cup is a competition in ski jumping.",
+    "details": "ski jumping is the sporting discipline associated with FIS Cup.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q745612"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.rita-konig",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Rita König compete?",
+    "canonicalAnswer": "fencing",
+    "aliases": [],
+    "distractors": [
+      "weightlifting",
+      "auto racing",
+      "association football"
+    ],
+    "explanation": "Rita König competed in fencing.",
+    "details": "fencing is the sport principally associated with athlete Rita König.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q25878"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.szabolcs-safar",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Szabolcs Sáfár represent or hold citizenship in?",
+    "canonicalAnswer": "Hungary",
+    "aliases": [],
+    "distractors": [
+      "Austria",
+      "German Reich",
+      "New Zealand"
+    ],
+    "explanation": "Szabolcs Sáfár is associated with Hungary.",
+    "details": "Hungary is the country recorded for athlete Szabolcs Sáfár.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q78625"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.croatia-men-s-national-field-hockey-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Croatia men's national field hockey team play?",
+    "canonicalAnswer": "field hockey",
+    "aliases": [],
+    "distractors": [
+      "association football",
+      "esports",
+      "beach soccer"
+    ],
+    "explanation": "Croatia men's national field hockey team competes in field hockey.",
+    "details": "field hockey is the sport associated with the team Croatia men's national field hockey team.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3512180"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.calgary-roughnecks",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Calgary Roughnecks?",
+    "canonicalAnswer": "Scotiabank Saddledome",
+    "aliases": [],
+    "distractors": [
+      "Grand Casino Arena",
+      "Desert Diamond Arena",
+      "Hall of the Legions"
+    ],
+    "explanation": "Calgary Roughnecks plays home events at Scotiabank Saddledome.",
+    "details": "Scotiabank Saddledome is recorded as the principal home venue of Calgary Roughnecks.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q646260"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.australian-football-international-cup",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Australian Football International Cup?",
+    "canonicalAnswer": "Australian rules football",
+    "aliases": [],
+    "distractors": [
+      "cycle sport",
+      "motorsport",
+      "association football"
+    ],
+    "explanation": "Australian Football International Cup is a competition in Australian rules football.",
+    "details": "Australian rules football is the sporting discipline associated with Australian Football International Cup.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q781418"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.yury-vlasov",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Yury Vlasov compete?",
+    "canonicalAnswer": "weightlifting",
+    "aliases": [],
+    "distractors": [
+      "auto racing",
+      "association football",
+      "alpine skiing"
+    ],
+    "explanation": "Yury Vlasov competed in weightlifting.",
+    "details": "weightlifting is the sport principally associated with athlete Yury Vlasov.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q49606"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.georg-meier",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Georg Meier represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "German Reich",
+      "New Zealand",
+      "Canada"
+    ],
+    "explanation": "Georg Meier is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Georg Meier.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q71286"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.donetsk-people-s-republic-national-football-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Donetsk People's Republic national football team play?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "esports",
+      "beach soccer",
+      "basketball"
+    ],
+    "explanation": "Donetsk People's Republic national football team competes in association football.",
+    "details": "association football is the sport associated with the team Donetsk People's Republic national football team.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q25432075"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.minnesota-swarm",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Minnesota Swarm?",
+    "canonicalAnswer": "Grand Casino Arena",
+    "aliases": [],
+    "distractors": [
+      "Desert Diamond Arena",
+      "Hall of the Legions",
+      "Multan Cricket Stadium"
+    ],
+    "explanation": "Minnesota Swarm plays home events at Grand Casino Arena.",
+    "details": "Grand Casino Arena is recorded as the principal home venue of Minnesota Swarm.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1476589"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.hour-record",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in hour record?",
+    "canonicalAnswer": "cycle sport",
+    "aliases": [],
+    "distractors": [
+      "motorsport",
+      "association football",
+      "basketball"
+    ],
+    "explanation": "hour record is a competition in cycle sport.",
+    "details": "cycle sport is the sporting discipline associated with hour record.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q766067"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.jim-clark",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Jim Clark compete?",
+    "canonicalAnswer": "auto racing",
+    "aliases": [],
+    "distractors": [
+      "association football",
+      "alpine skiing",
+      "chess"
+    ],
+    "explanation": "Jim Clark competed in auto racing.",
+    "details": "auto racing is the sport principally associated with athlete Jim Clark.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3137"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.peter-joppich",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Peter Joppich represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "New Zealand",
+      "Canada",
+      "Brazil"
+    ],
+    "explanation": "Peter Joppich is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Peter Joppich.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q77356"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.koi",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does KOI play?",
+    "canonicalAnswer": "esports",
+    "aliases": [],
+    "distractors": [
+      "beach soccer",
+      "basketball",
+      "water polo"
+    ],
+    "explanation": "KOI competes in esports.",
+    "details": "esports is the sport associated with the team KOI.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q111372669"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.arizona-rattlers",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Arizona Rattlers?",
+    "canonicalAnswer": "Desert Diamond Arena",
+    "aliases": [],
+    "distractors": [
+      "Hall of the Legions",
+      "Multan Cricket Stadium",
+      "Metalurh Stadium"
+    ],
+    "explanation": "Arizona Rattlers plays home events at Desert Diamond Arena.",
+    "details": "Desert Diamond Arena is recorded as the principal home venue of Arizona Rattlers.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1410957"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.coppa-florio",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Coppa Florio?",
+    "canonicalAnswer": "motorsport",
+    "aliases": [],
+    "distractors": [
+      "association football",
+      "basketball",
+      "handball"
+    ],
+    "explanation": "Coppa Florio is a competition in motorsport.",
+    "details": "motorsport is the sporting discipline associated with Coppa Florio.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q753142"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.jens-lehmann",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Jens Lehmann compete?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "alpine skiing",
+      "chess",
+      "tennis"
+    ],
+    "explanation": "Jens Lehmann competed in association football.",
+    "details": "association football is the sport principally associated with athlete Jens Lehmann.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57114"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.christian-geistdorfer",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Christian Geistdörfer represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Canada",
+      "Brazil",
+      "United States"
+    ],
+    "explanation": "Christian Geistdörfer is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Christian Geistdörfer.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q74010"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.volkswagen-team-sweden",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Volkswagen Team Sweden play?",
+    "canonicalAnswer": "auto racing",
+    "aliases": [],
+    "distractors": [
+      "basketball",
+      "water polo",
+      "ice hockey"
+    ],
+    "explanation": "Volkswagen Team Sweden competes in auto racing.",
+    "details": "auto racing is the sport associated with the team Volkswagen Team Sweden.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q20807438"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.kps-kielce",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of KPS Kielce?",
+    "canonicalAnswer": "Hall of the Legions",
+    "aliases": [],
+    "distractors": [
+      "Multan Cricket Stadium",
+      "Metalurh Stadium",
+      "San Diego Stadium"
+    ],
+    "explanation": "KPS Kielce plays home events at Hall of the Legions.",
+    "details": "Hall of the Legions is recorded as the principal home venue of KPS Kielce.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3067028"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.asean-championship",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in ASEAN Championship?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "basketball",
+      "handball",
+      "rugby league"
+    ],
+    "explanation": "ASEAN Championship is a competition in association football.",
+    "details": "association football is the sporting discipline associated with ASEAN Championship.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q862567"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.hansi-hinterseer",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Hansi Hinterseer compete?",
+    "canonicalAnswer": "alpine skiing",
+    "aliases": [],
+    "distractors": [
+      "chess",
+      "tennis",
+      "cyclo-cross"
+    ],
+    "explanation": "Hansi Hinterseer competed in alpine skiing.",
+    "details": "alpine skiing is the sport principally associated with athlete Hansi Hinterseer.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q45230"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.verena-bentele",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Verena Bentele represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Brazil",
+      "United States",
+      "Australia"
+    ],
+    "explanation": "Verena Bentele is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Verena Bentele.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q73349"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.catania-beach-soccer",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Catania Beach Soccer play?",
+    "canonicalAnswer": "beach soccer",
+    "aliases": [],
+    "distractors": [
+      "water polo",
+      "ice hockey",
+      "American football"
+    ],
+    "explanation": "Catania Beach Soccer competes in beach soccer.",
+    "details": "beach soccer is the sport associated with the team Catania Beach Soccer.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3600333"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.multan-sultans",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Multan Sultans?",
+    "canonicalAnswer": "Multan Cricket Stadium",
+    "aliases": [],
+    "distractors": [
+      "Metalurh Stadium",
+      "San Diego Stadium",
+      "PalaCastellotti"
+    ],
+    "explanation": "Multan Sultans plays home events at Multan Cricket Stadium.",
+    "details": "Multan Cricket Stadium is recorded as the principal home venue of Multan Sultans.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q39057201"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.women-s-chinese-basketball-association",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Women's Chinese Basketball Association?",
+    "canonicalAnswer": "basketball",
+    "aliases": [],
+    "distractors": [
+      "handball",
+      "rugby league",
+      "auto racing"
+    ],
+    "explanation": "Women's Chinese Basketball Association is a competition in basketball.",
+    "details": "basketball is the sporting discipline associated with Women's Chinese Basketball Association.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q836617"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.rudi-voller",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Rudi Völler compete?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "tennis",
+      "cyclo-cross",
+      "athletics"
+    ],
+    "explanation": "Rudi Völler competed in association football.",
+    "details": "association football is the sport principally associated with athlete Rudi Völler.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q44464"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.hermann-eppenhoff",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Hermann Eppenhoff represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "United States",
+      "Australia",
+      "Finland"
+    ],
+    "explanation": "Hermann Eppenhoff is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Hermann Eppenhoff.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q89505"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.delhi-football-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Delhi football team play?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "ice hockey",
+      "American football",
+      "cricket"
+    ],
+    "explanation": "Delhi football team competes in association football.",
+    "details": "association football is the sport associated with the team Delhi football team.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q5253838"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.donetsk-people-s-republic-national-football-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Donetsk People's Republic national football team?",
+    "canonicalAnswer": "Metalurh Stadium",
+    "aliases": [],
+    "distractors": [
+      "San Diego Stadium",
+      "PalaCastellotti",
+      "Piscines dels Banys de Sant Sebastià"
+    ],
+    "explanation": "Donetsk People's Republic national football team plays home events at Metalurh Stadium.",
+    "details": "Metalurh Stadium is recorded as the principal home venue of Donetsk People's Republic national football team.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q25432075"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.yugoslav-handball-championship",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Yugoslav Handball Championship?",
+    "canonicalAnswer": "handball",
+    "aliases": [],
+    "distractors": [
+      "rugby league",
+      "auto racing",
+      "motorcycle speedway"
+    ],
+    "explanation": "Yugoslav Handball Championship is a competition in handball.",
+    "details": "handball is the sporting discipline associated with Yugoslav Handball Championship.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q842567"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.marcel-jacques-boulenger",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Marcel Jacques Boulenger compete?",
+    "canonicalAnswer": "fencing",
+    "aliases": [],
+    "distractors": [
+      "cyclo-cross",
+      "athletics",
+      "orienteering"
+    ],
+    "explanation": "Marcel Jacques Boulenger competed in fencing.",
+    "details": "fencing is the sport principally associated with athlete Marcel Jacques Boulenger.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q33758"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.egon-muller",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Egon Müller represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Australia",
+      "Finland",
+      "Czech Republic"
+    ],
+    "explanation": "Egon Müller is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Egon Müller.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q84426"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.fort-worth-flyers",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Fort Worth Flyers play?",
+    "canonicalAnswer": "basketball",
+    "aliases": [],
+    "distractors": [
+      "American football",
+      "cricket",
+      "mixed martial arts"
+    ],
+    "explanation": "Fort Worth Flyers competes in basketball.",
+    "details": "basketball is the sport associated with the team Fort Worth Flyers.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1438838"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.san-diego-fleet",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of San Diego Fleet?",
+    "canonicalAnswer": "San Diego Stadium",
+    "aliases": [],
+    "distractors": [
+      "PalaCastellotti",
+      "Piscines dels Banys de Sant Sebastià",
+      "Eden Gardens"
+    ],
+    "explanation": "San Diego Fleet plays home events at San Diego Stadium.",
+    "details": "San Diego Stadium is recorded as the principal home venue of San Diego Fleet.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54959137"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.new-south-wales-cup",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in New South Wales Cup?",
+    "canonicalAnswer": "rugby league",
+    "aliases": [],
+    "distractors": [
+      "auto racing",
+      "motorcycle speedway",
+      "athletics"
+    ],
+    "explanation": "New South Wales Cup is a competition in rugby league.",
+    "details": "rugby league is the sporting discipline associated with New South Wales Cup.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q870460"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.garry-kasparov",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Garry Kasparov compete?",
+    "canonicalAnswer": "chess",
+    "aliases": [],
+    "distractors": [
+      "athletics",
+      "orienteering",
+      "basketball"
+    ],
+    "explanation": "Garry Kasparov competed in chess.",
+    "details": "chess is the sport principally associated with athlete Garry Kasparov.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q28614"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.helga-mees",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Helga Mees represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Finland",
+      "Czech Republic",
+      "Chile"
+    ],
+    "explanation": "Helga Mees is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Helga Mees.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q85612"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.debreceni-civis-polo-vizilabda-se",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Debreceni Cívis Póló Vízilabda SE play?",
+    "canonicalAnswer": "water polo",
+    "aliases": [],
+    "distractors": [
+      "cricket",
+      "mixed martial arts",
+      "formula racing"
+    ],
+    "explanation": "Debreceni Cívis Póló Vízilabda SE competes in water polo.",
+    "details": "water polo is the sport associated with the team Debreceni Cívis Póló Vízilabda SE.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q903095"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.amatori-lodi",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Amatori Lodi?",
+    "canonicalAnswer": "PalaCastellotti",
+    "aliases": [],
+    "distractors": [
+      "Piscines dels Banys de Sant Sebastià",
+      "Eden Gardens",
+      "Avaza stadium"
+    ],
+    "explanation": "Amatori Lodi plays home events at PalaCastellotti.",
+    "details": "PalaCastellotti is recorded as the principal home venue of Amatori Lodi.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q2259570"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.champ-car",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Champ Car?",
+    "canonicalAnswer": "auto racing",
+    "aliases": [],
+    "distractors": [
+      "motorcycle speedway",
+      "athletics",
+      "formula racing"
+    ],
+    "explanation": "Champ Car is a competition in auto racing.",
+    "details": "auto racing is the sporting discipline associated with Champ Car.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q840399"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.billie-jean-king",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Billie Jean King compete?",
+    "canonicalAnswer": "tennis",
+    "aliases": [],
+    "distractors": [
+      "orienteering",
+      "basketball",
+      "track cycling"
+    ],
+    "explanation": "Billie Jean King competed in tennis.",
+    "details": "tennis is the sport principally associated with athlete Billie Jean King.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54527"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.heidi-schuller",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Heidi Schüller represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Czech Republic",
+      "Chile",
+      "Soviet Union"
+    ],
+    "explanation": "Heidi Schüller is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Heidi Schüller.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q91718"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.klm-line",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does KLM Line play?",
+    "canonicalAnswer": "ice hockey",
+    "aliases": [],
+    "distractors": [
+      "mixed martial arts",
+      "formula racing",
+      "volleyball"
+    ],
+    "explanation": "KLM Line competes in ice hockey.",
+    "details": "ice hockey is the sport associated with the team KLM Line.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15729782"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.cn-atletic-barceloneta",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of CN Atlètic-Barceloneta?",
+    "canonicalAnswer": "Piscines dels Banys de Sant Sebastià",
+    "aliases": [
+      "Piscines dels Banys de Sant Sebastia"
+    ],
+    "distractors": [
+      "Eden Gardens",
+      "Avaza stadium",
+      "Culture and Entertainment Complex Nagorny"
+    ],
+    "explanation": "CN Atlètic-Barceloneta plays home events at Piscines dels Banys de Sant Sebastià.",
+    "details": "Piscines dels Banys de Sant Sebastià is recorded as the principal home venue of CN Atlètic-Barceloneta.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q928339"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.speedway-grand-prix",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Speedway Grand Prix?",
+    "canonicalAnswer": "motorcycle speedway",
+    "aliases": [],
+    "distractors": [
+      "athletics",
+      "formula racing",
+      "ultra-trail"
+    ],
+    "explanation": "Speedway Grand Prix is a competition in motorcycle speedway.",
+    "details": "motorcycle speedway is the sporting discipline associated with Speedway Grand Prix.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q743595"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.bim-diederich",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Bim Diederich compete?",
+    "canonicalAnswer": "cyclo-cross",
+    "aliases": [],
+    "distractors": [
+      "basketball",
+      "track cycling",
+      "boxing"
+    ],
+    "explanation": "Bim Diederich competed in cyclo-cross.",
+    "details": "cyclo-cross is the sport principally associated with athlete Bim Diederich.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15985"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.magdalena-neuner",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Magdalena Neuner represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Chile",
+      "Soviet Union",
+      "Switzerland"
+    ],
+    "explanation": "Magdalena Neuner is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Magdalena Neuner.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q76455"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.kansas-city-command",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Kansas City Command play?",
+    "canonicalAnswer": "American football",
+    "aliases": [],
+    "distractors": [
+      "formula racing",
+      "volleyball",
+      "futsal"
+    ],
+    "explanation": "Kansas City Command competes in American football.",
+    "details": "American football is the sport associated with the team Kansas City Command.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1410625"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.kolkata-knight-riders",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Kolkata Knight Riders?",
+    "canonicalAnswer": "Eden Gardens",
+    "aliases": [],
+    "distractors": [
+      "Avaza stadium",
+      "Culture and Entertainment Complex Nagorny",
+      "Lamport Stadium"
+    ],
+    "explanation": "Kolkata Knight Riders plays home events at Eden Gardens.",
+    "details": "Eden Gardens is recorded as the principal home venue of Kolkata Knight Riders.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1156894"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.gauliga-wartheland",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Gauliga Wartheland?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "formula racing",
+      "ultra-trail",
+      "ski mountaineering"
+    ],
+    "explanation": "Gauliga Wartheland is a competition in association football.",
+    "details": "association football is the sporting discipline associated with Gauliga Wartheland.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q830996"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.annegret-richter",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Annegret Richter compete?",
+    "canonicalAnswer": "athletics",
+    "aliases": [],
+    "distractors": [
+      "track cycling",
+      "boxing",
+      "golf"
+    ],
+    "explanation": "Annegret Richter competed in athletics.",
+    "details": "athletics is the sport principally associated with athlete Annegret Richter.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57884"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.michael-uhrmann",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Michael Uhrmann represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Soviet Union",
+      "Switzerland",
+      "Italy"
+    ],
+    "explanation": "Michael Uhrmann is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Michael Uhrmann.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q76461"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.comilla-victorians",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Comilla Victorians play?",
+    "canonicalAnswer": "cricket",
+    "aliases": [],
+    "distractors": [
+      "volleyball",
+      "futsal",
+      "Olympic sport"
+    ],
+    "explanation": "Comilla Victorians competes in cricket.",
+    "details": "cricket is the sport associated with the team Comilla Victorians.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q21205379"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.dinamo-sokhumi",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Dinamo Sokhumi?",
+    "canonicalAnswer": "Avaza stadium",
+    "aliases": [],
+    "distractors": [
+      "Culture and Entertainment Complex Nagorny",
+      "Lamport Stadium",
+      "Palau Blaugrana"
+    ],
+    "explanation": "Dinamo Sokhumi plays home events at Avaza stadium.",
+    "details": "Avaza stadium is recorded as the principal home venue of Dinamo Sokhumi.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q10624111"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.austrian-basketball-supercup",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Austrian Basketball Supercup?",
+    "canonicalAnswer": "basketball",
+    "aliases": [],
+    "distractors": [
+      "ultra-trail",
+      "ski mountaineering",
+      "ice hockey"
+    ],
+    "explanation": "Austrian Basketball Supercup is a competition in basketball.",
+    "details": "basketball is the sporting discipline associated with Austrian Basketball Supercup.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q810348"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.ronaldinho",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Ronaldinho compete?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "boxing",
+      "golf",
+      "baseball"
+    ],
+    "explanation": "Ronaldinho competed in association football.",
+    "details": "association football is the sport principally associated with athlete Ronaldinho.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q39444"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.anni-biechl",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Anni Biechl represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Switzerland",
+      "Italy",
+      "Kingdom of the Netherlands"
+    ],
+    "explanation": "Anni Biechl is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Anni Biechl.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q91188"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.orvosegyetem-sc",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Orvosegyetem SC play?",
+    "canonicalAnswer": "water polo",
+    "aliases": [],
+    "distractors": [
+      "futsal",
+      "Olympic sport",
+      "roller hockey (quad)"
+    ],
+    "explanation": "Orvosegyetem SC competes in water polo.",
+    "details": "water polo is the sport associated with the team Orvosegyetem SC.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q547782"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.skif-nizhny-novgorod",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of SKIF Nizhny Novgorod?",
+    "canonicalAnswer": "Culture and Entertainment Complex Nagorny",
+    "aliases": [],
+    "distractors": [
+      "Lamport Stadium",
+      "Palau Blaugrana",
+      "Fort Worth Convention Center"
+    ],
+    "explanation": "SKIF Nizhny Novgorod plays home events at Culture and Entertainment Complex Nagorny.",
+    "details": "Culture and Entertainment Complex Nagorny is recorded as the principal home venue of SKIF Nizhny Novgorod.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1162635"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.basketball-championship-of-bosnia-and-herzegovina",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Basketball Championship of Bosnia and Herzegovina?",
+    "canonicalAnswer": "basketball",
+    "aliases": [],
+    "distractors": [
+      "ski mountaineering",
+      "ice hockey",
+      "baseball"
+    ],
+    "explanation": "Basketball Championship of Bosnia and Herzegovina is a competition in basketball.",
+    "details": "basketball is the sporting discipline associated with Basketball Championship of Bosnia and Herzegovina.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q810356"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.al-oerter",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Al Oerter compete?",
+    "canonicalAnswer": "athletics",
+    "aliases": [],
+    "distractors": [
+      "golf",
+      "baseball",
+      "artistic gymnastics"
+    ],
+    "explanation": "Al Oerter competed in athletics.",
+    "details": "athletics is the sport principally associated with athlete Al Oerter.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52642"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.pepi-bader",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Pepi Bader represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Italy",
+      "Kingdom of the Netherlands",
+      "Mozambique"
+    ],
+    "explanation": "Pepi Bader is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Pepi Bader.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q73187"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.tristar-gym",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Tristar Gym play?",
+    "canonicalAnswer": "mixed martial arts",
+    "aliases": [],
+    "distractors": [
+      "Olympic sport",
+      "roller hockey (quad)",
+      "cycle ball"
+    ],
+    "explanation": "Tristar Gym competes in mixed martial arts.",
+    "details": "mixed martial arts is the sport associated with the team Tristar Gym.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3539669"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.toronto-wolfpack",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Toronto Wolfpack?",
+    "canonicalAnswer": "Lamport Stadium",
+    "aliases": [],
+    "distractors": [
+      "Palau Blaugrana",
+      "Fort Worth Convention Center",
+      "Navy–Marine Corps Memorial Stadium"
+    ],
+    "explanation": "Toronto Wolfpack plays home events at Lamport Stadium.",
+    "details": "Lamport Stadium is recorded as the principal home venue of Toronto Wolfpack.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q24185260"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.sierre-zinal",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Sierre-Zinal?",
+    "canonicalAnswer": "athletics",
+    "aliases": [],
+    "distractors": [
+      "ice hockey",
+      "baseball",
+      "tennis"
+    ],
+    "explanation": "Sierre-Zinal is a competition in athletics.",
+    "details": "athletics is the sporting discipline associated with Sierre-Zinal.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q740018"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.anja-parson",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Anja Pärson compete?",
+    "canonicalAnswer": "alpine skiing",
+    "aliases": [],
+    "distractors": [
+      "baseball",
+      "artistic gymnastics",
+      "ice hockey"
+    ],
+    "explanation": "Anja Pärson competed in alpine skiing.",
+    "details": "alpine skiing is the sport principally associated with athlete Anja Pärson.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1933"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.ernst-jakob-henne",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Ernst Jakob Henne represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Kingdom of the Netherlands",
+      "Mozambique",
+      "United Kingdom"
+    ],
+    "explanation": "Ernst Jakob Henne is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Ernst Jakob Henne.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q75616"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.afghan-cheetahs",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Afghan Cheetahs play?",
+    "canonicalAnswer": "cricket",
+    "aliases": [],
+    "distractors": [
+      "roller hockey (quad)",
+      "cycle ball",
+      "professional wrestling"
+    ],
+    "explanation": "Afghan Cheetahs competes in cricket.",
+    "details": "cricket is the sport associated with the team Afghan Cheetahs.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q4689058"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.fc-barcelona-hoquei",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of FC Barcelona Hoquei?",
+    "canonicalAnswer": "Palau Blaugrana",
+    "aliases": [],
+    "distractors": [
+      "Fort Worth Convention Center",
+      "Navy–Marine Corps Memorial Stadium",
+      "Jane Sandanski Arena"
+    ],
+    "explanation": "FC Barcelona Hoquei plays home events at Palau Blaugrana.",
+    "details": "Palau Blaugrana is recorded as the principal home venue of FC Barcelona Hoquei.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q679869"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.maratona-di-sant-antonio",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Maratona di Sant'Antonio?",
+    "canonicalAnswer": "athletics",
+    "aliases": [],
+    "distractors": [
+      "baseball",
+      "tennis",
+      "rally raid"
+    ],
+    "explanation": "Maratona di Sant'Antonio is a competition in athletics.",
+    "details": "athletics is the sporting discipline associated with Maratona di Sant'Antonio.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q844075"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.helen-wills",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Helen Wills compete?",
+    "canonicalAnswer": "tennis",
+    "aliases": [],
+    "distractors": [
+      "artistic gymnastics",
+      "ice hockey",
+      "ski jumping"
+    ],
+    "explanation": "Helen Wills competed in tennis.",
+    "details": "tennis is the sport principally associated with athlete Helen Wills.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54543"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.karl-adam",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Karl Adam represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Mozambique",
+      "United Kingdom",
+      "Republic of Genoa"
+    ],
+    "explanation": "Karl Adam is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Karl Adam.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q86299"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.american-top-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does American Top Team play?",
+    "canonicalAnswer": "mixed martial arts",
+    "aliases": [],
+    "distractors": [
+      "cycle ball",
+      "professional wrestling",
+      "handball"
+    ],
+    "explanation": "American Top Team competes in mixed martial arts.",
+    "details": "mixed martial arts is the sport associated with the team American Top Team.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q4033910"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.fort-worth-flyers",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Fort Worth Flyers?",
+    "canonicalAnswer": "Fort Worth Convention Center",
+    "aliases": [],
+    "distractors": [
+      "Navy–Marine Corps Memorial Stadium",
+      "Jane Sandanski Arena",
+      "Scotiabank Saddledome"
+    ],
+    "explanation": "Fort Worth Flyers plays home events at Fort Worth Convention Center.",
+    "details": "Fort Worth Convention Center is recorded as the principal home venue of Fort Worth Flyers.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1438838"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.indycar-series",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in IndyCar Series?",
+    "canonicalAnswer": "formula racing",
+    "aliases": [],
+    "distractors": [
+      "tennis",
+      "rally raid",
+      "water polo"
+    ],
+    "explanation": "IndyCar Series is a competition in formula racing.",
+    "details": "formula racing is the sporting discipline associated with IndyCar Series.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q832052"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.elena-lashmanova",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Elena Lashmanova compete?",
+    "canonicalAnswer": "athletics",
+    "aliases": [],
+    "distractors": [
+      "ice hockey",
+      "ski jumping",
+      "road bicycle racing"
+    ],
+    "explanation": "Elena Lashmanova competed in athletics.",
+    "details": "athletics is the sport principally associated with athlete Elena Lashmanova.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q6281"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.roswitha-esser",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Roswitha Esser represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "United Kingdom",
+      "Republic of Genoa",
+      "Romania"
+    ],
+    "explanation": "Roswitha Esser is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Roswitha Esser.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q73284"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.jaguar-formula-e-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Jaguar Formula E Team play?",
+    "canonicalAnswer": "formula racing",
+    "aliases": [],
+    "distractors": [
+      "professional wrestling",
+      "handball",
+      "rugby league"
+    ],
+    "explanation": "Jaguar Formula E Team competes in formula racing.",
+    "details": "formula racing is the sport associated with the team Jaguar Formula E Team.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q26662689"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-venue.chesapeake-bayhawks",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Stadiums & Arenas"
+    ],
+    "prompt": "What is the home venue of Chesapeake Bayhawks?",
+    "canonicalAnswer": "Navy–Marine Corps Memorial Stadium",
+    "aliases": [],
+    "distractors": [
+      "Jane Sandanski Arena",
+      "Scotiabank Saddledome",
+      "Grand Casino Arena"
+    ],
+    "explanation": "Chesapeake Bayhawks plays home events at Navy–Marine Corps Memorial Stadium.",
+    "details": "Navy–Marine Corps Memorial Stadium is recorded as the principal home venue of Chesapeake Bayhawks.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1070550"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.fiba-saporta-cup",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in FIBA Saporta Cup?",
+    "canonicalAnswer": "basketball",
+    "aliases": [],
+    "distractors": [
+      "rally raid",
+      "water polo",
+      "motorcycle road racing"
+    ],
+    "explanation": "FIBA Saporta Cup is a competition in basketball.",
+    "details": "basketball is the sporting discipline associated with FIBA Saporta Cup.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q767127"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.franziska-van-almsick",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Franziska van Almsick compete?",
+    "canonicalAnswer": "competitive swimming",
+    "aliases": [],
+    "distractors": [
+      "ski jumping",
+      "road bicycle racing",
+      "bodybuilding"
+    ],
+    "explanation": "Franziska van Almsick competed in competitive swimming.",
+    "details": "competitive swimming is the sport principally associated with athlete Franziska van Almsick.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q57582"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.michael-jung",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Michael Jung represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Republic of Genoa",
+      "Romania",
+      "Israel"
+    ],
+    "explanation": "Michael Jung is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Michael Jung.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q77560"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.zambia-women-s-national-volleyball-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Zambia women's national volleyball team play?",
+    "canonicalAnswer": "volleyball",
+    "aliases": [],
+    "distractors": [
+      "handball",
+      "rugby league",
+      "roller hockey"
+    ],
+    "explanation": "Zambia women's national volleyball team competes in volleyball.",
+    "details": "volleyball is the sport associated with the team Zambia women's national volleyball team.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q109023972"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.badwater-ultramarathon",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Badwater Ultramarathon?",
+    "canonicalAnswer": "ultra-trail",
+    "aliases": [],
+    "distractors": [
+      "water polo",
+      "motorcycle road racing",
+      "skyrunning"
+    ],
+    "explanation": "Badwater Ultramarathon is a competition in ultra-trail.",
+    "details": "ultra-trail is the sporting discipline associated with Badwater Ultramarathon.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q788373"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-sport.jesse-owens",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Athletes"
+    ],
+    "prompt": "In which sport did Jesse Owens compete?",
+    "canonicalAnswer": "athletics",
+    "aliases": [],
+    "distractors": [
+      "road bicycle racing",
+      "bodybuilding",
+      "rowing"
+    ],
+    "explanation": "Jesse Owens competed in athletics.",
+    "details": "athletics is the sport principally associated with athlete Jesse Owens.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52651"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.athlete-country.joelle-franzmann",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "International Sports"
+    ],
+    "prompt": "Which country did athlete Joelle Franzmann represent or hold citizenship in?",
+    "canonicalAnswer": "Germany",
+    "aliases": [],
+    "distractors": [
+      "Romania",
+      "Israel",
+      "France"
+    ],
+    "explanation": "Joelle Franzmann is associated with Germany.",
+    "details": "Germany is the country recorded for athlete Joelle Franzmann.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q90451"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.multan-sultans",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Multan Sultans play?",
+    "canonicalAnswer": "cricket",
+    "aliases": [],
+    "distractors": [
+      "rugby league",
+      "roller hockey",
+      "Formula One"
+    ],
+    "explanation": "Multan Sultans competes in cricket.",
+    "details": "cricket is the sport associated with the team Multan Sultans.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q39057201"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.competition-sport.mezzalama-trophy",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Competitions"
+    ],
+    "prompt": "Which sport is contested in Mezzalama Trophy?",
+    "canonicalAnswer": "ski mountaineering",
+    "aliases": [],
+    "distractors": [
+      "motorcycle road racing",
+      "skyrunning",
+      "biathlon"
+    ],
+    "explanation": "Mezzalama Trophy is a competition in ski mountaineering.",
+    "details": "ski mountaineering is the sporting discipline associated with Mezzalama Trophy.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q750370"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.comoros-national-under-20-football-team",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Comoros national under-20 football team play?",
+    "canonicalAnswer": "association football",
+    "aliases": [],
+    "distractors": [
+      "roller hockey",
+      "Formula One",
+      "shinty"
+    ],
+    "explanation": "Comoros national under-20 football team competes in association football.",
+    "details": "association football is the sport associated with the team Comoros national under-20 football team.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q130308796"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "sports-starter.team-sport.colorado-crush",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "sports-starter"
+    ],
+    "subtopics": [
+      "Teams"
+    ],
+    "prompt": "Which sport does Colorado Crush play?",
+    "canonicalAnswer": "American football",
+    "aliases": [],
+    "distractors": [
+      "Formula One",
+      "shinty",
+      "floorball"
+    ],
+    "explanation": "Colorado Crush competes in American football.",
+    "details": "American football is the sport associated with the team Colorado Crush.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q953000"
+    },
+    "expiresAt": null
+  }
+]

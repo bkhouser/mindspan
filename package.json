@@ -1,6 +1,6 @@
 {
   "name": "mindspan",
-  "version": "0.1.0-beta.1",
+  "version": "0.2.0-beta.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,7 +18,13 @@
     "db:types": "supabase gen types typescript --local > src/types/database.generated.ts",
     "db:verify": "node scripts/verify-local.mjs",
     "db:test:rls": "node scripts/verify-rls.mjs",
-    "db:test:import": "node scripts/verify-import.mjs"
+    "db:test:import": "node scripts/verify-import.mjs",
+    "db:test:auth": "node scripts/verify-auth.mjs",
+    "catalog:generate": "node scripts/generate-catalog.mjs",
+    "catalog:generate:opentdb": "node scripts/generate-opentdb-catalog.mjs",
+    "catalog:validate": "node scripts/validate-catalog.mjs",
+    "catalog:load": "node scripts/load-catalog.mjs",
+    "catalog:verify": "node scripts/verify-catalog.mjs"
   },
   "engines": {
     "node": ">=20"
@@ -30,6 +36,7 @@
     "@supabase/ssr": "^0.12.1",
     "@supabase/supabase-js": "^2.110.3",
     "clsx": "^2.1.1",
+    "entities": "^8.0.0",
     "lucide-react": "^1.24.0",
     "next": "^16.2.10",
     "react": "^19.2.7",

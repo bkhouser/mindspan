@@ -1,0 +1,2666 @@
+[
+  {
+    "catalogKey": "music-starter.opentdb.ac91093737d000eb",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "\"Grande Valse\" is a phrase from the song \"Gran Vals\". What is that song segment known as?",
+    "canonicalAnswer": "Nokia Tune",
+    "aliases": [],
+    "distractors": [
+      "Hello Moto [Motorola Ringtone]",
+      "Droid Ringtone",
+      "Microsoft Ringtone"
+    ],
+    "explanation": "The correct answer is Nokia Tune.",
+    "details": "Remember the association in this Entertainment: Music question: Nokia Tune is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.42ae9a0524fbf229",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "\"Some people call me the space cowboy\" is the first line from what song?",
+    "canonicalAnswer": "The Joker",
+    "aliases": [],
+    "distractors": [
+      "Fandango",
+      "Take The Money and Run",
+      "Fly Like an Eagle"
+    ],
+    "explanation": "The correct answer is The Joker.",
+    "details": "Remember the association in this Entertainment: Music question: The Joker is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.cfbf55963f32bc98",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "According to a song by Belinda Carlisle, Heaven is a place on what?",
+    "canonicalAnswer": "Earth",
+    "aliases": [],
+    "distractors": [
+      "Venus",
+      "Mars",
+      "Uranus"
+    ],
+    "explanation": "The correct answer is Earth.",
+    "details": "Remember the association in this Entertainment: Music question: Earth is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.52852fc83856b81b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Finish these lyrics from the 2016 song \"Panda\" by Desiigner: \"I got broads in _______\".",
+    "canonicalAnswer": "Atlanta",
+    "aliases": [],
+    "distractors": [
+      "Savannah",
+      "Augusta",
+      "Marietta"
+    ],
+    "explanation": "The correct answer is Atlanta.",
+    "details": "Remember the association in this Entertainment: Music question: Atlanta is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.4c3f6b1d7d39f24c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "From which country did the song \"Gangnam Style\" originate from?",
+    "canonicalAnswer": "South Korea",
+    "aliases": [],
+    "distractors": [
+      "Japan",
+      "North Korea",
+      "China"
+    ],
+    "explanation": "The correct answer is South Korea.",
+    "details": "Remember the association in this Entertainment: Music question: South Korea is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.9daaf96604abf30c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "How many members are there in the band Nirvana?",
+    "canonicalAnswer": "Three",
+    "aliases": [],
+    "distractors": [
+      "Two",
+      "Four",
+      "Five"
+    ],
+    "explanation": "The correct answer is Three.",
+    "details": "Remember the association in this Entertainment: Music question: Three is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.f6063b5d2eb9aa32",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "How many strings are there on a cello?",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "four"
+    ],
+    "distractors": [
+      "5",
+      "6",
+      "8"
+    ],
+    "explanation": "The correct answer is 4.",
+    "details": "Remember the association in this Entertainment: Music question: 4 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.ad7821fa48b57e84",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "How many studio albums have the duo Daft Punk released?",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "four"
+    ],
+    "distractors": [
+      "1",
+      "5",
+      "2"
+    ],
+    "explanation": "The correct answer is 4.",
+    "details": "Remember the association in this Entertainment: Music question: 4 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.99ec9ef78d2dd310",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Kanye West at 2009 VMA's interrupted which celebrity?",
+    "canonicalAnswer": "Taylor Swift",
+    "aliases": [],
+    "distractors": [
+      "MF DOOM",
+      "Beyonce",
+      "Beck"
+    ],
+    "explanation": "The correct answer is Taylor Swift.",
+    "details": "Remember the association in this Entertainment: Music question: Taylor Swift is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.1bd92ed6da39097c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Sting, the lead vocalist of The Police, primarily plays what instrument?",
+    "canonicalAnswer": "Bass Guitar",
+    "aliases": [],
+    "distractors": [
+      "Drums",
+      "Guitar",
+      "Keyboards"
+    ],
+    "explanation": "The correct answer is Bass Guitar.",
+    "details": "Remember the association in this Entertainment: Music question: Bass Guitar is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8396a52ba8ec893d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The \"British Invasion\" was a cultural phenomenon in music where British boy bands became popular in the USA in what decade?",
+    "canonicalAnswer": "60's",
+    "aliases": [],
+    "distractors": [
+      "50's",
+      "40's",
+      "30's"
+    ],
+    "explanation": "The correct answer is 60's.",
+    "details": "Remember the association in this Entertainment: Music question: 60's is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.7cf906afa79eb7a9",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The 2016 song \"Starboy\" by Canadian singer The Weeknd features which prominent electronic artist?",
+    "canonicalAnswer": "Daft Punk",
+    "aliases": [],
+    "distractors": [
+      "deadmau5",
+      "Disclosure",
+      "DJ Shadow"
+    ],
+    "explanation": "The correct answer is Daft Punk.",
+    "details": "Remember the association in this Entertainment: Music question: Daft Punk is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.b22bac128f758cf2",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The Rush song \"YYZ\" derives its name from the IATA aiport identification code for which city?",
+    "canonicalAnswer": "Toronto",
+    "aliases": [],
+    "distractors": [
+      "Vancouver",
+      "Ottawa",
+      "Calgary"
+    ],
+    "explanation": "The correct answer is Toronto.",
+    "details": "Remember the association in this Entertainment: Music question: Toronto is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.9d30033143881038",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What album did Bon Iver release in 2016?",
+    "canonicalAnswer": "22, A Million",
+    "aliases": [],
+    "distractors": [
+      "Bon Iver, Bon Iver",
+      "Blood Bank EP",
+      "For Emma, Forever Ago"
+    ],
+    "explanation": "The correct answer is 22, A Million.",
+    "details": "Remember the association in this Entertainment: Music question: 22, A Million is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.6809589c171e3bc9",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the name of Rivers Cuomo's wife?",
+    "canonicalAnswer": "Kyoko Ito",
+    "aliases": [],
+    "distractors": [
+      "Yoko Ono",
+      "Kyary Pamyu Pamyu",
+      "LiSA"
+    ],
+    "explanation": "The correct answer is Kyoko Ito.",
+    "details": "Remember the association in this Entertainment: Music question: Kyoko Ito is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.08b461b7ed2b718a",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the name of the album released in 2014 by American band Maroon 5?",
+    "canonicalAnswer": "V",
+    "aliases": [],
+    "distractors": [
+      "X",
+      "III",
+      "IV"
+    ],
+    "explanation": "The correct answer is V.",
+    "details": "Remember the association in this Entertainment: Music question: V is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.13311f789390d029",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What Led Zeppelin album contains \"Stairway to Heaven\"?",
+    "canonicalAnswer": "Led Zeppelin IV",
+    "aliases": [],
+    "distractors": [
+      "Houses of the Holy",
+      "Physical Graffiti",
+      "Led Zeppelin III"
+    ],
+    "explanation": "The correct answer is Led Zeppelin IV.",
+    "details": "Remember the association in this Entertainment: Music question: Led Zeppelin IV is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.b9219db8d0bf91ab",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was the best selling album of 2015?",
+    "canonicalAnswer": "Adele, 25",
+    "aliases": [],
+    "distractors": [
+      "Fetty Wap, Fetty Wap",
+      "Taylor Swift, 1989",
+      "Justin Bieber, Purpose"
+    ],
+    "explanation": "The correct answer is Adele, 25.",
+    "details": "Remember the association in this Entertainment: Music question: Adele, 25 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.9f31bc1ab7fe93b0",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was the name of singer Frank Ocean's second studio album, which was released on August 20, 2016?",
+    "canonicalAnswer": "Blonde",
+    "aliases": [],
+    "distractors": [
+      "Brunette",
+      "Black",
+      "Burgundy"
+    ],
+    "explanation": "The correct answer is Blonde.",
+    "details": "Remember the association in this Entertainment: Music question: Blonde is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.f8b49551f4084d46",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "When was Gangnam Style uploaded to YouTube?",
+    "canonicalAnswer": "2012",
+    "aliases": [],
+    "distractors": [
+      "2013",
+      "2014",
+      "2011"
+    ],
+    "explanation": "The correct answer is 2012.",
+    "details": "Remember the association in this Entertainment: Music question: 2012 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.e25f511bd3d3a5bf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Beatles album does NOT feature any of the band members on it's cover?",
+    "canonicalAnswer": "The Beatles (White Album)",
+    "aliases": [],
+    "distractors": [
+      "Rubber Soul",
+      "Abbey Road",
+      "Magical Mystery Tour"
+    ],
+    "explanation": "The correct answer is The Beatles (White Album).",
+    "details": "Remember the association in this Entertainment: Music question: The Beatles (White Album) is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.897921b56495aded",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of the following is an album by punk rock band Anti-Flag?",
+    "canonicalAnswer": "For Blood And Empire",
+    "aliases": [],
+    "distractors": [
+      "Infinity On High",
+      "21st Century Breakdown",
+      "No Pads, No Helmets...Just Balls"
+    ],
+    "explanation": "The correct answer is For Blood And Empire.",
+    "details": "Remember the association in this Entertainment: Music question: For Blood And Empire is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.4a3662b32e04d3c7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+    "canonicalAnswer": "Recess",
+    "aliases": [],
+    "distractors": [
+      "All is Fair in Love and Brostep",
+      "Rock N Roll (Will Take You to the Mountain)",
+      "Scary Monsters and Nice Sprites"
+    ],
+    "explanation": "The correct answer is Recess.",
+    "details": "Remember the association in this Entertainment: Music question: Recess is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.ed3b8f4425030036",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which one of these songs did the group \"Men At Work\" NOT make?",
+    "canonicalAnswer": "Safety Dance",
+    "aliases": [],
+    "distractors": [
+      "Down Under",
+      "Who Can It Be Now?",
+      "It's a Mistake"
+    ],
+    "explanation": "The correct answer is Safety Dance.",
+    "details": "Remember the association in this Entertainment: Music question: Safety Dance is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.faf5b4692be3eedb",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which year was the album \"Year of the Snitch\" by Death Grips released?",
+    "canonicalAnswer": "2018",
+    "aliases": [],
+    "distractors": [
+      "2013",
+      "2017",
+      "2011"
+    ],
+    "explanation": "The correct answer is 2018.",
+    "details": "Remember the association in this Entertainment: Music question: 2018 is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.f94e997cd0fbd58d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who was featured in the song \"Words\" by Feint?",
+    "canonicalAnswer": "Laura Brehm",
+    "aliases": [],
+    "distractors": [
+      "Anna Yvette",
+      "Danyka Nadeau",
+      "Veela"
+    ],
+    "explanation": "The correct answer is Laura Brehm.",
+    "details": "Remember the association in this Entertainment: Music question: Laura Brehm is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.ece247dc63b4f337",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "\"Make You Feel My Love\" was originally written and performed by which singer-songwriter?",
+    "canonicalAnswer": "Bob Dylan",
+    "aliases": [],
+    "distractors": [
+      "Elvis",
+      "Adele",
+      "Billy Joel"
+    ],
+    "explanation": "The correct answer is Bob Dylan.",
+    "details": "Remember the association in this Entertainment: Music question: Bob Dylan is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.f518621c33bbfefb",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "\"The Genius\" is the original and secondary name of which Wu-Tang Clan member?",
+    "canonicalAnswer": "GZA",
+    "aliases": [],
+    "distractors": [
+      "Ghostface Killah",
+      "Ol' Dirty Bastard",
+      "Raekwon the Chef"
+    ],
+    "explanation": "The correct answer is GZA.",
+    "details": "Remember the association in this Entertainment: Music question: GZA is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.b89a873823beb75a",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "According to the RIAA: Which artist has sold the most albums by the million?",
+    "canonicalAnswer": "The Beatles",
+    "aliases": [],
+    "distractors": [
+      "Elvis Presley",
+      "Michael Jackson",
+      "Pink Floyd"
+    ],
+    "explanation": "The correct answer is The Beatles.",
+    "details": "Remember the association in this Entertainment: Music question: The Beatles is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.2882e54af91546ed",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "African-American performer Sammy Davis Jr. was known for losing which part of his body in a car accident?",
+    "canonicalAnswer": "Left Eye",
+    "aliases": [],
+    "distractors": [
+      "Right Ear",
+      "Right Middle Finger",
+      "Nose"
+    ],
+    "explanation": "The correct answer is Left Eye.",
+    "details": "Remember the association in this Entertainment: Music question: Left Eye is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.d5e03fcd9c36bc0f",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "From which album is the Gorillaz song, \"On Melancholy Hill\" featured in?",
+    "canonicalAnswer": "Plastic Beach",
+    "aliases": [],
+    "distractors": [
+      "Demon Days",
+      "Humanz",
+      "The Fall"
+    ],
+    "explanation": "The correct answer is Plastic Beach.",
+    "details": "Remember the association in this Entertainment: Music question: Plastic Beach is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.00c8ae072d35b58c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "From which country does the piano originate?",
+    "canonicalAnswer": "Italy",
+    "aliases": [],
+    "distractors": [
+      "Germany",
+      "Austria",
+      "France"
+    ],
+    "explanation": "The correct answer is Italy.",
+    "details": "Remember the association in this Entertainment: Music question: Italy is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.725288c534ec5265",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "In which city did American rap producer DJ Khaled originate from?",
+    "canonicalAnswer": "Miami",
+    "aliases": [],
+    "distractors": [
+      "New York",
+      "Detroit",
+      "Atlanta"
+    ],
+    "explanation": "The correct answer is Miami.",
+    "details": "Remember the association in this Entertainment: Music question: Miami is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.59ec11a6b0fa512c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "In which year was the Megadeth album \"Peace Sells... but Who's Buying?\" released?",
+    "canonicalAnswer": "1986",
+    "aliases": [],
+    "distractors": [
+      "1979",
+      "1987",
+      "1983"
+    ],
+    "explanation": "The correct answer is 1986.",
+    "details": "Remember the association in this Entertainment: Music question: 1986 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.fac50a755983f71f",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Johnny Cash did a cover of this song written by lead singer of Nine Inch Nails, Trent Reznor.",
+    "canonicalAnswer": "Hurt",
+    "aliases": [],
+    "distractors": [
+      "Closer",
+      "A Warm Place",
+      "Big Man with a Gun"
+    ],
+    "explanation": "The correct answer is Hurt.",
+    "details": "Remember the association in this Entertainment: Music question: Hurt is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.368f85e4d205b3e2",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Moby, an American DJ, singer, and musician, achieved worldwide success for the 1999 release of which of the following albums?",
+    "canonicalAnswer": "Play",
+    "aliases": [],
+    "distractors": [
+      "Everything Is Wrong",
+      "Moby",
+      "18"
+    ],
+    "explanation": "The correct answer is Play.",
+    "details": "Remember the association in this Entertainment: Music question: Play is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.36f4d1f940ac0ce7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "On the cover of 'Abbey Road,' which of the Beatles is not wearing shoes?",
+    "canonicalAnswer": "Paul McCartney",
+    "aliases": [],
+    "distractors": [
+      "Ringo Starr",
+      "John Lennon",
+      "George Harrison"
+    ],
+    "explanation": "The correct answer is Paul McCartney.",
+    "details": "Remember the association in this Entertainment: Music question: Paul McCartney is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.92db457dcb0b5b80",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Rick Astley's hit song \"Never Gonna Give You Up\" was released in what year?",
+    "canonicalAnswer": "1987",
+    "aliases": [],
+    "distractors": [
+      "1985",
+      "1986",
+      "1988"
+    ],
+    "explanation": "The correct answer is 1987.",
+    "details": "Remember the association in this Entertainment: Music question: 1987 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.4f208aa8cb09c620",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The 1952 musical composition 4'33\", composed by prolific American composer John Cage, is mainly comprised of what sound?",
+    "canonicalAnswer": "Silence",
+    "aliases": [],
+    "distractors": [
+      "Farts",
+      "People talking",
+      "Cricket chirps"
+    ],
+    "explanation": "The correct answer is Silence.",
+    "details": "Remember the association in this Entertainment: Music question: Silence is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.15d0d9b52623403e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?",
+    "canonicalAnswer": "3rd",
+    "aliases": [],
+    "distractors": [
+      "8th",
+      "1st",
+      "5th"
+    ],
+    "explanation": "The correct answer is 3rd.",
+    "details": "Remember the association in this Entertainment: Music question: 3rd is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.734bda2337db48e2",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The song \"Twin Size Mattress\" was written by which band?",
+    "canonicalAnswer": "The Front Bottoms",
+    "aliases": [],
+    "distractors": [
+      "Twenty One Pilots",
+      "The Wonder Years",
+      "The Smith Street Band"
+    ],
+    "explanation": "The correct answer is The Front Bottoms.",
+    "details": "Remember the association in this Entertainment: Music question: The Front Bottoms is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.c4e0d9aa6bb7300f",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What date is referenced in the 1971 song \"September\" by Earth, Wind & Fire?",
+    "canonicalAnswer": "21st of September",
+    "aliases": [],
+    "distractors": [
+      "26th of September",
+      "23rd of September",
+      "24th of September"
+    ],
+    "explanation": "The correct answer is 21st of September.",
+    "details": "Remember the association in this Entertainment: Music question: 21st of September is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.9de33fbef6079425",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What French artist/band is known for playing on the midi instrument \"Launchpad\"?",
+    "canonicalAnswer": "Madeon",
+    "aliases": [],
+    "distractors": [
+      "Daft Punk",
+      "Disclosure",
+      "David Guetta"
+    ],
+    "explanation": "The correct answer is Madeon.",
+    "details": "Remember the association in this Entertainment: Music question: Madeon is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.61ff590488bb0caf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the name of French electronic music producer Madeon's 2015 debut studio album?",
+    "canonicalAnswer": "Adventure",
+    "aliases": [],
+    "distractors": [
+      "The City",
+      "Icarus",
+      "Pop Culture"
+    ],
+    "explanation": "The correct answer is Adventure.",
+    "details": "Remember the association in this Entertainment: Music question: Adventure is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.d2578644e4fe7265",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the name of the 2016 studio album by the French electronic music duo Justice?",
+    "canonicalAnswer": "Woman",
+    "aliases": [],
+    "distractors": [
+      "Randy",
+      "Safe and Sound",
+      "Pleasure"
+    ],
+    "explanation": "The correct answer is Woman.",
+    "details": "Remember the association in this Entertainment: Music question: Woman is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.c84e64d18222d3d9",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the relationship between the band members of American rock band King of Leon?",
+    "canonicalAnswer": "Brothers & cousins",
+    "aliases": [],
+    "distractors": [
+      "Childhood friends",
+      "Former classmates",
+      "Fraternity house members"
+    ],
+    "explanation": "The correct answer is Brothers & cousins.",
+    "details": "Remember the association in this Entertainment: Music question: Brothers & cousins is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.088ccd509eeea772",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What song on ScHoolboy Q's album Black Face LP featured Kanye West?",
+    "canonicalAnswer": "THat Part",
+    "aliases": [],
+    "distractors": [
+      "Neva CHange",
+      "Big Body",
+      "Blank Face"
+    ],
+    "explanation": "The correct answer is THat Part.",
+    "details": "Remember the association in this Entertainment: Music question: THat Part is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8b94b7b1e7e9e2bf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was Bon Iver's debut album released in 2007?",
+    "canonicalAnswer": "For Emma, Forever Ago",
+    "aliases": [],
+    "distractors": [
+      "Bon Iver, Bon Iver",
+      "22, A Million",
+      "Blood Bank EP"
+    ],
+    "explanation": "The correct answer is For Emma, Forever Ago.",
+    "details": "Remember the association in this Entertainment: Music question: For Emma, Forever Ago is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.86f79a559f0e037c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was Raekwon the Chefs debut solo album?",
+    "canonicalAnswer": "Only Built 4 Cuban Linx",
+    "aliases": [],
+    "distractors": [
+      "Shaolin vs Wu-Tang",
+      "The Wild",
+      "The Lex Diamond Story"
+    ],
+    "explanation": "The correct answer is Only Built 4 Cuban Linx.",
+    "details": "Remember the association in this Entertainment: Music question: Only Built 4 Cuban Linx is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.828380d16e56d43d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was the name of the Wu-Tang Clan album Martin Shkreli bought for $2 million dollars?",
+    "canonicalAnswer": "Once Upon a Time in Shaolin",
+    "aliases": [],
+    "distractors": [
+      "A Better Tomorrow",
+      "8 Diagrams",
+      "The Saga Continues"
+    ],
+    "explanation": "The correct answer is Once Upon a Time in Shaolin.",
+    "details": "Remember the association in this Entertainment: Music question: Once Upon a Time in Shaolin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.d92f5d6e3635fad8",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What year was Red Hot Chill Pepper's album \"Californication\" released?",
+    "canonicalAnswer": "1999",
+    "aliases": [],
+    "distractors": [
+      "1997",
+      "2000",
+      "1992"
+    ],
+    "explanation": "The correct answer is 1999.",
+    "details": "Remember the association in this Entertainment: Music question: 1999 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.eda52e36629c9581",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "When did The Beatles release the LP \"Please Please Me\"?",
+    "canonicalAnswer": "1963",
+    "aliases": [],
+    "distractors": [
+      "1970",
+      "1960",
+      "1969"
+    ],
+    "explanation": "The correct answer is 1963.",
+    "details": "Remember the association in this Entertainment: Music question: 1963 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.23d68b3eb0c97e7b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which artist curated the official soundtrack for \"The Hunger Games: Mockingjay - Part 1\"?",
+    "canonicalAnswer": "Lorde",
+    "aliases": [],
+    "distractors": [
+      "Kanye West",
+      "Tove Lo",
+      "Charli XCX"
+    ],
+    "explanation": "The correct answer is Lorde.",
+    "details": "Remember the association in this Entertainment: Music question: Lorde is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.212ef72166ecd3f7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which band had hits in 1972 with the songs \"Baby I'm A Want You\", \"Everything I Own\" and \"The Guitar Man\"",
+    "canonicalAnswer": "Bread",
+    "aliases": [],
+    "distractors": [
+      "America",
+      "Chicago",
+      "Smokie"
+    ],
+    "explanation": "The correct answer is Bread.",
+    "details": "Remember the association in this Entertainment: Music question: Bread is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.7daab53658215e00",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which band had hits in 1975 with the songs, 'One Of These Nights' & 'Lyin Eyes'?",
+    "canonicalAnswer": "The Eagles",
+    "aliases": [],
+    "distractors": [
+      "Fools Gold",
+      "The Doobie Brothers",
+      "Fleetwood Mac"
+    ],
+    "explanation": "The correct answer is The Eagles.",
+    "details": "Remember the association in this Entertainment: Music question: The Eagles is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.0071d6091178d6cf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which band released songs such as \"Electric Feel\", \"Kids\", and \"Time to Pretend\"?",
+    "canonicalAnswer": "MGMT",
+    "aliases": [],
+    "distractors": [
+      "Passion Pit",
+      "Phoenix",
+      "Franz Ferdinand"
+    ],
+    "explanation": "The correct answer is MGMT.",
+    "details": "Remember the association in this Entertainment: Music question: MGMT is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.83478d7cb7f649fb",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Beatle wrote and sang the song \"Why Don't We Do It in the Road\" after being inspired by seeing two monkeys copulating in the street?",
+    "canonicalAnswer": "Paul",
+    "aliases": [],
+    "distractors": [
+      "John",
+      "George",
+      "Ringo"
+    ],
+    "explanation": "The correct answer is Paul.",
+    "details": "Remember the association in this Entertainment: Music question: Paul is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.e07d1decea3c6b4e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of the following guitarists recorded an album as a member of the Red Hot Chili Peppers?",
+    "canonicalAnswer": "Dave Navarro",
+    "aliases": [],
+    "distractors": [
+      "Tom Morello",
+      "Billy Corgan",
+      "Ed O'Brien"
+    ],
+    "explanation": "The correct answer is Dave Navarro.",
+    "details": "Remember the association in this Entertainment: Music question: Dave Navarro is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.f2a34c8ee230af54",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of the following music bands is not from Finland?",
+    "canonicalAnswer": "Sabaton",
+    "aliases": [],
+    "distractors": [
+      "Apocalyptica",
+      "Waltari",
+      "Lordi"
+    ],
+    "explanation": "The correct answer is Sabaton.",
+    "details": "Remember the association in this Entertainment: Music question: Sabaton is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.38cc5f05c7bd669b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these bands is the oldest?",
+    "canonicalAnswer": "Pink Floyd",
+    "aliases": [],
+    "distractors": [
+      "AC/DC",
+      "Metallica",
+      "Red Hot Chili Peppers"
+    ],
+    "explanation": "The correct answer is Pink Floyd.",
+    "details": "Remember the association in this Entertainment: Music question: Pink Floyd is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8503dc25d72aa1bf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these is not a member of the virtual band Gorillaz?",
+    "canonicalAnswer": "Phi Cypher",
+    "aliases": [],
+    "distractors": [
+      "Murdoc Niccals",
+      "Noodle",
+      "Russel Hobbs"
+    ],
+    "explanation": "The correct answer is Phi Cypher.",
+    "details": "Remember the association in this Entertainment: Music question: Phi Cypher is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.b726f08f0f653c7b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these is NOT an album released by The Beatles?",
+    "canonicalAnswer": "The Wall",
+    "aliases": [],
+    "distractors": [
+      "Abbey Road",
+      "Magical Mystery Tour",
+      "Revolver"
+    ],
+    "explanation": "The correct answer is The Wall.",
+    "details": "Remember the association in this Entertainment: Music question: The Wall is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.da52b113850bcf9e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these is NOT the name of an album released by Miami-based producer DJ Khaled?",
+    "canonicalAnswer": "Don't Ever Play Yourself",
+    "aliases": [],
+    "distractors": [
+      "Major Key",
+      "Suffering From Success",
+      "I Changed A Lot"
+    ],
+    "explanation": "The correct answer is Don't Ever Play Yourself.",
+    "details": "Remember the association in this Entertainment: Music question: Don't Ever Play Yourself is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.ab5b00d4e8beee01",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which one of these artists appears in the album Deltron 3030?",
+    "canonicalAnswer": "Dan the Automater",
+    "aliases": [],
+    "distractors": [
+      "Lamarr Kendrick",
+      "Danger Mouse",
+      "CeeLo Green"
+    ],
+    "explanation": "The correct answer is Dan the Automater.",
+    "details": "Remember the association in this Entertainment: Music question: Dan the Automater is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.85cf2cf5d0339f45",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which one of these Pink Floyd albums were also a movie?",
+    "canonicalAnswer": "The Wall",
+    "aliases": [],
+    "distractors": [
+      "The Dark Side of the Moon",
+      "Wish You Were Here",
+      "Animals"
+    ],
+    "explanation": "The correct answer is The Wall.",
+    "details": "Remember the association in this Entertainment: Music question: The Wall is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.386bd2ce42260009",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Queen song was covered by Brittany Murphy in the 2006 film \"Happy Feet\"?",
+    "canonicalAnswer": "Somebody to Love",
+    "aliases": [],
+    "distractors": [
+      "Under Pressure",
+      "Flash",
+      "Bohemian Rhapsody"
+    ],
+    "explanation": "The correct answer is Somebody to Love.",
+    "details": "Remember the association in this Entertainment: Music question: Somebody to Love is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.96b3dbd08e8be117",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which singer was featured in Swedish producer Avicii's song \"Wake Me Up\"?",
+    "canonicalAnswer": "Aloe Blacc",
+    "aliases": [],
+    "distractors": [
+      "John Legend",
+      "CeeLo Green",
+      "Pharrell Williams"
+    ],
+    "explanation": "The correct answer is Aloe Blacc.",
+    "details": "Remember the association in this Entertainment: Music question: Aloe Blacc is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.abe206be0b3a7c61",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which song is not by TheFatRat?",
+    "canonicalAnswer": "Ascent",
+    "aliases": [],
+    "distractors": [
+      "Monody",
+      "Windfall",
+      "Infinite Power!"
+    ],
+    "explanation": "The correct answer is Ascent.",
+    "details": "Remember the association in this Entertainment: Music question: Ascent is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.bad6fe0a1472f496",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who had a 1976 hit with the song 'You Make Me Feel Like Dancing'?",
+    "canonicalAnswer": "Leo Sayer",
+    "aliases": [],
+    "distractors": [
+      "Elton John",
+      "Billy Joel",
+      "Andy Gibb"
+    ],
+    "explanation": "The correct answer is Leo Sayer.",
+    "details": "Remember the association in this Entertainment: Music question: Leo Sayer is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.9e9863b88b10d501",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?",
+    "canonicalAnswer": "The Tornados",
+    "aliases": [],
+    "distractors": [
+      "The Ventures",
+      "The Spotnicks",
+      "The Tremeloes"
+    ],
+    "explanation": "The correct answer is The Tornados.",
+    "details": "Remember the association in this Entertainment: Music question: The Tornados is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8885653d45290d20",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who had hits in the 70s with the songs \"Lonely Boy\" and \"Never Let Her Slip Away\"?",
+    "canonicalAnswer": "Andrew Gold",
+    "aliases": [],
+    "distractors": [
+      "Elton John",
+      "Leo Sayer",
+      "Barry White"
+    ],
+    "explanation": "The correct answer is Andrew Gold.",
+    "details": "Remember the association in this Entertainment: Music question: Andrew Gold is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.6b31b64051aca868",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the lead singer of Silverchair?",
+    "canonicalAnswer": "Daniel Johns",
+    "aliases": [],
+    "distractors": [
+      "Ben Gillies",
+      "Chris Joannou",
+      "George Costanza"
+    ],
+    "explanation": "The correct answer is Daniel Johns.",
+    "details": "Remember the association in this Entertainment: Music question: Daniel Johns is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.66b652509186b6c0",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the lead singer of the Smashing Pumpkins?",
+    "canonicalAnswer": "Billy Corgan",
+    "aliases": [],
+    "distractors": [
+      "Brett Scallions",
+      "Eddie Vedder",
+      "Chino Moreno"
+    ],
+    "explanation": "The correct answer is Billy Corgan.",
+    "details": "Remember the association in this Entertainment: Music question: Billy Corgan is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.e6bc230bd2f61d0a",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who performed the guitar solo on Michael Jackson's hit \"Beat It\"?",
+    "canonicalAnswer": "Eddie Van Halen",
+    "aliases": [],
+    "distractors": [
+      "Steve Vai",
+      "Kirk Hammett",
+      "Zakk Wylde"
+    ],
+    "explanation": "The correct answer is Eddie Van Halen.",
+    "details": "Remember the association in this Entertainment: Music question: Eddie Van Halen is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.e8a7a9d3c4b936dc",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Chino Moreno is the lead singer of which alternative metal band?",
+    "canonicalAnswer": "Deftones",
+    "aliases": [],
+    "distractors": [
+      "Tool",
+      "Korn",
+      "Type O Negative"
+    ],
+    "explanation": "The correct answer is Deftones.",
+    "details": "Remember the association in this Entertainment: Music question: Deftones is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.d222b0b1f39da8c7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "In the Panic! At the Disco's song \"Nothern Downpour\", which lyric follows 'I know the world's a broken bone'.",
+    "canonicalAnswer": "\"So melt your headaches call it home\"",
+    "aliases": [],
+    "distractors": [
+      "\"So sing your song until you're home\"",
+      "\"So let them know they're on their own\"",
+      "\"So start a fire in their cold stone\""
+    ],
+    "explanation": "The correct answer is \"So melt your headaches call it home\".",
+    "details": "Remember the association in this Entertainment: Music question: \"So melt your headaches call it home\" is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.ce7b2db257168c48",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "On which Beatles album would you find the song 'Eleanor Rigby'?",
+    "canonicalAnswer": "Revolver",
+    "aliases": [],
+    "distractors": [
+      "Help!",
+      "Rubber Soul",
+      "Abbey Road"
+    ],
+    "explanation": "The correct answer is Revolver.",
+    "details": "Remember the association in this Entertainment: Music question: Revolver is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.636a61913fb31cc7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Panic! At the Disco's sixth album \"Pray For The Wicked\" was released on which date?",
+    "canonicalAnswer": "June 22, 2018",
+    "aliases": [],
+    "distractors": [
+      "May 9, 2018",
+      "March 13, 2018",
+      "February 21, 2018"
+    ],
+    "explanation": "The correct answer is June 22, 2018.",
+    "details": "Remember the association in this Entertainment: Music question: June 22, 2018 is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.4df62cb9d9770859",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Pete Townshend collaborated with which famous guitarist for an event at Brixton Academy in 1985?",
+    "canonicalAnswer": "David Gilmour",
+    "aliases": [],
+    "distractors": [
+      "Jimmy Page",
+      "Mark Knopfler",
+      "Eric Clapton"
+    ],
+    "explanation": "The correct answer is David Gilmour.",
+    "details": "Remember the association in this Entertainment: Music question: David Gilmour is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.02c907427c2e6838",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+    "canonicalAnswer": "The Velvet Underground and Nico",
+    "aliases": [],
+    "distractors": [
+      "Abbey Road",
+      "Led Zeppelin IV",
+      "Pet Sounds"
+    ],
+    "explanation": "The correct answer is The Velvet Underground and Nico.",
+    "details": "Remember the association in this Entertainment: Music question: The Velvet Underground and Nico is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.edb5eef75a98876e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What is the stage name of New Zealand singer Phillipa \"Pip\" Brown?",
+    "canonicalAnswer": "Ladyhawke",
+    "aliases": [],
+    "distractors": [
+      "Lorde",
+      "Kesha",
+      "Anika Moa"
+    ],
+    "explanation": "The correct answer is Ladyhawke.",
+    "details": "Remember the association in this Entertainment: Music question: Ladyhawke is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.a140dcdaa42d6384",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What song originally performed by The Bee Gees in 1978 had a cover version by Steps 20 years later?",
+    "canonicalAnswer": "Tragedy",
+    "aliases": [],
+    "distractors": [
+      "Night Fever",
+      "Stayin' Alive",
+      "You Should Be Dancing"
+    ],
+    "explanation": "The correct answer is Tragedy.",
+    "details": "Remember the association in this Entertainment: Music question: Tragedy is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.c4af96fd4c434a45",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+    "canonicalAnswer": "Viktor Tsoi",
+    "aliases": [],
+    "distractors": [
+      "Jimi Hendrix",
+      "Brian Jones",
+      "Vladimir Vysotsky"
+    ],
+    "explanation": "The correct answer is Viktor Tsoi.",
+    "details": "Remember the association in this Entertainment: Music question: Viktor Tsoi is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.c79e60be45d413d4",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What year did Dire Straits's Song \"Money for Nothing\" release?",
+    "canonicalAnswer": "1985",
+    "aliases": [],
+    "distractors": [
+      "1973",
+      "1980",
+      "1991"
+    ],
+    "explanation": "The correct answer is 1985.",
+    "details": "Remember the association in this Entertainment: Music question: 1985 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.1cb8979d8a0422a9",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What year was Min Yoongi from South Korea boy band \"BTS\" born in?",
+    "canonicalAnswer": "1993",
+    "aliases": [],
+    "distractors": [
+      "1992",
+      "1995",
+      "1994"
+    ],
+    "explanation": "The correct answer is 1993.",
+    "details": "Remember the association in this Entertainment: Music question: 1993 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.03f2fa19a9e3c05b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Elton John hit starts with the line \"When are you gonna come down\"?",
+    "canonicalAnswer": "Goodbye Yellow Brick Road",
+    "aliases": [],
+    "distractors": [
+      "Rocket Man",
+      "Bennie and the Jets",
+      "Crocodile Rock"
+    ],
+    "explanation": "The correct answer is Goodbye Yellow Brick Road.",
+    "details": "Remember the association in this Entertainment: Music question: Goodbye Yellow Brick Road is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.e05bb46ca0dd424a",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
+    "canonicalAnswer": "\"A rainy Lithuanian / Is dancing as an Indian\"",
+    "aliases": [],
+    "distractors": [
+      "\"Fly away on, my zephyr / I feel it more than ever\"",
+      "\"And I liked the dimple in your chin / Your pale blue eyes\"",
+      "\"You used to be so warm and affectionate...but now you're quick to get into your regret\""
+    ],
+    "explanation": "The correct answer is \"A rainy Lithuanian / Is dancing as an Indian\".",
+    "details": "Remember the association in this Entertainment: Music question: \"A rainy Lithuanian / Is dancing as an Indian\" is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8b56fadd83bb401a",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of the following is NOT a real song from the band Thousand Foot Krutch?",
+    "canonicalAnswer": "Limitless Fury",
+    "aliases": [],
+    "distractors": [
+      "Let The Sparks Fly",
+      "Down",
+      "Give Up The Ghost"
+    ],
+    "explanation": "The correct answer is Limitless Fury.",
+    "details": "Remember the association in this Entertainment: Music question: Limitless Fury is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.4d8be2111b579803",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these artists did NOT feature in the fitfh studio album \"Humanz\" by British virtual band Gorillaz?",
+    "canonicalAnswer": "Snoop Dogg",
+    "aliases": [],
+    "distractors": [
+      "Vince Staples",
+      "Pusha T",
+      "Danny Brown"
+    ],
+    "explanation": "The correct answer is Snoop Dogg.",
+    "details": "Remember the association in this Entertainment: Music question: Snoop Dogg is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8add098d071d5d3e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these songs is NOT included in the Suicide Squad OST?",
+    "canonicalAnswer": "Skies on Fire - AC/DC",
+    "aliases": [],
+    "distractors": [
+      "Heathens - Twenty One Pilots",
+      "Without Me - Eminem",
+      "Fortunate Son - Creedence Clearwater Revival"
+    ],
+    "explanation": "The correct answer is Skies on Fire - AC/DC.",
+    "details": "Remember the association in this Entertainment: Music question: Skies on Fire - AC/DC is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.ca076e0ad4fbcf77",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these songs was released in 1996?",
+    "canonicalAnswer": "The Smashing Pumpkins - \"1979\"",
+    "aliases": [],
+    "distractors": [
+      "Prince - \"1999\"",
+      "James Blunt - \"1973\"",
+      "David Bowie - \"1984\""
+    ],
+    "explanation": "The correct answer is The Smashing Pumpkins - \"1979\".",
+    "details": "Remember the association in this Entertainment: Music question: The Smashing Pumpkins - \"1979\" is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.362b3d83e79c3abc",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which song in rapper Kanye West's album \"The Life of Pablo\" features Rihanna?",
+    "canonicalAnswer": "Famous",
+    "aliases": [],
+    "distractors": [
+      "Wolves",
+      "Ultralight Beam",
+      "Highlights"
+    ],
+    "explanation": "The correct answer is Famous.",
+    "details": "Remember the association in this Entertainment: Music question: Famous is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.2b0d41f42d508b6d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which year was the album \"Floral Shoppe\" by Macintosh Plus released?",
+    "canonicalAnswer": "2011",
+    "aliases": [],
+    "distractors": [
+      "2014",
+      "2013",
+      "2012"
+    ],
+    "explanation": "The correct answer is 2011.",
+    "details": "Remember the association in this Entertainment: Music question: 2011 is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.995dfbab44992528",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who sings the rap song \"Secret Wars Part 1\"?",
+    "canonicalAnswer": "The Last Emperor",
+    "aliases": [],
+    "distractors": [
+      "MC Frontalot",
+      "Busdriver",
+      "Masta Killa"
+    ],
+    "explanation": "The correct answer is The Last Emperor.",
+    "details": "Remember the association in this Entertainment: Music question: The Last Emperor is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "music-starter.opentdb.8bb0fd338faca1f6",
+    "topicSlug": "music",
+    "packSlugs": [
+      "music-starter"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who was not in the band \"The Smiths\"?",
+    "canonicalAnswer": "Martin Chambers",
+    "aliases": [],
+    "distractors": [
+      "Morrissey",
+      "Andy Rourke",
+      "Mike Joyce"
+    ],
+    "explanation": "The correct answer is Martin Chambers.",
+    "details": "Remember the association in this Entertainment: Music question: Martin Chambers is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

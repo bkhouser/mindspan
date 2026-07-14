@@ -14,6 +14,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
+import { QuestionPackLabel } from "@/components/question-pack-label";
 import { requireUser } from "@/lib/auth";
 import type { Json } from "@/types/database.generated";
 
@@ -30,6 +31,7 @@ function requestedPage(value: string | undefined) {
 
 interface ReviewScoreSnapshot {
   algorithmVersion: string;
+  answerMode?: "recall" | "required_choice";
   basePoints: number;
   proficiency: number;
   proficiencyFactor: number;
@@ -69,8 +71,12 @@ function scoreSnapshot(value: Json): ReviewScoreSnapshot | null {
   )
     return null;
   const priorAttemptCount = number("priorAttemptCount");
+  const answerMode = row.answerMode;
   return {
     algorithmVersion,
+    ...(answerMode === "required_choice" || answerMode === "recall"
+      ? { answerMode }
+      : {}),
     basePoints: values.basePoints!,
     proficiency: values.proficiency!,
     proficiencyFactor: values.proficiencyFactor!,
@@ -143,9 +149,11 @@ export function ScoringBreakdown({
                   label: "Assistance",
                   value: factor(score.assistanceFactor),
                   detail:
-                    score.assistanceFactor < 1
-                      ? "Choices shown"
-                      : "Typed recall",
+                    score.answerMode === "required_choice"
+                      ? "Required multiple choice"
+                      : score.assistanceFactor < 1
+                        ? "Choices shown"
+                        : "Typed recall",
                 },
                 {
                   label: "Time",
@@ -186,7 +194,7 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
   const attemptsQuery = supabase
     .from("attempts")
     .select(
-      "id,submitted_answer,correct,assisted,timed_out,elapsed_ms,earned_points,score_snapshot,created_at,question:question_versions!inner(question_id,prompt,canonical_answer,explanation,details,difficulty,topic:topics(name),citations:question_citations(label,url,sort_order))",
+      "id,submitted_answer,correct,assisted,timed_out,elapsed_ms,earned_points,score_snapshot,created_at,question:question_versions!inner(question_id,prompt,canonical_answer,explanation,details,difficulty,topic:topics(name))",
       { count: "exact" },
     )
     .eq("user_id", user.id);
@@ -225,6 +233,32 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
   const questionStateById = new Map(
     questionStates?.map((state) => [state.question_id, state]),
   );
+  const questionIds = [
+    ...new Set(
+      (attempts ?? []).flatMap((attempt) => {
+        const question = Array.isArray(attempt.question)
+          ? attempt.question[0]
+          : attempt.question;
+        return question?.question_id ? [question.question_id] : [];
+      }),
+    ),
+  ];
+  const { data: packLinks } = questionIds.length
+    ? await supabase
+        .from("pack_questions")
+        .select("question_id,packs(name)")
+        .in("question_id", questionIds)
+    : { data: [] };
+  const packNamesByQuestionId = new Map<string, string[]>();
+  for (const link of packLinks ?? []) {
+    const pack = Array.isArray(link.packs) ? link.packs[0] : link.packs;
+    if (!pack?.name) continue;
+    const names = packNamesByQuestionId.get(link.question_id) ?? [];
+    if (!names.includes(pack.name)) names.push(pack.name);
+    packNamesByQuestionId.set(link.question_id, names);
+  }
+  for (const names of packNamesByQuestionId.values())
+    names.sort((left, right) => left.localeCompare(right));
 
   return (
     <>
@@ -303,9 +337,6 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
           const topic = Array.isArray(question?.topic)
             ? question.topic[0]
             : question?.topic;
-          const citations = [...(question?.citations ?? [])].sort(
-            (a, b) => a.sort_order - b.sort_order,
-          );
           const questionState = question
             ? questionStateById.get(question.question_id)
             : null;
@@ -411,27 +442,18 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
                     <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
                       {question?.details}
                     </p>
-                    {citations.length ? (
-                      <p className="mt-3 text-xs text-[var(--muted)]">
-                        Sources:{" "}
-                        {citations.map((citation, index) => (
-                          <span key={citation.url}>
-                            {index ? " · " : ""}
-                            <a
-                              className="font-bold text-[var(--brand)] underline decoration-white/20 underline-offset-4"
-                              href={citation.url}
-                              rel="noreferrer"
-                              target="_blank"
-                            >
-                              {citation.label}
-                            </a>
-                          </span>
-                        ))}
-                      </p>
-                    ) : null}
                   </div>
                 </div>
               </div>
+
+              <QuestionPackLabel
+                className="mt-5"
+                packNames={
+                  question
+                    ? (packNamesByQuestionId.get(question.question_id) ?? [])
+                    : []
+                }
+              />
 
               <ScoringBreakdown
                 correct={correct}

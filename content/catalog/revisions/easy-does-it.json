@@ -1,0 +1,152 @@
+{
+  "easy-does-it.opentdb.39e77df462e20698": { "difficulty": 3 },
+  "easy-does-it.opentdb.3899396f304d9690": { "difficulty": 3 },
+  "easy-does-it.opentdb.f83ff1219e86ff8e": { "difficulty": 2 },
+  "easy-does-it.opentdb.d0c625e67ff72cb0": {
+    "prompt": "What is the name of the cowboy toy in the Toy Story films?",
+    "canonicalAnswer": "Woody",
+    "aliases": ["Sheriff Woody"],
+    "distractors": ["Buzz Lightyear", "Rex", "Slinky Dog"],
+    "explanation": "Woody is the cowboy toy at the center of the Toy Story films.",
+    "details": "Tom Hanks voices Sheriff Woody, who begins the series as Andy's favorite toy and the leader of the bedroom's toys."
+  },
+  "easy-does-it.opentdb.ef66e20f740c6692": { "difficulty": 3 },
+  "easy-does-it.opentdb.7dcd13363b49df12": { "difficulty": 3 },
+  "easy-does-it.opentdb.156aeec902055d73": {
+    "prompt": "How many players does each soccer team normally have on the field at the start of a match?",
+    "canonicalAnswer": "11",
+    "aliases": ["Eleven"],
+    "distractors": ["9", "10", "12"],
+    "explanation": "A soccer team normally fields 11 players, including its goalkeeper.",
+    "details": "Teams may name substitutes, but only eleven players per side can be on the field at once under the standard Laws of the Game."
+  },
+  "easy-does-it.opentdb.0521f2041805faa5": { "difficulty": 2 },
+  "easy-does-it.opentdb.c208bd4a3fd41826": {
+    "prompt": "What is the largest living land animal?",
+    "canonicalAnswer": "African elephant",
+    "aliases": ["African bush elephant", "Elephant"],
+    "distractors": ["Giraffe", "Hippopotamus", "White rhinoceros"],
+    "explanation": "The African elephant is the largest living land animal.",
+    "details": "The African bush elephant is the largest elephant species; exceptionally large males can weigh more than six metric tons."
+  },
+  "easy-does-it.opentdb.0773d22d29701c69": {
+    "difficulty": 3,
+    "prompt": "The Nike apparel and footwear brand takes its name from the Greek goddess of what?"
+  },
+  "easy-does-it.opentdb.7cb14e3723da4947": {
+    "prompt": "Which planet is commonly called the Red Planet?",
+    "canonicalAnswer": "Mars",
+    "aliases": [],
+    "distractors": ["Venus", "Jupiter", "Mercury"],
+    "explanation": "Mars is commonly called the Red Planet.",
+    "details": "Iron minerals in Martian rocks and dust oxidize, or rust, giving much of the planet's surface its reddish color."
+  },
+  "easy-does-it.opentdb.dccbb84411f85182": { "difficulty": 3 },
+  "easy-does-it.opentdb.9bf9f8ba7aa2f6b5": {
+    "prompt": "What is a young frog called after it hatches from an egg?",
+    "canonicalAnswer": "Tadpole",
+    "aliases": ["Polliwog"],
+    "distractors": ["Pup", "Chick", "Calf"],
+    "explanation": "A young frog in its aquatic larval stage is called a tadpole.",
+    "details": "During metamorphosis, a tadpole develops legs, absorbs its tail, and changes from breathing mainly with gills to using lungs."
+  },
+  "easy-does-it.opentdb.7d180f804ef859cb": {
+    "prompt": "How many days are in a leap year?",
+    "canonicalAnswer": "366",
+    "aliases": ["Three hundred sixty-six", "Three hundred and sixty-six"],
+    "distractors": ["364", "365", "367"],
+    "explanation": "A leap year has 366 days.",
+    "details": "The extra day is February 29. It keeps the calendar aligned with Earth's orbit, which takes slightly more than 365 days."
+  },
+  "easy-does-it.opentdb.f6e8c06f24125ebb": { "difficulty": 2 },
+  "easy-does-it.opentdb.75d8133b4c9ae5ff": {
+    "prompt": "What color is made by mixing blue and yellow paint?",
+    "canonicalAnswer": "Green",
+    "aliases": [],
+    "distractors": ["Orange", "Purple", "Brown"],
+    "explanation": "Mixing blue and yellow pigments produces green.",
+    "details": "This is subtractive color mixing, used with paint and ink. Mixing colored light follows different additive-color rules."
+  },
+  "easy-does-it.opentdb.b92d89bacc347924": { "difficulty": 2 },
+  "easy-does-it.opentdb.b17397bdc8dbac32": { "difficulty": 1 },
+  "easy-does-it.opentdb.1ca147c97d9db6b8": { "difficulty": 1 },
+  "easy-does-it.opentdb.18eb986bb73d8c7a": {
+    "prompt": "Which sport is played at the Wimbledon Championships?",
+    "canonicalAnswer": "Tennis",
+    "aliases": [],
+    "distractors": ["Golf", "Cricket", "Badminton"],
+    "explanation": "Wimbledon is one of tennis's four Grand Slam tournaments.",
+    "details": "It is played on grass courts at the All England Club in London and is the oldest of the four Grand Slam events."
+  },
+  "easy-does-it.opentdb.ff8f9066877d3fdb": {
+    "prompt": "How many points is a successful free throw worth in basketball?",
+    "canonicalAnswer": "1",
+    "aliases": ["One", "One point"],
+    "distractors": ["2", "3", "4"],
+    "explanation": "A successful basketball free throw is worth one point.",
+    "details": "Free throws are uncontested shots taken from the foul line, usually awarded after certain personal or technical fouls."
+  },
+  "easy-does-it.opentdb.a0d87d8f291c7710": {
+    "prompt": "Who played Jack Dawson in the film Titanic?",
+    "canonicalAnswer": "Leonardo DiCaprio",
+    "aliases": ["DiCaprio"],
+    "distractors": ["Brad Pitt", "Tom Cruise", "Matt Damon"],
+    "explanation": "Leonardo DiCaprio played Jack Dawson in Titanic.",
+    "details": "Jack is the young artist who falls in love with Rose, played by Kate Winslet, during the doomed ship's maiden voyage."
+  },
+  "easy-does-it.opentdb.a160dea133c90099": { "difficulty": 1 },
+  "easy-does-it.opentdb.b65a4c26a02790ae": { "difficulty": 3 },
+  "easy-does-it.opentdb.5e7163fbe5bb3855": {
+    "prompt": "In which country are the pyramids of Giza?",
+    "canonicalAnswer": "Egypt",
+    "aliases": [],
+    "distractors": ["Greece", "Mexico", "India"],
+    "explanation": "The pyramids of Giza are in Egypt, just outside modern Cairo.",
+    "details": "The complex includes the Great Pyramid built for Pharaoh Khufu, the only surviving Wonder of the Ancient World."
+  },
+  "easy-does-it.opentdb.ce252b3ea1bfc2f9": {
+    "prompt": "What is the largest ocean on Earth?",
+    "canonicalAnswer": "Pacific Ocean",
+    "aliases": ["Pacific", "The Pacific"],
+    "distractors": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+    "explanation": "The Pacific Ocean is the largest ocean on Earth.",
+    "details": "It covers more area than all Earth's land combined and stretches between Asia and Australia in the west and the Americas in the east."
+  },
+  "easy-does-it.opentdb.8cf71644fa8b5973": {
+    "prompt": "Which blood component gathers to form a plug at the site of an injury?"
+  },
+  "easy-does-it.opentdb.de708c7c0f4f5a20": {
+    "difficulty": 1,
+    "prompt": "Which sport uses a racket to hit a shuttlecock over a net?",
+    "canonicalAnswer": "Badminton",
+    "aliases": [],
+    "distractors": ["Tennis", "Squash", "Table tennis"],
+    "explanation": "Badminton uses rackets to send a shuttlecock over a net.",
+    "details": "Unlike a ball, the feathered or synthetic shuttlecock slows sharply in flight; badminton can be played as singles or doubles."
+  },
+  "easy-does-it.opentdb.f164cbc8b878f45a": {
+    "difficulty": 1,
+    "prompt": "Which Stranger Things character has telekinetic powers?"
+  },
+  "easy-does-it.opentdb.1b5a34c3e5f02757": { "difficulty": 1 },
+  "easy-does-it.opentdb.92148e8a998fab6b": { "difficulty": 1 },
+  "easy-does-it.opentdb.f3e3740813e63d27": {
+    "difficulty": 1,
+    "prompt": "Which actor plays Iron Man in the Marvel Cinematic Universe?",
+    "canonicalAnswer": "Robert Downey Jr.",
+    "aliases": ["Robert Downey Junior", "Robert Downey", "RDJ"],
+    "distractors": ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo"],
+    "explanation": "Robert Downey Jr. plays Tony Stark, also known as Iron Man, in the Marvel Cinematic Universe.",
+    "details": "He debuted in 2008's Iron Man, the film that launched the interconnected Marvel Cinematic Universe."
+  },
+  "easy-does-it.opentdb.5a0194fbb8fae3be": {
+    "difficulty": 1,
+    "prompt": "How many rings are on the Olympic symbol?",
+    "canonicalAnswer": "5",
+    "aliases": ["Five", "Five rings"],
+    "distractors": ["4", "6", "7"],
+    "explanation": "The Olympic symbol consists of five interlocking rings.",
+    "details": "The blue, yellow, black, green, and red rings represent the union of the world's inhabited continents through sport."
+  },
+  "easy-does-it.opentdb.668f81343318c1cf": { "difficulty": 1 }
+}

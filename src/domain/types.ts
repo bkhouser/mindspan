@@ -15,8 +15,9 @@ export type UserRole = "user" | "sys_admin";
 export type GroupRole = "member" | "admin";
 export type PlayMode = "mixed" | "topic" | "pack";
 export type QuestionStatus = "draft" | "review" | "published" | "retired";
+export type AnswerMode = "recall" | "required_choice";
 export type MediaKind = "image" | "audio" | "video";
-export type AssistanceKind = "show_choices";
+export type AssistanceKind = "show_choices" | "required_choices";
 
 export interface MediaDescriptor {
   kind: MediaKind;
@@ -28,6 +29,7 @@ export interface MediaDescriptor {
 export interface QuestionPresentation {
   id: string;
   prompt: string;
+  answerMode: AnswerMode;
   topic: { id: string; slug: TopicSlug; name: string };
   difficulty: Difficulty;
   media: MediaDescriptor | null;
@@ -36,6 +38,7 @@ export interface QuestionPresentation {
   startingPoints: number;
   expiresAt: string;
   mediaLoadDeadline: string | null;
+  initialChoices?: ChoiceReveal;
 }
 
 export interface ChoiceReveal {
@@ -51,6 +54,7 @@ export interface AttemptResult {
   explanation: string;
   details: string;
   source: { label: string; url: string };
+  packNames: string[];
   earnedPoints: number;
   topicMastery: TopicMastery;
   subtopicMastery: Array<{

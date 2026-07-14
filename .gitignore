@@ -12,3 +12,4 @@ supabase/.branches/
 supabase/.temp/
 *.tsbuildinfo
 debug.log
+content/catalog/cache/

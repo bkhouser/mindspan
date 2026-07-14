@@ -20,6 +20,16 @@ insert into public.packs (topic_id, slug, name, description, price_insight, is_s
   ((select id from public.topics where slug = 'music'), 'sound-and-song', 'Sound & Song', 'Genres, instruments, recordings, and performance.', 100, false, true)
 on conflict (slug) do update set enabled = true, price_insight = excluded.price_insight;
 
+insert into public.packs (topic_id, slug, name, description, price_insight, is_starter, enabled) values
+  (null, 'easy-does-it', 'Easy Does It', 'A welcoming mixed-topic collection of familiar facts and confidence-building questions.', 0, true, true),
+  (null, 'trivia-101', 'Trivia 101', 'Another approachable mixed-topic collection for warming up and widening your base.', 100, false, true)
+on conflict (slug) do update set
+  name = excluded.name,
+  description = excluded.description,
+  price_insight = excluded.price_insight,
+  is_starter = excluded.is_starter,
+  enabled = true;
+
 insert into public.achievements (slug, name, description, evaluator_key, insight_reward) values
   ('onboarded', 'Mind Mapper', 'Complete onboarding and choose your interests.', 'onboarding_complete', 25),
   ('assessment-complete', 'Baseline Established', 'Complete the optional 32-question assessment.', 'assessment_complete', 50),

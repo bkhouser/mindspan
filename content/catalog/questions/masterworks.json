@@ -1,0 +1,1406 @@
+[
+  {
+    "catalogKey": "masterworks.opentdb.5005d07f0a1f1c9f",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "George Orwell wrote this book, which is often considered a statement on government oversight.",
+    "canonicalAnswer": "1984",
+    "aliases": [],
+    "distractors": [
+      "The Old Man and the Sea",
+      "Catcher and the Rye",
+      "To Kill a Mockingbird"
+    ],
+    "explanation": "The correct answer is 1984.",
+    "details": "Remember the association in this Entertainment: Books question: 1984 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.b8291c782a9f0a66",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "How many Harry Potter books are there?",
+    "canonicalAnswer": "7",
+    "aliases": [
+      "seven"
+    ],
+    "distractors": [
+      "8",
+      "5",
+      "6"
+    ],
+    "explanation": "The correct answer is 7.",
+    "details": "Remember the association in this Entertainment: Books question: 7 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.e45d776d29ced78c",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the novel 1984, written by George Orwell, what is the name of the totalitarian regime that controls Oceania?",
+    "canonicalAnswer": "INGSOC",
+    "aliases": [],
+    "distractors": [
+      "Neo-Bolshevism",
+      "Obliteration of the Self",
+      "Earth Alliance"
+    ],
+    "explanation": "The correct answer is INGSOC.",
+    "details": "Remember the association in this Entertainment: Books question: INGSOC is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.7b7a6fc0bc4d2e6d",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+    "canonicalAnswer": "Jamie Foxx",
+    "aliases": [],
+    "distractors": [
+      "Alec Baldwin",
+      "Dwayne Johnson",
+      "Bruce Willis"
+    ],
+    "explanation": "The correct answer is Jamie Foxx.",
+    "details": "Remember the association in this Entertainment: Music question: Jamie Foxx is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.2d23b8ac0bbbfce4",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the name of the protagonist of J.D. Salinger's novel Catcher in the Rye?",
+    "canonicalAnswer": "Holden Caulfield",
+    "aliases": [],
+    "distractors": [
+      "Fletcher Christian",
+      "Jay Gatsby",
+      "Randall Flagg"
+    ],
+    "explanation": "The correct answer is Holden Caulfield.",
+    "details": "Remember the association in this Entertainment: Books question: Holden Caulfield is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.90dc1659d145fce5",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
+    "canonicalAnswer": "A Study in Scarlet",
+    "aliases": [],
+    "distractors": [
+      "The Sign of the Four",
+      "A Case of Identity",
+      "The Doings of Raffles Haw"
+    ],
+    "explanation": "The correct answer is A Study in Scarlet.",
+    "details": "Remember the association in this Entertainment: Books question: A Study in Scarlet is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.b57c7a48942faa9c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which band recorded the album \"Parallel Lines\"?",
+    "canonicalAnswer": "Blondie",
+    "aliases": [],
+    "distractors": [
+      "Paramore",
+      "Coldplay",
+      "The Police"
+    ],
+    "explanation": "The correct answer is Blondie.",
+    "details": "Remember the association in this Entertainment: Music question: Blondie is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.f34075db69023aaf",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which classical composer wrote the \"Moonlight Sonata\"?",
+    "canonicalAnswer": "Ludvig Van Beethoven",
+    "aliases": [],
+    "distractors": [
+      "Chief Keef",
+      "Wolfgang Amadeus Mozart",
+      "Johannes Brahms"
+    ],
+    "explanation": "The correct answer is Ludvig Van Beethoven.",
+    "details": "Remember the association in this Entertainment: Music question: Ludvig Van Beethoven is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.8c46e212ce272937",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which famous book is sub-titled 'The Modern Prometheus'?",
+    "canonicalAnswer": "Frankenstein",
+    "aliases": [],
+    "distractors": [
+      "Dracula",
+      "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "The Legend of Sleepy Hollow"
+    ],
+    "explanation": "The correct answer is Frankenstein.",
+    "details": "Remember the association in this Entertainment: Books question: Frankenstein is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.b12ea8d68ed61dcc",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which former boy-band star released hit solo single \"Angels\" in 1997?",
+    "canonicalAnswer": "Robbie Williams",
+    "aliases": [],
+    "distractors": [
+      "Justin Timberlake",
+      "Harry Styles",
+      "Gary Barlow"
+    ],
+    "explanation": "The correct answer is Robbie Williams.",
+    "details": "Remember the association in this Entertainment: Music question: Robbie Williams is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.f44d2fc57fe43604",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who was the original author of Frankenstein?",
+    "canonicalAnswer": "Mary Shelley",
+    "aliases": [],
+    "distractors": [
+      "Edgar Allan Poe",
+      "Bram Stoker",
+      "H. P. Lovecraft"
+    ],
+    "explanation": "The correct answer is Mary Shelley.",
+    "details": "Remember the association in this Entertainment: Books question: Mary Shelley is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.d108d1725dba7793",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote \"A Tale of Two Cities\"?",
+    "canonicalAnswer": "Charles Dickens",
+    "aliases": [],
+    "distractors": [
+      "Charles Darwin",
+      "Mark Twain",
+      "Roald Dahl"
+    ],
+    "explanation": "The correct answer is Charles Dickens.",
+    "details": "Remember the association in this Entertainment: Books question: Charles Dickens is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.b7810b714d6cd932",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
+    "canonicalAnswer": "Hunter S. Thompson",
+    "aliases": [],
+    "distractors": [
+      "F. Scott Fitzgerald",
+      "Henry Miller",
+      "William S. Burroughs"
+    ],
+    "explanation": "The correct answer is Hunter S. Thompson.",
+    "details": "Remember the association in this Entertainment: Books question: Hunter S. Thompson is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.1bb305b2a422f94c",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote the young adult novel \"The Fault in Our Stars\"?",
+    "canonicalAnswer": "John Green",
+    "aliases": [],
+    "distractors": [
+      "Stephenie Meyer",
+      "Suzanne Collins",
+      "Stephen Chbosky"
+    ],
+    "explanation": "The correct answer is John Green.",
+    "details": "Remember the association in this Entertainment: Books question: John Green is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.2aa3754bfa7b8e7b",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
+    "canonicalAnswer": "The Artful Dodger",
+    "aliases": [],
+    "distractors": [
+      "Fagin",
+      "Bull’s-eye",
+      "Mr. Fang"
+    ],
+    "explanation": "The correct answer is The Artful Dodger.",
+    "details": "Remember the association in this Entertainment: Books question: The Artful Dodger is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.3bbdf26b9bc7a023",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In \"Little Women\", which of the March sisters married Laurie?",
+    "canonicalAnswer": "Amy",
+    "aliases": [],
+    "distractors": [
+      "Beth",
+      "Jo",
+      "Meg"
+    ],
+    "explanation": "The correct answer is Amy.",
+    "details": "Remember the association in this Entertainment: Books question: Amy is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.7d1c6f2bef615219",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the \"The Hobbit\", who kills Smaug?",
+    "canonicalAnswer": "Bard",
+    "aliases": [],
+    "distractors": [
+      "Bilbo Baggins",
+      "Gandalf the Grey",
+      "Frodo"
+    ],
+    "explanation": "The correct answer is Bard.",
+    "details": "Remember the association in this Entertainment: Books question: Bard is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.5ac2faece6d9d842",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+    "canonicalAnswer": "The Thorn of Camorr",
+    "aliases": [],
+    "distractors": [
+      "The Rose of the Marrows",
+      "The Thorn of Emberlain",
+      "The Thorn of the Marrows"
+    ],
+    "explanation": "The correct answer is The Thorn of Camorr.",
+    "details": "Remember the association in this Entertainment: Books question: The Thorn of Camorr is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.6deb5e7074ce2443",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the Lord of the Rings, who is the father of the dwarf Gimli?",
+    "canonicalAnswer": "Gloin",
+    "aliases": [],
+    "distractors": [
+      "Thorin Oakenshield",
+      "Bombur",
+      "Dwalin"
+    ],
+    "explanation": "The correct answer is Gloin.",
+    "details": "Remember the association in this Entertainment: Books question: Gloin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.f439265475e3b221",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the novel \"Lord of the Rings\", how many rings of power were given to the race of man?",
+    "canonicalAnswer": "9",
+    "aliases": [
+      "nine"
+    ],
+    "distractors": [
+      "5",
+      "11",
+      "13"
+    ],
+    "explanation": "The correct answer is 9.",
+    "details": "Remember the association in this Entertainment: Books question: 9 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.aa31e3c1d124ef70",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Saul Hudson (Slash) of the band Guns N' Roses is known for playing what type of guitar?",
+    "canonicalAnswer": "Les Paul Standard",
+    "aliases": [],
+    "distractors": [
+      "Fender Stratocaster",
+      "LsL Mongrel",
+      "Gretsch Falcon"
+    ],
+    "explanation": "The correct answer is Les Paul Standard.",
+    "details": "Remember the association in this Entertainment: Music question: Les Paul Standard is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.e41d87d2bded4b35",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "The title of Adolf Hitler's autobiography \"Mein Kampf\" is what when translated to English?",
+    "canonicalAnswer": "My Struggle",
+    "aliases": [],
+    "distractors": [
+      "My Hatred",
+      "My Sadness",
+      "My Desire"
+    ],
+    "explanation": "The correct answer is My Struggle.",
+    "details": "Remember the association in this Entertainment: Books question: My Struggle is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.4539a142bbe2489e",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the name of Eragon's dragon in \"Eragon\"?",
+    "canonicalAnswer": "Saphira",
+    "aliases": [],
+    "distractors": [
+      "Glaedr",
+      "Thorn",
+      "Arya"
+    ],
+    "explanation": "The correct answer is Saphira.",
+    "details": "Remember the association in this Entertainment: Books question: Saphira is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.c7e5cfd67cb98307",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What is the name of the gang that Ponyboy is a part of in the book, The Outsiders?",
+    "canonicalAnswer": "The Greasers",
+    "aliases": [],
+    "distractors": [
+      "The Outsiders",
+      "The Mafia",
+      "The Socs"
+    ],
+    "explanation": "The correct answer is The Greasers.",
+    "details": "Remember the association in this Entertainment: Books question: The Greasers is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.491427deb25974ae",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What was Radiohead's first album?",
+    "canonicalAnswer": "Pablo Honey",
+    "aliases": [],
+    "distractors": [
+      "The Bends",
+      "Kid A",
+      "A Moon Shaped Pool"
+    ],
+    "explanation": "The correct answer is Pablo Honey.",
+    "details": "Remember the association in this Entertainment: Music question: Pablo Honey is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.25c7c5e9ac237634",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "What was the name of the Mysterious Island, in Jules Verne's \"The Mysterious Island\"?",
+    "canonicalAnswer": "Lincoln Island",
+    "aliases": [],
+    "distractors": [
+      "Vulcania Island",
+      "Prometheus Island",
+      "Neptune Island"
+    ],
+    "explanation": "The correct answer is Lincoln Island.",
+    "details": "Remember the association in this Entertainment: Books question: Lincoln Island is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.80bd0b461454934b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "What's the most common time signature for rock songs?",
+    "canonicalAnswer": "4/4",
+    "aliases": [],
+    "distractors": [
+      "1/2",
+      "8/12",
+      "2/4"
+    ],
+    "explanation": "The correct answer is 4/4.",
+    "details": "Remember the association in this Entertainment: Music question: 4/4 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.fff28900f6cc3ab7",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Aerosmith album featured \"Walk This Way\"?",
+    "canonicalAnswer": "Toys in the Attic",
+    "aliases": [],
+    "distractors": [
+      "Rocks",
+      "Get Your Wings",
+      "Draw the Line"
+    ],
+    "explanation": "The correct answer is Toys in the Attic.",
+    "details": "Remember the association in this Entertainment: Music question: Toys in the Attic is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.83dae6454bbf9b8a",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which American author was also a budding travel writer and wrote of his adventures with his dog Charley?",
+    "canonicalAnswer": "John Steinbeck",
+    "aliases": [],
+    "distractors": [
+      "F. Scott Fitzgerald",
+      "Ernest Hemingway",
+      "William Faulkner"
+    ],
+    "explanation": "The correct answer is John Steinbeck.",
+    "details": "Remember the association in this Entertainment: Books question: John Steinbeck is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.f44e324f560dae42",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which Beatle led the way across the zebra crossing on the Abbey Road album cover?",
+    "canonicalAnswer": "John",
+    "aliases": [],
+    "distractors": [
+      "Paul",
+      "George",
+      "Ringo"
+    ],
+    "explanation": "The correct answer is John.",
+    "details": "Remember the association in this Entertainment: Music question: John is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.98b5766847c93b74",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which European capital city gives its name to a 1981 song by Ultravox?",
+    "canonicalAnswer": "Vienna",
+    "aliases": [],
+    "distractors": [
+      "Berlin",
+      "Paris",
+      "Brussels"
+    ],
+    "explanation": "The correct answer is Vienna.",
+    "details": "Remember the association in this Entertainment: Music question: Vienna is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.3f2065fd1e64e67a",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which member of the British pop group \"The Spice Girls\" was known as Ginger Spice?",
+    "canonicalAnswer": "Geri Halliwell",
+    "aliases": [],
+    "distractors": [
+      "Melanie Brown",
+      "Emma Bunton",
+      "Victoria Beckham"
+    ],
+    "explanation": "The correct answer is Geri Halliwell.",
+    "details": "Remember the association in this Entertainment: Music question: Geri Halliwell is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.ba9f942604f580ed",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+    "canonicalAnswer": "Anna Karenina",
+    "aliases": [],
+    "distractors": [
+      "Notes from the Underground",
+      "Crime and Punishment",
+      "The Brothers Karamazov"
+    ],
+    "explanation": "The correct answer is Anna Karenina.",
+    "details": "Remember the association in this Entertainment: Books question: Anna Karenina is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.789b62aa5ac825f1",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these artists was NOT a member of the electronic music supergroup Swedish House Mafia, which split up in 2013?",
+    "canonicalAnswer": "Alesso",
+    "aliases": [],
+    "distractors": [
+      "Steve Angello",
+      "Sebastian Ingrosso",
+      "Axwell"
+    ],
+    "explanation": "The correct answer is Alesso.",
+    "details": "Remember the association in this Entertainment: Music question: Alesso is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.7facd482f786f7e5",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, \"DAMN.\"?",
+    "canonicalAnswer": "U2",
+    "aliases": [],
+    "distractors": [
+      "Radiohead",
+      "Coldplay",
+      "Bon Jovi"
+    ],
+    "explanation": "The correct answer is U2.",
+    "details": "Remember the association in this Entertainment: Music question: U2 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.dde3fc1e90b8829b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these is not a song on the album Graduation by Kanye West?",
+    "canonicalAnswer": "Waves",
+    "aliases": [],
+    "distractors": [
+      "I Wonder",
+      "Big Brother",
+      "The Glory"
+    ],
+    "explanation": "The correct answer is Waves.",
+    "details": "Remember the association in this Entertainment: Music question: Waves is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.a101f62f8d51fb1f",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which of these is the name of an American psychedelic rock band formed in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?",
+    "canonicalAnswer": "MGMT",
+    "aliases": [],
+    "distractors": [
+      "MSTRKRFT",
+      "STRFKR",
+      "SBTRKT"
+    ],
+    "explanation": "The correct answer is MGMT.",
+    "details": "Remember the association in this Entertainment: Music question: MGMT is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.9dc412d485bfc75b",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which one of these people has been in the band ''Metallica'' in the past?",
+    "canonicalAnswer": "Dave Mustaine",
+    "aliases": [],
+    "distractors": [
+      "Kurt Cobain",
+      "Joey Belladonna",
+      "Dave Lombardo"
+    ],
+    "explanation": "The correct answer is Dave Mustaine.",
+    "details": "Remember the association in this Entertainment: Music question: Dave Mustaine is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.e7c6195b33f6fcf5",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which one of these Rammstein songs has two official music videos?",
+    "canonicalAnswer": "Du Riechst So Gut",
+    "aliases": [],
+    "distractors": [
+      "Du Hast",
+      "Benzin",
+      "Mein Teil"
+    ],
+    "explanation": "The correct answer is Du Riechst So Gut.",
+    "details": "Remember the association in this Entertainment: Music question: Du Riechst So Gut is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.3fd850c6a6b33bf1",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which Russian author wrote the epic novel War and Peace?",
+    "canonicalAnswer": "Leo Tolstoy",
+    "aliases": [],
+    "distractors": [
+      "Fyodor Dostoyevsky",
+      "Alexander Pushkin",
+      "Vladimir Nabokov"
+    ],
+    "explanation": "The correct answer is Leo Tolstoy.",
+    "details": "Remember the association in this Entertainment: Books question: Leo Tolstoy is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.34b645869d134990",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who is the author of the series \"Malazan Book of the Fallen\"?",
+    "canonicalAnswer": "Steven Erikson",
+    "aliases": [],
+    "distractors": [
+      "Ian Cameron Esslemont",
+      "George R. R. Martin",
+      "J. R. R. Tolkien"
+    ],
+    "explanation": "The correct answer is Steven Erikson.",
+    "details": "Remember the association in this Entertainment: Books question: Steven Erikson is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.3bc7e06a72278f0f",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Who wrote the \"A Song of Ice And Fire\" fantasy novel series?",
+    "canonicalAnswer": "George R. R. Martin",
+    "aliases": [],
+    "distractors": [
+      "George Lucas",
+      "George Orwell",
+      "George Eliot"
+    ],
+    "explanation": "The correct answer is George R. R. Martin.",
+    "details": "Remember the association in this Entertainment: Books question: George R. R. Martin is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.6ac3256219e3d109",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Abel Magwitch is a character from which Charles Dickens novel?",
+    "canonicalAnswer": "Great Expectations",
+    "aliases": [],
+    "distractors": [
+      "The Pickwick Papers",
+      "Nicholas Nickleby",
+      "Oliver Twist"
+    ],
+    "explanation": "The correct answer is Great Expectations.",
+    "details": "Remember the association in this Entertainment: Books question: Great Expectations is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.251b9d7922cc1289",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the book \"The Martian\", how long was Mark Watney trapped on Mars (in Sols)?",
+    "canonicalAnswer": "549 Days",
+    "aliases": [],
+    "distractors": [
+      "765 Days",
+      "401 Days",
+      "324 Days"
+    ],
+    "explanation": "The correct answer is 549 Days.",
+    "details": "Remember the association in this Entertainment: Books question: 549 Days is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.d6558e658d818102",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the Harry Potter universe, who does Draco Malfoy end up marrying?",
+    "canonicalAnswer": "Astoria Greengrass",
+    "aliases": [],
+    "distractors": [
+      "Pansy Parkinson",
+      "Millicent Bulstrode",
+      "Hermione Granger"
+    ],
+    "explanation": "The correct answer is Astoria Greengrass.",
+    "details": "Remember the association in this Entertainment: Books question: Astoria Greengrass is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.121cb6e935770c81",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+    "canonicalAnswer": "Ulgrotha",
+    "aliases": [],
+    "distractors": [
+      "Bant",
+      "Llanowar",
+      "Tazeem"
+    ],
+    "explanation": "The correct answer is Ulgrotha.",
+    "details": "Remember the association in this Entertainment: Books question: Ulgrotha is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.93c8b31a362b2428",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "In which classic novel by Mark Twain did a beggar and Prince of Wales switch clothes, and learn about social class inequality?",
+    "canonicalAnswer": "The Prince and the Pauper",
+    "aliases": [],
+    "distractors": [
+      "Hamlet",
+      "Wealthy Boy and the Schmuck",
+      "A Modern Twain Story"
+    ],
+    "explanation": "The correct answer is The Prince and the Pauper.",
+    "details": "Remember the association in this Entertainment: Books question: The Prince and the Pauper is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.a6c1c0fbcff6b22c",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "The heavy metal band Black Sabbath hail from which English city?",
+    "canonicalAnswer": "Birmingham",
+    "aliases": [],
+    "distractors": [
+      "Manchester",
+      "London",
+      "Newcastle-Upon-Tyne"
+    ],
+    "explanation": "The correct answer is Birmingham.",
+    "details": "Remember the association in this Entertainment: Music question: Birmingham is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.f915ebc1fadba72e",
+    "topicSlug": "music",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Where was Nicki Minaj born?",
+    "canonicalAnswer": "Trinidad and Tobago",
+    "aliases": [],
+    "distractors": [
+      "Haiti",
+      "Saint Lucia",
+      "Grenada"
+    ],
+    "explanation": "The correct answer is Trinidad and Tobago.",
+    "details": "Remember the association in this Entertainment: Music question: Trinidad and Tobago is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "masterworks.opentdb.ecc9263ed6e85d60",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "masterworks"
+    ],
+    "subtopics": [
+      "Literature"
+    ],
+    "prompt": "Which fictional English county was the setting for Thomas Hardy's novels?",
+    "canonicalAnswer": "Wessex",
+    "aliases": [],
+    "distractors": [
+      "Barsetshire",
+      "Fulchester",
+      "Ambridge"
+    ],
+    "explanation": "The correct answer is Wessex.",
+    "details": "Remember the association in this Entertainment: Books question: Wessex is the key fact the prompt is asking for.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]

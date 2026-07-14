@@ -1,16 +1,16 @@
 # Mindspan
 
-Mindspan is a private, game-like trivia trainer for invited groups. It combines typed recall, optional multiple-choice assistance, adaptive question scheduling, personalized scoring, mastery-based leaderboards, achievements, and individually unlocked question packs.
+Mindspan is a private, game-like trivia trainer for invited groups. It combines typed recall, optional multiple-choice assistance, adaptive question scheduling, personalized scoring, points-based leaderboards, achievements, and individually unlocked question packs.
 
 ## What is implemented
 
-- Invite-gated, passwordless Supabase authentication with a seeded first-admin path
+- Invite-gated email/password authentication, password recovery, and a seeded first-admin path
 - Resumable 32-question adaptive assessment and required interest selection
 - Unlimited mixed, topic, and pack play with server-authoritative scoring and one-answer presentations
 - Answer normalization, authored aliases, conservative typo acceptance, timed points, assisted answers, explanations, sources, reports, and break suggestions
 - Bayesian topic proficiency, weighted Wilson ranking, adaptive difficulty, novelty/review scheduling, and competitive retirement after four recalls
 - Data-driven achievements, append-only Insight ledger, starter-pack ownership, and idempotent pack unlocks
-- Multiple private groups, scoped admins, invitations, aggregate profiles, activity feeds, mastery leaderboards, and Venn/heatmap coverage views
+- Multiple private groups, scoped admins, invitations, aggregate profiles, activity feeds, points leaderboards, and Venn/heatmap coverage views
 - Versioned global content, publication workflow, private media metadata/storage, reports, audit records, and JSON import validation
 - PostgreSQL row-level security, transactional attempt/progression RPCs, generated database types, CI, unit/property tests, and Playwright smoke tests
 
@@ -54,16 +54,18 @@ npx supabase db reset
 
 ## Hosted beta setup
 
-1. Create separate staging and production Supabase projects and apply `supabase/migrations` plus the reviewed seed/content import.
+1. Create separate staging and production Supabase projects, apply `supabase/migrations`, run the seed, then run `npm run catalog:load`.
 2. Create private `question-media` and `avatars` buckets using the checked-in configuration/policies.
-3. Verify the sending domain in Resend and configure it as Supabase custom SMTP. Update Auth site URL and allowed redirects for staging and production.
-4. Create Vercel preview and production environments with the five variables in `.env.example`. Never expose the secret key as a `NEXT_PUBLIC_` variable.
-5. Set `INITIAL_SYS_ADMIN_EMAIL` for the initial deployment, sign in once, then remove or rotate that bootstrap value after another admin is promoted.
-6. Run migrations first, deploy the application, verify `/api/health`, complete the acceptance journeys, and only then issue beta invitations.
+3. Verify the sending domain in Resend and configure it as Supabase custom SMTP. Update Auth site URL and allowed redirects for staging and production. Enable email confirmation and customize confirmation, recovery, and security-notification templates.
+4. Create Vercel preview and production environments with the variables in `.env.example`. Never expose the secret key as a `NEXT_PUBLIC_` variable.
+5. Set `INITIAL_SYS_ADMIN_EMAIL` for the initial deployment. Use that email to create the first account without an invite, then remove or rotate the bootstrap value after another admin is promoted.
+6. Run migrations first, deploy the application, verify `/api/health`, test password confirmation and recovery, complete the acceptance journeys, and only then issue beta invitations.
 
 ## Content status
 
-The repository seeds 40 reviewed-format representative text questions—one at every difficulty in all eight topics—plus eight starter packs, four 100-Insight expansion packs, and seven achievements. The planned initial catalog targets 100 questions per starter pack and 50 per standard expansion pack: 1,000 reviewed questions across the current twelve packs. Starter packs target an average difficulty near 3.0/5; explicitly labeled advanced expansions may skew substantially harder. The complete catalog and licensed media are editorial/licensing deliverables, not generated filler. Import them into review after source and license verification, then publish through the admin workshop.
+The beta catalog contains 1,100 text questions across fourteen packs: eight free starter packs with 100 questions each, four themed 100-Insight expansions with 50 each, the free 50-question **Easy Does It** pack, and the 100-Insight 50-question **Trivia 101** pack. The seed supplies 40 representative questions and the versioned catalog supplies the other 1,060. Wikidata provides structured factual questions; the entertainment, culture, and beginner catalog uses the CC BY-SA Open Trivia Database snapshot dated December 27, 2024.
+
+Run `npm run catalog:validate` before every catalog change, `npm run catalog:load` after migrations or a database reset, and `npm run catalog:verify` to check live totals, pricing, and initial availability. Loading is idempotent and published edits create immutable question versions. This is a playtest catalog: user-contributed questions still require editorial review as beta feedback identifies ambiguous wording, stale facts, weak distractors, or miscalibrated difficulty.
 
 See `docs/content-runbook.md` for the required import fields and review checklist, and `docs/architecture.md` for security and scoring boundaries.
 

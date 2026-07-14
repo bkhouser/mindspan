@@ -1,0 +1,1042 @@
+[
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.shenzhou-15",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Shenzhou 15?",
+    "canonicalAnswer": "China National Space Administration",
+    "aliases": [],
+    "distractors": [
+      "Bazoomq",
+      "Japan Aerospace Exploration Agency",
+      "European Space Agency"
+    ],
+    "explanation": "China National Space Administration operated Shenzhou 15.",
+    "details": "Shenzhou 15 is recorded as a spacecraft operated by China National Space Administration.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q110155911"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.shenzhou-15",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Shenzhou 15 launched?",
+    "canonicalAnswer": "2022",
+    "aliases": [],
+    "distractors": ["2023", "2003", "1966"],
+    "explanation": "Shenzhou 15 was launched in 2022.",
+    "details": "2022 is the recorded launch year for spacecraft Shenzhou 15.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q110155911"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.aegir",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does Aegir orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Jupiter", "Earth", "Kepler-1625 b"],
+    "explanation": "Aegir is a satellite of Saturn.",
+    "details": "Aegir is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18201"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.ivan-dedov",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Ivan Dedov?",
+    "canonicalAnswer": "endocrinology",
+    "aliases": [],
+    "distractors": ["psychology", "oriental studies", "robotics"],
+    "explanation": "Ivan Dedov worked primarily in endocrinology.",
+    "details": "endocrinology is recorded as the principal field of work associated with Ivan Dedov.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q4156727"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.untripentium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of untripentium?",
+    "canonicalAnswer": "135",
+    "aliases": [],
+    "distractors": ["134", "133", "99"],
+    "explanation": "untripentium has atomic number 135.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every untripentium atom has 135.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3552038"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.shenzhou-16",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Shenzhou 16?",
+    "canonicalAnswer": "China National Space Administration",
+    "aliases": [],
+    "distractors": [
+      "Japan Aerospace Exploration Agency",
+      "European Space Agency",
+      "Korea Aerospace Research Institute"
+    ],
+    "explanation": "China National Space Administration operated Shenzhou 16.",
+    "details": "Shenzhou 16 is recorded as a spacecraft operated by China National Space Administration.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q115593337"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.shenzhou-16",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Shenzhou 16 launched?",
+    "canonicalAnswer": "2023",
+    "aliases": [],
+    "distractors": ["2003", "1966", "1965"],
+    "explanation": "Shenzhou 16 was launched in 2023.",
+    "details": "2023 is the recorded launch year for spacecraft Shenzhou 16.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q115593337"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.hyperion",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does Hyperion orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Earth", "Kepler-1625 b", "Mars"],
+    "explanation": "Hyperion is a satellite of Saturn.",
+    "details": "Hyperion is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q15037"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.karl-von-frisch",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Karl von Frisch?",
+    "canonicalAnswer": "ethology",
+    "aliases": [],
+    "distractors": ["oriental studies", "robotics", "Judaism"],
+    "explanation": "Karl von Frisch worked primarily in ethology.",
+    "details": "ethology is recorded as the principal field of work associated with Karl von Frisch.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q60060"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.untriquadium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of untriquadium?",
+    "canonicalAnswer": "134",
+    "aliases": [],
+    "distractors": ["133", "99", "139"],
+    "explanation": "untriquadium has atomic number 134.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every untriquadium atom has 134.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3552040"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.hayasat-1",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Hayasat-1?",
+    "canonicalAnswer": "Bazoomq",
+    "aliases": [],
+    "distractors": [
+      "European Space Agency",
+      "Korea Aerospace Research Institute",
+      "National Academy of Sciences of Belarus"
+    ],
+    "explanation": "Bazoomq operated Hayasat-1.",
+    "details": "Hayasat-1 is recorded as a spacecraft operated by Bazoomq.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q123693601"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.mimosa",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was MIMOSA launched?",
+    "canonicalAnswer": "2003",
+    "aliases": [],
+    "distractors": ["1966", "1965", "1961"],
+    "explanation": "MIMOSA was launched in 2003.",
+    "details": "2003 is the recorded launch year for spacecraft MIMOSA.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q54199"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.s-2004-s-31",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does S/2004 S 31 orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Kepler-1625 b", "Mars", "Uranus"],
+    "explanation": "S/2004 S 31 is a satellite of Saturn.",
+    "details": "S/2004 S 31 is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70141842"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.hans-eysenck",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Hans Eysenck?",
+    "canonicalAnswer": "psychology",
+    "aliases": [],
+    "distractors": ["robotics", "Judaism", "history of Wales"],
+    "explanation": "Hans Eysenck worked primarily in psychology.",
+    "details": "psychology is recorded as the principal field of work associated with Hans Eysenck.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q58632"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.untritrium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of untritrium?",
+    "canonicalAnswer": "133",
+    "aliases": [],
+    "distractors": ["99", "139", "69"],
+    "explanation": "untritrium has atomic number 133.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every untritrium atom has 133.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3552041"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.lunar-cruiser",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Lunar Cruiser?",
+    "canonicalAnswer": "Japan Aerospace Exploration Agency",
+    "aliases": [],
+    "distractors": [
+      "Korea Aerospace Research Institute",
+      "National Academy of Sciences of Belarus",
+      "Roscosmos State Corporation"
+    ],
+    "explanation": "Japan Aerospace Exploration Agency operated Lunar Cruiser.",
+    "details": "Lunar Cruiser is recorded as a spacecraft operated by Japan Aerospace Exploration Agency.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q99076662"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.gravity-gradient-technology-satellite",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Gravity Gradient Technology Satellite launched?",
+    "canonicalAnswer": "1966",
+    "aliases": [],
+    "distractors": ["1965", "1961", "2012"],
+    "explanation": "Gravity Gradient Technology Satellite was launched in 1966.",
+    "details": "1966 is the recorded launch year for spacecraft Gravity Gradient Technology Satellite.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q52376247"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.anthe",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does Anthe orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Mars", "Uranus", "Neptune"],
+    "explanation": "Anthe is a satellite of Saturn.",
+    "details": "Anthe is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q17788"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.boris-vladimirtsov",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Boris Vladimirtsov?",
+    "canonicalAnswer": "oriental studies",
+    "aliases": [],
+    "distractors": ["Judaism", "history of Wales", "mathematical physics"],
+    "explanation": "Boris Vladimirtsov worked primarily in oriental studies.",
+    "details": "oriental studies is recorded as the principal field of work associated with Boris Vladimirtsov.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q893687"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.einsteinium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of einsteinium?",
+    "canonicalAnswer": "99",
+    "aliases": [],
+    "distractors": ["139", "69", "122"],
+    "explanation": "einsteinium has atomic number 99.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every einsteinium atom has 99.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1892"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.intermediate-experimental-vehicle",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Intermediate eXperimental Vehicle?",
+    "canonicalAnswer": "European Space Agency",
+    "aliases": [],
+    "distractors": [
+      "National Academy of Sciences of Belarus",
+      "Roscosmos State Corporation",
+      "China Aerospace Science and Technology Corporation"
+    ],
+    "explanation": "European Space Agency operated Intermediate eXperimental Vehicle.",
+    "details": "Intermediate eXperimental Vehicle is recorded as a spacecraft operated by European Space Agency.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q630310"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.explorer-28",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Explorer 28 launched?",
+    "canonicalAnswer": "1965",
+    "aliases": [],
+    "distractors": ["1961", "2012", "2021"],
+    "explanation": "Explorer 28 was launched in 1965.",
+    "details": "1965 is the recorded launch year for spacecraft Explorer 28.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q9257135"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.geirrod",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does Geirrod orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Uranus", "Neptune", "Pluto"],
+    "explanation": "Geirrod is a satellite of Saturn.",
+    "details": "Geirrod is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70142016"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.pavel-kroupa",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Pavel Kroupa?",
+    "canonicalAnswer": "astrophysics",
+    "aliases": [],
+    "distractors": ["history of Wales", "mathematical physics", "chemistry"],
+    "explanation": "Pavel Kroupa worked primarily in astrophysics.",
+    "details": "astrophysics is recorded as the principal field of work associated with Pavel Kroupa.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q822482"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.untriennium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of untriennium?",
+    "canonicalAnswer": "139",
+    "aliases": [],
+    "distractors": ["69", "122", "68"],
+    "explanation": "untriennium has atomic number 139.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every untriennium atom has 139.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q548592"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.stsat-2a",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated STSAT-2A?",
+    "canonicalAnswer": "Korea Aerospace Research Institute",
+    "aliases": [],
+    "distractors": [
+      "Roscosmos State Corporation",
+      "China Aerospace Science and Technology Corporation",
+      "Ballistic Missile Defense Organization"
+    ],
+    "explanation": "Korea Aerospace Research Institute operated STSAT-2A.",
+    "details": "STSAT-2A is recorded as a spacecraft operated by Korea Aerospace Research Institute.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q491512"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.discoverer-28",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Discoverer 28 launched?",
+    "canonicalAnswer": "1961",
+    "aliases": [],
+    "distractors": ["2012", "2021", "1967"],
+    "explanation": "Discoverer 28 was launched in 1961.",
+    "details": "1961 is the recorded launch year for spacecraft Discoverer 28.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q5281812"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.s-2004-s-34",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does S/2004 S 34 orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Neptune", "Pluto", "Jupiter"],
+    "explanation": "S/2004 S 34 is a satellite of Saturn.",
+    "details": "S/2004 S 34 is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70141925"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.hiroshi-ishiguro",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Hiroshi Ishiguro?",
+    "canonicalAnswer": "robotics",
+    "aliases": [],
+    "distractors": ["mathematical physics", "chemistry", "pediatrics"],
+    "explanation": "Hiroshi Ishiguro worked primarily in robotics.",
+    "details": "robotics is recorded as the principal field of work associated with Hiroshi Ishiguro.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q382950"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.thulium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of thulium?",
+    "canonicalAnswer": "69",
+    "aliases": [],
+    "distractors": ["122", "68", "173"],
+    "explanation": "thulium has atomic number 69.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every thulium atom has 69.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1853"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.belka",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated BelKA?",
+    "canonicalAnswer": "National Academy of Sciences of Belarus",
+    "aliases": [],
+    "distractors": [
+      "China Aerospace Science and Technology Corporation",
+      "Ballistic Missile Defense Organization",
+      "Italian Space Agency"
+    ],
+    "explanation": "National Academy of Sciences of Belarus operated BelKA.",
+    "details": "BelKA is recorded as a spacecraft operated by National Academy of Sciences of Belarus.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q379105"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.lares",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was LARES launched?",
+    "canonicalAnswer": "2012",
+    "aliases": [],
+    "distractors": ["2021", "1967", "1960"],
+    "explanation": "LARES was launched in 2012.",
+    "details": "2012 is the recorded launch year for spacecraft LARES.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q427370"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.thiazzi",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does Thiazzi orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Pluto", "Jupiter", "Earth"],
+    "explanation": "Thiazzi is a satellite of Saturn.",
+    "details": "Thiazzi is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70141904"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.hanoch-albeck",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Hanoch Albeck?",
+    "canonicalAnswer": "Judaism",
+    "aliases": [],
+    "distractors": ["chemistry", "pediatrics", "pastor"],
+    "explanation": "Hanoch Albeck worked primarily in Judaism.",
+    "details": "Judaism is recorded as the principal field of work associated with Hanoch Albeck.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q214216"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.unbibium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of unbibium?",
+    "canonicalAnswer": "122",
+    "aliases": [],
+    "distractors": ["68", "173", "137"],
+    "explanation": "unbibium has atomic number 122.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unbibium atom has 122.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q7425"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.soyuz-ms",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Soyuz MS?",
+    "canonicalAnswer": "Roscosmos State Corporation",
+    "aliases": [],
+    "distractors": [
+      "Ballistic Missile Defense Organization",
+      "Italian Space Agency",
+      "National Aeronautics and Space Administration"
+    ],
+    "explanation": "Roscosmos State Corporation operated Soyuz MS.",
+    "details": "Soyuz MS is recorded as a spacecraft operated by Roscosmos State Corporation.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q21483913"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.korabl-sputnik-5",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Korabl-Sputnik 5 launched?",
+    "canonicalAnswer": "1961",
+    "aliases": [],
+    "distractors": ["1967", "1960", "1990"],
+    "explanation": "Korabl-Sputnik 5 was launched in 1961.",
+    "details": "1961 is the recorded launch year for spacecraft Korabl-Sputnik 5.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18934"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.s-2004-s-36",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does S/2004 S 36 orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Jupiter", "Earth", "Kepler-1625 b"],
+    "explanation": "S/2004 S 36 is a satellite of Saturn.",
+    "details": "S/2004 S 36 is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70141960"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.peter-bartrum",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Peter Bartrum?",
+    "canonicalAnswer": "history of Wales",
+    "aliases": [],
+    "distractors": ["pediatrics", "pastor", "theoretical physics"],
+    "explanation": "Peter Bartrum worked primarily in history of Wales.",
+    "details": "history of Wales is recorded as the principal field of work associated with Peter Bartrum.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3399658"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.erbium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of erbium?",
+    "canonicalAnswer": "68",
+    "aliases": [],
+    "distractors": ["173", "137", "121"],
+    "explanation": "erbium has atomic number 68.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every erbium atom has 68.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1849"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.mengtian-experiment-module",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Mengtian experiment module?",
+    "canonicalAnswer": "China National Space Administration",
+    "aliases": [],
+    "distractors": [
+      "Italian Space Agency",
+      "National Aeronautics and Space Administration",
+      "Bazoomq"
+    ],
+    "explanation": "China National Space Administration operated Mengtian experiment module.",
+    "details": "Mengtian experiment module is recorded as a spacecraft operated by China National Space Administration.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q28671166"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.shenzhou-12",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Shenzhou 12 launched?",
+    "canonicalAnswer": "2021",
+    "aliases": [],
+    "distractors": ["1960", "1990", "1964"],
+    "explanation": "Shenzhou 12 was launched in 2021.",
+    "details": "2021 is the recorded launch year for spacecraft Shenzhou 12.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q28223990"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.s-2004-s-37",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does S/2004 S 37 orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Jupiter", "Earth", "Kepler-1625 b"],
+    "explanation": "S/2004 S 37 is a satellite of Saturn.",
+    "details": "S/2004 S 37 is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q70141975"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.otto-von-guericke",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Otto von Guericke?",
+    "canonicalAnswer": "mathematical physics",
+    "aliases": [],
+    "distractors": ["pastor", "theoretical physics", "biology"],
+    "explanation": "Otto von Guericke worked primarily in mathematical physics.",
+    "details": "mathematical physics is recorded as the principal field of work associated with Otto von Guericke.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q60095"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.unsepttrium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of unsepttrium?",
+    "canonicalAnswer": "173",
+    "aliases": [],
+    "distractors": ["137", "121", "62"],
+    "explanation": "unsepttrium has atomic number 173.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every unsepttrium atom has 173.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q11289368"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-operator.shenzhou-12",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "Which organization operated Shenzhou 12?",
+    "canonicalAnswer": "China National Space Administration",
+    "aliases": [],
+    "distractors": [
+      "National Aeronautics and Space Administration",
+      "Bazoomq",
+      "Japan Aerospace Exploration Agency"
+    ],
+    "explanation": "China National Space Administration operated Shenzhou 12.",
+    "details": "Shenzhou 12 is recorded as a spacecraft operated by China National Space Administration.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q28223990"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.spacecraft-launch-year.soyuz-7k-l1-no-4l",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Spaceflight"],
+    "prompt": "In what year was Soyuz 7K-L1 No.4L launched?",
+    "canonicalAnswer": "1967",
+    "aliases": [],
+    "distractors": ["1990", "1964", "1963"],
+    "explanation": "Soyuz 7K-L1 No.4L was launched in 1967.",
+    "details": "1967 is the recorded launch year for spacecraft Soyuz 7K-L1 No.4L.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q3488773"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.moon-parent.hati",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Astronomy"],
+    "prompt": "Which astronomical body does Hati orbit?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Earth", "Kepler-1625 b", "Mars"],
+    "explanation": "Hati is a satellite of Saturn.",
+    "details": "Hati is gravitationally bound to Saturn and travels around it in orbit.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q18220"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.scientist-field.carl-djerassi",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Scientists"],
+    "prompt": "Which scientific field is most closely associated with Carl Djerassi?",
+    "canonicalAnswer": "chemistry",
+    "aliases": [],
+    "distractors": ["theoretical physics", "biology", "medicine"],
+    "explanation": "Carl Djerassi worked primarily in chemistry.",
+    "details": "chemistry is recorded as the principal field of work associated with Carl Djerassi.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q78608"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "space-and-beyond.element-number.untriseptium",
+    "topicSlug": "science-nature",
+    "packSlugs": ["space-and-beyond"],
+    "subtopics": ["Chemistry"],
+    "prompt": "What is the atomic number of untriseptium?",
+    "canonicalAnswer": "137",
+    "aliases": [],
+    "distractors": ["121", "62", "140"],
+    "explanation": "untriseptium has atomic number 137.",
+    "details": "Atomic number counts the protons in an atom's nucleus; every untriseptium atom has 137.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Wikidata",
+      "url": "https://www.wikidata.org/entity/Q1366419"
+    },
+    "expiresAt": null
+  }
+]

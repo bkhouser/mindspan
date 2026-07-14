@@ -1,0 +1,1412 @@
+[
+  {
+    "catalogKey": "trivia-101.opentdb.bd30c1875934370b",
+    "topicSlug": "history",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "How many manned moon landings have there been?",
+    "canonicalAnswer": "6",
+    "aliases": [
+      "six"
+    ],
+    "distractors": [
+      "1",
+      "3",
+      "7"
+    ],
+    "explanation": "The correct answer is 6.",
+    "details": "Remember the association in this History question: 6 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.09317bf1d975f72b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "How many seasons did the Sci-Fi television show \"Stargate Universe\" have?",
+    "canonicalAnswer": "2",
+    "aliases": [
+      "two"
+    ],
+    "distractors": [
+      "10",
+      "5",
+      "3"
+    ],
+    "explanation": "The correct answer is 2.",
+    "details": "Remember the association in this Entertainment: Television question: 2 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.7969e1066cb1ca9b",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "How would one say goodbye in Spanish?",
+    "canonicalAnswer": "Adiós",
+    "aliases": [
+      "Adios"
+    ],
+    "distractors": [
+      "Hola",
+      "Au Revoir",
+      "Salir"
+    ],
+    "explanation": "The correct answer is Adiós.",
+    "details": "Remember the association in this General Knowledge question: Adiós is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.4134b68f7b005189",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "Human cells typically have how many copies of each gene?",
+    "canonicalAnswer": "2",
+    "aliases": [
+      "two"
+    ],
+    "distractors": [
+      "1",
+      "4",
+      "3"
+    ],
+    "explanation": "The correct answer is 2.",
+    "details": "Remember the association in this Science & Nature question: 2 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.43ade97d762d36e4",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "If soccer is called football in England, what is American football called in England?",
+    "canonicalAnswer": "American football",
+    "aliases": [],
+    "distractors": [
+      "Combball",
+      "Handball",
+      "Touchdown"
+    ],
+    "explanation": "The correct answer is American football.",
+    "details": "Remember the association in this Geography question: American football is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.8f45b3c242b2ff09",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "In \"Star Trek: Voyager\", which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+    "canonicalAnswer": "Pathfinder",
+    "aliases": [],
+    "distractors": [
+      "Message In A Bottle",
+      "Someone To Watch Over Me",
+      "Counterpoint"
+    ],
+    "explanation": "The correct answer is Pathfinder.",
+    "details": "Remember the association in this Entertainment: Television question: Pathfinder is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.801c54fddc854c3f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In which fast food chain can you order a Jamocha Shake?",
+    "canonicalAnswer": "Arby's",
+    "aliases": [],
+    "distractors": [
+      "McDonald's",
+      "Burger King",
+      "Wendy's"
+    ],
+    "explanation": "The correct answer is Arby's.",
+    "details": "Remember the association in this General Knowledge question: Arby's is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.1630b6594ee7c4b0",
+    "topicSlug": "history",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "King Henry VIII was the second monarch of which European royal house?",
+    "canonicalAnswer": "Tudor",
+    "aliases": [],
+    "distractors": [
+      "York",
+      "Stuart",
+      "Lancaster"
+    ],
+    "explanation": "The correct answer is Tudor.",
+    "details": "Remember the association in this History question: Tudor is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.f6db4ba256b6052f",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "The LS1 engine is how many cubic inches?",
+    "canonicalAnswer": "346",
+    "aliases": [],
+    "distractors": [
+      "350",
+      "355",
+      "360"
+    ],
+    "explanation": "The correct answer is 346.",
+    "details": "Remember the association in this Vehicles question: 346 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.c2cfbc2d306cf7cc",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "This movie contains the quote, \"Nobody puts Baby in a corner.\"",
+    "canonicalAnswer": "Dirty Dancing",
+    "aliases": [],
+    "distractors": [
+      "Three Men and a Baby",
+      "Ferris Bueller's Day Off",
+      "Pretty in Pink"
+    ],
+    "explanation": "The correct answer is Dirty Dancing.",
+    "details": "Remember the association in this Entertainment: Film question: Dirty Dancing is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.6e0fd4df19de972a",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is Cynophobia the fear of?",
+    "canonicalAnswer": "Dogs",
+    "aliases": [],
+    "distractors": [
+      "Birds",
+      "Flying",
+      "Germs"
+    ],
+    "explanation": "The correct answer is Dogs.",
+    "details": "Remember the association in this General Knowledge question: Dogs is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.1eba43c67ec5eeca",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "What is the atomic mass of Carbon?",
+    "canonicalAnswer": "12",
+    "aliases": [
+      "twelve"
+    ],
+    "distractors": [
+      "14",
+      "16",
+      "10"
+    ],
+    "explanation": "The correct answer is 12.",
+    "details": "Remember the association in this Science & Nature question: 12 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.0e1712ef9f61604d",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "What is the Capital of the United States?",
+    "canonicalAnswer": "Washington, D.C.",
+    "aliases": [],
+    "distractors": [
+      "Los Angelas, CA",
+      "New York City, NY",
+      "Houston, TX"
+    ],
+    "explanation": "The correct answer is Washington, D.C..",
+    "details": "Remember the association in this Geography question: Washington, D.C. is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.c69c4eee8d3838a3",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "What is the fastest road legal car in the world?",
+    "canonicalAnswer": "Koenigsegg Agera RS",
+    "aliases": [],
+    "distractors": [
+      "Hennessy Venom GT",
+      "Bugatti Veyron Super Sport",
+      "Pagani Huayra BC"
+    ],
+    "explanation": "The correct answer is Koenigsegg Agera RS.",
+    "details": "Remember the association in this Vehicles question: Koenigsegg Agera RS is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.283844ee4d6c3eac",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What is the French word for \"hat\"?",
+    "canonicalAnswer": "Chapeau",
+    "aliases": [],
+    "distractors": [
+      "Bonnet",
+      "Écharpe",
+      "Casque"
+    ],
+    "explanation": "The correct answer is Chapeau.",
+    "details": "Remember the association in this General Knowledge question: Chapeau is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.8f56ce62163b546e",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "What is the unit of electrical resistance?",
+    "canonicalAnswer": "Ohm",
+    "aliases": [],
+    "distractors": [
+      "Mho",
+      "Tesla",
+      "Joule"
+    ],
+    "explanation": "The correct answer is Ohm.",
+    "details": "Remember the association in this Science & Nature question: Ohm is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.b222980de7281699",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "What nuts are used in the production of marzipan?",
+    "canonicalAnswer": "Almonds",
+    "aliases": [],
+    "distractors": [
+      "Peanuts",
+      "Walnuts",
+      "Pistachios"
+    ],
+    "explanation": "The correct answer is Almonds.",
+    "details": "Remember the association in this General Knowledge question: Almonds is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.2aa2bf4e5b71d505",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "When does \"Rogue One: A Star Wars Story\" take place chronologically in the series?",
+    "canonicalAnswer": "Between Episode 3 and 4",
+    "aliases": [],
+    "distractors": [
+      "After Episode 6",
+      "Before Episode 1",
+      "Between Episode 4 and 5"
+    ],
+    "explanation": "The correct answer is Between Episode 3 and 4.",
+    "details": "Remember the association in this Entertainment: Film question: Between Episode 3 and 4 is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.7a5aaa8e5d0de34b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "When Donkey Kong died in the \"Donkey Kong Country\" episode \"It's a Wonderful Life\", who was his guardian angel?",
+    "canonicalAnswer": "Eddie the Mean Old Yeti",
+    "aliases": [],
+    "distractors": [
+      "Kiddy Kong",
+      "Diddy Kong",
+      "King K. Rool"
+    ],
+    "explanation": "The correct answer is Eddie the Mean Old Yeti.",
+    "details": "Remember the association in this Entertainment: Television question: Eddie the Mean Old Yeti is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.9ebdcc4178369ac6",
+    "topicSlug": "music",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Where does the Mac part of the name Fleetwood Mac come from?",
+    "canonicalAnswer": "John McVie",
+    "aliases": [],
+    "distractors": [
+      "Christine McVie",
+      "Mac McAnally",
+      "David Tennant"
+    ],
+    "explanation": "The correct answer is John McVie.",
+    "details": "Remember the association in this Entertainment: Music question: John McVie is the key fact the prompt is asking for.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.d9a9d54b9c3df34c",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which car tire manufacturer is famous for its \"Eagle\" brand of tires, and is the official tire supplier of NASCAR?",
+    "canonicalAnswer": "Goodyear",
+    "aliases": [],
+    "distractors": [
+      "Pirelli",
+      "Bridgestone",
+      "Michelin"
+    ],
+    "explanation": "The correct answer is Goodyear.",
+    "details": "Remember the association in this Vehicles question: Goodyear is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.22802193c3800f34",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which country, not including Japan, has the most people of japanese decent?",
+    "canonicalAnswer": "Brazil",
+    "aliases": [],
+    "distractors": [
+      "China",
+      "South Korea",
+      "United States of America"
+    ],
+    "explanation": "The correct answer is Brazil.",
+    "details": "Remember the association in this General Knowledge question: Brazil is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.0a202d74e3632689",
+    "topicSlug": "history",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "Which famous world leader is famed for the saying, \"Let them eat cake\", yet is rumored that he/she never said it at all?",
+    "canonicalAnswer": "Marie Antoinette",
+    "aliases": [],
+    "distractors": [
+      "Czar Nicholas II",
+      "Elizabeth I",
+      "Henry VIII"
+    ],
+    "explanation": "The correct answer is Marie Antoinette.",
+    "details": "Remember the association in this History question: Marie Antoinette is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.74c966721bafea89",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "Which gas forms about 78% of the Earth’s atmosphere?",
+    "canonicalAnswer": "Nitrogen",
+    "aliases": [],
+    "distractors": [
+      "Oxygen",
+      "Argon",
+      "Carbon Dioxide"
+    ],
+    "explanation": "The correct answer is Nitrogen.",
+    "details": "Remember the association in this Science & Nature question: Nitrogen is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.15eaa9c8c1da2a7d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which Italian city is home of the car manufacturer 'Fiat'?",
+    "canonicalAnswer": "Turin",
+    "aliases": [],
+    "distractors": [
+      "Maranello",
+      "Modena",
+      "Rome"
+    ],
+    "explanation": "The correct answer is Turin.",
+    "details": "Remember the association in this Vehicles question: Turin is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.dd5c02e8f04be361",
+    "topicSlug": "music",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+    "canonicalAnswer": "Dave Grohl",
+    "aliases": [],
+    "distractors": [
+      "Taylor Hawkins",
+      "Nate Mendel",
+      "Chris Shiflett"
+    ],
+    "explanation": "The correct answer is Dave Grohl.",
+    "details": "Remember the association in this Entertainment: Music question: Dave Grohl is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.70d41876eb243f77",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which movie contains the quote, \"Say hello to my little friend!\"?",
+    "canonicalAnswer": "Scarface",
+    "aliases": [],
+    "distractors": [
+      "Reservoir Dogs",
+      "Heat",
+      "Goodfellas"
+    ],
+    "explanation": "The correct answer is Scarface.",
+    "details": "Remember the association in this Entertainment: Film question: Scarface is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.a81f4cc798ec8a0d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which of the following is not the host of a program on NPR?",
+    "canonicalAnswer": "Ben Shapiro",
+    "aliases": [],
+    "distractors": [
+      "Terry Gross",
+      "Ira Glass",
+      "Peter Sagal"
+    ],
+    "explanation": "The correct answer is Ben Shapiro.",
+    "details": "Remember the association in this General Knowledge question: Ben Shapiro is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.8c052dedd910b6b7",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "Which of the following Japanese islands is the biggest?",
+    "canonicalAnswer": "Honshu",
+    "aliases": [],
+    "distractors": [
+      "Hokkaido",
+      "Shikoku",
+      "Kyushu"
+    ],
+    "explanation": "The correct answer is Honshu.",
+    "details": "Remember the association in this Geography question: Honshu is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.2ee4e666a193ee37",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which of the following was not one of \"The Magnificent Seven\"?",
+    "canonicalAnswer": "Clint Eastwood",
+    "aliases": [],
+    "distractors": [
+      "Steve McQueen",
+      "Charles Bronson",
+      "Robert Vaughn"
+    ],
+    "explanation": "The correct answer is Clint Eastwood.",
+    "details": "Remember the association in this Entertainment: Film question: Clint Eastwood is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.0f441861b7ecbcfd",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "Which of these Disney shows is classified as an anime?",
+    "canonicalAnswer": "Stitch!",
+    "aliases": [],
+    "distractors": [
+      "Cory in the House",
+      "The Emperor's New School",
+      "Hannah Montana"
+    ],
+    "explanation": "The correct answer is Stitch!.",
+    "details": "Remember the association in this Entertainment: Television question: Stitch! is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.7b544deb2dd1dd35",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "Which of these is NOT an Australian state or territory?",
+    "canonicalAnswer": "Alberta",
+    "aliases": [],
+    "distractors": [
+      "New South Wales",
+      "Victoria",
+      "Queensland"
+    ],
+    "explanation": "The correct answer is Alberta.",
+    "details": "Remember the association in this Geography question: Alberta is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.3472de3135faed88",
+    "topicSlug": "history",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+    "canonicalAnswer": "Silver",
+    "aliases": [],
+    "distractors": [
+      "Gold",
+      "Juno",
+      "Sword"
+    ],
+    "explanation": "The correct answer is Silver.",
+    "details": "Remember the association in this History question: Silver is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.899d5f90d3680e4f",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "Which player holds the NHL record of 2,857 points?",
+    "canonicalAnswer": "Wayne Gretzky",
+    "aliases": [],
+    "distractors": [
+      "Mario Lemieux",
+      "Sidney Crosby",
+      "Gordie Howe"
+    ],
+    "explanation": "The correct answer is Wayne Gretzky.",
+    "details": "Remember the association in this Sports question: Wayne Gretzky is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.e801fd1bd973c275",
+    "topicSlug": "music",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Which punk rock band released hit songs such as \"Californication\", \"Can't Stop\" and \"Under the Bridge\"?",
+    "canonicalAnswer": "Red Hot Chilli Peppers",
+    "aliases": [],
+    "distractors": [
+      "Green Day",
+      "Linkin Park",
+      "Foo Fighters"
+    ],
+    "explanation": "The correct answer is Red Hot Chilli Peppers.",
+    "details": "Remember the association in this Entertainment: Music question: Red Hot Chilli Peppers is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.9780c32f7aa359de",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "Which team has won the most Stanley Cups in the NHL?",
+    "canonicalAnswer": "Montreal Canadians",
+    "aliases": [],
+    "distractors": [
+      "Chicago Blackhawks",
+      "Toronto Maple Leafs",
+      "Detroit Red Wings"
+    ],
+    "explanation": "The correct answer is Montreal Canadians.",
+    "details": "Remember the association in this Sports question: Montreal Canadians is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.97442a76c96d05da",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+    "canonicalAnswer": "Roger Federer",
+    "aliases": [],
+    "distractors": [
+      "Bill Tilden",
+      "Boris Becker",
+      "Pete Sampras"
+    ],
+    "explanation": "The correct answer is Roger Federer.",
+    "details": "Remember the association in this Sports question: Roger Federer is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.0006279f0d344f5d",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Who is the author of Jurrasic Park?",
+    "canonicalAnswer": "Michael Crichton",
+    "aliases": [],
+    "distractors": [
+      "Peter Benchley",
+      "Chuck Paluhniuk",
+      "Irvine Welsh"
+    ],
+    "explanation": "The correct answer is Michael Crichton.",
+    "details": "Remember the association in this General Knowledge question: Michael Crichton is the key fact the prompt is asking for.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.70418dfa69a82068",
+    "topicSlug": "music",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the lead singer of the British pop rock band Coldplay?",
+    "canonicalAnswer": "Chris Martin",
+    "aliases": [],
+    "distractors": [
+      "Jonny Buckland",
+      "Guy Berryman",
+      "Will Champion"
+    ],
+    "explanation": "The correct answer is Chris Martin.",
+    "details": "Remember the association in this Entertainment: Music question: Chris Martin is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.f7c47e7cd9cf0725",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "Who won the UEFA Champions League in 2017?",
+    "canonicalAnswer": "Real Madrid C.F.",
+    "aliases": [],
+    "distractors": [
+      "Atletico Madrid",
+      "AS Monaco FC",
+      "Juventus F.C."
+    ],
+    "explanation": "The correct answer is Real Madrid C.F..",
+    "details": "Remember the association in this Sports question: Real Madrid C.F. is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.d9df6ac5e24300d6",
+    "topicSlug": "sports",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Sports"
+    ],
+    "prompt": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+    "canonicalAnswer": "Jules Bianchi",
+    "aliases": [],
+    "distractors": [
+      "Ayrton Senna",
+      "Ronald Ratzenberger",
+      "Gilles Villeneuve"
+    ],
+    "explanation": "The correct answer is Jules Bianchi.",
+    "details": "Remember the association in this Sports question: Jules Bianchi is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.5fa652b7e134c0e6",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "In what year was McDonald's founded?",
+    "canonicalAnswer": "1955",
+    "aliases": [],
+    "distractors": [
+      "1964",
+      "1951",
+      "1947"
+    ],
+    "explanation": "The correct answer is 1955.",
+    "details": "Remember the association in this General Knowledge question: 1955 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.83bde02035017c23",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Science"
+    ],
+    "prompt": "On the periodic table of elements, what is the symbol for Tin?",
+    "canonicalAnswer": "Sn",
+    "aliases": [],
+    "distractors": [
+      "Ti",
+      "Ni",
+      "Na"
+    ],
+    "explanation": "The correct answer is Sn.",
+    "details": "Remember the association in this Science & Nature question: Sn is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.a48ce10eba12bc0f",
+    "topicSlug": "geography",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World Geography"
+    ],
+    "prompt": "The World Health Organization headquarters is located in which European country?",
+    "canonicalAnswer": "Switzerland",
+    "aliases": [],
+    "distractors": [
+      "United Kingdom",
+      "France",
+      "Belgium"
+    ],
+    "explanation": "The correct answer is Switzerland.",
+    "details": "Remember the association in this Geography question: Switzerland is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.c37ee4350a39f8a9",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Television"
+    ],
+    "prompt": "What is the name of the race horse that Tony Soprano becomes attached to?",
+    "canonicalAnswer": "Pie-O-My",
+    "aliases": [],
+    "distractors": [
+      "Man o' war",
+      "Bada Bing",
+      "Honest Earnings"
+    ],
+    "explanation": "The correct answer is Pie-O-My.",
+    "details": "Remember the association in this Entertainment: Television question: Pie-O-My is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.ca7652453dec9850",
+    "topicSlug": "history",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "World History"
+    ],
+    "prompt": "What year did Australia become a federation?",
+    "canonicalAnswer": "1901",
+    "aliases": [],
+    "distractors": [
+      "1910",
+      "1899",
+      "1911"
+    ],
+    "explanation": "The correct answer is 1901.",
+    "details": "Remember the association in this History question: 1901 is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.d25e0db829aeca17",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Transportation"
+    ],
+    "prompt": "Which Japanese company is the world's largest manufacturer of motorcycles?",
+    "canonicalAnswer": "Honda",
+    "aliases": [],
+    "distractors": [
+      "Yamaha",
+      "Suzuki",
+      "Kawasaki"
+    ],
+    "explanation": "The correct answer is Honda.",
+    "details": "Remember the association in this Vehicles question: Honda is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.4a61dd51ff287328",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "General Knowledge"
+    ],
+    "prompt": "Which of the following buildings is example of a structure primarily built in the Art Deco architectural style?",
+    "canonicalAnswer": "Niagara Mohawk Building",
+    "aliases": [],
+    "distractors": [
+      "Taipei 101",
+      "One Detroit Center",
+      "Westendstrasse 1"
+    ],
+    "explanation": "The correct answer is Niagara Mohawk Building.",
+    "details": "Remember the association in this General Knowledge question: Niagara Mohawk Building is the key fact the prompt is asking for.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.e80020046f17987b",
+    "topicSlug": "film-television",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Film"
+    ],
+    "prompt": "Which stand-up comedian voiced the talking parrot \"Iago\" in Disney's 1992 adaptation of Aladdin?",
+    "canonicalAnswer": "Gilbert Gottfried",
+    "aliases": [],
+    "distractors": [
+      "Robin Williams",
+      "Pauly Shore",
+      "Jonathan Freeman"
+    ],
+    "explanation": "The correct answer is Gilbert Gottfried.",
+    "details": "Remember the association in this Entertainment: Film question: Gilbert Gottfried is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "trivia-101.opentdb.cd6d08d200040d39",
+    "topicSlug": "music",
+    "packSlugs": [
+      "trivia-101"
+    ],
+    "subtopics": [
+      "Popular Music"
+    ],
+    "prompt": "Who is the frontman of Muse?",
+    "canonicalAnswer": "Matt Bellamy",
+    "aliases": [],
+    "distractors": [
+      "Dominic Howard",
+      "Thom Yorke",
+      "Jonny Greenwood"
+    ],
+    "explanation": "The correct answer is Matt Bellamy.",
+    "details": "Remember the association in this Entertainment: Music question: Matt Bellamy is the key fact the prompt is asking for.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Open Trivia Database",
+      "url": "https://opentdb.com/"
+    },
+    "expiresAt": null
+  }
+]
