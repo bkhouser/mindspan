@@ -14,8 +14,9 @@ const credentialsSchema = z.object({
   invite: z.string().trim().max(256).optional(),
 });
 
-function authCallback(invite?: string, next?: string) {
+function authCallback(flow: string, invite?: string, next?: string) {
   const callback = new URL("/auth/confirm", publicEnv().NEXT_PUBLIC_SITE_URL);
+  callback.searchParams.set("flow", flow);
   if (invite) callback.searchParams.set("invite", invite);
   if (next) callback.searchParams.set("next", next);
   return callback.toString();
@@ -51,7 +52,12 @@ export async function signUpWithPassword(_: LoginState, formData: FormData): Pro
   const { data, error } = await supabase.auth.signUp({
     email: parsed.data.email,
     password: parsed.data.password,
-    options: { emailRedirectTo: authCallback(parsed.data.invite || undefined) },
+    options: {
+      emailRedirectTo: authCallback(
+        "signup",
+        parsed.data.invite || undefined,
+      ),
+    },
   });
   if (error) return { error: "We could not create that account. Try signing in or resetting the password." };
   if (data.session && data.user) {
@@ -71,7 +77,7 @@ export async function signInWithGoogle(formData: FormData) {
   const supabase = await createClient();
   const { data, error } = await supabase.auth.signInWithOAuth({
     provider: "google",
-    options: { redirectTo: authCallback(invite) },
+    options: { redirectTo: authCallback("oauth", invite) },
   });
   if (error || !data.url) redirect(`/login?error=google${invite ? `&invite=${encodeURIComponent(invite)}` : ""}`);
   redirect(data.url);
@@ -83,7 +89,10 @@ export async function requestMagicLink(_: LoginState, formData: FormData): Promi
   const supabase = await createClient();
   const { error } = await supabase.auth.signInWithOtp({
     email: parsed.data.email,
-    options: { emailRedirectTo: authCallback(parsed.data.invite), shouldCreateUser: false },
+    options: {
+      emailRedirectTo: authCallback("magiclink", parsed.data.invite),
+      shouldCreateUser: false,
+    },
   });
   if (error) return { error: "We could not send the sign-in email. Try again shortly." };
   return { message: "If that address belongs to a Mindspan account, a one-time sign-in link is on its way." };

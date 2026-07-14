@@ -10,6 +10,7 @@ export async function requestPasswordReset(_: ResetRequestState, formData: FormD
   const parsed = z.object({ email: z.string().trim().email() }).safeParse(Object.fromEntries(formData));
   if (!parsed.success) return { error: "Enter a valid email address." };
   const callback = new URL("/auth/confirm", publicEnv().NEXT_PUBLIC_SITE_URL);
+  callback.searchParams.set("flow", "recovery");
   callback.searchParams.set("next", "/account/reset-password");
   const supabase = await createClient();
   await supabase.auth.resetPasswordForEmail(parsed.data.email, { redirectTo: callback.toString() });

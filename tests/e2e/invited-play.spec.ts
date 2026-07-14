@@ -92,6 +92,12 @@ test("an invited player can onboard and finish an assisted question", async ({
     expect(
       verifierCookies.some((cookie) => cookie.name.includes("code-verifier")),
     ).toBe(true);
+    await page.context().clearCookies();
+    expect(
+      (await page.context().cookies()).some((cookie) =>
+        cookie.name.includes("code-verifier"),
+      ),
+    ).toBe(false);
     const callbackResponse = await page.goto(actionLink);
     if (!page.url().includes("/onboarding")) {
       const redirects = [];
