@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { z } from "zod";
 
@@ -195,16 +195,17 @@ export function loadCatalog() {
   return { manifest, questions: validQuestions, summaries };
 }
 
-export function readLocalEnv() {
-  const envPath = resolve(root, ".env.local");
-  const fileValues = Object.fromEntries(
-    readFileSync(envPath, "utf8")
-      .split(/\r?\n/)
-      .filter((line) => line && !line.startsWith("#"))
-      .map((line) => {
-        const separator = line.indexOf("=");
-        return [line.slice(0, separator), line.slice(separator + 1)];
-      }),
-  );
+export function readLocalEnv(envPath = resolve(root, ".env.local")) {
+  const fileValues = existsSync(envPath)
+    ? Object.fromEntries(
+        readFileSync(envPath, "utf8")
+          .split(/\r?\n/)
+          .filter((line) => line && !line.startsWith("#"))
+          .map((line) => {
+            const separator = line.indexOf("=");
+            return [line.slice(0, separator), line.slice(separator + 1)];
+          }),
+      )
+    : {};
   return { ...fileValues, ...process.env };
 }
