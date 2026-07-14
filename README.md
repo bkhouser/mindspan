@@ -61,6 +61,8 @@ npx supabase db reset
 5. Set `INITIAL_SYS_ADMIN_EMAIL` for the initial deployment. Use that email to create the first account without an invite, then remove or rotate the bootstrap value after another admin is promoted.
 6. Run migrations first, deploy the application, verify `/api/health`, test password confirmation and recovery, complete the acceptance journeys, and only then issue beta invitations.
 
+`npm run build` produces a deployment-ready standalone artifact in `.next/standalone`, including the required Next.js static assets. Run it with `node server.js` from that directory and supply `HOSTNAME`, `PORT`, and the Mindspan environment variables through the process supervisor.
+
 ## Content status
 
 The beta catalog contains 1,100 text questions across fourteen packs: eight free starter packs with 100 questions each, four themed 100-Insight expansions with 50 each, the free 50-question **Easy Does It** pack, and the 100-Insight 50-question **Trivia 101** pack. The seed supplies 40 representative questions and the versioned catalog supplies the other 1,060. Wikidata provides structured factual questions; the entertainment, culture, and beginner catalog uses the CC BY-SA Open Trivia Database snapshot dated December 27, 2024.
