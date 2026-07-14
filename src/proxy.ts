@@ -2,11 +2,17 @@ import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
 export async function proxy(request: NextRequest) {
-  if (!process.env.NEXT_PUBLIC_SUPABASE_URL || !process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY) return NextResponse.next();
+  const runtimeVariable = (name: string) =>
+    Reflect.get(process.env, name) as string | undefined;
+  const supabaseUrl = runtimeVariable("NEXT_PUBLIC_SUPABASE_URL");
+  const publishableKey = runtimeVariable(
+    "NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY",
+  );
+  if (!supabaseUrl || !publishableKey) return NextResponse.next();
   let response = NextResponse.next({ request });
   const supabase = createServerClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL,
-    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+    supabaseUrl,
+    publishableKey,
     {
       cookies: {
         getAll: () => request.cookies.getAll(),

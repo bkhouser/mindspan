@@ -13,6 +13,7 @@ import type { TopicMastery } from "@/domain/types";
 import { Card } from "@/components/ui/card";
 import { GroupCoverage } from "@/components/group-coverage";
 import { requireUser } from "@/lib/auth";
+import { publicEnv } from "@/lib/env";
 import {
   changeMemberRole,
   createGroupInvite,
@@ -137,7 +138,7 @@ export default async function GroupPage({
   const activityTopicNames = new Map(
     (topics ?? []).map((topic) => [topic.id, topic.name]),
   );
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://127.0.0.1:3000";
+  const siteUrl = publicEnv().NEXT_PUBLIC_SITE_URL;
   const inviteUrl = query.invite
     ? `${siteUrl}/login?invite=${encodeURIComponent(query.invite)}`
     : null;

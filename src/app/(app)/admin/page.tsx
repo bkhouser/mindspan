@@ -11,6 +11,7 @@ import Link from "next/link";
 import { CopyButton } from "@/components/copy-button";
 import { Card } from "@/components/ui/card";
 import { requireSysAdmin } from "@/lib/auth";
+import { publicEnv } from "@/lib/env";
 import {
   createBetaInvite,
   togglePack,
@@ -68,7 +69,7 @@ export default async function AdminPage({
       .single(),
   ]);
   const inviteUrl = query.invite
-    ? `${process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"}/login?invite=${encodeURIComponent(query.invite)}`
+    ? `${publicEnv().NEXT_PUBLIC_SITE_URL}/login?invite=${encodeURIComponent(query.invite)}`
     : null;
   return (
     <>

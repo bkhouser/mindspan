@@ -61,7 +61,7 @@ npx supabase db reset
 5. Set `INITIAL_SYS_ADMIN_EMAIL` for the initial deployment. Use that email to create the first account without an invite, then remove or rotate the bootstrap value after another admin is promoted.
 6. Run migrations first, deploy the application, verify `/api/health`, test password confirmation and recovery, complete the acceptance journeys, and only then issue beta invitations.
 
-`npm run build` produces a deployment-ready standalone artifact in `.next/standalone`, including the required Next.js static assets. Run it with `node server.js` from that directory and supply `HOSTNAME`, `PORT`, and the Mindspan environment variables through the process supervisor.
+`npm run build` produces a deployment-ready standalone artifact in `.next/standalone`, including the required Next.js static assets and the production-environment verifier. Supabase credentials are read by the server at runtime and the build fails if the publishable key is accidentally embedded. From the standalone directory, run `npm run production:verify-env` from the source checkout or `node scripts/verify-production-env.mjs` from the artifact before starting `node server.js`; then supply `HOSTNAME`, `PORT`, and the Mindspan environment variables through the process supervisor.
 
 ## Content status
 

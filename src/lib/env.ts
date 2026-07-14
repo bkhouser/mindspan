@@ -11,27 +11,34 @@ const serverSchema = publicSchema.extend({
   INITIAL_SYS_ADMIN_EMAIL: z.string().email().optional(),
 });
 
+function runtimeVariable(name: string) {
+  return Reflect.get(process.env, name) as string | undefined;
+}
+
 export function hasSupabaseEnv() {
   return Boolean(
-    process.env.NEXT_PUBLIC_SUPABASE_URL &&
-    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+    runtimeVariable("NEXT_PUBLIC_SUPABASE_URL") &&
+    runtimeVariable("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY"),
   );
 }
 
 export function publicEnv() {
+  // Dynamic lookups are intentional. Next.js inlines direct NEXT_PUBLIC_* access
+  // at build time, but Mindspan's self-hosted standalone artifact must remain
+  // portable between environments.
   return publicSchema.parse({
     NEXT_PUBLIC_SITE_URL:
-      process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
-    NEXT_PUBLIC_SUPABASE_URL: process.env.NEXT_PUBLIC_SUPABASE_URL,
+      runtimeVariable("NEXT_PUBLIC_SITE_URL") ?? "http://localhost:3000",
+    NEXT_PUBLIC_SUPABASE_URL: runtimeVariable("NEXT_PUBLIC_SUPABASE_URL"),
     NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY:
-      process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,
+      runtimeVariable("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY"),
   });
 }
 
 export function serverEnv() {
   return serverSchema.parse({
     ...publicEnv(),
-    SUPABASE_SECRET_KEY: process.env.SUPABASE_SECRET_KEY,
-    INITIAL_SYS_ADMIN_EMAIL: process.env.INITIAL_SYS_ADMIN_EMAIL,
+    SUPABASE_SECRET_KEY: runtimeVariable("SUPABASE_SECRET_KEY"),
+    INITIAL_SYS_ADMIN_EMAIL: runtimeVariable("INITIAL_SYS_ADMIN_EMAIL"),
   });
 }
