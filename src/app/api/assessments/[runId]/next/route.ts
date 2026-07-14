@@ -102,7 +102,7 @@ export async function POST(
         loading_grace_expires_at: loadingDeadline?.toISOString() ?? null,
         expires_at: expiresAt.toISOString(),
         starting_points: 0,
-        proficiency_snapshot: 0.5,
+        proficiency_snapshot: 0,
         prior_correct_count: 0,
         algorithm_version: "assessment-v1",
         sequence_number: run.response_count + 1,

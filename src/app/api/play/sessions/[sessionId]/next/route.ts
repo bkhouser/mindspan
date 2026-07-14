@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { accuracy, skillEstimate } from "@/domain/mastery";
 import { scoreAttempt } from "@/domain/scoring";
 import { selectQuestion, type CandidateQuestion } from "@/domain/selection";
 import { scaleQuestionTimer } from "@/domain/timer-rules";
@@ -36,15 +37,25 @@ export async function POST(
     const { data: mastery } = session.topic_id
       ? await admin
           .from("user_topic_mastery")
-          .select("weighted_successes,weighted_evidence")
+          .select(
+            "weighted_successes,weighted_evidence,correct_attempts,total_attempts",
+          )
           .eq("user_id", user.id)
           .eq("topic_id", session.topic_id)
           .maybeSingle()
       : { data: null };
-    let proficiency = mastery
-      ? (Number(mastery.weighted_successes) + 2) /
-        (Number(mastery.weighted_evidence) + 4)
+    const selectionProficiency = mastery
+      ? skillEstimate({
+          weightedSuccesses: Number(mastery.weighted_successes),
+          weightedEvidence: Number(mastery.weighted_evidence),
+        })
       : 0.5;
+    let scoringProficiency = mastery
+      ? accuracy({
+          correctAttempts: mastery.correct_attempts,
+          totalAttempts: mastery.total_attempts,
+        })
+      : 0;
 
     const { data: unlocks } = await admin
       .from("pack_unlocks")
@@ -124,7 +135,7 @@ export async function POST(
     })) as CandidateQuestion[];
     const chosen = selectQuestion(
       candidates,
-      proficiency,
+      selectionProficiency,
       session.question_count + 1,
     );
     if (!chosen) throw new ApiError("NO_QUESTIONS_AVAILABLE", 404);
@@ -144,21 +155,23 @@ export async function POST(
     if (session.mode !== "topic") {
       const { data: topicState } = await admin
         .from("user_topic_mastery")
-        .select("weighted_successes,weighted_evidence")
+        .select("correct_attempts,total_attempts")
         .eq("user_id", user.id)
         .eq("topic_id", version.topic_id)
         .maybeSingle();
-      proficiency = topicState
-        ? (Number(topicState.weighted_successes) + 2) /
-          (Number(topicState.weighted_evidence) + 4)
-        : 0.5;
+      scoringProficiency = topicState
+        ? accuracy({
+            correctAttempts: topicState.correct_attempts,
+            totalAttempts: topicState.total_attempts,
+          })
+        : 0;
     }
     const priorCorrectCount =
       stateMap.get(version.question_id)?.correct_count ?? 0;
     const requiredChoices = version.answer_mode === "required_choice";
     const score = scoreAttempt({
       difficulty: version.difficulty as Difficulty,
-      proficiency,
+      proficiency: scoringProficiency,
       priorCorrectCount,
       remainingRatio: 1,
       assisted: requiredChoices,
@@ -191,7 +204,7 @@ export async function POST(
         loading_grace_expires_at: loadingDeadline?.toISOString() ?? null,
         expires_at: expiresAt.toISOString(),
         starting_points: score.startingPoints,
-        proficiency_snapshot: proficiency,
+        proficiency_snapshot: scoringProficiency,
         prior_correct_count: priorCorrectCount,
         algorithm_version: score.algorithmVersion,
         sequence_number: session.question_count + 1,

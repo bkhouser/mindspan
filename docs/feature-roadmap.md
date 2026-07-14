@@ -55,8 +55,8 @@ Implementation principles:
 - Apply per-user and global rate limits, a bounded output size, request timeout,
   retry limits, and a monthly spend ceiling. A failed request must leave the
   normal answer screen fully usable.
-- Provide helpful/unhelpful feedback and the existing question-report path so
-  weak or inaccurate expansions can be reviewed and invalidated.
+- Extend the compact question-feedback path to AI explanations so weak or
+  inaccurate expansions can be reviewed and invalidated.
 - Evaluate output quality with a fixed set of questions from all eight topics,
   including dates, disputed facts, sensitive history, and time-sensitive content.
 - Select the production model during implementation using current quality,

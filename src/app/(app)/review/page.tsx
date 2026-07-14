@@ -14,7 +14,10 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
-import { QuestionPackLabel } from "@/components/question-pack-label";
+import {
+  QuestionFeedback,
+  type QuestionFeedbackReason,
+} from "@/components/question-feedback";
 import { requireUser } from "@/lib/auth";
 import type { Json } from "@/types/database.generated";
 
@@ -194,7 +197,7 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
   const attemptsQuery = supabase
     .from("attempts")
     .select(
-      "id,submitted_answer,correct,assisted,timed_out,elapsed_ms,earned_points,score_snapshot,created_at,question:question_versions!inner(question_id,prompt,canonical_answer,explanation,details,difficulty,topic:topics(name))",
+      "id,submitted_answer,correct,assisted,timed_out,elapsed_ms,earned_points,score_snapshot,created_at,question:question_versions!inner(id,question_id,prompt,canonical_answer,explanation,details,difficulty,topic:topics(name))",
       { count: "exact" },
     )
     .eq("user_id", user.id);
@@ -243,12 +246,41 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
       }),
     ),
   ];
-  const { data: packLinks } = questionIds.length
-    ? await supabase
-        .from("pack_questions")
-        .select("question_id,packs(name)")
-        .in("question_id", questionIds)
-    : { data: [] };
+  const questionVersionIds = [
+    ...new Set(
+      (attempts ?? []).flatMap((attempt) => {
+        const question = Array.isArray(attempt.question)
+          ? attempt.question[0]
+          : attempt.question;
+        return question?.id ? [question.id] : [];
+      }),
+    ),
+  ];
+  const [{ data: packLinks }, { data: feedbackRows }] = await Promise.all([
+    questionIds.length
+      ? supabase
+          .from("pack_questions")
+          .select("question_id,packs(name)")
+          .in("question_id", questionIds)
+      : Promise.resolve({ data: [] }),
+    questionVersionIds.length
+      ? supabase
+          .from("question_feedback")
+          .select("question_version_id,sentiment,reasons,comment")
+          .eq("user_id", user.id)
+          .in("question_version_id", questionVersionIds)
+      : Promise.resolve({ data: [] }),
+  ]);
+  const feedbackByVersionId = new Map(
+    feedbackRows?.map((feedback) => [
+      feedback.question_version_id,
+      {
+        sentiment: feedback.sentiment as "up" | "down",
+        reasons: feedback.reasons as QuestionFeedbackReason[],
+        comment: feedback.comment,
+      },
+    ]),
+  );
   const packNamesByQuestionId = new Map<string, string[]>();
   for (const link of packLinks ?? []) {
     const pack = Array.isArray(link.packs) ? link.packs[0] : link.packs;
@@ -340,6 +372,9 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
           const questionState = question
             ? questionStateById.get(question.question_id)
             : null;
+          const packNames = question
+            ? (packNamesByQuestionId.get(question.question_id) ?? [])
+            : [];
           const correct = attempt.correct;
           return (
             <Card
@@ -373,6 +408,11 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
                   <span className="text-xs font-bold text-[var(--muted)]">
                     {topic?.name ?? "Topic"}
                   </span>
+                  {packNames.length ? (
+                    <span className="rounded-full bg-white/5 px-2.5 py-1 text-xs font-bold">
+                      {packNames.join(", ")}
+                    </span>
+                  ) : null}
                   {question ? (
                     <DifficultyStars difficulty={question.difficulty} />
                   ) : null}
@@ -446,14 +486,16 @@ export default async function ReviewPage({ searchParams }: ReviewPageProps) {
                 </div>
               </div>
 
-              <QuestionPackLabel
-                className="mt-5"
-                packNames={
-                  question
-                    ? (packNamesByQuestionId.get(question.question_id) ?? [])
-                    : []
-                }
-              />
+              <div className="mt-5 border-t border-white/10 pt-5">
+                <QuestionFeedback
+                  attemptId={attempt.id}
+                  initialValue={
+                    question
+                      ? feedbackByVersionId.get(question.id)
+                      : undefined
+                  }
+                />
+              </div>
 
               <ScoringBreakdown
                 correct={correct}

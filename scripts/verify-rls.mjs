@@ -115,6 +115,70 @@ try {
     "a system admin must have global operational visibility",
   );
 
+  const { data: qualityVersion, error: qualityVersionError } = await admin
+    .from("question_versions")
+    .select("id")
+    .eq("status", "published")
+    .limit(1)
+    .single();
+  if (qualityVersionError) throw qualityVersionError;
+  const { error: memberQualitySummaryError } = await member.client.rpc(
+    "question_quality_pack_summary_v1",
+  );
+  assert(
+    Boolean(memberQualitySummaryError),
+    "a normal player must not read the editorial quality summary",
+  );
+  const { data: adminQualitySummary, error: adminQualitySummaryError } =
+    await systemAdmin.client.rpc("question_quality_pack_summary_v1");
+  assert(
+    !adminQualitySummaryError && (adminQualitySummary?.length ?? 0) > 0,
+    "a system admin must see pack editorial progress",
+  );
+  const { error: directFeedbackError } = await member.client
+    .from("question_feedback")
+    .insert({
+      question_version_id: qualityVersion.id,
+      user_id: member.id,
+      attempt_id: crypto.randomUUID(),
+      sentiment: "up",
+      answer_correct: true,
+      assisted: false,
+      timed_out: false,
+    });
+  assert(
+    Boolean(directFeedbackError),
+    "question feedback writes must go through the validated server endpoint",
+  );
+  const { error: editorialInsertError } = await admin
+    .from("question_editorial_reviews")
+    .insert({
+      question_version_id: qualityVersion.id,
+      reviewed_by: systemAdmin.id,
+      verdict: "approved",
+    });
+  if (editorialInsertError) throw editorialInsertError;
+  const { data: hiddenEditorial } = await member.client
+    .from("question_editorial_reviews")
+    .select("question_version_id")
+    .eq("question_version_id", qualityVersion.id);
+  assert(
+    hiddenEditorial?.length === 0,
+    "a normal player must not see editorial decisions",
+  );
+  const { data: visibleEditorial } = await systemAdmin.client
+    .from("question_editorial_reviews")
+    .select("question_version_id")
+    .eq("question_version_id", qualityVersion.id);
+  assert(
+    visibleEditorial?.length === 1,
+    "a system admin must see editorial decisions",
+  );
+  await admin
+    .from("question_editorial_reviews")
+    .delete()
+    .eq("question_version_id", qualityVersion.id);
+
   const { data: feedback, error: feedbackError } = await member.client
     .from("feedback_reports")
     .insert({
@@ -285,6 +349,9 @@ try {
   );
   console.log(
     "Role escalation, immediate revocation, and final-admin protection passed",
+  );
+  console.log(
+    "Question feedback write isolation and system-admin editorial visibility passed",
   );
 } finally {
   if (groupId) {

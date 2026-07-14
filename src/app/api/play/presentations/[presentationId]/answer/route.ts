@@ -4,7 +4,7 @@ import { isAnswerAccepted } from "@/domain/answers";
 import { resolveAttemptTiming } from "@/domain/attempt-timing";
 import {
   applyMasteryAttempt,
-  proficiency,
+  accuracy,
   topicMastery,
   type MasteryState,
 } from "@/domain/mastery";
@@ -265,7 +265,7 @@ export async function POST(
       ? await admin
           .from("user_subtopic_mastery")
           .select(
-            "subtopic_id,weighted_successes,weighted_evidence,unique_questions",
+            "subtopic_id,correct_attempts,total_attempts,unique_questions",
           )
           .eq("user_id", user.id)
           .in(
@@ -281,17 +281,20 @@ export async function POST(
         id: subtopic.id,
         name: subtopic.name,
         proficiency: row
-          ? proficiency({
-              weightedSuccesses: Number(row.weighted_successes),
-              weightedEvidence: Number(row.weighted_evidence),
+          ? accuracy({
+              correctAttempts: row.correct_attempts,
+              totalAttempts: row.total_attempts,
             })
-          : 0.5,
+          : 0,
         uniqueQuestions: row?.unique_questions ?? 0,
       };
     });
     const progression = await evaluateAchievementsForUser(admin, user.id);
     return NextResponse.json({
+      attemptId,
       correct: accepted,
+      submittedAnswer: input.answer,
+      timedOut: expired,
       canonicalAnswer: version.canonical_answer,
       explanation: version.explanation,
       details: version.details,

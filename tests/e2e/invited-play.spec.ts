@@ -139,11 +139,15 @@ test("an invited player can onboard and finish an assisted question", async ({
       await achievement.getByRole("button", { name: /nice/i }).click();
     await page.getByRole("link", { name: /play now/i }).click();
     await page.getByRole("button", { name: /start playing/i }).click();
-    await expect(
-      page.getByRole("button", { name: /show choices/i }),
-    ).toBeVisible();
-    await page.getByRole("button", { name: /show choices/i }).click();
+    const showChoices = page.getByRole("button", { name: /show choices/i });
     const choices = page.locator("button.min-h-14");
+    await expect
+      .poll(
+        async () =>
+          (await showChoices.isVisible()) || (await choices.count()) === 4,
+      )
+      .toBe(true);
+    if (await showChoices.isVisible()) await showChoices.click();
     await expect(choices).toHaveCount(4);
     await choices.first().click();
     await page.getByRole("button", { name: /lock in answer/i }).click();
@@ -154,6 +158,25 @@ test("an invited player can onboard and finish an assisted question", async ({
     await expect(page.getByTestId("topic-proficiency")).toContainText(
       /proficiency/i,
     );
+    const feedbackResponse = page.waitForResponse(
+      (response) => response.url().endsWith("/api/question-feedback"),
+    );
+    await page.getByRole("button", { name: "Good question" }).click();
+    const savedFeedback = await feedbackResponse;
+    expect(
+      savedFeedback.status(),
+      await savedFeedback.text(),
+    ).toBe(200);
+    await expect(page.getByText("Saved", { exact: true })).toBeVisible();
+    await expect
+      .poll(async () => {
+        const { count } = await admin
+          .from("question_feedback")
+          .select("id", { count: "exact", head: true })
+          .eq("sentiment", "up");
+        return count ?? 0;
+      })
+      .toBeGreaterThan(0);
   } finally {
     await admin.from("beta_invites").delete().eq("token_hash", tokenHash);
     if (!userId) {

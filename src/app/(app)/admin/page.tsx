@@ -34,6 +34,7 @@ export default async function AdminPage({
     { data: users },
     { count: questionCount },
     { data: settings },
+    { count: questionFeedbackCount },
   ] = await Promise.all([
     supabase
       .from("packs")
@@ -67,6 +68,10 @@ export default async function AdminPage({
       .select("default_timer_seconds")
       .eq("id", true)
       .single(),
+    supabase
+      .from("question_feedback")
+      .select("id", { count: "exact", head: true })
+      .eq("sentiment", "down"),
   ]);
   const inviteUrl = query.invite
     ? `${publicEnv().NEXT_PUBLIC_SITE_URL}/login?invite=${encodeURIComponent(query.invite)}`
@@ -80,12 +85,20 @@ export default async function AdminPage({
           </p>
           <h1 className="mt-2 text-4xl font-black">Mindspan control room</h1>
         </div>
-        <Link
-          className="rounded-full bg-white/10 px-5 py-3 font-black"
-          href="/admin/questions"
-        >
-          Question workshop
-        </Link>
+        <div className="flex flex-wrap gap-3">
+          <Link
+            className="rounded-full bg-[var(--brand)] px-5 py-3 font-black text-slate-950"
+            href="/admin/question-quality"
+          >
+            Review question quality
+          </Link>
+          <Link
+            className="rounded-full bg-white/10 px-5 py-3 font-black"
+            href="/admin/questions"
+          >
+            Question workshop
+          </Link>
+        </div>
       </header>
       <section className="mt-8 grid gap-4 sm:grid-cols-3">
         <Card className="p-5">
@@ -100,13 +113,19 @@ export default async function AdminPage({
             Published questions
           </span>
         </Card>
-        <Card className="p-5">
-          <Flag className="text-[var(--danger)]" />
-          <p className="mt-4 text-3xl font-black">
-            {(reports?.length ?? 0) + (feedbackReports?.length ?? 0)}
-          </p>
-          <span className="text-sm text-[var(--muted)]">Open reports</span>
-        </Card>
+        <Link href="/admin/question-quality?view=flagged">
+          <Card className="h-full p-5 transition hover:border-rose-300/30">
+            <Flag className="text-[var(--danger)]" />
+            <p className="mt-4 text-3xl font-black">
+              {(reports?.length ?? 0) +
+                (feedbackReports?.length ?? 0) +
+                (questionFeedbackCount ?? 0)}
+            </p>
+            <span className="text-sm text-[var(--muted)]">
+              Quality signals
+            </span>
+          </Card>
+        </Link>
       </section>
       {inviteUrl ? (
         <Card className="mt-6 border-emerald-300/30 p-5">

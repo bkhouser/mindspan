@@ -22,6 +22,7 @@ import { MediaPrompt } from "@/components/media-prompt";
 import { AchievementCelebration } from "@/components/achievement-celebration";
 import { DifficultyStars } from "@/components/difficulty-stars";
 import { QuestionTimerBar } from "@/components/question-timer-bar";
+import { QuestionFeedback } from "@/components/question-feedback";
 import { remainingScoringRatio } from "@/domain/timer-rules";
 import { useEnterToAdvance } from "@/hooks/use-enter-to-advance";
 import { dismissPlayIntroduction } from "./actions";
@@ -76,12 +77,6 @@ export function PlayGame({
   const [mediaReady, setMediaReady] = useState(true);
   const [questionCount, setQuestionCount] = useState(0);
   const [breakDismissed, setBreakDismissed] = useState(false);
-  const [reportOpen, setReportOpen] = useState(false);
-  const [reportCategory, setReportCategory] = useState<
-    "answer" | "wording" | "source" | "media" | "other"
-  >("answer");
-  const [reportDetails, setReportDetails] = useState("");
-  const [reportStatus, setReportStatus] = useState<string>();
   const [runStartedAt, setRunStartedAt] = useState(0);
   const [runElapsedMs, setRunElapsedMs] = useState(0);
   const [introVisible, setIntroVisible] = useState(showPlayIntro);
@@ -109,9 +104,6 @@ export function PlayGame({
     setAnswer("");
     setChoices(undefined);
     setResult(undefined);
-    setReportOpen(false);
-    setReportDetails("");
-    setReportStatus(undefined);
     submitting.current = false;
     try {
       const next = await api<QuestionPresentation>(
@@ -188,7 +180,7 @@ export function PlayGame({
   );
 
   useEnterToAdvance(
-    phase === "result" && Boolean(sessionId) && !reportOpen,
+    phase === "result" && Boolean(sessionId),
     () => (sessionId ? loadNext(sessionId) : undefined),
   );
 
@@ -257,24 +249,6 @@ export function PlayGame({
           : "Could not start the question timer",
       );
       markingMediaReady.current = false;
-    }
-  }
-
-  async function submitReport() {
-    if (!presentation || reportDetails.trim().length < 3) return;
-    try {
-      await api<{ id: string }>(
-        `/api/play/presentations/${presentation.id}/report`,
-        { category: reportCategory, details: reportDetails },
-      );
-      setReportStatus("Thanks — your report is in the review queue.");
-      setReportOpen(false);
-    } catch (requestError) {
-      setReportStatus(
-        requestError instanceof Error
-          ? requestError.message
-          : "Could not submit the report",
-      );
     }
   }
 
@@ -485,18 +459,42 @@ export function PlayGame({
               <p className="text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
                 Question
               </p>
-              <p className="mt-2 text-sm font-bold leading-6 sm:text-base">
+              <p className="mt-2 text-lg font-black leading-7 sm:text-xl sm:leading-8">
                 {presentation.prompt}
               </p>
             </div>
-            <p className="mt-6 text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
-              Correct answer
-            </p>
-            <h2 className="mt-2 text-3xl font-black sm:text-4xl">
-              {result.canonicalAnswer}
-            </h2>
+            <div className="mt-6 grid gap-3 md:grid-cols-2">
+              <div
+                className={`rounded-2xl p-4 sm:p-5 ${
+                  result.correct
+                    ? "bg-emerald-300/[.06]"
+                    : "bg-rose-950/30"
+                }`}
+              >
+                <p className="text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
+                  Your answer
+                </p>
+                <p
+                  className={`mt-2 text-lg font-black ${
+                    result.correct ? "text-emerald-100" : "text-rose-100"
+                  }`}
+                >
+                  {result.timedOut
+                    ? "No answer — time expired"
+                    : result.submittedAnswer.trim() || "No answer submitted"}
+                </p>
+              </div>
+              <div className="rounded-2xl bg-emerald-300/[.06] p-4 sm:p-5">
+                <p className="text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
+                  Correct answer
+                </p>
+                <p className="mt-2 text-lg font-black text-emerald-100">
+                  {result.canonicalAnswer}
+                </p>
+              </div>
+            </div>
             <div className="mt-6 border-t border-white/10 pt-6">
-              <p className="text-lg font-bold leading-8">
+              <p className="text-base font-bold leading-7">
                 {result.explanation}
               </p>
               <p className="mt-4 leading-7 text-[var(--muted)]">
@@ -556,51 +554,7 @@ export function PlayGame({
               </div>
             ) : null}
             <div className="mt-5 border-t border-white/10 pt-5">
-              <button
-                className="text-sm font-bold text-[var(--muted)] underline decoration-white/20 underline-offset-4 hover:text-white"
-                onClick={() => setReportOpen((open) => !open)}
-                type="button"
-              >
-                Report a problem with this question
-              </button>
-              {reportOpen ? (
-                <div className="mt-4 grid gap-3 rounded-2xl bg-white/5 p-4">
-                  <select
-                    aria-label="Report category"
-                    className="min-h-11 rounded-xl border border-white/15 bg-[var(--surface)] px-3"
-                    onChange={(event) =>
-                      setReportCategory(
-                        event.target.value as typeof reportCategory,
-                      )
-                    }
-                    value={reportCategory}
-                  >
-                    <option value="answer">Answer</option>
-                    <option value="wording">Wording</option>
-                    <option value="source">Source</option>
-                    <option value="media">Media</option>
-                    <option value="other">Other</option>
-                  </select>
-                  <textarea
-                    className="min-h-24 rounded-xl border border-white/15 bg-slate-950/45 p-3"
-                    maxLength={1000}
-                    onChange={(event) => setReportDetails(event.target.value)}
-                    placeholder="What should our reviewers check?"
-                    value={reportDetails}
-                  />
-                  <Button
-                    disabled={reportDetails.trim().length < 3}
-                    onClick={submitReport}
-                  >
-                    Send report
-                  </Button>
-                </div>
-              ) : null}
-              {reportStatus ? (
-                <p className="mt-3 text-sm text-[var(--muted)]" role="status">
-                  {reportStatus}
-                </p>
-              ) : null}
+              <QuestionFeedback attemptId={result.attemptId} />
             </div>
           </div>
         </Card>

@@ -41,6 +41,8 @@ describe("AssessmentGame", () => {
         new Response(
           JSON.stringify({
             correct: true,
+            submittedAnswer: "Au",
+            timedOut: false,
             canonicalAnswer: "Au",
             explanation: "Au comes from the Latin aurum.",
             details: "",
@@ -89,6 +91,8 @@ describe("AssessmentGame", () => {
       "Au{Enter}",
     );
     expect(await screen.findByText("Correct")).toBeVisible();
+    expect(screen.getByText("Your answer")).toBeVisible();
+    expect(screen.getAllByText("Au")).toHaveLength(2);
     expect(fetchMock).toHaveBeenNthCalledWith(
       1,
       "/api/assessments",
@@ -167,6 +171,8 @@ describe("AssessmentGame", () => {
         new Response(
           JSON.stringify({
             correct: true,
+            submittedAnswer: "Au",
+            timedOut: false,
             canonicalAnswer: "Au",
             explanation: "Au comes from the Latin aurum.",
             details: "",

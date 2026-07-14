@@ -58,4 +58,35 @@ copy.
 
 The checked-in beta catalog lives in `content/catalog/questions` with exact targets in `content/catalog/manifest.json`. Validate it with `npm run catalog:validate`, publish it idempotently with `npm run catalog:load`, and verify database totals with `npm run catalog:verify`. A changed item with the same `catalogKey` creates a new immutable version; do not change a key merely to correct wording or an answer.
 
-Generated source records accelerate beta playtesting but are not a substitute for editorial approval. Treat in-game reports and playtest notes as a review queue, verify corrections against an authoritative source, and retire genuinely ambiguous or incorrect questions instead of silently changing their historical attempts.
+Generated source records accelerate beta playtesting but are not a substitute for editorial approval. Treat in-game feedback and legacy reports as a review queue, verify corrections against an authoritative source, and retire genuinely ambiguous or incorrect questions instead of silently changing their historical attempts.
+
+## Player feedback and editorial review
+
+Players can leave a lightweight thumbs-up or thumbs-down reaction after an
+answer. A thumbs-down may include structured reasons and a short comment. The
+same control is available later on the player's Review page, so an initial
+reaction can be added or changed without interrupting play.
+
+System administrators review these signals at **Admin > Question quality**.
+The screen provides a pack-by-pack progress summary and focused queues for
+unreviewed, newly player-flagged, and needs-revision questions. **All** retains
+access to approved and rejected review history without separate filters.
+Editorial decisions apply to the exact immutable question version;
+a revised published version returns to the unreviewed queue. Saving any
+editorial decision also acknowledges the player feedback currently displayed,
+while a later thumbs-down flags the question again.
+
+Use **Export action items** to download a privacy-limited JSON snapshot for an
+offline editorial or Codex pass. It contains only questions marked **Needs
+revision** or carrying unresolved player flags, including flags received after
+an earlier review. For those questions it includes the published content,
+catalog key, aggregate answer context, player reasons and comments, formal
+reports, and the system administrator's verdict and notes. It omits player
+names, email addresses, typed answers, and production credentials.
+
+For a Codex-assisted update, attach that JSON file in the Mindspan task (or
+place it in the working directory and provide its path). Codex can map each
+`catalogKey` back to the checked-in catalog, propose or apply the requested
+changes, then run catalog validation. Loading an approved correction creates a
+new immutable question version while preserving historical attempts and the
+original review record.

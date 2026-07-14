@@ -139,6 +139,8 @@ describe("PlayGame choice submission", () => {
         new Response(
           JSON.stringify({
             correct: true,
+            submittedAnswer: "Au",
+            timedOut: false,
             canonicalAnswer: "Au",
             explanation: "Au comes from the Latin aurum.",
             details: "Gold is a chemical element.",
@@ -189,6 +191,8 @@ describe("PlayGame choice submission", () => {
     expect(
       screen.getByText("What is the chemical symbol for gold?"),
     ).toBeVisible();
+    expect(screen.getByText("Your answer")).toBeVisible();
+    expect(screen.getAllByText("Au")).toHaveLength(2);
     expect(screen.getByTestId("question-pack")).toHaveTextContent(
       "Science & Nature Starter",
     );
@@ -262,6 +266,8 @@ describe("PlayGame choice submission", () => {
         new Response(
           JSON.stringify({
             correct: true,
+            submittedAnswer: "The Moon",
+            timedOut: false,
             canonicalAnswer: "The Moon",
             explanation: "The Moon is a natural satellite.",
             details: "It orbits Earth.",

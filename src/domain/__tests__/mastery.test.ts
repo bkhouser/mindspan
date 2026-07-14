@@ -1,17 +1,30 @@
 import { describe, expect, it } from "vitest";
-import { applyMasteryAttempt, proficiency, topicMastery, wilsonLowerBound, type MasteryState } from "../mastery";
+import { accuracy, applyMasteryAttempt, skillEstimate, topicMastery, wilsonLowerBound, type MasteryState } from "../mastery";
 
 const initial: MasteryState = { topicId: "science", weightedSuccesses: 0, weightedEvidence: 0, uniqueQuestions: 0, correctAttempts: 0, totalAttempts: 0, assistedCorrectAttempts: 0 };
 
 describe("mastery", () => {
-  it("starts at a neutral proficiency", () => expect(proficiency(initial)).toBe(0.5));
+  it("starts displayed proficiency at zero", () => {
+    expect(accuracy(initial)).toBe(0);
+    expect(topicMastery(initial).proficiency).toBe(0);
+  });
+
+  it("displays the literal correct-answer percentage", () => {
+    const state = { ...initial, correctAttempts: 1, totalAttempts: 2 };
+    expect(accuracy(state)).toBe(0.5);
+    expect(topicMastery(state).proficiency).toBe(0.5);
+  });
+
+  it("keeps a neutral estimate for internal game adaptation", () => {
+    expect(skillEstimate(initial)).toBe(0.5);
+  });
 
   it("never displays proficiency outside zero to one", () => {
     expect(
-      proficiency({ weightedSuccesses: 12, weightedEvidence: 2 }),
+      skillEstimate({ weightedSuccesses: 12, weightedEvidence: 2 }),
     ).toBe(1);
     expect(
-      proficiency({ weightedSuccesses: -12, weightedEvidence: 2 }),
+      skillEstimate({ weightedSuccesses: -12, weightedEvidence: 2 }),
     ).toBe(0);
   });
 

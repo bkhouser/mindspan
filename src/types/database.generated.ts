@@ -1009,6 +1009,118 @@ export type Database = {
           },
         ]
       }
+      question_editorial_reviews: {
+        Row: {
+          created_at: string
+          notes: string | null
+          player_feedback_reviewed_at: string | null
+          question_version_id: string
+          reviewed_by: string
+          updated_at: string
+          verdict: string
+        }
+        Insert: {
+          created_at?: string
+          notes?: string | null
+          player_feedback_reviewed_at?: string | null
+          question_version_id: string
+          reviewed_by: string
+          updated_at?: string
+          verdict: string
+        }
+        Update: {
+          created_at?: string
+          notes?: string | null
+          player_feedback_reviewed_at?: string | null
+          question_version_id?: string
+          reviewed_by?: string
+          updated_at?: string
+          verdict?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_editorial_reviews_question_version_id_fkey"
+            columns: ["question_version_id"]
+            isOneToOne: true
+            referencedRelation: "question_versions"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "question_editorial_reviews_reviewed_by_fkey"
+            columns: ["reviewed_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      question_feedback: {
+        Row: {
+          answer_correct: boolean
+          assisted: boolean
+          attempt_id: string
+          comment: string | null
+          created_at: string
+          id: string
+          question_version_id: string
+          reasons: string[]
+          sentiment: string
+          timed_out: boolean
+          updated_at: string
+          user_id: string
+        }
+        Insert: {
+          answer_correct: boolean
+          assisted: boolean
+          attempt_id: string
+          comment?: string | null
+          created_at?: string
+          id?: string
+          question_version_id: string
+          reasons?: string[]
+          sentiment: string
+          timed_out: boolean
+          updated_at?: string
+          user_id: string
+        }
+        Update: {
+          answer_correct?: boolean
+          assisted?: boolean
+          attempt_id?: string
+          comment?: string | null
+          created_at?: string
+          id?: string
+          question_version_id?: string
+          reasons?: string[]
+          sentiment?: string
+          timed_out?: boolean
+          updated_at?: string
+          user_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_feedback_attempt_id_fkey"
+            columns: ["attempt_id"]
+            isOneToOne: false
+            referencedRelation: "attempts"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "question_feedback_question_version_id_fkey"
+            columns: ["question_version_id"]
+            isOneToOne: false
+            referencedRelation: "question_versions"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "question_feedback_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       question_media: {
         Row: {
           media_asset_id: string
@@ -1773,6 +1885,20 @@ export type Database = {
         Returns: boolean
       }
       is_sys_admin: { Args: { check_user?: string }; Returns: boolean }
+      question_quality_pack_summary_v1: {
+        Args: never
+        Returns: {
+          approved_questions: number
+          flagged_questions: number
+          needs_revision_questions: number
+          pack_id: string
+          pack_name: string
+          pack_slug: string
+          rejected_questions: number
+          total_questions: number
+          unreviewed_questions: number
+        }[]
+      }
       record_daily_login_v1: { Args: never; Returns: boolean }
       redeem_invite_for_user: {
         Args: { raw_token: string; target_user: string }

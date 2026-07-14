@@ -23,13 +23,23 @@ export interface MasteryAttempt {
   isUnique: boolean;
 }
 
-export function proficiency(state: Pick<MasteryState, "weightedSuccesses" | "weightedEvidence">) {
+export function skillEstimate(state: Pick<MasteryState, "weightedSuccesses" | "weightedEvidence">) {
   return Math.min(
     1,
     Math.max(
       0,
       (state.weightedSuccesses + 2) / (state.weightedEvidence + 4),
     ),
+  );
+}
+
+export function accuracy(
+  state: Pick<MasteryState, "correctAttempts" | "totalAttempts">,
+) {
+  if (state.totalAttempts <= 0) return 0;
+  return Math.min(
+    1,
+    Math.max(0, state.correctAttempts / state.totalAttempts),
   );
 }
 
@@ -71,11 +81,12 @@ export function applyMasteryAttempt(state: MasteryState, attempt: MasteryAttempt
 
 export function topicMastery(state: MasteryState): TopicMastery {
   const rankScore = state.uniqueQuestions >= 5 ? wilsonLowerBound(state.weightedSuccesses, state.weightedEvidence) : null;
+  const rawAccuracy = accuracy(state);
   return {
     topicId: state.topicId,
-    proficiency: proficiency(state),
+    proficiency: rawAccuracy,
     rankScore,
-    accuracy: state.totalAttempts ? state.correctAttempts / state.totalAttempts : 0,
+    accuracy: rawAccuracy,
     assistedRate: state.correctAttempts ? state.assistedCorrectAttempts / state.correctAttempts : 0,
     weightedSuccesses: state.weightedSuccesses,
     weightedEvidence: state.weightedEvidence,

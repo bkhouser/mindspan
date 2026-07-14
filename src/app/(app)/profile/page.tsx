@@ -2,7 +2,7 @@ import { Award, Brain, Package, Sparkles } from "lucide-react";
 import { InfoTooltip } from "@/components/info-tooltip";
 import { Card } from "@/components/ui/card";
 import {
-  proficiency,
+  accuracy,
   topicMastery,
   type MasteryState,
 } from "@/domain/mastery";
@@ -75,9 +75,9 @@ export default async function ProfilePage({
           id: row.subtopic_id,
           name: subtopic?.name ?? "Subtopic",
           topicId: subtopic?.topic_id ?? "",
-          proficiency: proficiency({
-            weightedSuccesses: Number(row.weighted_successes),
-            weightedEvidence: Number(row.weighted_evidence),
+          proficiency: accuracy({
+            correctAttempts: row.correct_attempts,
+            totalAttempts: row.total_attempts,
           }),
           evidence: Number(row.weighted_evidence),
           uniqueQuestions: row.unique_questions,
@@ -194,9 +194,9 @@ export default async function ProfilePage({
         <Card className="p-6">
           <h2 className="text-xl font-black">Topic mastery</h2>
           <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
+            Percentages are your correct answers divided by total answers.
             Subtopic counts are distinct questions carrying that label;
-            repeated attempts do not increase them. Overlapping labels may
-            both gain evidence from one answer.
+            repeated attempts do not increase them.
           </p>
           <div className="mt-5 space-y-5">
             {mastery.map(({ value, topic, points, subtopics }) => (

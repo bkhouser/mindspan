@@ -15,11 +15,10 @@ export default async function HomePage() {
     supabase
       .from("user_topic_mastery")
       .select(
-        "weighted_successes, weighted_evidence, lifetime_points, unique_questions, topics(name)",
+        "correct_attempts, total_attempts, lifetime_points, unique_questions, topics(name)",
       )
       .eq("user_id", user.id)
-      .order("lifetime_points", { ascending: false })
-      .limit(4),
+      .order("lifetime_points", { ascending: false }),
     supabase.from("insight_ledger").select("amount").eq("user_id", user.id),
     supabase
       .from("attempts")
@@ -135,10 +134,20 @@ export default async function HomePage() {
           <h2 className="text-lg font-black">Strongest topics</h2>
           <div className="mt-5 space-y-4">
             {mastery?.length ? (
-              mastery.map((row, index) => {
-                const p =
-                  (Number(row.weighted_successes) + 2) /
-                  (Number(row.weighted_evidence) + 4);
+              mastery
+                .map((row) => ({
+                  row,
+                  proficiency: row.total_attempts
+                    ? row.correct_attempts / row.total_attempts
+                    : 0,
+                }))
+                .sort(
+                  (left, right) =>
+                    right.proficiency - left.proficiency ||
+                    right.row.total_attempts - left.row.total_attempts,
+                )
+                .slice(0, 4)
+                .map(({ row, proficiency: p }, index) => {
                 const topic = Array.isArray(row.topics)
                   ? row.topics[0]
                   : row.topics;
@@ -156,7 +165,7 @@ export default async function HomePage() {
                     </div>
                   </div>
                 );
-              })
+                })
             ) : (
               <p className="text-sm leading-6 text-[var(--muted)]">
                 Play your first questions to reveal the shape of your knowledge.

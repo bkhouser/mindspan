@@ -49,7 +49,10 @@ export interface ChoiceReveal {
 }
 
 export interface AttemptResult {
+  attemptId: string;
   correct: boolean;
+  submittedAnswer: string;
+  timedOut: boolean;
   canonicalAnswer: string;
   explanation: string;
   details: string;

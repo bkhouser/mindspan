@@ -240,7 +240,34 @@ export function AssessmentGame({ immediateChoiceSubmit = false }: Props) {
             )}
             <b>{result.correct ? "Correct" : "The answer"}</b>
           </div>
-          <h2 className="mt-5 text-3xl font-black">{result.canonicalAnswer}</h2>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2">
+            <div
+              className={`rounded-2xl p-4 ${
+                result.correct ? "bg-emerald-300/[.06]" : "bg-rose-950/30"
+              }`}
+            >
+              <p className="text-xs font-black uppercase tracking-[.14em] text-[var(--muted)]">
+                Your answer
+              </p>
+              <p
+                className={`mt-2 font-bold ${
+                  result.correct ? "text-emerald-100" : "text-rose-100"
+                }`}
+              >
+                {result.timedOut
+                  ? "No answer — time expired"
+                  : result.submittedAnswer.trim() || "No answer submitted"}
+              </p>
+            </div>
+            <div className="rounded-2xl bg-emerald-300/[.06] p-4">
+              <p className="text-xs font-black uppercase tracking-[.14em] text-[var(--muted)]">
+                Correct answer
+              </p>
+              <p className="mt-2 font-bold text-emerald-100">
+                {result.canonicalAnswer}
+              </p>
+            </div>
+          </div>
           <p className="mt-3 leading-7 text-[var(--muted)]">
             {result.explanation}
           </p>
