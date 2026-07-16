@@ -1,5 +1,7 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { act, cleanup, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { hydrateRoot } from "react-dom/client";
+import { renderToString } from "react-dom/server";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { dismissPlayIntroduction } from "./actions";
 import { PlayGame } from "./play-game";
@@ -13,6 +15,34 @@ describe("PlayGame choice submission", () => {
     cleanup();
     vi.clearAllMocks();
     vi.restoreAllMocks();
+  });
+
+  it("keeps setup controls enabled while server-rendered markup hydrates", async () => {
+    const container = document.createElement("div");
+    document.body.append(container);
+    const game = (
+      <PlayGame
+        immediateChoiceSubmit={false}
+        initialMode="mixed"
+        packs={[]}
+        showPlayIntro={false}
+        standardTimerSeconds={30}
+        topics={[]}
+      />
+    );
+    container.innerHTML = renderToString(game);
+    expect(
+      container.querySelector<HTMLButtonElement>("button"),
+    ).toBeEnabled();
+
+    const root = hydrateRoot(container, game);
+    await waitFor(() =>
+      expect(
+        container.querySelector<HTMLButtonElement>("button"),
+      ).toBeEnabled(),
+    );
+    await act(() => root.unmount());
+    container.remove();
   });
 
   it("starts an unlocked pack directly when opened from the packs page", async () => {
@@ -116,14 +146,20 @@ describe("PlayGame choice submission", () => {
     );
     const input = await screen.findByPlaceholderText("Type your answer");
     await userEvent.type(input, "Paris");
-    await userEvent.click(screen.getByRole("button", { name: "Lock in answer" }));
+    await userEvent.click(
+      screen.getByRole("button", { name: "Lock in answer" }),
+    );
 
-    expect(screen.getByText("Answer locked. Checking it now…")).toBeVisible();
+    expect(
+      screen.getByText("Answer submitted. Checking it now…"),
+    ).toBeVisible();
     expect(input).toBeDisabled();
     expect(
       screen.getByRole("button", { name: "Checking answer…" }),
     ).toBeDisabled();
-    expect(screen.getByText(/Locked at \d+s · \d+ pts/)).toBeVisible();
+    expect(
+      screen.getByText(/Submitted with \d+s left · \d+ pts if correct/),
+    ).toBeVisible();
   });
 
   it("explains scoring and lets the player turn off the introduction", async () => {
@@ -221,6 +257,11 @@ describe("PlayGame choice submission", () => {
           }),
           { status: 200 },
         ),
+      )
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ id: "presentation-next" }), {
+          status: 200,
+        }),
       );
 
     render(
@@ -338,6 +379,33 @@ describe("PlayGame choice submission", () => {
           }),
           { status: 200 },
         ),
+      )
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ id: "presentation-next" }), {
+          status: 200,
+        }),
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            id: "presentation-next",
+            prompt: "What is the largest ocean?",
+            answerMode: "recall",
+            topic: {
+              id: "topic-2",
+              slug: "geography",
+              name: "Geography",
+            },
+            difficulty: 1,
+            media: null,
+            timeLimitSeconds: 30,
+            scoringTimeLimitSeconds: 30,
+            startingPoints: 100,
+            expiresAt: new Date(Date.now() + 30_000).toISOString(),
+            mediaLoadDeadline: null,
+          }),
+          { status: 200 },
+        ),
       );
 
     render(
@@ -361,13 +429,30 @@ describe("PlayGame choice submission", () => {
     await userEvent.click(screen.getByRole("button", { name: "The Moon" }));
 
     expect(await screen.findByText("That’s right")).toBeVisible();
-    expect(fetchMock).toHaveBeenCalledTimes(3);
+    expect(fetchMock).toHaveBeenCalledTimes(4);
     expect(fetchMock).toHaveBeenNthCalledWith(
       3,
       "/api/play/presentations/presentation-required/answer",
       expect.objectContaining({
         body: expect.stringContaining('"answer":"The Moon"'),
       }),
+    );
+    expect(fetchMock).toHaveBeenNthCalledWith(
+      4,
+      "/api/play/sessions/session-1/next",
+      expect.objectContaining({
+        body: JSON.stringify({ prepareOnly: true }),
+      }),
+    );
+
+    await userEvent.click(
+      screen.getByRole("button", { name: /Next question/ }),
+    );
+    expect(await screen.findByText("What is the largest ocean?")).toBeVisible();
+    expect(fetchMock).toHaveBeenNthCalledWith(
+      5,
+      "/api/play/presentations/presentation-next/activate",
+      expect.objectContaining({ body: JSON.stringify({}) }),
     );
   });
 });

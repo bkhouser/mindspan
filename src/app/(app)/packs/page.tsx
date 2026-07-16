@@ -1,7 +1,15 @@
 import Link from "next/link";
-import { LockKeyhole, PackageOpen, Play, Sparkles } from "lucide-react";
+import {
+  ClipboardCheck,
+  LockKeyhole,
+  PackageOpen,
+  Play,
+  Sparkles,
+} from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
+import { PackProgressBar } from "@/components/pack-progress-bar";
+import { canReviewQuestions } from "@/domain/authorization";
 import {
   calculatePackAverageDifficulty,
   calculatePackProgress,
@@ -37,8 +45,9 @@ function AverageDifficulty({
 }
 
 export default async function PacksPage() {
-  const { user, supabase } = await requireUser();
+  const { user, profile, supabase } = await requireUser();
   const now = new Date().toISOString();
+  const hasQuestionReviewAccess = canReviewQuestions(profile.role);
 
   async function loadAllPackQuestions() {
     return fetchAllPages((from, to) =>
@@ -141,7 +150,7 @@ export default async function PacksPage() {
         </div>
         <Card className="mt-4 overflow-hidden">
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[900px] text-sm">
+            <table className="w-full min-w-[860px] text-sm">
               <caption className="sr-only">
                 Progress through unlocked question packs
               </caption>
@@ -153,17 +162,11 @@ export default async function PacksPage() {
                   <th className="px-4 py-3" scope="col">
                     Topic
                   </th>
-                  <th className="px-4 py-3 text-center" scope="col">
-                    Questions
+                  <th className="min-w-72 px-5 py-3" scope="col">
+                    Progress
                   </th>
                   <th className="px-4 py-3 text-center" scope="col">
                     Avg. difficulty
-                  </th>
-                  <th className="px-4 py-3 text-center" scope="col">
-                    Answered
-                  </th>
-                  <th className="px-5 py-3 text-center" scope="col">
-                    Correct
                   </th>
                   <th className="px-5 py-3 text-right" scope="col">
                     <span className="sr-only">Actions</span>
@@ -195,33 +198,43 @@ export default async function PacksPage() {
                           {topic?.name ?? "Mixed"}
                         </span>
                       </td>
-                      <td className="px-4 py-4 text-center font-black">
-                        {progress.total}
+                      <td className="px-5 py-4">
+                        <PackProgressBar
+                          answered={progress.answered}
+                          correct={progress.correct}
+                          total={progress.total}
+                        />
                       </td>
                       <td className="px-4 py-4 text-center">
                         <AverageDifficulty
                           value={averageDifficultyByPack.get(pack.id) ?? null}
                         />
                       </td>
-                      <td className="px-4 py-4 text-center font-black text-sky-100">
-                        {progress.answered}/{progress.total}
-                      </td>
-                      <td className="px-5 py-4 text-center font-black text-emerald-200">
-                        {progress.correct}
-                      </td>
                       <td className="px-5 py-4 text-right">
-                        <Link
-                          aria-label={`Play ${pack.name}`}
-                          className="inline-flex min-h-10 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[var(--brand)] px-4 py-2 font-black text-slate-950 transition hover:bg-[var(--brand-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
-                          href={`/play?mode=pack&packId=${encodeURIComponent(pack.id)}&start=1`}
-                        >
-                          <Play
-                            aria-hidden="true"
-                            fill="currentColor"
-                            size={14}
-                          />
-                          Play pack
-                        </Link>
+                        <div className="flex flex-wrap justify-end gap-2">
+                          {hasQuestionReviewAccess ? (
+                            <Link
+                              aria-label={`Review ${pack.name}`}
+                              className="inline-flex min-h-10 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-white/10 px-4 py-2 font-black text-white transition hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
+                              href={`/admin/question-quality?pack=${encodeURIComponent(pack.id)}&view=unreviewed`}
+                            >
+                              <ClipboardCheck aria-hidden="true" size={15} />
+                              Review pack
+                            </Link>
+                          ) : null}
+                          <Link
+                            aria-label={`Play ${pack.name}`}
+                            className="inline-flex min-h-10 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[var(--brand)] px-4 py-2 font-black text-slate-950 transition hover:bg-[var(--brand-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
+                            href={`/play?mode=pack&packId=${encodeURIComponent(pack.id)}&start=1`}
+                          >
+                            <Play
+                              aria-hidden="true"
+                              fill="currentColor"
+                              size={14}
+                            />
+                            Play pack
+                          </Link>
+                        </div>
                       </td>
                     </tr>
                   );
@@ -276,7 +289,20 @@ export default async function PacksPage() {
                     </p>
                     <AverageDifficulty showValue value={averageDifficulty} />
                   </div>
-                  <form action={unlockPack} className="mt-6">
+                  {hasQuestionReviewAccess ? (
+                    <Link
+                      aria-label={`Review ${pack.name}`}
+                      className="mt-6 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 font-black text-white transition hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)]"
+                      href={`/admin/question-quality?pack=${encodeURIComponent(pack.id)}&view=unreviewed`}
+                    >
+                      <ClipboardCheck aria-hidden="true" size={16} />
+                      Review pack
+                    </Link>
+                  ) : null}
+                  <form
+                    action={unlockPack}
+                    className={hasQuestionReviewAccess ? "mt-3" : "mt-6"}
+                  >
                     <input name="packId" type="hidden" value={pack.id} />
                     <button
                       className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 font-black disabled:opacity-40"

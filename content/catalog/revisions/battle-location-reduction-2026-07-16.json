@@ -1,0 +1,311 @@
+{
+  "history-starter.battle-location.battle-of-the-assunpink-creek": {
+    "subtopics": ["Ancient Civilizations"],
+    "prompt": "Which civilization built Machu Picchu?",
+    "canonicalAnswer": "Inca civilization",
+    "aliases": ["Inca", "Inca Empire", "the Inca"],
+    "distractors": ["Maya civilization", "Aztec Empire", "Olmec civilization"],
+    "explanation": "The Inca built Machu Picchu in the Andes during the 15th century.",
+    "details": "Machu Picchu was constructed during the height of the Inca Empire, probably in the reign of Pachacuti. Its stone buildings and terraces stand high above the Urubamba River in present-day Peru.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Machu-Picchu"
+    }
+  },
+  "history-starter.battle-location.battle-of-borodino": {
+    "subtopics": ["United States History"],
+    "prompt": "Which United States founding document begins with the words 'We the People'?",
+    "canonicalAnswer": "United States Constitution",
+    "aliases": ["U.S. Constitution", "Constitution"],
+    "distractors": [
+      "Declaration of Independence",
+      "Bill of Rights",
+      "Articles of Confederation"
+    ],
+    "explanation": "The preamble to the United States Constitution begins with 'We the People.'",
+    "details": "Delegates signed the Constitution in Philadelphia in 1787. Its opening words emphasize that the authority of the new federal government comes from the people rather than from the individual states.",
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript"
+    }
+  },
+  "history-starter.battle-location.battle-of-the-ardennes": {
+    "subtopics": ["African History"],
+    "prompt": "Mansa Musa ruled which West African empire?",
+    "canonicalAnswer": "Mali Empire",
+    "aliases": ["Mali", "Empire of Mali"],
+    "distractors": ["Songhai Empire", "Ghana Empire", "Benin Empire"],
+    "explanation": "Mansa Musa was the 14th-century ruler of the Mali Empire.",
+    "details": "Mansa Musa became famous for the extraordinary wealth displayed during his pilgrimage to Mecca. Under his rule, Mali controlled important trans-Saharan trade routes and cities including Timbuktu.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Musa-I-of-Mali"
+    }
+  },
+  "history-starter.battle-location.battle-of-poitiers": {
+    "subtopics": ["Medieval History"],
+    "prompt": "Which English king agreed to Magna Carta in 1215?",
+    "canonicalAnswer": "King John",
+    "aliases": ["John", "John of England"],
+    "distractors": ["Henry II", "Richard I", "Edward I"],
+    "explanation": "King John agreed to Magna Carta at Runnymede in 1215.",
+    "details": "Rebel barons forced John to accept limits on royal power. Although the original settlement quickly failed, later reissues of Magna Carta became enduring symbols of lawful government and limits on authority.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Magna-Carta"
+    }
+  },
+  "history-starter.battle-location.battle-of-kelja": {
+    "subtopics": ["Technology History"],
+    "prompt": "Johannes Gutenberg is most closely associated with which invention in Europe?",
+    "canonicalAnswer": "Movable-type printing press",
+    "aliases": ["Printing press", "Movable type", "Movable-type printing"],
+    "distractors": ["Steam engine", "Telescope", "Spinning jenny"],
+    "explanation": "Gutenberg developed a practical movable-type printing system in 15th-century Europe.",
+    "details": "Movable type existed earlier in East Asia, but Gutenberg combined metal type, oil-based ink, and a press into a system suited to large-scale European book production. The Gutenberg Bible demonstrated its potential.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Johannes-Gutenberg"
+    }
+  },
+  "history-starter.battle-location.battle-of-lake-trasimene": {
+    "subtopics": ["World War I"],
+    "prompt": "Which treaty set the peace terms imposed on Germany after World War I?",
+    "canonicalAnswer": "Treaty of Versailles",
+    "aliases": ["Versailles Treaty", "Versailles"],
+    "distractors": [
+      "Treaty of Brest-Litovsk",
+      "Treaty of Trianon",
+      "Treaty of Sevres"
+    ],
+    "explanation": "The Treaty of Versailles established the postwar settlement between Germany and the Allied powers.",
+    "details": "Signed on June 28, 1919, the treaty required Germany to accept territorial losses, military restrictions, and reparations. Other treaties handled the settlements with Germany's former allies.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Treaty-of-Versailles-1919"
+    }
+  },
+  "history-starter.battle-location.battle-of-xiaoyao-ford": {
+    "subtopics": ["Chinese History"],
+    "prompt": "Most of the Great Wall sections visible today were built during which Chinese dynasty?",
+    "canonicalAnswer": "Ming dynasty",
+    "aliases": ["Ming"],
+    "distractors": ["Qin dynasty", "Han dynasty", "Tang dynasty"],
+    "explanation": "The best-preserved and most familiar Great Wall sections date largely from the Ming dynasty.",
+    "details": "Earlier Chinese states and dynasties built frontier walls, but the Ming rulers greatly expanded and reinforced the system between the 14th and 17th centuries, often using brick and stone.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Great-Wall-of-China"
+    }
+  },
+  "history-starter.battle-location.battle-of-nola": {
+    "subtopics": ["Medieval History"],
+    "prompt": "What name is commonly given to the pandemic that devastated Europe in the mid-14th century?",
+    "canonicalAnswer": "Black Death",
+    "aliases": ["The Black Death", "Great Pestilence"],
+    "distractors": ["Great Famine", "Spanish flu", "Plague of Justinian"],
+    "explanation": "The Black Death swept through Europe from 1347 to 1351 and killed a vast share of its population.",
+    "details": "The pandemic was principally caused by the bacterium Yersinia pestis and spread through interconnected trade routes. Its demographic, economic, religious, and social effects lasted for generations.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Black-Death"
+    }
+  },
+  "history-starter.battle-location.battles-of-khalkhin-gol": {
+    "subtopics": ["African History"],
+    "prompt": "Which city became a celebrated center of trade and Islamic learning in the Mali Empire?",
+    "canonicalAnswer": "Timbuktu",
+    "aliases": ["Tombouctou"],
+    "distractors": ["Gao", "Kano", "Benin City"],
+    "explanation": "Timbuktu became an important commercial and intellectual center under the Mali Empire.",
+    "details": "Located near the Niger River and trans-Saharan trade routes, Timbuktu flourished through commerce in goods including salt and gold. Its mosques and manuscript culture made it a major center of Islamic scholarship.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Timbuktu-Mali"
+    }
+  },
+  "history-starter.battle-location.battle-of-shizugatake": {
+    "subtopics": ["Byzantine History"],
+    "prompt": "Which Byzantine emperor commissioned the great 6th-century church of Hagia Sophia?",
+    "canonicalAnswer": "Justinian I",
+    "aliases": ["Justinian", "Justinian the Great"],
+    "distractors": ["Constantine I", "Theodosius I", "Heraclius"],
+    "explanation": "Emperor Justinian I commissioned the present Hagia Sophia after an earlier church was destroyed.",
+    "details": "Architects Anthemius of Tralles and Isidore of Miletus designed the immense domed church, which was completed in 537. It became one of the defining monuments of Byzantine architecture.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Hagia-Sophia"
+    }
+  },
+  "history-starter.battle-location.second-battle-of-krithia": {
+    "subtopics": ["Age of Exploration"],
+    "prompt": "What 1494 treaty divided newly claimed lands outside Europe between Spain and Portugal?",
+    "canonicalAnswer": "Treaty of Tordesillas",
+    "aliases": ["Tordesillas Treaty", "Tordesillas"],
+    "distractors": [
+      "Treaty of Zaragoza",
+      "Treaty of Utrecht",
+      "Treaty of Alcacovas"
+    ],
+    "explanation": "The Treaty of Tordesillas divided overseas spheres of expansion between Spain and Portugal.",
+    "details": "The treaty moved a papally proposed dividing line west of the Cape Verde Islands. Its placement eventually helped Portugal claim Brazil while Spain claimed most of the Americas.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Treaty-of-Tordesillas"
+    }
+  },
+  "history-starter.battle-location.battle-of-queenston-heights": {
+    "subtopics": ["Roman History"],
+    "prompt": "Which Roman emperor joined Licinius in issuing the Edict of Milan in 313?",
+    "canonicalAnswer": "Constantine I",
+    "aliases": ["Constantine", "Constantine the Great"],
+    "distractors": ["Diocletian", "Theodosius I", "Justinian I"],
+    "explanation": "Constantine I and Licinius issued the Edict of Milan, establishing religious toleration in the Roman Empire.",
+    "details": "The agreement restored confiscated Christian property and proclaimed freedom of worship. It marked a decisive reversal after periods of imperial persecution of Christians.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Edict-of-Milan"
+    }
+  },
+  "history-starter.battle-location.battle-of-epehy": {
+    "subtopics": ["Empires & Civilizations"],
+    "prompt": "Which language served as an administrative lingua franca across much of the Achaemenid Persian Empire?",
+    "canonicalAnswer": "Imperial Aramaic",
+    "aliases": ["Aramaic", "Official Aramaic"],
+    "distractors": ["Classical Greek", "Old Persian", "Akkadian"],
+    "explanation": "Imperial Aramaic was widely used for administration and communication in the Achaemenid Empire.",
+    "details": "The empire contained many languages, and royal inscriptions could use Old Persian, Elamite, and Babylonian. Aramaic's broad use by scribes made it especially practical for correspondence across distant provinces.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Aramaic-language"
+    }
+  },
+  "history-starter.battle-location.battle-of-nicopolis": {
+    "subtopics": ["Islamic History"],
+    "prompt": "Which Abbasid caliph founded Baghdad in the 8th century?",
+    "canonicalAnswer": "Al-Mansur",
+    "aliases": ["Abu Ja'far al-Mansur"],
+    "distractors": ["Harun al-Rashid", "Al-Mamun", "Al-Mutawakkil"],
+    "explanation": "The Abbasid caliph al-Mansur founded Baghdad as his new capital in 762.",
+    "details": "Al-Mansur's original Round City stood near the Tigris River and became the political center of the Abbasid Caliphate. Baghdad soon developed into a major commercial and intellectual metropolis.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/al-Mansur-Abbasid-caliph"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-the-silarius-river": {
+    "subtopics": ["Revolutions"],
+    "prompt": "The storming of the Bastille marked the beginning of which revolution?",
+    "canonicalAnswer": "French Revolution",
+    "aliases": ["The French Revolution"],
+    "distractors": [
+      "American Revolution",
+      "Haitian Revolution",
+      "July Revolution"
+    ],
+    "explanation": "The storming of the Bastille on July 14, 1789, became a defining opening event of the French Revolution.",
+    "details": "A Parisian crowd seized the fortress and prison while seeking weapons and gunpowder. The event demonstrated the collapse of royal authority in Paris and became a lasting symbol of revolutionary change.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/French-Revolution"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-chandannagar": {
+    "subtopics": ["Diplomatic History"],
+    "prompt": "What 1648 peace settlement ended the Thirty Years' War?",
+    "canonicalAnswer": "Peace of Westphalia",
+    "aliases": ["Westphalian Peace", "Treaties of Westphalia", "Westphalia"],
+    "distractors": [
+      "Peace of Augsburg",
+      "Treaty of Utrecht",
+      "Congress of Vienna"
+    ],
+    "explanation": "The Peace of Westphalia ended the Thirty Years' War in 1648.",
+    "details": "The settlement consisted chiefly of treaties signed at Munster and Osnabruck. It reshaped the political and religious order of the Holy Roman Empire and recognized Dutch and Swiss independence.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Peace-of-Westphalia"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-chinsurah": {
+    "subtopics": ["Chinese History"],
+    "prompt": "Which Chinese dynasty was overthrown by the Revolution of 1911?",
+    "canonicalAnswer": "Qing dynasty",
+    "aliases": ["Qing", "Ch'ing dynasty", "Manchu dynasty"],
+    "distractors": ["Ming dynasty", "Yuan dynasty", "Song dynasty"],
+    "explanation": "The Revolution of 1911 brought down the Qing dynasty, China's last imperial dynasty.",
+    "details": "The Wuchang Uprising triggered a chain of provincial revolts. The child emperor Puyi abdicated in 1912, and the Republic of China was established after more than two millennia of imperial rule.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Chinese-Revolution-1911-1912"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-the-hydaspes": {
+    "subtopics": ["World War I"],
+    "prompt": "What event in Sarajevo provided the immediate trigger for World War I?",
+    "canonicalAnswer": "Assassination of Archduke Franz Ferdinand",
+    "aliases": [
+      "Assassination of Franz Ferdinand",
+      "Murder of Archduke Franz Ferdinand",
+      "Franz Ferdinand's assassination"
+    ],
+    "distractors": [
+      "Sinking of the Lusitania",
+      "Invasion of Poland",
+      "Zimmermann Telegram"
+    ],
+    "explanation": "The assassination of Archduke Franz Ferdinand in Sarajevo triggered the July Crisis that led to World War I.",
+    "details": "Gavrilo Princip killed the Austro-Hungarian heir and his wife Sophie on June 28, 1914. Austria-Hungary's response to Serbia activated a network of alliances and escalated into a European war.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/assassination-of-Franz-Ferdinand"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-the-granicus": {
+    "subtopics": ["Japanese History"],
+    "prompt": "What name is given to Japan's 1868 restoration of imperial rule?",
+    "canonicalAnswer": "Meiji Restoration",
+    "aliases": ["Meiji Ishin", "Meiji Revolution", "Meiji Renewal"],
+    "distractors": ["Taika Reform", "Satsuma Rebellion", "Showa Restoration"],
+    "explanation": "The Meiji Restoration returned formal political authority to the emperor in 1868.",
+    "details": "The restoration ended the Tokugawa shogunate and began a period of rapid centralization, industrialization, military reform, and selective adoption of Western institutions.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Meiji-Restoration"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-gerona": {
+    "subtopics": ["Cold War"],
+    "prompt": "Which Russian term named Mikhail Gorbachev's policy of greater openness in the Soviet Union?",
+    "canonicalAnswer": "Glasnost",
+    "aliases": ["glasnost policy"],
+    "distractors": ["Perestroika", "Détente", "Uskoreniye"],
+    "explanation": "Glasnost was Gorbachev's policy of greater openness and public discussion.",
+    "details": "Introduced alongside perestroika, glasnost loosened censorship and allowed wider discussion of political problems and Soviet history. The resulting public debate transformed political life in the late 1980s.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/glasnost"
+    }
+  },
+  "world-turning-points.battle-location.battle-of-cabezon": {
+    "subtopics": ["Economic History"],
+    "prompt": "What 1944 conference designed the postwar monetary framework that produced the IMF and World Bank?",
+    "canonicalAnswer": "Bretton Woods Conference",
+    "aliases": [
+      "Bretton Woods",
+      "United Nations Monetary and Financial Conference",
+      "Bretton Woods meeting"
+    ],
+    "distractors": [
+      "Yalta Conference",
+      "Bandung Conference",
+      "Potsdam Conference"
+    ],
+    "explanation": "The Bretton Woods Conference created the framework for the International Monetary Fund and World Bank.",
+    "details": "Delegates from 44 Allied nations met in New Hampshire in July 1944. They designed institutions and exchange-rate arrangements intended to support monetary cooperation and postwar reconstruction.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Bretton-Woods-Conference"
+    }
+  }
+}

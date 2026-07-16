@@ -1,16 +1,12 @@
 "use client";
 
-import {
-  forwardRef,
-  useImperativeHandle,
-  useRef,
-  useState,
-} from "react";
+import { forwardRef, useImperativeHandle, useRef, useState } from "react";
 
 export type QuestionFeedbackReason =
   | "incorrect_answer"
   | "should_have_been_accepted"
   | "wrong_topic"
+  | "answer_given_away"
   | "unclear"
   | "difficulty"
   | "weak_explanation"
@@ -40,6 +36,7 @@ const reasonLabels: Array<{
     label: "My answer should be accepted",
   },
   { value: "wrong_topic", label: "Wrong topic" },
+  { value: "answer_given_away", label: "Answer is given away" },
   { value: "unclear", label: "Unclear" },
   { value: "difficulty", label: "Difficulty feels wrong" },
   { value: "weak_explanation", label: "Weak explanation" },
@@ -50,10 +47,7 @@ const reasonLabels: Array<{
   { value: "other", label: "Other" },
 ];
 
-async function saveFeedback(
-  attemptId: string,
-  value: QuestionFeedbackValue,
-) {
+async function saveFeedback(attemptId: string, value: QuestionFeedbackValue) {
   const response = await fetch("/api/question-feedback", {
     method: "POST",
     headers: { "content-type": "application/json" },
@@ -103,8 +97,7 @@ export const QuestionFeedback = forwardRef<
     return {
       sentiment,
       reasons: sentiment === "down" ? reasons : [],
-      comment:
-        sentiment === "down" && comment.trim() ? comment.trim() : null,
+      comment: sentiment === "down" && comment.trim() ? comment.trim() : null,
     };
   }
 
@@ -169,7 +162,9 @@ export const QuestionFeedback = forwardRef<
         <span className="font-bold text-[var(--muted)]">Question feedback</span>
         {(["up", "down"] as const).map((value) => (
           <button
-            aria-label={value === "up" ? "Good question" : "Question needs work"}
+            aria-label={
+              value === "up" ? "Good question" : "Question needs work"
+            }
             aria-pressed={sentiment === value}
             className={`grid size-8 place-items-center rounded-full border text-base transition ${
               sentiment === value

@@ -1,6 +1,170 @@
 {
   "releases": [
     {
+      "version": "1.0.0-beta.2",
+      "releasedAt": "2026-07-16",
+      "title": "Faster play, better questions",
+      "summary": "This update makes the play loop more responsive, substantially improves the question catalog, and introduces better tools for tracking and reviewing question quality.",
+      "highlights": [
+        {
+          "text": "Answers are checked faster, and the next question is prepared in the background.",
+          "audience": "all"
+        },
+        {
+          "text": "Repetitive battle and obscure exact-year questions have been substantially reduced.",
+          "audience": "all"
+        },
+        {
+          "text": "Question-pack progress is now easier to understand at a glance.",
+          "audience": "all"
+        },
+        {
+          "text": "The Achievements page is more compact and easier to scan.",
+          "audience": "all"
+        },
+        {
+          "text": "You can now flag questions whose wording gives away the answer.",
+          "audience": "all"
+        }
+      ],
+      "questionChanges": {
+        "added": 0,
+        "revised": 196,
+        "retired": 0
+      },
+      "sections": [
+        {
+          "heading": "Faster play",
+          "items": [
+            {
+              "text": "The timer now stops immediately when an answer is submitted.",
+              "audience": "all"
+            },
+            {
+              "text": "Answer results return sooner by performing independent progress updates in parallel.",
+              "audience": "all"
+            },
+            {
+              "text": "The next question is prepared in the background while you review the previous answer.",
+              "audience": "all"
+            },
+            {
+              "text": "A prepared question's timer does not begin until you actually advance to it.",
+              "audience": "all"
+            },
+            {
+              "text": "Answer-submission messages now use clearer language while the result is being verified.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Better questions",
+          "items": [
+            {
+              "text": "Revised 196 questions based on player feedback, administrator review, and broader catalog analysis.",
+              "audience": "all"
+            },
+            {
+              "text": "Processed all 57 action items from the latest production Question Quality export.",
+              "audience": "all"
+            },
+            {
+              "text": "Replaced 21 repetitive battle-location questions with a broader mix of historical knowledge.",
+              "audience": "all"
+            },
+            {
+              "text": "Reduced exact-year recall to 11 questions across the entire catalog, retaining important landmark dates.",
+              "audience": "all"
+            },
+            {
+              "text": "Reclassified all 42 remaining General Knowledge questions into more meaningful topics and subtopics.",
+              "audience": "all"
+            },
+            {
+              "text": "Improved accepted answers, wording, difficulty, explanations, answer modes, distractors, and supporting sources.",
+              "audience": "all"
+            },
+            {
+              "text": "Replaced questions that did not belong in their topic-specific packs while preserving every pack's question count.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Easier question feedback",
+          "items": [
+            {
+              "text": "Players can now flag questions whose wording gives away the answer.",
+              "audience": "all"
+            },
+            {
+              "text": "Feedback about rejected answers continues to include the answer the player submitted, helping reviewers identify missing aliases.",
+              "audience": "all"
+            },
+            {
+              "text": "Reviewer displays summarize the different answers players have given and how often each answer occurred.",
+              "audience": "admin"
+            }
+          ]
+        },
+        {
+          "heading": "Clearer progress",
+          "items": [
+            {
+              "text": "Question Packs now combine total, answered, and correct counts into one compact progress bar.",
+              "audience": "all"
+            },
+            {
+              "text": "The Achievements page uses a denser layout so more milestones can be reviewed at once.",
+              "audience": "all"
+            },
+            {
+              "text": "Authorized reviewers can begin reviewing a pack directly from the Question Packs page.",
+              "audience": "admin"
+            }
+          ]
+        },
+        {
+          "heading": "Improved review tools",
+          "items": [
+            {
+              "text": "Added a dedicated Question Reviewer role without broader system-administrator privileges.",
+              "audience": "admin"
+            },
+            {
+              "text": "Added a pack-scoped Question Index showing every question, its classification, difficulty, answer mode, review status, player flags, attempts, correct answers, and accuracy.",
+              "audience": "admin"
+            },
+            {
+              "text": "Questions in the index link directly to their pack-scoped Question Quality review.",
+              "audience": "admin"
+            },
+            {
+              "text": "Question Quality now keeps the pack chooser out of the way after review begins.",
+              "audience": "admin"
+            },
+            {
+              "text": "Redundant aliases matching the canonical answer are hidden.",
+              "audience": "admin"
+            },
+            {
+              "text": "Player identities remain hidden from question reviewers while the relevant answer and aggregate evidence remain visible.",
+              "audience": "admin"
+            },
+            {
+              "text": "Review decisions and role changes now create their audit records in the same database transaction as the protected change.",
+              "audience": "admin"
+            },
+            {
+              "text": "Admin tools are organized under a role-aware Admin submenu.",
+              "audience": "admin"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "1.0.0-beta.1",
       "releasedAt": "2026-07-15",
       "title": "Smoother play and clearer progress",

@@ -13,3 +13,4 @@ supabase/.temp/
 *.tsbuildinfo
 debug.log
 content/catalog/cache/
+.tmp/

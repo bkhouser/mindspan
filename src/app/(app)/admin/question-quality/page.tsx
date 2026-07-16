@@ -2,6 +2,7 @@ import {
   ArrowLeft,
   ArrowRight,
   CheckCircle2,
+  ChevronDown,
   Download,
   Flag,
   MessageSquareWarning,
@@ -9,14 +10,11 @@ import {
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
-import { requireSysAdmin } from "@/lib/auth";
+import { requireQuestionReviewer } from "@/lib/auth";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { EditorialReviewControls } from "./editorial-review-controls";
 
-type ReviewView =
-  | "unreviewed"
-  | "flagged"
-  | "needs_revision"
-  | "all";
+type ReviewView = "unreviewed" | "flagged" | "needs_revision" | "all";
 
 const views: Array<{ value: ReviewView; label: string }> = [
   { value: "unreviewed", label: "Unreviewed" },
@@ -44,6 +42,7 @@ const reasonLabels: Record<string, string> = {
   incorrect_answer: "Incorrect answer",
   should_have_been_accepted: "My answer should be accepted",
   wrong_topic: "Wrong topic",
+  answer_given_away: "Answer is given away",
   unclear: "Unclear",
   difficulty: "Difficulty feels wrong",
   weak_explanation: "Weak explanation",
@@ -60,13 +59,15 @@ export default async function QuestionQualityPage({
   searchParams: Promise<{
     pack?: string;
     position?: string;
+    question?: string;
     view?: string;
   }>;
 }) {
-  const { supabase } = await requireSysAdmin();
+  const { supabase: authClient } = await requireQuestionReviewer();
+  const supabase = createAdminClient();
   const query = await searchParams;
   const view = reviewView(query.view);
-  const { data: packSummaries, error: summaryError } = await supabase.rpc(
+  const { data: packSummaries, error: summaryError } = await authClient.rpc(
     "question_quality_pack_summary_v1",
   );
   if (summaryError) throw summaryError;
@@ -90,6 +91,10 @@ export default async function QuestionQualityPage({
       </Card>
     );
   }
+  const selectedPackReviewed =
+    selectedPack.approved_questions +
+    selectedPack.needs_revision_questions +
+    selectedPack.rejected_questions;
 
   const { data: packQuestionRows } = await supabase
     .from("pack_questions")
@@ -127,28 +132,31 @@ export default async function QuestionQualityPage({
       ),
   );
   const versionIds = versions.map((version) => version.id);
-  const [{ data: editorialRows }, { data: feedbackRows }, { data: reportRows }] =
-    versionIds.length
-      ? await Promise.all([
-          supabase
-            .from("question_editorial_reviews")
-            .select("*")
-            .in("question_version_id", versionIds),
-          supabase
-            .from("question_feedback")
-            .select(
-              "question_version_id,sentiment,reasons,comment,answer_correct,assisted,timed_out,created_at,updated_at,reporter:profiles!question_feedback_user_id_fkey(display_name)",
-            )
-            .in("question_version_id", versionIds)
-            .order("updated_at", { ascending: false }),
-          supabase
-            .from("question_reports")
-            .select("id,question_version_id,category,details,status,created_at")
-            .in("question_version_id", versionIds)
-            .eq("status", "open")
-            .order("created_at", { ascending: false }),
-        ])
-      : [{ data: [] }, { data: [] }, { data: [] }];
+  const [
+    { data: editorialRows },
+    { data: feedbackRows },
+    { data: reportRows },
+  ] = versionIds.length
+    ? await Promise.all([
+        supabase
+          .from("question_editorial_reviews")
+          .select("*")
+          .in("question_version_id", versionIds),
+        supabase
+          .from("question_feedback")
+          .select(
+            "question_version_id,attempt_id,sentiment,reasons,comment,answer_correct,assisted,timed_out,created_at,updated_at,attempt:attempts!question_feedback_attempt_id_fkey(submitted_answer)",
+          )
+          .in("question_version_id", versionIds)
+          .order("updated_at", { ascending: false }),
+        supabase
+          .from("question_reports")
+          .select("id,question_version_id,category,details,status,created_at")
+          .in("question_version_id", versionIds)
+          .eq("status", "open")
+          .order("created_at", { ascending: false }),
+      ])
+    : [{ data: [] }, { data: [] }, { data: [] }];
   const editorialByVersion = new Map(
     editorialRows?.map((review) => [review.question_version_id, review]),
   );
@@ -187,8 +195,17 @@ export default async function QuestionQualityPage({
     if (view === "flagged") return isFlagged(version.id);
     return verdict === view;
   });
-  const requested = requestedPosition(query.position);
-  const position = Math.min(Math.max(1, requested), filteredVersions.length || 1);
+  const requestedQuestionPosition = query.question
+    ? filteredVersions.findIndex(
+        (version) => version.question_id === query.question,
+      ) + 1
+    : 0;
+  const requested =
+    requestedQuestionPosition || requestedPosition(query.position);
+  const position = Math.min(
+    Math.max(1, requested),
+    filteredVersions.length || 1,
+  );
   const current = filteredVersions[position - 1];
   const currentReview = current ? editorialByVersion.get(current.id) : null;
   const currentFeedback = current
@@ -196,6 +213,16 @@ export default async function QuestionQualityPage({
     : [];
   const currentReports = current
     ? (reportsByVersion.get(current.id) ?? [])
+    : [];
+  const currentAliases = current
+    ? current.answer_aliases.filter(
+        (alias) =>
+          alias.answer.normalize("NFKC").trim().toLocaleLowerCase("en-US") !==
+          current.canonical_answer
+            .normalize("NFKC")
+            .trim()
+            .toLocaleLowerCase("en-US"),
+      )
     : [];
   const currentSubtopics = current
     ? (related(current.questions)?.question_subtopics ?? []).flatMap((link) => {
@@ -209,7 +236,12 @@ export default async function QuestionQualityPage({
       ? position
       : Math.min(position + 1, filteredVersions.length);
   const returnTo = `${baseUrl}&position=${nextPosition || 1}`;
-  const [{ count: attempts }, { count: correct }, { count: assisted }] = current
+  const [
+    { count: attempts },
+    { count: correct },
+    { count: assisted },
+    { data: answerSummaries, error: answerSummaryError },
+  ] = current
     ? await Promise.all([
         supabase
           .from("attempts")
@@ -225,15 +257,27 @@ export default async function QuestionQualityPage({
           .select("id", { count: "exact", head: true })
           .eq("question_version_id", current.id)
           .eq("assisted", true),
+        authClient.rpc("question_quality_answer_summary_v1", {
+          p_question_version_id: current.id,
+        }),
       ])
-    : [{ count: 0 }, { count: 0 }, { count: 0 }];
+    : [
+        { count: 0 },
+        { count: 0 },
+        { count: 0 },
+        { data: [], error: null },
+      ];
+  if (answerSummaryError) throw answerSummaryError;
 
   return (
     <>
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <Link className="text-sm font-bold text-[var(--brand)]" href="/admin">
-            ← Control room
+          <Link
+            className="inline-flex items-center gap-2 text-sm font-bold text-[var(--brand)]"
+            href={`/admin/question-index?pack=${selectedPack.pack_id}`}
+          >
+            <ArrowLeft aria-hidden="true" size={15} /> Question index
           </Link>
           <h1 className="mt-3 text-4xl font-black">Question quality</h1>
           <p className="mt-3 max-w-3xl leading-7 text-[var(--muted)]">
@@ -250,47 +294,80 @@ export default async function QuestionQualityPage({
         </a>
       </header>
 
-      <section className="mt-8 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
-        {packSummaries?.map((pack) => {
-          const reviewed =
-            pack.approved_questions +
-            pack.needs_revision_questions +
-            pack.rejected_questions;
-          return (
-            <Link
-              className={`rounded-2xl border p-4 transition hover:bg-white/[.04] ${
-                pack.pack_id === selectedPack.pack_id
-                  ? "border-[var(--brand)] bg-[var(--brand)]/[.06]"
-                  : "border-white/10"
-              }`}
-              href={`/admin/question-quality?pack=${pack.pack_id}&view=${view}&position=1`}
-              key={pack.pack_id}
-            >
-              <div className="flex items-start justify-between gap-3">
-                <b>{pack.pack_name}</b>
-                {pack.flagged_questions ? (
-                  <span className="inline-flex items-center gap-1 text-xs font-black text-rose-200">
-                    <Flag size={13} /> {pack.flagged_questions}
-                  </span>
-                ) : null}
-              </div>
-              <p className="mt-2 text-sm text-[var(--muted)]">
-                {reviewed}/{pack.total_questions} reviewed
-              </p>
-              <div className="mt-3 h-1.5 overflow-hidden rounded-full bg-white/10">
-                <div
-                  className="h-full rounded-full bg-[var(--brand)]"
-                  style={{
-                    width: `${pack.total_questions ? (reviewed / pack.total_questions) * 100 : 0}%`,
-                  }}
-                />
-              </div>
-            </Link>
-          );
-        })}
-      </section>
+      <details className="group mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white/[.025]">
+        <summary className="flex cursor-pointer list-none flex-wrap items-center gap-x-4 gap-y-2 px-4 py-3 transition hover:bg-white/[.035] [&::-webkit-details-marker]:hidden">
+          <span className="text-xs font-black uppercase tracking-[.14em] text-[var(--muted)]">
+            Current pack
+          </span>
+          <b>{selectedPack.pack_name}</b>
+          <span className="text-sm text-[var(--muted)]">
+            {selectedPackReviewed}/{selectedPack.total_questions} reviewed
+          </span>
+          {selectedPack.flagged_questions ? (
+            <span className="inline-flex items-center gap-1 text-xs font-black text-rose-200">
+              <Flag size={13} /> {selectedPack.flagged_questions} flagged
+            </span>
+          ) : null}
+          <span className="ml-auto inline-flex items-center gap-2 text-sm font-black text-[var(--brand)]">
+            Change pack
+            <ChevronDown
+              aria-hidden="true"
+              className="transition group-open:rotate-180"
+              size={16}
+            />
+          </span>
+        </summary>
+        <div className="border-t border-white/10 p-4">
+          <p className="mb-3 text-sm text-[var(--muted)]">
+            Choose a pack to open its{" "}
+            {views.find((item) => item.value === view)?.label.toLowerCase()}{" "}
+            queue.
+          </p>
+          <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+            {packSummaries?.map((pack) => {
+              const reviewed =
+                pack.approved_questions +
+                pack.needs_revision_questions +
+                pack.rejected_questions;
+              return (
+                <Link
+                  className={`rounded-xl border p-3 transition hover:bg-white/[.04] ${
+                    pack.pack_id === selectedPack.pack_id
+                      ? "border-[var(--brand)] bg-[var(--brand)]/[.06]"
+                      : "border-white/10"
+                  }`}
+                  href={`/admin/question-quality?pack=${pack.pack_id}&view=${view}&position=1`}
+                  key={pack.pack_id}
+                >
+                  <div className="flex items-start justify-between gap-3">
+                    <b className="text-sm">{pack.pack_name}</b>
+                    {pack.flagged_questions ? (
+                      <span className="inline-flex items-center gap-1 text-xs font-black text-rose-200">
+                        <Flag size={12} /> {pack.flagged_questions}
+                      </span>
+                    ) : null}
+                  </div>
+                  <div className="mt-2 flex items-center gap-3">
+                    <div className="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10">
+                      <div
+                        className="h-full rounded-full bg-[var(--brand)]"
+                        style={{
+                          width: `${pack.total_questions ? (reviewed / pack.total_questions) * 100 : 0}%`,
+                        }}
+                      />
+                    </div>
+                    <span className="whitespace-nowrap text-xs text-[var(--muted)]">
+                      {reviewed}/{pack.total_questions}
+                    </span>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </details>
 
-      <nav className="mt-8 flex flex-wrap gap-2" aria-label="Review filter">
+      <nav className="mt-5 flex flex-wrap gap-2" aria-label="Review filter">
         {views.map((item) => (
           <Link
             className={`rounded-full px-4 py-2 text-sm font-black ${
@@ -347,7 +424,8 @@ export default async function QuestionQualityPage({
                 : "Typed answer"}
             </span>
             <span className="text-sm text-[var(--muted)]">
-              {position} of {filteredVersions.length} in {views.find((item) => item.value === view)?.label.toLowerCase()}
+              {position} of {filteredVersions.length} in{" "}
+              {views.find((item) => item.value === view)?.label.toLowerCase()}
             </span>
             {currentReview ? (
               <span className="ml-auto rounded-full bg-white/10 px-3 py-1 text-xs font-black uppercase">
@@ -359,7 +437,8 @@ export default async function QuestionQualityPage({
             <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--muted)]">
               <span>Version {current.version_number}</span>
               <code className="rounded bg-black/20 px-2 py-1">
-                {catalogKeyByQuestion.get(current.question_id) ?? "database-seed"}
+                {catalogKeyByQuestion.get(current.question_id) ??
+                  "database-seed"}
               </code>
             </div>
             <h2 className="mt-5 text-2xl font-black leading-9">
@@ -374,7 +453,9 @@ export default async function QuestionQualityPage({
                   {current.canonical_answer}
                 </p>
                 <p className="mt-3 text-xs leading-5 text-[var(--muted)]">
-                  Aliases: {current.answer_aliases.map((alias) => alias.answer).join(" · ") || "None"}
+                  Aliases:{" "}
+                  {currentAliases.map((alias) => alias.answer).join(" · ") ||
+                    "None"}
                 </p>
               </div>
               <div className="rounded-2xl bg-white/[.035] p-4">
@@ -401,17 +482,85 @@ export default async function QuestionQualityPage({
               </Card>
               <Card className="p-4">
                 <b className="text-2xl">
-                  {attempts ? Math.round(((correct ?? 0) / attempts) * 100) : 0}%
+                  {attempts ? Math.round(((correct ?? 0) / attempts) * 100) : 0}
+                  %
                 </b>
                 <p className="text-xs text-[var(--muted)]">Accuracy</p>
               </Card>
               <Card className="p-4">
                 <b className="text-2xl">
-                  {attempts ? Math.round(((assisted ?? 0) / attempts) * 100) : 0}%
+                  {attempts
+                    ? Math.round(((assisted ?? 0) / attempts) * 100)
+                    : 0}
+                  %
                 </b>
                 <p className="text-xs text-[var(--muted)]">Assisted</p>
               </Card>
             </div>
+
+            <section className="mt-6 overflow-hidden rounded-2xl border border-white/10">
+              <div className="border-b border-white/10 bg-white/[.025] px-5 py-4">
+                <h3 className="font-black">Player answers</h3>
+                <p className="mt-1 text-xs text-[var(--muted)]">
+                  Every submitted answer for this version. Capitalization-only
+                  differences are grouped together.
+                </p>
+              </div>
+              {answerSummaries?.length ? (
+                <div className="overflow-x-auto">
+                  <table className="w-full min-w-[680px] text-left text-sm">
+                    <thead className="bg-black/15 text-xs uppercase tracking-[.1em] text-[var(--muted)]">
+                      <tr>
+                        <th className="px-5 py-3">Answer given</th>
+                        <th className="px-4 py-3">Times given</th>
+                        <th className="px-4 py-3">Correct</th>
+                        <th className="px-4 py-3">Assisted</th>
+                        <th className="px-4 py-3">Acceptance feedback</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-white/10">
+                      {answerSummaries.map((answer) => (
+                        <tr
+                          className={
+                            answer.acceptance_flag_count
+                              ? "bg-amber-200/[.055]"
+                              : undefined
+                          }
+                          key={answer.answer_text}
+                        >
+                          <td className="px-5 py-3 font-bold">
+                            {answer.answer_text}
+                          </td>
+                          <td className="px-4 py-3">
+                            {answer.attempt_count}
+                          </td>
+                          <td className="px-4 py-3">
+                            {answer.correct_count}/{answer.attempt_count}
+                          </td>
+                          <td className="px-4 py-3">
+                            {answer.assisted_count}/{answer.attempt_count}
+                          </td>
+                          <td className="px-4 py-3">
+                            {answer.acceptance_flag_count ? (
+                              <span className="font-black text-amber-100">
+                                {answer.acceptance_flag_count} should be
+                                accepted
+                              </span>
+                            ) : (
+                              <span className="text-[var(--muted)]">None</span>
+                            )}
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              ) : (
+                <p className="px-5 py-5 text-sm text-[var(--muted)]">
+                  No player answers have been submitted for this version yet.
+                </p>
+              )}
+            </section>
 
             {currentFeedback.length || currentReports.length ? (
               <section className="mt-6 rounded-2xl border border-rose-300/20 bg-rose-300/[.04] p-5">
@@ -420,25 +569,46 @@ export default async function QuestionQualityPage({
                 </h3>
                 <div className="mt-4 space-y-3">
                   {currentFeedback.map((feedback, index) => {
-                    const reporter = related(feedback.reporter);
+                    const submittedAnswer =
+                      related(feedback.attempt)?.submitted_answer?.trim() ||
+                      null;
+                    const requestsAcceptance = feedback.reasons.includes(
+                      "should_have_been_accepted",
+                    );
                     return (
-                      <article className="rounded-xl bg-black/15 p-3" key={`${feedback.updated_at}-${index}`}>
+                      <article
+                        className="rounded-xl bg-black/15 p-3"
+                        key={`${feedback.updated_at}-${index}`}
+                      >
                         <div className="flex flex-wrap items-center gap-2 text-xs">
                           <span className="text-lg" aria-hidden="true">
                             {feedback.sentiment === "up" ? "👍" : "👎"}
                           </span>
-                          <b>{reporter?.display_name ?? "Player"}</b>
+                          <b>Player feedback</b>
                           <span className="text-[var(--muted)]">
-                            {feedback.answer_correct ? "answered correctly" : "answered incorrectly"}
+                            {feedback.answer_correct
+                              ? "answered correctly"
+                              : "answered incorrectly"}
                             {feedback.assisted ? " · assisted" : ""}
                             {feedback.timed_out ? " · timed out" : ""}
                           </span>
                         </div>
                         {feedback.reasons.length ? (
                           <p className="mt-2 text-xs text-rose-100">
-                            {feedback.reasons.map((reason) => reasonLabels[reason] ?? reason).join(" · ")}
+                            {feedback.reasons
+                              .map((reason) => reasonLabels[reason] ?? reason)
+                              .join(" · ")}
                           </p>
                         ) : null}
+                        <p
+                          className={`mt-2 text-sm ${
+                            requestsAcceptance
+                              ? "font-bold text-amber-100"
+                              : "text-[var(--muted)]"
+                          }`}
+                        >
+                          Answer given: {submittedAnswer ?? "No answer submitted"}
+                        </p>
                         {feedback.comment ? (
                           <p className="mt-2 text-sm">{feedback.comment}</p>
                         ) : null}
@@ -446,7 +616,10 @@ export default async function QuestionQualityPage({
                     );
                   })}
                   {currentReports.map((report) => (
-                    <article className="rounded-xl bg-black/15 p-3" key={report.id}>
+                    <article
+                      className="rounded-xl bg-black/15 p-3"
+                      key={report.id}
+                    >
                       <b className="text-xs uppercase text-rose-100">
                         Formal report · {report.category}
                       </b>
@@ -469,14 +642,20 @@ export default async function QuestionQualityPage({
           </div>
           <nav className="flex items-center justify-between border-t border-white/10 px-6 py-4">
             {position > 1 ? (
-              <Link className="inline-flex items-center gap-2 font-bold" href={`${baseUrl}&position=${position - 1}`}>
+              <Link
+                className="inline-flex items-center gap-2 font-bold"
+                href={`${baseUrl}&position=${position - 1}`}
+              >
                 <ArrowLeft size={17} /> Previous
               </Link>
             ) : (
               <span />
             )}
             {position < filteredVersions.length ? (
-              <Link className="inline-flex items-center gap-2 font-bold" href={`${baseUrl}&position=${position + 1}`}>
+              <Link
+                className="inline-flex items-center gap-2 font-bold"
+                href={`${baseUrl}&position=${position + 1}`}
+              >
                 Next <ArrowRight size={17} />
               </Link>
             ) : (

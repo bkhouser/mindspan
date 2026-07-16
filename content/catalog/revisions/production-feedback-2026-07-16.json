@@ -149,8 +149,12 @@
     "answerMode": "required_choice"
   },
   "history-starter.event-year.treblinka-uprising": {
-    "prompt": "In what year did the prisoner uprising at the Treblinka killing center occur?",
-    "explanation": "Prisoners at the Treblinka killing center revolted in 1943.",
+    "subtopics": ["Holocaust History"],
+    "prompt": "At which Nazi killing center did prisoners stage an armed revolt and mass escape on August 2, 1943?",
+    "canonicalAnswer": "Treblinka",
+    "aliases": ["Treblinka II", "Treblinka killing center"],
+    "distractors": ["Sobibor", "Belzec", "Chelmno"],
+    "explanation": "Prisoners at the Treblinka killing center staged an armed revolt and mass escape.",
     "details": "On August 2, 1943, prisoners seized weapons, set parts of the camp on fire, and attempted a mass escape. More than 300 escaped the camp, although many were later recaptured and killed.",
     "source": {
       "label": "United States Holocaust Memorial Museum",
@@ -177,7 +181,11 @@
     "prompt": "Which of these acclaimed albums was initially considered a commercial failure after its 1967 release?",
     "answerMode": "required_choice",
     "canonicalAnswer": "The Velvet Underground & Nico",
-    "aliases": ["The Velvet Underground and Nico", "Velvet Underground & Nico", "Velvet Underground and Nico"],
+    "aliases": [
+      "The Velvet Underground and Nico",
+      "Velvet Underground & Nico",
+      "Velvet Underground and Nico"
+    ],
     "distractors": ["Abbey Road", "Led Zeppelin IV", "Rumours"],
     "explanation": "The Velvet Underground & Nico sold modestly at first but later became one of rock's most influential albums.",
     "details": "Released in 1967, the album sold only in the tens of thousands during its first two years and was considered a commercial failure at the time. Its reputation grew enormously as later musicians discovered its experimental sound.",
@@ -232,12 +240,15 @@
   "trivia-101.opentdb.5fa652b7e134c0e6": {
     "packSlugs": ["lifestyle-culture-starter"],
     "subtopics": ["Food & Drink", "Business & Brands"],
-    "prompt": "In what year did Ray Kroc open his first McDonald's restaurant in Des Plaines, Illinois?",
-    "explanation": "Ray Kroc opened his first McDonald's restaurant in Des Plaines, Illinois, in 1955.",
-    "details": "The restaurant opened on April 15, 1955, for McDonald's System, Inc., a predecessor of McDonald's Corporation. The McDonald brothers had operated their earlier restaurant in California before Kroc joined the business.",
+    "prompt": "What type of machine was Ray Kroc selling when he became interested in the McDonald brothers' restaurant?",
+    "canonicalAnswer": "Milkshake mixers",
+    "aliases": ["Milkshake mixer", "Multimixers", "Multimixer"],
+    "distractors": ["Cash registers", "Commercial grills", "Soda fountains"],
+    "explanation": "Ray Kroc was selling Multimixer milkshake machines when the McDonald brothers' large order caught his attention.",
+    "details": "Kroc visited the brothers' efficient California restaurant after they ordered several mixers. He later became their franchising agent and built the business into a national chain.",
     "source": {
       "label": "McDonald's Corporation",
-      "url": "https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are/our-history..html"
+      "url": "https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are/our-history.html"
     }
   }
 }

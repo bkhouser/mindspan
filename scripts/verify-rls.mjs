@@ -61,11 +61,44 @@ try {
   const owner = await createUser("Owner");
   const member = await createUser("Member");
   const outsider = await createUser("Outsider");
+  const questionReviewer = await createUser("Question Reviewer");
   const systemAdmin = await createUser("System Admin");
   await admin
     .from("profiles")
     .update({ role: "sys_admin" })
     .eq("id", systemAdmin.id);
+  const { error: reviewerRoleError } = await systemAdmin.client.rpc(
+    "set_user_role_v1",
+    {
+      p_role: "question_reviewer",
+      p_user_id: questionReviewer.id,
+    },
+  );
+  assert(
+    !reviewerRoleError,
+    `a system admin must be able to assign the reviewer role${reviewerRoleError ? `: ${reviewerRoleError.message}` : ""}`,
+  );
+  const { data: roleAudit, error: roleAuditError } = await admin
+    .from("admin_audit_log")
+    .select("id")
+    .eq("actor_user_id", systemAdmin.id)
+    .eq("action", "user.role_changed")
+    .eq("target_id", questionReviewer.id);
+  assert(
+    !roleAuditError && roleAudit?.length === 1,
+    "a global role change must create its audit record transactionally",
+  );
+  const { error: unauthorizedRoleError } = await owner.client.rpc(
+    "set_user_role_v1",
+    {
+      p_role: "question_reviewer",
+      p_user_id: outsider.id,
+    },
+  );
+  assert(
+    Boolean(unauthorizedRoleError),
+    "a normal player must not assign global roles",
+  );
 
   const { data: group, error: groupError } = await admin
     .from("groups")
@@ -114,6 +147,14 @@ try {
     globalProfiles?.length === 3,
     "a system admin must have global operational visibility",
   );
+  const { data: reviewerProfiles } = await questionReviewer.client
+    .from("profiles")
+    .select("id")
+    .in("id", [owner.id, member.id, outsider.id]);
+  assert(
+    reviewerProfiles?.length === 0,
+    "a question reviewer must not gain user-administration visibility",
+  );
 
   const { data: qualityVersion, error: qualityVersionError } = await admin
     .from("question_versions")
@@ -129,11 +170,69 @@ try {
     Boolean(memberQualitySummaryError),
     "a normal player must not read the editorial quality summary",
   );
+  const { data: reviewerQualitySummary, error: reviewerQualitySummaryError } =
+    await questionReviewer.client.rpc("question_quality_pack_summary_v1");
+  assert(
+    !reviewerQualitySummaryError && (reviewerQualitySummary?.length ?? 0) > 0,
+    "a question reviewer must see pack editorial progress",
+  );
   const { data: adminQualitySummary, error: adminQualitySummaryError } =
     await systemAdmin.client.rpc("question_quality_pack_summary_v1");
   assert(
     !adminQualitySummaryError && (adminQualitySummary?.length ?? 0) > 0,
     "a system admin must see pack editorial progress",
+  );
+  const { error: memberAnswerSummaryError } = await member.client.rpc(
+    "question_quality_answer_summary_v1",
+    { p_question_version_id: qualityVersion.id },
+  );
+  assert(
+    Boolean(memberAnswerSummaryError),
+    "a normal player must not read aggregated answers from other players",
+  );
+  const { error: reviewerAnswerSummaryError } =
+    await questionReviewer.client.rpc(
+      "question_quality_answer_summary_v1",
+      { p_question_version_id: qualityVersion.id },
+    );
+  assert(
+    !reviewerAnswerSummaryError,
+    "a question reviewer must be able to read privacy-safe answer aggregates",
+  );
+  const { error: adminAnswerSummaryError } = await systemAdmin.client.rpc(
+    "question_quality_answer_summary_v1",
+    { p_question_version_id: qualityVersion.id },
+  );
+  assert(
+    !adminAnswerSummaryError,
+    "a system admin must be able to read privacy-safe answer aggregates",
+  );
+  const qualityPackId = reviewerQualitySummary[0].pack_id;
+  const { error: memberPackAttemptSummaryError } = await member.client.rpc(
+    "question_quality_pack_attempt_summary_v1",
+    { p_pack_id: qualityPackId },
+  );
+  assert(
+    Boolean(memberPackAttemptSummaryError),
+    "a normal player must not read pack-level attempt aggregates",
+  );
+  const { error: reviewerPackAttemptSummaryError } =
+    await questionReviewer.client.rpc(
+      "question_quality_pack_attempt_summary_v1",
+      { p_pack_id: qualityPackId },
+    );
+  assert(
+    !reviewerPackAttemptSummaryError,
+    "a question reviewer must be able to read pack-level attempt aggregates",
+  );
+  const { error: adminPackAttemptSummaryError } =
+    await systemAdmin.client.rpc(
+      "question_quality_pack_attempt_summary_v1",
+      { p_pack_id: qualityPackId },
+    );
+  assert(
+    !adminPackAttemptSummaryError,
+    "a system admin must be able to read pack-level attempt aggregates",
   );
   const { error: directFeedbackError } = await member.client
     .from("question_feedback")
@@ -150,14 +249,40 @@ try {
     Boolean(directFeedbackError),
     "question feedback writes must go through the validated server endpoint",
   );
-  const { error: editorialInsertError } = await admin
-    .from("question_editorial_reviews")
-    .insert({
-      question_version_id: qualityVersion.id,
-      reviewed_by: systemAdmin.id,
-      verdict: "approved",
-    });
-  if (editorialInsertError) throw editorialInsertError;
+  const { error: memberEditorialError } = await member.client.rpc(
+    "save_question_editorial_review_v1",
+    {
+      p_notes: "This unauthorized review must not be saved.",
+      p_question_version_id: qualityVersion.id,
+      p_verdict: "rejected",
+    },
+  );
+  assert(
+    Boolean(memberEditorialError),
+    "a normal player must not record an editorial review",
+  );
+  const { error: editorialSaveError } = await questionReviewer.client.rpc(
+    "save_question_editorial_review_v1",
+    {
+      p_notes: "RLS verification review.",
+      p_question_version_id: qualityVersion.id,
+      p_verdict: "approved",
+    },
+  );
+  assert(
+    !editorialSaveError,
+    `a question reviewer must be able to save an audited decision${editorialSaveError ? `: ${editorialSaveError.message}` : ""}`,
+  );
+  const { data: editorialAudit, error: editorialAuditError } = await admin
+    .from("admin_audit_log")
+    .select("id")
+    .eq("actor_user_id", questionReviewer.id)
+    .eq("action", "question.editorial_approved")
+    .eq("target_id", qualityVersion.id);
+  assert(
+    !editorialAuditError && editorialAudit?.length === 1,
+    "a reviewer decision must create its audit record transactionally",
+  );
   const { data: hiddenEditorial } = await member.client
     .from("question_editorial_reviews")
     .select("question_version_id")
@@ -174,10 +299,51 @@ try {
     visibleEditorial?.length === 1,
     "a system admin must see editorial decisions",
   );
+  const { data: hiddenReviewerEditorial } = await questionReviewer.client
+    .from("question_editorial_reviews")
+    .select("question_version_id")
+    .eq("question_version_id", qualityVersion.id);
+  assert(
+    hiddenReviewerEditorial?.length === 0,
+    "a question reviewer must receive editorial data only through trusted review pages",
+  );
+  const { data: reviewerDirectUpdate, error: reviewerDirectUpdateError } =
+    await questionReviewer.client
+      .from("question_editorial_reviews")
+      .update({ verdict: "rejected" })
+      .eq("question_version_id", qualityVersion.id)
+      .select("question_version_id");
+  assert(
+    Boolean(reviewerDirectUpdateError) || reviewerDirectUpdate?.length === 0,
+    "a reviewer must record decisions through the audited server action",
+  );
   await admin
     .from("question_editorial_reviews")
     .delete()
     .eq("question_version_id", qualityVersion.id);
+
+  await admin
+    .from("profiles")
+    .update({ disabled_at: new Date().toISOString() })
+    .eq("id", questionReviewer.id);
+  const { error: disabledReviewerError } = await questionReviewer.client.rpc(
+    "question_quality_pack_summary_v1",
+  );
+  assert(
+    Boolean(disabledReviewerError),
+    "a disabled question reviewer must immediately lose review access",
+  );
+  await admin
+    .from("profiles")
+    .update({ disabled_at: null, role: "user" })
+    .eq("id", questionReviewer.id);
+  const { error: revokedReviewerError } = await questionReviewer.client.rpc(
+    "question_quality_pack_summary_v1",
+  );
+  assert(
+    Boolean(revokedReviewerError),
+    "a revoked question reviewer must immediately lose review access",
+  );
 
   const { data: feedback, error: feedbackError } = await member.client
     .from("feedback_reports")
@@ -345,17 +511,24 @@ try {
   );
 
   console.log(
-    "RLS personas: owner, member, outsider, former member, disabled user, and system admin passed",
+    "RLS personas: owner, member, outsider, question reviewer, former member, disabled user, and system admin passed",
   );
   console.log(
     "Role escalation, immediate revocation, and final-admin protection passed",
   );
   console.log(
-    "Question feedback write isolation and system-admin editorial visibility passed",
+    "Question feedback write isolation and reviewer editorial boundaries passed",
   );
 } finally {
   if (groupId) {
     const { error } = await admin.from("groups").delete().eq("id", groupId);
+    if (error) throw error;
+  }
+  if (createdUsers.length) {
+    const { error } = await admin
+      .from("admin_audit_log")
+      .delete()
+      .in("actor_user_id", createdUsers);
     if (error) throw error;
   }
   for (const id of createdUsers.reverse()) {

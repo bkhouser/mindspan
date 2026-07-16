@@ -1,6 +1,16 @@
 {
-  "easy-does-it.opentdb.39e77df462e20698": { "difficulty": 3 },
-  "easy-does-it.opentdb.3899396f304d9690": { "difficulty": 3 },
+  "easy-does-it.opentdb.39e77df462e20698": {
+    "difficulty": 3,
+    "subtopics": ["United States History"],
+    "prompt": "John Brown's 1859 raid targeted the federal armory at which town in present-day West Virginia?",
+    "explanation": "John Brown raided the federal armory at Harpers Ferry in October 1859.",
+    "details": "Brown hoped the captured weapons would help begin a broader uprising against slavery. U.S. Marines ended the raid, and Brown's subsequent trial and execution intensified sectional conflict before the Civil War. Mindspan ignores punctuation and spacing, so Harpers Ferry is accepted without the apostrophe."
+  },
+  "easy-does-it.opentdb.3899396f304d9690": {
+    "difficulty": 3,
+    "topicSlug": "arts-literature",
+    "subtopics": ["Literature"]
+  },
   "easy-does-it.opentdb.f83ff1219e86ff8e": { "difficulty": 2 },
   "easy-does-it.opentdb.d0c625e67ff72cb0": {
     "prompt": "What is the name of the cowboy toy in the Toy Story films?",
@@ -10,8 +20,26 @@
     "explanation": "Woody is the cowboy toy at the center of the Toy Story films.",
     "details": "Tom Hanks voices Sheriff Woody, who begins the series as Andy's favorite toy and the leader of the bedroom's toys."
   },
-  "easy-does-it.opentdb.ef66e20f740c6692": { "difficulty": 3 },
-  "easy-does-it.opentdb.7dcd13363b49df12": { "difficulty": 3 },
+  "easy-does-it.opentdb.ef66e20f740c6692": {
+    "difficulty": 2,
+    "explanation": "An eagle is a score of two strokes under par on one golf hole.",
+    "details": "For comparison, a birdie is one under par and an albatross is three under par. The names describe performance relative to the hole's assigned par, not the player's total score for the round."
+  },
+  "easy-does-it.opentdb.7dcd13363b49df12": {
+    "difficulty": 3,
+    "topicSlug": "arts-literature",
+    "subtopics": ["Opera"],
+    "prompt": "In Rossini's opera The Barber of Seville, what is the barber's name?",
+    "canonicalAnswer": "Figaro",
+    "aliases": [],
+    "distractors": ["Don Basilio", "Bartolo", "Almaviva"],
+    "explanation": "Figaro is the resourceful barber at the center of The Barber of Seville.",
+    "details": "Figaro helps Count Almaviva court Rosina despite the plans of her guardian, Doctor Bartolo. The character also appears in Mozart's The Marriage of Figaro, which continues the story.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/The-Barber-of-Seville-opera-by-Rossini"
+    }
+  },
   "easy-does-it.opentdb.156aeec902055d73": {
     "prompt": "How many players does each soccer team normally have on the field at the start of a match?",
     "canonicalAnswer": "11",
@@ -31,9 +59,12 @@
   },
   "easy-does-it.opentdb.0773d22d29701c69": {
     "difficulty": 3,
-    "prompt": "The Nike apparel and footwear brand takes its name from the Greek goddess of what?"
+    "prompt": "The Nike apparel and footwear brand takes its name from the Greek goddess of what?",
+    "distractors": ["Wisdom", "Speed", "Harvest"]
   },
   "easy-does-it.opentdb.7cb14e3723da4947": {
+    "topicSlug": "science-nature",
+    "subtopics": ["Astronomy"],
     "prompt": "Which planet is commonly called the Red Planet?",
     "canonicalAnswer": "Mars",
     "aliases": [],
@@ -43,6 +74,8 @@
   },
   "easy-does-it.opentdb.dccbb84411f85182": { "difficulty": 3 },
   "easy-does-it.opentdb.9bf9f8ba7aa2f6b5": {
+    "topicSlug": "science-nature",
+    "subtopics": ["Zoology"],
     "prompt": "What is a young frog called after it hatches from an egg?",
     "canonicalAnswer": "Tadpole",
     "aliases": ["Polliwog"],
@@ -51,6 +84,8 @@
     "details": "During metamorphosis, a tadpole develops legs, absorbs its tail, and changes from breathing mainly with gills to using lungs."
   },
   "easy-does-it.opentdb.7d180f804ef859cb": {
+    "topicSlug": "science-nature",
+    "subtopics": ["Astronomy & Calendars"],
     "prompt": "How many days are in a leap year?",
     "canonicalAnswer": "366",
     "aliases": ["Three hundred sixty-six", "Three hundred and sixty-six"],
@@ -69,8 +104,18 @@
   },
   "easy-does-it.opentdb.b92d89bacc347924": { "difficulty": 2 },
   "easy-does-it.opentdb.b17397bdc8dbac32": { "difficulty": 1 },
-  "easy-does-it.opentdb.1ca147c97d9db6b8": { "difficulty": 1 },
+  "easy-does-it.opentdb.1ca147c97d9db6b8": {
+    "difficulty": 2,
+    "topicSlug": "science-nature",
+    "subtopics": ["Human Biology"],
+    "prompt": "What is the scientific name for modern humans?",
+    "explanation": "Modern humans belong to the species Homo sapiens.",
+    "details": "The genus name Homo means human, while sapiens is commonly translated as wise. In scientific writing, the genus is capitalized and the species name is lowercase: Homo sapiens."
+  },
   "easy-does-it.opentdb.18eb986bb73d8c7a": {
+    "difficulty": 1,
+    "topicSlug": "sports",
+    "subtopics": ["Tennis"],
     "prompt": "Which sport is played at the Wimbledon Championships?",
     "canonicalAnswer": "Tennis",
     "aliases": [],
@@ -113,6 +158,8 @@
     "details": "It covers more area than all Earth's land combined and stretches between Asia and Australia in the west and the Americas in the east."
   },
   "easy-does-it.opentdb.8cf71644fa8b5973": {
+    "topicSlug": "science-nature",
+    "subtopics": ["Medicine"],
     "prompt": "Which blood component gathers to form a plug at the site of an injury?"
   },
   "easy-does-it.opentdb.de708c7c0f4f5a20": {
@@ -128,7 +175,18 @@
     "difficulty": 1,
     "prompt": "Which Stranger Things character has telekinetic powers?"
   },
-  "easy-does-it.opentdb.1b5a34c3e5f02757": { "difficulty": 1 },
+  "easy-does-it.opentdb.1b5a34c3e5f02757": {
+    "difficulty": 1,
+    "topicSlug": "history",
+    "subtopics": ["United States History"],
+    "aliases": ["Franklin"],
+    "explanation": "Benjamin Franklin is depicted on the front of the United States $100 bill.",
+    "details": "Franklin was a printer, scientist, diplomat, and signer of both the Declaration of Independence and the Constitution. He was never a U.S. president, despite appearing on one of the best-known American banknotes.",
+    "source": {
+      "label": "U.S. Currency Education Program",
+      "url": "https://www.uscurrency.gov/denominations/100"
+    }
+  },
   "easy-does-it.opentdb.92148e8a998fab6b": { "difficulty": 1 },
   "easy-does-it.opentdb.f3e3740813e63d27": {
     "difficulty": 1,
@@ -148,5 +206,84 @@
     "explanation": "The Olympic symbol consists of five interlocking rings.",
     "details": "The blue, yellow, black, green, and red rings represent the union of the world's inhabited continents through sport."
   },
-  "easy-does-it.opentdb.668f81343318c1cf": { "difficulty": 1 }
+  "easy-does-it.opentdb.668f81343318c1cf": {
+    "difficulty": 1,
+    "prompt": "Which rock band released the albums Back in Black and Ballbreaker?",
+    "explanation": "AC/DC released both Back in Black and Ballbreaker.",
+    "details": "Back in Black arrived in 1980 and became one of rock's best-selling albums. Ballbreaker followed in 1995. Mindspan's answer normalization ignores punctuation and spaces, so AC/DC, ACDC, and AC DC are treated alike."
+  },
+  "easy-does-it.opentdb.64faa6d441a0d465": {
+    "difficulty": 2,
+    "explanation": "Cerberus is usually depicted with three heads.",
+    "details": "In Greek mythology, Cerberus guards the entrance to the underworld and prevents the dead from leaving. Ancient descriptions vary in some details, but the familiar later image gives him three heads."
+  },
+  "easy-does-it.opentdb.3eb4e0fa6f61faee": {
+    "difficulty": 1,
+    "topicSlug": "science-nature",
+    "subtopics": ["Human Biology"],
+    "prompt": "Which gas must humans breathe to survive?",
+    "canonicalAnswer": "Oxygen",
+    "aliases": ["O2"],
+    "distractors": ["Nitrogen", "Carbon dioxide", "Helium"],
+    "explanation": "Humans need oxygen for cellular respiration.",
+    "details": "Cells use oxygen to release usable energy from nutrients. Air is mostly nitrogen, but oxygen makes up about one-fifth of Earth's atmosphere and is the gas human lungs transfer into the bloodstream.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/oxygen"
+    }
+  },
+  "easy-does-it.opentdb.40b3e9b4b2121249": {
+    "difficulty": 3,
+    "aliases": ["Rommel"],
+    "explanation": "German field marshal Erwin Rommel was widely known as the Desert Fox.",
+    "details": "Rommel gained the nickname while commanding Axis forces in North Africa during World War II. His reputation was shaped both by battlefield successes and by wartime propaganda.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Erwin-Rommel"
+    }
+  },
+  "easy-does-it.opentdb.d05cd7f970e9f6f3": {
+    "difficulty": 1,
+    "prompt": "Which singer had the 2010 hit Baby?",
+    "canonicalAnswer": "Justin Bieber",
+    "aliases": ["Bieber"],
+    "distractors": ["Bruno Mars", "Shawn Mendes", "Ed Sheeran"],
+    "explanation": "Justin Bieber released Baby in 2010.",
+    "details": "The song appeared on Bieber's release My World 2.0 and featured rapper Ludacris. It became one of the Canadian singer's early international hits.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Justin-Bieber"
+    }
+  },
+  "easy-does-it.opentdb.c01d026d8e1b31fc": {
+    "aliases": ["Duchovny"],
+    "explanation": "David Duchovny played FBI agent Fox Mulder on The X-Files.",
+    "details": "Mulder investigates cases involving alleged paranormal activity with his skeptical partner Dana Scully, played by Gillian Anderson. Duchovny's surname alone is accepted."
+  },
+  "easy-does-it.opentdb.aa31640d14d53150": {
+    "difficulty": 3,
+    "prompt": "Which mythological creatures have women's faces and birds' bodies?",
+    "aliases": ["Harpy"],
+    "explanation": "Harpies are creatures from Greek mythology portrayed as part woman and part bird.",
+    "details": "Ancient accounts describe Harpies as winged spirits associated with storms and sudden snatching. Later art commonly gave them women's heads or faces and birds' bodies.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Harpy"
+    }
+  },
+  "easy-does-it.opentdb.ba8c10a3960a3637": {
+    "difficulty": 1,
+    "topicSlug": "history",
+    "subtopics": ["United States History"],
+    "prompt": "What U.S. holiday is celebrated on July 4?",
+    "canonicalAnswer": "Independence Day",
+    "aliases": ["Fourth of July", "July Fourth", "4th of July"],
+    "distractors": ["Memorial Day", "Veterans Day", "Constitution Day"],
+    "explanation": "The United States celebrates Independence Day on July 4.",
+    "details": "The holiday commemorates the Continental Congress's adoption of the Declaration of Independence on July 4, 1776. Most delegates signed the engrossed document later, so the holiday is not simply the anniversary of a single signing ceremony.",
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration"
+    }
+  }
 }

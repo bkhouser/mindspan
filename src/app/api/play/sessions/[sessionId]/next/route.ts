@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { z } from "zod";
 import { accuracy, skillEstimate } from "@/domain/mastery";
 import { scoreAttempt } from "@/domain/scoring";
 import { selectQuestion, type CandidateQuestion } from "@/domain/selection";
@@ -11,6 +12,9 @@ import type {
 import { ApiError, apiContext, errorResponse } from "@/lib/api";
 
 const QUERY_BATCH_SIZE = 100;
+const schema = z.object({
+  prepareOnly: z.boolean().optional().default(false),
+});
 
 function batches<T>(values: T[], size = QUERY_BATCH_SIZE): T[][] {
   return Array.from({ length: Math.ceil(values.length / size) }, (_, index) =>
@@ -19,11 +23,12 @@ function batches<T>(values: T[], size = QUERY_BATCH_SIZE): T[][] {
 }
 
 export async function POST(
-  _: Request,
+  request: Request,
   { params }: { params: Promise<{ sessionId: string }> },
 ) {
   try {
     const { sessionId } = await params;
+    const input = schema.parse(await request.json());
     const { user, admin } = await apiContext();
     const { data: session } = await admin
       .from("play_sessions")
@@ -186,11 +191,13 @@ export async function POST(
       session.scoring_timer_seconds,
     );
     const presentedAt = new Date();
-    const loadingDeadline = asset
-      ? new Date(presentedAt.getTime() + 10_000)
-      : null;
+    const activatedAt = input.prepareOnly ? null : presentedAt;
+    const loadingDeadline =
+      asset && activatedAt ? new Date(presentedAt.getTime() + 10_000) : null;
     const expiresAt = new Date(
-      (loadingDeadline?.getTime() ?? presentedAt.getTime()) +
+      (loadingDeadline?.getTime() ??
+        activatedAt?.getTime() ??
+        presentedAt.getTime()) +
         timerLimitSeconds * 1000,
     );
     const { data: presentation, error: insertError } = await admin
@@ -200,7 +207,9 @@ export async function POST(
         user_id: user.id,
         question_version_id: version.id,
         started_at: presentedAt.toISOString(),
-        media_ready_at: asset ? null : presentedAt.toISOString(),
+        activated_at: activatedAt?.toISOString() ?? null,
+        media_ready_at:
+          activatedAt && !asset ? presentedAt.toISOString() : null,
         loading_grace_expires_at: loadingDeadline?.toISOString() ?? null,
         expires_at: expiresAt.toISOString(),
         starting_points: score.startingPoints,
@@ -214,6 +223,7 @@ export async function POST(
       .select("id,started_at")
       .single();
     if (insertError) throw insertError;
+    if (input.prepareOnly) return NextResponse.json({ id: presentation.id });
     let media = null;
     if (asset) {
       const { data: signed } = await admin.storage

@@ -1,6 +1,7 @@
 import { AppNav } from "@/components/app-nav";
 import { AchievementCelebration } from "@/components/achievement-celebration";
 import { ReleaseUpdateNotice } from "@/components/release-update-notice";
+import { canReviewQuestions } from "@/domain/authorization";
 import {
   CURRENT_RELEASE,
   releasesNewerThan,
@@ -20,6 +21,7 @@ export default async function AuthenticatedLayout({
 }) {
   const { user, profile, supabase } = await requireUser();
   const isAdmin = profile.role === "sys_admin";
+  const hasQuestionReviewAccess = canReviewQuestions(profile.role);
   const previousVersion = profile.last_app_version;
   const newerReleases = releasesNewerThan(previousVersion);
   const releaseCount =
@@ -64,7 +66,7 @@ export default async function AuthenticatedLayout({
     }) ?? [];
   return (
     <div>
-      <AppNav isAdmin={isAdmin} />
+      <AppNav canReviewQuestions={hasQuestionReviewAccess} isAdmin={isAdmin} />
       <main className="mx-auto max-w-7xl px-5 py-8 lg:ml-64 lg:px-10 lg:py-10">
         {children}
       </main>

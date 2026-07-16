@@ -23,7 +23,9 @@ describe("QuestionFeedback", () => {
 
     expect(screen.getByText("Question feedback")).toBeVisible();
     expect(screen.queryByText("Optional details")).not.toBeInTheDocument();
-    await userEvent.click(screen.getByRole("button", { name: "Good question" }));
+    await userEvent.click(
+      screen.getByRole("button", { name: "Good question" }),
+    );
 
     await waitFor(() => expect(request).toHaveBeenCalledOnce());
     expect(JSON.parse(String(request.mock.calls[0]?.[1]?.body))).toMatchObject({
@@ -45,6 +47,7 @@ describe("QuestionFeedback", () => {
     );
     expect(screen.getByText("Optional details")).toBeVisible();
     await userEvent.click(screen.getByText("Wrong topic"));
+    await userEvent.click(screen.getByText("Answer is given away"));
     await userEvent.type(
       screen.getByPlaceholderText("Optional note"),
       "This belongs in Geography.",
@@ -54,7 +57,7 @@ describe("QuestionFeedback", () => {
     await waitFor(() => expect(request).toHaveBeenCalledTimes(2));
     expect(JSON.parse(String(request.mock.calls[1]?.[1]?.body))).toMatchObject({
       sentiment: "down",
-      reasons: ["wrong_topic"],
+      reasons: ["wrong_topic", "answer_given_away"],
       comment: "This belongs in Geography.",
     });
   });

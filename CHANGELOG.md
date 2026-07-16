@@ -6,6 +6,71 @@ release day to reconstruct them from commit history.
 
 ## Unreleased
 
+## 1.0.0-beta.2 - 2026-07-16
+
+### Added
+
+- Question Quality now shows every distinct submitted player answer with usage,
+  correctness, assistance, and answer-acceptance feedback counts. Individual
+  feedback cards also show the answer associated with the player's reaction.
+- A pack-scoped Question Index gives authorized reviewers a table of every
+  published question, its answer, classification, difficulty, answer mode,
+  editorial status, and unresolved quality flags, with direct links into review.
+- A dedicated Question Reviewer role can use the index, Question Quality queues,
+  editorial decisions, notes, and action-item exports without receiving broader
+  system-administrator access.
+- Reviewer decisions and global role changes now write their immutable audit
+  records in the same database transaction as the protected change.
+
+### Changed
+
+- The Question Index now shows attempts, correct answers, accuracy, and clearly
+  labeled player-feedback and formal-report indicators for every question.
+- Admin and reviewer tools now live in an expandable, role-aware **Admin**
+  submenu. Question Quality is the primary review destination, while its
+  supporting Question Index remains available inside the scoped review flow.
+- The Achievements page uses a denser table layout so more milestones fit on
+  screen while names, descriptions, rewards, and completion dates remain easy
+  to scan.
+- Unlocked question packs now combine total, answered, and correct counts into
+  one labeled color progress bar for faster comparison with less table clutter.
+- Authorized reviewers can open any enabled pack's scoped Question Quality
+  queue directly from the Question Packs page.
+- The Question Quality workspace now keeps its pack chooser collapsed while
+  reviewing, leaving only a compact current-pack progress row until an
+  administrator chooses to switch packs.
+- Question Quality hides aliases that only repeat the canonical answer,
+  including capitalization and surrounding-whitespace differences.
+- Question Reviewer feedback cards omit player names while retaining the answer
+  and aggregate evidence needed to evaluate the question.
+- Processed all 57 action items in the second production Question Quality
+  export: eight were already resolved by the broad catalog cleanup, and 49
+  received additional revisions or replacements based on reviewer notes and
+  previously unreviewed player feedback.
+- This beta.2 work now includes 196 revised questions relative to beta.1,
+  covering repetitive prompts, weak explanations, answer acceptance, topic and
+  subtopic placement, difficulty, answer mode, and source quality.
+- Replaced 21 repetitive battle-location questions with a broader mix of
+  civilization, political, cultural, diplomatic, and economic history.
+- Reclassified all 42 remaining General Knowledge questions into meaningful
+  topics and subtopics, and removed the catch-all category from future imports.
+- Reduced exact-year recall to 11 questions catalog-wide, retaining landmark dates
+  while replacing obscure release and event years with more useful knowledge.
+- Answer submission now uses clearer submitted/checking language, freezes the
+  timer immediately, and shows the point value awaiting server verification.
+- Answer results return sooner by parallelizing independent progress reads and
+  skipping achievement award checks that the player has already completed.
+- Mindspan now prepares the next question in the background after an answer and
+  starts its server-authoritative timer only when the player advances.
+- Players can flag questions whose answers are given away by their wording,
+  giving reviewers a specific reason to revise tautological prompts.
+
+### Fixed
+
+- Local Play controls now hydrate and respond when Mindspan is opened through
+  `start.bat` at `127.0.0.1`, and no longer remain visibly disabled while the
+  client-side game finishes loading.
+
 ## 1.0.0-beta.1 - 2026-07-15
 
 ### Added

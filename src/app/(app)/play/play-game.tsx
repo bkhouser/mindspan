@@ -5,7 +5,6 @@ import {
   useEffect,
   useRef,
   useState,
-  useSyncExternalStore,
   useTransition,
 } from "react";
 import {
@@ -21,6 +20,7 @@ import type {
   AttemptResult,
   ChoiceReveal,
   PlayMode,
+  PreparedQuestionPresentation,
   QuestionPresentation,
 } from "@/domain/types";
 import { Button } from "@/components/ui/button";
@@ -64,10 +64,6 @@ async function api<T>(url: string, body: unknown): Promise<T> {
   return json;
 }
 
-function subscribeToHydration() {
-  return () => undefined;
-}
-
 export function PlayGame({
   initialMode,
   initialSelectedId,
@@ -96,16 +92,14 @@ export function PlayGame({
   const [introVisible, setIntroVisible] = useState(showPlayIntro);
   const [introError, setIntroError] = useState<string>();
   const [advancingToNext, setAdvancingToNext] = useState(false);
-  const hydrated = useSyncExternalStore(
-    subscribeToHydration,
-    () => true,
-    () => false,
-  );
   const [, startIntroTransition] = useTransition();
   const submitting = useRef(false);
   const markingMediaReady = useRef(false);
   const autoStartAttempted = useRef(false);
   const questionFeedback = useRef<QuestionFeedbackHandle>(null);
+  const preparedNext = useRef<
+    Promise<PreparedQuestionPresentation | undefined> | undefined
+  >(undefined);
 
   function turnOffIntroduction() {
     setIntroVisible(false);
@@ -119,32 +113,46 @@ export function PlayGame({
     });
   }
 
-  const loadNext = useCallback(async (activeSession: string) => {
-    setPhase("loading");
-    setError(undefined);
-    setAnswer("");
-    setChoices(undefined);
-    setResult(undefined);
-    submitting.current = false;
-    try {
-      const next = await api<QuestionPresentation>(
-        `/api/play/sessions/${activeSession}/next`,
-        {},
-      );
-      setPresentation(next);
-      setChoices(next.initialChoices);
-      setRemainingMs(next.timeLimitSeconds * 1000);
-      setMediaReady(!next.media);
-      markingMediaReady.current = false;
-      setPhase("question");
-    } catch (requestError) {
-      setError(
-        requestError instanceof Error
-          ? requestError.message
-          : "Could not load a question",
-      );
-      setPhase("setup");
-    }
+  const showQuestion = useCallback((next: QuestionPresentation) => {
+    setPresentation(next);
+    setChoices(next.initialChoices);
+    setRemainingMs(next.timeLimitSeconds * 1000);
+    setMediaReady(!next.media);
+    markingMediaReady.current = false;
+    setPhase("question");
+  }, []);
+
+  const loadNext = useCallback(
+    async (activeSession: string) => {
+      setPhase("loading");
+      setError(undefined);
+      setAnswer("");
+      setChoices(undefined);
+      setResult(undefined);
+      submitting.current = false;
+      try {
+        const next = await api<QuestionPresentation>(
+          `/api/play/sessions/${activeSession}/next`,
+          {},
+        );
+        showQuestion(next);
+      } catch (requestError) {
+        setError(
+          requestError instanceof Error
+            ? requestError.message
+            : "Could not load a question",
+        );
+        setPhase("setup");
+      }
+    },
+    [showQuestion],
+  );
+
+  const prepareNext = useCallback((activeSession: string) => {
+    preparedNext.current = api<PreparedQuestionPresentation>(
+      `/api/play/sessions/${activeSession}/next`,
+      { prepareOnly: true },
+    ).catch(() => undefined);
   }, []);
 
   const start = useCallback(async () => {
@@ -183,10 +191,7 @@ export function PlayGame({
       setError(undefined);
       const frozenRemainingMs = timedOut
         ? 0
-        : Math.max(
-            0,
-            new Date(presentation.expiresAt).getTime() - Date.now(),
-          );
+        : Math.max(0, new Date(presentation.expiresAt).getTime() - Date.now());
       const clientElapsedMs = Math.max(
         0,
         presentation.timeLimitSeconds * 1000 - frozenRemainingMs,
@@ -206,6 +211,7 @@ export function PlayGame({
         setResult(response);
         setQuestionCount((count) => count + 1);
         setPhase("result");
+        if (sessionId) prepareNext(sessionId);
       } catch (requestError) {
         setError(
           requestError instanceof Error
@@ -214,21 +220,15 @@ export function PlayGame({
         );
         submitting.current = false;
         setRemainingMs(
-          Math.max(
-            0,
-            new Date(presentation.expiresAt).getTime() - Date.now(),
-          ),
+          Math.max(0, new Date(presentation.expiresAt).getTime() - Date.now()),
         );
         setPhase("question");
       }
     },
-    [presentation],
+    [prepareNext, presentation, sessionId],
   );
 
-  useEnterToAdvance(
-    phase === "result" && Boolean(sessionId),
-    advanceToNext,
-  );
+  useEnterToAdvance(phase === "result" && Boolean(sessionId), advanceToNext);
 
   async function advanceToNext() {
     if (!sessionId || advancingToNext) return;
@@ -238,7 +238,27 @@ export function PlayGame({
       setAdvancingToNext(false);
       return;
     }
-    await loadNext(sessionId);
+    const prepared = await preparedNext.current;
+    preparedNext.current = undefined;
+    if (prepared) {
+      setPhase("loading");
+      setError(undefined);
+      setAnswer("");
+      setChoices(undefined);
+      setResult(undefined);
+      submitting.current = false;
+      try {
+        const next = await api<QuestionPresentation>(
+          `/api/play/presentations/${prepared.id}/activate`,
+          {},
+        );
+        showQuestion(next);
+      } catch {
+        await loadNext(sessionId);
+      }
+    } else {
+      await loadNext(sessionId);
+    }
     setAdvancingToNext(false);
   }
 
@@ -373,8 +393,7 @@ export function PlayGame({
                   </li>
                 </ul>
                 <button
-                  className="mt-4 text-sm font-black text-[var(--brand)] hover:underline disabled:cursor-wait disabled:opacity-60"
-                  disabled={!hydrated}
+                  className="mt-4 text-sm font-black text-[var(--brand)] hover:underline"
                   onClick={turnOffIntroduction}
                   type="button"
                 >
@@ -395,8 +414,7 @@ export function PlayGame({
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
           {(["mixed", "topic", "pack"] as PlayMode[]).map((value) => (
             <button
-              className={`rounded-3xl border p-5 text-left font-black disabled:cursor-wait disabled:opacity-60 ${mode === value ? "border-emerald-300 bg-emerald-300/10" : "border-white/10 bg-white/[.035]"}`}
-              disabled={!hydrated}
+              className={`rounded-3xl border p-5 text-left font-black ${mode === value ? "border-emerald-300 bg-emerald-300/10" : "border-white/10 bg-white/[.035]"}`}
               key={value}
               onClick={() => {
                 setMode(value);
@@ -416,7 +434,6 @@ export function PlayGame({
           <select
             aria-label={mode === "topic" ? "Topic" : "Pack"}
             className="mt-5 min-h-12 w-full rounded-2xl border border-white/15 bg-[var(--surface)] px-4"
-            disabled={!hydrated}
             onChange={(event) => setSelectedId(event.target.value)}
             value={selectedId}
           >
@@ -435,7 +452,7 @@ export function PlayGame({
         ) : null}
         <Button
           className="mt-7 w-full sm:w-auto"
-          disabled={!hydrated || (mode !== "mixed" && !selectedId)}
+          disabled={mode !== "mixed" && !selectedId}
           onClick={start}
         >
           Start playing
@@ -527,9 +544,7 @@ export function PlayGame({
             <div className="mt-6 grid gap-3 md:grid-cols-2">
               <div
                 className={`rounded-2xl p-4 sm:p-5 ${
-                  result.correct
-                    ? "bg-emerald-300/[.06]"
-                    : "bg-rose-950/30"
+                  result.correct ? "bg-emerald-300/[.06]" : "bg-rose-950/30"
                 }`}
               >
                 <p className="text-[11px] font-black uppercase tracking-[.16em] text-[var(--muted)]">
@@ -674,7 +689,7 @@ export function PlayGame({
           <Clock3 size={16} />
           {mediaReady
             ? answerIsSubmitting
-              ? `Locked at ${Math.ceil(remainingMs / 1000)}s · ${livePoints} pts`
+              ? `Submitted with ${Math.ceil(remainingMs / 1000)}s left · ${livePoints} pts if correct`
               : `${Math.ceil(remainingMs / 1000)}s · ${livePoints} pts`
             : "Loading media…"}
         </span>
@@ -763,7 +778,7 @@ export function PlayGame({
             aria-live="polite"
             className="mt-3 text-sm font-bold text-[var(--brand)]"
           >
-            Answer locked. Checking it now…
+            Answer submitted. Checking it now…
           </p>
         ) : null}
         {error ? (

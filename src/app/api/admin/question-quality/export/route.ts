@@ -1,12 +1,13 @@
 import { NextResponse } from "next/server";
+import { canReviewQuestions } from "@/domain/authorization";
 import { ApiError, apiContext, errorResponse } from "@/lib/api";
 import { fetchAllPages } from "@/lib/supabase-pagination";
 
 export async function GET() {
   try {
     const { admin, profile } = await apiContext();
-    if (profile.role !== "sys_admin")
-      throw new ApiError("ADMIN_REQUIRED", 403);
+    if (!canReviewQuestions(profile.role))
+      throw new ApiError("QUESTION_REVIEWER_REQUIRED", 403);
 
     const [versions, feedback, reviews, reports] = await Promise.all([
       fetchAllPages((from, to) =>

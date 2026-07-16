@@ -5,6 +5,10 @@ scope. Items are candidates, not release commitments. Priority and scope should
 be revisited after observing real play patterns, support requests, content costs,
 and group behavior during beta.
 
+The release sequence below is the working delivery plan. Version targets express
+order and dependency, not promised dates. The detailed feature definitions later
+in this document remain the source of truth for behavior and acceptance criteria.
+
 ## Status guide
 
 - **Candidate** — worth exploring; requirements still need validation.
@@ -13,12 +17,258 @@ and group behavior during beta.
 - **In progress** — implementation has begun.
 - **Released** — available to players.
 
+## Release strategy
+
+### Planning confidence
+
+- **Committed:** the release boundary is understood and work should not expand
+  without an explicit scope decision.
+- **Planned:** the release is the preferred next home for the feature, but beta
+  evidence may change its exact contents.
+- **Directional:** the dependency order is intentional, while version numbers
+  and scope remain open to later validation.
+- **Unscheduled:** external rights, legal requirements, product validation, or a
+  major architecture decision must happen before assigning a version.
+
+Security fixes, scoring defects, data-integrity fixes, and materially incorrect
+questions may ship immediately rather than wait for their nearest roadmap
+release. Content-only updates may also ship as patch releases when they preserve
+pack contracts and pass the normal catalog review and production-data checks.
+
+### Release map
+
+| Target | Working title | Confidence | Primary outcome |
+| --- | --- | --- | --- |
+| **1.0.0-beta.2** | Reviewer Workbench | In progress | Make question review fast, scoped, evidence-rich, and safe to delegate. |
+| **1.0.0-beta.3** | Catalog Certification | Committed | Finish systematic review of the launch catalog and resolve its action items. |
+| **1.0.0-rc.1** | Safe Production | Committed | Prove upgrades, support, recovery, accessibility, and production operations. |
+| **1.0.0** | First Production Release | Gate-driven | Promote the proven release candidate without adding feature scope. |
+| **1.1.0** | Personalization and Practice | Planned | Let each player shape what and how they practice. |
+| **1.2.0** | Progression and Discovery | Planned after more play data | Create renewable Insight and clearer long-term progression. |
+| **1.3.0** | Operations and Group Polish | Planned | Strengthen administration, quality intelligence, media, and private groups. |
+| **1.4.0** | AI Explanations | Directional | Establish grounded, reviewable, cost-controlled AI assistance. |
+| **1.5.0** | Personalized AI Tutor | Directional | Turn demonstrated weak areas into private, structured lessons. |
+| **1.6.0** | Custom AI Packs | Directional | Generate premium private practice packs with validation and refunds. |
+| **2.0.0** | Live and Broader Social Play | Directional | Add public competition, user conversation, and synchronous rounds safely. |
+
+### 1.0.0-beta.2 — Reviewer Workbench
+
+This is the current working release. Freeze its scope around work already in
+progress rather than adding another major player system.
+
+Included:
+
+- Dedicated Question Reviewer authorization with immediate revocation, RLS,
+  and server-side capability checks.
+- Pack-scoped Question Index and direct navigation into the selected question's
+  review card.
+- Attempt/correct counts, player-flag indicators, answer distributions, and the
+  submitted answer associated with answer-acceptance feedback.
+- The role-aware Admin submenu and the first separation of Question Quality from
+  broader system administration.
+- Current Question Quality flow improvements, pack review shortcuts, compact
+  achievement and pack-progress presentation, answer-flow responsiveness, and
+  the accumulated question-catalog corrections in `CHANGELOG.md`.
+
+Exit gate:
+
+- User, reviewer, administrator, disabled-user, and revoked-reviewer tests pass
+  at the page, action, API, and database-policy boundaries.
+- Production migrations are additive and preserve every existing account,
+  group, attempt, mastery record, feedback item, achievement, Insight entry,
+  pack unlock, and question version.
+- The 1,100-question catalog validates, loads idempotently, and retains its pack
+  size and availability contracts after the current revisions.
+- A reviewer can move from pack selection to question index, review, notes,
+  feedback resolution, and action-item export without broader admin access.
+
+### 1.0.0-beta.3 — Catalog Certification
+
+Use the new workbench to finish the editorial job required for a credible 1.0.
+This release is primarily content and quality work, not another gameplay expansion.
+
+Included:
+
+- Complete pack-by-pack review of every current published question version, with
+  an explicit decision or documented waiver for each.
+- Add the reviewer-entered half of the dual quality-rating system so reviewers
+  can mark excellent, acceptable, weak, and replacement-candidate questions
+  while moving through the catalog. Export the rating and note.
+- Resolve or consciously defer all player flags, rejected questions, missing
+  aliases, weak explanations, poor distractors, wrong topics/subtopics,
+  repetitive prompt patterns, and difficulty problems found during review.
+- Replace or rebalance questions as needed while maintaining intended pack sizes
+  and creating immutable versions for every published correction.
+- Gather enough real attempt and feedback evidence to finalize, but not yet
+  over-trust, the later system-generated quality formula.
+
+Exit gate:
+
+- Every launch-catalog question is reviewed at its current immutable version.
+- No unresolved critical correctness, ambiguity, answer-acceptance, licensing,
+  or age-appropriateness issue remains.
+- Each pack has a documented distribution of topic, subtopic, difficulty,
+  answer mode, reviewer rating, and reviewed/waived status.
+- Catalog change counts and reviewer action logs are ready for release notes and
+  production verification.
+
+### 1.0.0-rc.1 — Safe Production
+
+Stop feature growth and prove that the product can be operated safely with real
+players and durable data.
+
+Included:
+
+- Graceful application-update mode that drains active questions, blocks new
+  presentations, preserves retry-safe answer finalization, and recovers from a
+  failed deployment or stale updating state.
+- A small system-admin support slice: find a user, understand account status,
+  send a normal password-reset flow, revoke sessions, disable/reactivate access,
+  and see the resulting audit record. Broader analytics remain in 1.3.0.
+- Full existing-user upgrade tests, backup and rollback rehearsal, recovery and
+  email smoke tests, browser/mobile checks, accessibility review, performance
+  checks, and production logging/health verification.
+- Final copy, empty states, error handling, update notes, support guidance, and
+  operational documentation.
+
+Exit gate:
+
+- At least one real production-style update is tested while an answer is active,
+  including retry after restart and rollback.
+- Authentication, confirmation, password recovery, session persistence, group
+  visibility, pack ownership, scoring, feedback, and cross-device progress pass
+  existing-user acceptance tests.
+- No open severity-one or severity-two defect remains, and lower-severity issues
+  are explicitly accepted or assigned to a later release.
+- The release candidate runs through a beta soak without unexplained data drift,
+  recurring login failure, or catalog-blocking feedback.
+
+### 1.0.0 — First Production Release
+
+Promote the release candidate after its gates pass. Do not add a new feature
+between RC and 1.0; only fixes, final content corrections, and operational
+hardening belong in this release. The defining 1.0 promise is a reviewed catalog,
+durable progress, fair server-authoritative play, private groups, and a deployment
+process that protects active players and existing production data.
+
+### 1.1.0 — Personalization and Practice
+
+Give players more control without changing the meaning of scores or leaderboards.
+
+Included:
+
+- Per-topic **Never / Less / Normal / More / Max** frequency preferences in
+  onboarding and Profile.
+- The depth-versus-breadth scheduling preference for Mixed Play.
+- Difficulty filters for Play and Review.
+- Achievement progress counters and recent-first completed achievements.
+- Advanced review filters, bookmarks, due-review queues, and noncompetitive
+  immediate retry of missed questions.
+- Per-question typing-time allowances that preserve the normal scoring window.
+
+Gate: deterministic scheduling simulations must demonstrate that preferences
+change eligibility and weighting as described without altering scoring, mastery,
+review obligations, or explicit Topic/Pack Play.
+
+### 1.2.0 — Progression and Discovery
+
+Turn Insight into a renewable, understandable economy after enough production
+data exists to model it responsibly.
+
+Included:
+
+- Player levels derived rebuildably from finalized career points.
+- Idempotent retroactive level rewards and renewable Insight.
+- Optional minimum-level requirements for selected expansion packs, with all
+  existing ownership grandfathered.
+- Low-novel-question-pool prompts and relevant pack recommendations.
+- The first achievement-unlocked lifelines, priced and penalized so they cannot
+  improve competitive value unfairly.
+
+Gate: simulate thresholds, rewards, unlock timing, and farming resistance against
+real beta histories. Existing players must receive exact retroactive credit with
+no duplicated Insight and no loss of production state.
+
+### 1.3.0 — Operations and Group Polish
+
+Finish the operational tools that become more valuable as the user and catalog
+counts grow.
+
+Included:
+
+- Complete the separate Admin pages and role-aware navigation for users, groups,
+  packs, taxonomy, achievements/Insight, media, feedback, settings, and audit.
+- Expand the system-admin user detail page with aggregate gameplay history,
+  group membership, support events, and high-friction audited actions.
+- Add the confidence-aware system half of dual question-quality ratings once
+  attempt and distinct-player thresholds are supportable.
+- Add controlled content correction and attempt regrading with compensating,
+  auditable updates.
+- Add the useful Home group-status panel, richer licensed multimedia and
+  transcripts, and opt-in reminders/healthy-session controls.
+
+Gate: administrative pages must isolate their data and permissions, system
+ratings must show insufficient evidence rather than false precision, and no
+quality score may automatically retire content or alter player results.
+
+### 1.4.0 — AI Explanations
+
+Build the shared AI foundation once ordinary explanations, question review, and
+operations are mature.
+
+Included:
+
+- Post-answer and Review-page **Tell me more** explanations grounded in the
+  immutable reviewed question version.
+- Shared structured-output validation, caching, moderation, rate limits, cost
+  accounting, spend ceilings, invalidation, regeneration, and AI feedback.
+- An administrator-only AI content workshop for draft aliases, distractors,
+  subtopics, explanations, and source-search suggestions. Humans remain the only
+  publishers.
+
+Gate: a fixed cross-topic evaluation set must meet accuracy, latency, safety,
+and cost budgets, and an AI failure must never interrupt normal answer feedback.
+
+### 1.5.0 — Personalized AI Tutor
+
+Use the proven AI foundation to build resumable private lessons from the
+player's interests, limited evidence, recurring misses, and due reviews. Lessons
+remain noncompetitive; only reviewed Mindspan questions can add normal mastery
+or points. Measure success through later recall rather than opens or reading time.
+
+### 1.6.0 — Custom AI Packs
+
+Offer premium private, practice-only packs with an up-front Insight quote,
+asynchronous generation, separate verification, source retention, validation,
+transactional charging, and automatic refund on failure. Shared, competitive,
+or marketplace use requires a separate future review path.
+
+### 2.0.0 — Live and Broader Social Play
+
+Treat public leaderboards, group chat/moderation, and synchronous multiplayer as
+one major product expansion. They introduce public identity, abuse prevention,
+user-authored content, real-time infrastructure, latency fairness, moderation,
+and new privacy expectations. Preserve private asynchronous training as the
+default even after these features exist.
+
+### Unscheduled and externally gated
+
+- Licensed Jeopardy! archive packs require documented content and trademark
+  rights before implementation.
+- Native mobile apps wait for responsive-web retention and notification evidence.
+- Child and guardian accounts wait for legal, consent, privacy, content, and
+  guardian-control design.
+- Additional beginner packs and ordinary catalog expansions can ship as reviewed
+  content releases without waiting for a major feature version.
+
 ## AI-assisted learning
 
 ### AI “Tell me more” explanations
 
 **Status:** Defined  
 **Priority:** High candidate  
+**Target:** 1.4.0 — AI Explanations
+
 **Surfaces:** Post-answer feedback and Review history
 
 Add a **Tell me more** button after a question has been finalized. It requests a
@@ -85,6 +335,8 @@ change.
 
 **Status:** Defined  
 **Priority:** High candidate  
+**Target:** 1.5.0 — Personalized AI Tutor
+
 **Depends on:** AI “Tell me more” generation, grounding, caching, safety, and
 cost controls
 
@@ -149,7 +401,9 @@ Acceptance criteria:
 
 ### AI-assisted content workshop
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.4.0 — AI Explanations
 
 Let system administrators request draft aliases, distractors, subtopics,
 explanations, and source-search suggestions. All generated content must enter the
@@ -160,6 +414,8 @@ existing review workflow; the model must never publish questions directly.
 **Status:** Candidate
 
 **Priority:** Premium candidate
+
+**Target:** 1.6.0 — Custom AI Packs
 
 **Depends on:** AI content generation, source grounding, validation, moderation,
 cost controls, and pack-generation economics
@@ -223,9 +479,12 @@ Acceptance criteria:
 
 ### Player levels and renewable Insight
 
-**Status:** Defined
+**Status:** Defined — the historical attempt data required for a retroactive
+rollout is already available, but levels and rewards are not implemented.
 
 **Priority:** High candidate
+
+**Target:** 1.2.0 — Progression and Discovery
 
 **Depends on:** Initial private-beta scoring data and economy simulation
 
@@ -305,6 +564,8 @@ Acceptance criteria:
 
 **Priority:** High candidate
 
+**Target:** 1.1.0 — Personalization and Practice
+
 **Surface:** Player preferences and Mixed Play
 
 Add a player-controlled slider with **Increase depth of knowledge** at one end,
@@ -352,9 +613,96 @@ Acceptance criteria:
 - The setting works with keyboard input, exposes its value to assistive
   technology, and persists across sessions and devices.
 
+### Per-topic play frequency preferences
+
+**Status:** Defined
+
+**Priority:** High candidate
+
+**Target:** 1.1.0 — Personalization and Practice
+
+**Surfaces:** Onboarding, Player profile, and Mixed Play
+
+Replace the binary topic-interest checkboxes in onboarding with an accessible
+five-stop slider for every enabled main topic. Each slider answers **How often do
+you want questions from this topic?** using these named values:
+
+1. **Never**
+2. **Less**
+3. **Normal** (default)
+4. **More**
+5. **Max**
+
+Show the same controls in a **Topic preferences** section on the player's
+private Profile page so the settings can be reviewed and changed at any time.
+Saving a change updates Mixed Play across devices; it does not alter historical
+attempts, mastery, points, achievements, or leaderboard results.
+
+Selection behavior:
+
+- Mixed Play first weights eligible topics by the player's selected frequency,
+  then applies the normal proficiency, difficulty, novelty, and review rules
+  within the chosen topic.
+- Use bounded, explainable scheduling weights such as **Never = 0**, **Less =
+  0.5**, **Normal = 1**, **More = 2**, and **Max = 4**. Validate the final values
+  through deterministic simulation and beta play data before release.
+- **Never** excludes that topic from Mixed Play, including automatic reviews.
+  A player may still deliberately start Topic Play or choose a pack containing
+  that topic.
+- **Max** strongly favors a topic but does not make it exclusive while other
+  topics remain eligible.
+- Explicit Topic Play and Pack Play take precedence over these preferences.
+- The future depth-versus-breadth preference multiplies these topic weights; it
+  must never override a topic set to **Never**.
+- If a selected topic has no eligible questions, redistribute its probability
+  among the remaining eligible topics rather than failing the session.
+
+Data and migration principles:
+
+- Persist one validated preference value per user and enabled main topic, with
+  **Normal** as the database and onboarding default.
+- Backfill existing players without deleting their interests: topics they
+  previously selected become **More**, while unselected topics become
+  **Normal**. Let players review these converted settings on Profile.
+- Preserve preferences when a topic is disabled so they can be restored if it
+  is re-enabled. Newly created topics begin at **Normal** for existing players
+  unless the player changes them.
+- Record the topic-weighting algorithm version with each play session so future
+  scheduling changes remain auditable.
+- Keep topic preferences private; shared profiles and group leaderboards do not
+  expose them.
+
+Interface and accessibility:
+
+- Present each control as a visually compact five-position slider with the
+  current named value always visible; do not rely on position or color alone.
+- Support arrow keys, touch, mouse, screen readers, visible focus, and reduced
+  motion. Announce both the topic and named value to assistive technology.
+- Default every onboarding slider to **Normal**, so a new player can continue
+  without configuring all eight topics individually.
+- Require at least one topic above **Never** and explain the issue inline if the
+  player attempts to exclude every topic from Mixed Play.
+- Include a one-click **Reset all to Normal** action on Profile.
+
+Acceptance criteria:
+
+- A new player sees all enabled topics at **Normal**, can complete onboarding
+  without adjusting them, and can later edit the same values on Profile.
+- A deterministic selection simulation shows the expected relative topic mix
+  for Less, Normal, More, and Max, with no Mixed Play questions from topics set
+  to Never.
+- Preference changes affect the next newly selected Mixed Play question without
+  changing an already presented or prepared question.
+- Concurrent or retried saves are transactional and cannot leave a player with
+  missing, duplicate, or invalid topic preferences.
+- Existing accounts, groups, attempts, mastery, achievements, feedback, media,
+  pack ownership, and all other production state remain intact during migration.
+
 ### Achievement-unlocked lifelines
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.2.0 — Progression and Discovery
 
 Add 50/50, timer extension, skip, and similar assistance events. Lifelines may
 cost Insight, reduce the available point ceiling, require an achievement, or use
@@ -363,7 +711,9 @@ auditable through the existing assistance-event model.
 
 ### Per-question typing-time allowance
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.1.0 — Personalization and Practice
 
 Allow content authors to add a small, explicit typing allowance to questions
 whose expected answers are unusually long, such as multi-word names, titles, or
@@ -400,7 +750,9 @@ Acceptance criteria:
 
 ### Achievement progress counters and recent-first ordering
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.1.0 — Personalization and Practice
 
 Make achievement goals feel attainable by showing measurable progress toward
 each unfinished achievement. For example, **Become ranked in five topics**
@@ -428,7 +780,9 @@ Acceptance criteria:
 
 ### Advanced review tools
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.1.0 — Personalization and Practice
 
 Add incorrect-only and topic filters, bookmarks, custom review sessions,
 retention-due queues, and an option to retry a missed question without granting
@@ -436,7 +790,9 @@ competitive points immediately.
 
 ### Difficulty filters for Play and Review
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.1.0 — Personalization and Practice
 
 Let players select one or more difficulty levels, shown with the existing
 one-to-five-star scale, when starting play or browsing their answer history.
@@ -469,7 +825,9 @@ Acceptance criteria:
 
 ### Content correction and attempt regrading
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.3.0 — Operations and Group Polish
 
 Give system administrators a controlled workflow for correcting a published
 answer or collision rule and regrading affected attempts. Regrading must update
@@ -478,7 +836,9 @@ Insight consistently while preserving a complete audit record.
 
 ### Reminders and healthy-session controls
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.3.0 — Operations and Group Polish
 
 Offer opt-in practice reminders, configurable notification schedules, and better
 break controls. Mindspan should remain playable ad hoc and indefinitely; reminders
@@ -486,18 +846,72 @@ must not turn the product into a mandatory daily trainer.
 
 ### Expanded multimedia play
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.3.0 — Operations and Group Polish
 
 Grow the licensed image, audio, and video catalog; add post-answer transcripts,
 playback accessibility, and media-specific review tools.
 
+### Low novel-question pool prompts
+
+**Status:** Scheduled
+
+**Target:** 1.2.0 — Progression and Discovery
+
+Let players know when the supply of unanswered questions available through their
+owned packs is becoming small, and suggest adding another pack to keep play
+fresh. This should be a helpful, occasional discovery prompt rather than a sales
+interruption.
+
+Proposed behavior:
+
+- Measure each player's remaining eligible, unanswered questions across their
+  owned and currently enabled packs. Keep due reviews available, but calculate
+  this signal from novel questions so repeated questions do not conceal a
+  shrinking pool.
+- Trigger only after the remaining pool crosses a tunable absolute and
+  percentage threshold, such as fewer than 20 novel questions or less than 15%
+  of the player's accessible catalog. Require enough play history to avoid
+  prompting a brand-new player immediately.
+- Show the prompt between questions, after a session, on Home, or on the Packs
+  page—never over an active timed question or answer explanation.
+- Recommend one to three globally enabled packs based on the player's interests,
+  weaker topics, desired depth-versus-breadth preference, price, and level
+  eligibility. Clearly show whether each suggestion is available now or what is
+  still required to unlock it.
+- Explain that the player can continue with reviews and previously seen
+  questions without purchasing anything. Include direct actions to browse packs,
+  dismiss the prompt, or snooze it.
+- Apply a long cooldown after dismissal and do not prompt again until the pool
+  has materially decreased, a newly suitable pack becomes available, or the
+  player opens pack recommendations voluntarily.
+
+Acceptance criteria:
+
+- Counts use unique unanswered question versions available to the player and
+  respect pack ownership, global enablement, expiration, retirement, and other
+  eligibility rules.
+- No prompt appears when there is no suitable pack to recommend.
+- The prompt never interrupts a timed question and is keyboard accessible,
+  mobile friendly, dismissible, and frequency capped.
+- Product telemetry records the remaining-pool range, prompt impressions,
+  dismissals, pack-page visits, and resulting unlocks without exposing answer
+  history to other players.
+- Thresholds and cooldowns are configuration values so beta behavior can be
+  tuned from real play data without a code redesign.
+
 ### Beginner-friendly question packs
 
-**Status:** Candidate
+**Status:** Released — **Easy Does It** and **Trivia 101** are in the current
+catalog; additional beginner packs may ship as content releases.
 
-Add welcoming, intentionally easy packs for new players, casual groups, and
-players building confidence in weaker subjects. Possible names include **Easy
-Does It**, **Warm-Up Round**, **Trivia 101**, and **Confidence Builder**.
+**Target:** Released baseline; future additions are not tied to a feature version.
+
+Continue adding welcoming, intentionally easy packs for new players, casual
+groups, and players building confidence in weaker subjects. Existing examples
+are **Easy Does It** and **Trivia 101**; future possibilities include **Warm-Up
+Round** and **Confidence Builder**.
 
 Target an average difficulty around 1.5–2.0/5 with clear wording, familiar
 subjects, useful explanations, and enough breadth to introduce several main
@@ -513,6 +927,8 @@ confirms that the name can be used.
 ### Licensed Jeopardy! archive expansion packs
 
 **Status:** Candidate  
+**Target:** Unscheduled — external license and trademark gate
+
 **Dependency:** Content license and trademark review
 
 Offer themed expansion packs built from actual historical Jeopardy! clues and
@@ -536,7 +952,9 @@ without deleting ownership or historical attempt records.
 
 ### Group status panel on Home
 
-**Status:** Candidate
+**Status:** Scheduled
+
+**Target:** 1.3.0 — Operations and Group Polish
 
 Replace the removed group-count box with a useful summary: recent group activity,
 coverage gaps, current leaders, invitations, and suggested topics where the group
@@ -546,6 +964,8 @@ needs more depth.
 
 **Status:** Candidate
 
+**Target:** 2.0.0 — Live and Broader Social Play (directional)
+
 Allow groups to opt into broader competition without exposing private profiles or
 answer histories. Define minimum evidence and anti-abuse rules before enabling
 public ranking.
@@ -554,12 +974,16 @@ public ranking.
 
 **Status:** Candidate
 
+**Target:** 2.0.0 — Live and Broader Social Play (directional)
+
 Add lightweight group conversation around activity and questions. Introduce group
 admin moderation permissions only when user-authored content exists.
 
 ### Synchronous multiplayer
 
 **Status:** Candidate
+
+**Target:** 2.0.0 — Live and Broader Social Play (directional)
 
 Add hosted live rounds with synchronized questions, answer locking, host controls,
 latency-tolerant timers, and post-game scoring. Preserve asynchronous training as
@@ -569,7 +993,9 @@ the primary experience.
 
 ### Question reviewer role
 
-**Status:** Defined
+**Status:** In progress
+
+**Target:** 1.0.0-beta.2 — Reviewer Workbench
 
 **Priority:** High candidate
 
@@ -636,7 +1062,9 @@ Acceptance criteria:
 
 ### Dual question-quality ratings
 
-**Status:** Defined
+**Status:** Scheduled
+
+**Target:** Reviewer rating in 1.0.0-beta.3; system rating in 1.3.0
 
 **Priority:** High candidate
 
@@ -764,7 +1192,9 @@ Acceptance criteria:
 
 ### System-admin user detail and support tools
 
-**Status:** Defined
+**Status:** Scheduled
+
+**Target:** Essential support actions in 1.0.0-rc.1; full page in 1.3.0
 
 **Priority:** High candidate
 
@@ -860,7 +1290,10 @@ Acceptance criteria:
 
 ### Separate admin pages and navigation
 
-**Status:** Defined
+**Status:** In progress — the role-aware submenu is implemented for the
+currently released Overview, Question Quality, and Questions destinations.
+
+**Target:** Reviewer-facing foundation in 1.0.0-beta.2; full split in 1.3.0
 
 **Priority:** High candidate
 
@@ -951,7 +1384,9 @@ Acceptance criteria:
 
 ### Graceful application updates
 
-**Status:** Defined
+**Status:** Scheduled
+
+**Target:** 1.0.0-rc.1 — Safe Production
 
 **Priority:** High candidate
 
@@ -1009,12 +1444,16 @@ Acceptance criteria:
 
 **Status:** Candidate
 
+**Target:** Unscheduled — validate retention and notification needs first
+
 Consider native or installable app experiences after the responsive web beta
 establishes retention and notification needs.
 
 ### Child and guardian accounts
 
 **Status:** Candidate
+
+**Target:** Unscheduled — legal, consent, privacy, and safety gate
 
 Explore younger-user support only after legal, consent, privacy, content, and
 guardian-control requirements are fully defined. The current product remains 13+.

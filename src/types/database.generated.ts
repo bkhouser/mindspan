@@ -1159,6 +1159,7 @@ export type Database = {
       }
       question_presentations: {
         Row: {
+          activated_at: string | null
           algorithm_version: string
           choices_revealed: boolean
           expires_at: string
@@ -1178,6 +1179,7 @@ export type Database = {
           user_id: string
         }
         Insert: {
+          activated_at?: string | null
           algorithm_version: string
           choices_revealed?: boolean
           expires_at: string
@@ -1197,6 +1199,7 @@ export type Database = {
           user_id: string
         }
         Update: {
+          activated_at?: string | null
           algorithm_version?: string
           choices_revealed?: boolean
           expires_at?: string
@@ -1846,6 +1849,7 @@ export type Database = {
           slug: string
         }[]
       }
+      can_review_questions: { Args: { check_user?: string }; Returns: boolean }
       create_group_with_admin: {
         Args: { group_description?: string; group_name: string }
         Returns: string
@@ -1891,6 +1895,24 @@ export type Database = {
         Returns: boolean
       }
       is_sys_admin: { Args: { check_user?: string }; Returns: boolean }
+      question_quality_answer_summary_v1: {
+        Args: { p_question_version_id: string }
+        Returns: {
+          acceptance_flag_count: number
+          answer_text: string
+          assisted_count: number
+          attempt_count: number
+          correct_count: number
+        }[]
+      }
+      question_quality_pack_attempt_summary_v1: {
+        Args: { p_pack_id: string }
+        Returns: {
+          attempt_count: number
+          correct_count: number
+          question_version_id: string
+        }[]
+      }
       question_quality_pack_summary_v1: {
         Args: never
         Returns: {
@@ -1919,6 +1941,21 @@ export type Database = {
           target_admin: string
           target_question: string
           target_topic: string
+        }
+        Returns: undefined
+      }
+      save_question_editorial_review_v1: {
+        Args: {
+          p_notes?: string
+          p_question_version_id: string
+          p_verdict: string
+        }
+        Returns: undefined
+      }
+      set_user_role_v1: {
+        Args: {
+          p_role: Database["public"]["Enums"]["user_role"]
+          p_user_id: string
         }
         Returns: undefined
       }
@@ -1961,7 +1998,7 @@ export type Database = {
       media_kind: "image" | "audio" | "video"
       play_mode: "mixed" | "topic" | "pack"
       question_status: "draft" | "review" | "published" | "retired"
-      user_role: "user" | "sys_admin"
+      user_role: "user" | "question_reviewer" | "sys_admin"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -2104,7 +2141,7 @@ export const Constants = {
       media_kind: ["image", "audio", "video"],
       play_mode: ["mixed", "topic", "pack"],
       question_status: ["draft", "review", "published", "retired"],
-      user_role: ["user", "sys_admin"],
+      user_role: ["user", "question_reviewer", "sys_admin"],
     },
   },
 } as const

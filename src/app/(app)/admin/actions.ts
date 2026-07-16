@@ -52,22 +52,18 @@ export async function togglePack(formData: FormData) {
 }
 
 export async function updateUserRole(formData: FormData) {
-  const { user } = await requireSysAdmin();
+  const { supabase } = await requireSysAdmin();
   const input = z
-    .object({ userId: z.string().uuid(), role: z.enum(["user", "sys_admin"]) })
+    .object({
+      userId: z.string().uuid(),
+      role: z.enum(["user", "question_reviewer", "sys_admin"]),
+    })
     .parse(Object.fromEntries(formData));
-  const admin = createAdminClient();
-  await admin
-    .from("profiles")
-    .update({ role: input.role, updated_at: new Date().toISOString() })
-    .eq("id", input.userId);
-  await admin.from("admin_audit_log").insert({
-    actor_user_id: user.id,
-    action: "user.role_changed",
-    target_table: "profiles",
-    target_id: input.userId,
-    after_data: { role: input.role },
+  const { error } = await supabase.rpc("set_user_role_v1", {
+    p_role: input.role,
+    p_user_id: input.userId,
   });
+  if (error) throw error;
   revalidatePath("/admin");
 }
 

@@ -871,14 +871,7 @@ const packDefinitions = [
   },
   {
     slug: "history-starter",
-    difficulty: [14, 19, 29, 19, 14],
-    specs: [
-      specs.eventYear(19),
-      specs.battleLocation(19),
-      specs.treatyYear(19),
-      specs.empireCapital(19),
-      specs.monarchCountry(19),
-    ],
+    curated: true,
   },
   {
     slug: "geography-starter",
@@ -906,22 +899,20 @@ const packDefinitions = [
     slug: "arts-literature-starter",
     difficulty: [14, 19, 29, 19, 14],
     specs: [
-      specs.paintingArtist(19),
-      specs.bookAuthor(19),
-      specs.sculptureArtist(19),
-      specs.buildingArchitect(19),
-      specs.bookYear(19),
+      specs.paintingArtist(24),
+      specs.bookAuthor(24),
+      specs.sculptureArtist(24),
+      specs.buildingArchitect(23),
     ],
   },
   {
     slug: "film-television-starter",
     difficulty: [14, 19, 29, 19, 14],
     specs: [
-      specs.filmDirector(19),
-      specs.filmYear(19),
-      specs.filmCountry(19),
-      specs.televisionCreator(19),
-      specs.filmComposer(19),
+      specs.filmDirector(24),
+      specs.filmCountry(24),
+      specs.televisionCreator(23),
+      specs.filmComposer(24),
     ],
   },
   {
@@ -950,33 +941,25 @@ const packDefinitions = [
     slug: "space-and-beyond",
     difficulty: [0, 0, 10, 30, 10],
     specs: [
-      specs.spacecraftOperator(10),
-      specs.spacecraftLaunchYear(10),
-      specs.moonParent(10),
-      specs.scientistField(10),
-      specs.elementNumber(10),
+      specs.spacecraftOperator(12),
+      specs.spacecraftLaunchYear(2),
+      specs.moonParent(12),
+      specs.scientistField(12),
+      specs.elementNumber(12),
     ],
   },
   {
     slug: "world-turning-points",
-    difficulty: [5, 10, 20, 10, 5],
-    specs: [
-      specs.eventYear(10, "turning-point-year", "Turning Points"),
-      specs.battleLocation(10),
-      specs.treatyYear(10),
-      specs.empireCapital(10),
-      specs.monarchCountry(10),
-    ],
+    curated: true,
   },
   {
     slug: "masterworks",
     difficulty: [5, 10, 20, 10, 5],
     specs: [
-      specs.paintingArtist(10),
-      specs.bookAuthor(10),
-      specs.sculptureArtist(10),
-      specs.buildingArchitect(10),
-      specs.bookYear(10),
+      specs.paintingArtist(13),
+      specs.bookAuthor(13),
+      specs.sculptureArtist(13),
+      specs.buildingArchitect(11),
     ],
   },
   {
@@ -1008,11 +991,11 @@ const packDefinitions = [
     slug: "trivia-101",
     difficulty: [20, 18, 10, 2, 0],
     specs: [
-      specs.countryContinent(7),
-      specs.elementNumber(7, true),
-      specs.eventYear(6, "easy-event-year", "World Events"),
-      specs.mountainCountry(6),
-      specs.teamSport(6),
+      specs.countryContinent(8),
+      specs.elementNumber(8, true),
+      specs.eventYear(2, "easy-event-year", "World Events"),
+      specs.mountainCountry(7),
+      specs.teamSport(7),
       specs.instrumentOrigin(6),
       specs.languageScript(6),
       specs.holidayCountry(6),
@@ -1021,20 +1004,37 @@ const packDefinitions = [
 ];
 
 const selectedPack = process.argv[2];
+const selectedDefinition = selectedPack
+  ? packDefinitions.find((definition) => definition.slug === selectedPack)
+  : null;
+if (selectedPack && !selectedDefinition)
+  throw new Error(`Unknown pack: ${selectedPack}`);
+if (selectedDefinition?.curated)
+  throw new Error(
+    `${selectedPack} is curated and cannot be overwritten by the automatic generator`,
+  );
+
+const curatedPackSlugs = new Set(
+  packDefinitions
+    .filter((definition) => definition.curated)
+    .map((definition) => definition.slug),
+);
 const globalPrompts = new Set();
-if (selectedPack)
-  for (const file of readdirSync(outputDirectory).filter(
-    (name) => name.endsWith(".json") && name !== `${selectedPack}.json`,
-  )) {
-    const questions = JSON.parse(
-      readFileSync(resolve(outputDirectory, file), "utf8"),
-    );
-    for (const question of questions)
-      globalPrompts.add(`${question.topicSlug}|${normalize(question.prompt)}`);
-  }
+for (const file of readdirSync(outputDirectory).filter((name) => {
+  if (!name.endsWith(".json")) return false;
+  if (selectedPack) return name !== `${selectedPack}.json`;
+  return curatedPackSlugs.has(name.replace(/\.json$/, ""));
+})) {
+  const questions = JSON.parse(
+    readFileSync(resolve(outputDirectory, file), "utf8"),
+  );
+  for (const question of questions)
+    globalPrompts.add(`${question.topicSlug}|${normalize(question.prompt)}`);
+}
 
 for (const pack of packDefinitions.filter(
-  (definition) => !selectedPack || definition.slug === selectedPack,
+  (definition) =>
+    !definition.curated && (!selectedPack || definition.slug === selectedPack),
 )) {
   const groups = [];
   for (const spec of pack.specs) {

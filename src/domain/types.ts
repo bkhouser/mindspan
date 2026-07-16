@@ -11,7 +11,7 @@ export const TOPIC_SLUGS = [
 
 export type TopicSlug = (typeof TOPIC_SLUGS)[number];
 export type Difficulty = 1 | 2 | 3 | 4 | 5;
-export type UserRole = "user" | "sys_admin";
+export type UserRole = "user" | "question_reviewer" | "sys_admin";
 export type GroupRole = "member" | "admin";
 export type PlayMode = "mixed" | "topic" | "pack";
 export type QuestionStatus = "draft" | "review" | "published" | "retired";
@@ -39,6 +39,10 @@ export interface QuestionPresentation {
   expiresAt: string;
   mediaLoadDeadline: string | null;
   initialChoices?: ChoiceReveal;
+}
+
+export interface PreparedQuestionPresentation {
+  id: string;
 }
 
 export interface ChoiceReveal {

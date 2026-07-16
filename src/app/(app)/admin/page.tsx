@@ -17,8 +17,8 @@ import {
   togglePack,
   updateFeedbackStatus,
   updateGlobalTimer,
-  updateUserRole,
 } from "./actions";
+import { UserRoleControl } from "./user-role-control";
 
 export default async function AdminPage({
   searchParams,
@@ -121,9 +121,7 @@ export default async function AdminPage({
                 (feedbackReports?.length ?? 0) +
                 (questionFeedbackCount ?? 0)}
             </p>
-            <span className="text-sm text-[var(--muted)]">
-              Quality signals
-            </span>
+            <span className="text-sm text-[var(--muted)]">Quality signals</span>
           </Card>
         </Link>
       </section>
@@ -233,17 +231,11 @@ export default async function AdminPage({
                 <span className="min-w-0 flex-1 truncate text-sm font-bold">
                   {profile.display_name}
                 </span>
-                <form action={updateUserRole}>
-                  <input name="userId" type="hidden" value={profile.id} />
-                  <input
-                    name="role"
-                    type="hidden"
-                    value={profile.role === "sys_admin" ? "user" : "sys_admin"}
-                  />
-                  <button className="rounded-full bg-white/5 px-3 py-1.5 text-xs font-bold">
-                    {profile.role}
-                  </button>
-                </form>
+                <UserRoleControl
+                  currentRole={profile.role}
+                  displayName={profile.display_name}
+                  userId={profile.id}
+                />
               </div>
             ))}
           </div>

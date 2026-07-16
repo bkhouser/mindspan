@@ -13,6 +13,8 @@ export async function evaluateAchievementsForUser(
     { count: hardCorrect },
     { data: mastery },
     { count: loginDays },
+    { data: earnedAchievements },
+    { data: ledger },
   ] = await Promise.all([
     admin
       .from("profiles")
@@ -40,6 +42,11 @@ export async function evaluateAchievementsForUser(
       .from("user_login_days")
       .select("login_date", { count: "exact", head: true })
       .eq("user_id", userId),
+    admin
+      .from("user_achievements")
+      .select("achievements(evaluator_key)")
+      .eq("user_id", userId),
+    admin.from("insight_ledger").select("amount").eq("user_id", userId),
   ]);
   const proficientTopicSlugs =
     mastery?.flatMap((row) => {
@@ -47,6 +54,14 @@ export async function evaluateAchievementsForUser(
       const topic = Array.isArray(row.topics) ? row.topics[0] : row.topics;
       return topic?.slug ? [topic.slug] : [];
     }) ?? [];
+  const earnedEvaluatorKeys = new Set(
+    earnedAchievements?.flatMap((row) => {
+      const achievement = Array.isArray(row.achievements)
+        ? row.achievements[0]
+        : row.achievements;
+      return achievement?.evaluator_key ? [achievement.evaluator_key] : [];
+    }) ?? [],
+  );
   const eligible = eligibleAchievementEvaluators({
     onboardingCompleted: Boolean(profile?.onboarding_completed),
     totalAttempts: attempts ?? 0,
@@ -57,7 +72,7 @@ export async function evaluateAchievementsForUser(
     rankedTopics:
       mastery?.filter((row) => row.unique_questions >= 5).length ?? 0,
     loginDays: loginDays ?? 0,
-  });
+  }).filter((evaluator) => !earnedEvaluatorKeys.has(evaluator));
   const awardedRows: Array<{
     slug: string;
     name: string;
@@ -94,12 +109,10 @@ export async function evaluateAchievementsForUser(
     ...award,
     description: descriptions.get(award.slug) ?? "",
   }));
-  const { data: ledger } = await admin
-    .from("insight_ledger")
-    .select("amount")
-    .eq("user_id", userId);
   return {
     awards,
-    insightBalance: ledger?.reduce((sum, row) => sum + row.amount, 0) ?? 0,
+    insightBalance:
+      (ledger?.reduce((sum, row) => sum + row.amount, 0) ?? 0) +
+      awardedRows.reduce((sum, award) => sum + award.insightAwarded, 0),
   };
 }

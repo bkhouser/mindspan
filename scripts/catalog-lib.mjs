@@ -8,6 +8,17 @@ const questionDirectory = resolve(catalogDirectory, "questions");
 const enrichmentDirectory = resolve(catalogDirectory, "enrichments");
 const revisionDirectory = resolve(catalogDirectory, "revisions");
 
+const exactYearLimits = new Map([
+  ["history-starter", 5],
+  ["space-and-beyond", 2],
+  ["world-turning-points", 3],
+]);
+
+const battleLocationLimits = new Map([
+  ["history-starter", 3],
+  ["world-turning-points", 2],
+]);
+
 const questionSchema = z.object({
   catalogKey: z.string().trim().min(3).max(160),
   topicSlug: z.string().trim().min(1),
@@ -36,6 +47,19 @@ function normalized(value) {
     .toLocaleLowerCase("en-US")
     .replaceAll(/[^\p{L}\p{N}]+/gu, "")
     .trim();
+}
+
+function isExactYearRecall(question) {
+  return (
+    /^\d{4}$/.test(question.canonicalAnswer.trim()) &&
+    /\b(?:what|which) year\b|\bwhen (?:was|did|were)\b/i.test(question.prompt)
+  );
+}
+
+function isBattleLocationRecall(question) {
+  return (
+    /\bbattle\b/i.test(question.prompt) && /\bfought\b/i.test(question.prompt)
+  );
 }
 
 export function loadCatalog() {
@@ -152,6 +176,15 @@ export function loadCatalog() {
       issues.push(
         `${__file} ${question.catalogKey}: placeholder answer details`,
       );
+    if (
+      question.subtopics.some(
+        (subtopic) =>
+          subtopic.trim().toLocaleLowerCase("en-US") === "general knowledge",
+      )
+    )
+      issues.push(
+        `${__file} ${question.catalogKey}: General Knowledge must be replaced with a specific subtopic`,
+      );
     validQuestions.push(question);
   }
 
@@ -165,6 +198,25 @@ export function loadCatalog() {
     if (prompts.has(promptKey))
       issues.push(`Duplicate prompt: ${question.prompt}`);
     prompts.add(promptKey);
+  }
+
+  for (const pack of manifest.packs) {
+    const entries = validQuestions.filter((question) =>
+      question.packSlugs.includes(pack.slug),
+    );
+    const exactYearCount = entries.filter(isExactYearRecall).length;
+    const exactYearLimit = exactYearLimits.get(pack.slug) ?? 2;
+    if (exactYearCount > exactYearLimit)
+      issues.push(
+        `${pack.slug}: exact-year recall limit is ${exactYearLimit}, found ${exactYearCount}`,
+      );
+
+    const battleLocationCount = entries.filter(isBattleLocationRecall).length;
+    const battleLocationLimit = battleLocationLimits.get(pack.slug) ?? 2;
+    if (battleLocationCount > battleLocationLimit)
+      issues.push(
+        `${pack.slug}: battle-location recall limit is ${battleLocationLimit}, found ${battleLocationCount}`,
+      );
   }
 
   const summaries = manifest.packs.map((pack) => {

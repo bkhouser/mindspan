@@ -1,0 +1,288 @@
+{
+  "lifestyle-culture-starter.opentdb.34de776b417ea086": {
+    "difficulty": 3,
+    "prompt": "According to Japanese folklore, what food are kappa especially fond of?",
+    "canonicalAnswer": "Cucumbers",
+    "aliases": ["Cucumber"],
+    "distractors": ["Rice cakes", "Seaweed", "Peaches"],
+    "explanation": "Kappa are traditionally said to be especially fond of cucumbers.",
+    "details": "Kappa are water-dwelling beings in Japanese folklore, often depicted with turtle-like shells and a water-filled dish on the head. The association with cucumbers appears in customs such as cucumber-filled kappamaki sushi rolls."
+  },
+  "geography-starter.mountain-country.mont-blanc-du-tacul": {
+    "explanation": "Mont Blanc du Tacul is in the French Alps, southeast of Chamonix.",
+    "details": "The mountain rises in the Mont Blanc massif between the Aiguille du Midi and Mont Maudit. Although the massif straddles France and Italy, Mont Blanc du Tacul itself is on the French side."
+  },
+  "music-starter.opentdb.abe206be0b3a7c61": {
+    "answerMode": "required_choice",
+    "explanation": "Ascent is not a song by the electronic-music artist TheFatRat.",
+    "details": "This is a required-choice question because identifying the exception depends on comparing the displayed titles. Required-choice questions are always worth half their normal point value."
+  },
+  "history-starter.empire-capital.zagwe-dynasty": {
+    "difficulty": 4,
+    "prompt": "What city served as the capital of Ethiopia's Zagwe dynasty?",
+    "canonicalAnswer": "Lalibela",
+    "aliases": ["Roha"],
+    "distractors": ["Aksum", "Gondar", "Addis Ababa"],
+    "explanation": "Lalibela, then known as Roha, served as the Zagwe dynasty's capital.",
+    "details": "The Zagwe ruled much of the Ethiopian Highlands during the medieval period. Lalibela is renowned for its rock-hewn churches, traditionally associated with King Lalibela and carved directly into volcanic rock."
+  },
+  "sports-starter.competition-sport.yugoslav-handball-championship": {
+    "prompt": "How many players from one team are normally on the court in team handball?",
+    "canonicalAnswer": "7",
+    "aliases": ["Seven"],
+    "distractors": ["5", "6", "8"],
+    "explanation": "A handball team normally has seven players on the court: six court players and one goalkeeper.",
+    "details": "Teams may use substitutes, and substitutions can occur repeatedly during play. The seven-player on-court lineup distinguishes team handball from related variants such as beach handball.",
+    "source": {
+      "label": "Olympic handball rules and procedures",
+      "url": "https://library.olympics.com/default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=165346&parentdocumentId=165312&skipCopyright=true&skipWatermark=true"
+    }
+  },
+  "film-television-starter.opentdb.8505f8debceed770": {
+    "difficulty": 3,
+    "prompt": "At the beginning of House of Cards, what House leadership position does Frank Underwood hold?",
+    "aliases": ["Majority Whip"],
+    "explanation": "Frank Underwood begins the series as the House Majority Whip.",
+    "details": "The whip is responsible for building party support and counting votes in the House of Representatives. Underwood uses the position's network and influence while pursuing greater power."
+  },
+  "film-television-starter.opentdb.f4323c4ca43f76b9": {
+    "difficulty": 2,
+    "prompt": "Which actor played Max Rockatansky in the original 1979 film Mad Max?",
+    "canonicalAnswer": "Mel Gibson",
+    "aliases": ["Gibson"],
+    "distractors": ["Kurt Russell", "Harrison Ford", "Sam Neill"],
+    "explanation": "Mel Gibson played police officer Max Rockatansky in the original Mad Max.",
+    "details": "The Australian film helped launch Gibson's international career and began a series directed by George Miller. Tom Hardy later played Max in Mad Max: Fury Road.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Mel-Gibson"
+    }
+  },
+  "geography-starter.landmark-country.hollywood-sign": {
+    "difficulty": 1,
+    "prompt": "The Hollywood Sign overlooks Los Angeles in which country?",
+    "aliases": ["USA", "United States of America", "America"],
+    "explanation": "The Hollywood Sign overlooks Los Angeles, California, in the United States.",
+    "details": "The sign stands on Mount Lee in the Hollywood Hills. It was erected in 1923 as a real-estate advertisement reading Hollywoodland and was later shortened to Hollywood."
+  },
+  "history-starter.monarch-country.louis-the-pious": {
+    "difficulty": 4,
+    "prompt": "Louis the Pious succeeded Charlemagne as ruler of which empire?",
+    "canonicalAnswer": "Carolingian Empire",
+    "aliases": ["Frankish Empire", "Carolingian realm"],
+    "distractors": ["Byzantine Empire", "Holy Roman Empire", "Angevin Empire"],
+    "explanation": "Louis the Pious succeeded his father Charlemagne as ruler of the Carolingian Empire.",
+    "details": "Louis became sole emperor in 814. Conflicts among his sons eventually led to the Treaty of Verdun in 843, which divided the Carolingian realm into three major kingdoms."
+  },
+  "sports-starter.athlete-sport.annegret-richter": {
+    "prompt": "German Olympic champion Annegret Richter competed in which sport?",
+    "canonicalAnswer": "Track and field",
+    "aliases": ["Athletics", "Sprinting"],
+    "distractors": ["Swimming", "Speed skating", "Gymnastics"],
+    "explanation": "Annegret Richter was a track-and-field sprinter.",
+    "details": "Richter won Olympic gold in the 100 metres at the 1976 Montreal Games and also earned medals as part of West Germany's 4-by-100-metre relay team."
+  },
+  "sports-starter.athlete-sport.ronaldinho": {
+    "difficulty": 2,
+    "prompt": "Brazilian star Ronaldinho is famous for playing which sport?",
+    "canonicalAnswer": "Association football",
+    "aliases": ["Football", "Soccer"],
+    "distractors": ["Basketball", "Tennis", "Volleyball"],
+    "explanation": "Ronaldinho is one of Brazil's best-known football players.",
+    "details": "The attacking midfielder and forward won the 2002 FIFA World Cup with Brazil and starred for clubs including Barcelona and AC Milan. In the United States, association football is commonly called soccer."
+  },
+  "geography-starter.river-mouth.congo": {
+    "explanation": "The Congo River empties into the Atlantic Ocean on Africa's west coast.",
+    "details": "The river drains an enormous basin in central Africa and carries more water than any river except the Amazon. Its estuary reaches the Atlantic near the border of Angola and the Democratic Republic of the Congo."
+  },
+  "music-starter.opentdb.61ff590488bb0caf": {
+    "difficulty": 4,
+    "explanation": "Madeon's debut studio album is titled Adventure.",
+    "details": "The French electronic musician released Adventure in 2015. The album includes collaborations with artists such as Kyan, Passion Pit, Mark Foster, and Dan Smith."
+  },
+  "geography-starter.country-continent.belarus": {
+    "difficulty": 1,
+    "explanation": "Belarus is a landlocked country in Eastern Europe.",
+    "details": "Belarus borders Russia, Ukraine, Poland, Lithuania, and Latvia. Its capital and largest city is Minsk."
+  },
+  "sports-starter.competition-sport.speedway-grand-prix": {
+    "prompt": "Competitors in the Speedway Grand Prix race what type of vehicle?",
+    "canonicalAnswer": "Motorcycles",
+    "aliases": ["Motorcycle", "Motorbikes", "Motorbike"],
+    "distractors": ["Rally cars", "Snowmobiles", "Powerboats"],
+    "explanation": "The Speedway Grand Prix is a world championship for motorcycle speedway.",
+    "details": "Riders race specialized motorcycles around short oval dirt tracks. The bikes have no brakes and normally use a single fixed gear, so riders control speed largely through the throttle and by sliding through turns."
+  },
+  "geography-starter.river-mouth.nunez-river": {
+    "difficulty": 3,
+    "subtopics": ["African Geography"],
+    "prompt": "Which small West African country is almost completely surrounded by Senegal?",
+    "canonicalAnswer": "The Gambia",
+    "aliases": ["Gambia"],
+    "distractors": ["Togo", "Benin", "Guinea-Bissau"],
+    "explanation": "The Gambia is a narrow country surrounded by Senegal except for its Atlantic coast.",
+    "details": "The country follows the lower Gambia River inland from the Atlantic Ocean. Its unusual shape reflects colonial boundaries between British-controlled Gambia and French-controlled Senegal.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/The-Gambia"
+    }
+  },
+  "science-nature-starter.moon-parent.s-2004-s-12": {
+    "subtopics": ["Astronomy"],
+    "prompt": "Titan is the largest moon of which planet?",
+    "canonicalAnswer": "Saturn",
+    "aliases": [],
+    "distractors": ["Jupiter", "Uranus", "Neptune"],
+    "explanation": "Titan is Saturn's largest moon.",
+    "details": "Titan is larger than the planet Mercury and is the only moon known to have a dense atmosphere. Its surface includes lakes and seas of liquid methane and ethane.",
+    "source": {
+      "label": "NASA Science",
+      "url": "https://science.nasa.gov/saturn/moons/titan/facts/"
+    }
+  },
+  "geography-starter.landmark-country.al-kadhimiya-mosque": {
+    "prompt": "Al-Kadhimiya Mosque is located in which national capital?",
+    "canonicalAnswer": "Baghdad",
+    "aliases": [],
+    "distractors": ["Tehran", "Damascus", "Amman"],
+    "explanation": "Al-Kadhimiya Mosque is in Baghdad, the capital of Iraq.",
+    "details": "The mosque is an important Shia shrine in Baghdad's Kadhimiya district. It contains the tombs of the seventh and ninth Twelver Shia imams, Musa al-Kadhim and Muhammad al-Jawad."
+  },
+  "sports-starter.athlete-sport.bim-diederich": {
+    "prompt": "Which cycling discipline sends riders over grass, mud, and obstacles on a short circuit?",
+    "canonicalAnswer": "Cyclocross",
+    "aliases": ["Cyclo-cross racing"],
+    "distractors": ["Track cycling", "BMX freestyle", "Road time trial"],
+    "explanation": "Cyclocross races combine off-road cycling with obstacles that may require riders to dismount and carry their bicycles.",
+    "details": "Courses commonly include grass, mud, steep slopes, barriers, and pavement. Races are run over repeated laps and are especially popular during autumn and winter."
+  },
+  "lifestyle-culture-starter.opentdb.d636f9e2ebb213df": {
+    "difficulty": 3,
+    "topicSlug": "lifestyle-culture",
+    "subtopics": ["Food & Drink"],
+    "prompt": "What French culinary phrase means 'everything in its place' and refers to preparing ingredients before cooking?",
+    "canonicalAnswer": "Mise en place",
+    "aliases": [],
+    "distractors": ["A la carte", "Sous vide", "Creme brulee"],
+    "explanation": "Mise en place is the practice of organizing ingredients and equipment before cooking begins.",
+    "details": "The phrase literally means 'putting in place.' Professional kitchens use mise en place to measure, chop, and arrange ingredients so dishes can be prepared efficiently and consistently.",
+    "source": {
+      "label": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/mise%20en%20place"
+    }
+  },
+  "geography-starter.landmark-country.veliky-ustyug": {
+    "prompt": "Veliky Ustyug, traditionally associated with the Russian winter figure Ded Moroz, is in which country?",
+    "explanation": "Veliky Ustyug is a historic town in northern Russia.",
+    "details": "The town lies in Vologda Oblast near the confluence of the Sukhona and Yug rivers. In modern Russian holiday culture it is promoted as the home of Ded Moroz, or Grandfather Frost."
+  },
+  "geography-starter.river-mouth.massa-river": {
+    "subtopics": ["Rivers & Cities"],
+    "prompt": "Which major river flows through Baghdad?",
+    "canonicalAnswer": "Tigris River",
+    "aliases": ["Tigris", "The Tigris"],
+    "distractors": ["Euphrates River", "Jordan River", "Indus River"],
+    "explanation": "Baghdad stands on both banks of the Tigris River.",
+    "details": "The Tigris and Euphrates form the great river system of Mesopotamia. The Tigris rises in Turkey, passes through Iraq, and joins the Euphrates in the Shatt al-Arab before reaching the Persian Gulf.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Tigris-Euphrates-river-system"
+    }
+  },
+  "science-nature-starter.disease-specialty.sweating-sickness": {
+    "subtopics": ["Medicine"],
+    "prompt": "What type of pathogen causes malaria?",
+    "canonicalAnswer": "Parasite",
+    "aliases": ["Protozoan", "Parasitic protozoan", "Plasmodium parasite"],
+    "distractors": ["Bacterium", "Virus", "Fungus"],
+    "explanation": "Malaria is caused by Plasmodium parasites.",
+    "details": "Infected female Anopheles mosquitoes transmit the parasites through their bites. Several Plasmodium species infect humans; P. falciparum is responsible for many of the most severe cases.",
+    "source": {
+      "label": "U.S. Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/malaria/causes/index.html"
+    }
+  },
+  "geography-starter.river-mouth.draa-river": {
+    "subtopics": ["African Geography"],
+    "prompt": "The Draa is the longest river of which North African country?",
+    "canonicalAnswer": "Morocco",
+    "aliases": [],
+    "distractors": ["Algeria", "Tunisia", "Libya"],
+    "explanation": "The Draa is Morocco's longest river.",
+    "details": "The river begins in the High Atlas and flows through a chain of oases toward the edge of the Sahara. In dry periods much of its lower course does not reach the Atlantic Ocean."
+  },
+  "lifestyle-culture-starter.opentdb.a074e0e85c29f61a": {
+    "difficulty": 3,
+    "topicSlug": "lifestyle-culture",
+    "subtopics": ["Arts & Traditions"],
+    "prompt": "What Japanese term refers to the traditional art of arranging flowers?",
+    "canonicalAnswer": "Ikebana",
+    "aliases": ["Kado"],
+    "distractors": ["Origami", "Bonsai", "Kabuki"],
+    "explanation": "Ikebana is the Japanese art of flower arrangement.",
+    "details": "Unlike arrangements focused mainly on a mass of blossoms, ikebana often emphasizes line, space, balance, and the relationships among flowers, stems, leaves, and the container.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/art/ikebana"
+    }
+  },
+  "music-starter.opentdb.66b652509186b6c0": {
+    "difficulty": 3,
+    "aliases": ["Corgan"],
+    "explanation": "Billy Corgan is the lead singer and principal songwriter of the Smashing Pumpkins.",
+    "details": "Corgan formed the Chicago alternative-rock band with guitarist James Iha. His distinctive voice and songwriting are central to albums including Siamese Dream and Mellon Collie and the Infinite Sadness."
+  },
+  "science-nature-starter.element-symbol.moscovium": {
+    "difficulty": 4,
+    "explanation": "The chemical symbol for moscovium is Mc.",
+    "details": "Moscovium is element 115, a synthetic superheavy element named for the Moscow region. Its symbol uses a capital M followed by a lowercase c."
+  },
+  "geography-starter.landmark-country.chapel-bridge": {
+    "prompt": "The historic Chapel Bridge is a landmark of which Swiss city?",
+    "canonicalAnswer": "Lucerne",
+    "aliases": ["Luzern"],
+    "distractors": ["Zurich", "Geneva", "Bern"],
+    "explanation": "The Chapel Bridge crosses the Reuss River in Lucerne.",
+    "details": "The covered wooden bridge dates to the 14th century and is known for paintings beneath its roof. A 1993 fire destroyed much of it, but the damaged sections were reconstructed.",
+    "source": {
+      "label": "Lucerne Tourism",
+      "url": "https://www.luzern.com/en/poi/chapel-bridge"
+    }
+  },
+  "film-television-starter.opentdb.8da34da409f7379b": {
+    "difficulty": 3,
+    "prompt": "Which actor played the Man with No Name in The Good, the Bad and the Ugly?",
+    "canonicalAnswer": "Clint Eastwood",
+    "aliases": ["Eastwood"],
+    "distractors": ["Lee Van Cleef", "Eli Wallach", "Charles Bronson"],
+    "explanation": "Clint Eastwood played the Man with No Name, identified as Blondie in the film.",
+    "details": "Sergio Leone's 1966 western stars Eastwood as the Good, Lee Van Cleef as the Bad, and Eli Wallach as the Ugly. The film completed Leone's Dollars Trilogy."
+  },
+  "sports-starter.team-sport.klm-line": {
+    "prompt": "The Soviet Union's famous KLM Line competed in which sport?",
+    "canonicalAnswer": "Ice hockey",
+    "aliases": ["Hockey"],
+    "distractors": ["Basketball", "Volleyball", "Association football"],
+    "explanation": "The KLM Line was a celebrated Soviet ice-hockey forward unit.",
+    "details": "The initials came from the surnames of Vladimir Krutov, Igor Larionov, and Sergei Makarov. The trio played together for the Soviet national team and CSKA Moscow during the 1980s.",
+    "source": {
+      "label": "NHL.com",
+      "url": "https://www.nhl.com/news/igor-larionov-on-hall-of-fame-inductee-sergei-makarov-283501498"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.62d5ad49e527b799": {
+    "difficulty": 3,
+    "topicSlug": "lifestyle-culture",
+    "subtopics": ["Customs & Traditions"],
+    "prompt": "What Japanese aesthetic concept finds beauty in imperfection and impermanence?",
+    "canonicalAnswer": "Wabi-sabi",
+    "aliases": [],
+    "distractors": ["Kaizen", "Kintsugi", "Bushido"],
+    "explanation": "Wabi-sabi is an aesthetic that values imperfection, simplicity, and the passage of time.",
+    "details": "The concept can be expressed through weathered materials, asymmetry, restraint, and objects that visibly reflect use and age. It has influenced Japanese art, gardens, ceramics, and tea culture.",
+    "source": {
+      "label": "Japan House London",
+      "url": "https://www.japanhouselondon.uk/read-and-watch/wabi-sabi/"
+    }
+  }
+}

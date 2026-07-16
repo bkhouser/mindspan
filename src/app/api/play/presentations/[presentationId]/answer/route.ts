@@ -40,27 +40,51 @@ export async function POST(
     if (!presentation) throw new ApiError("PRESENTATION_NOT_FOUND", 404);
     if (presentation.finalized_at)
       throw new ApiError("PRESENTATION_FINALIZED", 409);
+    if (!presentation.activated_at)
+      throw new ApiError("PRESENTATION_NOT_ACTIVE", 409);
     const { data: version } = await admin
       .from("question_versions")
       .select("*,questions(id),question_citations(label,url)")
       .eq("id", presentation.question_version_id)
       .single();
     if (!version) throw new ApiError("QUESTION_NOT_FOUND", 404);
-    const [{ data: aliases }, { data: distractors }, { data: packLinks }] =
-      await Promise.all([
-        admin
-          .from("answer_aliases")
-          .select("answer")
-          .eq("question_version_id", version.id),
-        admin
-          .from("distractors")
-          .select("answer")
-          .eq("question_version_id", version.id),
-        admin
-          .from("pack_questions")
-          .select("packs(name)")
-          .eq("question_id", version.question_id),
-      ]);
+    const [
+      { data: aliases },
+      { data: distractors },
+      { data: packLinks },
+      { data: current },
+      { data: questionState },
+      { data: subtopicLinks },
+    ] = await Promise.all([
+      admin
+        .from("answer_aliases")
+        .select("answer")
+        .eq("question_version_id", version.id),
+      admin
+        .from("distractors")
+        .select("answer")
+        .eq("question_version_id", version.id),
+      admin
+        .from("pack_questions")
+        .select("packs(name)")
+        .eq("question_id", version.question_id),
+      admin
+        .from("user_topic_mastery")
+        .select("*")
+        .eq("user_id", user.id)
+        .eq("topic_id", version.topic_id)
+        .maybeSingle(),
+      admin
+        .from("user_question_state")
+        .select("correct_count,attempt_count")
+        .eq("user_id", user.id)
+        .eq("question_id", version.question_id)
+        .maybeSingle(),
+      admin
+        .from("question_subtopics")
+        .select("subtopics(id,name)")
+        .eq("question_id", version.question_id),
+    ]);
     const packNames = [
       ...new Set(
         (packLinks ?? []).flatMap((link) => {
@@ -73,7 +97,7 @@ export async function POST(
     const started = new Date(
       presentation.media_ready_at ??
         presentation.loading_grace_expires_at ??
-        presentation.started_at,
+        presentation.activated_at,
     ).getTime();
     const { elapsedMs, expired, remainingRatio } = resolveAttemptTiming({
       now: requestReceivedAt,
@@ -117,12 +141,6 @@ export async function POST(
             "assessment-v1" as typeof calculatedScore.algorithmVersion,
         }
       : calculatedScore;
-    const { data: current } = await admin
-      .from("user_topic_mastery")
-      .select("*")
-      .eq("user_id", user.id)
-      .eq("topic_id", version.topic_id)
-      .maybeSingle();
     const state: MasteryState = current
       ? {
           topicId: version.topic_id,
@@ -142,12 +160,6 @@ export async function POST(
           totalAttempts: 0,
           assistedCorrectAttempts: 0,
         };
-    const { data: questionState } = await admin
-      .from("user_question_state")
-      .select("correct_count,attempt_count")
-      .eq("user_id", user.id)
-      .eq("question_id", version.question_id)
-      .maybeSingle();
     const updated = applyMasteryAttempt(state, {
       difficulty: version.difficulty as Difficulty,
       priorCorrectCount: presentation.prior_correct_count,
@@ -253,18 +265,16 @@ export async function POST(
       label: "Source",
       url: "https://example.com",
     };
-    const { data: subtopicLinks } = await admin
-      .from("question_subtopics")
-      .select("subtopics(id,name)")
-      .eq("question_id", version.question_id);
     const subtopics = (subtopicLinks ?? []).flatMap((link) => {
       const subtopic = Array.isArray(link.subtopics)
         ? link.subtopics[0]
         : link.subtopics;
       return subtopic ? [subtopic] : [];
     });
-    const { data: subtopicRows } = subtopics.length
-      ? await admin
+    const [subtopicRows, progression] = await Promise.all([
+      (async () => {
+        if (!subtopics.length) return [];
+        const { data } = await admin
           .from("user_subtopic_mastery")
           .select(
             "subtopic_id,correct_attempts,total_attempts,unique_questions",
@@ -273,12 +283,13 @@ export async function POST(
           .in(
             "subtopic_id",
             subtopics.map((subtopic) => subtopic.id),
-          )
-      : { data: [] };
+          );
+        return data ?? [];
+      })(),
+      evaluateAchievementsForUser(admin, user.id),
+    ]);
     const subtopicMastery = subtopics.map((subtopic) => {
-      const row = subtopicRows?.find(
-        (item) => item.subtopic_id === subtopic.id,
-      );
+      const row = subtopicRows.find((item) => item.subtopic_id === subtopic.id);
       return {
         id: subtopic.id,
         name: subtopic.name,
@@ -291,7 +302,6 @@ export async function POST(
         uniqueQuestions: row?.unique_questions ?? 0,
       };
     });
-    const progression = await evaluateAchievementsForUser(admin, user.id);
     return NextResponse.json({
       attemptId,
       correct: accepted,

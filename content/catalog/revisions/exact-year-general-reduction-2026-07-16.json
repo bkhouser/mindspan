@@ -1,0 +1,235 @@
+{
+  "space-and-beyond.spacecraft-launch-year.shenzhou-15": {
+    "subtopics": ["Spaceflight History"],
+    "prompt": "In what year did the Soviet Union launch Sputnik 1, the first artificial satellite?",
+    "canonicalAnswer": "1957",
+    "aliases": [],
+    "distractors": ["1945", "1961", "1969"],
+    "explanation": "The Soviet Union launched Sputnik 1 in 1957.",
+    "details": "Sputnik 1 entered orbit on October 4, 1957. Its radio signal and unexpected Soviet achievement accelerated the space race.",
+    "source": {
+      "label": "NASA",
+      "url": "https://www.nasa.gov/history/sputnik/sputorig.html"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.shenzhou-16": {
+    "subtopics": ["Spaceflight History"],
+    "prompt": "In what year did Apollo 11 land humans on the Moon?",
+    "canonicalAnswer": "1969",
+    "aliases": [],
+    "distractors": ["1965", "1967", "1972"],
+    "explanation": "Apollo 11 landed on the Moon in 1969.",
+    "details": "Neil Armstrong and Buzz Aldrin landed the lunar module Eagle on July 20, while Michael Collins remained in lunar orbit aboard Columbia.",
+    "source": {
+      "label": "NASA",
+      "url": "https://www.nasa.gov/mission/apollo-11/"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.mimosa": {
+    "subtopics": ["Stars"],
+    "prompt": "What spectral class of main-sequence star is the Sun?",
+    "canonicalAnswer": "G-type",
+    "aliases": ["G2V", "G-type main-sequence star", "yellow dwarf"],
+    "distractors": ["A-type", "K-type", "M-type"],
+    "explanation": "The Sun is a G-type main-sequence star, more specifically class G2V.",
+    "details": "The G2 designation describes the Sun's temperature and spectrum, while the luminosity class V identifies it as a hydrogen-fusing main-sequence star.",
+    "source": {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/sun/facts/"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.gravity-gradient-technology-satellite": {
+    "subtopics": ["Space Telescopes"],
+    "prompt": "Near which Sun-Earth Lagrange point does the James Webb Space Telescope operate?",
+    "canonicalAnswer": "L2",
+    "aliases": ["Sun-Earth L2", "second Lagrange point", "Lagrange point 2"],
+    "distractors": ["L1", "L4", "L5"],
+    "explanation": "The James Webb Space Telescope operates near the Sun-Earth L2 point.",
+    "details": "Webb follows a halo orbit around L2 about 1.5 million kilometers beyond Earth from the Sun, allowing its sunshield to keep the telescope cold.",
+    "source": {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/mission/webb/orbit/"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.explorer-28": {
+    "subtopics": ["Solar System"],
+    "prompt": "What boundary marks the outer edge of the Sun's heliosphere?",
+    "canonicalAnswer": "Heliopause",
+    "aliases": ["the heliopause"],
+    "distractors": ["Heliosheath", "Termination shock", "Magnetopause"],
+    "explanation": "The heliopause is the boundary between the heliosphere and interstellar space.",
+    "details": "At the heliopause, pressure from the solar wind balances pressure from the surrounding interstellar medium. Voyager 1 and Voyager 2 have crossed it.",
+    "source": {
+      "label": "NASA",
+      "url": "https://science.nasa.gov/mission/voyager/interstellar-mission/"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.discoverer-28": {
+    "subtopics": ["Space Science"],
+    "prompt": "Which scientist gives his name to Earth's radiation belts?",
+    "canonicalAnswer": "James Van Allen",
+    "aliases": ["Van Allen", "James A. Van Allen"],
+    "distractors": [
+      "Robert Goddard",
+      "Edward Teller",
+      "Subrahmanyan Chandrasekhar"
+    ],
+    "explanation": "The Van Allen radiation belts are named for physicist James Van Allen.",
+    "details": "Instruments designed by Van Allen's team aboard early Explorer satellites helped reveal zones of energetic charged particles trapped by Earth's magnetic field.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/James-A-Van-Allen"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.lares": {
+    "subtopics": ["Relativity"],
+    "prompt": "Which general-relativistic effect is the LARES satellite designed to measure?",
+    "canonicalAnswer": "Frame-dragging",
+    "aliases": ["Lense-Thirring effect", "gravitomagnetic effect"],
+    "distractors": [
+      "Gravitational lensing",
+      "Cosmic inflation",
+      "Hawking radiation"
+    ],
+    "explanation": "LARES measures frame-dragging, also called the Lense-Thirring effect.",
+    "details": "General relativity predicts that a rotating body slightly twists nearby spacetime. Precise laser ranging of LARES helps measure that tiny effect around Earth.",
+    "source": {
+      "label": "Italian Space Agency",
+      "url": "https://www.asi.it/en/earth-science/lares/"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.korabl-sputnik-5": {
+    "subtopics": ["Spaceflight History"],
+    "prompt": "Who was the first woman to travel into space?",
+    "canonicalAnswer": "Valentina Tereshkova",
+    "aliases": ["Tereshkova", "Valentina Vladimirovna Tereshkova"],
+    "distractors": ["Sally Ride", "Svetlana Savitskaya", "Mae Jemison"],
+    "explanation": "Soviet cosmonaut Valentina Tereshkova became the first woman in space.",
+    "details": "Tereshkova orbited Earth aboard Vostok 6 for nearly three days, completing 48 orbits during her solo mission.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Valentina-Tereshkova"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.shenzhou-12": {
+    "subtopics": ["Space Stations"],
+    "prompt": "What was the name of the world's first space station?",
+    "canonicalAnswer": "Salyut 1",
+    "aliases": ["Salyut", "DOS-1"],
+    "distractors": ["Skylab", "Mir", "Almaz 1"],
+    "explanation": "The Soviet Union's Salyut 1 was the first space station placed in orbit.",
+    "details": "Salyut 1 hosted the Soyuz 11 crew, whose 23-day stay demonstrated the scientific potential of long-duration orbital laboratories.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/technology/Salyut"
+    }
+  },
+  "space-and-beyond.spacecraft-launch-year.soyuz-7k-l1-no-4l": {
+    "subtopics": ["Soviet Space Program"],
+    "prompt": "What public name was used for Soviet circumlunar test missions flown with the Soyuz 7K-L1 spacecraft?",
+    "canonicalAnswer": "Zond",
+    "aliases": ["Zond program", "Zond missions"],
+    "distractors": ["Luna", "Venera", "Voskhod"],
+    "explanation": "The Soviet Union publicly designated its Soyuz 7K-L1 circumlunar missions as Zond flights.",
+    "details": "Zond 5 carried biological specimens around the Moon and safely returned them to Earth, while later flights tested systems for a possible crewed lunar flyby.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/technology/Zond"
+    }
+  },
+  "arts-literature-starter.opentdb.f8f8145ee94d41c8": {
+    "subtopics": ["Renaissance Art"],
+    "prompt": "Who painted the triptych The Garden of Earthly Delights?",
+    "canonicalAnswer": "Hieronymus Bosch",
+    "aliases": ["Bosch", "Jheronimus Bosch"],
+    "distractors": [
+      "Pieter Bruegel the Elder",
+      "Jan van Eyck",
+      "Albrecht Durer"
+    ],
+    "explanation": "Hieronymus Bosch painted The Garden of Earthly Delights.",
+    "details": "The triptych's densely imagined scenes move from Eden through earthly temptation to a nightmarish hellscape, making it one of Bosch's most famous works.",
+    "source": {
+      "label": "Museo Nacional del Prado",
+      "url": "https://www.museodelprado.es/en/the-collection/art-work/the-garden-of-earthly-delights-triptych/02388242-6d6a-4e9e-a992-e1311eab3609"
+    }
+  },
+  "arts-literature-starter.opentdb.55413466fa679f20": {
+    "subtopics": ["Renaissance Art"],
+    "prompt": "What smoky blending technique is closely associated with Leonardo da Vinci's paintings?",
+    "canonicalAnswer": "Sfumato",
+    "aliases": ["sfumato technique"],
+    "distractors": ["Impasto", "Pointillism", "Tenebrism"],
+    "explanation": "Leonardo used sfumato to create soft, gradual transitions between colors and tones.",
+    "details": "The technique minimizes hard outlines and produces atmospheric modeling, particularly around faces. The Mona Lisa is a celebrated example.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/art/sfumato"
+    }
+  },
+  "music-starter.opentdb.d92f5d6e3635fad8": {
+    "subtopics": ["Rock Music"],
+    "prompt": "Which musician, born Michael Balzary, plays bass for the Red Hot Chili Peppers?",
+    "canonicalAnswer": "Flea",
+    "aliases": ["Michael Balzary", "Michael Peter Balzary"],
+    "distractors": ["Chad Smith", "John Frusciante", "Dave Navarro"],
+    "explanation": "Michael Balzary is better known as Flea, bassist for the Red Hot Chili Peppers.",
+    "details": "Flea co-founded the band and is known for an energetic style drawing on funk, punk, and rock traditions.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Red-Hot-Chili-Peppers"
+    }
+  },
+  "music-starter.opentdb.c79e60be45d413d4": {
+    "subtopics": ["Rock Music"],
+    "prompt": "Which singer provides the high-pitched opening vocal on Dire Straits' Money for Nothing?",
+    "canonicalAnswer": "Sting",
+    "aliases": ["Gordon Sumner", "Gordon Matthew Thomas Sumner"],
+    "distractors": ["Peter Gabriel", "Phil Collins", "Bryan Ferry"],
+    "explanation": "Sting sings the song's opening 'I want my MTV' vocal line.",
+    "details": "Sting received a co-writing credit because the melody echoes Don't Stand So Close to Me, a song he wrote for the Police.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Dire-Straits"
+    }
+  },
+  "music-starter.opentdb.1cb8979d8a0422a9": {
+    "subtopics": ["Popular Music"],
+    "prompt": "What name does BTS member Suga use for his solo music projects?",
+    "canonicalAnswer": "Agust D",
+    "aliases": [],
+    "distractors": ["RM", "J-Hope", "V"],
+    "explanation": "Suga releases solo work under the name Agust D.",
+    "details": "The name reverses DT Suga: DT refers to Daegu Town, his hometown, while Suga is his BTS stage name.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/BTS"
+    }
+  },
+  "sound-and-song.opentdb.e27669a30f4aa37e": {
+    "subtopics": ["World Music"],
+    "prompt": "Huun-Huur-Tu is known for the throat-singing tradition of which Russian republic?",
+    "canonicalAnswer": "Tuva",
+    "aliases": ["Tuvan Republic", "Republic of Tuva"],
+    "distractors": ["Buryatia", "Kalmykia", "Dagestan"],
+    "explanation": "Huun-Huur-Tu performs the khoomei throat-singing tradition of Tuva.",
+    "details": "Tuvan throat singers produce a low fundamental tone while emphasizing higher overtones, allowing one singer to sound multiple pitches at once.",
+    "source": {
+      "label": "Smithsonian Folkways Recordings",
+      "url": "https://folkways.si.edu/huun-huur-tu"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.db845012e84b80d9": {
+    "subtopics": ["Transportation"],
+    "prompt": "Which Japanese automaker produced the pickup sold in the United States as the Chevrolet LUV?",
+    "canonicalAnswer": "Isuzu",
+    "aliases": ["Isuzu Motors"],
+    "distractors": ["Suzuki", "Mitsubishi", "Subaru"],
+    "explanation": "Isuzu produced the compact pickup marketed in the United States as the Chevrolet LUV.",
+    "details": "The Chevrolet LUV was a rebadged Isuzu Faster. Its name was presented as an abbreviation of Light Utility Vehicle.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/money/Isuzu-Motors-Ltd"
+    }
+  }
+}

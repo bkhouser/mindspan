@@ -20,7 +20,6 @@ const dumpCachePath = resolve(
 );
 
 const categoryMeta = {
-  9: { topic: "lifestyle-culture", subtopic: "General Knowledge" },
   10: { topic: "arts-literature", subtopic: "Literature" },
   11: { topic: "film-television", subtopic: "Film" },
   12: { topic: "music", subtopic: "Popular Music" },
@@ -63,10 +62,9 @@ const packs = [
     slug: "lifestyle-culture-starter",
     difficulty: [14, 19, 29, 19, 14],
     sources: [
-      [9, null, 30],
-      [20, null, 25],
-      [27, null, 25],
-      [28, null, 15],
+      [20, null, 35],
+      [27, null, 35],
+      [28, null, 25],
     ],
   },
   {
@@ -85,7 +83,7 @@ const packs = [
   {
     slug: "easy-does-it",
     difficulty: [25, 15, 10, 0, 0],
-    sources: [9, 17, 22, 23, 21, 20, 11, 12, 14, 27].map((category) => [
+    sources: [10, 17, 22, 23, 21, 20, 11, 12, 14, 27].map((category) => [
       category,
       "easy",
       5,
@@ -94,7 +92,7 @@ const packs = [
   {
     slug: "trivia-101",
     difficulty: [20, 18, 10, 2, 0],
-    sources: [9, 17, 22, 23, 21, 28, 11, 12, 14, 9].flatMap((category) => [
+    sources: [10, 17, 22, 23, 21, 28, 11, 12, 14, 25].flatMap((category) => [
       [category, "easy", 4],
       [category, "medium", 1],
     ]),
@@ -155,6 +153,15 @@ function normalize(value) {
     .normalize("NFKC")
     .toLocaleLowerCase("en-US")
     .replaceAll(/[^\p{L}\p{N}]+/gu, "");
+}
+
+function isLowValueRecall(prompt, answer) {
+  const exactYear =
+    /^\d{4}$/.test(answer.trim()) &&
+    /\b(?:what|which) year\b|\bwhen (?:was|did|were)\b/i.test(prompt);
+  const battleLocation =
+    /\bbattle\b/i.test(prompt) && /\bfought\b/i.test(prompt);
+  return exactYear || battleLocation;
 }
 
 function aliases(answer) {
@@ -248,6 +255,7 @@ async function fetchQuestions(category, difficulty, count) {
     );
     if (
       seenPrompts.has(normalize(prompt)) ||
+      isLowValueRecall(prompt, canonicalAnswer) ||
       distractors.length !== 3 ||
       new Set(distractors.map(normalize)).size !== 3 ||
       distractors.some(

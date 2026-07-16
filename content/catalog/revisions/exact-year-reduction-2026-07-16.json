@@ -1,0 +1,790 @@
+{
+  "history-starter.event-year.cudgel-war": {
+    "subtopics": ["United States History"],
+    "prompt": "In what year was the United States Declaration of Independence adopted?",
+    "canonicalAnswer": "1776",
+    "aliases": [],
+    "distractors": ["1765", "1781", "1789"],
+    "explanation": "The Continental Congress adopted the Declaration of Independence in 1776.",
+    "details": "The delegates approved the Declaration on July 4, 1776, formally announcing that the thirteen colonies regarded themselves as independent states.",
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/declaration-transcript"
+    }
+  },
+  "history-starter.treaty-year.japan-china-joint-declaration-on-building-a-partnership-of-friendship-and-cooper": {
+    "subtopics": ["Ancient Civilizations"],
+    "prompt": "What wedge-shaped writing system was used in ancient Mesopotamia?",
+    "canonicalAnswer": "Cuneiform",
+    "aliases": [],
+    "distractors": ["Hieroglyphics", "Linear B", "Sanskrit"],
+    "explanation": "Cuneiform was the wedge-shaped writing system developed in ancient Mesopotamia.",
+    "details": "Scribes pressed reed styli into clay tablets to form wedge-shaped marks. Sumerians developed the system, and several later Mesopotamian languages adopted it.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/cuneiform"
+    }
+  },
+  "history-starter.event-year.guangzhou-uprising": {
+    "subtopics": ["Age of Exploration"],
+    "prompt": "In what year did Christopher Columbus first reach the Americas?",
+    "canonicalAnswer": "1492",
+    "aliases": [],
+    "distractors": ["1453", "1519", "1588"],
+    "explanation": "Columbus first reached islands in the Caribbean in 1492.",
+    "details": "His voyage crossed the Atlantic under the sponsorship of the Spanish monarchs. Indigenous peoples had inhabited the Americas for thousands of years before his arrival.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Christopher-Columbus"
+    }
+  },
+  "history-starter.treaty-year.bangkok-rules": {
+    "subtopics": ["Ancient Civilizations"],
+    "prompt": "Which river was central to the agriculture and settlement of ancient Egypt?",
+    "canonicalAnswer": "Nile River",
+    "aliases": ["Nile", "the Nile"],
+    "distractors": ["Tigris River", "Indus River", "Yellow River"],
+    "explanation": "The Nile supported ancient Egyptian agriculture and settlement.",
+    "details": "Its annual inundation deposited fertile soil along the river valley, while the river also served as Egypt's principal transportation corridor.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Nile-River"
+    }
+  },
+  "history-starter.event-year.odz-insurrection": {
+    "subtopics": ["Ancient Greece"],
+    "prompt": "Which ancient Greek city-state is most closely associated with the development of democracy?",
+    "canonicalAnswer": "Athens",
+    "aliases": [],
+    "distractors": ["Sparta", "Corinth", "Thebes"],
+    "explanation": "Athens developed the best-known form of direct democracy in the ancient Greek world.",
+    "details": "Eligible male citizens debated and voted directly in the assembly. The system excluded women, enslaved people, and resident foreigners.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Athens/History"
+    }
+  },
+  "history-starter.treaty-year.munich-agreement": {
+    "subtopics": ["Medieval History"],
+    "prompt": "In what year did the Norman conquest of England begin with the Battle of Hastings?",
+    "canonicalAnswer": "1066",
+    "aliases": [],
+    "distractors": ["1016", "1087", "1215"],
+    "explanation": "William the Conqueror defeated Harold II at Hastings in 1066.",
+    "details": "The victory led to Norman rule in England and major changes in landholding, government, architecture, and the English language.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Battle-of-Hastings"
+    }
+  },
+  "history-starter.event-year.greater-poland-uprising-of-1848": {
+    "subtopics": ["Cold War"],
+    "prompt": "In what year did the Berlin Wall fall?",
+    "canonicalAnswer": "1989",
+    "aliases": [],
+    "distractors": ["1968", "1979", "1991"],
+    "explanation": "The Berlin Wall opened on November 9, 1989.",
+    "details": "An East German announcement about travel rules prompted crowds to gather at the crossings. The opening became a symbol of the collapse of communist rule in Eastern Europe.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Berlin-Wall"
+    }
+  },
+  "history-starter.treaty-year.thomson-urrutia-treaty": {
+    "subtopics": ["Roman History"],
+    "prompt": "Who became the first Roman emperor?",
+    "canonicalAnswer": "Augustus",
+    "aliases": ["Octavian", "Caesar Augustus"],
+    "distractors": ["Julius Caesar", "Nero", "Trajan"],
+    "explanation": "Augustus became Rome's first emperor after the collapse of the Roman Republic.",
+    "details": "Born Gaius Octavius, he defeated his rivals and received the title Augustus in 27 BCE while preserving many outward forms of republican government.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Augustus-Roman-emperor"
+    }
+  },
+  "history-starter.event-year.majimaji-war": {
+    "subtopics": ["Roman History"],
+    "prompt": "Which two powers fought the Punic Wars?",
+    "canonicalAnswer": "Rome and Carthage",
+    "aliases": ["Carthage and Rome", "Romans and Carthaginians"],
+    "distractors": [
+      "Athens and Sparta",
+      "Rome and Egypt",
+      "Macedon and Persia"
+    ],
+    "explanation": "Rome and Carthage fought the three Punic Wars for dominance in the western Mediterranean.",
+    "details": "The conflicts included Hannibal's invasion of Italy and ended with Rome destroying Carthage in 146 BCE.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Punic-Wars"
+    }
+  },
+  "history-starter.treaty-year.protocol-ii": {
+    "subtopics": ["Byzantine History"],
+    "prompt": "What city served as the capital of the Byzantine Empire?",
+    "canonicalAnswer": "Constantinople",
+    "aliases": ["Byzantium", "Istanbul"],
+    "distractors": ["Rome", "Antioch", "Alexandria"],
+    "explanation": "Constantinople was the capital of the Byzantine Empire.",
+    "details": "Constantine I refounded Byzantium as Constantinople in 330. Its strategic position on the Bosporus helped it remain an imperial capital until the Ottoman conquest of 1453.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Constantinople"
+    }
+  },
+  "history-starter.event-year.malabar-rebellion": {
+    "subtopics": ["Japanese History"],
+    "prompt": "What name is given to the warrior class of feudal Japan?",
+    "canonicalAnswer": "Samurai",
+    "aliases": [],
+    "distractors": ["Shogun", "Daimyo", "Ronin"],
+    "explanation": "Samurai were the hereditary warrior class of premodern Japan.",
+    "details": "They served regional lords and later became a governing elite under the shogunates. Ronin were samurai who lacked a master.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/samurai"
+    }
+  },
+  "history-starter.treaty-year.donation-of-pepin": {
+    "subtopics": ["African History"],
+    "prompt": "Which West African empire succeeded Mali as the region's dominant power?",
+    "canonicalAnswer": "Songhai Empire",
+    "aliases": ["Songhai"],
+    "distractors": ["Ghana Empire", "Benin Empire", "Aksumite Empire"],
+    "explanation": "The Songhai Empire became the leading power of the western Sudan after Mali declined.",
+    "details": "Centered on the Niger River, Songhai reached its greatest extent under Sunni Ali and Askia Muhammad before a Moroccan invasion in 1591.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Songhai-empire"
+    }
+  },
+  "history-starter.event-year.1905-tibetan-rebellion": {
+    "subtopics": ["Empires & Civilizations"],
+    "prompt": "Which ancient empire built the Royal Road linking Susa with western Anatolia?",
+    "canonicalAnswer": "Achaemenid Persian Empire",
+    "aliases": ["Persian Empire", "Achaemenid Empire"],
+    "distractors": ["Roman Empire", "Mauryan Empire", "Macedonian Empire"],
+    "explanation": "The Achaemenid Persian Empire maintained the Royal Road for imperial communication.",
+    "details": "The road connected major administrative centers across thousands of kilometers, allowing royal couriers and officials to travel through a relay system.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Royal-Road"
+    }
+  },
+  "history-starter.treaty-year.geneva-convention-of-1864": {
+    "subtopics": ["Medieval History"],
+    "prompt": "In what year did King John agree to Magna Carta?",
+    "canonicalAnswer": "1215",
+    "aliases": [],
+    "distractors": ["1066", "1295", "1348"],
+    "explanation": "King John agreed to Magna Carta in 1215.",
+    "details": "The charter was sealed at Runnymede after a rebellion by English barons. Later versions became enduring symbols of limited government and due process.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Magna-Carta"
+    }
+  },
+  "history-starter.event-year.revolution-of-maria-da-fonte": {
+    "subtopics": ["Ancient Civilizations"],
+    "prompt": "Which ancient artifact enabled scholars to decipher Egyptian hieroglyphs?",
+    "canonicalAnswer": "Rosetta Stone",
+    "aliases": ["the Rosetta Stone"],
+    "distractors": [
+      "Dead Sea Scrolls",
+      "Code of Hammurabi",
+      "Behistun Inscription"
+    ],
+    "explanation": "The Rosetta Stone provided parallel texts that helped scholars decipher Egyptian hieroglyphs.",
+    "details": "The decree appears in hieroglyphic, Demotic, and ancient Greek scripts. Jean-Francois Champollion used the inscriptions in his breakthrough decipherment.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Rosetta-Stone"
+    }
+  },
+  "history-starter.treaty-year.sino-japanese-friendship-and-trade-treaty": {
+    "subtopics": ["Islamic History"],
+    "prompt": "In which city was the Abbasid House of Wisdom located?",
+    "canonicalAnswer": "Baghdad",
+    "aliases": [],
+    "distractors": ["Damascus", "Cairo", "Cordoba"],
+    "explanation": "The House of Wisdom was associated with Abbasid Baghdad.",
+    "details": "The institution became linked with the translation and study of works in mathematics, astronomy, medicine, and philosophy during the Abbasid intellectual flowering.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Baghdad"
+    }
+  },
+  "history-starter.event-year.bava-beccaris-massacre": {
+    "subtopics": ["Medieval History"],
+    "prompt": "Which Norman leader conquered England after defeating Harold II?",
+    "canonicalAnswer": "William the Conqueror",
+    "aliases": ["William I", "William of Normandy"],
+    "distractors": ["Harald Hardrada", "Richard the Lionheart", "Henry II"],
+    "explanation": "William the Conqueror became king of England after defeating Harold II.",
+    "details": "William, duke of Normandy, won the Battle of Hastings and was crowned in Westminster Abbey, beginning Norman rule in England.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/William-I-king-of-England"
+    }
+  },
+  "history-starter.treaty-year.treaty-on-the-prohibition-of-nuclear-weapons": {
+    "subtopics": ["Global Exploration"],
+    "prompt": "What kind of vessels carried Polynesian navigators across the Pacific?",
+    "canonicalAnswer": "Double-hulled canoes",
+    "aliases": ["Double canoes", "Voyaging canoes"],
+    "distractors": ["Longships", "Galleons", "Reed boats"],
+    "explanation": "Polynesian voyagers crossed great ocean distances in sophisticated outrigger and double-hulled canoes.",
+    "details": "Navigators read stars, swells, winds, clouds, and wildlife without modern instruments, settling islands across a vast area of the Pacific.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/technology/canoe/History"
+    }
+  },
+  "history-starter.event-year.autumn-harvest-uprising": {
+    "subtopics": ["Age of Exploration"],
+    "prompt": "What term describes the exchange of plants, animals, diseases, and peoples between the Americas and Afro-Eurasia after 1492?",
+    "canonicalAnswer": "Columbian Exchange",
+    "aliases": [],
+    "distractors": ["Triangular Trade", "Silk Road", "Great Divergence"],
+    "explanation": "The Columbian Exchange transformed societies and environments on both sides of the Atlantic.",
+    "details": "Foods such as maize and potatoes spread eastward, while horses, wheat, and devastating Old World diseases moved westward.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Columbian-exchange"
+    }
+  },
+  "history-starter.treaty-year.inter-american-democratic-charter": {
+    "subtopics": ["Reformation"],
+    "prompt": "Which theologian's Ninety-five Theses became a catalyst for the Protestant Reformation?",
+    "canonicalAnswer": "Martin Luther",
+    "aliases": [],
+    "distractors": ["John Calvin", "Desiderius Erasmus", "Thomas More"],
+    "explanation": "Martin Luther's Ninety-five Theses challenged the sale of indulgences and helped ignite the Reformation.",
+    "details": "The dispute expanded into a broader challenge to church authority and contributed to the creation of new Protestant traditions.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Martin-Luther"
+    }
+  },
+  "history-starter.event-year.tambov-rebellion": {
+    "subtopics": ["Mughal History"],
+    "prompt": "Which Mughal emperor commissioned the Taj Mahal?",
+    "canonicalAnswer": "Shah Jahan",
+    "aliases": [],
+    "distractors": ["Akbar", "Aurangzeb", "Babur"],
+    "explanation": "Shah Jahan commissioned the Taj Mahal as a mausoleum for Mumtaz Mahal.",
+    "details": "The white-marble complex at Agra was built by teams of artisans during the 17th century and became a masterpiece of Mughal architecture.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Taj-Mahal"
+    }
+  },
+  "history-starter.treaty-year.declaration-recognising-the-right-to-a-flag-of-states-having-no-sea-coast": {
+    "subtopics": ["Atlantic World"],
+    "prompt": "What term describes the forced Atlantic voyage endured by enslaved Africans?",
+    "canonicalAnswer": "Middle Passage",
+    "aliases": [],
+    "distractors": [
+      "Northwest Passage",
+      "Great Migration",
+      "Atlantic Crossing"
+    ],
+    "explanation": "The Middle Passage was the brutal transatlantic journey endured by enslaved Africans.",
+    "details": "Captives were confined aboard slave ships under deadly conditions as part of the transatlantic slave trade.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Middle-Passage-slave-trade"
+    }
+  },
+  "history-starter.event-year.musha-incident": {
+    "subtopics": ["Revolutions"],
+    "prompt": "Which country emerged from the only successful large-scale revolt by enslaved people in modern history?",
+    "canonicalAnswer": "Haiti",
+    "aliases": [],
+    "distractors": ["Jamaica", "Cuba", "Brazil"],
+    "explanation": "The Haitian Revolution defeated colonial rule and created independent Haiti.",
+    "details": "Enslaved people in the French colony of Saint-Domingue began the uprising in 1791. Independence in 1804 created the first Black republic.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Haitian-Revolution"
+    }
+  },
+  "history-starter.treaty-year.optional-protocol-to-the-convention-on-the-elimination-of-all-forms-of-discrimin": {
+    "subtopics": ["Industrial Revolution"],
+    "prompt": "In which country did the Industrial Revolution begin?",
+    "canonicalAnswer": "Great Britain",
+    "aliases": ["Britain", "United Kingdom", "England"],
+    "distractors": ["France", "Germany", "United States"],
+    "explanation": "The Industrial Revolution began in Great Britain before spreading elsewhere.",
+    "details": "Britain combined coal, capital, expanding markets, agricultural change, and technological innovation to pioneer mechanized production.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Industrial-Revolution"
+    }
+  },
+  "history-starter.treaty-year.cross-strait-service-trade-agreement": {
+    "subtopics": ["Enlightenment"],
+    "prompt": "Which Enlightenment thinker is closely associated with the separation of governmental powers?",
+    "canonicalAnswer": "Montesquieu",
+    "aliases": ["Charles de Montesquieu", "Baron de Montesquieu"],
+    "distractors": ["Voltaire", "Thomas Hobbes", "Denis Diderot"],
+    "explanation": "Montesquieu argued that political liberty was protected by separating legislative, executive, and judicial powers.",
+    "details": "His Spirit of the Laws influenced constitutional thought in Europe and the Americas, including the design of the United States government.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Montesquieu"
+    }
+  },
+  "history-starter.event-year.jacobite-rising-of-1745": {
+    "subtopics": ["Latin American Independence"],
+    "prompt": "Which leader is known as 'the Liberator' for independence campaigns across northern South America?",
+    "canonicalAnswer": "Simon Bolivar",
+    "aliases": [
+      "Bolivar",
+      "Simon Jose Antonio de la Santisima Trinidad Bolivar"
+    ],
+    "distractors": [
+      "Jose de San Martin",
+      "Miguel Hidalgo",
+      "Bernardo O'Higgins"
+    ],
+    "explanation": "Simon Bolivar led independence campaigns across much of northern South America.",
+    "details": "His forces helped free territories that became Venezuela, Colombia, Ecuador, Peru, Bolivia, and Panama from Spanish rule.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Simon-Bolivar"
+    }
+  },
+  "history-starter.treaty-year.split-agreement": {
+    "subtopics": ["Imperialism"],
+    "prompt": "The Opium Wars were fought primarily between China and which European power?",
+    "canonicalAnswer": "Great Britain",
+    "aliases": ["Britain", "United Kingdom"],
+    "distractors": ["France", "Portugal", "Russia"],
+    "explanation": "China fought Great Britain in the First Opium War and Britain and France in the Second.",
+    "details": "The conflicts forced Qing China to accept unequal treaties, open treaty ports, and surrender Hong Kong to Britain after the first war.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Opium-Wars"
+    }
+  },
+  "history-starter.event-year.bai-lang-rebellion": {
+    "subtopics": ["Imperialism"],
+    "prompt": "The Berlin Conference of 1884-85 set rules for European colonization on which continent?",
+    "canonicalAnswer": "Africa",
+    "aliases": [],
+    "distractors": ["Asia", "South America", "Australia"],
+    "explanation": "The Berlin Conference established European rules for claiming territory in Africa.",
+    "details": "No African representatives participated. The conference accelerated the Scramble for Africa and the imposition of colonial borders.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Berlin-West-Africa-Conference"
+    }
+  },
+  "history-starter.treaty-year.african-nuclear-weapon-free-zone-treaty": {
+    "subtopics": ["Russian History"],
+    "prompt": "Which Russian emperor issued the emancipation decree that freed the serfs?",
+    "canonicalAnswer": "Alexander II",
+    "aliases": [],
+    "distractors": ["Nicholas I", "Alexander III", "Nicholas II"],
+    "explanation": "Alexander II issued the 1861 emancipation decree ending serfdom in Russia.",
+    "details": "The reform granted legal freedom to millions of serfs, though land payments and communal restrictions limited its immediate benefits.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Alexander-II-emperor-of-Russia"
+    }
+  },
+  "history-starter.event-year.slovak-uprising-1848-1849": {
+    "subtopics": ["Women's History"],
+    "prompt": "Which self-governing country was the first to grant women the right to vote in national elections?",
+    "canonicalAnswer": "New Zealand",
+    "aliases": [],
+    "distractors": ["United Kingdom", "United States", "Australia"],
+    "explanation": "New Zealand granted women voting rights in parliamentary elections in 1893.",
+    "details": "The achievement followed years of organizing and petitions led by suffragists including Kate Sheppard.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/New-Zealand/Political-process"
+    }
+  },
+  "history-starter.treaty-year.treaty-of-prum": {
+    "subtopics": ["Indian Independence"],
+    "prompt": "Gandhi's Salt March protested a British monopoly and tax on what commodity?",
+    "canonicalAnswer": "Salt",
+    "aliases": [],
+    "distractors": ["Tea", "Cotton", "Opium"],
+    "explanation": "The Salt March challenged British control and taxation of salt in colonial India.",
+    "details": "Gandhi walked to the Arabian Sea and made salt in defiance of the law, inspiring a broader campaign of civil disobedience.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Salt-March"
+    }
+  },
+  "history-starter.event-year.coluna-prestes": {
+    "subtopics": ["Turkish History"],
+    "prompt": "Who founded the Republic of Turkey and served as its first president?",
+    "canonicalAnswer": "Mustafa Kemal Ataturk",
+    "aliases": ["Ataturk", "Mustafa Kemal"],
+    "distractors": ["Mehmed VI", "Ismet Inonu", "Enver Pasha"],
+    "explanation": "Mustafa Kemal Ataturk founded the Republic of Turkey and became its first president.",
+    "details": "He led the Turkish national movement after World War I and introduced sweeping secular, legal, educational, and linguistic reforms.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Kemal-Ataturk"
+    }
+  },
+  "history-starter.treaty-year.fourth-geneva-convention": {
+    "subtopics": ["Diplomatic History"],
+    "prompt": "Which Austrian statesman dominated the Congress of Vienna?",
+    "canonicalAnswer": "Klemens von Metternich",
+    "aliases": ["Metternich", "Prince Metternich"],
+    "distractors": [
+      "Otto von Bismarck",
+      "Charles Maurice de Talleyrand",
+      "Camillo Cavour"
+    ],
+    "explanation": "Austrian foreign minister Klemens von Metternich was the leading host and strategist at the Congress of Vienna.",
+    "details": "The congress redrew Europe after the Napoleonic Wars and sought a balance of power that would contain both France and revolutionary movements.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Klemens-von-Metternich"
+    }
+  },
+  "history-starter.event-year.greater-poland-uprising-of-1806": {
+    "subtopics": ["Chinese History"],
+    "prompt": "Who led the Taiping Rebellion and claimed to be the younger brother of Jesus?",
+    "canonicalAnswer": "Hong Xiuquan",
+    "aliases": [],
+    "distractors": ["Sun Yat-sen", "Li Hongzhang", "Zeng Guofan"],
+    "explanation": "Hong Xiuquan founded and led the Taiping Heavenly Kingdom.",
+    "details": "His movement captured Nanjing and fought the Qing dynasty in one of history's deadliest civil wars before being defeated in 1864.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Hong-Xiuquan"
+    }
+  },
+  "history-starter.treaty-year.treaty-of-verdun": {
+    "subtopics": ["Cold War"],
+    "prompt": "Which trade-union leader became the best-known figure of Poland's Solidarity movement?",
+    "canonicalAnswer": "Lech Walesa",
+    "aliases": ["Walesa", "Lech Wałęsa"],
+    "distractors": ["Vaclav Havel", "Alexander Dubcek", "Wojciech Jaruzelski"],
+    "explanation": "Lech Walesa led the Solidarity trade-union movement in communist Poland.",
+    "details": "Solidarity grew from strikes at the Gdansk shipyard into a mass social movement and helped drive Poland's negotiated transition from communist rule.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Lech-Walesa"
+    }
+  },
+  "history-starter.event-year.march-action": {
+    "subtopics": ["African History"],
+    "prompt": "Which Ethiopian victory over Italy became a major symbol of African resistance to colonialism?",
+    "canonicalAnswer": "Battle of Adwa",
+    "aliases": ["Adwa", "Battle of Adowa"],
+    "distractors": [
+      "Battle of Omdurman",
+      "Battle of Isandlwana",
+      "Battle of Majuba Hill"
+    ],
+    "explanation": "Ethiopia's victory at the Battle of Adwa preserved its independence from Italian conquest.",
+    "details": "Emperor Menelik II's forces defeated the invading Italian army in 1896, making Adwa a powerful symbol for later Pan-African movements.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Battle-of-Adwa"
+    }
+  },
+  "history-starter.treaty-year.regional-roaming-agreement": {
+    "subtopics": ["Southeast Asian History"],
+    "prompt": "Which Vietnamese leader declared independence from France and led North Vietnam?",
+    "canonicalAnswer": "Ho Chi Minh",
+    "aliases": [],
+    "distractors": ["Ngo Dinh Diem", "Bao Dai", "Vo Nguyen Giap"],
+    "explanation": "Ho Chi Minh led the Vietnamese independence movement and became president of North Vietnam.",
+    "details": "He founded the Viet Minh, declared Vietnamese independence after World War II, and remained the central political symbol of North Vietnam until his death.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Ho-Chi-Minh"
+    }
+  },
+  "world-turning-points.turning-point-year.greater-poland-uprising-of-1794": {
+    "subtopics": ["Revolutions"],
+    "prompt": "In what year did the French Revolution begin?",
+    "canonicalAnswer": "1789",
+    "aliases": [],
+    "distractors": ["1776", "1815", "1848"],
+    "explanation": "The French Revolution began in 1789.",
+    "details": "The Estates-General met in May, the National Assembly formed in June, and Parisians stormed the Bastille in July.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/French-Revolution"
+    }
+  },
+  "world-turning-points.treaty-year.quirinal-treaty": {
+    "subtopics": ["Empires & Civilizations"],
+    "prompt": "Which empire ended when Ottoman forces captured Constantinople in 1453?",
+    "canonicalAnswer": "Byzantine Empire",
+    "aliases": ["Eastern Roman Empire"],
+    "distractors": ["Holy Roman Empire", "Mongol Empire", "Seljuk Empire"],
+    "explanation": "The Ottoman capture of Constantinople ended the Byzantine Empire.",
+    "details": "Sultan Mehmed II's conquest brought the last remnant of the eastern Roman imperial state to an end and made the city an Ottoman capital.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453"
+    }
+  },
+  "world-turning-points.turning-point-year.july-revolt-of-1927": {
+    "subtopics": ["Russian Revolution"],
+    "prompt": "In what year did the Bolsheviks seize power in Russia's October Revolution?",
+    "canonicalAnswer": "1917",
+    "aliases": [],
+    "distractors": ["1905", "1914", "1922"],
+    "explanation": "The Bolsheviks seized power in 1917.",
+    "details": "The October Revolution overthrew the provisional government and brought Lenin's Bolshevik Party to power, leading toward civil war and the creation of the Soviet Union.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Russian-Revolution"
+    }
+  },
+  "world-turning-points.treaty-year.beijing-convention-1895": {
+    "subtopics": ["Indian Independence"],
+    "prompt": "Who made nonviolent civil disobedience central to India's independence movement?",
+    "canonicalAnswer": "Mahatma Gandhi",
+    "aliases": ["Gandhi", "Mohandas Gandhi", "Mohandas Karamchand Gandhi"],
+    "distractors": [
+      "Jawaharlal Nehru",
+      "Muhammad Ali Jinnah",
+      "Subhas Chandra Bose"
+    ],
+    "explanation": "Mahatma Gandhi made nonviolent mass resistance central to the Indian independence struggle.",
+    "details": "His campaigns included noncooperation, the Salt March, and Quit India, combining political action with the principle of satyagraha.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Mahatma-Gandhi"
+    }
+  },
+  "world-turning-points.turning-point-year.uprising-in-west-hungary": {
+    "subtopics": ["United States History"],
+    "prompt": "Which U.S. president launched the New Deal?",
+    "canonicalAnswer": "Franklin D. Roosevelt",
+    "aliases": ["FDR", "Franklin Roosevelt"],
+    "distractors": ["Herbert Hoover", "Harry S. Truman", "Woodrow Wilson"],
+    "explanation": "Franklin D. Roosevelt launched the New Deal in response to the Great Depression.",
+    "details": "The programs expanded federal relief, regulation, public works, and social insurance while reshaping the relationship between the federal government and citizens.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/New-Deal"
+    }
+  },
+  "world-turning-points.treaty-year.treaty-on-the-adoption-of-the-republic-of-crimea-to-russia": {
+    "subtopics": ["Economic History"],
+    "prompt": "Which financial collapse is commonly associated with the beginning of the Great Depression in the United States?",
+    "canonicalAnswer": "Wall Street Crash of 1929",
+    "aliases": [
+      "1929 stock market crash",
+      "Black Tuesday",
+      "Wall Street Crash"
+    ],
+    "distractors": [
+      "Panic of 1907",
+      "Black Monday of 1987",
+      "Savings and loan crisis"
+    ],
+    "explanation": "The Wall Street Crash of 1929 is commonly associated with the onset of the Great Depression.",
+    "details": "The crash did not cause the worldwide depression by itself, but it damaged confidence and intensified banking, credit, production, and employment crises.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/stock-market-crash-of-1929"
+    }
+  },
+  "world-turning-points.turning-point-year.desmond-rebellions": {
+    "subtopics": ["Decolonization"],
+    "prompt": "In what year did India gain independence from British rule?",
+    "canonicalAnswer": "1947",
+    "aliases": [],
+    "distractors": ["1935", "1945", "1950"],
+    "explanation": "India became independent in 1947.",
+    "details": "British India was partitioned into the independent states of India and Pakistan, a process accompanied by mass migration and terrible communal violence.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/India/Independence-and-partition-1947"
+    }
+  },
+  "world-turning-points.treaty-year.prum-convention": {
+    "subtopics": ["Cold War"],
+    "prompt": "The Marshall Plan provided American recovery aid primarily to which region?",
+    "canonicalAnswer": "Western Europe",
+    "aliases": ["Europe", "European countries"],
+    "distractors": ["Latin America", "Southeast Asia", "Sub-Saharan Africa"],
+    "explanation": "The Marshall Plan funded postwar economic recovery in Western Europe.",
+    "details": "The United States provided billions of dollars in assistance to rebuild production, trade, and infrastructure after World War II.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Marshall-Plan"
+    }
+  },
+  "world-turning-points.turning-point-year.2005-belize-unrest": {
+    "subtopics": ["Cold War"],
+    "prompt": "Which military alliance was created by the United States, Canada, and Western European countries in 1949?",
+    "canonicalAnswer": "NATO",
+    "aliases": ["North Atlantic Treaty Organization"],
+    "distractors": ["Warsaw Pact", "SEATO", "League of Nations"],
+    "explanation": "NATO was created as a collective-defense alliance in 1949.",
+    "details": "The North Atlantic Treaty states that an armed attack against one member will be considered an attack against them all.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/North-Atlantic-Treaty-Organization"
+    }
+  },
+  "world-turning-points.treaty-year.treaty-of-the-eighteen-articles": {
+    "subtopics": ["International Organizations"],
+    "prompt": "Which international organization preceded the United Nations?",
+    "canonicalAnswer": "League of Nations",
+    "aliases": [],
+    "distractors": [
+      "Council of Europe",
+      "Warsaw Pact",
+      "Organization of American States"
+    ],
+    "explanation": "The League of Nations was the principal international organization created after World War I.",
+    "details": "It sought to prevent war through collective security but lacked the participation and enforcement power needed to stop aggression in the 1930s.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/League-of-Nations"
+    }
+  },
+  "world-turning-points.turning-point-year.toplica-insurrection": {
+    "subtopics": ["African History"],
+    "prompt": "Apartheid was a system of institutionalized racial segregation in which country?",
+    "canonicalAnswer": "South Africa",
+    "aliases": [],
+    "distractors": ["Rhodesia", "Belgian Congo", "Angola"],
+    "explanation": "Apartheid was imposed by South Africa's white-minority government.",
+    "details": "The system classified people by race and controlled residence, movement, education, work, and political rights until democratic rule was established in 1994.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/apartheid"
+    }
+  },
+  "world-turning-points.treaty-year.treaty-of-safar": {
+    "subtopics": ["Civil Rights Movement"],
+    "prompt": "Whose arrest sparked the Montgomery bus boycott?",
+    "canonicalAnswer": "Rosa Parks",
+    "aliases": [],
+    "distractors": ["Claudette Colvin", "Ella Baker", "Fannie Lou Hamer"],
+    "explanation": "Rosa Parks's arrest became the immediate catalyst for the Montgomery bus boycott.",
+    "details": "Black residents sustained the boycott for more than a year, and the campaign helped bring Martin Luther King Jr. to national prominence.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Montgomery-bus-boycott"
+    }
+  },
+  "world-turning-points.turning-point-year.tapani-incident": {
+    "subtopics": ["Cold War"],
+    "prompt": "Which two superpowers confronted each other during the Cuban Missile Crisis?",
+    "canonicalAnswer": "United States and Soviet Union",
+    "aliases": ["USA and USSR", "US and USSR", "America and the Soviet Union"],
+    "distractors": [
+      "United States and China",
+      "Britain and Soviet Union",
+      "France and China"
+    ],
+    "explanation": "The United States and Soviet Union confronted each other over Soviet missiles in Cuba.",
+    "details": "The thirteen-day crisis brought the powers close to nuclear war before agreements led to the removal of the missiles.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Cuban-missile-crisis"
+    }
+  },
+  "world-turning-points.treaty-year.international-convention-against-doping-in-sport": {
+    "subtopics": ["Decolonization"],
+    "prompt": "Who led Ghana to independence and became its first prime minister?",
+    "canonicalAnswer": "Kwame Nkrumah",
+    "aliases": [],
+    "distractors": ["Jomo Kenyatta", "Julius Nyerere", "Patrice Lumumba"],
+    "explanation": "Kwame Nkrumah led the Gold Coast to independence as Ghana.",
+    "details": "Nkrumah became a major advocate of Pan-African unity and made Ghana the first sub-Saharan African colony to gain independence from European rule after World War II.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Kwame-Nkrumah"
+    }
+  },
+  "world-turning-points.turning-point-year.cabochien-revolt": {
+    "subtopics": ["Decolonization"],
+    "prompt": "Algeria won independence after a long war against which colonial power?",
+    "canonicalAnswer": "France",
+    "aliases": [],
+    "distractors": ["Spain", "Italy", "Belgium"],
+    "explanation": "Algeria gained independence after an eight-year war against France.",
+    "details": "The National Liberation Front fought French forces in a bitter conflict that also produced political crisis in France and ended with the Evian Accords.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Algerian-War"
+    }
+  },
+  "world-turning-points.treaty-year.slavery-convention": {
+    "subtopics": ["World War II"],
+    "prompt": "The Nuremberg Trials prosecuted leading officials of which regime?",
+    "canonicalAnswer": "Nazi Germany",
+    "aliases": ["Third Reich", "Nazi regime"],
+    "distractors": ["Fascist Italy", "Imperial Japan", "Vichy France"],
+    "explanation": "The Nuremberg Trials prosecuted leading officials of Nazi Germany.",
+    "details": "The proceedings established influential precedents for individual responsibility for war crimes, crimes against humanity, and crimes against peace.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Nurnberg-trials"
+    }
+  },
+  "world-turning-points.turning-point-year.greater-poland-uprising": {
+    "subtopics": ["Middle Eastern History"],
+    "prompt": "Which Egyptian leader nationalized the Suez Canal, helping trigger the Suez Crisis?",
+    "canonicalAnswer": "Gamal Abdel Nasser",
+    "aliases": ["Nasser", "Gamal Nasser"],
+    "distractors": ["Anwar Sadat", "Farouk I", "Hosni Mubarak"],
+    "explanation": "President Gamal Abdel Nasser nationalized the Suez Canal Company.",
+    "details": "Britain, France, and Israel invaded Egypt, but international pressure forced their withdrawal and marked a major shift in postwar power.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Gamal-Abdel-Nasser"
+    }
+  },
+  "world-turning-points.treaty-year.european-charter-for-regional-or-minority-languages": {
+    "subtopics": ["Cold War"],
+    "prompt": "Which reform-minded Czechoslovak leader became the symbol of the Prague Spring?",
+    "canonicalAnswer": "Alexander Dubcek",
+    "aliases": ["Dubcek", "Alexander Dubček"],
+    "distractors": ["Gustav Husak", "Vaclav Havel", "Jan Masaryk"],
+    "explanation": "Alexander Dubcek led the Prague Spring reform movement.",
+    "details": "His program of 'socialism with a human face' loosened censorship and sought political reform before Warsaw Pact forces invaded Czechoslovakia.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Alexander-Dubcek"
+    }
+  },
+  "world-turning-points.turning-point-year.heiji-rebellion": {
+    "subtopics": ["Non-Aligned Movement"],
+    "prompt": "Which Yugoslav leader helped found the Non-Aligned Movement?",
+    "canonicalAnswer": "Josip Broz Tito",
+    "aliases": ["Tito", "Josip Tito"],
+    "distractors": ["Nicolae Ceausescu", "Imre Nagy", "Wladyslaw Gomulka"],
+    "explanation": "Josip Broz Tito was one of the principal founders of the Non-Aligned Movement.",
+    "details": "Tito joined leaders including Jawaharlal Nehru, Gamal Abdel Nasser, Kwame Nkrumah, and Sukarno in seeking an independent path outside the Cold War blocs.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Josip-Broz-Tito"
+    }
+  },
+  "world-turning-points.treaty-year.eu-uk-trade-and-cooperation-agreement": {
+    "subtopics": ["Cold War"],
+    "prompt": "Which dissident playwright became president after Czechoslovakia's Velvet Revolution?",
+    "canonicalAnswer": "Vaclav Havel",
+    "aliases": ["Havel", "Václav Havel"],
+    "distractors": ["Alexander Dubcek", "Lech Walesa", "Milan Kundera"],
+    "explanation": "Vaclav Havel became president after the peaceful Velvet Revolution ended communist rule.",
+    "details": "Havel had been a playwright, essayist, and leading dissident associated with Charter 77 before becoming Czechoslovakia's last president and the Czech Republic's first.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Vaclav-Havel"
+    }
+  }
+}
