@@ -19,6 +19,7 @@ const schema = z.object({
   answer: z.string().max(500).optional().default(""),
   idempotencyKey: z.string().uuid(),
   timedOut: z.boolean().optional().default(false),
+  clientElapsedMs: z.number().int().nonnegative().max(86_400_000).optional(),
 });
 
 export async function POST(
@@ -28,6 +29,7 @@ export async function POST(
   try {
     const { presentationId } = await params;
     const input = schema.parse(await request.json());
+    const requestReceivedAt = Date.now();
     const { user, admin } = await apiContext();
     const { data: presentation } = await admin
       .from("question_presentations")
@@ -68,18 +70,18 @@ export async function POST(
       ),
     ].sort((left, right) => left.localeCompare(right));
     const assessmentMode = presentation.algorithm_version === "assessment-v1";
-    const now = Date.now();
     const started = new Date(
       presentation.media_ready_at ??
         presentation.loading_grace_expires_at ??
         presentation.started_at,
     ).getTime();
     const { elapsedMs, expired, remainingRatio } = resolveAttemptTiming({
-      now,
+      now: requestReceivedAt,
       startedAt: started,
       expiresAt: new Date(presentation.expires_at).getTime(),
       timeLimitSeconds: presentation.scoring_timer_seconds,
       clientTimedOut: input.timedOut,
+      clientElapsedMs: input.clientElapsedMs,
       untimed: assessmentMode,
     });
     const accepted =

@@ -96,14 +96,19 @@ test("a system administrator can review and export question quality", async ({
         verdict: "needs_revision",
       });
 
-    const exportResponse = await page.request.get(
-      "/api/admin/question-quality/export",
-    );
-    expect(exportResponse.status()).toBe(200);
-    expect(exportResponse.headers()["content-disposition"]).toContain(
+    const exportResponse = await page.evaluate(async () => {
+      const response = await fetch("/api/admin/question-quality/export");
+      return {
+        body: await response.json(),
+        contentDisposition: response.headers.get("content-disposition"),
+        status: response.status,
+      };
+    });
+    expect(exportResponse.status).toBe(200);
+    expect(exportResponse.contentDisposition).toContain(
       "mindspan-question-quality-",
     );
-    const exported = (await exportResponse.json()) as {
+    const exported = exportResponse.body as {
       schemaVersion: number;
       selection: {
         needsRevision: boolean;

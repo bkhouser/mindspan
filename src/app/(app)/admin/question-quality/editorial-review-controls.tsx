@@ -29,7 +29,7 @@ export function EditorialReviewControls({
         (event.target instanceof Element && event.target.closest(interactive))
       )
         return;
-      const verdict = { y: "approved", r: "needs_revision", n: "rejected" }[
+      const verdict = { y: "approved", r: "needs_revision", x: "rejected" }[
         event.key.toLowerCase()
       ];
       const button = verdict ? buttons.current[verdict] : null;
@@ -72,8 +72,8 @@ export function EditorialReviewControls({
           },
           {
             verdict: "rejected",
-            label: "Nay / Reject",
-            shortcut: "N",
+            label: "Reject",
+            shortcut: "X",
             className: "bg-rose-300 text-slate-950",
           },
         ].map((item) => (

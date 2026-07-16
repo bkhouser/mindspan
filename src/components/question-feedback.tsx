@@ -1,10 +1,16 @@
 "use client";
 
-import { useState, useTransition } from "react";
+import {
+  forwardRef,
+  useImperativeHandle,
+  useRef,
+  useState,
+} from "react";
 
 export type QuestionFeedbackReason =
   | "incorrect_answer"
   | "should_have_been_accepted"
+  | "wrong_topic"
   | "unclear"
   | "difficulty"
   | "weak_explanation"
@@ -20,6 +26,10 @@ export interface QuestionFeedbackValue {
   comment: string | null;
 }
 
+export interface QuestionFeedbackHandle {
+  savePending: () => Promise<boolean>;
+}
+
 const reasonLabels: Array<{
   value: QuestionFeedbackReason;
   label: string;
@@ -29,6 +39,7 @@ const reasonLabels: Array<{
     value: "should_have_been_accepted",
     label: "My answer should be accepted",
   },
+  { value: "wrong_topic", label: "Wrong topic" },
   { value: "unclear", label: "Unclear" },
   { value: "difficulty", label: "Difficulty feels wrong" },
   { value: "weak_explanation", label: "Weak explanation" },
@@ -57,13 +68,20 @@ async function saveFeedback(
     );
 }
 
-export function QuestionFeedback({
-  attemptId,
-  initialValue,
-}: {
-  attemptId: string;
-  initialValue?: QuestionFeedbackValue | null;
-}) {
+function feedbackKey(value: QuestionFeedbackValue) {
+  return JSON.stringify({
+    ...value,
+    reasons: [...value.reasons].sort(),
+  });
+}
+
+export const QuestionFeedback = forwardRef<
+  QuestionFeedbackHandle,
+  {
+    attemptId: string;
+    initialValue?: QuestionFeedbackValue | null;
+  }
+>(function QuestionFeedback({ attemptId, initialValue }, ref) {
   const [sentiment, setSentiment] = useState(initialValue?.sentiment);
   const [reasons, setReasons] = useState<QuestionFeedbackReason[]>(
     initialValue?.reasons ?? [],
@@ -74,19 +92,55 @@ export function QuestionFeedback({
       Boolean(initialValue.reasons.length || initialValue.comment),
   );
   const [message, setMessage] = useState<string>();
-  const [pending, startTransition] = useTransition();
+  const [pending, setPending] = useState(false);
+  const lastSaved = useRef(
+    initialValue ? feedbackKey(initialValue) : undefined,
+  );
+  const inFlight = useRef<Promise<boolean> | null>(null);
 
-  function persist(value: QuestionFeedbackValue) {
+  function currentValue(): QuestionFeedbackValue | null {
+    if (!sentiment) return null;
+    return {
+      sentiment,
+      reasons: sentiment === "down" ? reasons : [],
+      comment:
+        sentiment === "down" && comment.trim() ? comment.trim() : null,
+    };
+  }
+
+  async function persist(value: QuestionFeedbackValue): Promise<boolean> {
+    if (inFlight.current) await inFlight.current;
+    if (lastSaved.current === feedbackKey(value)) return true;
+
     setMessage(undefined);
-    startTransition(async () => {
+    setPending(true);
+    const request = (async () => {
       try {
         await saveFeedback(attemptId, value);
+        lastSaved.current = feedbackKey(value);
         setMessage("Saved");
+        return true;
       } catch (error) {
         setMessage(error instanceof Error ? error.message : "Could not save");
+        return false;
+      } finally {
+        setPending(false);
       }
-    });
+    })();
+    inFlight.current = request;
+    const saved = await request;
+    if (inFlight.current === request) inFlight.current = null;
+    return saved;
   }
+
+  useImperativeHandle(ref, () => ({
+    async savePending() {
+      if (inFlight.current) await inFlight.current;
+      const value = currentValue();
+      if (!value || lastSaved.current === feedbackKey(value)) return true;
+      return persist(value);
+    },
+  }));
 
   function choose(next: "up" | "down") {
     setSentiment(next);
@@ -94,11 +148,11 @@ export function QuestionFeedback({
       setReasons([]);
       setComment("");
       setExpanded(false);
-      persist({ sentiment: "up", reasons: [], comment: null });
+      void persist({ sentiment: "up", reasons: [], comment: null });
       return;
     }
     setExpanded(true);
-    persist({ sentiment: "down", reasons, comment: comment || null });
+    void persist({ sentiment: "down", reasons, comment: comment || null });
   }
 
   function toggleReason(value: QuestionFeedbackReason) {
@@ -174,7 +228,7 @@ export function QuestionFeedback({
               className="rounded-full bg-white/10 px-4 py-2 text-xs font-black hover:bg-white/15"
               disabled={pending}
               onClick={() =>
-                persist({
+                void persist({
                   sentiment: "down",
                   reasons,
                   comment: comment.trim() || null,
@@ -196,4 +250,4 @@ export function QuestionFeedback({
       ) : null}
     </div>
   );
-}
+});

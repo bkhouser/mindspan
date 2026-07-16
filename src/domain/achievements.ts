@@ -14,7 +14,6 @@ export const MAIN_TOPIC_SLUGS = [
 
 export interface AchievementMetrics {
   onboardingCompleted: boolean;
-  assessmentCompleted: boolean;
   totalAttempts: number;
   attemptedTopics: number;
   proficientTopicSlugs: string[];
@@ -26,7 +25,6 @@ export interface AchievementMetrics {
 export function eligibleAchievementEvaluators(metrics: AchievementMetrics) {
   const eligible: string[] = [];
   if (metrics.onboardingCompleted) eligible.push("onboarding_complete");
-  if (metrics.assessmentCompleted) eligible.push("assessment_complete");
   for (const milestone of QUESTION_MILESTONES) {
     if (metrics.totalAttempts >= milestone)
       eligible.push(`attempts_${milestone}`);

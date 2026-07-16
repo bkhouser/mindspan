@@ -1,7 +1,9 @@
-import { KeyRound, Mail } from "lucide-react";
+import { KeyRound, Mail, Megaphone } from "lucide-react";
+import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { signOut } from "@/app/login/actions";
 import { requireUser } from "@/lib/auth";
+import { DISPLAY_VERSION } from "@/lib/app-version";
 import { SecurityControls } from "./security-controls";
 
 export default async function AccountPage() {
@@ -34,6 +36,17 @@ export default async function AccountPage() {
         </div>
       </Card>
       <SecurityControls hasPassword={providers.has("email")} />
+      <div className="mt-7 flex flex-wrap items-center gap-3 text-sm text-[var(--muted)]">
+        <span>Mindspan {DISPLAY_VERSION}</span>
+        <span aria-hidden="true">·</span>
+        <Link
+          className="inline-flex items-center gap-1.5 font-bold text-[var(--brand)] hover:underline"
+          href="/updates"
+        >
+          <Megaphone aria-hidden="true" size={15} />
+          View updates
+        </Link>
+      </div>
       <form action={signOut} className="mt-7">
         <button
           className="text-sm font-bold text-[var(--muted)] hover:text-white"

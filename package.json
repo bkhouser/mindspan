@@ -1,10 +1,10 @@
 {
   "name": "mindspan",
-  "version": "0.2.0-beta.5",
+  "version": "1.0.0-beta.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/prepare-standalone.mjs",
+    "build": "npm run release:verify && next build && node scripts/prepare-standalone.mjs",
     "production:verify-env": "node scripts/verify-production-env.mjs",
     "start": "next start",
     "lint": "eslint . --max-warnings=0",
@@ -25,7 +25,9 @@
     "catalog:generate:opentdb": "node scripts/generate-opentdb-catalog.mjs",
     "catalog:validate": "node scripts/validate-catalog.mjs",
     "catalog:load": "node scripts/load-catalog.mjs",
-    "catalog:verify": "node scripts/verify-catalog.mjs"
+    "catalog:verify": "node scripts/verify-catalog.mjs",
+    "release:question-changes": "node scripts/question-release-diff.mjs",
+    "release:verify": "node scripts/verify-release-metadata.mjs"
   },
   "engines": {
     "node": ">=20"

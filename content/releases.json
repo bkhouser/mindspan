@@ -1,0 +1,189 @@
+{
+  "releases": [
+    {
+      "version": "1.0.0-beta.1",
+      "releasedAt": "2026-07-15",
+      "title": "Smoother play and clearer progress",
+      "summary": "This update makes playing feel faster, simplifies getting started, clarifies progress, and incorporates Mindspan's first substantial round of beta question feedback.",
+      "highlights": [
+        {
+          "text": "Removed the initial assessment for a quicker start for new players.",
+          "audience": "all"
+        },
+        {
+          "text": "Improved responsiveness when submitting answers.",
+          "audience": "all"
+        },
+        {
+          "text": "Improved the clarity of proficiency and progress.",
+          "audience": "all"
+        },
+        {
+          "text": "Reduced how often you need to log in.",
+          "audience": "all"
+        },
+        {
+          "text": "Improved 35 questions based on player and reviewer feedback.",
+          "audience": "all"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Smoother play",
+          "items": [
+            {
+              "text": "Play setup controls now wait until they are interactive, so a very fast first click is not silently ignored.",
+              "audience": "all"
+            },
+            {
+              "text": "The timer now stops on screen as soon as you submit an answer, and answer controls lock while the result is finalized.",
+              "audience": "all"
+            },
+            {
+              "text": "Normal network and server-processing time is no longer counted against an answer submitted on time.",
+              "audience": "all"
+            },
+            {
+              "text": "Unsaved question-feedback details are saved automatically when you select Next question; if saving fails, the answer screen remains open.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Easier access",
+          "items": [
+            {
+              "text": "New players now proceed directly from interest selection into Mindspan instead of completing a separate assessment.",
+              "audience": "all"
+            },
+            {
+              "text": "Mindspan now keeps you signed in more reliably after closing and reopening your browser.",
+              "audience": "all"
+            },
+            {
+              "text": "Display-name text entered immediately after onboarding appears is no longer lost while the interactive form finishes loading.",
+              "audience": "all"
+            },
+            {
+              "text": "Historical assessment records, earned achievements, Insight, and mastery remain preserved.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Clearer progress",
+          "items": [
+            {
+              "text": "Group leaderboards now describe supporting statistics as percentage correct and different questions answered.",
+              "audience": "all"
+            },
+            {
+              "text": "The confusing overall proficiency percentage has been removed from group leaderboard summaries.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Better question feedback",
+          "items": [
+            {
+              "text": "You can now report that a question is assigned to the wrong topic.",
+              "audience": "all"
+            },
+            {
+              "text": "Feedback details are protected from being accidentally lost when advancing to the next question.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Question improvements",
+          "items": [
+            {
+              "text": "We reviewed and improved all 35 questions in the first production question-quality export, including player feedback that had not yet received an administrator review.",
+              "audience": "all"
+            },
+            {
+              "text": "Corrections include topics, pack placement, accepted answers, answer modes, difficulty, wording, explanations, and supporting context.",
+              "audience": "all"
+            },
+            {
+              "text": "No question was automatically removed based solely on player feedback.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Updates",
+          "items": [
+            {
+              "text": "Mindspan now keeps an in-app history of released changes and shows returning players a one-time summary after an upgrade.",
+              "audience": "all"
+            },
+            {
+              "text": "The current Mindspan version is visible in the navigation and on the Account page.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Administrator improvements",
+          "items": [
+            {
+              "text": "Question Quality cards now show subtopics beside the topic, pack, and difficulty and identify typed-answer versus required-choice questions.",
+              "audience": "admin"
+            },
+            {
+              "text": "Question rejection is now labeled simply Reject and supports the X keyboard shortcut.",
+              "audience": "admin"
+            },
+            {
+              "text": "Question-quality exports and release tooling now support substantial catalog-review batches while preserving immutable question history.",
+              "audience": "admin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.2.0-beta.5",
+      "releasedAt": "2026-07-14",
+      "title": "Question quality tools",
+      "summary": "Mindspan added faster ways for players and administrators to identify and correct question problems.",
+      "highlights": [
+        {
+          "text": "Players can report when an answer should have been accepted.",
+          "audience": "all"
+        },
+        {
+          "text": "Administrators can review, filter, and export question-quality concerns.",
+          "audience": "admin"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Added",
+          "items": [
+            {
+              "text": "Report that an answer you supplied should have been accepted.",
+              "audience": "all"
+            },
+            {
+              "text": "Review and export player feedback through the Question Quality workspace.",
+              "audience": "admin"
+            }
+          ]
+        },
+        {
+          "heading": "Improved",
+          "items": [
+            {
+              "text": "The affected Thomas Jefferson question now accepts Jefferson as an answer.",
+              "audience": "all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

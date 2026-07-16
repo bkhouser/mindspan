@@ -5,6 +5,7 @@ import { ApiError, apiContext, errorResponse } from "@/lib/api";
 const reason = z.enum([
   "incorrect_answer",
   "should_have_been_accepted",
+  "wrong_topic",
   "unclear",
   "difficulty",
   "weak_explanation",

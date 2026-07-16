@@ -3,7 +3,6 @@ import { eligibleAchievementEvaluators } from "../achievements";
 
 const baseMetrics = {
   onboardingCompleted: false,
-  assessmentCompleted: false,
   totalAttempts: 0,
   attemptedTopics: 0,
   proficientTopicSlugs: [],

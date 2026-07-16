@@ -27,4 +27,33 @@ describe("attempt timing", () => {
       }),
     ).toEqual({ elapsedMs: 30_001, expired: true, remainingRatio: 0 });
   });
+
+  it("uses a bounded browser submission time to absorb request transit", () => {
+    const result = resolveAttemptTiming({
+      now: 30_600,
+      startedAt: 0,
+      expiresAt: 30_000,
+      timeLimitSeconds: 30,
+      clientTimedOut: false,
+      clientElapsedMs: 29_400,
+      untimed: false,
+    });
+
+    expect(result).toMatchObject({ elapsedMs: 29_400, expired: false });
+    expect(result.remainingRatio).toBeCloseTo(0.02);
+  });
+
+  it("caps a forged browser submission time to two seconds of grace", () => {
+    expect(
+      resolveAttemptTiming({
+        now: 20_000,
+        startedAt: 0,
+        expiresAt: 30_000,
+        timeLimitSeconds: 30,
+        clientTimedOut: false,
+        clientElapsedMs: 1,
+        untimed: false,
+      }),
+    ).toEqual({ elapsedMs: 18_000, expired: false, remainingRatio: 0.4 });
+  });
 });

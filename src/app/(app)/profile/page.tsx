@@ -47,8 +47,7 @@ export default async function ProfilePage({
       .eq("user_id", user.id),
     supabase
       .from("achievements")
-      .select("id")
-      .eq("enabled", true),
+      .select("id,enabled"),
     supabase
       .from("user_achievements")
       .select("achievement_id")
@@ -116,8 +115,16 @@ export default async function ProfilePage({
           left.topic.localeCompare(right.topic),
       ) ?? [];
   const insight = ledger?.reduce((sum, item) => sum + item.amount, 0) ?? 0;
+  const earnedAchievementIds = new Set(
+    earnedAchievements?.map((achievement) => achievement.achievement_id),
+  );
   const availableAchievementIds = new Set(
-    achievementDefinitions?.map((achievement) => achievement.id),
+    achievementDefinitions
+      ?.filter(
+        (achievement) =>
+          achievement.enabled || earnedAchievementIds.has(achievement.id),
+      )
+      .map((achievement) => achievement.id),
   );
   const achievementCount =
     earnedAchievements?.filter((award) =>

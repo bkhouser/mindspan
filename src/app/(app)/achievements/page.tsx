@@ -7,8 +7,7 @@ export default async function AchievementsPage() {
   const [{ data: definitions }, { data: earnedRows }] = await Promise.all([
     supabase
       .from("achievements")
-      .select("id,slug,name,description,insight_reward,created_at")
-      .eq("enabled", true)
+      .select("id,slug,name,description,insight_reward,created_at,enabled")
       .order("created_at"),
     supabase
       .from("user_achievements")
@@ -19,6 +18,10 @@ export default async function AchievementsPage() {
     earnedRows?.map((row) => [row.achievement_id, row.earned_at]),
   );
   const achievements = (definitions ?? [])
+    .filter(
+      (achievement) =>
+        achievement.enabled || earnedById.has(achievement.id),
+    )
     .map((achievement) => ({
       ...achievement,
       earnedAt: earnedById.get(achievement.id) ?? null,

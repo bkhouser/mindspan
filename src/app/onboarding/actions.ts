@@ -5,7 +5,17 @@ import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-export type OnboardingState = { error?: string };
+type OnboardingValues = {
+  ageConfirmed: boolean;
+  displayName: string;
+  topics: string[];
+};
+
+export type OnboardingState = {
+  error?: string;
+  submissionKey?: string;
+  values?: OnboardingValues;
+};
 
 export async function completeOnboarding(
   _previousState: OnboardingState,
@@ -13,17 +23,20 @@ export async function completeOnboarding(
 ): Promise<OnboardingState> {
   const { user, supabase } = await requireUser();
   const topics = formData.getAll("topics").map(String);
+  const values: OnboardingValues = {
+    ageConfirmed: formData.get("ageConfirmed") === "on",
+    displayName: String(formData.get("displayName") ?? ""),
+    topics,
+  };
   const parsed = z
     .object({
       displayName: z.string().trim().min(1).max(50),
       ageConfirmed: z.literal("on"),
-      intent: z.enum(["assessment", "skip"]),
       topics: z.array(z.string().uuid()).min(1),
     })
     .safeParse({
       displayName: formData.get("displayName"),
       ageConfirmed: formData.get("ageConfirmed"),
-      intent: formData.get("intent"),
       topics,
     });
   if (!parsed.success) {
@@ -32,6 +45,8 @@ export async function completeOnboarding(
         topics.length === 0
           ? "Choose at least one topic before continuing."
           : "Check your display name and confirm that you are at least 13.",
+      submissionKey: crypto.randomUUID(),
+      values,
     };
   }
 
@@ -42,6 +57,8 @@ export async function completeOnboarding(
   if (deleteError) {
     return {
       error: "Mindspan could not save your interests. Please try again.",
+      submissionKey: crypto.randomUUID(),
+      values,
     };
   }
   const { error: interestError } = await supabase.from("user_interests").insert(
@@ -53,6 +70,8 @@ export async function completeOnboarding(
   if (interestError) {
     return {
       error: "Mindspan could not save your interests. Please try again.",
+      submissionKey: crypto.randomUUID(),
+      values,
     };
   }
   const { error: profileError } = await supabase
@@ -60,20 +79,20 @@ export async function completeOnboarding(
     .update({
       display_name: parsed.data.displayName,
       age_confirmed: true,
-      onboarding_completed: parsed.data.intent === "skip",
+      onboarding_completed: true,
       updated_at: new Date().toISOString(),
     })
     .eq("id", user.id);
   if (profileError) {
     return {
       error: "Mindspan could not finish your profile. Please try again.",
+      submissionKey: crypto.randomUUID(),
+      values,
     };
   }
-  if (parsed.data.intent === "skip") {
-    await createAdminClient().rpc("award_achievement_v1", {
-      target_user: user.id,
-      evaluator: "onboarding_complete",
-    });
-  }
-  redirect(parsed.data.intent === "assessment" ? "/assessment" : "/home");
+  await createAdminClient().rpc("award_achievement_v1", {
+    target_user: user.id,
+    evaluator: "onboarding_complete",
+  });
+  redirect("/home");
 }

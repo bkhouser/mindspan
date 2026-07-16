@@ -69,6 +69,63 @@ describe("PlayGame choice submission", () => {
     );
   });
 
+  it("locks the answer and freezes interaction while submission is pending", async () => {
+    vi.spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ id: "session-pending" }), {
+          status: 201,
+        }),
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            id: "presentation-pending",
+            prompt: "What is the capital of France?",
+            answerMode: "recall",
+            topic: {
+              id: "topic-1",
+              slug: "geography",
+              name: "Geography",
+            },
+            difficulty: 1,
+            media: null,
+            timeLimitSeconds: 30,
+            scoringTimeLimitSeconds: 30,
+            startingPoints: 100,
+            expiresAt: new Date(Date.now() + 30_000).toISOString(),
+            mediaLoadDeadline: null,
+          }),
+          { status: 200 },
+        ),
+      )
+      .mockReturnValueOnce(new Promise<Response>(() => undefined));
+
+    render(
+      <PlayGame
+        immediateChoiceSubmit={false}
+        initialMode="mixed"
+        packs={[]}
+        showPlayIntro={false}
+        standardTimerSeconds={30}
+        topics={[]}
+      />,
+    );
+
+    await userEvent.click(
+      screen.getByRole("button", { name: "Start playing" }),
+    );
+    const input = await screen.findByPlaceholderText("Type your answer");
+    await userEvent.type(input, "Paris");
+    await userEvent.click(screen.getByRole("button", { name: "Lock in answer" }));
+
+    expect(screen.getByText("Answer locked. Checking it now…")).toBeVisible();
+    expect(input).toBeDisabled();
+    expect(
+      screen.getByRole("button", { name: "Checking answer…" }),
+    ).toBeDisabled();
+    expect(screen.getByText(/Locked at \d+s · \d+ pts/)).toBeVisible();
+  });
+
   it("explains scoring and lets the player turn off the introduction", async () => {
     render(
       <PlayGame

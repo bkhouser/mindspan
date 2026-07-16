@@ -942,6 +942,8 @@ export type Database = {
           display_name: string
           id: string
           immediate_choice_submit: boolean
+          last_app_version: string | null
+          last_updates_read_version: string | null
           onboarding_completed: boolean
           role: Database["public"]["Enums"]["user_role"]
           show_play_intro: boolean
@@ -956,6 +958,8 @@ export type Database = {
           display_name?: string
           id: string
           immediate_choice_submit?: boolean
+          last_app_version?: string | null
+          last_updates_read_version?: string | null
           onboarding_completed?: boolean
           role?: Database["public"]["Enums"]["user_role"]
           show_play_intro?: boolean
@@ -970,6 +974,8 @@ export type Database = {
           display_name?: string
           id?: string
           immediate_choice_submit?: boolean
+          last_app_version?: string | null
+          last_updates_read_version?: string | null
           onboarding_completed?: boolean
           role?: Database["public"]["Enums"]["user_role"]
           show_play_intro?: boolean

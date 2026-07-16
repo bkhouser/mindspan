@@ -43,6 +43,7 @@ function related<T>(value: T | T[] | null | undefined): T | null {
 const reasonLabels: Record<string, string> = {
   incorrect_answer: "Incorrect answer",
   should_have_been_accepted: "My answer should be accepted",
+  wrong_topic: "Wrong topic",
   unclear: "Unclear",
   difficulty: "Difficulty feels wrong",
   weak_explanation: "Weak explanation",
@@ -196,6 +197,12 @@ export default async function QuestionQualityPage({
   const currentReports = current
     ? (reportsByVersion.get(current.id) ?? [])
     : [];
+  const currentSubtopics = current
+    ? (related(current.questions)?.question_subtopics ?? []).flatMap((link) => {
+        const subtopic = related(link.subtopics);
+        return subtopic?.name ? [subtopic.name] : [];
+      })
+    : [];
   const baseUrl = `/admin/question-quality?pack=${selectedPack.pack_id}&view=${view}`;
   const nextPosition =
     view === "unreviewed"
@@ -308,6 +315,38 @@ export default async function QuestionQualityPage({
           <div className="flex flex-wrap items-center gap-3 border-b border-white/10 bg-white/[.025] px-6 py-4">
             <b>{selectedPack.pack_name}</b>
             <span className="text-sm text-[var(--muted)]">
+              {related(current.topic)?.name ?? "Topic"}
+            </span>
+            <span className="text-xs font-bold text-[var(--muted)]">
+              Subtopics:
+            </span>
+            {currentSubtopics.length ? (
+              currentSubtopics.map((subtopic) => (
+                <span
+                  className="rounded-full bg-white/5 px-2.5 py-1 text-xs font-bold"
+                  key={subtopic}
+                >
+                  {subtopic}
+                </span>
+              ))
+            ) : (
+              <span className="text-xs italic text-amber-100/75">
+                None assigned
+              </span>
+            )}
+            <DifficultyStars difficulty={current.difficulty} />
+            <span
+              className={`rounded-full px-2.5 py-1 text-xs font-bold ${
+                current.answer_mode === "required_choice"
+                  ? "bg-amber-200/10 text-amber-100"
+                  : "bg-sky-300/10 text-sky-100"
+              }`}
+            >
+              {current.answer_mode === "required_choice"
+                ? "Required choice · 50% value"
+                : "Typed answer"}
+            </span>
+            <span className="text-sm text-[var(--muted)]">
               {position} of {filteredVersions.length} in {views.find((item) => item.value === view)?.label.toLowerCase()}
             </span>
             {currentReview ? (
@@ -318,8 +357,6 @@ export default async function QuestionQualityPage({
           </div>
           <div className="p-6 sm:p-8">
             <div className="flex flex-wrap items-center gap-2 text-xs text-[var(--muted)]">
-              <span>{related(current.topic)?.name ?? "Topic"}</span>
-              <DifficultyStars difficulty={current.difficulty} />
               <span>Version {current.version_number}</span>
               <code className="rounded bg-black/20 px-2 py-1">
                 {catalogKeyByQuestion.get(current.question_id) ?? "database-seed"}
@@ -356,16 +393,6 @@ export default async function QuestionQualityPage({
             <div className="mt-6 space-y-4 border-t border-white/10 pt-6 leading-7">
               <p className="font-bold">{current.explanation}</p>
               <p className="text-[var(--muted)]">{current.details}</p>
-            </div>
-            <div className="mt-6 flex flex-wrap gap-2 text-xs">
-              {related(current.questions)?.question_subtopics?.flatMap((link) => {
-                const subtopic = related(link.subtopics);
-                return subtopic ? (
-                  <span className="rounded-full bg-white/5 px-3 py-1.5" key={subtopic.name}>
-                    {subtopic.name}
-                  </span>
-                ) : [];
-              })}
             </div>
             <div className="mt-6 grid gap-3 sm:grid-cols-3">
               <Card className="p-4">

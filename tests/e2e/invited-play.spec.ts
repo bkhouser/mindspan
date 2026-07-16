@@ -98,7 +98,11 @@ test("an invited player can onboard and finish an assisted question", async ({
         cookie.name.includes("code-verifier"),
       ),
     ).toBe(false);
-    const callbackResponse = await page.goto(actionLink);
+    const callbackUrl = new URL(actionLink);
+    const appOrigin = new URL(page.url());
+    callbackUrl.protocol = appOrigin.protocol;
+    callbackUrl.host = appOrigin.host;
+    const callbackResponse = await page.goto(callbackUrl.toString());
     if (!page.url().includes("/onboarding")) {
       const redirects = [];
       let request = callbackResponse?.request();
@@ -132,11 +136,27 @@ test("an invited player can onboard and finish an assisted question", async ({
         name: /ready when you are, playwright player/i,
       }),
     ).toBeVisible();
-    const achievement = page
-      .getByRole("status")
-      .filter({ hasText: /achievement unlocked/i });
-    if (await achievement.isVisible())
-      await achievement.getByRole("button", { name: /nice/i }).click();
+    const { data: users } = await admin.auth.admin.listUsers({
+      page: 1,
+      perPage: 1000,
+    });
+    userId = users.users.find((candidate) => candidate.email === email)?.id;
+    if (!userId) throw new Error("The invited test account was not created");
+    const { error: noticeError } = await admin
+      .from("user_achievements")
+      .update({ notified_at: new Date().toISOString() })
+      .eq("user_id", userId);
+    if (noticeError) throw noticeError;
+    await page.goto("/assessment");
+    await expect(page).toHaveURL(/\/home/);
+    await expect(
+      page.getByRole("heading", {
+        name: /ready when you are, playwright player/i,
+      }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("status").filter({ hasText: /achievement unlocked/i }),
+    ).toHaveCount(0);
     await page.getByRole("link", { name: /play now/i }).click();
     await page.getByRole("button", { name: /start playing/i }).click();
     const showChoices = page.getByRole("button", { name: /show choices/i });
@@ -177,96 +197,6 @@ test("an invited player can onboard and finish an assisted question", async ({
         return count ?? 0;
       })
       .toBeGreaterThan(0);
-  } finally {
-    await admin.from("beta_invites").delete().eq("token_hash", tokenHash);
-    if (!userId) {
-      const { data } = await admin.auth.admin.listUsers({
-        page: 1,
-        perPage: 1000,
-      });
-      userId = data.users.find((candidate) => candidate.email === email)?.id;
-    }
-    if (userId) await admin.auth.admin.deleteUser(userId);
-  }
-});
-
-test("an invited player can begin the adaptive assessment", async ({
-  page,
-}, testInfo) => {
-  test.skip(
-    testInfo.project.name !== "chromium",
-    "The authenticated assessment journey runs once in Chromium.",
-  );
-  const admin = createClient(supabaseUrl, secretKey, {
-    auth: { persistSession: false },
-  });
-  const invite = randomBytes(24).toString("base64url");
-  const tokenHash = createHash("sha256").update(invite).digest("hex");
-  const email = `assessment-${crypto.randomUUID()}@mindspan.local`;
-  const password = "Mindspan-Assessment-2026!";
-  let userId;
-
-  try {
-    const { error: inviteError } = await admin.from("beta_invites").insert({
-      token_hash: tokenHash,
-      email,
-      expires_at: new Date(Date.now() + 3_600_000).toISOString(),
-    });
-    if (inviteError) throw inviteError;
-    await page.goto(`/login?invite=${encodeURIComponent(invite)}`);
-    await page.getByLabel("Email address").fill(email);
-    await page.getByLabel("Password", { exact: true }).fill(password);
-    await page.getByLabel(/confirm password/i).fill(password);
-    await page
-      .locator("form")
-      .filter({ has: page.getByLabel(/confirm password/i) })
-      .getByRole("button", { name: /create account/i })
-      .click();
-
-    let actionLink = "";
-    await expect
-      .poll(
-        async () => {
-          const list = (await fetch(
-            "http://127.0.0.1:54324/api/v1/messages",
-          ).then((response) => response.json())) as {
-            messages: Array<{ ID: string; To: Array<{ Address: string }> }>;
-          };
-          const message = list.messages.find((candidate) =>
-            candidate.To.some((recipient) => recipient.Address === email),
-          );
-          if (!message) return false;
-          const detail = (await fetch(
-            `http://127.0.0.1:54324/api/v1/message/${message.ID}`,
-          ).then((response) => response.json())) as {
-            HTML?: string;
-            Text?: string;
-          };
-          const match = (detail.HTML ?? detail.Text ?? "").match(
-            /https?:\/\/[^\s"'<>]+/,
-          );
-          actionLink = match?.[0]?.replaceAll("&amp;", "&") ?? "";
-          return Boolean(actionLink);
-        },
-        { timeout: 10_000 },
-      )
-      .toBe(true);
-
-    await page.goto(actionLink);
-    await expect(page).toHaveURL(/\/onboarding/);
-    await page.getByLabel("Display name").fill("Assessment Player");
-    await page.locator('input[name="topics"]').first().check();
-    await page.locator('input[name="ageConfirmed"]').check();
-    await page.getByRole("button", { name: /take the assessment/i }).click();
-
-    await expect(page).toHaveURL(/\/assessment/);
-    await page.getByRole("button", { name: /begin assessment/i }).click();
-    await expect(
-      page.getByRole("img", { name: "Difficulty 3 out of 5" }),
-    ).toBeVisible();
-    await expect(
-      page.getByRole("button", { name: /show choices/i }),
-    ).toBeVisible();
   } finally {
     await admin.from("beta_invites").delete().eq("token_hash", tokenHash);
     if (!userId) {

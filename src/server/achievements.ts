@@ -12,7 +12,6 @@ export async function evaluateAchievementsForUser(
     { count: attempts },
     { count: hardCorrect },
     { data: mastery },
-    { count: assessmentCompleted },
     { count: loginDays },
   ] = await Promise.all([
     admin
@@ -38,11 +37,6 @@ export async function evaluateAchievementsForUser(
       .select("tier,unique_questions,topics(slug)")
       .eq("user_id", userId),
     admin
-      .from("assessment_runs")
-      .select("id", { count: "exact", head: true })
-      .eq("user_id", userId)
-      .eq("status", "completed"),
-    admin
       .from("user_login_days")
       .select("login_date", { count: "exact", head: true })
       .eq("user_id", userId),
@@ -55,7 +49,6 @@ export async function evaluateAchievementsForUser(
     }) ?? [];
   const eligible = eligibleAchievementEvaluators({
     onboardingCompleted: Boolean(profile?.onboarding_completed),
-    assessmentCompleted: Boolean(assessmentCompleted),
     totalAttempts: attempts ?? 0,
     attemptedTopics:
       mastery?.filter((row) => row.unique_questions > 0).length ?? 0,

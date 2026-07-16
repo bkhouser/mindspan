@@ -6,6 +6,8 @@ const baseURL = process.env.PLAYWRIGHT_BASE_URL ?? `http://127.0.0.1:${port}`;
 export default defineConfig({
   testDir: "./tests/e2e",
   fullyParallel: true,
+  timeout: 90_000,
+  workers: Number(process.env.PLAYWRIGHT_WORKERS ?? 4),
   retries: process.env.CI ? 2 : 0,
   reporter: process.env.CI ? "github" : "html",
   use: {
@@ -23,6 +25,8 @@ export default defineConfig({
       process.env.PLAYWRIGHT_WEB_COMMAND ??
       `npm run dev -- --hostname 127.0.0.1 --port ${port}`,
     url: baseURL,
-    reuseExistingServer: !process.env.CI && port === "3000",
+    reuseExistingServer:
+      !process.env.CI &&
+      (port === "3000" || process.env.PLAYWRIGHT_REUSE_EXISTING_SERVER === "1"),
   },
 });

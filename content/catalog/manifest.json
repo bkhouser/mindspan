@@ -7,7 +7,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [14, 19, 27, 20, 15]
     },
     {
       "slug": "history-starter",
@@ -15,7 +15,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [15, 20, 26, 20, 14]
     },
     {
       "slug": "geography-starter",
@@ -23,7 +23,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [14, 21, 25, 21, 14]
     },
     {
       "slug": "sports-starter",
@@ -31,7 +31,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [15, 20, 26, 20, 14]
     },
     {
       "slug": "arts-literature-starter",
@@ -47,7 +47,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [14, 19, 26, 22, 14]
     },
     {
       "slug": "music-starter",
@@ -55,7 +55,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [14, 17, 29, 21, 14]
     },
     {
       "slug": "lifestyle-culture-starter",
@@ -63,7 +63,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [15, 19, 27, 20, 14]
     },
     {
       "slug": "space-and-beyond",
@@ -111,7 +111,7 @@
       "target": 50,
       "existingSeedCount": 0,
       "generatedTarget": 50,
-      "difficulty": [20, 18, 10, 2, 0]
+      "difficulty": [21, 18, 9, 2, 0]
     }
   ]
 }

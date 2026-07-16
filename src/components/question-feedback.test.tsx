@@ -1,7 +1,11 @@
+import { createRef } from "react";
 import { cleanup, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { QuestionFeedback } from "./question-feedback";
+import {
+  QuestionFeedback,
+  type QuestionFeedbackHandle,
+} from "./question-feedback";
 
 const attemptId = "11111111-1111-4111-8111-111111111111";
 
@@ -14,7 +18,7 @@ describe("QuestionFeedback", () => {
   it("keeps the default control compact and saves a positive reaction", async () => {
     const request = vi
       .spyOn(globalThis, "fetch")
-      .mockResolvedValue(new Response("{}", { status: 200 }));
+      .mockImplementation(async () => new Response("{}", { status: 200 }));
     render(<QuestionFeedback attemptId={attemptId} />);
 
     expect(screen.getByText("Question feedback")).toBeVisible();
@@ -33,25 +37,52 @@ describe("QuestionFeedback", () => {
   it("opens optional reasons only after a negative reaction", async () => {
     const request = vi
       .spyOn(globalThis, "fetch")
-      .mockResolvedValue(new Response("{}", { status: 200 }));
+      .mockImplementation(async () => new Response("{}", { status: 200 }));
     render(<QuestionFeedback attemptId={attemptId} />);
 
     await userEvent.click(
       screen.getByRole("button", { name: "Question needs work" }),
     );
     expect(screen.getByText("Optional details")).toBeVisible();
-    await userEvent.click(screen.getByText("My answer should be accepted"));
+    await userEvent.click(screen.getByText("Wrong topic"));
     await userEvent.type(
       screen.getByPlaceholderText("Optional note"),
-      "Jefferson should count.",
+      "This belongs in Geography.",
     );
     await userEvent.click(screen.getByRole("button", { name: "Save details" }));
 
     await waitFor(() => expect(request).toHaveBeenCalledTimes(2));
     expect(JSON.parse(String(request.mock.calls[1]?.[1]?.body))).toMatchObject({
       sentiment: "down",
-      reasons: ["should_have_been_accepted"],
-      comment: "Jefferson should count.",
+      reasons: ["wrong_topic"],
+      comment: "This belongs in Geography.",
+    });
+  });
+
+  it("saves edited details when the parent advances without Save details", async () => {
+    const request = vi
+      .spyOn(globalThis, "fetch")
+      .mockImplementation(async () => new Response("{}", { status: 200 }));
+    const ref = createRef<QuestionFeedbackHandle>();
+    render(<QuestionFeedback attemptId={attemptId} ref={ref} />);
+
+    await userEvent.click(
+      screen.getByRole("button", { name: "Question needs work" }),
+    );
+    await waitFor(() => expect(request).toHaveBeenCalledOnce());
+    await userEvent.click(screen.getByText("Weak explanation"));
+    await userEvent.type(
+      screen.getByPlaceholderText("Optional note"),
+      "This needs more context.",
+    );
+
+    await expect(ref.current?.savePending()).resolves.toBe(true);
+    expect(request).toHaveBeenCalledTimes(2);
+    expect(JSON.parse(String(request.mock.calls[1]?.[1]?.body))).toMatchObject({
+      attemptId,
+      sentiment: "down",
+      reasons: ["weak_explanation"],
+      comment: "This needs more context.",
     });
   });
 });

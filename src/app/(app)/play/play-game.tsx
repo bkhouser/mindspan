@@ -1,6 +1,13 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState, useTransition } from "react";
+import {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+  useSyncExternalStore,
+  useTransition,
+} from "react";
 import {
   CheckCircle2,
   ChevronRight,
@@ -22,7 +29,10 @@ import { MediaPrompt } from "@/components/media-prompt";
 import { AchievementCelebration } from "@/components/achievement-celebration";
 import { DifficultyStars } from "@/components/difficulty-stars";
 import { QuestionTimerBar } from "@/components/question-timer-bar";
-import { QuestionFeedback } from "@/components/question-feedback";
+import {
+  QuestionFeedback,
+  type QuestionFeedbackHandle,
+} from "@/components/question-feedback";
 import { remainingScoringRatio } from "@/domain/timer-rules";
 import { useEnterToAdvance } from "@/hooks/use-enter-to-advance";
 import { dismissPlayIntroduction } from "./actions";
@@ -41,7 +51,7 @@ interface Props {
   showPlayIntro: boolean;
   standardTimerSeconds: number;
 }
-type Phase = "setup" | "loading" | "question" | "result";
+type Phase = "setup" | "loading" | "question" | "submitting" | "result";
 
 async function api<T>(url: string, body: unknown): Promise<T> {
   const response = await fetch(url, {
@@ -52,6 +62,10 @@ async function api<T>(url: string, body: unknown): Promise<T> {
   const json = await response.json();
   if (!response.ok) throw new Error(json.error?.message ?? "Request failed");
   return json;
+}
+
+function subscribeToHydration() {
+  return () => undefined;
 }
 
 export function PlayGame({
@@ -81,10 +95,17 @@ export function PlayGame({
   const [runElapsedMs, setRunElapsedMs] = useState(0);
   const [introVisible, setIntroVisible] = useState(showPlayIntro);
   const [introError, setIntroError] = useState<string>();
+  const [advancingToNext, setAdvancingToNext] = useState(false);
+  const hydrated = useSyncExternalStore(
+    subscribeToHydration,
+    () => true,
+    () => false,
+  );
   const [, startIntroTransition] = useTransition();
   const submitting = useRef(false);
   const markingMediaReady = useRef(false);
   const autoStartAttempted = useRef(false);
+  const questionFeedback = useRef<QuestionFeedbackHandle>(null);
 
   function turnOffIntroduction() {
     setIntroVisible(false);
@@ -159,10 +180,28 @@ export function PlayGame({
     async (value: string, timedOut = false) => {
       if (!presentation || submitting.current) return;
       submitting.current = true;
+      setError(undefined);
+      const frozenRemainingMs = timedOut
+        ? 0
+        : Math.max(
+            0,
+            new Date(presentation.expiresAt).getTime() - Date.now(),
+          );
+      const clientElapsedMs = Math.max(
+        0,
+        presentation.timeLimitSeconds * 1000 - frozenRemainingMs,
+      );
+      setRemainingMs(frozenRemainingMs);
+      setPhase("submitting");
       try {
         const response = await api<AttemptResult>(
           `/api/play/presentations/${presentation.id}/answer`,
-          { answer: value, timedOut, idempotencyKey: crypto.randomUUID() },
+          {
+            answer: value,
+            timedOut,
+            clientElapsedMs: Math.round(clientElapsedMs),
+            idempotencyKey: crypto.randomUUID(),
+          },
         );
         setResult(response);
         setQuestionCount((count) => count + 1);
@@ -174,6 +213,13 @@ export function PlayGame({
             : "Could not submit answer",
         );
         submitting.current = false;
+        setRemainingMs(
+          Math.max(
+            0,
+            new Date(presentation.expiresAt).getTime() - Date.now(),
+          ),
+        );
+        setPhase("question");
       }
     },
     [presentation],
@@ -181,8 +227,20 @@ export function PlayGame({
 
   useEnterToAdvance(
     phase === "result" && Boolean(sessionId),
-    () => (sessionId ? loadNext(sessionId) : undefined),
+    advanceToNext,
   );
+
+  async function advanceToNext() {
+    if (!sessionId || advancingToNext) return;
+    setAdvancingToNext(true);
+    const saved = await questionFeedback.current?.savePending();
+    if (saved === false) {
+      setAdvancingToNext(false);
+      return;
+    }
+    await loadNext(sessionId);
+    setAdvancingToNext(false);
+  }
 
   useEffect(() => {
     if (phase !== "question" || !presentation) return;
@@ -315,7 +373,8 @@ export function PlayGame({
                   </li>
                 </ul>
                 <button
-                  className="mt-4 text-sm font-black text-[var(--brand)] hover:underline"
+                  className="mt-4 text-sm font-black text-[var(--brand)] hover:underline disabled:cursor-wait disabled:opacity-60"
+                  disabled={!hydrated}
                   onClick={turnOffIntroduction}
                   type="button"
                 >
@@ -336,7 +395,8 @@ export function PlayGame({
         <div className="mt-8 grid gap-3 sm:grid-cols-3">
           {(["mixed", "topic", "pack"] as PlayMode[]).map((value) => (
             <button
-              className={`rounded-3xl border p-5 text-left font-black ${mode === value ? "border-emerald-300 bg-emerald-300/10" : "border-white/10 bg-white/[.035]"}`}
+              className={`rounded-3xl border p-5 text-left font-black disabled:cursor-wait disabled:opacity-60 ${mode === value ? "border-emerald-300 bg-emerald-300/10" : "border-white/10 bg-white/[.035]"}`}
+              disabled={!hydrated}
               key={value}
               onClick={() => {
                 setMode(value);
@@ -356,6 +416,7 @@ export function PlayGame({
           <select
             aria-label={mode === "topic" ? "Topic" : "Pack"}
             className="mt-5 min-h-12 w-full rounded-2xl border border-white/15 bg-[var(--surface)] px-4"
+            disabled={!hydrated}
             onChange={(event) => setSelectedId(event.target.value)}
             value={selectedId}
           >
@@ -374,7 +435,7 @@ export function PlayGame({
         ) : null}
         <Button
           className="mt-7 w-full sm:w-auto"
-          disabled={mode !== "mixed" && !selectedId}
+          disabled={!hydrated || (mode !== "mixed" && !selectedId)}
           onClick={start}
         >
           Start playing
@@ -554,15 +615,20 @@ export function PlayGame({
               </div>
             ) : null}
             <div className="mt-5 border-t border-white/10 pt-5">
-              <QuestionFeedback attemptId={result.attemptId} />
+              <QuestionFeedback
+                attemptId={result.attemptId}
+                ref={questionFeedback}
+              />
             </div>
           </div>
         </Card>
         <Button
           className="mt-5 w-full"
-          onClick={() => sessionId && loadNext(sessionId)}
+          disabled={advancingToNext}
+          onClick={() => void advanceToNext()}
         >
-          Next question <ChevronRight className="ml-2" size={18} />
+          {advancingToNext ? "Saving feedback…" : "Next question"}{" "}
+          <ChevronRight className="ml-2" size={18} />
         </Button>
         <p className="mt-2 text-center text-xs text-[var(--muted)]">
           Press{" "}
@@ -596,6 +662,7 @@ export function PlayGame({
     );
 
   if (!presentation) return null;
+  const answerIsSubmitting = phase === "submitting";
   return (
     <div className="mx-auto max-w-3xl">
       <div className="mb-4 flex items-center gap-3 text-sm">
@@ -606,7 +673,9 @@ export function PlayGame({
         <span className="ml-auto inline-flex items-center gap-2 font-black text-[var(--accent)]">
           <Clock3 size={16} />
           {mediaReady
-            ? `${Math.ceil(remainingMs / 1000)}s · ${livePoints} pts`
+            ? answerIsSubmitting
+              ? `Locked at ${Math.ceil(remainingMs / 1000)}s · ${livePoints} pts`
+              : `${Math.ceil(remainingMs / 1000)}s · ${livePoints} pts`
             : "Loading media…"}
         </span>
       </div>
@@ -633,7 +702,7 @@ export function PlayGame({
             {choices.choices.map((choice) => (
               <button
                 className={`min-h-14 rounded-2xl border p-4 text-left font-bold ${answer === choice.text ? "border-emerald-300 bg-emerald-300/10" : "border-white/15 hover:bg-white/5"}`}
-                disabled={!mediaReady}
+                disabled={!mediaReady || answerIsSubmitting}
                 key={choice.id}
                 onClick={() => {
                   setAnswer(choice.text);
@@ -650,7 +719,7 @@ export function PlayGame({
             autoComplete="off"
             autoFocus
             className="mt-8 min-h-14 w-full rounded-2xl border border-white/15 bg-slate-950/45 px-5 text-lg"
-            disabled={!mediaReady}
+            disabled={!mediaReady || answerIsSubmitting}
             onChange={(event) => setAnswer(event.target.value)}
             onKeyDown={(event) => {
               if (event.key === "Enter" && answer.trim()) void submit(answer);
@@ -666,16 +735,16 @@ export function PlayGame({
         <div className="mt-5 flex flex-wrap gap-3">
           {!choices || !immediateChoiceSubmit ? (
             <Button
-              disabled={!mediaReady || !answer.trim()}
+              disabled={!mediaReady || !answer.trim() || answerIsSubmitting}
               onClick={() => submit(answer)}
             >
-              Lock in answer
+              {answerIsSubmitting ? "Checking answer…" : "Lock in answer"}
             </Button>
           ) : null}
           {!choices ? (
             <button
               className="inline-flex min-h-11 items-center gap-2 rounded-full border border-white/15 px-5 font-bold hover:bg-white/5 disabled:opacity-50"
-              disabled={!mediaReady}
+              disabled={!mediaReady || answerIsSubmitting}
               onClick={revealChoices}
               type="button"
             >
@@ -687,6 +756,14 @@ export function PlayGame({
         {choices && immediateChoiceSubmit ? (
           <p className="mt-3 text-sm text-[var(--muted)]">
             Selecting a choice submits it immediately.
+          </p>
+        ) : null}
+        {answerIsSubmitting ? (
+          <p
+            aria-live="polite"
+            className="mt-3 text-sm font-bold text-[var(--brand)]"
+          >
+            Answer locked. Checking it now…
           </p>
         ) : null}
         {error ? (

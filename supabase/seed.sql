@@ -32,7 +32,6 @@ on conflict (slug) do update set
 
 insert into public.achievements (slug, name, description, evaluator_key, insight_reward) values
   ('onboarded', 'Mind Mapper', 'Complete onboarding and choose your interests.', 'onboarding_complete', 25),
-  ('assessment-complete', 'Baseline Established', 'Complete the optional 32-question assessment.', 'assessment_complete', 50),
   ('ten-answers', 'Getting Warmed Up', 'Answer 10 questions.', 'attempts_10', 25),
   ('five-topics', 'Curious Mind', 'Attempt questions in five different topics.', 'topics_5', 50),
   ('topic-tier', 'Building Expertise', 'Reach Proficient in any topic.', 'tier_proficient', 50),
@@ -128,6 +127,11 @@ insert into public.question_versions(
 select s.version_id, s.question_id, t.id, 1, 'published', s.prompt, s.answer, s.explanation, s.details,
   s.difficulty, 30, true, now(), now()
 from public.mindspan_seed_questions s join public.topics t on t.slug = s.topic_slug;
+
+-- Editorial review lowered this seeded question from five stars to four.
+update public.question_versions
+set difficulty = 4
+where prompt = 'Which cinematographer shot Blade Runner 2049 and 1917?';
 
 insert into public.answer_aliases(question_version_id, answer, normalized_answer)
 select s.version_id, alias, lower(regexp_replace(alias, '[^[:alnum:] ]', '', 'g'))

@@ -270,15 +270,15 @@ export default async function GroupPage({
                     >
                       {member.name}
                     </Link>
-                    {member.proficiency == null ? (
+                    {member.unique === 0 ? (
                       <small className="mt-1 block text-[var(--muted)]">
                         No questions answered yet
                       </small>
                     ) : (
                       <small className="mt-1 block text-[var(--muted)]">
-                        {Math.round(member.accuracy * 100)}% accuracy ·{" "}
-                        {member.unique} unique ·{" "}
-                        {Math.round(member.proficiency * 100)}% proficiency
+                        {Math.round(member.accuracy * 100)}% correct ·{" "}
+                        {member.unique} different{" "}
+                        {member.unique === 1 ? "question" : "questions"}
                       </small>
                     )}
                   </div>
@@ -328,10 +328,13 @@ export default async function GroupPage({
                                 {member.name}
                               </Link>
                               <small className="text-[var(--muted)]">
-                                {uniqueQuestions} unique
+                                {uniqueQuestions} different{" "}
+                                {uniqueQuestions === 1
+                                  ? "question"
+                                  : "questions"}
                                 {proficiency == null
                                   ? ""
-                                  : ` · ${Math.round(proficiency * 100)}% proficiency`}
+                                  : ` · ${Math.round(proficiency * 100)}% correct`}
                               </small>
                             </div>
                             <b>{points.toLocaleString()} pts</b>

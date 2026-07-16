@@ -1,0 +1,243 @@
+{
+  "lifestyle-culture-starter.opentdb.5e94587e8a5b4336": {
+    "topicSlug": "geography",
+    "packSlugs": ["geography-starter"],
+    "subtopics": ["Rivers"],
+    "explanation": "The River Clyde flows through Glasgow in western Scotland.",
+    "details": "The Clyde helped Glasgow grow into a major shipbuilding and industrial center before widening into the Firth of Clyde and reaching the Atlantic Ocean."
+  },
+  "history-starter.monarch-country.edward-i-of-england": {
+    "prompt": "Edward I, known as Edward Longshanks, was king of which country?",
+    "canonicalAnswer": "England",
+    "aliases": ["Kingdom of England"],
+    "distractors": ["France", "Scotland", "Wales"],
+    "explanation": "Edward I was king of England from 1272 to 1307.",
+    "details": "Called Edward Longshanks, he strengthened royal government, conquered Wales, and fought campaigns in Scotland. England is accepted in addition to the formal historical name Kingdom of England.",
+    "difficulty": 1
+  },
+  "geography-starter.river-mouth.rio-de-la-plata": {
+    "explanation": "The Rio de la Plata opens into the Atlantic Ocean.",
+    "details": "This broad estuary is formed by the Parana and Uruguay rivers between Argentina and Uruguay. It widens southeastward between Buenos Aires and Montevideo before meeting the South Atlantic."
+  },
+  "film-television-starter.opentdb.7e37400688368130": {
+    "difficulty": 4
+  },
+  "film-television-starter.opentdb.9fe3d7fa4d41227c": {
+    "prompt": "In the 1979 film Quadrophenia, which seaside city do the mods visit?",
+    "difficulty": 4
+  },
+  "history-starter.battle-location.battle-of-stockach": {
+    "prompt": "In which modern-day country was the 1799 Battle of Stockach fought?",
+    "canonicalAnswer": "Germany",
+    "aliases": ["Federal Republic of Germany"],
+    "distractors": ["Austria", "Switzerland", "France"],
+    "explanation": "The Battle of Stockach was fought in what is now southern Germany.",
+    "details": "French and Austrian forces fought near Stockach in present-day Baden-Wurttemberg on March 25, 1799, during the War of the Second Coalition."
+  },
+  "music-starter.opentdb.6809589c171e3bc9": {
+    "difficulty": 4
+  },
+  "history-starter.empire-capital.east-francia": {
+    "prompt": "Which city became an important royal center and meeting place in East Francia after 843?",
+    "canonicalAnswer": "Frankfurt am Main",
+    "aliases": ["Frankfurt"],
+    "distractors": ["Aachen", "Regensburg", "Cologne"],
+    "explanation": "Frankfurt became a leading royal center of East Francia after the Carolingian Empire was divided in 843.",
+    "details": "East Frankish kings traveled among royal residences rather than governing from one fixed capital. Frankfurt was at times their most important royal palatinate and hosted major assemblies, so describing it as a royal center is more accurate than calling it the realm's sole capital.",
+    "difficulty": 4,
+    "source": {
+      "label": "City of Frankfurt am Main",
+      "url": "https://frankfurt.de/english/discover-and-experience/about-frankfurt/history"
+    }
+  },
+  "science-nature-starter.element-number.unquadbium": {
+    "prompt": "What atomic number is encoded by the systematic placeholder name unquadbium?",
+    "canonicalAnswer": "142",
+    "aliases": ["One hundred forty-two", "One hundred and forty-two"],
+    "distractors": ["124", "140", "143"],
+    "explanation": "The placeholder name unquadbium encodes the atomic number 142.",
+    "details": "Systematic temporary element names use digit roots: un means 1, quad means 4, and bi means 2. Adding the element ending -ium produces un-quad-bi-um for a hypothetical element with atomic number 142.",
+    "difficulty": 5
+  },
+  "sports-starter.athlete-sport.jens-lehmann": {
+    "aliases": ["football", "soccer"],
+    "explanation": "Jens Lehmann was a professional association football goalkeeper.",
+    "details": "The German goalkeeper played for clubs including Schalke 04, Borussia Dortmund, and Arsenal, and represented Germany at three FIFA World Cups. Both football and soccer are accepted."
+  },
+  "geography-starter.landmark-country.lenin-s-mausoleum": {
+    "explanation": "Lenin's Mausoleum is in Russia.",
+    "details": "The mausoleum stands on Red Square in Moscow beside the Kremlin wall and contains the preserved body of Soviet leader Vladimir Lenin.",
+    "difficulty": 2
+  },
+  "science-nature-starter.moon-parent.moon": {
+    "packSlugs": ["trivia-101"],
+    "prompt": "What does the Moon orbit?",
+    "explanation": "The Moon is Earth's natural satellite and orbits Earth.",
+    "details": "The Moon takes about 27.3 days to complete one orbit relative to the stars, while its cycle of phases lasts about 29.5 days relative to the Sun.",
+    "difficulty": 1
+  },
+  "music-starter.opentdb.4a3662b32e04d3c7": {
+    "difficulty": 4
+  },
+  "science-nature-starter.disease-specialty.fluoride-toxicity": {
+    "prompt": "Which medical field specializes in diagnosing and treating poisonings such as acute fluoride toxicity?",
+    "canonicalAnswer": "Medical toxicology",
+    "aliases": ["Toxicology", "Clinical toxicology"],
+    "distractors": ["Dermatology", "Orthopedics", "Ophthalmology"],
+    "explanation": "Medical toxicology specializes in preventing, evaluating, and treating poisoning and other harmful exposures.",
+    "details": "A person with acute fluoride poisoning may first receive emergency care, but medical toxicologists provide specialized expertise for illnesses caused by chemicals, drugs, venoms, and other toxic agents.",
+    "difficulty": 4,
+    "source": {
+      "label": "American College of Medical Toxicology",
+      "url": "https://www.acmt.net/about-medtox/"
+    }
+  },
+  "sports-starter.competition-sport.austrian-basketball-supercup": {
+    "prompt": "The Austrian Basketball Supercup is contested in which sport?",
+    "explanation": "The Austrian Basketball Supercup is a basketball competition.",
+    "details": "The event is part of Austria's domestic basketball calendar and is played as a supercup competition between leading clubs.",
+    "difficulty": 1
+  },
+  "film-television-starter.opentdb.57cfd4fde9ff851e": {
+    "difficulty": 4
+  },
+  "sports-starter.competition-sport.new-south-wales-cup": {
+    "explanation": "The New South Wales Cup is a rugby league competition.",
+    "details": "Played in Australia, it is the leading state-level men's rugby league competition in New South Wales and serves as a major pathway and reserve-grade competition below the NRL."
+  },
+  "sports-starter.athlete-country.michael-uhrmann": {
+    "prompt": "Which country did ski jumper Michael Uhrmann represent?",
+    "explanation": "Michael Uhrmann represented Germany in ski jumping.",
+    "details": "Uhrmann competed for Germany at multiple Winter Olympic Games and won an Olympic team gold medal in 2002."
+  },
+  "film-television-starter.opentdb.4e3d19b8b7578ab4": {
+    "prompt": "Which spelling correctly names the young warrior in The NeverEnding Story?",
+    "answerMode": "required_choice"
+  },
+  "geography-starter.country-continent.india": {
+    "packSlugs": ["trivia-101"],
+    "explanation": "India is in Asia, specifically the region known as South Asia.",
+    "details": "India occupies most of the Indian subcontinent and shares land borders with Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar.",
+    "difficulty": 1
+  },
+  "sports-starter.athlete-sport.billie-jean-king": {
+    "explanation": "Billie Jean King is a champion tennis player.",
+    "details": "King won 39 major titles across singles, doubles, and mixed doubles and became a prominent advocate for gender equality in sports.",
+    "difficulty": 2
+  },
+  "geography-starter.country-continent.barbados": {
+    "prompt": "Barbados is an island country in which region of the Americas?",
+    "canonicalAnswer": "Caribbean",
+    "aliases": ["The Caribbean", "Caribbean region"],
+    "distractors": ["Central America", "Polynesia", "Mediterranean"],
+    "subtopics": ["Caribbean"],
+    "explanation": "Barbados is an island country in the Caribbean region.",
+    "details": "Barbados lies in the Lesser Antilles, east of the main arc of Caribbean islands. Asking for its region avoids the disputed convention of assigning Caribbean islands to a continent.",
+    "difficulty": 2
+  },
+  "sports-starter.team-venue.san-diego-fleet": {
+    "prompt": "At which stadium did the short-lived San Diego Fleet play its 2019 home games?",
+    "canonicalAnswer": "SDCCU Stadium",
+    "aliases": ["San Diego Stadium"],
+    "distractors": ["Petco Park", "Snapdragon Stadium", "Balboa Stadium"],
+    "explanation": "The San Diego Fleet played its home games at SDCCU Stadium.",
+    "details": "The Fleet competed in the Alliance of American Football's only season in 2019. Their home field was the venue long known as San Diego Stadium, then operating under the SDCCU Stadium name.",
+    "difficulty": 4
+  },
+  "film-television-starter.opentdb.6dd7a3ae412f089d": {
+    "prompt": "Which of these actors was not a major cast member of Freaks and Geeks?",
+    "answerMode": "required_choice"
+  },
+  "history-starter.event-year.treblinka-uprising": {
+    "prompt": "In what year did the prisoner uprising at the Treblinka killing center occur?",
+    "explanation": "Prisoners at the Treblinka killing center revolted in 1943.",
+    "details": "On August 2, 1943, prisoners seized weapons, set parts of the camp on fire, and attempted a mass escape. More than 300 escaped the camp, although many were later recaptured and killed.",
+    "source": {
+      "label": "United States Holocaust Memorial Museum",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/treblinka-key-dates"
+    }
+  },
+  "arts-literature-starter.opentdb.a133103f1372b325": {
+    "prompt": "Which of these paintings was not made by Vincent van Gogh?",
+    "answerMode": "required_choice"
+  },
+  "lifestyle-culture-starter.opentdb.92ece00bd991c4f3": {
+    "difficulty": 4
+  },
+  "geography-starter.mountain-country.gross-fiescherhorn": {
+    "explanation": "The Gross Fiescherhorn is in Switzerland.",
+    "details": "The 4,049-meter peak is the highest of the Fiescherhorner in the Bernese Alps. It rises near the border between the Swiss cantons of Bern and Valais.",
+    "difficulty": 4,
+    "source": {
+      "label": "Swiss Alpine Club",
+      "url": "https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/grosses-fiescherhorn-621/hochtouren/"
+    }
+  },
+  "music-starter.opentdb.02c907427c2e6838": {
+    "prompt": "Which of these acclaimed albums was initially considered a commercial failure after its 1967 release?",
+    "answerMode": "required_choice",
+    "canonicalAnswer": "The Velvet Underground & Nico",
+    "aliases": ["The Velvet Underground and Nico", "Velvet Underground & Nico", "Velvet Underground and Nico"],
+    "distractors": ["Abbey Road", "Led Zeppelin IV", "Rumours"],
+    "explanation": "The Velvet Underground & Nico sold modestly at first but later became one of rock's most influential albums.",
+    "details": "Released in 1967, the album sold only in the tens of thousands during its first two years and was considered a commercial failure at the time. Its reputation grew enormously as later musicians discovered its experimental sound.",
+    "source": {
+      "label": "WOSU Public Media / NPR",
+      "url": "https://www.wosu.org/npr-news/npr-news/2021-10-14/todd-haynes-new-film-takes-us-deep-into-the-velvet-underground"
+    }
+  },
+  "history-starter.battle-location.battle-of-agincourt": {
+    "prompt": "In which modern-day country was the Battle of Agincourt fought?",
+    "canonicalAnswer": "France",
+    "aliases": ["French Republic"],
+    "distractors": ["England", "Belgium", "Germany"],
+    "explanation": "The Battle of Agincourt was fought in what is now northern France.",
+    "details": "In 1415, during the Hundred Years' War, Henry V's English army defeated a larger French force near the village now called Azincourt in the Pas-de-Calais department.",
+    "difficulty": 2
+  },
+  "lifestyle-culture-starter.opentdb.b56e90ec7da26f5f": {
+    "topicSlug": "science-nature",
+    "packSlugs": ["science-nature-starter"],
+    "subtopics": ["Zoology"],
+    "explanation": "Domestic cats belong to the biological family Felidae.",
+    "details": "Felidae is the cat family and includes domestic cats as well as lions, tigers, leopards, lynxes, and other wild cats."
+  },
+  "geography-starter.mountain-country.salbitschijen": {
+    "explanation": "Salbitschijen is a mountain in Switzerland.",
+    "details": "The granite peak rises in the Urner Alps of central Switzerland, above the Goschenen valley in the canton of Uri, and is especially known for technical rock-climbing routes.",
+    "difficulty": 4
+  },
+  "film-television-starter.opentdb.7e978d6a8f5b3897": {
+    "prompt": "Which of these Star Trek foods or drinks is Bajoran rather than Klingon?",
+    "canonicalAnswer": "Hasperat",
+    "aliases": [],
+    "distractors": ["Gagh", "Racht", "Bloodwine"],
+    "explanation": "Hasperat is a spicy Bajoran food, while gagh, racht, and bloodwine are associated with Klingon cuisine.",
+    "details": "Hasperat is commonly depicted as a hot, brined Bajoran dish, often served in a rolled flatbread. Gagh and racht are worm dishes, and bloodwine is a Klingon beverage.",
+    "difficulty": 5
+  },
+  "geography-starter.river-mouth.orinoco-river": {
+    "explanation": "The Orinoco River empties into the Atlantic Ocean.",
+    "details": "The Orinoco drains a vast basin spanning much of Venezuela and part of Colombia. In northeastern Venezuela it divides into a broad delta near Trinidad before reaching the Atlantic."
+  },
+  "trivia-101.opentdb.b222980de7281699": {
+    "packSlugs": ["lifestyle-culture-starter"],
+    "subtopics": ["Food & Drink"],
+    "prompt": "Which nut is the traditional main ingredient in marzipan?",
+    "canonicalAnswer": "Almonds",
+    "aliases": ["Almond"],
+    "explanation": "Traditional marzipan is made primarily from ground almonds and sugar.",
+    "details": "The ingredients are ground into a smooth, moldable confection used in candies, cake coverings, and decorative figures."
+  },
+  "trivia-101.opentdb.5fa652b7e134c0e6": {
+    "packSlugs": ["lifestyle-culture-starter"],
+    "subtopics": ["Food & Drink", "Business & Brands"],
+    "prompt": "In what year did Ray Kroc open his first McDonald's restaurant in Des Plaines, Illinois?",
+    "explanation": "Ray Kroc opened his first McDonald's restaurant in Des Plaines, Illinois, in 1955.",
+    "details": "The restaurant opened on April 15, 1955, for McDonald's System, Inc., a predecessor of McDonald's Corporation. The McDonald brothers had operated their earlier restaurant in California before Kroc joined the business.",
+    "source": {
+      "label": "McDonald's Corporation",
+      "url": "https://corporate.mcdonalds.com/corpmcd/our-company/who-we-are/our-history..html"
+    }
+  }
+}

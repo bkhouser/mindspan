@@ -5,7 +5,7 @@ Mindspan is a private, game-like trivia trainer for invited groups. It combines 
 ## What is implemented
 
 - Invite-gated email/password authentication, password recovery, and a seeded first-admin path
-- Resumable 32-question adaptive assessment and required interest selection
+- Streamlined onboarding with required interest selection and immediate play
 - Unlimited mixed, topic, and pack play with server-authoritative scoring and one-answer presentations
 - Answer normalization, authored aliases, conservative typo acceptance, timed points, assisted answers, explanations, sources, reports, and break suggestions
 - Literal correct-answer topic proficiency, confidence-weighted tiers, adaptive difficulty, novelty/review scheduling, and competitive retirement after four recalls
