@@ -92,6 +92,36 @@ describe("replacement identities", () => {
       "geography-starter.mountain-country.huetstock",
     );
 
+    const chainedReplacements = [...questions.values()].filter(
+      (question) => question.replacementRootCatalogKey,
+    );
+    expect(chainedReplacements).toHaveLength(6);
+    expect(
+      questions.get("lifestyle-culture-starter.replacement.20260721.qr-meaning")
+        ?.replacementRootCatalogKey,
+    ).toBe("lifestyle-culture-starter.opentdb.d67115ddb0284bf4");
+    expect(
+      questions.get("science-nature-starter.replacement.20260721.mycology")
+        ?.replacementRootCatalogKey,
+    ).toBe("science-nature-starter.disease-specialty.dwarfism");
+    expect(
+      questions.get("sports-starter.replacement.20260721.olympic-torch")
+        ?.replacementRootCatalogKey,
+    ).toBe("sports-starter.athlete-sport.yury-vlasov");
+    expect(
+      questions.get("sports-starter.replacement.20260721.traveling")
+        ?.replacementRootCatalogKey,
+    ).toBe("sports-starter.athlete-sport.ronaldinho");
+    expect(
+      questions.get(
+        "sports-starter.replacement.20260721.photo-finish-torso",
+      )?.replacementRootCatalogKey,
+    ).toBe("sports-starter.athlete-sport.elena-lashmanova");
+    expect(
+      questions.get("trivia-101.replacement.20260721.clue")
+        ?.replacementRootCatalogKey,
+    ).toBe("trivia-101.opentdb.43ade97d762d36e4");
+
     const screamingLambs = questions.get(
       "arts-literature-starter.replacement.20260721.screaming-lambs",
     );

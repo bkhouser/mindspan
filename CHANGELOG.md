@@ -6,6 +6,15 @@ release day to reconstruct them from commit history.
 
 ## Unreleased
 
+## 1.0.0-rc.2 - 2026-07-21
+
+### Fixed
+
+- Corrected chained question replacements so the durable original question is
+  removed from active play even when an intermediate replacement was never
+  published. Existing attempts, points, mastery, feedback, approvals, and
+  immutable question history remain unchanged.
+
 ## 1.0.0-rc.1 - 2026-07-20
 
 - Completed editorial certification of the 900-question core catalog: all

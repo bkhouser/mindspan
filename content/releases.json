@@ -1,6 +1,37 @@
 {
   "releases": [
     {
+      "version": "1.0.0-rc.2",
+      "releasedAt": "2026-07-21",
+      "title": "Catalog replacement correction",
+      "summary": "This maintenance release corrects how chained question replacements are resolved while preserving all player history and earned points.",
+      "highlights": [
+        {
+          "text": "Corrected six superseded questions that could remain available after a multi-step replacement.",
+          "audience": "all"
+        },
+        {
+          "text": "Preserved existing attempts, points, mastery, feedback, approvals, and question history.",
+          "audience": "all"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Question catalog maintenance",
+          "items": [
+            {
+              "text": "Chained replacements now resolve to the durable original question even when an intermediate replacement was never published to a particular environment.",
+              "audience": "all"
+            },
+            {
+              "text": "The correction retires only the six superseded active questions; it does not delete or rewrite attempts, scores, mastery, feedback, editorial decisions, or immutable versions.",
+              "audience": "all"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "1.0.0-rc.1",
       "releasedAt": "2026-07-20",
       "title": "A stronger, fully reviewed core",

@@ -46,6 +46,7 @@ const varietyGuardedPacks = new Set([
 const questionSchema = z.object({
   catalogKey: z.string().trim().min(3).max(160),
   replacesCatalogKey: z.string().trim().min(3).max(160).optional(),
+  replacementRootCatalogKey: z.string().trim().min(3).max(160).optional(),
   topicSlug: z.string().trim().min(1),
   packSlugs: z.array(z.string().trim().min(1)).min(1),
   subtopics: z.array(z.string().trim().min(2).max(80)).length(1),
@@ -295,6 +296,10 @@ export function loadCatalog() {
           replacesCatalogKey: amendment.replacementCatalogKey
             ? targetCatalogKey
             : effectiveQuestion.replacesCatalogKey,
+          replacementRootCatalogKey: amendment.replacementCatalogKey
+            ? (effectiveQuestion.replacementRootCatalogKey ??
+              effectiveQuestion.replacesCatalogKey)
+            : effectiveQuestion.replacementRootCatalogKey,
           aliases: amendment.aliases ?? effectiveQuestion.aliases,
         };
       }
@@ -404,6 +409,7 @@ export function loadCatalog() {
 
   const keys = new Set();
   const replacedKeys = new Set();
+  const replacementRootKeys = new Set();
   const prompts = new Set();
   for (const question of validQuestions) {
     if (keys.has(question.catalogKey))
@@ -420,6 +426,25 @@ export function loadCatalog() {
         );
       replacedKeys.add(question.replacesCatalogKey);
     }
+    if (question.replacementRootCatalogKey) {
+      if (!question.replacesCatalogKey)
+        issues.push(
+          `${question.catalogKey}: replacement root requires an immediate predecessor`,
+        );
+      if (question.replacementRootCatalogKey === question.catalogKey)
+        issues.push(
+          `${question.catalogKey}: replacement root identity must differ from its successor`,
+        );
+      if (question.replacementRootCatalogKey === question.replacesCatalogKey)
+        issues.push(
+          `${question.catalogKey}: replacement root must precede the immediate predecessor`,
+        );
+      if (replacementRootKeys.has(question.replacementRootCatalogKey))
+        issues.push(
+          `Duplicate replacement root: ${question.replacementRootCatalogKey}`,
+        );
+      replacementRootKeys.add(question.replacementRootCatalogKey);
+    }
     const promptKey = `${question.topicSlug}|${normalized(question.prompt)}`;
     if (prompts.has(promptKey))
       issues.push(`Duplicate prompt: ${question.prompt}`);
@@ -429,6 +454,12 @@ export function loadCatalog() {
     if (keys.has(replacedKey))
       issues.push(
         `Replacement target remains active in the catalog: ${replacedKey}`,
+      );
+  }
+  for (const replacementRootKey of replacementRootKeys) {
+    if (keys.has(replacementRootKey))
+      issues.push(
+        `Replacement root remains active in the catalog: ${replacementRootKey}`,
       );
   }
   for (const catalogKey of personSurnameAliases.keys()) {

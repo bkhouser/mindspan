@@ -18,7 +18,7 @@ let updated = 0;
 let skipped = 0;
 for (let index = 0; index < questions.length; index += 200) {
   const batch = questions.slice(index, index + 200);
-  const { data, error } = await admin.rpc("sync_published_catalog_v5", {
+  const { data, error } = await admin.rpc("sync_published_catalog_v6", {
     payload: batch,
   });
   if (error) throw error;

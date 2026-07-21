@@ -2179,6 +2179,15 @@ export type Database = {
           result_version_id: string
         }[]
       }
+      sync_published_catalog_v6: {
+        Args: { payload: Json }
+        Returns: {
+          result_action: string
+          result_key: string
+          result_question_id: string
+          result_version_id: string
+        }[]
+      }
       unlock_pack: {
         Args: { request_key: string; target_pack: string }
         Returns: number

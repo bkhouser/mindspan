@@ -15,6 +15,13 @@ const replacements = loadCatalog().questions.filter(
   (question) => question.replacesCatalogKey,
 );
 if (!replacements.length) throw new Error("No replacement identities found");
+const chainedReplacements = replacements.filter(
+  (question) => question.replacementRootCatalogKey,
+);
+if (chainedReplacements.length !== 6)
+  throw new Error(
+    `Expected 6 chained replacements, found ${chainedReplacements.length}`,
+  );
 
 const replacement = replacements[0];
 let userId;
@@ -24,6 +31,30 @@ function assert(condition, message) {
 }
 
 try {
+  const chainedKeys = chainedReplacements.flatMap((question) => [
+    question.catalogKey,
+    question.replacementRootCatalogKey,
+  ]);
+  const { data: chainedRows, error: chainedError } = await admin
+    .from("questions")
+    .select("catalog_key,retired_at")
+    .in("catalog_key", chainedKeys);
+  if (chainedError) throw chainedError;
+  for (const chained of chainedReplacements) {
+    const root = chainedRows.find(
+      (question) =>
+        question.catalog_key === chained.replacementRootCatalogKey,
+    );
+    const successor = chainedRows.find(
+      (question) => question.catalog_key === chained.catalogKey,
+    );
+    assert(root?.retired_at, `Chained root remains active: ${chained.catalogKey}`);
+    assert(
+      successor && !successor.retired_at,
+      `Chained successor is not active: ${chained.catalogKey}`,
+    );
+  }
+
   const { data: questionRows, error: questionError } = await admin
     .from("questions")
     .select("id,catalog_key,retired_at")
@@ -126,7 +157,7 @@ try {
   });
   if (masteryError) throw masteryError;
 
-  const { error: syncError } = await admin.rpc("sync_published_catalog_v5", {
+  const { error: syncError } = await admin.rpc("sync_published_catalog_v6", {
     payload: [replacement],
   });
   if (syncError) throw syncError;
@@ -170,7 +201,7 @@ try {
   );
 
   console.log(
-    `Verified ${replacements.length} distinct replacement identities; historical points and old repeat state remain, while the replacement starts fresh.`,
+    `Verified ${replacements.length} distinct replacement identities, including ${chainedReplacements.length} durable roots; historical points and old repeat state remain, while the replacement starts fresh.`,
   );
 } finally {
   if (userId) {
