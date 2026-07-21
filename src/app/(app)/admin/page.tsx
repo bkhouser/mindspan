@@ -85,20 +85,12 @@ export default async function AdminPage({
           </p>
           <h1 className="mt-2 text-4xl font-black">Mindspan control room</h1>
         </div>
-        <div className="flex flex-wrap gap-3">
-          <Link
-            className="rounded-full bg-[var(--brand)] px-5 py-3 font-black text-slate-950"
-            href="/admin/question-quality"
-          >
-            Review question quality
-          </Link>
-          <Link
-            className="rounded-full bg-white/10 px-5 py-3 font-black"
-            href="/admin/questions"
-          >
-            Question workshop
-          </Link>
-        </div>
+        <Link
+          className="rounded-full bg-[var(--brand)] px-5 py-3 font-black text-slate-950"
+          href="/admin/question-quality"
+        >
+          Review question quality
+        </Link>
       </header>
       <section className="mt-8 grid gap-4 sm:grid-cols-3">
         <Card className="p-5">

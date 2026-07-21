@@ -1,0 +1,1527 @@
+[
+  {
+    "catalogKey": "bookshelf-essentials.classic-austen",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Classic Novels"
+    ],
+    "prompt": "Who wrote Pride and Prejudice?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Jane Austen",
+    "aliases": [
+      "Austen"
+    ],
+    "distractors": [
+      "George Eliot",
+      "Charlotte Bronte",
+      "Mary Shelley"
+    ],
+    "explanation": "Jane Austen published Pride and Prejudice in 1813.",
+    "details": "Elizabeth Bennet and Fitzwilliam Darcy's changing judgments drive a comedy of manners about family, class, money, and marriage.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: The Novel",
+      "url": "https://www.britannica.com/art/novel"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.classic-anna-karenina",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Classic Novels"
+    ],
+    "prompt": "Which Russian author wrote Anna Karenina and War and Peace?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Leo Tolstoy",
+    "aliases": [
+      "Tolstoy",
+      "Lev Tolstoy"
+    ],
+    "distractors": [
+      "Fyodor Dostoevsky",
+      "Anton Chekhov",
+      "Ivan Turgenev"
+    ],
+    "explanation": "Leo Tolstoy wrote both Anna Karenina and War and Peace.",
+    "details": "The novels combine intimate moral and family conflicts with broad examinations of Russian society, history, faith, and social change.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: The Novel",
+      "url": "https://www.britannica.com/art/novel"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.classic-jane-eyre",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Classic Novels"
+    ],
+    "prompt": "Which narrator becomes governess at Thornfield Hall and falls in love with Mr. Rochester?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Jane Eyre",
+    "aliases": [],
+    "distractors": [
+      "Catherine Earnshaw",
+      "Becky Sharp",
+      "Dorothea Brooke"
+    ],
+    "explanation": "Jane Eyre tells her own development from an abused orphan into an independent adult.",
+    "details": "Charlotte Bronte blends a coming-of-age narrative with Gothic mystery and sustained arguments about dignity, conscience, and equality.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: The Novel",
+      "url": "https://www.britannica.com/art/novel"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.classic-moby-dick",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Classic Novels"
+    ],
+    "prompt": "What is the name of Captain Ahab's ship in Moby-Dick?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pequod",
+    "aliases": [
+      "The Pequod"
+    ],
+    "distractors": [
+      "Nautilus",
+      "Hispaniola",
+      "Duncan"
+    ],
+    "explanation": "The Pequod carries Ahab and his multinational crew on the hunt for the white whale.",
+    "details": "Its voyage becomes a dense exploration of obsession, labor, nature, knowledge, fate, and the young American republic.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: The Novel",
+      "url": "https://www.britannica.com/art/novel"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.classic-middlemarch",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Classic Novels"
+    ],
+    "prompt": "Under what pen name did Mary Ann Evans publish Middlemarch?",
+    "answerMode": "recall",
+    "canonicalAnswer": "George Eliot",
+    "aliases": [],
+    "distractors": [
+      "Currer Bell",
+      "George Sand",
+      "Ellis Bell"
+    ],
+    "explanation": "Mary Ann Evans used the name George Eliot for her fiction.",
+    "details": "Middlemarch interweaves several lives in a provincial town, examining marriage, reform, ambition, vocation, and the limits of sympathy.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: The Novel",
+      "url": "https://www.britannica.com/art/novel"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.drama-romeo",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Shakespeare & Drama"
+    ],
+    "prompt": "Which Shakespeare play features the young lovers Romeo and Juliet?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Romeo and Juliet",
+    "aliases": [],
+    "distractors": [
+      "Twelfth Night",
+      "The Tempest",
+      "King Lear"
+    ],
+    "explanation": "Romeo and Juliet belong to rival households in Verona.",
+    "details": "The tragedy combines youthful love, inherited conflict, impulsive action, failed communication, and the social costs of the feud.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.drama-hamlet",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Shakespeare & Drama"
+    ],
+    "prompt": "Which Danish prince is visited by the ghost of his murdered father?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hamlet",
+    "aliases": [],
+    "distractors": [
+      "Macbeth",
+      "Othello",
+      "Edmund"
+    ],
+    "explanation": "Hamlet is commanded by his father's ghost to avenge a murder.",
+    "details": "The play turns revenge drama into an inquiry about evidence, performance, grief, conscience, political corruption, and the difficulty of action.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.drama-macbeth",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Shakespeare & Drama"
+    ],
+    "prompt": "Which Shakespearean king is haunted after arranging the murder of Banquo?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Macbeth",
+    "aliases": [],
+    "distractors": [
+      "Richard II",
+      "Claudius",
+      "Leontes"
+    ],
+    "explanation": "Macbeth orders Banquo's murder and later sees his ghost at a banquet.",
+    "details": "The public breakdown exposes the fear beneath Macbeth's rule and deepens the tragedy's concern with guilt, prophecy, and violent ambition.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.drama-godot",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Shakespeare & Drama"
+    ],
+    "prompt": "Which two characters wait beside a tree in Samuel Beckett's Waiting for Godot?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Vladimir and Estragon",
+    "aliases": [
+      "Estragon and Vladimir",
+      "Didi and Gogo"
+    ],
+    "distractors": [
+      "Rosencrantz and Guildenstern",
+      "Stanley and Goldberg",
+      "George and Lennie"
+    ],
+    "explanation": "Vladimir and Estragon pass the time while waiting for someone who never arrives.",
+    "details": "Their repeated routines, comic exchanges, and uncertain memories make the play a landmark of postwar absurdist theater.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.drama-chekhov-gun",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Shakespeare & Drama"
+    ],
+    "prompt": "Which dramatic principle says that a conspicuous gun introduced early should eventually be fired?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chekhov's gun",
+    "aliases": [],
+    "distractors": [
+      "The unities",
+      "Alienation effect",
+      "Pathetic fallacy"
+    ],
+    "explanation": "Chekhov's gun is a principle of narrative economy and setup.",
+    "details": "The phrase is attributed to Anton Chekhov's advice that significant story elements should serve a purpose rather than create false emphasis.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Folger Shakespeare Library",
+      "url": "https://www.folger.edu/explore/shakespeares-works/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.poetry-haiku",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Poetry"
+    ],
+    "prompt": "Which short Japanese poetic form is commonly taught in English as having 5, 7, and 5 syllables?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Haiku",
+    "aliases": [],
+    "distractors": [
+      "Sonnet",
+      "Limerick",
+      "Villanelle"
+    ],
+    "explanation": "Haiku are brief poems rooted in Japanese literary practice.",
+    "details": "The familiar English syllable pattern is an adaptation, since Japanese sound units do not correspond exactly to English syllables.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Poetry Foundation: Glossary of Poetic Terms",
+      "url": "https://www.poetryfoundation.org/education/glossary"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.poetry-sonnet",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Poetry"
+    ],
+    "prompt": "How many lines does a traditional sonnet have?",
+    "answerMode": "recall",
+    "canonicalAnswer": "14",
+    "aliases": [
+      "Fourteen"
+    ],
+    "distractors": [
+      "8",
+      "12",
+      "16"
+    ],
+    "explanation": "A sonnet traditionally contains fourteen lines.",
+    "details": "Italian and English sonnet forms arrange those lines and their rhymes differently, often using a structural turn in thought called a volta.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Poetry Foundation: Glossary of Poetic Terms",
+      "url": "https://www.poetryfoundation.org/education/glossary"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.poetry-iamb",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Poetry"
+    ],
+    "prompt": "What metrical foot consists of an unstressed syllable followed by a stressed syllable?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Iamb",
+    "aliases": [
+      "Iambic foot"
+    ],
+    "distractors": [
+      "Trochee",
+      "Dactyl",
+      "Anapest"
+    ],
+    "explanation": "An iamb moves from an unstressed to a stressed syllable.",
+    "details": "Five iambic feet form iambic pentameter, a flexible line used extensively in English poetry and Shakespearean drama.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Poetry Foundation: Glossary of Poetic Terms",
+      "url": "https://www.poetryfoundation.org/education/glossary"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.poetry-wasteland",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Poetry"
+    ],
+    "prompt": "Which poet wrote The Waste Land?",
+    "answerMode": "recall",
+    "canonicalAnswer": "T. S. Eliot",
+    "aliases": [
+      "Thomas Stearns Eliot"
+    ],
+    "distractors": [
+      "W. B. Yeats",
+      "Ezra Pound",
+      "W. H. Auden"
+    ],
+    "explanation": "T. S. Eliot published The Waste Land in 1922.",
+    "details": "Its collage of voices, languages, literary allusions, and fragmented scenes became a defining work of literary modernism.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Poetry Foundation: Glossary of Poetic Terms",
+      "url": "https://www.poetryfoundation.org/education/glossary"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.poetry-sestina",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Poetry"
+    ],
+    "prompt": "Which poetic form repeats six end-words in a prescribed rotating order across six stanzas and an envoy?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sestina",
+    "aliases": [],
+    "distractors": [
+      "Pantoum",
+      "Ghazal",
+      "Rondeau"
+    ],
+    "explanation": "A sestina organizes repetition through six recurring line-ending words.",
+    "details": "Their order follows a fixed permutation across six six-line stanzas before all six appear in a brief concluding envoy.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Poetry Foundation: Glossary of Poetic Terms",
+      "url": "https://www.poetryfoundation.org/education/glossary"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.children-pooh",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Children's Literature"
+    ],
+    "prompt": "What kind of animal is Winnie-the-Pooh?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Bear",
+    "aliases": [
+      "A bear",
+      "Teddy bear"
+    ],
+    "distractors": [
+      "Rabbit",
+      "Tiger",
+      "Donkey"
+    ],
+    "explanation": "Winnie-the-Pooh is a bear created by A. A. Milne.",
+    "details": "The stories set Pooh and his friends in the Hundred Acre Wood, drawing inspiration from toys owned by Milne's son Christopher Robin.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Children's Literature",
+      "url": "https://www.britannica.com/art/childrens-literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.children-wonka",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Children's Literature"
+    ],
+    "prompt": "Who owns the mysterious chocolate factory visited by Charlie Bucket?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Willy Wonka",
+    "aliases": [
+      "Wonka"
+    ],
+    "distractors": [
+      "Mr. Twit",
+      "Fantastic Mr. Fox",
+      "B. F. G."
+    ],
+    "explanation": "Willy Wonka invites golden-ticket winners into his extraordinary factory.",
+    "details": "Roald Dahl's story contrasts Charlie's humility with the other children's exaggerated faults through comic and unsettling consequences.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Children's Literature",
+      "url": "https://www.britannica.com/art/childrens-literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.children-narnia",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Children's Literature"
+    ],
+    "prompt": "What wardrobe-accessed land is ruled by the lion Aslan?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Narnia",
+    "aliases": [],
+    "distractors": [
+      "Neverland",
+      "Earthsea",
+      "Fantastica"
+    ],
+    "explanation": "Narnia is the magical world at the center of C. S. Lewis's seven-book series.",
+    "details": "Its history stretches across creation, conflict, and renewal, while children from our world enter at different moments in its timeline.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Children's Literature",
+      "url": "https://www.britannica.com/art/childrens-literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.children-web",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Children's Literature"
+    ],
+    "prompt": "What message does Charlotte first weave into her web to save Wilbur?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Some Pig",
+    "aliases": [],
+    "distractors": [
+      "Terrific",
+      "Radiant",
+      "Humble"
+    ],
+    "explanation": "Charlotte's first web message declares Wilbur to be Some Pig.",
+    "details": "Her words attract public attention and gradually transform how people see the ordinary pig, demonstrating language's persuasive power.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Children's Literature",
+      "url": "https://www.britannica.com/art/childrens-literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.children-moomins",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Children's Literature"
+    ],
+    "prompt": "Which Finnish author and artist created the Moomins?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Tove Jansson",
+    "aliases": [],
+    "distractors": [
+      "Astrid Lindgren",
+      "Selma Lagerlof",
+      "Edith Södergran"
+    ],
+    "explanation": "Tove Jansson created the Moomin family in books and comic strips.",
+    "details": "Her stories combine adventure and humor with nuanced explorations of solitude, family, catastrophe, freedom, and belonging.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Children's Literature",
+      "url": "https://www.britannica.com/art/childrens-literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.speculative-hobbit",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Science Fiction & Fantasy"
+    ],
+    "prompt": "Who wrote The Hobbit and The Lord of the Rings?",
+    "answerMode": "recall",
+    "canonicalAnswer": "J. R. R. Tolkien",
+    "aliases": [
+      "Tolkien"
+    ],
+    "distractors": [
+      "C. S. Lewis",
+      "Ursula Le Guin",
+      "Terry Pratchett"
+    ],
+    "explanation": "J. R. R. Tolkien created Middle-earth and its interconnected histories.",
+    "details": "His scholarly interest in languages and medieval literature shaped the invented tongues, cultures, myths, and textual layers of his fiction.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Science Fiction",
+      "url": "https://www.britannica.com/art/science-fiction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.speculative-dune",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Science Fiction & Fantasy"
+    ],
+    "prompt": "What desert planet is the principal setting of Frank Herbert's Dune?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Arrakis",
+    "aliases": [
+      "Dune"
+    ],
+    "distractors": [
+      "Gethen",
+      "Trantor",
+      "Terminus"
+    ],
+    "explanation": "Arrakis is the sole natural source of the spice melange in Dune.",
+    "details": "Its harsh ecology, giant sandworms, political value, and Indigenous Fremen culture make the planet central rather than merely a backdrop.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Science Fiction",
+      "url": "https://www.britannica.com/art/science-fiction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.speculative-handmaid",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Science Fiction & Fantasy"
+    ],
+    "prompt": "What is the name of the theocratic state in The Handmaid's Tale?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Gilead",
+    "aliases": [
+      "Republic of Gilead"
+    ],
+    "distractors": [
+      "Oceania",
+      "Panem",
+      "Lilliput"
+    ],
+    "explanation": "Gilead is the authoritarian regime governing Margaret Atwood's novel.",
+    "details": "Its control of language, bodies, clothing, and memory shows how a political order normalizes oppression through ritual and enforced roles.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Science Fiction",
+      "url": "https://www.britannica.com/art/science-fiction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.speculative-earthsea",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Science Fiction & Fantasy"
+    ],
+    "prompt": "Which wizard, also called Sparrowhawk, is central to Ursula K. Le Guin's Earthsea books?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ged",
+    "aliases": [
+      "Sparrowhawk"
+    ],
+    "distractors": [
+      "Elric",
+      "Kvothe",
+      "Belgarath"
+    ],
+    "explanation": "Ged learns that power and self-knowledge require accepting the shadow he unleashed.",
+    "details": "Across the Earthsea sequence, Le Guin revisits heroism, gender, mortality, balance, and the social consequences of magical power.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Science Fiction",
+      "url": "https://www.britannica.com/art/science-fiction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.speculative-canticle",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Science Fiction & Fantasy"
+    ],
+    "prompt": "Which novel follows an order of monks preserving knowledge after a nuclear catastrophe?",
+    "answerMode": "recall",
+    "canonicalAnswer": "A Canticle for Leibowitz",
+    "aliases": [],
+    "distractors": [
+      "The Stars My Destination",
+      "Riddley Walker",
+      "The Drowned World"
+    ],
+    "explanation": "Walter M. Miller Jr.'s novel follows the Albertian Order of Leibowitz across centuries.",
+    "details": "Its recurring rise and destruction of technological civilization raises questions about memory, faith, scientific responsibility, and historical cycles.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Science Fiction",
+      "url": "https://www.britannica.com/art/science-fiction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.mystery-holmes",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Mystery & Crime"
+    ],
+    "prompt": "At what London address does Sherlock Holmes live?",
+    "answerMode": "recall",
+    "canonicalAnswer": "221B Baker Street",
+    "aliases": [
+      "Baker Street 221B"
+    ],
+    "distractors": [
+      "12 Grimmauld Place",
+      "84 Charing Cross Road",
+      "7 Savile Row"
+    ],
+    "explanation": "Sherlock Holmes and Dr. Watson share rooms at 221B Baker Street.",
+    "details": "The fictional address became so famous that it remains a major part of the detective's cultural identity and London's literary tourism.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Detective Story",
+      "url": "https://www.britannica.com/art/detective-story-narrative-genre"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.mystery-poirot",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Mystery & Crime"
+    ],
+    "prompt": "Which Belgian detective speaks of using his little grey cells?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hercule Poirot",
+    "aliases": [
+      "Poirot"
+    ],
+    "distractors": [
+      "Jules Maigret",
+      "Lord Peter Wimsey",
+      "Nero Wolfe"
+    ],
+    "explanation": "Hercule Poirot solves crimes through order, psychology, and his little grey cells.",
+    "details": "Agatha Christie's meticulous detective appears in dozens of novels and stories, often gathering suspects for a final explanation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Detective Story",
+      "url": "https://www.britannica.com/art/detective-story-narrative-genre"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.mystery-marlowe",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Mystery & Crime"
+    ],
+    "prompt": "Which private detective narrates Raymond Chandler's The Big Sleep?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Philip Marlowe",
+    "aliases": [
+      "Marlowe"
+    ],
+    "distractors": [
+      "Sam Spade",
+      "Lew Archer",
+      "Mike Hammer"
+    ],
+    "explanation": "Philip Marlowe is Chandler's hard-boiled Los Angeles detective.",
+    "details": "His sharp observations and private moral code contrast with the wealth, violence, and corruption he encounters.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Detective Story",
+      "url": "https://www.britannica.com/art/detective-story-narrative-genre"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.mystery-moonstone",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Mystery & Crime"
+    ],
+    "prompt": "Which Wilkie Collins novel centers on the theft of a large Indian diamond?",
+    "answerMode": "recall",
+    "canonicalAnswer": "The Moonstone",
+    "aliases": [
+      "Moonstone"
+    ],
+    "distractors": [
+      "The Woman in White",
+      "Bleak House",
+      "Lady Audley's Secret"
+    ],
+    "explanation": "The Moonstone traces the disappearance of a diamond from an English country house.",
+    "details": "Its multiple narrators, clues, investigators, false leads, and reconstruction of events helped shape the English detective novel.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Detective Story",
+      "url": "https://www.britannica.com/art/detective-story-narrative-genre"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.mystery-murders-rue",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Mystery & Crime"
+    ],
+    "prompt": "Who narrates Edgar Allan Poe's stories about the detective C. Auguste Dupin?",
+    "answerMode": "recall",
+    "canonicalAnswer": "An unnamed narrator",
+    "aliases": [
+      "Unnamed narrator"
+    ],
+    "distractors": [
+      "Inspector G.",
+      "The prefect",
+      "Dupin's brother"
+    ],
+    "explanation": "Dupin's companion narrates the detective's cases without being given a name.",
+    "details": "The admiring observer who records a brilliant detective's reasoning became a durable pattern later used by Watson and other narrators.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Detective Story",
+      "url": "https://www.britannica.com/art/detective-story-narrative-genre"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.american-gatsby",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "American Literature"
+    ],
+    "prompt": "Who narrates The Great Gatsby?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Nick Carraway",
+    "aliases": [
+      "Nick"
+    ],
+    "distractors": [
+      "Jay Gatsby",
+      "Tom Buchanan",
+      "George Wilson"
+    ],
+    "explanation": "Nick Carraway narrates Gatsby's pursuit of an idealized past.",
+    "details": "His position as participant and observer makes his judgments central to the novel's portrait of wealth, longing, class, and self-invention.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: American Literature",
+      "url": "https://www.loc.gov/classroom-materials/american-literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.american-mockingbird",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "American Literature"
+    ],
+    "prompt": "Which lawyer defends Tom Robinson in To Kill a Mockingbird?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Atticus Finch",
+    "aliases": [
+      "Atticus"
+    ],
+    "distractors": [
+      "Bob Ewell",
+      "Dill Harris",
+      "Heck Tate"
+    ],
+    "explanation": "Atticus Finch represents Tom Robinson at trial despite community hostility.",
+    "details": "Scout's child perspective reveals both her admiration for her father and the limits of legal principle within a racist social order.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: American Literature",
+      "url": "https://www.loc.gov/classroom-materials/american-literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.american-beloved",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "American Literature"
+    ],
+    "prompt": "Who wrote Beloved?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Toni Morrison",
+    "aliases": [
+      "Morrison"
+    ],
+    "distractors": [
+      "Alice Walker",
+      "Maya Angelou",
+      "Zora Neale Hurston"
+    ],
+    "explanation": "Toni Morrison's Beloved confronts slavery's enduring psychological and familial damage.",
+    "details": "The novel combines history, memory, haunting, fragmented narration, and communal response around Sethe and her family.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: American Literature",
+      "url": "https://www.loc.gov/classroom-materials/american-literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.american-sound-fury",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "American Literature"
+    ],
+    "prompt": "Which fictional Mississippi county is the setting for many William Faulkner works?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Yoknapatawpha County",
+    "aliases": [
+      "Yoknapatawpha"
+    ],
+    "distractors": [
+      "Winesburg County",
+      "Gopher Prairie",
+      "Spoon River County"
+    ],
+    "explanation": "Faulkner invented Yoknapatawpha County as a shared setting for much of his fiction.",
+    "details": "Recurring families, places, histories, and racial conflicts create a dense regional world viewed from changing perspectives.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: American Literature",
+      "url": "https://www.loc.gov/classroom-materials/american-literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.american-bartleby",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "American Literature"
+    ],
+    "prompt": "What phrase does Bartleby repeatedly use to resist requests in Melville's story?",
+    "answerMode": "recall",
+    "canonicalAnswer": "I would prefer not to",
+    "aliases": [
+      "I prefer not to",
+      "Would prefer not to"
+    ],
+    "distractors": [
+      "Call me Ishmael",
+      "So it goes",
+      "Nothing behind me"
+    ],
+    "explanation": "Bartleby's courteous refusal is the story's defining refrain.",
+    "details": "Its ambiguity has supported interpretations about work, isolation, passive resistance, institutional indifference, and the narrator's moral limits.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: American Literature",
+      "url": "https://www.loc.gov/classroom-materials/american-literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.world-solitude",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "World Literature"
+    ],
+    "prompt": "Who wrote One Hundred Years of Solitude?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Gabriel Garcia Marquez",
+    "aliases": [
+      "Gabriel García Márquez",
+      "Garcia Marquez"
+    ],
+    "distractors": [
+      "Jorge Luis Borges",
+      "Mario Vargas Llosa",
+      "Pablo Neruda"
+    ],
+    "explanation": "Gabriel Garcia Marquez chronicles generations of the Buendia family in Macondo.",
+    "details": "The novel entwines political history, family repetition, myth, humor, violence, and the everyday treatment of extraordinary events.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Nobel Prize: Literature",
+      "url": "https://www.nobelprize.org/prizes/literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.world-things-fall",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "World Literature"
+    ],
+    "prompt": "Which Nigerian author wrote Things Fall Apart?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chinua Achebe",
+    "aliases": [
+      "Achebe"
+    ],
+    "distractors": [
+      "Wole Soyinka",
+      "Ngugi wa Thiong'o",
+      "Ben Okri"
+    ],
+    "explanation": "Chinua Achebe's novel centers on Okonkwo and an Igbo community facing colonial intrusion.",
+    "details": "It challenges reductive European portrayals by presenting social institutions, internal tensions, language, and historical disruption from within.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Nobel Prize: Literature",
+      "url": "https://www.nobelprize.org/prizes/literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.world-metamorphosis",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "World Literature"
+    ],
+    "prompt": "Into what does Gregor Samsa awaken transformed in Kafka's The Metamorphosis?",
+    "answerMode": "recall",
+    "canonicalAnswer": "A giant insect",
+    "aliases": [
+      "An insect",
+      "A bug",
+      "Vermin"
+    ],
+    "distractors": [
+      "A wolf",
+      "A stone statue",
+      "A bird"
+    ],
+    "explanation": "Gregor awakens in the body of a monstrous vermin or insect-like creature.",
+    "details": "Translations differ because Kafka's term is deliberately nonspecific, keeping attention on alienation, family burden, shame, and changed identity.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Nobel Prize: Literature",
+      "url": "https://www.nobelprize.org/prizes/literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.world-murasaki",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "World Literature"
+    ],
+    "prompt": "Who is traditionally credited with writing The Tale of Genji?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Murasaki Shikibu",
+    "aliases": [
+      "Lady Murasaki"
+    ],
+    "distractors": [
+      "Sei Shonagon",
+      "Izumi Shikibu",
+      "Lady Sarashina"
+    ],
+    "explanation": "Murasaki Shikibu wrote The Tale of Genji at Japan's Heian court.",
+    "details": "Its sustained attention to relationships, aesthetics, status, memory, and passing time has led many readers to call it an early novel.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Nobel Prize: Literature",
+      "url": "https://www.nobelprize.org/prizes/literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.world-pedro-paramo",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "World Literature"
+    ],
+    "prompt": "Which Mexican author wrote Pedro Paramo, whose protagonist visits the ghost-filled town of Comala?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Juan Rulfo",
+    "aliases": [
+      "Rulfo"
+    ],
+    "distractors": [
+      "Carlos Fuentes",
+      "Octavio Paz",
+      "Juan Carlos Onetti"
+    ],
+    "explanation": "Juan Rulfo's Pedro Paramo layers voices of the living and dead in Comala.",
+    "details": "Its compressed, fractured storytelling influenced later Latin American writers and turns one landowner's power into a landscape of memory.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Nobel Prize: Literature",
+      "url": "https://www.nobelprize.org/prizes/literature/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.terms-metaphor",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Literary Terms"
+    ],
+    "prompt": "What figure of speech directly describes one thing as another without using like or as?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Metaphor",
+    "aliases": [],
+    "distractors": [
+      "Simile",
+      "Alliteration",
+      "Hyperbole"
+    ],
+    "explanation": "A metaphor creates meaning through an implicit identification between unlike things.",
+    "details": "Unlike a simile's explicit comparison, it can reshape how a reader understands a subject by transferring associations and qualities.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Literary Terms",
+      "url": "https://www.britannica.com/art/literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.terms-dramatic-irony",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Literary Terms"
+    ],
+    "prompt": "What kind of irony occurs when the audience knows crucial information that a character does not?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Dramatic irony",
+    "aliases": [],
+    "distractors": [
+      "Verbal irony",
+      "Cosmic irony",
+      "Situational irony"
+    ],
+    "explanation": "Dramatic irony creates a knowledge gap between audience and character.",
+    "details": "The gap can generate suspense, comedy, pity, or dread because viewers understand implications the character misreads.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Literary Terms",
+      "url": "https://www.britannica.com/art/literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.terms-free-indirect",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Literary Terms"
+    ],
+    "prompt": "Which narrative technique presents a character's thoughts in third person without a phrase such as she thought?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Free indirect discourse",
+    "aliases": [
+      "Free indirect style",
+      "Free indirect speech"
+    ],
+    "distractors": [
+      "Epistolary narration",
+      "Objective correlative",
+      "Stream of consciousness"
+    ],
+    "explanation": "Free indirect discourse blends a narrator's voice with a character's idiom and perspective.",
+    "details": "It can shift emotional distance subtly, letting third-person prose echo a character's judgments without quotation or explicit attribution.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Literary Terms",
+      "url": "https://www.britannica.com/art/literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.terms-anagnorisis",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Literary Terms"
+    ],
+    "prompt": "What term from Greek drama means a character's moment of recognition or discovery?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Anagnorisis",
+    "aliases": [
+      "Recognition"
+    ],
+    "distractors": [
+      "Peripeteia",
+      "Catharsis",
+      "Hamartia"
+    ],
+    "explanation": "Anagnorisis is a decisive movement from ignorance to knowledge.",
+    "details": "In tragedy it may reveal identity, responsibility, or the true nature of events, often closely linked to a reversal of fortune.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Literary Terms",
+      "url": "https://www.britannica.com/art/literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.terms-zeugma",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Literary Terms"
+    ],
+    "prompt": "What device makes one word govern two others in different senses, as in she broke his car and his heart?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Zeugma",
+    "aliases": [],
+    "distractors": [
+      "Chiasmus",
+      "Synecdoche",
+      "Anaphora"
+    ],
+    "explanation": "Zeugma applies one governing word across paired phrases in distinct ways.",
+    "details": "The compressed construction can create wit, surprise, emphasis, or a jarring connection between literal and figurative meanings.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Literary Terms",
+      "url": "https://www.britannica.com/art/literature"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.publishing-isbn",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Books & Publishing"
+    ],
+    "prompt": "What identifying number is commonly assigned to a specific book edition and format?",
+    "answerMode": "recall",
+    "canonicalAnswer": "ISBN",
+    "aliases": [
+      "International Standard Book Number"
+    ],
+    "distractors": [
+      "ISSN",
+      "DOI",
+      "ORCID"
+    ],
+    "explanation": "An ISBN identifies a particular publication, edition, and format of a book.",
+    "details": "Hardcover, paperback, ebook, and substantially revised editions normally receive distinct numbers for bookselling and library systems.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: Books and Printed Materials",
+      "url": "https://www.loc.gov/books/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.publishing-pseudonym",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Books & Publishing"
+    ],
+    "prompt": "What is a pen name?",
+    "answerMode": "recall",
+    "canonicalAnswer": "A pseudonym used by an author",
+    "aliases": [
+      "Pseudonym",
+      "Author's pseudonym"
+    ],
+    "distractors": [
+      "A publisher's logo",
+      "A handwritten correction",
+      "A book's subtitle"
+    ],
+    "explanation": "A pen name is an assumed name used for publication.",
+    "details": "Authors choose pseudonyms for privacy, marketing, genre separation, collaboration, political safety, or freedom from social prejudice.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: Books and Printed Materials",
+      "url": "https://www.loc.gov/books/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.publishing-incunabula",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Books & Publishing"
+    ],
+    "prompt": "What term describes European books printed before 1501?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Incunabula",
+    "aliases": [
+      "Incunables"
+    ],
+    "distractors": [
+      "Palimpsests",
+      "Chapbooks",
+      "Broadsides"
+    ],
+    "explanation": "Incunabula are books produced during the earliest decades of European movable-type printing.",
+    "details": "The term comes from a Latin word associated with swaddling clothes or beginnings and marks printing's infancy rather than one style.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: Books and Printed Materials",
+      "url": "https://www.loc.gov/books/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.publishing-colophon",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Books & Publishing"
+    ],
+    "prompt": "What section traditionally records information about a book's production, such as printer or typeface?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Colophon",
+    "aliases": [],
+    "distractors": [
+      "Epigraph",
+      "Frontispiece",
+      "Erratum"
+    ],
+    "explanation": "A colophon provides details about a book's manufacture or publication.",
+    "details": "In early printed books it often appeared at the end; modern colophons may note design, typography, paper, printing, or edition history.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: Books and Printed Materials",
+      "url": "https://www.loc.gov/books/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "bookshelf-essentials.publishing-catchword",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "bookshelf-essentials"
+    ],
+    "subtopics": [
+      "Books & Publishing"
+    ],
+    "prompt": "What word printed at the bottom of an old book page repeats the first word of the next page?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Catchword",
+    "aliases": [],
+    "distractors": [
+      "Headword",
+      "Signature mark",
+      "Rubric"
+    ],
+    "explanation": "A catchword helped binders and readers confirm the proper sequence of pages or gatherings.",
+    "details": "It appears at the lower edge of a page and anticipates the next page's opening word, especially in hand-press-era books.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Library of Congress: Books and Printed Materials",
+      "url": "https://www.loc.gov/books/"
+    },
+    "expiresAt": null
+  }
+]

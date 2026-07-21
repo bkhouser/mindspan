@@ -1,0 +1,1536 @@
+[
+  {
+    "catalogKey": "body-of-knowledge.anatomy-skull",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Anatomy"
+    ],
+    "prompt": "Which bony structure protects the brain?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Skull",
+    "aliases": [
+      "Cranium"
+    ],
+    "distractors": [
+      "Pelvis",
+      "Sternum",
+      "Scapula"
+    ],
+    "explanation": "The skull forms a protective case around the brain.",
+    "details": "Its cranial bones surround the brain, while the facial bones support the eyes, nose, mouth, and structures of the face.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.anatomy-femur",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Anatomy"
+    ],
+    "prompt": "What is the longest bone in the human body?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Femur",
+    "aliases": [
+      "Thigh bone"
+    ],
+    "distractors": [
+      "Tibia",
+      "Humerus",
+      "Fibula"
+    ],
+    "explanation": "The femur is the body's longest and strongest bone.",
+    "details": "It extends from the hip to the knee and transfers weight from the pelvis into the lower leg during standing and movement.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.anatomy-diaphragm",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Anatomy"
+    ],
+    "prompt": "The diaphragm separates the chest cavity from which lower cavity?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Abdominal cavity",
+    "aliases": [
+      "Abdomen",
+      "Abdominopelvic cavity"
+    ],
+    "distractors": [
+      "Cranial cavity",
+      "Spinal cavity",
+      "Nasal cavity"
+    ],
+    "explanation": "The diaphragm divides the thoracic and abdominal cavities.",
+    "details": "This dome-shaped muscle is also the primary muscle of breathing, flattening as it contracts to expand the chest.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.anatomy-sagittal",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Anatomy"
+    ],
+    "prompt": "Which anatomical plane divides the body into left and right portions?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sagittal plane",
+    "aliases": [
+      "Sagittal section"
+    ],
+    "distractors": [
+      "Transverse plane",
+      "Coronal plane",
+      "Oblique plane"
+    ],
+    "explanation": "A sagittal plane runs vertically and separates left from right.",
+    "details": "A midsagittal plane makes equal halves, while parasagittal planes divide the body into unequal left and right portions.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.anatomy-hyoid",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Anatomy"
+    ],
+    "prompt": "Which bone is unusual because it does not directly articulate with another bone?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hyoid bone",
+    "aliases": [
+      "Hyoid"
+    ],
+    "distractors": [
+      "Patella",
+      "Coccyx",
+      "Vomer"
+    ],
+    "explanation": "The hyoid is suspended by muscles and ligaments rather than a joint.",
+    "details": "Located in the neck, it anchors muscles used in swallowing and speech and helps support the tongue and larynx.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/1-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.cardio-chambers",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Cardiovascular System"
+    ],
+    "prompt": "How many chambers does a normal human heart have?",
+    "answerMode": "recall",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "Four"
+    ],
+    "distractors": [
+      "2",
+      "3",
+      "5"
+    ],
+    "explanation": "The heart has two atria and two ventricles.",
+    "details": "The right side sends blood to the lungs, while the left side pumps oxygenated blood through the systemic circulation.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.cardio-aorta",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Cardiovascular System"
+    ],
+    "prompt": "Which major artery carries blood from the left ventricle to the body?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Aorta",
+    "aliases": [],
+    "distractors": [
+      "Vena cava",
+      "Pulmonary vein",
+      "Carotid sinus"
+    ],
+    "explanation": "The aorta is the main artery of the systemic circulation.",
+    "details": "It rises from the left ventricle, arches through the chest, and branches repeatedly to supply tissues throughout the body.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.cardio-pacemaker",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Cardiovascular System"
+    ],
+    "prompt": "What structure normally initiates each heartbeat and acts as the heart's natural pacemaker?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sinoatrial node",
+    "aliases": [
+      "SA node"
+    ],
+    "distractors": [
+      "Atrioventricular valve",
+      "Bundle branches",
+      "Papillary muscle"
+    ],
+    "explanation": "The sinoatrial node generates the electrical impulse that begins a heartbeat.",
+    "details": "Located in the right atrium, its specialized cells depolarize spontaneously and set the normal rhythm for the rest of the conduction system.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.cardio-pulmonary-arteries",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Cardiovascular System"
+    ],
+    "prompt": "Which arteries carry oxygen-poor blood from the heart toward the lungs?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pulmonary arteries",
+    "aliases": [
+      "Pulmonary artery"
+    ],
+    "distractors": [
+      "Coronary arteries",
+      "Carotid arteries",
+      "Renal arteries"
+    ],
+    "explanation": "The pulmonary arteries carry blood from the right ventricle to the lungs.",
+    "details": "They are an exception to the usual association of arteries with oxygen-rich blood; arteries are defined by carrying blood away from the heart.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.cardio-frank-starling",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Cardiovascular System"
+    ],
+    "prompt": "What mechanism describes the heart contracting more forcefully when its ventricles fill more fully?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Frank-Starling mechanism",
+    "aliases": [
+      "Frank-Starling law"
+    ],
+    "distractors": [
+      "Bohr effect",
+      "Hering-Breuer reflex",
+      "Fick principle"
+    ],
+    "explanation": "The Frank-Starling mechanism links ventricular filling with contraction strength.",
+    "details": "Within normal limits, greater stretching of cardiac muscle fibers before contraction helps the heart eject the additional blood that returned to it.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.respiratory-alveoli",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Respiratory System"
+    ],
+    "prompt": "In which tiny lung structures does most gas exchange occur?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Alveoli",
+    "aliases": [
+      "Air sacs"
+    ],
+    "distractors": [
+      "Bronchi",
+      "Pleurae",
+      "Sinuses"
+    ],
+    "explanation": "Alveoli provide the thin, extensive surface where gases diffuse.",
+    "details": "Oxygen crosses from alveolar air into capillary blood while carbon dioxide moves from the blood into the lungs for exhalation.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.respiratory-epiglottis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Respiratory System"
+    ],
+    "prompt": "What flap helps keep swallowed food out of the airway?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Epiglottis",
+    "aliases": [],
+    "distractors": [
+      "Uvula",
+      "Glottis",
+      "Tonsil"
+    ],
+    "explanation": "The epiglottis helps cover the entrance to the larynx during swallowing.",
+    "details": "Its movement works with other swallowing reflexes to direct food toward the esophagus rather than the trachea.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.respiratory-hemoglobin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Respiratory System"
+    ],
+    "prompt": "Which protein in red blood cells carries most of the oxygen in blood?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hemoglobin",
+    "aliases": [
+      "Haemoglobin"
+    ],
+    "distractors": [
+      "Keratin",
+      "Albumin",
+      "Fibrin"
+    ],
+    "explanation": "Hemoglobin binds oxygen reversibly inside red blood cells.",
+    "details": "Each hemoglobin molecule contains iron-bearing heme groups, allowing blood to carry far more oxygen than could dissolve in plasma alone.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.respiratory-medulla",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Respiratory System"
+    ],
+    "prompt": "Which part of the brainstem contains centers that generate the basic breathing rhythm?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Medulla oblongata",
+    "aliases": [
+      "Medulla"
+    ],
+    "distractors": [
+      "Thalamus",
+      "Hippocampus",
+      "Corpus callosum"
+    ],
+    "explanation": "Respiratory centers in the medulla generate the basic rhythm of breathing.",
+    "details": "The pons and sensory feedback modify this rhythm according to factors such as carbon dioxide, blood acidity, movement, and voluntary control.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.respiratory-surfactant",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Respiratory System"
+    ],
+    "prompt": "What substance reduces surface tension and helps keep alveoli from collapsing?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pulmonary surfactant",
+    "aliases": [
+      "Surfactant"
+    ],
+    "distractors": [
+      "Mucus",
+      "Bile",
+      "Lymph"
+    ],
+    "explanation": "Pulmonary surfactant lowers surface tension in the alveoli.",
+    "details": "Type II alveolar cells secrete this lipid-rich material, making the lungs easier to inflate and helping small air sacs remain open between breaths.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/22-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.digestive-absorption",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Digestive System"
+    ],
+    "prompt": "Where does most nutrient absorption take place?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Small intestine",
+    "aliases": [],
+    "distractors": [
+      "Stomach",
+      "Large intestine",
+      "Esophagus"
+    ],
+    "explanation": "Most digested nutrients enter the blood or lymph through the small intestine.",
+    "details": "Folds, villi, and microvilli greatly increase its absorptive surface area; the large intestine mainly reclaims water and electrolytes.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.digestive-bile",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Digestive System"
+    ],
+    "prompt": "Which organ produces bile?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Liver",
+    "aliases": [],
+    "distractors": [
+      "Gallbladder",
+      "Pancreas",
+      "Spleen"
+    ],
+    "explanation": "The liver produces bile, which helps digest fats.",
+    "details": "The gallbladder stores and concentrates bile before releasing it into the small intestine, but it does not manufacture the fluid.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.digestive-pancreas",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Digestive System"
+    ],
+    "prompt": "Which organ releases digestive enzymes and bicarbonate into the small intestine?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pancreas",
+    "aliases": [],
+    "distractors": [
+      "Appendix",
+      "Spleen",
+      "Adrenal gland"
+    ],
+    "explanation": "The pancreas supplies enzymes and bicarbonate to the duodenum.",
+    "details": "Its enzymes digest carbohydrates, fats, proteins, and nucleic acids, while bicarbonate helps neutralize acidic material arriving from the stomach.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.digestive-peristalsis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Digestive System"
+    ],
+    "prompt": "What wave-like muscular movement pushes food through the digestive tract?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Peristalsis",
+    "aliases": [],
+    "distractors": [
+      "Filtration",
+      "Mastication",
+      "Osmosis"
+    ],
+    "explanation": "Peristalsis propels material through much of the gastrointestinal tract.",
+    "details": "Coordinated rings of smooth-muscle contraction move a swallowed bolus through the esophagus and continue moving contents through the intestines.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.digestive-intrinsic-factor",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Digestive System"
+    ],
+    "prompt": "Which stomach-produced protein is required for efficient vitamin B12 absorption?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Intrinsic factor",
+    "aliases": [],
+    "distractors": [
+      "Pepsin",
+      "Secretin",
+      "Trypsin"
+    ],
+    "explanation": "Intrinsic factor binds vitamin B12 so it can be absorbed in the ileum.",
+    "details": "Loss of intrinsic-factor production can cause pernicious anemia because the body cannot absorb enough B12 for normal red-blood-cell formation.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/23-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nervous-neuron",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nervous System"
+    ],
+    "prompt": "What is the principal signaling cell of the nervous system?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Neuron",
+    "aliases": [
+      "Nerve cell"
+    ],
+    "distractors": [
+      "Osteocyte",
+      "Platelet",
+      "Adipocyte"
+    ],
+    "explanation": "Neurons receive, process, and transmit electrical and chemical signals.",
+    "details": "They work with glial cells, which support, protect, nourish, and insulate nervous tissue rather than serving merely as passive filler.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nervous-cerebellum",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nervous System"
+    ],
+    "prompt": "Which brain region is especially important for balance and coordinated movement?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cerebellum",
+    "aliases": [],
+    "distractors": [
+      "Hypothalamus",
+      "Amygdala",
+      "Medulla"
+    ],
+    "explanation": "The cerebellum fine-tunes movement and helps maintain posture and balance.",
+    "details": "It compares intended motion with sensory feedback, allowing the nervous system to correct timing, force, and accuracy while movement is underway.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nervous-myelin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nervous System"
+    ],
+    "prompt": "What fatty insulating material speeds electrical conduction along many axons?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Myelin",
+    "aliases": [
+      "Myelin sheath"
+    ],
+    "distractors": [
+      "Collagen",
+      "Melanin",
+      "Keratin"
+    ],
+    "explanation": "Myelin allows impulses to travel rapidly between gaps called nodes of Ranvier.",
+    "details": "Schwann cells form myelin in the peripheral nervous system, while oligodendrocytes perform that role in the central nervous system.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nervous-broca",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nervous System"
+    ],
+    "prompt": "Damage to Broca's area most directly impairs which ability?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Producing speech",
+    "aliases": [
+      "Speech production",
+      "Expressive language"
+    ],
+    "distractors": [
+      "Recognizing faces",
+      "Regulating heartbeat",
+      "Detecting odors"
+    ],
+    "explanation": "Broca's area is strongly involved in planning and producing spoken language.",
+    "details": "Damage can cause expressive aphasia: a person may understand much of what is said but struggle to form fluent words and sentences.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nervous-blood-brain-barrier",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nervous System"
+    ],
+    "prompt": "What selective barrier limits movement of many substances from blood into brain tissue?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Blood-brain barrier",
+    "aliases": [
+      "BBB"
+    ],
+    "distractors": [
+      "Meningeal reflex",
+      "Choroid plexus valve",
+      "Dural sinus"
+    ],
+    "explanation": "The blood-brain barrier tightly regulates the brain's chemical environment.",
+    "details": "Specialized capillary junctions, supporting cells, and transport systems admit needed substances while restricting many toxins, pathogens, and medications.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.endocrine-insulin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Endocrine System"
+    ],
+    "prompt": "Which pancreatic hormone lowers blood glucose by promoting cellular uptake and storage?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Insulin",
+    "aliases": [],
+    "distractors": [
+      "Glucagon",
+      "Cortisol",
+      "Aldosterone"
+    ],
+    "explanation": "Insulin lowers blood glucose after eating.",
+    "details": "Beta cells in the pancreatic islets release it, encouraging tissues to take up glucose and the liver and muscles to store glucose as glycogen.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.endocrine-pituitary",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Endocrine System"
+    ],
+    "prompt": "Which pea-sized gland is often called the master gland because many of its hormones regulate other glands?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pituitary gland",
+    "aliases": [
+      "Pituitary"
+    ],
+    "distractors": [
+      "Pineal gland",
+      "Thymus",
+      "Parathyroid gland"
+    ],
+    "explanation": "The pituitary releases hormones that regulate growth, reproduction, and other endocrine glands.",
+    "details": "It operates under hypothalamic control; the posterior pituitary also stores and releases hormones produced by hypothalamic neurons.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.endocrine-thyroid",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Endocrine System"
+    ],
+    "prompt": "T3 and T4 are hormones produced by which gland?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Thyroid gland",
+    "aliases": [
+      "Thyroid"
+    ],
+    "distractors": [
+      "Adrenal cortex",
+      "Pancreas",
+      "Anterior pituitary"
+    ],
+    "explanation": "The thyroid produces T3 and T4, hormones that influence metabolic rate.",
+    "details": "Their production requires iodine and is regulated through a feedback pathway involving the hypothalamus, pituitary gland, and thyroid.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.endocrine-adrenal-medulla",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Endocrine System"
+    ],
+    "prompt": "The adrenal medulla releases which hormone during the fight-or-flight response?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Epinephrine",
+    "aliases": [
+      "Adrenaline"
+    ],
+    "distractors": [
+      "Thyroxine",
+      "Melatonin",
+      "Oxytocin"
+    ],
+    "explanation": "The adrenal medulla releases epinephrine and norepinephrine during acute stress.",
+    "details": "These hormones raise heart rate, redirect blood flow, and mobilize stored energy as part of the sympathetic fight-or-flight response.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.endocrine-portal",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Endocrine System"
+    ],
+    "prompt": "What specialized blood-vessel network carries releasing hormones directly from the hypothalamus to the anterior pituitary?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hypophyseal portal system",
+    "aliases": [
+      "Hypothalamic-hypophyseal portal system",
+      "Pituitary portal system"
+    ],
+    "distractors": [
+      "Coronary circulation",
+      "Hepatic portal system",
+      "Circle of Willis"
+    ],
+    "explanation": "The hypophyseal portal system directly links hypothalamic capillaries with the anterior pituitary.",
+    "details": "This short route lets tiny quantities of hypothalamic hormones control pituitary secretion without first being diluted throughout the general circulation.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/17-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.immune-antibodies",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Immune System"
+    ],
+    "prompt": "Which white blood cells mature into plasma cells that secrete antibodies?",
+    "answerMode": "recall",
+    "canonicalAnswer": "B lymphocytes",
+    "aliases": [
+      "B cells",
+      "B lymphocyte"
+    ],
+    "distractors": [
+      "Neutrophils",
+      "Natural killer cells",
+      "Platelets"
+    ],
+    "explanation": "Activated B lymphocytes can differentiate into antibody-secreting plasma cells.",
+    "details": "Other activated B cells become memory cells, enabling a faster and stronger response if the same antigen is encountered again.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.immune-helper-t",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Immune System"
+    ],
+    "prompt": "Which immune cells coordinate many adaptive responses by releasing signaling molecules after recognizing antigen?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Helper T cells",
+    "aliases": [
+      "CD4 T cells",
+      "T helper cells"
+    ],
+    "distractors": [
+      "Red blood cells",
+      "Basophils",
+      "Osteoclasts"
+    ],
+    "explanation": "Helper T cells activate and coordinate other immune cells.",
+    "details": "Their cytokines help stimulate B cells, cytotoxic T cells, and macrophages, making them central organizers of adaptive immunity.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.immune-histamine",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Immune System"
+    ],
+    "prompt": "Which signaling chemical contributes to redness, warmth, and swelling during inflammation?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Histamine",
+    "aliases": [],
+    "distractors": [
+      "Insulin",
+      "Hemoglobin",
+      "Bilirubin"
+    ],
+    "explanation": "Histamine increases local blood flow and makes small vessels more permeable.",
+    "details": "Mast cells and basophils can release it rapidly, helping immune cells and fluid reach injured or infected tissue but also contributing to allergies.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.immune-complement",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Immune System"
+    ],
+    "prompt": "What group of blood proteins can tag microbes, intensify inflammation, and punch holes in cell membranes?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Complement system",
+    "aliases": [
+      "Complement cascade",
+      "Complement"
+    ],
+    "distractors": [
+      "Clotting cascade",
+      "Renin system",
+      "Endocrine axis"
+    ],
+    "explanation": "Complement proteins reinforce immune defense through several linked reactions.",
+    "details": "They can coat pathogens for easier phagocytosis, recruit inflammatory cells, and assemble a membrane attack complex that damages susceptible microbes.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.immune-mhc-one",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Immune System"
+    ],
+    "prompt": "MHC class I molecules normally present internal cell fragments to which immune cells?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cytotoxic T cells",
+    "aliases": [
+      "CD8 T cells",
+      "Killer T cells",
+      "Cytotoxic T lymphocytes"
+    ],
+    "distractors": [
+      "B cells",
+      "Neutrophils",
+      "Helper T cells"
+    ],
+    "explanation": "MHC class I displays intracellular peptides to cytotoxic CD8 T cells.",
+    "details": "Nearly all nucleated cells use this pathway, allowing cytotoxic T cells to detect cells producing abnormal or viral proteins and destroy them.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/21-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.genetics-chromosomes",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Genetics"
+    ],
+    "prompt": "How many pairs of chromosomes are normally present in a human body cell?",
+    "answerMode": "recall",
+    "canonicalAnswer": "23 pairs",
+    "aliases": [
+      "Twenty-three pairs",
+      "23"
+    ],
+    "distractors": [
+      "22 pairs",
+      "24 pairs",
+      "46 pairs"
+    ],
+    "explanation": "Human somatic cells normally contain 23 chromosome pairs.",
+    "details": "One chromosome of each pair usually comes from each parent, giving 46 chromosomes total, including one pair of sex chromosomes.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.genetics-phenotype",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Genetics"
+    ],
+    "prompt": "What term describes an organism's observable traits rather than its genetic makeup?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Phenotype",
+    "aliases": [],
+    "distractors": [
+      "Genotype",
+      "Karyotype",
+      "Haplotype"
+    ],
+    "explanation": "Phenotype refers to observable characteristics produced by genes and environment.",
+    "details": "Genotype describes genetic makeup; the same genotype can produce different phenotypic outcomes when development or environmental conditions differ.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.genetics-mitochondrial",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Genetics"
+    ],
+    "prompt": "Human mitochondrial DNA is generally inherited from which parent?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mother",
+    "aliases": [
+      "Maternal parent"
+    ],
+    "distractors": [
+      "Father",
+      "Either parent equally",
+      "Paternal grandfather"
+    ],
+    "explanation": "Mitochondrial DNA is normally inherited through the egg and therefore from the mother.",
+    "details": "Most sperm mitochondria do not contribute to the embryo, making mitochondrial lineages useful for tracing maternal ancestry.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.genetics-codon",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Genetics"
+    ],
+    "prompt": "What is a three-nucleotide sequence in messenger RNA that specifies an amino acid or stop signal called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Codon",
+    "aliases": [],
+    "distractors": [
+      "Intron",
+      "Centromere",
+      "Allele"
+    ],
+    "explanation": "A codon is a three-base unit read during translation.",
+    "details": "Ribosomes move along messenger RNA one codon at a time, while transfer RNAs pair anticodons with codons and deliver corresponding amino acids.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.genetics-anticipation",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Human Genetics"
+    ],
+    "prompt": "What term describes some inherited disorders appearing earlier or more severely in successive generations?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Genetic anticipation",
+    "aliases": [
+      "Anticipation"
+    ],
+    "distractors": [
+      "Incomplete dominance",
+      "Codominance",
+      "Genetic drift"
+    ],
+    "explanation": "Genetic anticipation is often associated with expanding repeated DNA sequences.",
+    "details": "In disorders such as Huntington disease and myotonic dystrophy, repeat length can increase between generations and influence age of onset or severity.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/12-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nutrition-amino-acids",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nutrition & Metabolism"
+    ],
+    "prompt": "Proteins are built from smaller units called what?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Amino acids",
+    "aliases": [
+      "Amino acid"
+    ],
+    "distractors": [
+      "Fatty acids",
+      "Monosaccharides",
+      "Nucleotides"
+    ],
+    "explanation": "Amino acids link together to form proteins.",
+    "details": "The sequence and chemical properties of amino acids determine how a protein folds and what structural, enzymatic, transport, or signaling role it can perform.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nutrition-vitamin-d",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nutrition & Metabolism"
+    ],
+    "prompt": "Which vitamin helps the intestine absorb calcium and supports normal bone mineralization?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Vitamin D",
+    "aliases": [],
+    "distractors": [
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin B12"
+    ],
+    "explanation": "Vitamin D promotes calcium absorption and contributes to bone maintenance.",
+    "details": "The body can synthesize it in skin exposed to ultraviolet light, while diet and supplements provide additional sources when sunlight is insufficient.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nutrition-iron",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nutrition & Metabolism"
+    ],
+    "prompt": "Which mineral is required to make the oxygen-binding heme groups in hemoglobin?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Iron",
+    "aliases": [],
+    "distractors": [
+      "Sodium",
+      "Iodine",
+      "Potassium"
+    ],
+    "explanation": "Iron is a central component of hemoglobin's heme groups.",
+    "details": "Insufficient available iron can reduce hemoglobin production and cause iron-deficiency anemia, leading to fatigue and impaired oxygen delivery.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nutrition-essential-amino",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nutrition & Metabolism"
+    ],
+    "prompt": "What makes an amino acid nutritionally essential?",
+    "answerMode": "recall",
+    "canonicalAnswer": "The body cannot synthesize enough of it",
+    "aliases": [
+      "It must be obtained from food",
+      "Humans cannot make enough of it"
+    ],
+    "distractors": [
+      "It contains no nitrogen",
+      "It occurs only in plants",
+      "It is stored permanently"
+    ],
+    "explanation": "Essential amino acids must be obtained through diet because synthesis is absent or inadequate.",
+    "details": "A complete dietary protein supplies all essential amino acids in useful proportions, although varied foods can also complement one another across meals.",
+    "difficulty": 4,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.nutrition-chylomicrons",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Nutrition & Metabolism"
+    ],
+    "prompt": "Which lipoprotein particles transport most newly absorbed dietary triglycerides from the intestine?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chylomicrons",
+    "aliases": [
+      "Chylomicron"
+    ],
+    "distractors": [
+      "Low-density lipoproteins",
+      "High-density lipoproteins",
+      "Albumin"
+    ],
+    "explanation": "Chylomicrons carry dietary triglycerides from intestinal cells into lymph and blood.",
+    "details": "Lipoprotein lipase removes much of their triglyceride cargo for muscle and fat tissue, leaving remnants that are taken up by the liver.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/24-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.history-penicillin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Medical History"
+    ],
+    "prompt": "Who is credited with discovering penicillin after observing mold inhibit bacteria?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Alexander Fleming",
+    "aliases": [
+      "Fleming"
+    ],
+    "distractors": [
+      "Louis Pasteur",
+      "Jonas Salk",
+      "Robert Koch"
+    ],
+    "explanation": "Alexander Fleming observed the antibacterial effect of Penicillium mold in 1928.",
+    "details": "Later work by Howard Florey, Ernst Chain, and others turned the observation into a practical drug that transformed treatment of bacterial infections.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/history-of-medicine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.history-semmelweis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Medical History"
+    ],
+    "prompt": "Which physician linked handwashing with reduced childbed fever in 19th-century maternity wards?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ignaz Semmelweis",
+    "aliases": [
+      "Semmelweis"
+    ],
+    "distractors": [
+      "William Harvey",
+      "Edward Jenner",
+      "Andreas Vesalius"
+    ],
+    "explanation": "Ignaz Semmelweis showed that hand disinfection sharply reduced maternal deaths.",
+    "details": "He required clinicians to wash with a chlorinated solution after moving from autopsies to childbirth wards, decades before germ theory gained broad acceptance.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/history-of-medicine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.history-lister",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Medical History"
+    ],
+    "prompt": "Joseph Lister transformed surgery by promoting which practice?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Antiseptic technique",
+    "aliases": [
+      "Antiseptic surgery",
+      "Surgical antisepsis"
+    ],
+    "distractors": [
+      "Blood typing",
+      "X-ray imaging",
+      "General vaccination"
+    ],
+    "explanation": "Lister used antiseptic methods to reduce infections after surgery.",
+    "details": "Influenced by germ theory, he applied carbolic acid to wounds, instruments, and dressings and helped establish cleanliness as a surgical necessity.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/history-of-medicine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.history-koch",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Medical History"
+    ],
+    "prompt": "What framework links a particular microorganism to a particular disease through a series of experimental criteria?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Koch's postulates",
+    "aliases": [
+      "Koch postulates"
+    ],
+    "distractors": [
+      "Virchow's triad",
+      "Starling's law",
+      "Hardy-Weinberg principle"
+    ],
+    "explanation": "Koch's postulates formalized evidence that a specific microbe causes a specific disease.",
+    "details": "Modern microbiology modifies the original criteria for viruses, unculturable organisms, symptom-free carriers, and diseases caused by multiple interacting factors.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/history-of-medicine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "body-of-knowledge.history-gibbon",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "body-of-knowledge"
+    ],
+    "subtopics": [
+      "Medical History"
+    ],
+    "prompt": "Who developed the heart-lung machine used in the first successful open-heart operation with cardiopulmonary bypass?",
+    "answerMode": "recall",
+    "canonicalAnswer": "John Gibbon",
+    "aliases": [
+      "John Heysham Gibbon",
+      "Gibbon"
+    ],
+    "distractors": [
+      "Michael DeBakey",
+      "Christiaan Barnard",
+      "Harvey Cushing"
+    ],
+    "explanation": "John Gibbon developed a machine that temporarily performed the work of the heart and lungs.",
+    "details": "After years of experimentation, Gibbon used cardiopulmonary bypass successfully in 1953, opening the way for increasingly complex intracardiac surgery.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/history-of-medicine"
+    },
+    "expiresAt": null
+  }
+]

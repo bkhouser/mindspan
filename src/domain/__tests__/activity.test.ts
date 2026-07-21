@@ -1,5 +1,8 @@
 import { describe, expect, it } from "vitest";
-import { groupActivityLabel } from "@/domain/activity";
+import {
+  groupActivityDetail,
+  groupActivityLabel,
+} from "@/domain/activity";
 
 describe("groupActivityLabel", () => {
   it("includes the specific achievement name", () => {
@@ -17,6 +20,31 @@ describe("groupActivityLabel", () => {
         achievement_id: "achievement-id",
       }),
     ).toBe("earned an achievement");
+  });
+
+  it("resolves achievement detail for existing activity events", () => {
+    expect(
+      groupActivityDetail(
+        "achievement_earned",
+        { achievement_id: "achievement-id", name: "Curious Mind" },
+        new Map([
+          ["achievement-id", "Answer questions in five different topics."],
+        ]),
+      ),
+    ).toBe("Answer questions in five different topics.");
+  });
+
+  it("supports achievement descriptions stored directly on newer events", () => {
+    expect(
+      groupActivityDetail("achievement_earned", {
+        achievement_id: "achievement-id",
+        description: "Complete your first ten questions.",
+      }),
+    ).toBe("Complete your first ten questions.");
+  });
+
+  it("does not add detail to unrelated activity", () => {
+    expect(groupActivityDetail("played_today", {})).toBeNull();
   });
 
   it("includes the topic in a mastery-tier activity", () => {

@@ -1,0 +1,23 @@
+{
+  "easy-does-it.opentdb.425276a0efdd7799": {
+    "difficulty": 2,
+    "subtopic": "Capitals & Cities",
+    "detailTags": ["Scotland", "National Capitals"]
+  },
+  "lifestyle-culture-starter.opentdb.e920e22d69ba632e": {
+    "subtopic": "Folklore & Traditions",
+    "detailTags": ["Egyptian Mythology", "Ancient Egypt"],
+    "prompt": "In ancient Egyptian mythology, which god killed his brother Osiris?",
+    "canonicalAnswer": "Set",
+    "aliases": ["Seth"],
+    "distractors": ["Horus", "Anubis", "Thoth"],
+    "explanation": "Set killed his brother Osiris in ancient Egyptian mythology.",
+    "details": "Accounts vary in their details, but Set murders Osiris and contests the rule of Egypt with Osiris's son Horus. The story became central to Egyptian ideas about kingship, death, and renewal.",
+    "difficulty": 3,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Osiris-Egyptian-god"
+    },
+    "answerMode": "recall"
+  }
+}

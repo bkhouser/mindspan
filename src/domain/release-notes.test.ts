@@ -3,6 +3,7 @@ import { APP_VERSION } from "@/lib/app-version";
 import {
   CURRENT_RELEASE,
   hasSignificantQuestionChanges,
+  questionChangesSummary,
   releasesNewerThan,
   type ReleaseNote,
   unreadReleaseVersions,
@@ -64,5 +65,16 @@ describe("release notes", () => {
     expect(
       hasSignificantQuestionChanges({ added: 2, revised: 8, retired: 0 }),
     ).toBe(true);
+  });
+
+  it("can explain that added questions are prepared for future packs", () => {
+    expect(
+      questionChangesSummary({
+        added: 400,
+        addedLabel: "questions prepared for future packs",
+        revised: 438,
+        retired: 0,
+      }),
+    ).toBe("400 questions prepared for future packs · 438 revised");
   });
 });

@@ -9,17 +9,56 @@ const supabase = createClient(
   { auth: { persistSession: false } },
 );
 const { manifest } = loadCatalog();
+const expectedQuestionCount = manifest.packs.reduce(
+  (total, pack) => total + pack.generatedTarget + pack.existingSeedCount,
+  0,
+);
 
 const { count: questionCount, error: questionError } = await supabase
   .from("questions")
-  .select("id", { count: "exact", head: true });
+  .select("id", { count: "exact", head: true })
+  .is("retired_at", null);
 if (questionError) throw questionError;
-if (questionCount !== 1_100)
-  throw new Error(`Expected 1100 published questions, found ${questionCount}`);
+if (questionCount !== expectedQuestionCount)
+  throw new Error(
+    `Expected ${expectedQuestionCount} published questions, found ${questionCount}`,
+  );
+
+const { count: missingEditorialIdentity, error: editorialIdentityError } =
+  await supabase
+    .from("question_versions")
+    .select("id", { count: "exact", head: true })
+    .eq("status", "published")
+    .or("editorial_key.is.null,editorial_content_hash.is.null");
+if (editorialIdentityError) throw editorialIdentityError;
+if (missingEditorialIdentity)
+  throw new Error(
+    `${missingEditorialIdentity} published question version(s) lack a portable editorial identity`,
+  );
+
+const [
+  { count: primaryClassificationCount, error: primaryClassificationError },
+  { count: detailClassificationCount, error: detailClassificationError },
+] = await Promise.all([
+  supabase
+    .from("question_subtopics")
+    .select("question_id", { count: "exact", head: true }),
+  supabase
+    .from("question_detail_tags")
+    .select("question_id", { count: "exact", head: true }),
+]);
+if (primaryClassificationError) throw primaryClassificationError;
+if (detailClassificationError) throw detailClassificationError;
+if (primaryClassificationCount !== expectedQuestionCount)
+  throw new Error(
+    `Expected exactly one primary subtopic for each question (${expectedQuestionCount}), found ${primaryClassificationCount}`,
+  );
+if (!detailClassificationCount)
+  throw new Error("Expected reviewer detail-tag classifications");
 
 const { data: packs, error: packError } = await supabase
   .from("packs")
-  .select("id, slug, is_starter, price_insight")
+  .select("id, slug, is_starter, price_insight, enabled")
   .in(
     "slug",
     manifest.packs.map((pack) => pack.slug),
@@ -45,6 +84,7 @@ for (const expected of manifest.packs) {
     questions: count,
     initial: pack.is_starter,
     insight: pack.price_insight,
+    enabled: pack.enabled,
   });
 }
 
@@ -66,5 +106,5 @@ if (missingEasyUnlocks.length)
 
 console.table(results);
 console.log(
-  `Verified ${questionCount} questions across ${results.length} packs; Easy Does It unlocked for ${betaProfiles?.length ?? 0} beta player(s).`,
+  `Verified ${questionCount} questions across ${results.length} packs with one primary subtopic each, ${detailClassificationCount} reviewer detail-tag links, complete editorial fingerprints, and Easy Does It unlocked for ${betaProfiles?.length ?? 0} beta player(s).`,
 );

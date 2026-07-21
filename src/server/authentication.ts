@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { serverEnv } from "@/lib/env";
+import { hasSupabaseEnv, serverEnv } from "@/lib/env";
+import { createClient } from "@/lib/supabase/server";
 
 function inviteHash(token: string) {
   return createHash("sha256").update(token).digest("hex");
@@ -104,6 +105,22 @@ export async function finishAuthentication(input: {
     onboardingCompleted: Boolean(profile?.onboarding_completed),
     bootstrapAdmin,
     requestedPath: input.requestedPath,
+  });
+}
+
+export async function currentAuthenticationDestination(input?: {
+  invite?: string;
+}) {
+  if (!hasSupabaseEnv()) return null;
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return null;
+  return finishAuthentication({
+    userId: user.id,
+    email: user.email,
+    invite: input?.invite,
   });
 }
 

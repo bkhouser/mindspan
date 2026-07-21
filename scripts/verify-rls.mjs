@@ -158,7 +158,7 @@ try {
 
   const { data: qualityVersion, error: qualityVersionError } = await admin
     .from("question_versions")
-    .select("id")
+    .select("id,question_id,topic_id,difficulty")
     .eq("status", "published")
     .limit(1)
     .single();
@@ -234,6 +234,27 @@ try {
     !adminPackAttemptSummaryError,
     "a system admin must be able to read pack-level attempt aggregates",
   );
+  const { data: hiddenDetailTags, error: hiddenDetailTagsError } =
+    await member.client.from("detail_tags").select("id").limit(1);
+  assert(
+    !hiddenDetailTagsError && hiddenDetailTags?.length === 0,
+    "a normal player must not see reviewer-only detail tags",
+  );
+  const { data: hiddenQuestionDetailTags, error: hiddenQuestionDetailTagsError } =
+    await member.client
+      .from("question_detail_tags")
+      .select("detail_tag_id")
+      .eq("question_id", qualityVersion.question_id);
+  assert(
+    !hiddenQuestionDetailTagsError && hiddenQuestionDetailTags?.length === 0,
+    "a normal player must not see reviewer-only question detail classifications",
+  );
+  const { data: visibleDetailTags, error: visibleDetailTagsError } =
+    await questionReviewer.client.from("detail_tags").select("id").limit(1);
+  assert(
+    !visibleDetailTagsError && (visibleDetailTags?.length ?? 0) === 1,
+    "a question reviewer must see detail tags",
+  );
   const { error: directFeedbackError } = await member.client
     .from("question_feedback")
     .insert({
@@ -249,6 +270,226 @@ try {
     Boolean(directFeedbackError),
     "question feedback writes must go through the validated server endpoint",
   );
+
+  const { data: creditSession, error: creditSessionError } = await admin
+    .from("play_sessions")
+    .insert({ user_id: member.id, mode: "mixed" })
+    .select("id")
+    .single();
+  if (creditSessionError) throw creditSessionError;
+  const now = new Date();
+  const { data: creditPresentation, error: creditPresentationError } =
+    await admin
+      .from("question_presentations")
+      .insert({
+        session_id: creditSession.id,
+        user_id: member.id,
+        question_version_id: qualityVersion.id,
+        activated_at: now.toISOString(),
+        expires_at: new Date(now.getTime() + 30_000).toISOString(),
+        starting_points: 320,
+        proficiency_snapshot: 0.5,
+        prior_correct_count: 0,
+        algorithm_version: "mindspan-score-v1",
+        sequence_number: 1,
+        timer_limit_seconds: 30,
+        scoring_timer_seconds: 30,
+      })
+      .select("id")
+      .single();
+  if (creditPresentationError) throw creditPresentationError;
+  const creditSnapshot = {
+    algorithmVersion: "mindspan-score-v1",
+    correct: false,
+    assisted: false,
+    earnedPoints: 0,
+    startingPoints: 320,
+    timeFactor: 0.625,
+    masteryEvidenceDelta: 1,
+    masterySuccessDelta: 0,
+    masteryUniqueDelta: 1,
+  };
+  const { data: creditAttemptId, error: creditAttemptError } = await admin.rpc(
+    "finalize_attempt_v1",
+    {
+      target_presentation: creditPresentation.id,
+      target_user: member.id,
+      target_question: qualityVersion.question_id,
+      target_topic: qualityVersion.topic_id,
+      submitted: "A valid missing alias",
+      was_correct: false,
+      was_assisted: false,
+      was_timeout: false,
+      elapsed: 15_000,
+      remaining: 0.5,
+      points: 0,
+      snapshot: creditSnapshot,
+      request_key: crypto.randomUUID(),
+      success_delta: 0,
+      evidence_delta: 1,
+      unique_delta: 1,
+      new_correct_count: 0,
+      next_review: now.toISOString(),
+      new_tier: "unrated",
+    },
+  );
+  if (creditAttemptError) throw creditAttemptError;
+  const { data: acceptanceFeedback, error: acceptanceFeedbackError } =
+    await admin
+      .from("question_feedback")
+      .insert({
+        question_version_id: qualityVersion.id,
+        user_id: member.id,
+        attempt_id: creditAttemptId,
+        sentiment: "down",
+        reasons: ["should_have_been_accepted"],
+        comment: "This response should receive credit.",
+        answer_correct: false,
+        assisted: false,
+        timed_out: false,
+      })
+      .select("id")
+      .single();
+  if (acceptanceFeedbackError) throw acceptanceFeedbackError;
+  const { error: unauthorizedCreditError } = await member.client.rpc(
+    "award_reviewed_answer_credit_for_reviewer_v1",
+    { p_question_feedback_id: acceptanceFeedback.id },
+  );
+  assert(
+    Boolean(unauthorizedCreditError),
+    "a normal player must not award answer credit",
+  );
+  const { data: awardedCredit, error: awardedCreditError } =
+    await questionReviewer.client.rpc(
+      "award_reviewed_answer_credit_for_reviewer_v1",
+      { p_question_feedback_id: acceptanceFeedback.id },
+    );
+  assert(
+    !awardedCreditError &&
+      awardedCredit?.[0]?.result_corrected === true &&
+      awardedCredit[0].result_points_awarded === 200,
+    `a reviewer must award the recorded attempt value exactly once${awardedCreditError ? `: ${awardedCreditError.message}` : ""}`,
+  );
+  const { data: repeatedCredit, error: repeatedCreditError } =
+    await questionReviewer.client.rpc(
+      "award_reviewed_answer_credit_for_reviewer_v1",
+      { p_question_feedback_id: acceptanceFeedback.id },
+    );
+  assert(
+    !repeatedCreditError &&
+      repeatedCredit?.[0]?.result_corrected === false &&
+      repeatedCredit[0].result_points_awarded === 200,
+    "repeating an answer-credit action must be idempotent",
+  );
+  const [
+    { data: correctedAttempt },
+    { data: correctedQuestionState },
+    { data: correctedTopicMastery },
+    { data: correctedSubtopicMastery },
+    { data: correctionRows },
+    { data: correctionReview },
+    { data: correctionAudit },
+  ] = await Promise.all([
+    admin
+      .from("attempts")
+      .select("correct,earned_points,score_snapshot")
+      .eq("id", creditAttemptId)
+      .single(),
+    admin
+      .from("user_question_state")
+      .select("attempt_count,correct_count,last_correct")
+      .eq("user_id", member.id)
+      .eq("question_id", qualityVersion.question_id)
+      .single(),
+    admin
+      .from("user_topic_mastery")
+      .select(
+        "weighted_successes,weighted_evidence,correct_attempts,total_attempts,lifetime_points",
+      )
+      .eq("user_id", member.id)
+      .eq("topic_id", qualityVersion.topic_id)
+      .single(),
+    admin
+      .from("user_subtopic_mastery")
+      .select(
+        "weighted_successes,weighted_evidence,correct_attempts,total_attempts,lifetime_points",
+      )
+      .eq("user_id", member.id),
+    admin
+      .from("attempt_credit_corrections")
+      .select("points_awarded,mastery_success_delta")
+      .eq("attempt_id", creditAttemptId),
+    admin
+      .from("question_editorial_reviews")
+      .select("verdict,notes,player_feedback_reviewed_at")
+      .eq("question_version_id", qualityVersion.id)
+      .single(),
+    admin
+      .from("admin_audit_log")
+      .select("id")
+      .eq("actor_user_id", questionReviewer.id)
+      .eq("action", "question.answer_credit_awarded")
+      .eq("target_id", creditAttemptId),
+  ]);
+  assert(
+    correctedAttempt?.correct && correctedAttempt.earned_points === 200,
+    "the corrected attempt must become correct and receive its original timed value",
+  );
+  assert(
+    correctedQuestionState?.attempt_count === 1 &&
+      correctedQuestionState.correct_count === 1 &&
+      correctedQuestionState.last_correct === true,
+    "question state must gain one correct answer without another attempt",
+  );
+  assert(
+    correctedTopicMastery?.total_attempts === 1 &&
+      correctedTopicMastery.correct_attempts === 1 &&
+      correctedTopicMastery.lifetime_points === 200 &&
+      Number(correctedTopicMastery.weighted_evidence) === 1 &&
+      Number(correctedTopicMastery.weighted_successes) === 0.95,
+    "topic mastery must add only the missing success and points deltas",
+  );
+  assert(
+    (correctedSubtopicMastery?.length ?? 0) > 0 &&
+      correctedSubtopicMastery.every(
+        (row) =>
+          row.total_attempts === 1 &&
+          row.correct_attempts === 1 &&
+          row.lifetime_points === 200 &&
+          Number(row.weighted_evidence) === 1 &&
+          Number(row.weighted_successes) === 0.95,
+      ),
+    "subtopic mastery must receive the same missing deltas",
+  );
+  assert(
+    correctionRows?.length === 1 &&
+      correctionRows[0].points_awarded === 200 &&
+      Number(correctionRows[0].mastery_success_delta) === 0.95,
+    "the correction must have one immutable accounting record",
+  );
+  assert(
+    correctionReview?.verdict === "needs_revision" &&
+      Boolean(correctionReview.player_feedback_reviewed_at) &&
+      correctionReview.notes?.includes("A valid missing alias"),
+    "awarding credit must mark the question for an accepted-answer revision",
+  );
+  assert(
+    correctionAudit?.length === 1,
+    "awarding answer credit must create one admin audit record",
+  );
+  const { data: ownCorrection } = await member.client
+    .from("attempt_credit_corrections")
+    .select("attempt_id")
+    .eq("attempt_id", creditAttemptId);
+  const { data: hiddenCorrection } = await outsider.client
+    .from("attempt_credit_corrections")
+    .select("attempt_id")
+    .eq("attempt_id", creditAttemptId);
+  assert(
+    ownCorrection?.length === 1 && hiddenCorrection?.length === 0,
+    "players may see only their own awarded-credit record",
+  );
+
   const { error: memberEditorialError } = await member.client.rpc(
     "save_question_editorial_review_v1",
     {

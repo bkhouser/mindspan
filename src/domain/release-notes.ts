@@ -15,6 +15,7 @@ const releaseItemSchema = z.object({
 
 const questionChangesSchema = z.object({
   added: z.number().int().nonnegative(),
+  addedLabel: z.string().trim().min(1).optional(),
   revised: z.number().int().nonnegative(),
   retired: z.number().int().nonnegative(),
 });

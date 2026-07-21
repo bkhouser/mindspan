@@ -1,0 +1,229 @@
+{
+  "arts-literature-starter.opentdb.0ae976903dbf1d8f": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.pointillism",
+    "subtopic": "Art Movements",
+    "detailTags": ["Pointillism", "Post-Impressionism"],
+    "prompt": "Which painting technique builds an image from many small, distinct dots of color?",
+    "canonicalAnswer": "Pointillism",
+    "aliases": ["Pointillist technique"],
+    "distractors": ["Impasto", "Sfumato", "Fresco"],
+    "explanation": "Pointillism builds images from separate dots of color that visually blend when viewed from a distance.",
+    "details": "Georges Seurat and Paul Signac developed the technique in the late nineteenth century. Instead of mixing every color on a palette, they placed small touches of contrasting pigment beside one another so the viewer's eye performs part of the mixing.",
+    "difficulty": 3,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/art/pointillism"},
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.54620ad4429d1260": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.mockingbird",
+    "subtopic": "Novels & Fiction",
+    "detailTags": ["American Literature", "Modern Classics"],
+    "prompt": "Which novel follows Scout Finch as her father defends a Black man falsely accused in Alabama?",
+    "canonicalAnswer": "To Kill a Mockingbird",
+    "aliases": ["Harper Lee's To Kill a Mockingbird"],
+    "distractors": ["The Color Purple", "Invisible Man", "The Heart Is a Lonely Hunter"],
+    "explanation": "Harper Lee's To Kill a Mockingbird is narrated by Scout Finch and centers on her father Atticus's defense of Tom Robinson.",
+    "details": "Published in 1960, the novel uses Scout's childhood perspective to examine racial injustice, conscience, and community life in the fictional town of Maycomb, Alabama.",
+    "difficulty": 2,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/To-Kill-a-Mockingbird"},
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.8b4a6252730d62a1": {
+    "aliases": ["Mycroft"],
+    "difficulty": 2
+  },
+  "arts-literature-starter.opentdb.524fc4c79fee7dea": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.wrinkle-time",
+    "subtopic": "Children's & Young Adult Literature",
+    "detailTags": ["Science Fiction", "American Literature"],
+    "prompt": "Who wrote the children's science-fantasy novel A Wrinkle in Time?",
+    "canonicalAnswer": "Madeleine L'Engle",
+    "aliases": ["L'Engle"],
+    "distractors": ["Ursula K. Le Guin", "Susan Cooper", "E. L. Konigsburg"],
+    "explanation": "Madeleine L'Engle wrote A Wrinkle in Time.",
+    "details": "The 1962 novel sends Meg Murry, Charles Wallace, and Calvin O'Keefe across space in search of Meg's missing father. It won the 1963 Newbery Medal.",
+    "difficulty": 3,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/A-Wrinkle-in-Time"},
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.f352307dad76306a": {
+    "aliases": ["Seuss", "Theodor Seuss Geisel"]
+  },
+  "arts-literature-starter.opentdb.0a0325e2c28fbd1e": {
+    "difficulty": 2
+  },
+  "arts-literature-starter.opentdb.5d0ed1854851d813": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.impressionism",
+    "subtopic": "Art Movements",
+    "detailTags": ["Impressionism", "Painting"],
+    "prompt": "Which art movement is associated with Claude Monet and an emphasis on changing light and atmosphere?",
+    "canonicalAnswer": "Impressionism",
+    "aliases": ["The Impressionist movement"],
+    "distractors": ["Cubism", "Surrealism", "Neoclassicism"],
+    "explanation": "Claude Monet became a leading figure in Impressionism, which emphasized light, color, and immediate visual experience.",
+    "details": "The movement's name came from Monet's painting Impression, Sunrise. Impressionist painters often worked outdoors and used visible brushstrokes to capture transient conditions rather than highly finished academic detail.",
+    "difficulty": 2,
+    "source": {"label": "The Metropolitan Museum of Art", "url": "https://www.metmuseum.org/toah/hd/imml/hd_imml.htm"},
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.efd1d835c20ebdbe": {
+    "aliases": ["Bachman"],
+    "difficulty": 2
+  },
+  "arts-literature-starter.opentdb.b395331dfb51d441": {
+    "difficulty": 3
+  },
+  "arts-literature-starter.opentdb.d01e7ab92434c707": {
+    "aliases": ["Urie"]
+  },
+  "arts-literature-starter.opentdb.ad72a00b12a7783a": {
+    "aliases": ["Van Gogh", "Vincent Willem van Gogh"]
+  },
+  "arts-literature-starter.opentdb.f6b4db495f4e5021": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.rodin-thinker",
+    "subtopic": "Sculpture",
+    "detailTags": ["Modern Sculpture", "French Art"],
+    "prompt": "Which French sculptor created The Thinker?",
+    "canonicalAnswer": "Auguste Rodin",
+    "aliases": ["Rodin", "François-Auguste-René Rodin"],
+    "distractors": ["Aristide Maillol", "Constantin Brâncuși", "Alberto Giacometti"],
+    "explanation": "Auguste Rodin created The Thinker.",
+    "details": "Rodin originally conceived the figure for The Gates of Hell, a monumental doorway inspired by Dante's Inferno. Enlarged casts later made The Thinker one of the best-known works of modern sculpture.",
+    "difficulty": 2,
+    "source": {"label": "Musée Rodin", "url": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/thinker"},
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.31fcbe3f36ca1045": {
+    "aliases": ["Melville"],
+    "difficulty": 2
+  },
+  "arts-literature-starter.opentdb.f0e9bf69e9a66bdd": {
+    "aliases": ["Fleming"],
+    "difficulty": 2
+  },
+  "arts-literature-starter.opentdb.66a1d49d094265b0": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.discworld",
+    "subtopic": "Novels & Fiction",
+    "detailTags": ["Fantasy Literature", "British Literature"],
+    "prompt": "Which author created the comic-fantasy world of Discworld?",
+    "canonicalAnswer": "Terry Pratchett",
+    "aliases": ["Pratchett", "Sir Terry Pratchett"],
+    "distractors": ["Douglas Adams", "Neil Gaiman", "Diana Wynne Jones"],
+    "explanation": "Terry Pratchett created the Discworld series.",
+    "details": "Discworld is a flat world carried through space on four elephants standing on a giant turtle. Across dozens of novels, Pratchett used its fantasy setting to satirize institutions, technology, belief, and human behavior.",
+    "difficulty": 3,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Terry-Pratchett"},
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.286348d7c2503bff": {
+    "replacementCatalogKey": "arts-literature-starter.replacement.20260718.kindred",
+    "subtopic": "Novels & Fiction",
+    "detailTags": ["American Literature", "Science Fiction"],
+    "prompt": "Who wrote the time-travel novel Kindred?",
+    "canonicalAnswer": "Octavia E. Butler",
+    "aliases": ["Octavia Butler", "Butler"],
+    "distractors": ["Ursula K. Le Guin", "Samuel R. Delany", "N. K. Jemisin"],
+    "explanation": "Octavia E. Butler wrote Kindred.",
+    "details": "The 1979 novel repeatedly transports a Black writer from 1970s California to a Maryland plantation before the Civil War, linking speculative fiction with an examination of slavery and family history.",
+    "difficulty": 2,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Octavia-E-Butler"},
+    "answerMode": "recall"
+  },
+  "bookshelf-essentials.classic-anna-karenina": {
+    "replacementCatalogKey": "bookshelf-essentials.replacement.20260718.brothers-karamazov",
+    "subtopic": "Novels & Fiction",
+    "detailTags": ["Russian Literature", "Nineteenth-Century Literature"],
+    "prompt": "Which Russian author wrote The Brothers Karamazov?",
+    "canonicalAnswer": "Fyodor Dostoevsky",
+    "aliases": ["Dostoevsky", "Fyodor Mikhailovich Dostoevsky"],
+    "distractors": ["Leo Tolstoy", "Ivan Turgenev", "Nikolai Gogol"],
+    "explanation": "Fyodor Dostoevsky wrote The Brothers Karamazov.",
+    "details": "Published in 1880, the novel follows the conflicts within the Karamazov family while exploring faith, doubt, moral responsibility, and free will.",
+    "difficulty": 3,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/The-Brothers-Karamazov"},
+    "answerMode": "recall"
+  },
+  "ancient-worlds.archaeology-tree-rings": {
+    "replacementCatalogKey": "ancient-worlds.replacement.20260718.palynology",
+    "subtopic": "Ancient History",
+    "detailTags": ["Archaeology", "Environmental Evidence"],
+    "prompt": "What field studies preserved pollen to reconstruct past environments and human activity?",
+    "canonicalAnswer": "Palynology",
+    "aliases": ["Pollen analysis"],
+    "distractors": ["Numismatics", "Epigraphy", "Zooarchaeology"],
+    "explanation": "Palynology is the study of pollen and spores, including specimens preserved in archaeological deposits.",
+    "details": "Because different plants produce distinctive pollen, samples can reveal changes in vegetation, farming, climate, and land use around an archaeological site.",
+    "difficulty": 3,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/science/palynology"},
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.e1fcd457b3b69939": {
+    "replacementCatalogKey": "film-television-starter.replacement.20260718.sean-connery-bond",
+    "subtopic": "Superheroes & Franchises",
+    "detailTags": ["James Bond", "Film Characters"],
+    "prompt": "Which actor first played James Bond in the official Eon film series?",
+    "canonicalAnswer": "Sean Connery",
+    "aliases": ["Connery", "Sir Sean Connery"],
+    "distractors": ["Roger Moore", "George Lazenby", "David Niven"],
+    "explanation": "Sean Connery first played James Bond in Eon's Dr. No in 1962.",
+    "details": "Connery established the screen version of Bond in the first film produced by Eon Productions. David Niven played Bond later in the non-Eon spoof Casino Royale, while Barry Nelson portrayed the character on television before Connery.",
+    "difficulty": 2,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/biography/Sean-Connery"},
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.f51edbc9174e36ad": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260718.judgment-paris",
+    "subtopic": "Folklore & Traditions",
+    "detailTags": ["Greek Mythology", "Trojan War"],
+    "prompt": "Which Trojan prince was asked to judge which of three goddesses was the fairest?",
+    "canonicalAnswer": "Paris",
+    "aliases": ["Paris of Troy", "Prince Paris"],
+    "distractors": ["Hector", "Aeneas", "Priam"],
+    "explanation": "Paris judged the contest among Hera, Athena, and Aphrodite.",
+    "details": "Each goddess offered him a reward. Paris chose Aphrodite after she promised him Helen, a decision that myth links to the outbreak of the Trojan War.",
+    "difficulty": 3,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Paris-Greek-mythology"},
+    "answerMode": "recall"
+  },
+  "masterworks.opentdb.a101f62f8d51fb1f": {
+    "replacementCatalogKey": "masterworks.replacement.20260718.georgia-okeeffe",
+    "subtopic": "Painting",
+    "detailTags": ["American Art", "Modernism"],
+    "prompt": "Which American artist painted the large flower canvases and New Mexico landscapes associated with her career?",
+    "canonicalAnswer": "Georgia O'Keeffe",
+    "aliases": ["O'Keeffe", "Georgia Totto O'Keeffe"],
+    "distractors": ["Helen Frankenthaler", "Lee Krasner", "Louise Nevelson"],
+    "explanation": "Georgia O'Keeffe is known for enlarged flower paintings and stark New Mexico landscapes.",
+    "details": "O'Keeffe helped define American modernism through close-up natural forms and simplified landscapes. She lived and worked for decades in New Mexico, whose terrain became central to her art.",
+    "difficulty": 3,
+    "source": {"label": "Georgia O'Keeffe Museum", "url": "https://www.okeeffemuseum.org/about-georgia-okeeffe/"},
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.62ba60655c965b3d": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260718.athena-birth",
+    "subtopic": "Folklore & Traditions",
+    "detailTags": ["Greek Mythology", "Olympian Gods"],
+    "prompt": "Which Greek goddess is associated with wisdom and is traditionally said to have sprung from Zeus's head?",
+    "canonicalAnswer": "Athena",
+    "aliases": ["Pallas Athena"],
+    "distractors": ["Artemis", "Aphrodite", "Demeter"],
+    "explanation": "Athena is the Greek goddess of wisdom and was said to have emerged from Zeus's head.",
+    "details": "In myth, Zeus swallowed Athena's mother Metis and later suffered a terrible headache. Athena then emerged fully armed from his head, becoming a patron of strategy, crafts, and the city of Athens.",
+    "difficulty": 2,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Athena-Greek-mythology"},
+    "answerMode": "recall"
+  },
+  "at-the-table.asia-sushi": {
+    "replacementCatalogKey": "at-the-table.replacement.20260718.tempura",
+    "subtopic": "Cooking & Cuisine",
+    "detailTags": ["Japanese Cuisine", "Cooking Techniques"],
+    "prompt": "What Japanese cooking method coats food in a light batter before deep-frying it?",
+    "canonicalAnswer": "Tempura",
+    "aliases": ["Tempura frying"],
+    "distractors": ["Teriyaki", "Yakitori", "Shabu-shabu"],
+    "explanation": "Tempura coats ingredients in a light batter and deep-fries them until crisp.",
+    "details": "Seafood and vegetables are common tempura ingredients. The batter is kept cold and mixed only briefly so it stays delicate rather than becoming heavy or chewy.",
+    "difficulty": 2,
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/tempura"},
+    "answerMode": "recall"
+  }
+}

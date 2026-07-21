@@ -1,0 +1,1511 @@
+[
+  {
+    "catalogKey": "wild-world.evolution-natural-selection",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Evolution"
+    ],
+    "prompt": "What process favors inherited traits that improve reproductive success?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Natural selection",
+    "aliases": [],
+    "distractors": [
+      "Genetic engineering",
+      "Artificial classification",
+      "Ecological succession"
+    ],
+    "explanation": "Natural selection changes populations when heritable traits affect reproductive success.",
+    "details": "Individuals do not evolve because they need to; over generations, variants that leave more offspring become more common in a population.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.evolution-common-ancestor",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Evolution"
+    ],
+    "prompt": "Structures inherited from a shared ancestor, such as a whale flipper and a human arm, are called what?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Homologous structures",
+    "aliases": [
+      "Homologies",
+      "Homologous traits"
+    ],
+    "distractors": [
+      "Vestigial organs",
+      "Analogous structures",
+      "Clonal traits"
+    ],
+    "explanation": "Homologous structures share an underlying anatomy inherited from a common ancestor.",
+    "details": "They may serve different functions after lineages diverge, unlike analogous structures that evolved independently under similar selective pressures.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.evolution-founder-effect",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Evolution"
+    ],
+    "prompt": "What form of genetic drift occurs when a new population begins with only a few individuals?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Founder effect",
+    "aliases": [],
+    "distractors": [
+      "Gene flow",
+      "Stabilizing selection",
+      "Hybrid vigor"
+    ],
+    "explanation": "The founder effect produces unusual allele frequencies in a population established by a small group.",
+    "details": "Because the founders carry only part of the original population's variation, rare traits may become common simply by chance.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.evolution-convergent",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Evolution"
+    ],
+    "prompt": "Sharks and dolphins independently evolved streamlined bodies. What evolutionary pattern does this illustrate?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Convergent evolution",
+    "aliases": [],
+    "distractors": [
+      "Coevolution",
+      "Divergent evolution",
+      "Adaptive radiation"
+    ],
+    "explanation": "Convergent evolution produces similar adaptations in lineages that are not closely related.",
+    "details": "Comparable environmental pressures can favor similar solutions even though the underlying structures arose from different ancestors.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.evolution-hox",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Evolution"
+    ],
+    "prompt": "Which highly conserved gene family helps establish the head-to-tail body plan of many animals?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hox genes",
+    "aliases": [
+      "Homeobox genes",
+      "Hox gene family"
+    ],
+    "distractors": [
+      "Opsin genes",
+      "Globin genes",
+      "Ribosomal genes"
+    ],
+    "explanation": "Hox genes help specify the identity of body regions during embryonic development.",
+    "details": "Their similar organization across distant animal groups provides strong evidence that major developmental mechanisms arose early in animal evolution.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.ecology-food-web",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Ecology"
+    ],
+    "prompt": "What diagram shows interconnected feeding relationships within an ecosystem?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Food web",
+    "aliases": [],
+    "distractors": [
+      "Cladogram",
+      "Weather map",
+      "Punnett square"
+    ],
+    "explanation": "A food web links the many food chains operating in an ecosystem.",
+    "details": "Because most species eat or are eaten by more than one organism, a web represents ecological relationships more realistically than a single chain.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/44-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.ecology-keystone",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Ecology"
+    ],
+    "prompt": "What term describes a species whose ecological effect is unusually large relative to its abundance?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Keystone species",
+    "aliases": [],
+    "distractors": [
+      "Pioneer species",
+      "Indicator fossil",
+      "Endemic species"
+    ],
+    "explanation": "A keystone species has a disproportionate influence on community structure.",
+    "details": "Removing one can trigger cascading changes in populations and habitat, as famously observed with sea otters, urchins, and kelp forests.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/44-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.ecology-primary-succession",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Ecology"
+    ],
+    "prompt": "Ecological succession beginning on newly exposed rock with no soil is called what?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Primary succession",
+    "aliases": [],
+    "distractors": [
+      "Secondary succession",
+      "Seasonal migration",
+      "Competitive exclusion"
+    ],
+    "explanation": "Primary succession starts where a biological community and developed soil are absent.",
+    "details": "Pioneer organisms such as lichens help weather rock and add organic matter, gradually creating conditions that support larger plants.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/44-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.ecology-trophic-cascade",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Ecology"
+    ],
+    "prompt": "What is a chain of ecological changes caused by adding or removing a predator called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Trophic cascade",
+    "aliases": [],
+    "distractors": [
+      "Founder effect",
+      "Nutrient cycle",
+      "Population bottleneck"
+    ],
+    "explanation": "A trophic cascade occurs when effects at one feeding level spread through others.",
+    "details": "Predators can indirectly alter vegetation, waterways, or habitat by changing the abundance or behavior of the herbivores they consume.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/44-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.ecology-net-primary",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Ecology"
+    ],
+    "prompt": "What measure equals plant energy captured by photosynthesis minus the energy plants use in respiration?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Net primary productivity",
+    "aliases": [
+      "NPP",
+      "Net primary production"
+    ],
+    "distractors": [
+      "Carrying capacity",
+      "Biomagnification",
+      "Gross assimilation efficiency"
+    ],
+    "explanation": "Net primary productivity is the energy stored as new plant biomass after respiration.",
+    "details": "It represents the portion of primary production available to herbivores, decomposers, and the rest of an ecosystem's food web.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/44-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.mammals-milk",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Mammals"
+    ],
+    "prompt": "What defining substance do mammary glands produce?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Milk",
+    "aliases": [],
+    "distractors": [
+      "Venom",
+      "Bile",
+      "Mucus"
+    ],
+    "explanation": "Mammary glands produce milk to nourish young mammals.",
+    "details": "Other common mammalian traits include hair and three middle-ear bones, although egg-laying monotremes show that not every mammal gives live birth.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/human-evolution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.mammals-monotremes",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Mammals"
+    ],
+    "prompt": "Which unusual mammal group includes the platypus and echidnas?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Monotremes",
+    "aliases": [],
+    "distractors": [
+      "Marsupials",
+      "Rodents",
+      "Cetaceans"
+    ],
+    "explanation": "Monotremes are mammals that lay eggs.",
+    "details": "They still produce milk and possess hair, placing them firmly among mammals despite their distinctive reproductive biology.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/human-evolution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.mammals-echolocation",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Mammals"
+    ],
+    "prompt": "Bats and toothed whales can navigate by interpreting returning sound echoes. What is this ability called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Echolocation",
+    "aliases": [],
+    "distractors": [
+      "Electroreception",
+      "Bioluminescence",
+      "Magnetotaxis"
+    ],
+    "explanation": "Echolocation uses emitted sounds and returning echoes to detect objects.",
+    "details": "Timing, frequency, and intensity differences help an animal estimate a target's direction, distance, size, and sometimes movement.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/human-evolution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.mammals-ruminant",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Mammals"
+    ],
+    "prompt": "Cattle and deer repeatedly chew partially digested plant material known by what name?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cud",
+    "aliases": [],
+    "distractors": [
+      "Chyme",
+      "Krill",
+      "Detritus"
+    ],
+    "explanation": "Ruminants regurgitate and rechew cud as part of digesting cellulose-rich plants.",
+    "details": "Microbes in specialized stomach chambers ferment plant material, releasing nutrients that the animal could not obtain efficiently by itself.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/human-evolution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.mammals-countercurrent",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Mammals"
+    ],
+    "prompt": "What heat-saving exchange system lets warm arterial blood transfer heat to colder returning blood in limbs?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Countercurrent heat exchange",
+    "aliases": [
+      "Countercurrent exchange"
+    ],
+    "distractors": [
+      "Evaporative cooling",
+      "Brown-fat thermogenesis",
+      "Vasomotor shivering"
+    ],
+    "explanation": "Countercurrent exchange conserves body heat by placing opposite blood flows close together.",
+    "details": "Seals, whales, and many other animals use it in extremities so tissues remain supplied while less heat escapes to cold surroundings.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/human-evolution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.birds-feathers",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Birds"
+    ],
+    "prompt": "Which living animal group is uniquely characterized by feathers?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Birds",
+    "aliases": [
+      "Aves"
+    ],
+    "distractors": [
+      "Mammals",
+      "Reptiles",
+      "Insects"
+    ],
+    "explanation": "Feathers are unique to birds among living animals.",
+    "details": "They provide insulation, display surfaces, camouflage, waterproofing, and the aerodynamic structures needed for flight in most species.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/news/bird-academy/all-about-bird-anatomy/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.birds-keeled-sternum",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Birds"
+    ],
+    "prompt": "The large flight muscles of most birds attach to a ridge on which chest bone?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sternum",
+    "aliases": [
+      "Breastbone"
+    ],
+    "distractors": [
+      "Pelvis",
+      "Clavicle",
+      "Vertebra"
+    ],
+    "explanation": "A keel on the sternum provides a broad attachment for powerful flight muscles.",
+    "details": "Strong pectoral muscles drive the downstroke, while a second major muscle raises the wing through a tendon-and-pulley arrangement.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/news/bird-academy/all-about-bird-anatomy/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.birds-air-sacs",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Birds"
+    ],
+    "prompt": "What structures keep air moving through a bird's lungs during both inhalation and exhalation?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Air sacs",
+    "aliases": [],
+    "distractors": [
+      "Swim bladders",
+      "Crop glands",
+      "Salt glands"
+    ],
+    "explanation": "Bird air sacs act like bellows that maintain one-way airflow through the lungs.",
+    "details": "This highly efficient system supports the oxygen demands of flight and differs from the tidal in-and-out ventilation of mammalian lungs.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/news/bird-academy/all-about-bird-anatomy/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.birds-imprinting",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Birds"
+    ],
+    "prompt": "What rapid early-life learning can cause a hatchling to follow the first suitable moving object it sees?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Imprinting",
+    "aliases": [],
+    "distractors": [
+      "Mimicry",
+      "Hibernation",
+      "Habituation"
+    ],
+    "explanation": "Imprinting is fast learning during a sensitive developmental period.",
+    "details": "In many waterfowl it helps young identify and follow a parent, although experimental studies showed that other moving objects can trigger it.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/news/bird-academy/all-about-bird-anatomy/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.birds-magnetic",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Birds"
+    ],
+    "prompt": "What environmental field can many migratory birds sense as a navigation cue?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Earth's magnetic field",
+    "aliases": [
+      "Geomagnetic field",
+      "Magnetic field"
+    ],
+    "distractors": [
+      "Ocean salinity",
+      "Atmospheric ozone",
+      "Lunar gravity alone"
+    ],
+    "explanation": "Many birds possess magnetoreception that contributes to long-distance navigation.",
+    "details": "They combine magnetic information with landmarks, stars, the Sun, odors, and learned routes rather than relying on a single compass.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Cornell Lab of Ornithology",
+      "url": "https://www.allaboutbirds.org/news/bird-academy/all-about-bird-anatomy/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.marine-coral",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Marine Life"
+    ],
+    "prompt": "Coral reefs are built primarily by colonies of what kind of animal?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Coral polyps",
+    "aliases": [
+      "Corals",
+      "Coral"
+    ],
+    "distractors": [
+      "Sea sponges",
+      "Marine worms",
+      "Bivalves"
+    ],
+    "explanation": "Tiny coral polyps secrete the calcium-carbonate skeletons that build reefs.",
+    "details": "Many reef-building corals also host photosynthetic algae that supply energy, making them sensitive to warming that can disrupt the partnership.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.marine-largest",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Marine Life"
+    ],
+    "prompt": "What is the largest animal known to have lived on Earth?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Blue whale",
+    "aliases": [],
+    "distractors": [
+      "Whale shark",
+      "African elephant",
+      "Giant squid"
+    ],
+    "explanation": "The blue whale is the largest known animal in Earth's history.",
+    "details": "Adults can exceed 25 meters and feed mainly on tiny krill, demonstrating that enormous body size does not require hunting large prey.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.marine-upwelling",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Marine Life"
+    ],
+    "prompt": "What process brings cold, nutrient-rich deep water toward the ocean surface?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Upwelling",
+    "aliases": [],
+    "distractors": [
+      "Desalination",
+      "Thermal inversion",
+      "Tidal locking"
+    ],
+    "explanation": "Upwelling supplies surface waters with nutrients that support plankton growth.",
+    "details": "Wind and Earth's rotation can move surface water away from a coast or region, allowing deeper water to rise and fuel productive fisheries.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.marine-whale-shark",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Marine Life"
+    ],
+    "prompt": "Despite its name and enormous size, the whale shark feeds mainly by using what method?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Filter feeding",
+    "aliases": [
+      "Filter feeder"
+    ],
+    "distractors": [
+      "Venom injection",
+      "Ambush constriction",
+      "Electrocution"
+    ],
+    "explanation": "Whale sharks filter plankton and small organisms from seawater.",
+    "details": "They are sharks, not whales, but their gentle feeding style and great size inspired the name; they strain food using specialized structures near the gills.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.marine-carbonate",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Marine Life"
+    ],
+    "prompt": "Ocean acidification makes it harder for many organisms to build shells from which mineral?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Calcium carbonate",
+    "aliases": [
+      "Calcite",
+      "Aragonite"
+    ],
+    "distractors": [
+      "Sodium chloride",
+      "Silicon carbide",
+      "Iron oxide"
+    ],
+    "explanation": "More acidic seawater reduces the carbonate ions needed to form calcium-carbonate shells and skeletons.",
+    "details": "Corals, mollusks, and some plankton can therefore face greater energetic costs or weakened structures as carbon dioxide enters the ocean.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "NOAA Ocean Service",
+      "url": "https://oceanservice.noaa.gov/facts/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.plants-photosynthesis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Plant Biology"
+    ],
+    "prompt": "Which green pigment absorbs light for photosynthesis?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chlorophyll",
+    "aliases": [],
+    "distractors": [
+      "Hemoglobin",
+      "Keratin",
+      "Melanin"
+    ],
+    "explanation": "Chlorophyll captures light energy used in photosynthesis.",
+    "details": "It absorbs strongly in red and blue wavelengths while reflecting more green light, which is why many leaves appear green.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/30-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.plants-xylem",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Plant Biology"
+    ],
+    "prompt": "Which vascular tissue carries water and dissolved minerals upward through a plant?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Xylem",
+    "aliases": [],
+    "distractors": [
+      "Phloem",
+      "Cambium",
+      "Epidermis"
+    ],
+    "explanation": "Xylem conducts water and minerals from roots toward stems and leaves.",
+    "details": "Its conducting cells are reinforced with lignin, which also helps vascular plants stand upright against gravity.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/30-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.plants-phloem",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Plant Biology"
+    ],
+    "prompt": "What tissue transports sugars from leaves to growing or storage tissues?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Phloem",
+    "aliases": [],
+    "distractors": [
+      "Xylem",
+      "Cork",
+      "Pith"
+    ],
+    "explanation": "Phloem distributes sugars and other organic compounds between plant sources and sinks.",
+    "details": "Transport can move upward or downward depending on where sugars are produced and where the plant is actively growing or storing energy.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/30-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.plants-tropism",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Plant Biology"
+    ],
+    "prompt": "A plant shoot bending toward light demonstrates which response?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Phototropism",
+    "aliases": [],
+    "distractors": [
+      "Gravitropism",
+      "Vernalization",
+      "Transpiration"
+    ],
+    "explanation": "Phototropism is directional growth in response to light.",
+    "details": "Unequal distribution of the hormone auxin causes cells on one side of a young shoot to elongate more, curving the shoot toward illumination.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/30-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.plants-cam",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Plant Biology"
+    ],
+    "prompt": "Which water-saving photosynthetic strategy lets many desert plants open their stomata mainly at night?",
+    "answerMode": "recall",
+    "canonicalAnswer": "CAM photosynthesis",
+    "aliases": [
+      "Crassulacean acid metabolism",
+      "CAM"
+    ],
+    "distractors": [
+      "C3 respiration",
+      "Photorespiration",
+      "Nitrogen fixation"
+    ],
+    "explanation": "CAM plants take in carbon dioxide at night and use it during daytime photosynthesis.",
+    "details": "Separating gas intake from daylight reduces water loss, helping cacti, agaves, and other plants survive hot, dry conditions.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax Biology 2e",
+      "url": "https://openstax.org/books/biology-2e/pages/30-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.insects-six-legs",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Insects"
+    ],
+    "prompt": "How many legs does an adult insect have?",
+    "answerMode": "recall",
+    "canonicalAnswer": "6",
+    "aliases": [
+      "Six"
+    ],
+    "distractors": [
+      "4",
+      "8",
+      "10"
+    ],
+    "explanation": "Adult insects have three pairs of legs attached to the thorax.",
+    "details": "They also have a head and abdomen; spiders have eight legs and belong to arachnids rather than insects.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/insects"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.insects-metamorphosis",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Insects"
+    ],
+    "prompt": "A butterfly passes through egg, larva, pupa, and adult stages. What is this life cycle called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Complete metamorphosis",
+    "aliases": [
+      "Holometabolous development",
+      "Holometabolism"
+    ],
+    "distractors": [
+      "Binary fission",
+      "Alternation of generations",
+      "Direct development"
+    ],
+    "explanation": "Complete metamorphosis separates larval, pupal, and adult body plans.",
+    "details": "Because larvae and adults often use different foods and habitats, the stages may compete less directly with one another.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/insects"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.insects-pollination",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Insects"
+    ],
+    "prompt": "When a bee moves pollen between flowers of the same species, what process does it enable?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pollination",
+    "aliases": [],
+    "distractors": [
+      "Germination",
+      "Fermentation",
+      "Translocation"
+    ],
+    "explanation": "Pollination transfers pollen so flowering plants can reproduce sexually.",
+    "details": "Bees, butterflies, moths, flies, beetles, birds, bats, wind, and water all pollinate different groups of plants.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/insects"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.insects-eusocial",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Insects"
+    ],
+    "prompt": "What term describes colonies with cooperative brood care, overlapping generations, and reproductive castes?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Eusocial",
+    "aliases": [
+      "Eusociality"
+    ],
+    "distractors": [
+      "Solitary",
+      "Parasitic",
+      "Nomadic"
+    ],
+    "explanation": "Eusocial colonies divide reproduction and other labor among specialized members.",
+    "details": "Many ants, termites, and some bees and wasps meet the defining criteria, with queens reproducing while workers support the colony.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/insects"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.insects-halteres",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Insects"
+    ],
+    "prompt": "Flies use which modified pair of wings as gyroscopic balance organs?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Halteres",
+    "aliases": [
+      "Halter"
+    ],
+    "distractors": [
+      "Elytra",
+      "Cerci",
+      "Spiracles"
+    ],
+    "explanation": "Halteres vibrate during flight and detect body rotation.",
+    "details": "These club-shaped structures evolved from the hindwings and provide rapid feedback that helps flies perform precise aerial maneuvers.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of Natural History",
+      "url": "https://naturalhistory.si.edu/education/teaching-resources/anthropology-and-social-studies/insects"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.conservation-endangered",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Conservation"
+    ],
+    "prompt": "On the IUCN Red List, which category indicates a species faces a very high risk of extinction in the wild?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Endangered",
+    "aliases": [],
+    "distractors": [
+      "Least Concern",
+      "Near Threatened",
+      "Data Deficient"
+    ],
+    "explanation": "Endangered species meet criteria indicating a very high extinction risk in the wild.",
+    "details": "The still more severe Critically Endangered category indicates an extremely high risk; categories reflect evidence rather than legal protection by themselves.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "IUCN",
+      "url": "https://www.iucnredlist.org/about/background-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.conservation-invasive",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Conservation"
+    ],
+    "prompt": "What term describes a non-native species that spreads and causes ecological or economic harm?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Invasive species",
+    "aliases": [
+      "Invasive alien species"
+    ],
+    "distractors": [
+      "Keystone species",
+      "Indicator species",
+      "Pioneer species"
+    ],
+    "explanation": "An invasive species is introduced outside its native range and causes harm.",
+    "details": "Not every non-native organism becomes invasive; damaging species may outcompete native life, alter habitats, spread disease, or disrupt economies.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "IUCN",
+      "url": "https://www.iucnredlist.org/about/background-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.conservation-corridor",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Conservation"
+    ],
+    "prompt": "What habitat connection allows wildlife to move between otherwise isolated protected areas?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Wildlife corridor",
+    "aliases": [
+      "Habitat corridor",
+      "Ecological corridor"
+    ],
+    "distractors": [
+      "Ecological trap",
+      "Trophic pyramid",
+      "Buffer toxin"
+    ],
+    "explanation": "Wildlife corridors connect habitat fragments and make movement safer.",
+    "details": "They can support migration, access to mates, seasonal resources, and gene flow, although their design must match the needs of target species.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "IUCN",
+      "url": "https://www.iucnredlist.org/about/background-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.conservation-captive",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Conservation"
+    ],
+    "prompt": "Breeding threatened animals under human care for later reintroduction is known as what?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Captive breeding",
+    "aliases": [
+      "Conservation breeding"
+    ],
+    "distractors": [
+      "Assisted migration",
+      "Habitat banking",
+      "Trophic rewilding"
+    ],
+    "explanation": "Captive breeding can increase numbers and preserve genetic diversity outside the wild.",
+    "details": "Successful programs also require suitable habitat, careful pedigree management, disease control, and preparation for survival after release.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "IUCN",
+      "url": "https://www.iucnredlist.org/about/background-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.conservation-biodiversity-hotspot",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Conservation"
+    ],
+    "prompt": "What conservation term identifies a region with exceptional endemic plant diversity that has lost most of its original habitat?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Biodiversity hotspot",
+    "aliases": [],
+    "distractors": [
+      "Carbon sink",
+      "Wildlife refuge",
+      "Ecological niche"
+    ],
+    "explanation": "A biodiversity hotspot combines high endemism with severe habitat loss.",
+    "details": "The concept helps prioritize limited conservation resources toward regions holding many unique species under intense threat.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "IUCN",
+      "url": "https://www.iucnredlist.org/about/background-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.herps-amphibian-skin",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Reptiles & Amphibians"
+    ],
+    "prompt": "Why must many amphibians keep their skin moist?",
+    "answerMode": "recall",
+    "canonicalAnswer": "They exchange gases through it",
+    "aliases": [
+      "Cutaneous respiration",
+      "To breathe through their skin"
+    ],
+    "distractors": [
+      "It produces feathers",
+      "It stores bone marrow",
+      "It reflects all sunlight"
+    ],
+    "explanation": "Many amphibians supplement lung breathing with gas exchange across moist skin.",
+    "details": "Their permeable skin also makes them sensitive to dehydration, pollutants, and environmental change, which contributes to their value as ecological indicators.",
+    "difficulty": 2,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/subjects/nnlandmarks/reptiles-and-amphibians.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.herps-ectotherm",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Reptiles & Amphibians"
+    ],
+    "prompt": "Reptiles largely regulate body temperature using outside heat. What is this condition called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ectothermy",
+    "aliases": [
+      "Ectothermic",
+      "Cold-blooded"
+    ],
+    "distractors": [
+      "Endothermy",
+      "Homeostasis",
+      "Bioluminescence"
+    ],
+    "explanation": "Ectothermic animals depend heavily on environmental heat sources.",
+    "details": "A lizard may bask or seek shade to control temperature, reducing metabolic energy costs but tying activity to suitable conditions.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/subjects/nnlandmarks/reptiles-and-amphibians.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.herps-amniotic",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Reptiles & Amphibians"
+    ],
+    "prompt": "Which reproductive adaptation helped ancestral reptiles reproduce away from open water?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Amniotic egg",
+    "aliases": [
+      "Amniote egg"
+    ],
+    "distractors": [
+      "External gills",
+      "Pupal case",
+      "Placoid scale"
+    ],
+    "explanation": "The amniotic egg provides membranes and protection for an embryo on land.",
+    "details": "Its compartments manage gas exchange, waste, nutrition, and cushioning; birds and mammals also belong to the amniote lineage.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/subjects/nnlandmarks/reptiles-and-amphibians.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.herps-crocodilian-heart",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Reptiles & Amphibians"
+    ],
+    "prompt": "Unlike most other living reptiles, crocodilians have a heart with how many chambers?",
+    "answerMode": "recall",
+    "canonicalAnswer": "4",
+    "aliases": [
+      "Four"
+    ],
+    "distractors": [
+      "2",
+      "3",
+      "5"
+    ],
+    "explanation": "Crocodilians have two atria and two fully divided ventricles.",
+    "details": "Special connections between major vessels still allow blood-flow adjustments during diving, giving their circulation unusual flexibility.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/subjects/nnlandmarks/reptiles-and-amphibians.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.herps-neoteny",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Reptiles & Amphibians"
+    ],
+    "prompt": "Axolotls retain larval features such as external gills as adults. What is this called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Neoteny",
+    "aliases": [],
+    "distractors": [
+      "Mimicry",
+      "Estivation",
+      "Parthenogenesis"
+    ],
+    "explanation": "Neoteny is the retention of juvenile traits in a sexually mature animal.",
+    "details": "Axolotls normally mature without the complete metamorphosis seen in many salamanders, although hormones can sometimes induce transformation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service",
+      "url": "https://www.nps.gov/subjects/nnlandmarks/reptiles-and-amphibians.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.habitat-desert",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Habitats & Biomes"
+    ],
+    "prompt": "Which biome is defined primarily by very low precipitation rather than temperature?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Desert",
+    "aliases": [],
+    "distractors": [
+      "Tundra",
+      "Savanna",
+      "Taiga"
+    ],
+    "explanation": "Deserts receive little precipitation and may be hot or cold.",
+    "details": "Sparse water availability shapes plant form, animal behavior, soil development, and the timing of biological activity.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Geographic Society",
+      "url": "https://education.nationalgeographic.org/resource/biome/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.habitat-taiga",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Habitats & Biomes"
+    ],
+    "prompt": "What forest biome forms a broad conifer-dominated belt across northern North America and Eurasia?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Taiga",
+    "aliases": [
+      "Boreal forest"
+    ],
+    "distractors": [
+      "Chaparral",
+      "Pampas",
+      "Mangrove"
+    ],
+    "explanation": "The taiga, or boreal forest, is dominated by cold-adapted conifers.",
+    "details": "It lies south of tundra across high northern latitudes and stores enormous amounts of carbon in vegetation and soils.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Geographic Society",
+      "url": "https://education.nationalgeographic.org/resource/biome/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.habitat-estuary",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Habitats & Biomes"
+    ],
+    "prompt": "What coastal habitat forms where river freshwater mixes with seawater?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Estuary",
+    "aliases": [],
+    "distractors": [
+      "Atoll",
+      "Abyssal plain",
+      "Glacier"
+    ],
+    "explanation": "An estuary is a partially enclosed coastal body where fresh and salt water mix.",
+    "details": "Variable salinity and abundant nutrients create productive nursery habitat for fish, shellfish, birds, and other wildlife.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Geographic Society",
+      "url": "https://education.nationalgeographic.org/resource/biome/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.habitat-mangrove",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Habitats & Biomes"
+    ],
+    "prompt": "Which salt-tolerant coastal forests protect many tropical shorelines with tangled roots?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mangroves",
+    "aliases": [
+      "Mangrove forests"
+    ],
+    "distractors": [
+      "Redwoods",
+      "Heathlands",
+      "Cloud forests"
+    ],
+    "explanation": "Mangroves grow in intertidal tropical and subtropical environments.",
+    "details": "Their roots trap sediment, reduce erosion and wave energy, store carbon, and provide nursery habitat for numerous marine species.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Geographic Society",
+      "url": "https://education.nationalgeographic.org/resource/biome/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "wild-world.habitat-ecotone",
+    "topicSlug": "science-nature",
+    "packSlugs": [
+      "wild-world"
+    ],
+    "subtopics": [
+      "Habitats & Biomes"
+    ],
+    "prompt": "What is a transition zone between two ecological communities called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ecotone",
+    "aliases": [],
+    "distractors": [
+      "Watershed",
+      "Thermocline",
+      "Monoculture"
+    ],
+    "explanation": "An ecotone contains environmental conditions and species from neighboring communities.",
+    "details": "Forest edges, marsh boundaries, and treelines can host distinctive interactions and sometimes unusually high species richness.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Geographic Society",
+      "url": "https://education.nationalgeographic.org/resource/biome/"
+    },
+    "expiresAt": null
+  }
+]

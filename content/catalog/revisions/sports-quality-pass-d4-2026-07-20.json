@@ -1,0 +1,154 @@
+{
+  "sports-starter.team-sport.orvosegyetem-sc": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.perfect-game",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Records", "Perfect Game", "Pitching"],
+    "prompt": "What baseball feat occurs when no opposing batter reaches base during a complete game?", "canonicalAnswer": "Perfect game", "aliases": ["A perfect game"],
+    "distractors": ["No-hitter", "Shutout", "Complete game"], "explanation": "A perfect game allows no opposing batter to reach base by any means.",
+    "details": "It is stricter than a no-hitter, which can still include walks, errors, or hit batters. In a nine-inning game, perfection normally requires retiring all 27 opposing batters in order.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/rules/perfect-game"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.al-oerter": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.al-oerter-discus",
+    "subtopic": "Athletics & Running", "detailTags": ["Al Oerter", "Discus", "Olympic Champions"],
+    "prompt": "Al Oerter won four consecutive Olympic gold medals in which throwing event?", "canonicalAnswer": "Discus", "aliases": ["Discus throw", "Men's discus"],
+    "distractors": ["Shot put", "Javelin", "Hammer throw"], "explanation": "Al Oerter won the Olympic discus title four times from 1956 through 1968.",
+    "details": "He achieved the streak across Melbourne, Rome, Tokyo, and Mexico City, often overcoming injuries or entering as an underdog. His four straight individual titles made him one of track and field's landmark Olympians.",
+    "source": {"label": "Team USA", "url": "https://www.teamusa.com/hall-of-fame/hall-of-fame-members/al-oerter"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.sierre-zinal": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.steeplechase-water-jump",
+    "subtopic": "Athletics & Running", "detailTags": ["Steeplechase", "Track Events", "Barriers"],
+    "prompt": "Which track race includes fixed barriers and a water jump?", "canonicalAnswer": "Steeplechase", "aliases": ["3000-meter steeplechase", "3000 metre steeplechase"],
+    "distractors": ["Hurdles", "Decathlon", "Cross-country"], "explanation": "The steeplechase combines distance running with barriers and repeated water jumps.",
+    "details": "The standard championship distance is 3,000 meters. Unlike ordinary hurdles, its barriers are solid and do not fall when struck, so runners may step on them while clearing the obstacle.",
+    "source": {"label": "World Athletics", "url": "https://worldathletics.org/disciplines/middlelong/3000-metres-steeplechase"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.maratona-di-sant-antonio": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.fosbury-flop",
+    "subtopic": "Athletics & Running", "detailTags": ["High Jump", "Dick Fosbury", "Technique"],
+    "prompt": "What back-first high-jump technique is named for Olympic champion Dick Fosbury?", "canonicalAnswer": "Fosbury Flop", "aliases": ["The Fosbury Flop", "Fosbury flop technique"],
+    "distractors": ["Western roll", "Scissors", "Straddle"], "explanation": "The Fosbury Flop sends the jumper over the bar head-and-shoulders first with the back facing it.",
+    "details": "Dick Fosbury used the technique to win the 1968 Olympic high jump. Deep foam landing mats made the back-first landing practical, and the method soon became dominant internationally.",
+    "source": {"label": "International Olympic Committee", "url": "https://olympics.com/en/athletes/richard-douglas-fosbury"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.elena-lashmanova": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.race-walking-contact",
+    "subtopic": "Athletics & Running", "detailTags": ["Race Walking", "Technique", "Track Rules"],
+    "prompt": "In race walking, what contact must the athlete visibly maintain with the ground?", "canonicalAnswer": "Continuous contact", "aliases": ["One foot must stay on the ground", "No visible loss of contact", "Ground contact"],
+    "distractors": ["Both feet together", "Heel-only contact", "Toe-only contact"], "explanation": "Race walkers must show no visible loss of contact with the ground.",
+    "details": "The advancing leg must also remain straight from first contact until the body passes over it. Judges can issue warnings and penalties when either technical requirement is broken.",
+    "source": {"label": "World Athletics", "url": "https://worldathletics.org/disciplines/race-walks/race-walking"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.basketball-championship-of-bosnia-and-herzegovina": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.eight-second-rule",
+    "subtopic": "Basketball", "detailTags": ["Basketball Rules", "Backcourt", "Eight-Second Rule"],
+    "prompt": "Under NBA rules, how many seconds does a team have to advance the ball out of its backcourt?", "canonicalAnswer": "8", "aliases": ["Eight", "Eight seconds", "8 seconds"],
+    "distractors": ["5", "10", "12"], "explanation": "An NBA team must establish frontcourt control within eight seconds.",
+    "details": "The count begins when the team gains control in its backcourt after a throw-in or rebound. Failing to advance the ball in time is a violation and awards possession to the opponent.",
+    "source": {"label": "NBA Official Rules", "url": "https://official.nba.com/rule-no-10-violations-and-penalties/"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.tristar-gym": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.judo-ippon",
+    "subtopic": "Combat Sports", "detailTags": ["Judo", "Ippon", "Scoring"],
+    "prompt": "What is the match-ending full-point score in judo called?", "canonicalAnswer": "Ippon", "aliases": ["An ippon"],
+    "distractors": ["Waza-ari", "Yuko", "Koka"], "explanation": "Scoring an ippon brings a judo contest to an immediate end.",
+    "details": "It can be awarded for a controlled throw meeting the required criteria, a sufficiently long hold-down, or an opponent's submission. Two waza-ari scores also combine to produce an ippon.",
+    "source": {"label": "International Judo Federation", "url": "https://www.ijf.org/ijf/documents/29"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.american-top-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.wrestling-fall",
+    "subtopic": "Combat Sports", "detailTags": ["Wrestling", "Pin", "Victory Conditions"],
+    "prompt": "What is the immediate victory called when a wrestler holds both of an opponent's shoulders to the mat?", "canonicalAnswer": "Fall", "aliases": ["Pin", "Pinfall", "A fall"],
+    "distractors": ["Takedown", "Reversal", "Technical point"], "explanation": "A fall, commonly called a pin, ends the wrestling match immediately.",
+    "details": "The required control and duration depend on the wrestling style and ruleset. A match can also be won by points, technical superiority, injury, or disqualification.",
+    "source": {"label": "United World Wrestling", "url": "https://uww.org/governance/regulations-olympic-wrestling"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.afghan-cheetahs": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.the-ashes",
+    "subtopic": "Cricket & Rugby", "detailTags": ["The Ashes", "Test Cricket", "England", "Australia"],
+    "prompt": "The Ashes is a Test cricket series contested between England and which country?", "canonicalAnswer": "Australia", "aliases": [],
+    "distractors": ["India", "South Africa", "New Zealand"], "explanation": "England and Australia contest cricket's Ashes series.",
+    "details": "The name arose after a satirical obituary declared English cricket dead following an Australian victory in 1882. A small terracotta urn became the symbolic trophy associated with the rivalry.",
+    "source": {"label": "Marylebone Cricket Club", "url": "https://www.lords.org/lords/our-history/the-ashes"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.indycar-series": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.indy-500-venue",
+    "subtopic": "Motor Sports", "detailTags": ["Indianapolis 500", "Indianapolis Motor Speedway", "Auto Racing"],
+    "prompt": "At which circuit is the Indianapolis 500 held?", "canonicalAnswer": "Indianapolis Motor Speedway", "aliases": ["The Indianapolis Motor Speedway", "IMS", "The Brickyard"],
+    "distractors": ["Daytona International Speedway", "Talladega Superspeedway", "Road America"], "explanation": "The Indianapolis 500 is held at Indianapolis Motor Speedway.",
+    "details": "The 2.5-mile oval opened in 1909 and gained the nickname Brickyard after its surface was paved with bricks. The race traditionally covers 500 miles over 200 laps.",
+    "source": {"label": "Indianapolis Motor Speedway", "url": "https://www.indianapolismotorspeedway.com/events/indy500"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.pepi-bader": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.athens-1896",
+    "subtopic": "Olympics & International Sport", "detailTags": ["1896 Olympics", "Athens", "Olympic History"],
+    "prompt": "Which city hosted the first modern Olympic Games in 1896?", "canonicalAnswer": "Athens", "aliases": ["Athens, Greece"],
+    "distractors": ["Paris", "London", "Rome"], "explanation": "Athens hosted the first modern Olympic Games in 1896.",
+    "details": "The event revived an ancient Greek tradition through an international sporting festival championed by Pierre de Coubertin. Most competitions took place in or near the restored Panathenaic Stadium.",
+    "source": {"label": "International Olympic Committee", "url": "https://olympics.com/en/olympic-games/athens-1896"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.karl-adam": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.heptathlon-events",
+    "subtopic": "Athletics & Running", "detailTags": ["Heptathlon", "Combined Events", "Track and Field"],
+    "prompt": "How many events make up an outdoor heptathlon?", "canonicalAnswer": "7", "aliases": ["Seven"],
+    "distractors": ["5", "8", "10"], "explanation": "The outdoor heptathlon combines seven track-and-field events over two days.",
+    "details": "The program includes hurdles, high jump, shot put, 200 meters, long jump, javelin, and 800 meters. Performances are converted to points and added for the final result.",
+    "source": {"label": "World Athletics", "url": "https://worldathletics.org/disciplines/combined-events/heptathlon"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.san-diego-fleet": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.lombardi-trophy",
+    "subtopic": "Football", "detailTags": ["Super Bowl", "Vince Lombardi Trophy", "Championships"],
+    "prompt": "What trophy is awarded to the winner of the Super Bowl?", "canonicalAnswer": "Vince Lombardi Trophy", "aliases": ["Lombardi Trophy", "The Vince Lombardi Trophy"],
+    "distractors": ["Heisman Trophy", "Commissioner's Trophy", "Grey Cup"], "explanation": "The Super Bowl champion receives the Vince Lombardi Trophy.",
+    "details": "The trophy honors the coach who led the Green Bay Packers to victory in the first two Super Bowls. Tiffany & Co. crafts a new sterling-silver trophy for each champion.",
+    "source": {"label": "Pro Football Hall of Fame", "url": "https://www.profootballhof.com/news/vince-lombardi-trophy-begins-journey-to-super-bowl-lx"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.toronto-wolfpack": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.rugby-scrum-forwards",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Rugby Union", "Scrum", "Forwards"],
+    "prompt": "How many players from each rugby union team normally bind together in a full scrum?", "canonicalAnswer": "8", "aliases": ["Eight"],
+    "distractors": ["6", "7", "9"], "explanation": "Eight forwards from each team form a standard rugby union scrum.",
+    "details": "The front row contains two props and a hooker, followed by two locks and three back-row forwards. The scrum restarts play after certain minor infringements.",
+    "source": {"label": "World Rugby Laws", "url": "https://www.world.rugby/the-game/laws/law/19"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.fc-barcelona-hoquei": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.original-six-count",
+    "subtopic": "Hockey", "detailTags": ["NHL History", "Original Six", "Teams"],
+    "prompt": "How many NHL teams are included in the group known as the Original Six?", "canonicalAnswer": "6", "aliases": ["Six"],
+    "distractors": ["4", "8", "10"], "explanation": "The Original Six consists of six NHL franchises.",
+    "details": "They are Boston, Chicago, Detroit, Montreal, the New York Rangers, and Toronto. The label refers to the league's stable six-team era from 1942 until expansion in 1967, not the NHL's literal founding members.",
+    "source": {"label": "National Hockey League", "url": "https://www.nhl.com/news/nhl-expansion-history-281005106"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.fort-worth-flyers": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.ncaa-shot-clock",
+    "subtopic": "Basketball", "detailTags": ["College Basketball", "Shot Clock", "NCAA Rules"],
+    "prompt": "How many seconds are on the shot clock in NCAA men's basketball?", "canonicalAnswer": "30", "aliases": ["Thirty", "30 seconds", "Thirty seconds"],
+    "distractors": ["24", "35", "40"], "explanation": "NCAA men's basketball uses a 30-second shot clock.",
+    "details": "The men's clock was reduced from 35 to 30 seconds for the 2015–16 season. It requires teams to attempt a shot before the possession timer expires, while the NBA and international FIBA game use a 24-second clock.",
+    "source": {"label": "NCAA", "url": "https://www.ncaa.org/news/2015/6/8/shorter-shot-clock-other-changes-coming-to-college-hoops.aspx"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.helen-wills": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.calendar-grand-slam",
+    "subtopic": "Tennis & Racket Sports", "detailTags": ["Tennis Majors", "Calendar Grand Slam", "Terminology"],
+    "prompt": "What tennis achievement means winning all four major singles titles in the same calendar year?", "canonicalAnswer": "Calendar Grand Slam", "aliases": ["Grand Slam", "A calendar-year Grand Slam", "Calendar-year Grand Slam"],
+    "distractors": ["Career Grand Slam", "Golden set", "Surface sweep"], "explanation": "A calendar Grand Slam requires winning all four major titles in one year.",
+    "details": "The four tournaments are the Australian Open, French Open, Wimbledon, and US Open. A career Grand Slam can be completed across multiple years, while a Golden Slam adds Olympic gold.",
+    "source": {"label": "International Tennis Federation", "url": "https://www.itftennis.com/en/itf-tours/grand-slam-tournaments/"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.skif-nizhny-novgorod": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.skeleton-headfirst",
+    "subtopic": "Winter Sports", "detailTags": ["Skeleton", "Sliding Sports", "Winter Olympics"],
+    "prompt": "In which Olympic sliding sport does an athlete descend headfirst on a small sled?", "canonicalAnswer": "Skeleton", "aliases": ["Skeleton racing"],
+    "distractors": ["Luge", "Bobsleigh", "Ski cross"], "explanation": "Skeleton athletes race headfirst and face down on a small sled.",
+    "details": "Luge competitors travel feet-first, while bobsleigh teams ride inside a larger steered sled. Skeleton starts with a running push before the athlete dives onto the sled.",
+    "source": {"label": "International Olympic Committee", "url": "https://olympics.com/en/sports/skeleton/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.anja-parson": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.alpine-combined",
+    "subtopic": "Winter Sports", "detailTags": ["Alpine Skiing", "Combined", "Disciplines"],
+    "prompt": "Which alpine skiing competition combines a speed race with a slalom race?", "canonicalAnswer": "Alpine combined", "aliases": ["Combined", "Super combined", "Alpine skiing combined"],
+    "distractors": ["Skiathlon", "Nordic combined", "Parallel giant slalom"], "explanation": "Alpine combined tests both speed and technical slalom ability.",
+    "details": "Traditional formats pair a downhill run with slalom, while some eras have used super-G in place of downhill. The competitor with the best combined result wins.",
+    "source": {"label": "International Ski and Snowboard Federation", "url": "https://assets.fis-ski.com/f/252177/x/d2dff21403/icr-06-07-2026.pdf"}, "answerMode": "recall"
+  }
+}

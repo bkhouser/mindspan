@@ -1,0 +1,128 @@
+{
+  "geography-starter.country-capital.greece": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.equator",
+    "subtopic": "Maps & Navigation", "detailTags": ["Latitude", "Hemispheres"],
+    "prompt": "What imaginary line divides Earth into the Northern and Southern Hemispheres?", "canonicalAnswer": "Equator", "aliases": ["The Equator"],
+    "distractors": ["Prime Meridian", "Tropic of Cancer", "International Date Line"],
+    "explanation": "The Equator is the line of 0° latitude, halfway between the North and South Poles.",
+    "details": "It circles Earth at its widest point and provides the reference from which latitude is measured north or south. Countries crossed by it generally experience relatively consistent day length throughout the year.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/science/Equator"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.cyprus": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.asia-largest-continent",
+    "subtopic": "Countries & Borders", "detailTags": ["Asia", "Continents", "World Regions"],
+    "prompt": "Which is the largest continent by land area?", "canonicalAnswer": "Asia", "aliases": [],
+    "distractors": ["Africa", "North America", "Europe"],
+    "explanation": "Asia is the world's largest continent in both land area and population.",
+    "details": "It occupies almost one-third of Earth's land surface and extends from the Mediterranean region to the Pacific Ocean. Its conventional boundary with Europe follows features including the Ural Mountains.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Asia"}, "answerMode": "recall"
+  },
+  "geography-starter.river-mouth.colorado-river": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.sahara-continent",
+    "subtopic": "Climate & Biomes", "detailTags": ["Sahara", "Deserts", "Africa"],
+    "prompt": "On which continent is the Sahara Desert?", "canonicalAnswer": "Africa", "aliases": [],
+    "distractors": ["Asia", "Australia", "South America"],
+    "explanation": "The Sahara stretches across much of northern Africa.",
+    "details": "It extends from the Atlantic coast toward the Red Sea and spans parts of numerous countries. Although famous for sand dunes, much of the Sahara consists of rocky plateaus, gravel plains, and mountains.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Sahara-desert-Africa"}, "answerMode": "recall"
+  },
+  "geography-starter.mountain-country.stecknadelhorn": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.italy-boot",
+    "subtopic": "Countries & Borders", "detailTags": ["Italy", "Country Shapes", "Europe"],
+    "prompt": "Which European country is often described as being shaped like a boot?", "canonicalAnswer": "Italy", "aliases": [],
+    "distractors": ["Portugal", "Greece", "Croatia"],
+    "explanation": "Italy's long peninsula has a distinctive outline commonly compared to a boot.",
+    "details": "The peninsula projects into the Mediterranean Sea, with the Alps forming its northern boundary. Sicily lies just off the boot's toe across the narrow Strait of Messina.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Italy"}, "answerMode": "recall"
+  },
+  "geography-starter.landmark-country.susa": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.great-lakes-border",
+    "subtopic": "Rivers & Lakes", "detailTags": ["Great Lakes", "United States", "Canada"],
+    "prompt": "The Great Lakes form part of the border between the United States and which country?", "canonicalAnswer": "Canada", "aliases": [],
+    "distractors": ["Mexico", "Greenland", "Russia"],
+    "explanation": "Four of the five Great Lakes form sections of the United States–Canada boundary.",
+    "details": "Lakes Superior, Huron, Erie, and Ontario cross the international border; Lake Michigan lies entirely within the United States. Together the lakes hold about one-fifth of the world's surface fresh water.",
+    "source": {"label": "U.S. Environmental Protection Agency", "url": "https://www.epa.gov/greatlakes/facts-and-figures-about-great-lakes"}, "answerMode": "recall"
+  },
+  "geography-starter.country-capital.liechtenstein": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.andes-continent",
+    "subtopic": "Mountains & Landforms", "detailTags": ["Andes", "South America", "Mountain Ranges"],
+    "prompt": "The Andes mountain range runs along the western side of which continent?", "canonicalAnswer": "South America", "aliases": [],
+    "distractors": ["North America", "Africa", "Asia"],
+    "explanation": "The Andes extend along the western edge of South America.",
+    "details": "The range passes through seven countries from Venezuela to southern Chile and Argentina. It is the world's longest continental mountain chain and strongly shapes the region's climate and settlement.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Andes-Mountains"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.fiji": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.amazon-rainforest",
+    "subtopic": "Climate & Biomes", "detailTags": ["Amazon Rainforest", "South America", "Tropical Forests"],
+    "prompt": "Most of the Amazon rainforest lies in which country?", "canonicalAnswer": "Brazil", "aliases": [],
+    "distractors": ["Peru", "Colombia", "Venezuela"],
+    "explanation": "Brazil contains the largest share of the Amazon rainforest.",
+    "details": "The forest also extends into several neighboring countries and territories, but roughly three-fifths lies within Brazil. The Amazon basin supports extraordinary biodiversity and influences rainfall across South America.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Amazon-Rainforest"}, "answerMode": "recall"
+  },
+  "geography-starter.river-mouth.kuiseb-river": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.prime-meridian",
+    "subtopic": "Maps & Navigation", "detailTags": ["Longitude", "Greenwich", "Prime Meridian"],
+    "prompt": "Which line of longitude passes through Greenwich, England, at 0°?", "canonicalAnswer": "Prime Meridian", "aliases": ["Greenwich Meridian", "The Prime Meridian"],
+    "distractors": ["Equator", "International Date Line", "Tropic of Capricorn"],
+    "explanation": "The Prime Meridian is defined as 0° longitude and passes through Greenwich.",
+    "details": "Longitude is measured east or west from this reference line. The meridian was internationally adopted in 1884, helping standardize maps, navigation, and timekeeping.",
+    "source": {"label": "Royal Museums Greenwich", "url": "https://www.rmg.co.uk/stories/topics/what-prime-meridian-why-it-greenwich"}, "answerMode": "recall"
+  },
+  "geography-starter.mountain-country.witenalpstock": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.everest-range",
+    "subtopic": "Mountains & Landforms", "detailTags": ["Mount Everest", "Himalayas", "Asia"],
+    "prompt": "Mount Everest belongs to which mountain range?", "canonicalAnswer": "Himalayas", "aliases": ["Himalayan Mountains", "The Himalayas"],
+    "distractors": ["Andes", "Alps", "Rocky Mountains"],
+    "explanation": "Mount Everest rises in the Himalayas on the Nepal–China border.",
+    "details": "The Himalayas formed as the Indian tectonic plate collided with Eurasia. The range contains Everest and most of the world's other peaks higher than 8,000 meters.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Himalayas"}, "answerMode": "recall"
+  },
+  "geography-starter.landmark-country.church-of-the-ascension-kolomenskoye": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.mediterranean-continents",
+    "subtopic": "Oceans, Seas & Islands", "detailTags": ["Mediterranean Sea", "Europe", "Africa"],
+    "prompt": "Which sea lies between southern Europe and northern Africa?", "canonicalAnswer": "Mediterranean Sea", "aliases": ["Mediterranean", "The Mediterranean"],
+    "distractors": ["Baltic Sea", "Arabian Sea", "Caribbean Sea"],
+    "explanation": "The Mediterranean Sea separates Europe from Africa and connects to the Atlantic Ocean.",
+    "details": "The narrow Strait of Gibraltar forms its western entrance. Its shores also reach western Asia, making the sea a historic crossroads among three continents.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Mediterranean-Sea"}, "answerMode": "recall"
+  },
+  "geography-starter.country-capital.malta": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.largest-country",
+    "subtopic": "Countries & Borders", "detailTags": ["Russia", "Country Area", "World Records"],
+    "prompt": "Which country is the world's largest by land area?", "canonicalAnswer": "Russia", "aliases": ["Russian Federation"],
+    "distractors": ["Canada", "China", "United States"],
+    "explanation": "Russia is the world's largest country by area.",
+    "details": "It spans eastern Europe and northern Asia across eleven time zones. Its territory is almost twice the area of Canada, the second-largest country.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Russia"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.vanuatu": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.eiffel-city",
+    "subtopic": "Landmarks & World Heritage", "detailTags": ["Eiffel Tower", "Paris", "France"],
+    "prompt": "In which city would you find the Eiffel Tower?", "canonicalAnswer": "Paris", "aliases": ["Paris, France"],
+    "distractors": ["Rome", "Brussels", "Madrid"],
+    "explanation": "The Eiffel Tower stands beside the Seine on the Champ de Mars in Paris.",
+    "details": "Built for the 1889 world's fair, Gustave Eiffel's iron tower became one of France's best-known landmarks. It rises on the Left Bank near the center of the capital.",
+    "source": {"label": "Eiffel Tower official site", "url": "https://www.toureiffel.paris/en/the-monument/history"}, "answerMode": "recall"
+  },
+  "geography-starter.river-mouth.ave-river": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.nile-cairo",
+    "subtopic": "Rivers & Lakes", "detailTags": ["Nile", "Cairo", "Egypt"],
+    "prompt": "Cairo stands on the banks of which river?", "canonicalAnswer": "Nile", "aliases": ["Nile River", "The Nile"],
+    "distractors": ["Congo", "Niger", "Zambezi"],
+    "explanation": "Cairo stands on the Nile River in northern Egypt.",
+    "details": "The Nile has supported settlement and agriculture in Egypt for thousands of years. North of Cairo it divides into distributaries that spread across the Nile Delta before reaching the Mediterranean.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Nile-River"}, "answerMode": "recall"
+  },
+  "geography-starter.mountain-country.piz-alv": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.maple-leaf-country",
+    "subtopic": "Political Geography", "detailTags": ["Canada", "National Symbols", "Flags"],
+    "prompt": "Which country's flag features a red maple leaf?", "canonicalAnswer": "Canada", "aliases": [],
+    "distractors": ["Austria", "Denmark", "Switzerland"],
+    "explanation": "Canada's national flag displays a red maple leaf between two red vertical bands.",
+    "details": "The current flag was adopted in 1965. The maple leaf had already been used as a Canadian emblem for generations and provides a symbol shared across the country's regions.",
+    "source": {"label": "Government of Canada", "url": "https://www.canada.ca/en/canadian-heritage/services/flag-canada-history.html"}, "answerMode": "recall"
+  }
+}

@@ -3,15 +3,20 @@ import {
   ArrowRight,
   CheckCircle2,
   ChevronDown,
+  ChevronRight,
   Download,
   Flag,
+  ListChecks,
   MessageSquareWarning,
+  Tag,
 } from "lucide-react";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
+import { answersAreEquivalent } from "@/domain/answers";
 import { requireQuestionReviewer } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { acceptPlayerAnswer } from "./actions";
 import { EditorialReviewControls } from "./editorial-review-controls";
 
 type ReviewView = "unreviewed" | "flagged" | "needs_revision" | "all";
@@ -36,6 +41,48 @@ function requestedPosition(value: string | undefined) {
 
 function related<T>(value: T | T[] | null | undefined): T | null {
   return Array.isArray(value) ? (value[0] ?? null) : (value ?? null);
+}
+
+function QuestionNavigation({
+  baseUrl,
+  position,
+  total,
+  className = "",
+}: {
+  baseUrl: string;
+  position: number;
+  total: number;
+  className?: string;
+}) {
+  const buttonClass =
+    "inline-flex min-h-10 items-center gap-2 rounded-xl border border-white/15 bg-white/[.05] px-3.5 text-sm font-bold transition hover:bg-white/10";
+  const disabledClass = `${buttonClass} cursor-not-allowed opacity-40`;
+
+  return (
+    <nav
+      aria-label="Question review navigation"
+      className={`flex items-center gap-2 ${className}`}
+    >
+      {position > 1 ? (
+        <Link className={buttonClass} href={`${baseUrl}&position=${position - 1}`}>
+          <ArrowLeft aria-hidden="true" size={17} /> Previous
+        </Link>
+      ) : (
+        <span aria-disabled="true" className={disabledClass}>
+          <ArrowLeft aria-hidden="true" size={17} /> Previous
+        </span>
+      )}
+      {position < total ? (
+        <Link className={buttonClass} href={`${baseUrl}&position=${position + 1}`}>
+          Next <ArrowRight aria-hidden="true" size={17} />
+        </Link>
+      ) : (
+        <span aria-disabled="true" className={disabledClass}>
+          Next <ArrowRight aria-hidden="true" size={17} />
+        </span>
+      )}
+    </nav>
+  );
 }
 
 const reasonLabels: Record<string, string> = {
@@ -118,7 +165,7 @@ export default async function QuestionQualityPage({
     ? await supabase
         .from("question_versions")
         .select(
-          "id,question_id,version_number,prompt,canonical_answer,explanation,details,difficulty,time_limit_seconds,answer_mode,verified_at,expires_at,topic:topics(name),answer_aliases(answer),distractors(answer,sort_order),question_citations(label,url,sort_order),questions(catalog_key,question_subtopics(subtopics(name)))",
+          "id,question_id,version_number,prompt,canonical_answer,explanation,details,difficulty,time_limit_seconds,answer_mode,verified_at,expires_at,topic:topics(name),answer_aliases(answer),distractors(answer,sort_order),question_citations(label,url,sort_order),questions(catalog_key,question_subtopics(subtopics(name)),question_detail_tags(detail_tags(name)))",
         )
         .eq("status", "published")
         .in("question_id", questionIds)
@@ -145,7 +192,7 @@ export default async function QuestionQualityPage({
         supabase
           .from("question_feedback")
           .select(
-            "question_version_id,attempt_id,sentiment,reasons,comment,answer_correct,assisted,timed_out,created_at,updated_at,attempt:attempts!question_feedback_attempt_id_fkey(submitted_answer)",
+            "id,question_version_id,attempt_id,sentiment,reasons,comment,answer_correct,assisted,timed_out,created_at,updated_at,attempt:attempts!question_feedback_attempt_id_fkey(submitted_answer,correct,earned_points)",
           )
           .in("question_version_id", versionIds)
           .order("updated_at", { ascending: false }),
@@ -217,18 +264,24 @@ export default async function QuestionQualityPage({
   const currentAliases = current
     ? current.answer_aliases.filter(
         (alias) =>
-          alias.answer.normalize("NFKC").trim().toLocaleLowerCase("en-US") !==
-          current.canonical_answer
-            .normalize("NFKC")
-            .trim()
-            .toLocaleLowerCase("en-US"),
+          !answersAreEquivalent(alias.answer, current.canonical_answer, {
+            removeLeadingArticles: true,
+          }),
       )
     : [];
-  const currentSubtopics = current
+  const currentSubtopic = current
     ? (related(current.questions)?.question_subtopics ?? []).flatMap((link) => {
         const subtopic = related(link.subtopics);
         return subtopic?.name ? [subtopic.name] : [];
-      })
+      })[0] ?? null
+    : null;
+  const currentDetailTags = current
+    ? (related(current.questions)?.question_detail_tags ?? []).flatMap(
+        (link) => {
+          const detailTag = related(link.detail_tags);
+          return detailTag?.name ? [detailTag.name] : [];
+        },
+      )
     : [];
   const baseUrl = `/admin/question-quality?pack=${selectedPack.pack_id}&view=${view}`;
   const nextPosition =
@@ -267,19 +320,23 @@ export default async function QuestionQualityPage({
         { count: 0 },
         { data: [], error: null },
       ];
-  if (answerSummaryError) throw answerSummaryError;
+  let displayedAnswerSummaries = answerSummaries ?? [];
+  let answerSummaryUnavailable = Boolean(answerSummaryError);
+  if (answerSummaryError && current) {
+    const retry = await authClient.rpc("question_quality_answer_summary_v1", {
+      p_question_version_id: current.id,
+    });
+    if (!retry.error) {
+      displayedAnswerSummaries = retry.data ?? [];
+      answerSummaryUnavailable = false;
+    }
+  }
 
   return (
     <>
       <header className="flex flex-wrap items-end justify-between gap-4">
         <div>
-          <Link
-            className="inline-flex items-center gap-2 text-sm font-bold text-[var(--brand)]"
-            href={`/admin/question-index?pack=${selectedPack.pack_id}`}
-          >
-            <ArrowLeft aria-hidden="true" size={15} /> Question index
-          </Link>
-          <h1 className="mt-3 text-4xl font-black">Question quality</h1>
+          <h1 className="text-4xl font-black">Question quality</h1>
           <p className="mt-3 max-w-3xl leading-7 text-[var(--muted)]">
             Player reactions identify possible problems. Editorial approve,
             revise, and reject decisions are the authoritative review of each
@@ -367,6 +424,16 @@ export default async function QuestionQualityPage({
         </div>
       </details>
 
+      <div className="mt-3 flex justify-end">
+        <Link
+          className="inline-flex min-h-11 items-center gap-2 rounded-xl border border-[var(--brand)]/30 bg-[var(--brand)]/[.08] px-4 py-2.5 text-sm font-black text-[var(--brand)] transition hover:bg-[var(--brand)]/[.14]"
+          href={`/admin/question-index?pack=${selectedPack.pack_id}`}
+        >
+          <ListChecks aria-hidden="true" size={17} />
+          View question index for {selectedPack.pack_name}
+        </Link>
+      </div>
+
       <nav className="mt-5 flex flex-wrap gap-2" aria-label="Review filter">
         {views.map((item) => (
           <Link
@@ -389,28 +456,25 @@ export default async function QuestionQualityPage({
 
       {current ? (
         <Card className="mt-6 overflow-hidden">
-          <div className="flex flex-wrap items-center gap-3 border-b border-white/10 bg-white/[.025] px-6 py-4">
-            <b>{selectedPack.pack_name}</b>
-            <span className="text-sm text-[var(--muted)]">
-              {related(current.topic)?.name ?? "Topic"}
+          <div className="border-b border-white/10 bg-white/[.025] px-6 py-4">
+            <div className="flex flex-wrap items-center gap-3">
+            <span className="rounded-full bg-white/[.07] px-3 py-1 text-sm font-black">
+              {selectedPack.pack_name}
             </span>
-            <span className="text-xs font-bold text-[var(--muted)]">
-              Subtopics:
-            </span>
-            {currentSubtopics.length ? (
-              currentSubtopics.map((subtopic) => (
-                <span
-                  className="rounded-full bg-white/5 px-2.5 py-1 text-xs font-bold"
-                  key={subtopic}
-                >
-                  {subtopic}
-                </span>
-              ))
-            ) : (
-              <span className="text-xs italic text-amber-100/75">
-                None assigned
+            <div
+              aria-label="Question classification"
+              className="inline-flex min-w-0 items-center gap-1.5 rounded-xl border border-[var(--brand)]/20 bg-[var(--brand)]/[.06] px-3 py-1.5 text-sm"
+            >
+              <b>{related(current.topic)?.name ?? "Topic"}</b>
+              <ChevronRight
+                aria-hidden="true"
+                className="shrink-0 text-[var(--muted)]"
+                size={15}
+              />
+              <span className="font-bold text-[var(--brand)]">
+                {currentSubtopic ?? "Subtopic not assigned"}
               </span>
-            )}
+            </div>
             <DifficultyStars difficulty={current.difficulty} />
             <span
               className={`rounded-full px-2.5 py-1 text-xs font-bold ${
@@ -428,9 +492,31 @@ export default async function QuestionQualityPage({
               {views.find((item) => item.value === view)?.label.toLowerCase()}
             </span>
             {currentReview ? (
-              <span className="ml-auto rounded-full bg-white/10 px-3 py-1 text-xs font-black uppercase">
+              <span className="rounded-full bg-white/10 px-3 py-1 text-xs font-black uppercase">
                 {currentReview.verdict.replace("_", " ")}
               </span>
+            ) : null}
+            <QuestionNavigation
+              baseUrl={baseUrl}
+              className="ml-auto"
+              position={position}
+              total={filteredVersions.length}
+            />
+            </div>
+            {currentDetailTags.length ? (
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
+                <span className="inline-flex items-center gap-1 font-bold text-[var(--muted)]">
+                  <Tag aria-hidden="true" size={13} /> Detail tags
+                </span>
+                {currentDetailTags.map((detailTag) => (
+                  <span
+                    className="rounded-full bg-white/5 px-2.5 py-1 font-bold text-slate-200"
+                    key={detailTag}
+                  >
+                    {detailTag}
+                  </span>
+                ))}
+              </div>
             ) : null}
           </div>
           <div className="p-6 sm:p-8">
@@ -506,7 +592,13 @@ export default async function QuestionQualityPage({
                   differences are grouped together.
                 </p>
               </div>
-              {answerSummaries?.length ? (
+              {answerSummaryUnavailable ? (
+                <p className="px-5 py-5 text-sm text-amber-100">
+                  Player-answer statistics are temporarily unavailable. The
+                  editorial decision was still saved; refresh to try loading
+                  these statistics again.
+                </p>
+              ) : displayedAnswerSummaries.length ? (
                 <div className="overflow-x-auto">
                   <table className="w-full min-w-[680px] text-left text-sm">
                     <thead className="bg-black/15 text-xs uppercase tracking-[.1em] text-[var(--muted)]">
@@ -519,7 +611,7 @@ export default async function QuestionQualityPage({
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-white/10">
-                      {answerSummaries.map((answer) => (
+                      {displayedAnswerSummaries.map((answer) => (
                         <tr
                           className={
                             answer.acceptance_flag_count
@@ -569,12 +661,22 @@ export default async function QuestionQualityPage({
                 </h3>
                 <div className="mt-4 space-y-3">
                   {currentFeedback.map((feedback, index) => {
+                    const attempt = related(feedback.attempt);
                     const submittedAnswer =
-                      related(feedback.attempt)?.submitted_answer?.trim() ||
-                      null;
+                      attempt?.submitted_answer?.trim() || null;
                     const requestsAcceptance = feedback.reasons.includes(
                       "should_have_been_accepted",
                     );
+                    const creditWasAwarded =
+                      requestsAcceptance &&
+                      !feedback.answer_correct &&
+                      Boolean(attempt?.correct);
+                    const canAwardCredit =
+                      requestsAcceptance &&
+                      !feedback.answer_correct &&
+                      !attempt?.correct &&
+                      !feedback.timed_out &&
+                      Boolean(submittedAnswer);
                     return (
                       <article
                         className="rounded-xl bg-black/15 p-3"
@@ -612,6 +714,36 @@ export default async function QuestionQualityPage({
                         {feedback.comment ? (
                           <p className="mt-2 text-sm">{feedback.comment}</p>
                         ) : null}
+                        {creditWasAwarded ? (
+                          <p className="mt-3 inline-flex rounded-full bg-emerald-300/10 px-3 py-1.5 text-xs font-black text-emerald-100">
+                            Accepted and credited +{attempt?.earned_points ?? 0}{" "}
+                            points
+                          </p>
+                        ) : canAwardCredit ? (
+                          <form action={acceptPlayerAnswer} className="mt-3">
+                            <input
+                              name="feedbackId"
+                              type="hidden"
+                              value={feedback.id}
+                            />
+                            <input
+                              name="returnTo"
+                              type="hidden"
+                              value={returnTo}
+                            />
+                            <button
+                              className="min-h-10 rounded-xl bg-emerald-300 px-4 py-2 text-sm font-black text-slate-950 transition hover:bg-emerald-200"
+                              type="submit"
+                            >
+                              Accept answer and award credit
+                            </button>
+                            <p className="mt-2 text-xs leading-5 text-[var(--muted)]">
+                              Awards the original timed value and marks this
+                              question Needs revision so the response can be
+                              added as an accepted answer.
+                            </p>
+                          </form>
+                        ) : null}
                       </article>
                     );
                   })}
@@ -640,28 +772,14 @@ export default async function QuestionQualityPage({
               versionId={current.id}
             />
           </div>
-          <nav className="flex items-center justify-between border-t border-white/10 px-6 py-4">
-            {position > 1 ? (
-              <Link
-                className="inline-flex items-center gap-2 font-bold"
-                href={`${baseUrl}&position=${position - 1}`}
-              >
-                <ArrowLeft size={17} /> Previous
-              </Link>
-            ) : (
-              <span />
-            )}
-            {position < filteredVersions.length ? (
-              <Link
-                className="inline-flex items-center gap-2 font-bold"
-                href={`${baseUrl}&position=${position + 1}`}
-              >
-                Next <ArrowRight size={17} />
-              </Link>
-            ) : (
-              <span />
-            )}
-          </nav>
+          <div className="border-t border-white/10 px-6 py-4">
+            <QuestionNavigation
+              baseUrl={baseUrl}
+              className="w-full justify-between"
+              position={position}
+              total={filteredVersions.length}
+            />
+          </div>
         </Card>
       ) : (
         <Card className="mt-6 p-10 text-center">

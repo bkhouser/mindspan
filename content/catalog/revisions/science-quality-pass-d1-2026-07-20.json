@@ -1,0 +1,81 @@
+{
+  "science-nature-starter.moon-parent.beli": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.mammal-hair",
+    "subtopic": "Zoology",
+    "detailTags": ["Mammals", "Animal Classification", "Hair"],
+    "prompt": "What keratin-based body covering is unique to mammals?",
+    "canonicalAnswer": "Hair",
+    "aliases": ["Fur"],
+    "distractors": ["Feathers", "Scales", "Scutes"],
+    "explanation": "Hair is a defining mammalian feature, even when it is sparse or modified.",
+    "details": "Hair is made primarily of keratin and can insulate, camouflage, protect, communicate, or provide sensation as whiskers. Whales and other mammals that appear hairless still develop at least some hair during life.",
+    "source": {"label": "OpenStax Biology 2e", "url": "https://openstax.org/books/biology-2e/pages/29-6-mammals"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.mark-wainberg": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.largest-organ",
+    "subtopic": "Human Anatomy & Physiology",
+    "detailTags": ["Integumentary System", "Skin", "Human Organs"],
+    "prompt": "What is the largest organ of the human body?",
+    "canonicalAnswer": "Skin",
+    "aliases": ["The skin"],
+    "distractors": ["Liver", "Lungs", "Small intestine"],
+    "explanation": "The skin is the body's largest organ by surface area and weight.",
+    "details": "Skin forms a protective barrier, helps regulate temperature, limits water loss, senses the environment, and participates in immune defense. Its major layers are the epidermis and dermis, supported by tissue beneath them.",
+    "source": {"label": "National Library of Medicine", "url": "https://www.ncbi.nlm.nih.gov/books/NBK470464/"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.disease-specialty.cerebral-hypoxia": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.hail",
+    "subtopic": "Weather & Climate",
+    "detailTags": ["Precipitation", "Thunderstorms", "Hail"],
+    "prompt": "What type of precipitation falls as balls or irregular lumps of ice?",
+    "canonicalAnswer": "Hail",
+    "aliases": ["Hailstones"],
+    "distractors": ["Sleet", "Freezing rain", "Graupel"],
+    "explanation": "Hail consists of layered balls or irregular lumps of ice produced in thunderstorms.",
+    "details": "Strong thunderstorm updrafts carry ice particles upward repeatedly, adding layers of supercooled water before gravity wins. Sleet is frozen raindrops, while freezing rain remains liquid until it freezes on contact.",
+    "source": {"label": "National Weather Service Glossary", "url": "https://forecast.weather.gov/glossary.php?word=hail"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.moon-parent.pan": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.gene-heredity",
+    "subtopic": "Biology",
+    "detailTags": ["Genetics", "Genes", "Heredity"],
+    "prompt": "What is the basic unit of heredity passed from parents to offspring?",
+    "canonicalAnswer": "Gene",
+    "aliases": ["A gene"],
+    "distractors": ["Cell", "Protein", "Chromosome pair"],
+    "explanation": "A gene is the basic unit through which hereditary information is transmitted.",
+    "details": "A gene is a segment of DNA associated with a functional product, usually a protein or functional RNA. Different versions of a gene are called alleles and can contribute to variation in inherited traits.",
+    "source": {"label": "National Human Genome Research Institute", "url": "https://www.genome.gov/genetics-glossary/Gene"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.horace-wells": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.root-absorption",
+    "subtopic": "Botany",
+    "detailTags": ["Plant Roots", "Water Uptake", "Plant Nutrition"],
+    "prompt": "Which plant organs normally absorb most water and minerals from soil?",
+    "canonicalAnswer": "Roots",
+    "aliases": ["The roots", "Root system"],
+    "distractors": ["Flowers", "Leaves", "Fruits"],
+    "explanation": "Roots anchor a plant and absorb most of its water and dissolved minerals.",
+    "details": "Tiny root hairs greatly increase the surface area available for absorption. Water and mineral ions move from root tissues into the xylem, which carries them upward through the plant.",
+    "source": {"label": "OpenStax Biology 2e", "url": "https://openstax.org/books/biology-2e/pages/30-3-roots"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.element-symbol.sulfur": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.gravity-earth",
+    "difficulty": 1,
+    "subtopic": "Physics",
+    "detailTags": ["Gravity", "Forces", "Motion"],
+    "prompt": "Which force pulls dropped objects toward Earth?",
+    "canonicalAnswer": "Gravity",
+    "aliases": ["Gravitational force", "Earth's gravity"],
+    "distractors": ["Magnetism", "Friction", "Buoyancy"],
+    "explanation": "Gravity attracts objects with mass toward one another, including toward Earth.",
+    "details": "Near Earth's surface, freely falling objects accelerate downward at about 9.8 meters per second squared when air resistance is negligible. The same force keeps the Moon in orbit around Earth.",
+    "source": {"label": "OpenStax Physics", "url": "https://openstax.org/books/physics/pages/7-2-newtons-law-of-universal-gravitation"},
+    "answerMode": "recall"
+  }
+}

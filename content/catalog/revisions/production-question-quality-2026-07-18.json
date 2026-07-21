@@ -1,0 +1,273 @@
+{
+  "science-nature-starter.disease-specialty.collapse": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260718.medulla",
+    "subtopic": "Human Anatomy & Physiology",
+    "detailTags": ["Neuroscience", "Brainstem"],
+    "prompt": "Which part of the brainstem helps regulate automatic functions such as breathing and heart rate?",
+    "canonicalAnswer": "Medulla oblongata",
+    "aliases": ["Medulla"],
+    "distractors": ["Cerebellum", "Hippocampus", "Parietal lobe"],
+    "explanation": "The medulla oblongata helps control automatic functions including breathing and heart rate.",
+    "details": "Located at the base of the brainstem, the medulla contains control centers and nerve pathways essential to cardiovascular and respiratory regulation.",
+    "difficulty": 2,
+    "source": {
+      "label": "OpenStax Anatomy and Physiology 2e",
+      "url": "https://openstax.org/books/anatomy-and-physiology-2e/pages/14-3-motor-responses"
+    },
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.ole-w-ver": {
+    "subtopics": ["Earth Science", "History of Science"],
+    "prompt": "Which scientist proposed continental drift after comparing coastlines, fossils, and rock formations across oceans?",
+    "canonicalAnswer": "Alfred Wegener",
+    "aliases": ["Wegener", "Alfred Lothar Wegener"],
+    "distractors": ["Charles Lyell", "James Hutton", "Harry Hess"],
+    "explanation": "Alfred Wegener proposed that the continents had once been joined and later drifted apart.",
+    "details": "His evidence included matching fossils and geological structures on separated continents. Plate tectonics later supplied the mechanism that his original proposal lacked.",
+    "difficulty": 2,
+    "source": {
+      "label": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/gip/dynamic/historical.html"
+    },
+    "answerMode": "recall"
+  },
+  "arts-literature-starter.opentdb.e8c58e62e9aa0092": {
+    "subtopics": ["American Literature"],
+    "prompt": "Who wrote the novella Of Mice and Men?",
+    "aliases": ["Steinbeck"],
+    "difficulty": 2
+  },
+  "science-nature-starter.scientist-field.nikolai-grube": {
+    "subtopics": ["Earth Science", "Scientific Dating"],
+    "prompt": "What scientific method uses annual tree-ring patterns to date past events and environmental conditions?",
+    "canonicalAnswer": "Dendrochronology",
+    "aliases": ["Tree-ring dating"],
+    "distractors": ["Radiometry", "Stratigraphy", "Palynology"],
+    "explanation": "Dendrochronology dates wood and reconstructs past conditions from annual growth rings.",
+    "details": "Researchers match distinctive sequences of wide and narrow rings across living trees and older wood, building regional chronologies that can extend far into the past.",
+    "difficulty": 3,
+    "source": {
+      "label": "NOAA National Centers for Environmental Information",
+      "url": "https://www.ncei.noaa.gov/news/what-are-proxy-data"
+    },
+    "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.heidi-schuller": {
+    "subtopics": ["Winter Sports", "Olympic Sports"],
+    "prompt": "Which winter sport combines cross-country skiing with rifle shooting?",
+    "canonicalAnswer": "Biathlon",
+    "aliases": ["The biathlon"],
+    "distractors": ["Nordic combined", "Skiathlon", "Skeleton"],
+    "explanation": "Biathlon combines cross-country ski racing with bouts of target shooting.",
+    "details": "Missed targets add time or require penalty loops, so competitors must control their breathing and accuracy immediately after intense skiing efforts.",
+    "difficulty": 2,
+    "source": {
+      "label": "Olympics.com",
+      "url": "https://olympics.com/en/sports/biathlon/"
+    },
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.lise-thiry": {
+    "subtopics": ["Medicine", "History of Science"],
+    "prompt": "Which medical researcher developed the first widely used polio vaccine?",
+    "canonicalAnswer": "Jonas Salk",
+    "aliases": ["Salk", "Jonas Edward Salk"],
+    "distractors": ["Albert Sabin", "Edward Jenner", "Robert Koch"],
+    "explanation": "Jonas Salk led the development of the first widely used polio vaccine.",
+    "details": "The injected vaccine used inactivated poliovirus and was announced as safe and effective in 1955. Albert Sabin later developed the widely used oral vaccine.",
+    "difficulty": 2,
+    "source": {
+      "label": "Centers for Disease Control and Prevention",
+      "url": "https://www.cdc.gov/polio/about/index.html"
+    },
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.a784f1d96925b2c5": {
+    "subtopics": ["Comedy Films", "World Cinema"],
+    "prompt": "In Monty Python's Life of Brian, which corrected Latin phrase means 'Romans, go home'?",
+    "canonicalAnswer": "Romani ite domum",
+    "aliases": [],
+    "distractors": ["Romanes eunt domus", "Roma invicta est", "Veni vidi vici"],
+    "explanation": "The centurion corrects Brian's slogan to Romani ite domum, meaning 'Romans, go home.'",
+    "details": "The scene turns a rebellious act into an exacting Latin lesson, with the centurion forcing Brian to correct the grammar and then write the phrase repeatedly.",
+    "difficulty": 4,
+    "answerMode": "required_choice"
+  },
+  "science-nature-starter.scientist-field.hans-winkler": {
+    "subtopics": ["Genetics", "History of Science"],
+    "prompt": "Which term for an organism's complete genetic material was coined by botanist Hans Winkler?",
+    "canonicalAnswer": "Genome",
+    "aliases": ["The genome"],
+    "distractors": ["Genotype", "Chromosome", "Proteome"],
+    "explanation": "Hans Winkler introduced the term genome for an organism's complete genetic material.",
+    "details": "The word was formed in the early twentieth century, before DNA's structure was known. Today a genome includes the full DNA sequence carried by an organism.",
+    "difficulty": 3,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/genome"
+    },
+    "answerMode": "recall"
+  },
+  "music-starter.opentdb.b89a873823beb75a": {
+    "subtopics": ["Rock Music", "Classic Albums"],
+    "prompt": "Which band recorded the albums Revolver and Abbey Road?",
+    "canonicalAnswer": "The Beatles",
+    "aliases": [],
+    "distractors": ["The Rolling Stones", "The Kinks", "The Who"],
+    "explanation": "The Beatles recorded both Revolver and Abbey Road.",
+    "details": "Revolver expanded the group's studio experimentation in 1966, while Abbey Road became the final album the four members recorded together as a band.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/the-Beatles"
+    },
+    "answerMode": "recall"
+  },
+  "music-starter.opentdb.f94e997cd0fbd58d": {
+    "subtopics": ["Popular Music", "Vocalists"],
+    "prompt": "Which singer recorded the hits Rolling in the Deep and Hello?",
+    "canonicalAnswer": "Adele",
+    "aliases": ["Adele Adkins"],
+    "distractors": ["Duffy", "Jessie J", "Ellie Goulding"],
+    "explanation": "Adele recorded both Rolling in the Deep and Hello.",
+    "details": "Rolling in the Deep appeared on her album 21, while Hello opened 25. Both songs showcase the British singer's powerful vocal style and became international hits.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Adele-British-singer-songwriter"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.7706d5be21915542": {
+    "subtopics": ["Transportation", "Everyday Technology"],
+    "prompt": "What does a vehicle's odometer measure?",
+    "canonicalAnswer": "Distance traveled",
+    "aliases": ["Mileage", "Distance the vehicle has traveled", "Total distance"],
+    "distractors": ["Engine speed", "Fuel economy", "Road speed"],
+    "explanation": "An odometer records the total distance a vehicle has traveled.",
+    "details": "It differs from a speedometer, which displays current speed, and a tachometer, which measures the engine's rotational speed.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/technology/odometer"
+    },
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.f8e0e8f7839fa09c": {
+    "prompt": "In the Friday the 13th series, what is Jason Voorhees's mother's first name?",
+    "difficulty": 4
+  },
+  "arts-literature-starter.opentdb.49307361a1c22b3e": {
+    "subtopics": ["Young Adult Fiction", "Popular Fiction"],
+    "distractors": ["Harry Potter", "Xanth", "The Bartimaeus Sequence"]
+  },
+  "film-television-starter.opentdb.1b0e88dc7e350563": {
+    "subtopics": ["Classic Film", "Film Music"],
+    "prompt": "Which 1939 film introduced the song Over the Rainbow?",
+    "canonicalAnswer": "The Wizard of Oz",
+    "aliases": [],
+    "distractors": ["Gone with the Wind", "Mr. Smith Goes to Washington", "Stagecoach"],
+    "explanation": "Judy Garland introduced Over the Rainbow in The Wizard of Oz.",
+    "details": "Harold Arlen composed the music and E. Y. Harburg wrote the lyrics. The song became closely identified with Garland and won the Academy Award for best original song.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/The-Wizard-of-Oz"
+    },
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.f843ff6dc46d2841": {
+    "subtopics": ["Animation", "Television"],
+    "prompt": "Who provides the original English voice of Homer Simpson?",
+    "canonicalAnswer": "Dan Castellaneta",
+    "aliases": ["Castellaneta", "Daniel Castellaneta"],
+    "distractors": ["Hank Azaria", "Harry Shearer", "Billy West"],
+    "explanation": "Dan Castellaneta provides Homer Simpson's original English voice.",
+    "details": "Castellaneta has voiced Homer since The Simpsons began as shorts on The Tracey Ullman Show and also performs characters including Grampa Simpson and Krusty the Clown.",
+    "difficulty": 2,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/The-Simpsons"
+    },
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.barys-kit": {
+    "subtopics": ["Astronomy", "Orbital Mechanics"],
+    "prompt": "What is the name of the point in an orbit that is farthest from Earth?",
+    "canonicalAnswer": "Apogee",
+    "aliases": ["The apogee"],
+    "distractors": ["Perigee", "Perihelion", "Aphelion"],
+    "explanation": "Apogee is the point in an Earth-centered orbit farthest from Earth.",
+    "details": "The nearest point is perigee. For an orbit around the Sun, the corresponding terms are aphelion for the farthest point and perihelion for the nearest.",
+    "difficulty": 3,
+    "source": {
+      "label": "NASA Space Place",
+      "url": "https://spaceplace.nasa.gov/what-is-an-orbit/en/"
+    },
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.0a3bc2420e7f4ee8": {
+    "prompt": "In the 2010 A Nightmare on Elm Street reboot, who played Freddy Krueger?",
+    "difficulty": 4
+  },
+  "music-starter.opentdb.15d0d9b52623403e": {
+    "subtopics": ["Popular Music", "Scottish Music"],
+    "prompt": "Which Scottish duo recorded I'm Gonna Be (500 Miles)?",
+    "canonicalAnswer": "The Proclaimers",
+    "aliases": ["Proclaimers", "Craig and Charlie Reid", "The Reid brothers"],
+    "distractors": ["Tears for Fears", "Erasure", "The Waterboys"],
+    "explanation": "The Proclaimers recorded I'm Gonna Be (500 Miles).",
+    "details": "Twin brothers Craig and Charlie Reid released the song in 1988. Its appearance in the film Benny & Joon later helped it become a major U.S. hit.",
+    "difficulty": 2,
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.e1f38f71f81ec7f6": {
+    "subtopics": ["Science Fiction Television", "British Television"],
+    "prompt": "Which British science-fiction television series features a time machine called the TARDIS?",
+    "canonicalAnswer": "Doctor Who",
+    "aliases": ["Dr. Who"],
+    "distractors": ["Red Dwarf", "Blake's 7", "The Prisoner"],
+    "explanation": "The Doctor travels through space and time in the TARDIS in Doctor Who.",
+    "details": "Although its exterior resembles a blue British police box, the TARDIS is vastly larger inside and serves as the program's enduring time-and-space vehicle.",
+    "difficulty": 1,
+    "source": {
+      "label": "BBC Doctor Who",
+      "url": "https://www.bbc.co.uk/doctorwho"
+    },
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.e24c67ac55a65352": {
+    "subtopics": ["Superhero Films", "Marvel Cinematic Universe"],
+    "prompt": "Which 2018 Marvel film ends with Thanos using the Infinity Stones to erase half of all life?",
+    "canonicalAnswer": "Avengers: Infinity War",
+    "aliases": ["Infinity War"],
+    "distractors": ["Avengers: Endgame", "Captain Marvel", "Thor: Ragnarok"],
+    "explanation": "Thanos completes the Infinity Gauntlet and carries out the Snap at the end of Avengers: Infinity War.",
+    "details": "The ending leaves many heroes erased and leads directly into Avengers: Endgame, in which the surviving Avengers attempt to reverse the catastrophe.",
+    "difficulty": 2,
+    "source": {
+      "label": "Marvel",
+      "url": "https://www.marvel.com/movies/avengers-infinity-war"
+    },
+    "answerMode": "recall"
+  },
+  "music-starter.opentdb.ad7821fa48b57e84": {
+    "subtopics": ["Electronic Music", "Popular Music"],
+    "prompt": "Which French electronic duo recorded One More Time and Get Lucky?",
+    "canonicalAnswer": "Daft Punk",
+    "aliases": [],
+    "distractors": ["Air", "Justice", "The Chemical Brothers"],
+    "explanation": "Daft Punk recorded both One More Time and Get Lucky.",
+    "details": "Thomas Bangalter and Guy-Manuel de Homem-Christo performed behind robot helmets and helped bring French house music to a worldwide audience.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Daft-Punk"
+    },
+    "answerMode": "recall"
+  },
+  "film-television-starter.opentdb.0651659780ae216b": {
+    "aliases": ["Tarantino"],
+    "difficulty": 2
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sports-starter.replacement.20260720.free-throw-point": {
+    "replacementCatalogKey":"sports-starter.replacement.20260721.traveling",
+    "subtopic":"Basketball",
+    "detailTags":["Basketball Rules","Traveling","Violations"],
+    "prompt":"What violation occurs when a basketball player illegally moves with the ball without dribbling?",
+    "canonicalAnswer":"Traveling",
+    "aliases":["Travelling","Traveling violation","Travelling violation"],
+    "distractors":["Goaltending","Double dribble","Charging"],
+    "explanation":"Illegal movement with the ball beyond the allowed steps is called traveling.",
+    "details":"The precise rule accounts for when a player gathers the ball and establishes a pivot foot. A traveling call stops play and awards possession to the opposing team.",
+    "difficulty":2,
+    "source":{"label":"NBA Official Rules","url":"https://official.nba.com/rule-no-10-violations-and-penalties/"},
+    "answerMode":"recall"
+  },
+  "sports-starter.replacement.20260720.olympic-rings": {
+    "replacementCatalogKey":"sports-starter.replacement.20260721.olympic-torch",
+    "subtopic":"Olympics & International Sport",
+    "detailTags":["Olympic Flame","Olympic Torch Relay","Olympic Traditions"],
+    "prompt":"What object carries the Olympic flame during its relay to the host city?",
+    "canonicalAnswer":"Olympic torch",
+    "aliases":["Torch","The Olympic torch"],
+    "distractors":["Olympic lantern","Ceremonial baton","Victory standard"],
+    "explanation":"Torchbearers carry the Olympic flame in an Olympic torch during the relay.",
+    "details":"The flame is traditionally lit at Olympia in Greece and then passed between torchbearers on its journey to the host city. A final torchbearer lights the cauldron at the opening ceremony.",
+    "difficulty":1,
+    "source":{"label":"International Olympic Committee","url":"https://library.olympics.com/default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=1854346&parentDocumentId=1854345&skipCopyright=true&skipWatermark=true"},
+    "answerMode":"recall"
+  },
+  "trivia-101.replacement.20260718.soccer-red-card": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.clue",
+    "topicSlug":"lifestyle-culture",
+    "subtopic":"Games, Hobbies & Recreation",
+    "detailTags":["Clue","Board Games","Mystery Games"],
+    "prompt":"Which board game asks players to identify a murder suspect, weapon, and room?",
+    "canonicalAnswer":"Clue",
+    "aliases":["Cluedo"],
+    "distractors":["Risk","Scrabble","Battleship"],
+    "explanation":"Clue challenges players to deduce the murderer, weapon, and room.",
+    "details":"Known as Cluedo in many countries, the game uses suspect, weapon, and room cards hidden in a confidential case file. Players eliminate possibilities by making suggestions and sharing clues.",
+    "difficulty":1,
+    "source":{"label":"Hasbro","url":"https://instructions.hasbro.com/en-gb/instruction/clue-game"},
+    "answerMode":"recall"
+  },
+  "sound-and-song.opentdb.63095922729f022f": {
+    "replacementCatalogKey":"sound-and-song.replacement.20260721.appalachian-spring",
+    "subtopic":"Classical Music",
+    "detailTags":["Aaron Copland","Appalachian Spring","American Classical Music","Ballet"],
+    "prompt":"Which American composer wrote the ballet Appalachian Spring?",
+    "canonicalAnswer":"Aaron Copland",
+    "aliases":[],
+    "distractors":["Samuel Barber","Leonard Bernstein","George Gershwin"],
+    "explanation":"Aaron Copland composed Appalachian Spring for choreographer Martha Graham.",
+    "details":"The ballet premiered in 1944 and later won Copland the Pulitzer Prize for Music. Its orchestral suite includes variations on the Shaker tune Simple Gifts.",
+    "difficulty":4,
+    "source":{"label":"Library of Congress","url":"https://www.loc.gov/item/ihas.200182578/"},
+    "answerMode":"recall"
+  }
+}

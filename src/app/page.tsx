@@ -1,5 +1,9 @@
 import Link from "next/link";
 import { ArrowRight, Brain, Sparkles, Users } from "lucide-react";
+import { redirect } from "next/navigation";
+import { currentAuthenticationDestination } from "@/server/authentication";
+
+export const dynamic = "force-dynamic";
 
 const features = [
   { icon: Brain, title: "Adaptive mastery", copy: "Questions and rewards respond to what you know." },
@@ -7,7 +11,10 @@ const features = [
   { icon: Sparkles, title: "Built to teach", copy: "Every answer unlocks context worth remembering." },
 ];
 
-export default function LandingPage() {
+export default async function LandingPage() {
+  const destination = await currentAuthenticationDestination();
+  if (destination) redirect(destination);
+
   return (
     <main className="mx-auto flex min-h-screen max-w-6xl flex-col px-6 py-8 lg:px-10">
       <nav className="flex items-center justify-between" aria-label="Primary navigation">

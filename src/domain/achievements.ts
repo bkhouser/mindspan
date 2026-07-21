@@ -22,6 +22,44 @@ export interface AchievementMetrics {
   loginDays: number;
 }
 
+export interface AchievementProgress {
+  current: number;
+  target: number;
+}
+
+function cappedProgress(current: number, target: number) {
+  return {
+    current: Math.min(Math.max(0, current), target),
+    target,
+  };
+}
+
+export function achievementProgress(
+  evaluator: string,
+  metrics: AchievementMetrics,
+): AchievementProgress | null {
+  const attempts = /^attempts_(\d+)$/.exec(evaluator);
+  if (attempts) {
+    return cappedProgress(metrics.totalAttempts, Number(attempts[1]));
+  }
+
+  const loginDays = /^login_days_(\d+)$/.exec(evaluator);
+  if (loginDays) {
+    return cappedProgress(metrics.loginDays, Number(loginDays[1]));
+  }
+
+  if (evaluator === "topics_5") {
+    return cappedProgress(metrics.attemptedTopics, 5);
+  }
+  if (evaluator === "hard_correct_10") {
+    return cappedProgress(metrics.hardCorrect, 10);
+  }
+  if (evaluator === "ranked_topics_5") {
+    return cappedProgress(metrics.rankedTopics, 5);
+  }
+  return null;
+}
+
 export function eligibleAchievementEvaluators(metrics: AchievementMetrics) {
   const eligible: string[] = [];
   if (metrics.onboardingCompleted) eligible.push("onboarding_complete");

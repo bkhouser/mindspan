@@ -1,0 +1,185 @@
+{
+  "sports-starter.team-sport.debreceni-civis-polo-vizilabda-se": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.double-play",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Fielding", "Double Play", "Outs"],
+    "prompt": "What baseball play records two outs during one continuous sequence?", "canonicalAnswer": "Double play", "aliases": ["A double play", "Twin killing"],
+    "distractors": ["Force play", "Tag play", "Sacrifice play"], "explanation": "A double play records two outs on the same continuous play.",
+    "details": "A common version is the 6-4-3 double play: shortstop to second baseman to first baseman. Double plays often begin with a ground ball when a runner is forced to advance.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/standard-stats/double-play"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.cn-atletic-barceloneta": {
+    "subtopics": ["Aquatic Sports"], "detailTags": ["Water Polo", "Team Size", "Rules"],
+    "prompt": "Including the goalkeeper, how many players from each water polo team are in the pool during play?", "aliases": ["7", "Seven"],
+    "explanation": "A water polo team fields seven players in the pool: six field players and one goalkeeper.",
+    "details": "Teams may substitute from the bench according to competition rules. Players tread water throughout the game because they may not stand on or push off the bottom of the pool.",
+    "source": {"label": "World Aquatics Competition Regulations", "url": "https://www.worldaquatics.com/rules/competition-regulations"}
+  },
+  "sports-starter.athlete-sport.annegret-richter": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.decathlon-events",
+    "subtopic": "Athletics & Running", "detailTags": ["Decathlon", "Combined Events", "Track and Field"],
+    "prompt": "How many track-and-field events make up a decathlon?", "canonicalAnswer": "10", "aliases": ["Ten"],
+    "distractors": ["7", "8", "12"], "explanation": "A decathlon combines ten track-and-field events over two days.",
+    "details": "Athletes earn points from performances in sprints, distance running, hurdles, jumps, and throws. The winner is the competitor with the highest combined points total rather than the most individual event victories.",
+    "source": {"label": "World Athletics", "url": "https://worldathletics.org/disciplines/combined-events/decathlon"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.fort-worth-flyers": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.triple-double",
+    "subtopic": "Basketball", "detailTags": ["Basketball Statistics", "Triple-Double", "Performance"],
+    "prompt": "What basketball achievement records double-digit totals in three statistical categories in one game?", "canonicalAnswer": "Triple-double", "aliases": ["Triple double", "A triple-double"],
+    "distractors": ["Three-point play", "Double-double", "Hat trick"], "explanation": "A triple-double means reaching at least ten in three major statistical categories in one game.",
+    "details": "The categories are usually points, rebounds, assists, steals, or blocked shots. Points, rebounds, and assists are the most common combination.",
+    "source": {"label": "NBA Stats", "url": "https://www.nba.com/stats/help/glossary"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.marcel-jacques-boulenger": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.boxing-count",
+    "subtopic": "Combat Sports", "detailTags": ["Boxing Rules", "Knockdown", "Ten Count"],
+    "prompt": "After a knockdown in boxing, what count must a fallen boxer beat to continue?", "canonicalAnswer": "10", "aliases": ["Ten", "A ten count", "The count of ten"],
+    "distractors": ["5", "8", "12"], "explanation": "A knocked-down boxer must rise before the referee reaches the count of ten.",
+    "details": "The referee counts while assessing whether the boxer can safely continue. Reaching a count of ten results in a knockout, while competition rules may also require an eight count before action resumes.",
+    "source": {"label": "Association of Boxing Commissions", "url": "https://www.abcboxing.com/unified-rules-boxing/"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.new-south-wales-cup": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.rugby-knock-on",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Rugby Union", "Knock-On", "Rules"],
+    "prompt": "What rugby infringement occurs when a player loses the ball forward from the hands?", "canonicalAnswer": "Knock-on", "aliases": ["Knock on", "A knock-on"],
+    "distractors": ["Offside", "Forward pass", "Obstruction"], "explanation": "A knock-on occurs when the ball goes forward from a player's hand or arm and touches the ground or another player.",
+    "details": "The usual restart is a scrum awarded to the opposing team, although advantage may allow play to continue. The judgment depends on the ball moving toward the opponent's dead-ball line.",
+    "source": {"label": "World Rugby Laws", "url": "https://www.world.rugby/the-game/laws/law/11"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.comilla-victorians": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.lbw",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Cricket Rules", "LBW", "Dismissals"],
+    "prompt": "In cricket, what do the initials LBW stand for?", "canonicalAnswer": "Leg before wicket", "aliases": ["Leg-before-wicket"],
+    "distractors": ["Last ball wide", "Long boundary wicket", "Legal bat warning"], "explanation": "LBW stands for leg before wicket, one of cricket's methods of dismissing a batter.",
+    "details": "An umpire considers where the ball pitched, where it struck the batter, whether a bat contact occurred, and whether it would have hit the wicket. The law prevents a batter from unfairly using the body to block a ball destined for the stumps.",
+    "source": {"label": "MCC Laws of Cricket", "url": "https://www.lords.org/mcc/the-laws/leg-before-wicket"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.bim-diederich": {
+    "subtopics": ["Cycling"], "detailTags": ["Cyclocross", "Cycling Disciplines", "Off-Road Racing"],
+    "prompt": "Which cycling discipline sends riders over grass, mud, and obstacles on a short circuit?", "canonicalAnswer": "Cyclocross", "aliases": ["Cyclo-cross", "Cyclo cross"],
+    "explanation": "Cyclocross is contested on short mixed-surface circuits that often include barriers and steep sections.",
+    "details": "Riders may need to dismount, shoulder the bicycle, and run before remounting. Races are usually held in autumn and winter and reward handling skill as much as speed and endurance.",
+    "source": {"label": "Union Cycliste Internationale", "url": "https://www.uci.org/discipline/cyclo-cross/27qDl3RfvZBNwx1GhqJTwj?tab=discover"}
+  },
+  "sports-starter.team-sport.kansas-city-command": {
+    "difficulty": 1,
+    "replacementCatalogKey": "sports-starter.replacement.20260720.safety-points",
+    "subtopic": "Football", "detailTags": ["Football Scoring", "Safety", "Defense"],
+    "prompt": "How many points does a safety score in football?", "canonicalAnswer": "2", "aliases": ["Two", "Two points", "2 points"],
+    "distractors": ["1", "3", "6"], "explanation": "A safety awards two points to the defending team.",
+    "details": "A common safety occurs when the offense is responsible for the ball becoming dead in its own end zone. The team that conceded the safety must then put the ball back into play with a free kick.",
+    "source": {"label": "NFL Football Operations", "url": "https://operations.nfl.com/rules-officiating/2025-nfl-rulebook"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.klm-line": {
+    "subtopics": ["Hockey"], "detailTags": ["Soviet Hockey", "KLM Line", "Ice Hockey History"],
+    "prompt": "The Soviet Union's famous KLM Line competed in which sport?", "canonicalAnswer": "Ice hockey", "aliases": ["Hockey"],
+    "explanation": "The KLM Line was a dominant Soviet ice hockey forward unit.",
+    "details": "Its name came from the surnames of Vladimir Krutov, Igor Larionov, and Sergei Makarov. The trio starred internationally during the 1980s and later played in the NHL.",
+    "source": {"label": "International Ice Hockey Federation", "url": "https://www.iihf.com/en/events/2021/wm20/news/23324/larionov-ready-to-lead-russia"}
+  },
+  "sports-starter.competition-sport.champ-car": {
+    "difficulty": 1,
+    "replacementCatalogKey": "sports-starter.replacement.20260720.pole-position",
+    "subtopic": "Motor Sports", "detailTags": ["Qualifying", "Pole Position", "Starting Grid"],
+    "prompt": "What is the first starting spot on a motor-racing grid called?", "canonicalAnswer": "Pole position", "aliases": ["The pole", "Pole"],
+    "distractors": ["Front stretch", "Pace position", "Prime grid"], "explanation": "Pole position is the leading place on the starting grid.",
+    "details": "It is usually earned by setting the fastest qualifying time, although some series use additional qualifying races or other formats. The pole sitter begins with the clearest track and shortest route into the opening corner.",
+    "source": {"label": "FIA International Sporting Code", "url": "https://www.fia.com/regulation/category/123"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.egon-muller": {
+    "subtopics": ["Motor Sports"], "detailTags": ["Isle of Man TT", "Motorcycle Racing", "Road Racing"],
+    "prompt": "Which famous motorcycle race is held on public roads on the Isle of Man?", "canonicalAnswer": "Isle of Man TT", "aliases": ["Tourist Trophy", "TT", "Isle of Man Tourist Trophy"],
+    "explanation": "The Isle of Man TT is a motorcycle time trial run over closed public roads.",
+    "details": "Competitors start individually and race against the clock around the long Snaefell Mountain Course. Its speed, changing terrain, and roadside hazards make it one of motorcycling's most demanding events.",
+    "source": {"label": "Isle of Man TT Races", "url": "https://www.iomttraces.com/"}
+  },
+  "sports-starter.competition-sport.speedway-grand-prix": {
+    "subtopics": ["Motor Sports"], "detailTags": ["Motorcycle Speedway", "Speedway Grand Prix", "Racing"],
+    "prompt": "Competitors in the Speedway Grand Prix race what type of vehicle?", "canonicalAnswer": "Motorcycles", "aliases": ["Motorbikes", "Speedway bikes"],
+    "explanation": "The Speedway Grand Prix is the world championship series for motorcycle speedway.",
+    "details": "Riders race specialized motorcycles around short oval dirt tracks, sliding through corners at high speed. Traditional speedway machines have no brakes and use a single fixed gear.",
+    "source": {"label": "FIM Speedway Grand Prix", "url": "https://fimspeedway.com/sgp/rules"}
+  },
+  "sports-starter.athlete-country.helga-mees": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.atlanta-1996",
+    "subtopic": "Olympics & International Sport", "detailTags": ["1996 Olympics", "Atlanta", "Olympic Hosts"],
+    "prompt": "Which U.S. city hosted the 1996 Summer Olympics?", "canonicalAnswer": "Atlanta", "aliases": ["Atlanta, Georgia"],
+    "distractors": ["Los Angeles", "Chicago", "Dallas"], "explanation": "Atlanta hosted the 1996 Summer Olympic Games.",
+    "details": "The centennial Olympics marked one hundred years since the first modern Games in Athens. Muhammad Ali lit the cauldron during the opening ceremony.",
+    "source": {"label": "International Olympic Committee", "url": "https://olympics.com/en/olympic-games/atlanta-1996"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.magdalena-neuner": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.olympic-motto",
+    "subtopic": "Olympics & International Sport", "detailTags": ["Olympic Motto", "Olympic Symbols", "Latin"],
+    "prompt": "The Olympic motto Citius, Altius, Fortius translates to “Faster, Higher,” and what?", "canonicalAnswer": "Stronger", "aliases": ["Stronger together"],
+    "distractors": ["Farther", "Braver", "Greater"], "explanation": "Citius, Altius, Fortius means Faster, Higher, Stronger.",
+    "details": "The International Olympic Committee added the word Communiter, meaning Together, in 2021. The expanded motto emphasizes both individual excellence and solidarity.",
+    "source": {"label": "International Olympic Committee", "url": "https://library.olympics.com/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=3703315&parentDocumentId=172552&skipCopyright=true&skipWatermark=true"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.anni-biechl": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.paralympic-agitos",
+    "subtopic": "Olympics & International Sport", "detailTags": ["Paralympics", "Agitos", "Sport Symbols"],
+    "prompt": "What name is given to the three curved shapes in the Paralympic symbol?", "canonicalAnswer": "Agitos", "aliases": ["Agito", "The Agitos"],
+    "distractors": ["Torches", "Halos", "Laurels"], "explanation": "The three elements of the Paralympic symbol are called Agitos.",
+    "details": "Agito is Latin for “I move.” The red, blue, and green shapes encircle a central point and express the role of the Paralympic Movement in bringing athletes together from around the world.",
+    "source": {"label": "International Paralympic Committee", "url": "https://www.paralympic.org/logo"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.donetsk-people-s-republic-national-football-team": {
+    "difficulty": 1,
+    "replacementCatalogKey": "sports-starter.replacement.20260720.earned-run-average",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Statistics", "ERA", "Pitching"],
+    "prompt": "In baseball statistics, what do the initials ERA stand for?", "canonicalAnswer": "Earned run average", "aliases": ["Earned-run average"],
+    "distractors": ["Estimated runs allowed", "Extra-run adjustment", "Effective relief appearances"], "explanation": "ERA stands for earned run average, a measure of runs charged to a pitcher.",
+    "details": "It estimates how many earned runs a pitcher allows per nine innings. Runs resulting from certain fielding errors are unearned and do not count against the pitcher's ERA.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/standard-stats/earned-run-average"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.yugoslav-handball-championship": {
+    "subtopics": ["Rules, Records & Equipment"], "detailTags": ["Team Handball", "Team Size", "Rules"],
+    "prompt": "How many players from one team are normally on the court in team handball?", "canonicalAnswer": "7", "aliases": ["Seven"],
+    "explanation": "A handball team fields seven players: six court players and one goalkeeper.",
+    "details": "Substitutions are unlimited and can occur during play through the team's substitution area. Players advance the ball by passing, dribbling, or taking a limited number of steps while holding it.",
+    "source": {"label": "International Handball Federation Rules", "url": "https://www.ihf.info/regulations-documents/361?selected=Rules%20of%20the%20Game"}
+  },
+  "sports-starter.athlete-sport.garry-kasparov": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.stalemate",
+    "subtopic": "Rules, Records & Equipment", "detailTags": ["Chess", "Stalemate", "Draws"],
+    "prompt": "What chess result occurs when a player has no legal move but is not in check?", "canonicalAnswer": "Stalemate", "aliases": ["A stalemate"],
+    "distractors": ["Checkmate", "Zugzwang", "Repetition"], "explanation": "Stalemate occurs when the player to move has no legal move and the king is not in check.",
+    "details": "A stalemate immediately ends the game as a draw. Checkmate differs because the king is under attack and no legal move can escape that attack.",
+    "source": {"label": "FIDE Laws of Chess", "url": "https://handbook.fide.com/chapter/E012023"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.kolkata-knight-riders": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.wicketkeeper",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Cricket Positions", "Wicketkeeper", "Fielding"],
+    "prompt": "Which cricket fielder stands directly behind the wicket at the striker's end?", "canonicalAnswer": "Wicketkeeper", "aliases": ["Wicket-keeper", "Keeper", "The wicketkeeper"],
+    "distractors": ["Bowler", "Mid-on", "Slip captain"], "explanation": "The wicketkeeper fields behind the striker's wicket.",
+    "details": "The role combines catching, stopping missed deliveries, and attempting stumpings or run-outs. The wicketkeeper is the only fielder permitted to wear external leg guards and wicketkeeping gloves.",
+    "source": {"label": "MCC Laws of Cricket", "url": "https://www.lords.org/mcc/the-laws/the-wicket-keeper"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.dinamo-sokhumi": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.hockey-icing",
+    "subtopic": "Hockey", "detailTags": ["Hockey Rules", "Icing", "Rink Zones"],
+    "prompt": "What ice hockey violation generally involves shooting the puck from behind center across the opponent's goal line untouched?", "canonicalAnswer": "Icing", "aliases": ["An icing violation"],
+    "distractors": ["Offside", "Interference", "High-sticking"], "explanation": "Icing is called when a team sends the puck across both the center red line and opposing goal line without a qualifying touch.",
+    "details": "The rule discourages teams from simply firing the puck the length of the rink to escape pressure. Exceptions and hybrid-icing procedures vary by situation and league.",
+    "source": {"label": "NHL Official Rules", "url": "https://www.nhl.com/info/video-rulebook/video-rulebook-icing"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.gauliga-wartheland": {
+    "difficulty": 1,
+    "replacementCatalogKey": "sports-starter.replacement.20260720.soccer-hat-trick",
+    "subtopic": "Soccer", "detailTags": ["Soccer Terminology", "Hat Trick", "Scoring"],
+    "prompt": "What is it called when one soccer player scores three goals in a match?", "canonicalAnswer": "Hat trick", "aliases": ["A hat trick", "Hattrick"],
+    "distractors": ["Triple", "Clean sweep", "Three-peat"], "explanation": "Three goals by one player in a soccer match are called a hat trick.",
+    "details": "The goals do not need to be consecutive unless the feat is described as a natural or perfect hat trick under a more specific convention. The term is also used in several other sports.",
+    "source": {"label": "FIFA Football Language", "url": "https://www.fifa.com/fifaplus/en/articles/football-terms-explained"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.michael-uhrmann": {
+    "difficulty": 2,
+    "replacementCatalogKey": "sports-starter.replacement.20260720.curling-house",
+    "subtopic": "Winter Sports", "detailTags": ["Curling", "House", "Playing Surface"],
+    "prompt": "What is the circular scoring target at each end of a curling sheet called?", "canonicalAnswer": "House", "aliases": ["The house", "Curling house"],
+    "distractors": ["Hog line", "Hack", "Button lane"], "explanation": "The concentric target rings in curling are called the house.",
+    "details": "Only stones in or touching the house can score. After all stones are delivered in an end, the team with the stone closest to the button scores one point for each stone closer than the opponent's nearest stone.",
+    "source": {"label": "World Curling", "url": "https://worldcurling.org/about/curling/"}, "answerMode": "recall"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "sports-starter.competition-sport.women-s-chinese-basketball-association": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.shot-clock",
+    "subtopic": "Basketball", "detailTags": ["Basketball Rules", "Shot Clock", "Possession"],
+    "prompt": "How many seconds does an NBA team normally have to attempt a shot?", "canonicalAnswer": "24", "aliases": ["Twenty-four", "24 seconds", "Twenty-four seconds"],
+    "distractors": ["20", "30", "35"], "explanation": "The NBA shot clock gives the offensive team 24 seconds to attempt a shot.",
+    "details": "Before the clock expires, the ball must leave a player's hand and then touch the rim or enter the basket. The rule was introduced in 1954 to prevent teams from stalling with long possessions.",
+    "source": {"label": "NBA Official Rules", "url": "https://official.nba.com/rule-no-7-24-second-clock/"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.multan-sultans": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.home-run",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Scoring", "Home Run", "Batting"],
+    "prompt": "What is a baseball hit called when the batter can circle all the bases and score without an error?", "canonicalAnswer": "Home run", "aliases": ["Homer", "A home run"],
+    "distractors": ["Double play", "Sacrifice fly", "Ground-rule double"], "explanation": "A home run allows the batter to touch every base and score on the same hit.",
+    "details": "Most home runs leave fair territory over the outfield fence, although an inside-the-park home run remains in play. Any runners already on base also score.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/standard-stats/home-run"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.hour-record": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.yellow-jersey",
+    "subtopic": "Cycling", "detailTags": ["Tour de France", "Yellow Jersey", "Race Leadership"],
+    "prompt": "What color jersey is worn by the overall leader of the Tour de France?", "canonicalAnswer": "Yellow", "aliases": ["Yellow jersey", "Maillot jaune"],
+    "distractors": ["Green", "Polka dot", "White"], "explanation": "The Tour de France's overall race leader wears the yellow jersey.",
+    "details": "Overall standings are based on cumulative time across the race's stages. Green identifies the points leader, polka dots the mountains leader, and white the leading eligible young rider.",
+    "source": {"label": "Tour de France official site", "url": "https://www.letour.fr/en/the-jerseys-tour-de-france"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.jim-clark": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.line-of-scrimmage",
+    "subtopic": "Football", "detailTags": ["Football Rules", "Line of Scrimmage", "Field Position"],
+    "prompt": "What imaginary line marks where a football play begins?", "canonicalAnswer": "Line of scrimmage", "aliases": ["The line of scrimmage", "Scrimmage line"],
+    "distractors": ["Goal line", "Hash mark", "Sideline"], "explanation": "The line of scrimmage runs through the ball's position before the snap.",
+    "details": "The offense and defense line up on opposite sides of the neutral zone surrounding the ball. Restrictions on formation, motion, and downfield passing are measured from this starting line.",
+    "source": {"label": "NFL Football Operations", "url": "https://operations.nfl.com/learn-the-game/nfl-basics/terms-glossary/"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.coppa-florio": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.field-goal-points",
+    "subtopic": "Football", "detailTags": ["Football Scoring", "Field Goal", "Kicking"],
+    "prompt": "How many points is a successful field goal worth in football?", "canonicalAnswer": "3", "aliases": ["Three", "Three points", "3 points"],
+    "distractors": ["1", "2", "6"], "explanation": "A successful field goal adds three points to a football team's score.",
+    "details": "The kick must pass above the crossbar and between the uprights. Teams commonly attempt a field goal on fourth down when close enough to score but unlikely to continue the drive.",
+    "source": {"label": "NFL Football Operations", "url": "https://operations.nfl.com/rules-officiating/2025-nfl-rulebook"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.volkswagen-team-sweden": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.designated-hitter",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Positions", "Designated Hitter", "Batting Order"],
+    "prompt": "Which baseball role bats in place of the pitcher without playing a fielding position?", "canonicalAnswer": "Designated hitter", "aliases": ["DH", "The designated hitter"],
+    "distractors": ["Pinch runner", "Closer", "Utility player"], "explanation": "The designated hitter bats in the pitcher's place.",
+    "details": "Major League Baseball now uses the designated hitter in both leagues. Unlike a pinch hitter, the DH remains in the batting order without automatically entering the game on defense.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/rules/designated-hitter-rule"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.peter-joppich": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.hat-trick",
+    "subtopic": "Hockey", "detailTags": ["Hockey Terminology", "Hat Trick", "Scoring"],
+    "prompt": "What is it called when one ice hockey player scores three goals in a game?", "canonicalAnswer": "Hat trick", "aliases": ["A hat trick", "Hattrick"],
+    "distractors": ["Triple play", "Three-peat", "Natural cycle"], "explanation": "Three goals by one player in a game constitute a hat trick.",
+    "details": "Fans traditionally celebrate by throwing hats onto the ice. A natural hat trick is a more specific feat in which the player scores three consecutive goals without another player scoring between them.",
+    "source": {"label": "National Hockey League", "url": "https://www.nhl.com/news/hat-trick-traces-its-history-back-to-19th-century-291661800"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.christian-geistdorfer": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.power-play",
+    "subtopic": "Hockey", "detailTags": ["Hockey Rules", "Power Play", "Penalties"],
+    "prompt": "What is an ice hockey team's temporary player advantage after an opponent receives a penalty called?", "canonicalAnswer": "Power play", "aliases": ["A power play", "Man advantage", "Player advantage"],
+    "distractors": ["Icing", "Forecheck", "Line change"], "explanation": "A power play occurs when one team has more skaters because an opponent is serving a penalty.",
+    "details": "The penalized team is said to be shorthanded. Many minor penalties end early if the team on the power play scores, while major penalties generally continue for their full duration.",
+    "source": {"label": "NHL Official Rules", "url": "https://www.nhl.com/info/video-rulebook"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.verena-bentele": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.tennis-deuce",
+    "subtopic": "Tennis & Racket Sports", "detailTags": ["Tennis Scoring", "Deuce", "Rules"],
+    "prompt": "What tennis term describes a game score tied at 40–40?", "canonicalAnswer": "Deuce", "aliases": [],
+    "distractors": ["Love", "Let", "Break point"], "explanation": "A tennis game tied at 40–40 has reached deuce.",
+    "details": "From deuce, a player normally needs two consecutive points to win the game: advantage and then game. If the player with advantage loses the next point, the score returns to deuce.",
+    "source": {"label": "International Tennis Federation", "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.hermann-eppenhoff": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.golf-birdie",
+    "subtopic": "Golf", "detailTags": ["Golf Scoring", "Birdie", "Par"],
+    "prompt": "What is a golf score of one stroke under par on a hole called?", "canonicalAnswer": "Birdie", "aliases": ["A birdie"],
+    "distractors": ["Bogey", "Eagle", "Albatross"], "explanation": "Completing a golf hole one stroke under par is called a birdie.",
+    "details": "A birdie lowers a player's score relative to par for that hole. An eagle is two under par, while a bogey is one over par; those names provide a compact vocabulary for describing performance on each hole.",
+    "source": {"label": "The R&A Rules of Golf", "url": "https://www.randa.org/en/rog/definitions"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.arizona-rattlers": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.golf-par",
+    "subtopic": "Golf", "detailTags": ["Golf Scoring", "Par", "Terminology"],
+    "prompt": "In golf, what term means the expected number of strokes for an expert to complete a hole?", "canonicalAnswer": "Par", "aliases": [],
+    "distractors": ["Handicap", "Lie", "Round"], "explanation": "Par is the score an expert player is expected to make on a hole.",
+    "details": "A hole's par reflects its length and ordinary playing difficulty, usually as a par 3, 4, or 5. Course par is the sum of the pars for all holes.",
+    "source": {"label": "The R&A Rules of Golf", "url": "https://www.randa.org/en/rog/definitions"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.kps-kielce": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.cricket-over",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Cricket Rules", "Overs", "Bowling"],
+    "prompt": "How many legal deliveries make up a standard over in cricket?", "canonicalAnswer": "6", "aliases": ["Six"],
+    "distractors": ["5", "7", "8"], "explanation": "A standard cricket over consists of six legal deliveries.",
+    "details": "Wides and no-balls do not count among the six, so an over can contain more than six actual balls. After an over, another bowler delivers from the opposite end of the pitch.",
+    "source": {"label": "MCC Laws of Cricket", "url": "https://www.lords.org/mcc/the-laws/the-over"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.jens-lehmann": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.penalty-spot",
+    "subtopic": "Soccer", "detailTags": ["Soccer Rules", "Penalty Kick", "Field Markings"],
+    "prompt": "How far is the penalty mark from the goal line in soccer?", "canonicalAnswer": "12 yards", "aliases": ["Twelve yards", "11 meters", "11 metres"],
+    "distractors": ["6 yards", "10 yards", "18 yards"], "explanation": "The penalty mark is 12 yards, or about 11 meters, from the goal line.",
+    "details": "For a penalty kick, the ball is placed on the mark and all players except the kicker and goalkeeper must remain outside the penalty area and penalty arc until the kick is taken.",
+    "source": {"label": "IFAB Laws of the Game", "url": "https://www.theifab.com/laws/latest/the-field-of-play/"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.asean-championship": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.rugby-conversion",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Rugby Union", "Scoring", "Conversion"],
+    "prompt": "How many points is a successful conversion kick worth in rugby union?", "canonicalAnswer": "2", "aliases": ["Two", "Two points", "2 points"],
+    "distractors": ["1", "3", "5"], "explanation": "A successful conversion after a try scores two points in rugby union.",
+    "details": "The kick is taken from a point in line with where the try was scored, which rewards grounding the ball near the posts. A try itself is worth five points.",
+    "source": {"label": "World Rugby Laws", "url": "https://www.world.rugby/the-game/laws/law/8"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.catania-beach-soccer": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.shuttlecock",
+    "subtopic": "Tennis & Racket Sports", "detailTags": ["Badminton", "Equipment", "Shuttlecock"],
+    "prompt": "What feathered or synthetic projectile is struck back and forth in badminton?", "canonicalAnswer": "Shuttlecock", "aliases": ["Shuttle", "Birdie", "Badminton birdie"],
+    "distractors": ["Puck", "Pelota", "Wiffle ball"], "explanation": "Badminton is played with a shuttlecock rather than a ball.",
+    "details": "Its weighted cork base and flared skirt create high drag, so it slows sharply after leaving the racket. Competition shuttles may use natural feathers or approved synthetic materials.",
+    "source": {"label": "Badminton World Federation", "url": "https://corporate.bwfbadminton.com/statutes/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.rudi-voller": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.summer-olympics-cycle",
+    "subtopic": "Olympics & International Sport", "detailTags": ["Summer Olympics", "Olympiad", "Schedule"],
+    "prompt": "Under the normal schedule, how often are the Summer Olympic Games held?", "canonicalAnswer": "Every four years", "aliases": ["Four years", "4 years", "Every 4 years"],
+    "distractors": ["Every two years", "Every three years", "Every five years"], "explanation": "The Summer Olympic Games normally occur once every four years.",
+    "details": "The four-year interval is called an Olympiad. Summer and Winter Games now occur in alternating even-numbered years, so an Olympic Games takes place every two years but each edition recurs every four.",
+    "source": {"label": "International Olympic Committee", "url": "https://library.olympics.com/default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=172362&parentDocumentId=172359&skipCopyright=true&skipWatermark=true"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.delhi-football-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.fencing-weapons",
+    "subtopic": "Combat Sports", "detailTags": ["Fencing", "Weapons", "Olympic Sport"],
+    "prompt": "How many weapon disciplines are contested in modern fencing?", "canonicalAnswer": "3", "aliases": ["Three"],
+    "distractors": ["2", "4", "5"], "explanation": "Modern fencing has three weapon disciplines: foil, épée, and sabre.",
+    "details": "The weapons differ in target area, valid contact, and right-of-way rules. Foil and épée score with the point, while sabre also permits scoring with the edge of the blade.",
+    "source": {"label": "International Fencing Federation", "url": "https://static.fie.org/uploads/38/190667-book%20m%20ang.pdf"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.ronaldinho": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.free-throw-point",
+    "subtopic": "Basketball", "detailTags": ["Basketball Scoring", "Free Throw", "Rules"],
+    "prompt": "How many points is a made free throw worth in basketball?", "canonicalAnswer": "1", "aliases": ["One", "One point", "1 point"],
+    "distractors": ["2", "3", "4"], "explanation": "Each successful basketball free throw adds one point to the score.",
+    "details": "Free throws are uncontested shots taken from behind the free-throw line after certain fouls or penalties. Depending on the play, a shooter may receive one, two, or three attempts.",
+    "source": {"label": "NBA Official Rules", "url": "https://official.nba.com/rule-no-9-free-throws-and-penalties/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.billie-jean-king": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.four-grand-slams",
+    "subtopic": "Tennis & Racket Sports", "detailTags": ["Tennis Majors", "Grand Slam", "Tournament Structure"],
+    "prompt": "How many Grand Slam tournaments are played in tennis each year?", "canonicalAnswer": "4", "aliases": ["Four"],
+    "distractors": ["3", "5", "6"], "explanation": "Tennis has four annual Grand Slam tournaments.",
+    "details": "They are the Australian Open, French Open, Wimbledon, and US Open. Winning all four singles titles in the same calendar year is known as a calendar Grand Slam.",
+    "source": {"label": "International Tennis Federation", "url": "https://www.itftennis.com/en/itf-tours/grand-slam-tournaments/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.hansi-hinterseer": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.alpine-slalom",
+    "subtopic": "Winter Sports", "detailTags": ["Alpine Skiing", "Slalom", "Winter Sport"],
+    "prompt": "Which alpine skiing event sends racers through the shortest, most tightly spaced gate course?", "canonicalAnswer": "Slalom", "aliases": ["Special slalom"],
+    "distractors": ["Downhill", "Super-G", "Giant slalom"], "explanation": "Slalom uses the quickest turns and most closely spaced gates of the alpine speed and technical events.",
+    "details": "A slalom competition normally combines times from two runs on different courses. Giant slalom uses wider spacing, while downhill and super-G emphasize speed over longer courses.",
+    "source": {"label": "International Ski and Snowboard Federation", "url": "https://assets.fis-ski.com/f/252177/x/d2dff21403/icr-06-07-2026.pdf"}, "answerMode": "recall"
+  }
+}

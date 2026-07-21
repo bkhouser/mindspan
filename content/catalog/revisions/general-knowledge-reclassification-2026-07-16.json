@@ -63,7 +63,19 @@
     "subtopics": ["Video Games"]
   },
   "lifestyle-culture-starter.opentdb.88de431a8f448112": {
-    "subtopics": ["Video Games"]
+    "subtopics": ["Craft Traditions", "Japanese Culture"],
+    "prompt": "What Japanese art repairs broken pottery with lacquer highlighted by powdered gold?",
+    "canonicalAnswer": "Kintsugi",
+    "aliases": ["Golden joinery", "Kintsukuroi"],
+    "distractors": ["Origami", "Ikebana", "Sashiko"],
+    "explanation": "Kintsugi repairs broken ceramics while making the repaired seams visible.",
+    "details": "The technique uses lacquer dusted or mixed with powdered metal, treating an object's breakage and repair as part of its history rather than something to disguise.",
+    "difficulty": 3,
+    "source": {
+      "label": "Smithsonian Magazine",
+      "url": "https://www.smithsonianmag.com/arts-culture/art-repairing-broken-pottery-180978477/"
+    },
+    "answerMode": "recall"
   },
   "lifestyle-culture-starter.opentdb.f634aa16e1caeb0d": {
     "topicSlug": "geography",

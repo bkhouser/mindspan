@@ -2,7 +2,10 @@ import { Crown, UserMinus, UserPlus } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CopyButton } from "@/components/copy-button";
-import { groupActivityLabel } from "@/domain/activity";
+import {
+  groupActivityDetail,
+  groupActivityLabel,
+} from "@/domain/activity";
 import {
   compareOverallPointStandings,
   compareTopicPointStandings,
@@ -47,6 +50,7 @@ export default async function GroupPage({
     { data: feedRows },
     { data: invites },
     { data: settings },
+    { data: achievementDefinitions },
   ] = await Promise.all([
     supabase
       .from("groups")
@@ -75,6 +79,7 @@ export default async function GroupPage({
       .select("default_timer_seconds")
       .eq("id", true)
       .single(),
+    supabase.from("achievements").select("id,description"),
   ]);
   if (!group) notFound();
   const currentMembership = memberships?.find(
@@ -137,6 +142,12 @@ export default async function GroupPage({
     feedRows && feedRows.length > 20 ? feedRows[19].created_at : null;
   const activityTopicNames = new Map(
     (topics ?? []).map((topic) => [topic.id, topic.name]),
+  );
+  const achievementDescriptions = new Map(
+    (achievementDefinitions ?? []).map((achievement) => [
+      achievement.id,
+      achievement.description,
+    ]),
   );
   const siteUrl = publicEnv().NEXT_PUBLIC_SITE_URL;
   const inviteUrl = query.invite
@@ -418,6 +429,11 @@ export default async function GroupPage({
                 const actor = Array.isArray(event.profiles)
                   ? event.profiles[0]
                   : event.profiles;
+                const detail = groupActivityDetail(
+                  event.kind,
+                  event.payload,
+                  achievementDescriptions,
+                );
                 return (
                   <li className="text-sm leading-6" key={event.id}>
                     <b>{actor?.display_name ?? "A member"}</b>{" "}
@@ -426,6 +442,11 @@ export default async function GroupPage({
                       event.payload,
                       activityTopicNames,
                     )}
+                    {detail ? (
+                      <p className="mt-0.5 text-xs leading-5 text-[var(--muted)]">
+                        {detail}
+                      </p>
+                    ) : null}
                     <time className="block text-xs text-[var(--muted)]">
                       {new Date(event.created_at).toLocaleDateString()}
                     </time>

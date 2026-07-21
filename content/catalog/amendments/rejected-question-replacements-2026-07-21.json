@@ -1,0 +1,190 @@
+{
+  "film-television-starter.opentdb.bc99ad379015885f": {
+    "replacementCatalogKey": "film-television-starter.replacement.20260721.storyboard",
+    "subtopic": "Directors & Filmmaking",
+    "detailTags": ["Storyboards", "Preproduction", "Visual Planning"],
+    "prompt": "What preproduction tool uses a sequence of drawings to plan a film's shots?",
+    "canonicalAnswer": "Storyboard",
+    "aliases": ["Storyboards"],
+    "distractors": ["Call sheet", "Shot log", "Continuity report"],
+    "explanation": "A storyboard maps out a scene as a sequence of planned images or shots.",
+    "details": "Filmmakers use storyboards to visualize framing, camera angles, movement, and the order of action before shooting begins. They can range from quick sketches to detailed digital illustrations.",
+    "difficulty": 2,
+    "source": {
+      "label": "Academy of Motion Picture Arts and Sciences",
+      "url": "https://www.oscars.org/sites/oscars/files/complete_art_direction_activities_guide.pdf"
+    },
+    "answerMode": "recall"
+  },
+  "history-starter.battle-location.marco-polo-bridge-incident": {
+    "replacementCatalogKey": "history-starter.replacement.20260721.domesday-book",
+    "subtopic": "Medieval History",
+    "detailTags": ["Domesday Book", "William the Conqueror", "Norman England"],
+    "prompt": "What great survey ordered by William the Conqueror recorded landholding and property values across much of England?",
+    "canonicalAnswer": "Domesday Book",
+    "aliases": ["Domesday survey"],
+    "distractors": ["Magna Carta", "Anglo-Saxon Chronicle", "Book of Kells"],
+    "explanation": "Domesday Book recorded landholding and property values across much of England.",
+    "details": "William I ordered the survey in 1085, and officials gathered the information the following year. The record helped the crown assess land, resources, obligations, and potential tax revenue after the Norman Conquest.",
+    "difficulty": 3,
+    "source": {
+      "label": "The National Archives",
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/domesday-book/"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.c3ae348a24629dd4": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260721.spf",
+    "subtopic": "Home & Daily Life",
+    "detailTags": ["Sunscreen", "SPF", "Sun Safety"],
+    "prompt": "On a bottle of sunscreen, what do the letters SPF stand for?",
+    "canonicalAnswer": "Sun Protection Factor",
+    "aliases": ["SPF"],
+    "distractors": ["Solar Protection Formula", "Skin Protection Filter", "Sun Prevention Factor"],
+    "explanation": "SPF stands for Sun Protection Factor, the rating used on sunscreen products.",
+    "details": "The SPF value is based on standardized testing of protection against sunburn-causing ultraviolet radiation. It does not mean a person can safely remain in the sun for that multiple of time, and sunscreen still needs to be applied as directed.",
+    "difficulty": 1,
+    "source": {
+      "label": "U.S. Food and Drug Administration",
+      "url": "https://www.accessdata.fda.gov/cder/sunscreen/index.html"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.replacement.20260721.playstation-3": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260721.qr-meaning",
+    "subtopic": "Everyday Technology",
+    "detailTags": ["QR Codes", "Barcodes", "Digital Information"],
+    "prompt": "What words are represented by the letters QR in QR Code?",
+    "canonicalAnswer": "Quick Response",
+    "aliases": [],
+    "distractors": ["Quality Read", "Query Response", "Quick Recognition"],
+    "explanation": "The name QR comes from Quick Response, reflecting the code's fast-reading design goal.",
+    "details": "Denso Wave developed the two-dimensional code in Japan and released it in 1994. Its square position-detection patterns let scanners locate and orient the code quickly from many angles.",
+    "difficulty": 1,
+    "source": {
+      "label": "DENSO WAVE",
+      "url": "https://www.qrcode.com/en/history/"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.397d5ff6d9f9e55b": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260721.rsvp",
+    "subtopic": "Customs & Etiquette",
+    "detailTags": ["Invitations", "RSVP", "French Phrases"],
+    "prompt": "What response is an invitation requesting when it includes the abbreviation RSVP?",
+    "canonicalAnswer": "Please reply",
+    "aliases": ["Répondez s'il vous plaît", "Repondez s'il vous plait"],
+    "distractors": ["Please arrive early", "Formal dress requested", "Guests may bring companions"],
+    "explanation": "RSVP asks an invited guest to reply and confirm whether they will attend.",
+    "details": "The abbreviation comes from the French phrase répondez s'il vous plaît, meaning please reply. Responding helps a host plan seating, food, and other arrangements even when the guest cannot attend.",
+    "difficulty": 2,
+    "source": {
+      "label": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/RSVP"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.89a5edbf8b556f33": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260721.hanami",
+    "subtopic": "Customs & Etiquette",
+    "detailTags": ["Hanami", "Cherry Blossoms", "Japanese Customs"],
+    "prompt": "What Japanese custom centers on gathering to view cherry blossoms?",
+    "canonicalAnswer": "Hanami",
+    "aliases": ["Cherry blossom viewing", "Flower viewing"],
+    "distractors": ["Obon", "Hatsumode", "Tanabata"],
+    "explanation": "Hanami is the Japanese custom of gathering to enjoy seasonal blossoms, especially cherry blossoms.",
+    "details": "The word literally refers to flower viewing. During cherry-blossom season, friends, families, and coworkers often gather beneath the trees for picnics, conversation, and appreciation of the brief bloom.",
+    "difficulty": 2,
+    "source": {
+      "label": "Smithsonian Institution",
+      "url": "https://www.si.edu/object/significance-sakura-cherry-blossom-traditions-japan%3Aposts_d865593c288333e43615617d2d6b1088"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.01404181100db0d7": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260721.knit-purl",
+    "subtopic": "Games, Hobbies & Recreation",
+    "detailTags": ["Knitting", "Knit Stitch", "Purl Stitch"],
+    "prompt": "What are the two basic stitches from which most knitting patterns are built?",
+    "canonicalAnswer": "Knit and purl",
+    "aliases": ["Knit stitch and purl stitch", "Knit and purl stitches"],
+    "distractors": ["Chain and slip", "Warp and weft", "Loop and hook"],
+    "explanation": "Knit and purl are the two basic stitches used to build knitted fabrics and patterns.",
+    "details": "A purl stitch is essentially the reverse face of a knit stitch. Working the stitches in different sequences produces familiar textures such as stockinette, garter stitch, and ribbing.",
+    "difficulty": 2,
+    "source": {
+      "label": "Craft Yarn Council",
+      "url": "https://www.craftyarncouncil.com/knit_vs_crochet.php3"
+    },
+    "answerMode": "recall"
+  },
+  "lifestyle-culture-starter.opentdb.5ea4d8ee5f5e8268": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260721.laundry-drying-symbol",
+    "subtopic": "Home & Daily Life",
+    "detailTags": ["Laundry Care", "Care Labels", "Drying Symbols"],
+    "prompt": "On an international clothing-care label, which basic shape represents drying instructions?",
+    "canonicalAnswer": "Square",
+    "aliases": [],
+    "distractors": ["Triangle", "Circle", "Washtub"],
+    "explanation": "A square is the basic care-label symbol for drying instructions.",
+    "details": "A circle inside the square indicates tumble drying, while horizontal or vertical lines inside it describe natural-drying methods such as flat or line drying. Dots and added marks provide further instructions.",
+    "difficulty": 3,
+    "source": {
+      "label": "GINETEX",
+      "url": "https://www.ginetex.net/gb/labelling/care-symbols.asp"
+    },
+    "answerMode": "recall"
+  },
+  "science-nature-starter.replacement.20260720.euler-polyhedron": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260721.mycology",
+    "subtopic": "Biology",
+    "detailTags": ["Mycology", "Fungi", "Biological Sciences"],
+    "prompt": "What branch of biology is devoted to the study of fungi?",
+    "canonicalAnswer": "Mycology",
+    "aliases": ["Fungal biology"],
+    "distractors": ["Bryology", "Entomology", "Ichthyology"],
+    "explanation": "Mycology is the scientific study of fungi, including yeasts, molds, and mushrooms.",
+    "details": "Mycologists investigate fungal classification, genetics, ecology, and practical effects. Fungi act as major decomposers, form partnerships with plants, produce useful medicines, and can also cause disease.",
+    "difficulty": 2,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/science/mycology"
+    },
+    "answerMode": "recall"
+  },
+  "sports-starter.replacement.20260720.race-walking-contact": {
+    "replacementCatalogKey": "sports-starter.replacement.20260721.photo-finish-torso",
+    "subtopic": "Athletics & Running",
+    "detailTags": ["Photo Finish", "Finish Line", "Track Rules"],
+    "prompt": "In a close footrace, which part of an athlete's body determines who crosses the finish line first?",
+    "canonicalAnswer": "Torso",
+    "aliases": [],
+    "distractors": ["Head", "Leading foot", "Outstretched hand"],
+    "explanation": "The finish is judged by the athlete's torso reaching the finish line before the others.",
+    "details": "The head, neck, arms, hands, legs, and feet do not determine the winner. Photo-finish systems record the line continuously so officials can compare the leading edge of each runner's torso in very close races.",
+    "difficulty": 3,
+    "source": {
+      "label": "World Athletics",
+      "url": "https://worldathletics.org/disciplines/middlelong/10000-metres"
+    },
+    "answerMode": "recall"
+  },
+  "trivia-101.opentdb.f6db4ba256b6052f": {
+    "replacementCatalogKey": "trivia-101.replacement.20260721.radarange",
+    "topicSlug": "lifestyle-culture",
+    "subtopic": "Everyday Technology",
+    "detailTags": ["Microwave Ovens", "Radarange", "Household Appliances"],
+    "prompt": "What kind of household appliance was sold under the name Radarange?",
+    "canonicalAnswer": "Microwave oven",
+    "aliases": ["Microwave"],
+    "distractors": ["Television", "Dishwasher", "Vacuum cleaner"],
+    "explanation": "Radarange was a brand name used for an early line of microwave ovens.",
+    "details": "Raytheon introduced the commercial Radarange after engineers discovered that microwave-frequency radio energy could heat food. Later Amana countertop models helped bring microwave cooking into ordinary homes.",
+    "difficulty": 2,
+    "source": {
+      "label": "National Museum of American History",
+      "url": "https://americanhistory.si.edu/collections/object/nmah_1255639"
+    },
+    "answerMode": "recall"
+  }
+}

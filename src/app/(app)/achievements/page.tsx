@@ -1,19 +1,73 @@
 import { Award, CheckCircle2, LockKeyhole, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import { achievementProgress } from "@/domain/achievements";
 import { requireUser } from "@/lib/auth";
 
 export default async function AchievementsPage() {
   const { user, supabase } = await requireUser();
-  const [{ data: definitions }, { data: earnedRows }] = await Promise.all([
+  const [
+    { data: definitions },
+    { data: earnedRows },
+    { data: profile },
+    { count: attempts },
+    { count: hardCorrect },
+    { data: mastery },
+    { count: loginDays },
+  ] = await Promise.all([
     supabase
       .from("achievements")
-      .select("id,slug,name,description,insight_reward,created_at,enabled")
+      .select(
+        "id,slug,name,description,evaluator_key,insight_reward,created_at,enabled",
+      )
       .order("created_at"),
     supabase
       .from("user_achievements")
       .select("achievement_id,earned_at")
       .eq("user_id", user.id),
+    supabase
+      .from("profiles")
+      .select("onboarding_completed")
+      .eq("id", user.id)
+      .single(),
+    supabase
+      .from("attempts")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", user.id),
+    supabase
+      .from("attempts")
+      .select("id,question_versions!inner(difficulty)", {
+        count: "exact",
+        head: true,
+      })
+      .eq("user_id", user.id)
+      .eq("correct", true)
+      .gte("question_versions.difficulty", 4),
+    supabase
+      .from("user_topic_mastery")
+      .select("tier,unique_questions,topics(slug)")
+      .eq("user_id", user.id),
+    supabase
+      .from("user_login_days")
+      .select("login_date", { count: "exact", head: true })
+      .eq("user_id", user.id),
   ]);
+  const proficientTopicSlugs =
+    mastery?.flatMap((row) => {
+      if (!["proficient", "expert", "master"].includes(row.tier)) return [];
+      const topic = Array.isArray(row.topics) ? row.topics[0] : row.topics;
+      return topic?.slug ? [topic.slug] : [];
+    }) ?? [];
+  const metrics = {
+    onboardingCompleted: Boolean(profile?.onboarding_completed),
+    totalAttempts: attempts ?? 0,
+    attemptedTopics:
+      mastery?.filter((row) => row.unique_questions > 0).length ?? 0,
+    proficientTopicSlugs,
+    hardCorrect: hardCorrect ?? 0,
+    rankedTopics:
+      mastery?.filter((row) => row.unique_questions >= 5).length ?? 0,
+    loginDays: loginDays ?? 0,
+  };
   const earnedById = new Map(
     earnedRows?.map((row) => [row.achievement_id, row.earned_at]),
   );
@@ -24,10 +78,16 @@ export default async function AchievementsPage() {
     .map((achievement) => ({
       ...achievement,
       earnedAt: earnedById.get(achievement.id) ?? null,
+      progress: achievementProgress(achievement.evaluator_key, metrics),
     }))
     .sort((a, b) => {
       if (a.earnedAt && !b.earnedAt) return -1;
       if (!a.earnedAt && b.earnedAt) return 1;
+      if (a.earnedAt && b.earnedAt) {
+        return (
+          new Date(b.earnedAt).getTime() - new Date(a.earnedAt).getTime()
+        );
+      }
       return a.name.localeCompare(b.name);
     });
   const earnedCount = achievements.filter(
@@ -60,7 +120,7 @@ export default async function AchievementsPage() {
       <section className="mt-6" aria-label="Achievement catalog">
         <Card className="overflow-hidden">
           <div className="overflow-x-auto">
-            <table className="w-full min-w-[760px] border-collapse text-left">
+            <table className="w-full min-w-[840px] border-collapse text-left">
               <caption className="sr-only">
                 All Mindspan achievements and their current status
               </caption>
@@ -74,6 +134,9 @@ export default async function AchievementsPage() {
                   </th>
                   <th className="px-4 py-2.5" scope="col">
                     Reward
+                  </th>
+                  <th className="px-4 py-2.5" scope="col">
+                    Progress
                   </th>
                   <th className="px-4 py-2.5" scope="col">
                     Status
@@ -120,6 +183,16 @@ export default async function AchievementsPage() {
                           <Sparkles aria-hidden="true" size={13} />
                           {achievement.insight_reward} Insight
                         </span>
+                      </td>
+                      <td className="px-4 py-3 text-xs font-black tabular-nums text-slate-200">
+                        {achievement.progress ? (
+                          <span className="whitespace-nowrap">
+                            {achievement.progress.current.toLocaleString()}/
+                            {achievement.progress.target.toLocaleString()}
+                          </span>
+                        ) : (
+                          <span className="text-[var(--muted)]">—</span>
+                        )}
                       </td>
                       <td className="px-4 py-3">
                         <div className="flex items-center gap-2 whitespace-nowrap">

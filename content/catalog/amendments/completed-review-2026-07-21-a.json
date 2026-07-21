@@ -1,0 +1,81 @@
+{
+  "film-television-starter.opentdb.0a3bc2420e7f4ee8": {"aliases":["Haley"]},
+  "arts-literature-starter.opentdb.1cd7dc2afd1c138b": {"difficulty":4},
+  "geography-starter.replacement.20260718.agulhas": {"difficulty":3},
+  "film-television-starter.opentdb.185ec53272d02b3b": {"aliases":["Westen"]},
+  "film-television-starter.opentdb.f843ff6dc46d2841": {"difficulty":3},
+  "trivia-101.opentdb.8f45b3c242b2ff09": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.yellow-brick-road",
+    "subtopic":"Film History & Classics",
+    "detailTags":["The Wizard of Oz","Dorothy Gale","Yellow Brick Road"],
+    "prompt":"In The Wizard of Oz, what road does Dorothy follow toward the Emerald City?",
+    "canonicalAnswer":"Yellow Brick Road",
+    "aliases":["The Yellow Brick Road"],
+    "distractors":["Emerald Road","Ruby Road","Rainbow Road"],
+    "explanation":"Dorothy follows the Yellow Brick Road toward the Emerald City.",
+    "details":"The road guides Dorothy and her companions across Oz to seek help from the Wizard. Its vivid color became one of the best-known visual motifs associated with the 1939 film.",
+    "difficulty":1,
+    "source":{"label":"Library of Congress","url":"https://www.loc.gov/loc/lcib/0003/oz.html"},
+    "answerMode":"recall"
+  },
+  "film-television-starter.opentdb.62193669c009c982": {"aliases":["Dan","Gheesling"]},
+  "sports-starter.replacement.20260720.original-six-count": {
+    "prompt":"From 1942 until the NHL expanded in 1967, how many franchises played in the league?",
+    "explanation":"Six NHL franchises played throughout the league's stable 1942–1967 era.",
+    "details":"Boston, Chicago, Detroit, Montreal, the New York Rangers, and Toronto are now collectively called the Original Six. The nickname describes that long six-team era, not the league's literal founding members."
+  },
+  "lifestyle-culture-starter.opentdb.363c9b1d9985170d": {"difficulty":4,"distractors":["Jimmy Wales","Sebastian Thrun","Andrew Ng"]},
+  "lifestyle-culture-starter.opentdb.0ad579adeb64b0e3": {"aliases":["Ball bearings"]},
+  "lifestyle-culture-starter.opentdb.7706d5be21915542": {"aliases":["Distance","Mileage","Distance the vehicle has traveled","Total distance"]},
+  "science-nature-starter.replacement.20260720.hail": {
+    "prompt":"What thunderstorm precipitation falls as layered balls or irregular lumps of ice?",
+    "explanation":"Hail consists of layered balls or irregular lumps of ice produced in thunderstorms.",
+    "details":"Strong thunderstorm updrafts carry ice particles upward repeatedly, adding layers of supercooled water before gravity wins. Sleet consists of frozen raindrops and usually forms through a different process closer to the ground."
+  },
+  "music-starter.replacement.20260720.orchestra-conductor": {"aliases":["Orchestra conductor","Music director","Orchestra director"]},
+  "history-starter.event-year.tambov-rebellion": {"aliases":["Jahan"]},
+  "lifestyle-culture-starter.opentdb.99556f168b2cbf76": {"aliases":["Tower of Terror"]},
+  "film-television-starter.opentdb.3c9c6ee3cbb445ed": {"aliases":["Hansen"]},
+  "film-television-starter.opentdb.0b9225e33094047e": {"difficulty":1},
+  "science-nature-starter.replacement.20260720.auxin": {"difficulty":4},
+  "sports-starter.team-venue.cn-atletic-barceloneta": {
+    "canonicalAnswer":"7",
+    "aliases":["Seven"],
+    "distractors":["6","8","9"],
+    "explanation":"A water polo team fields seven players in the pool: six field players and one goalkeeper.",
+    "details":"Teams may substitute from the bench according to competition rules. Players tread water throughout the game because they may not stand on or push off the bottom of the pool."
+  },
+  "geography-starter.replacement.20260718.palk-strait": {"difficulty":4},
+  "history-starter.battle-location.marco-polo-bridge-incident": {"aliases":["Lugou"]},
+  "science-nature-starter.element-number.unquadoctium": {
+    "prompt":"What constant is approximately equal to 6.022 × 10^23 particles per mole?",
+    "canonicalAnswer":"Avogadro's number",
+    "aliases":["Avogadro constant","Avogadro's constant","6.022 × 10^23","6.022e23"],
+    "distractors":["Planck's constant","Boltzmann constant","Gas constant"],
+    "explanation":"Avogadro's number is approximately 6.022 × 10^23 entities per mole.",
+    "details":"The value connects microscopic counts of atoms or molecules with laboratory-scale amounts of substance. Its exact SI value is 6.02214076 × 10^23 per mole."
+  },
+  "trivia-101.opentdb.7a5aaa8e5d0de34b": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.flux-capacitor",
+    "subtopic":"Science Fiction & Fantasy",
+    "detailTags":["Back to the Future","Time Travel","Film Props"],
+    "prompt":"What device makes time travel possible in Back to the Future?",
+    "canonicalAnswer":"Flux capacitor",
+    "aliases":["The flux capacitor"],
+    "distractors":["Arc reactor","Tesseract","Quantum drive"],
+    "explanation":"Doc Brown's flux capacitor is the key component that makes time travel possible.",
+    "details":"Doc says he conceived the device in 1955. Installed in the DeLorean time machine, it enables a trip through time when the car reaches 88 miles per hour and has sufficient power.",
+    "difficulty":1,
+    "source":{"label":"AFI Catalog","url":"https://catalog.afi.com/Film/55763-BACK-TO-THE-FUTURE"},
+    "answerMode":"recall"
+  },
+  "geography-starter.replacement.20260718.kilimanjaro": {"difficulty":3},
+  "arts-literature-starter.opentdb.3363f2dfdd209978": {"aliases":["Bradbury"]},
+  "trivia-101.opentdb.9ebdcc4178369ac6": {"difficulty":2,"aliases":["McVie"]},
+  "lifestyle-culture-starter.opentdb.9ba3d823b6400df9": {"difficulty":2},
+  "sports-starter.replacement.20260720.athens-1896": {"difficulty":2},
+  "trivia-101.opentdb.283844ee4d6c3eac": {"difficulty":2},
+  "science-nature-starter.element-number.unquadbium": {"difficulty":4},
+  "history-starter.monarch-country.haile-selassie-i": {"aliases":["Mongol","Mongols","Mongol realm"]},
+  "trivia-101.opentdb.1eba43c67ec5eeca": {"difficulty":2}
+}

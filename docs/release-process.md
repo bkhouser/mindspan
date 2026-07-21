@@ -34,6 +34,9 @@ Record operational details separately when they matter for deployment, such as:
   database compatibility before rolling application code back.
 - Test upgrades against representative existing-user state, not only newly
   created accounts.
+- Taxonomy releases may rebuild derived subtopic mastery from existing attempts,
+  but must not delete or rewrite those attempts, scores, feedback records, or
+  editorial history.
 
 ## In-app update history and version
 
@@ -65,18 +68,28 @@ Copy the reported `added`, `revised`, and `retired` values into that release's
 optional `questionChanges` object. Mindspan displays the summary when the total
 is at least 10 changes.
 
+Before that count, capture current development approvals with
+`npm run catalog:reviews:capture`. If Question Quality review also occurred in
+production, first download its latest action-items export and merge it with
+`npm run catalog:reviews:capture -- <export-file>`. Commit the resulting
+`content/catalog/editorial-approvals.json` with the catalog. The deployment
+catalog load applies an approval only to an exact matching content fingerprint;
+revised questions intentionally return to the unreviewed queue.
+
 ## Release checklist
 
 1. Review every merged change since the current production tag.
-2. Confirm `CHANGELOG.md` accurately covers all user-visible changes.
-3. Move completed Unreleased entries into a dated version section and remove
+2. Capture development approvals and merge the latest production Question
+   Quality export into the portable editorial-approval ledger.
+3. Confirm `CHANGELOG.md` accurately covers all user-visible changes.
+4. Move completed Unreleased entries into a dated version section and remove
    empty headings from that released section.
-4. Add the new entry to `content/releases.json`, update `package.json`, and run
+5. Add the new entry to `content/releases.json`, update `package.json`, and run
    `npm run release:verify` to verify package, display, release-note, and
    changelog versions together.
-5. Run lint, type checking, unit tests, production build, integration checks,
+6. Run lint, type checking, unit tests, production build, integration checks,
    and existing-user upgrade tests.
-6. Document pending migrations, expected data changes, backup locations, and
+7. Document pending migrations, expected data changes, backup locations, and
    rollback compatibility before deployment.
-7. Deploy the immutable release, verify health and restart persistence, then
+8. Deploy the immutable release, verify health and restart persistence, then
    smoke-test the update display and visible version in production.

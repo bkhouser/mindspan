@@ -1,0 +1,42 @@
+{
+  "film-television-starter.opentdb.e11c09689d4ff217": {
+    "subtopic": "Science Fiction & Fantasy",
+    "detailTags": ["Stargate", "Science Fiction Television", "Long-Running Series"],
+    "difficulty": 2
+  },
+  "film-television-starter.opentdb.f7717cc63ae7d8b9": {
+    "replacementCatalogKey": "film-television-starter.replacement.20260718.dunder-mifflin",
+    "subtopic": "Television Comedy",
+    "detailTags": ["The Office", "Sitcoms", "Fictional Workplaces"],
+    "prompt": "What fictional paper company employs the central characters in the U.S. sitcom The Office?",
+    "canonicalAnswer": "Dunder Mifflin",
+    "aliases": ["Dunder Mifflin Paper Company"],
+    "distractors": ["Wernham Hogg", "Sterling Cooper", "Pied Piper"],
+    "explanation": "Dunder Mifflin is the fictional paper company at the center of the U.S. version of The Office.",
+    "details": "Most of the series follows employees at Dunder Mifflin's Scranton, Pennsylvania, branch. The workplace setting supports the show's mockumentary style and many of its recurring conflicts and jokes.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/The-Office-American-television-program"
+    },
+    "answerMode": "recall"
+  },
+  "trivia-101.opentdb.09317bf1d975f72b": {
+    "replacementCatalogKey": "trivia-101.replacement.20260718.monopoly-properties",
+    "topicSlug": "lifestyle-culture",
+    "subtopic": "Games, Hobbies & Recreation",
+    "detailTags": ["Board Games", "Monopoly", "Classic Games"],
+    "prompt": "Which board game includes properties named Boardwalk and Park Place?",
+    "canonicalAnswer": "Monopoly",
+    "aliases": ["Monopoly board game"],
+    "distractors": ["Clue", "Risk", "The Game of Life"],
+    "explanation": "Boardwalk and Park Place are the two highest-priced properties on a standard U.S. Monopoly board.",
+    "details": "The familiar U.S. edition draws many of its property names from Atlantic City, New Jersey. Players buy and develop properties while trying to bankrupt their opponents.",
+    "difficulty": 1,
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Monopoly-board-game"
+    },
+    "answerMode": "recall"
+  }
+}

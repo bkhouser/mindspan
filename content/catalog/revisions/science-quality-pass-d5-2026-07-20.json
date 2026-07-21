@@ -1,0 +1,93 @@
+{
+  "science-nature-starter.scientist-field.john-howard-northrop": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.uncertainty-principle",
+    "subtopic": "Physics",
+    "detailTags": ["Quantum Mechanics", "Uncertainty Principle", "Particles"],
+    "prompt": "Which quantum principle limits how precisely a particle's position and momentum can be known together?",
+    "canonicalAnswer": "Heisenberg uncertainty principle",
+    "aliases": ["Uncertainty principle", "Heisenberg's uncertainty principle"],
+    "distractors": ["Pauli exclusion principle", "Equivalence principle", "Correspondence principle"],
+    "explanation": "The Heisenberg uncertainty principle sets a fundamental joint limit on position and momentum precision.",
+    "details": "The limitation is built into quantum states rather than caused merely by clumsy measurement. Narrowing a particle's possible position requires a wider spread of possible momentum values, and vice versa.",
+    "source": {"label": "OpenStax University Physics Volume 3", "url": "https://openstax.org/books/university-physics-volume-3/pages/7-2-the-heisenberg-uncertainty-principle"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.disease-specialty.cancer-of-unknown-primary-origin": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.countercurrent-gills",
+    "subtopic": "Zoology",
+    "detailTags": ["Fish", "Respiration", "Countercurrent Exchange"],
+    "prompt": "What exchange mechanism lets fish gills maintain an oxygen gradient along the full length of their lamellae?",
+    "canonicalAnswer": "Countercurrent exchange",
+    "aliases": ["Countercurrent flow", "Countercurrent gas exchange"],
+    "distractors": ["Concurrent exchange", "Active transport", "Osmotic pumping"],
+    "explanation": "Countercurrent exchange keeps water and blood flowing in opposite directions across fish gills.",
+    "details": "At every point along a gill lamella, nearby water retains a higher oxygen concentration than the blood beside it. This preserves diffusion across the entire surface and extracts oxygen more efficiently than parallel flow would.",
+    "source": {"label": "OpenStax Biology 2e", "url": "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.moon-parent.fenrir": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.double-blind",
+    "subtopic": "Scientific Discovery",
+    "detailTags": ["Experimental Design", "Clinical Trials", "Bias"],
+    "prompt": "In what kind of study do neither participants nor the researchers assessing them know who received each treatment?",
+    "canonicalAnswer": "Double-blind study",
+    "aliases": ["Double-blind trial", "Double-blinded study", "Double blind study"],
+    "distractors": ["Cohort study", "Open-label study", "Case report"],
+    "explanation": "A double-blind study conceals treatment assignments from participants and evaluating researchers.",
+    "details": "Blinding reduces the chance that expectations will influence reported symptoms, care, measurement, or interpretation. Randomization and a suitable comparison group address different sources of bias and often accompany blinding.",
+    "source": {"label": "National Cancer Institute", "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/double-blind-study"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.yury-pobedonostsev": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.photo-51",
+    "subtopic": "Scientific Discovery",
+    "detailTags": ["DNA History", "X-ray Diffraction", "Rosalind Franklin"],
+    "prompt": "What famous X-ray diffraction image made by Rosalind Franklin's research group revealed key clues to DNA's helical structure?",
+    "canonicalAnswer": "Photo 51",
+    "aliases": ["Photograph 51", "X-ray Photo 51"],
+    "distractors": ["Plate 96", "Image 23", "Figure 8"],
+    "explanation": "Photo 51 showed the distinctive diffraction pattern of DNA in its B form.",
+    "details": "Raymond Gosling produced the image while working under Rosalind Franklin at King's College London. Its cross-shaped pattern and measurements helped establish that DNA is helical and constrained models of its dimensions.",
+    "source": {"label": "King's College London", "url": "https://www.kcl.ac.uk/people/rosalind-franklin"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.disease-specialty.dwarfism": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.euler-polyhedron",
+    "subtopic": "Mathematics",
+    "detailTags": ["Geometry", "Polyhedra", "Euler Characteristic"],
+    "prompt": "For a convex polyhedron, what value does V - E + F equal?",
+    "canonicalAnswer": "2",
+    "aliases": ["Two"],
+    "distractors": ["0", "1", "4"],
+    "explanation": "Euler's polyhedron formula states that vertices minus edges plus faces equals two.",
+    "details": "A cube has 8 vertices, 12 edges, and 6 faces, so 8 - 12 + 6 = 2. The relation is a classic topological invariant for convex polyhedra and surfaces equivalent to a sphere.",
+    "source": {"label": "Wolfram MathWorld", "url": "https://mathworld.wolfram.com/PolyhedralFormula.html"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.moon-parent.gunnlod": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.binary-search-complexity",
+    "subtopic": "Computing",
+    "detailTags": ["Algorithms", "Binary Search", "Time Complexity"],
+    "prompt": "What is the standard worst-case time complexity of binary search on a sorted array?",
+    "canonicalAnswer": "O(log n)",
+    "aliases": ["Logarithmic time", "O(logarithm of n)", "Big O of log n"],
+    "distractors": ["O(1)", "O(n)", "O(n squared)"],
+    "explanation": "Binary search runs in O(log n) time because each comparison halves the remaining search range.",
+    "details": "After one comparison at most half the array remains, after two at most one quarter remains, and so on. Repeated halving takes roughly log base 2 of n steps in the worst case.",
+    "source": {"label": "NIST Dictionary of Algorithms and Data Structures", "url": "https://xlinux.nist.gov/dads/HTML/binarySearch.html"},
+    "answerMode": "recall"
+  },
+  "science-nature-starter.scientist-field.ernst-nolte": {
+    "replacementCatalogKey": "science-nature-starter.replacement.20260720.adiabatic-cooling",
+    "subtopic": "Weather & Climate",
+    "detailTags": ["Atmospheric Thermodynamics", "Rising Air", "Adiabatic Cooling"],
+    "prompt": "What process cools a rising parcel of unsaturated air as it expands without exchanging heat with its surroundings?",
+    "canonicalAnswer": "Adiabatic cooling",
+    "aliases": ["Adiabatic expansion", "Dry adiabatic cooling", "Adiabatic process"],
+    "distractors": ["Radiative heating", "Thermal inversion", "Latent heating"],
+    "explanation": "Rising air expands in lower pressure and cools adiabatically as it does work on its surroundings.",
+    "details": "Before saturation, rising air cools at the dry adiabatic lapse rate of about 9.8 degrees Celsius per kilometer. Once condensation begins, released latent heat reduces the rate of cooling.",
+    "source": {"label": "National Weather Service Glossary", "url": "https://forecast.weather.gov/glossary.php?word=adiabatic"},
+    "answerMode": "recall"
+  }
+}

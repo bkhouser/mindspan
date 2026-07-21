@@ -1,0 +1,101 @@
+{
+  "sports-starter.athlete-sport.franziska-van-almsick": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.medley-order",
+    "subtopic": "Aquatic Sports", "detailTags": ["Swimming", "Individual Medley", "Stroke Order"],
+    "prompt": "In what order are the four strokes swum in an individual medley?", "canonicalAnswer": "Butterfly, backstroke, breaststroke, freestyle", "aliases": ["Butterfly backstroke breaststroke freestyle", "Fly back breast free"],
+    "distractors": ["Backstroke, breaststroke, butterfly, freestyle", "Butterfly, breaststroke, backstroke, freestyle", "Freestyle, backstroke, breaststroke, butterfly"],
+    "explanation": "Individual medley swimmers race butterfly, backstroke, breaststroke, and freestyle in that order.",
+    "details": "Each stroke covers one-quarter of the total distance. The medley relay uses a different order—backstroke, breaststroke, butterfly, freestyle—because the backstroke swimmer begins in the water.",
+    "difficulty": 5, "source": {"label": "World Aquatics Competition Regulations", "url": "https://www.worldaquatics.com/rules/competition-regulations"}, "answerMode": "required_choice"
+  },
+  "sports-starter.competition-sport.fiba-saporta-cup": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.goaltending",
+    "subtopic": "Basketball", "detailTags": ["Basketball Rules", "Goaltending", "Shot Defense"],
+    "prompt": "What basketball violation occurs when a defender illegally touches a shot on its downward flight toward the basket?", "canonicalAnswer": "Goaltending", "aliases": ["Goal tending", "Defensive goaltending"],
+    "distractors": ["Basket interference only", "Charging", "Illegal screening"], "explanation": "Goaltending includes illegally touching a field-goal attempt while it is descending toward the basket.",
+    "details": "Additional restrictions apply when the ball is above the rim with a chance to score or after it has touched the backboard. Defensive goaltending awards the appropriate points as though the shot were made.",
+    "difficulty": 5, "source": {"label": "NBA Official Rules", "url": "https://official.nba.com/rule-no-11-basket-interference-goaltending/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.jesse-owens": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.jesse-owens-golds",
+    "subtopic": "Athletics & Running", "detailTags": ["Jesse Owens", "1936 Olympics", "Olympic Champions"],
+    "prompt": "How many gold medals did Jesse Owens win at the 1936 Berlin Olympics?", "canonicalAnswer": "4", "aliases": ["Four", "Four gold medals", "4 gold medals"],
+    "distractors": ["2", "3", "5"], "explanation": "Jesse Owens won four gold medals in Berlin in 1936.",
+    "details": "He won the 100 meters, 200 meters, long jump, and 4 × 100-meter relay. His success directly contradicted the Nazi regime's racist propaganda at the Games.",
+    "difficulty": 5, "source": {"label": "International Olympic Committee", "url": "https://olympics.com/en/athletes/jesse-owens"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.multan-sultans": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.dls-method",
+    "subtopic": "Cricket & Rugby", "detailTags": ["Cricket Rules", "Duckworth–Lewis–Stern", "Limited-Overs Cricket"],
+    "prompt": "What method recalculates a target score when rain interrupts a limited-overs cricket match?", "canonicalAnswer": "Duckworth–Lewis–Stern method", "aliases": ["DLS method", "Duckworth Lewis Stern", "Duckworth-Lewis-Stern", "Duckworth–Lewis method"],
+    "distractors": ["VJD countback", "Follow-on formula", "Boundary quotient"], "explanation": "The Duckworth–Lewis–Stern method sets a revised target after weather reduces available overs.",
+    "details": "The calculation estimates each team's remaining scoring resources using overs and wickets. It replaced cruder approaches that could unfairly value wickets or late-innings scoring opportunities.",
+    "difficulty": 5, "source": {"label": "International Cricket Council", "url": "https://www.icc-cricket.com/about/cricket/rules-and-regulations/duckworth-lewis-stern"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.colorado-crush": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.immaculate-reception",
+    "subtopic": "Football", "detailTags": ["Franco Harris", "Immaculate Reception", "NFL History"],
+    "prompt": "Which Pittsburgh Steelers player caught the pass known as the Immaculate Reception?", "canonicalAnswer": "Franco Harris", "aliases": ["Harris", "Franco Dok Harris"],
+    "distractors": ["Lynn Swann", "John Stallworth", "Terry Bradshaw"], "explanation": "Franco Harris caught the deflected pass and ran for the winning touchdown in the Immaculate Reception.",
+    "details": "The play occurred against the Oakland Raiders in the 1972 playoffs with seconds remaining. Debate over the ball's deflection became part of the play's legend, but the touchdown stood and transformed Steelers history.",
+    "difficulty": 5, "source": {"label": "Pro Football Hall of Fame", "url": "https://www.profootballhof.com/news/2022/12/the-immaculate-reception/"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.jaguar-formula-e-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.regenerative-braking",
+    "subtopic": "Motor Sports", "detailTags": ["Formula E", "Regenerative Braking", "Electric Racing"],
+    "prompt": "What technology lets a Formula E car recover kinetic energy while slowing and return it to the battery?", "canonicalAnswer": "Regenerative braking", "aliases": ["Brake energy regeneration", "Energy recovery", "Regen braking"],
+    "distractors": ["Turbocharging", "Active suspension", "Slipstream charging"], "explanation": "Regenerative braking converts part of the car's motion back into electrical energy during deceleration.",
+    "details": "The electric motors act as generators when the driver slows, reducing reliance on friction brakes and replenishing the battery. Energy management is therefore a central part of Formula E race strategy.",
+    "difficulty": 5, "source": {"label": "FIA Formula E", "url": "https://www.fiaformulae.com/en/news/2439"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.roswitha-esser": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.chamonix-1924",
+    "subtopic": "Winter Sports", "detailTags": ["1924 Winter Olympics", "Chamonix", "Olympic History"],
+    "prompt": "Which French resort hosted the first Winter Olympic Games in 1924?", "canonicalAnswer": "Chamonix", "aliases": ["Chamonix, France", "Chamonix-Mont-Blanc"],
+    "distractors": ["Grenoble", "Albertville", "Lake Placid"], "explanation": "Chamonix hosted the event later recognized as the first Winter Olympic Games.",
+    "details": "It was originally called International Winter Sports Week and took place beneath Mont Blanc. The International Olympic Committee subsequently designated it as the first Olympic Winter Games.",
+    "difficulty": 5, "source": {"label": "International Olympic Committee", "url": "https://olympics.com/en/olympic-games/chamonix-1924"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.michael-jung": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.eventing-phases",
+    "subtopic": "Olympics & International Sport", "detailTags": ["Equestrian Eventing", "Olympic Sport", "Three-Day Event"],
+    "prompt": "Which three phases make up equestrian eventing?", "canonicalAnswer": "Dressage, cross-country, and show jumping", "aliases": ["Dressage cross country show jumping", "Dressage, cross-country, jumping"],
+    "distractors": ["Dressage, polo, and racing", "Vaulting, driving, and dressage", "Cross-country, steeplechase, and polo"],
+    "explanation": "Eventing tests horse and rider in dressage, cross-country, and show jumping.",
+    "details": "Dressage evaluates precision and obedience, cross-country tests endurance and courage over solid obstacles, and show jumping tests careful jumping over knock-down rails. Penalties from all phases determine the result.",
+    "difficulty": 5, "source": {"label": "International Equestrian Federation", "url": "https://www.fei.org/eventing/"}, "answerMode": "required_choice"
+  },
+  "sports-starter.athlete-country.joelle-franzmann": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.ironman-distances",
+    "subtopic": "Athletics & Running", "detailTags": ["Triathlon", "Ironman", "Endurance Sports"],
+    "prompt": "Which set of distances makes up a full Ironman triathlon?", "canonicalAnswer": "2.4-mile swim, 112-mile bike, and 26.2-mile run", "aliases": ["3.8 km swim 180 km bike 42.2 km run", "2.4 swim 112 bike marathon"],
+    "distractors": ["1-mile swim, 50-mile bike, 10-mile run", "5-km swim, 100-km bike, half marathon", "10-km swim, 40-km bike, marathon"],
+    "explanation": "A full Ironman combines a 2.4-mile swim, 112-mile bicycle ride, and 26.2-mile marathon.",
+    "details": "The three disciplines are completed consecutively, with transitions counting toward total time. Metric equivalents are approximately 3.8 kilometers, 180 kilometers, and 42.2 kilometers.",
+    "difficulty": 5, "source": {"label": "IRONMAN", "url": "https://www.ironman.com/about-ironman-group"}, "answerMode": "required_choice"
+  },
+  "sports-starter.team-venue.chesapeake-bayhawks": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.lacrosse-origins",
+    "subtopic": "Rules, Records & Equipment", "detailTags": ["Lacrosse", "Indigenous Sport", "Sport History"],
+    "prompt": "Lacrosse originated among the Indigenous peoples of which continent?", "canonicalAnswer": "North America", "aliases": ["Northern America"],
+    "distractors": ["Europe", "Asia", "South America"], "explanation": "Indigenous peoples of North America created the games from which modern lacrosse developed.",
+    "details": "Haudenosaunee communities call lacrosse the Creator's Game and maintain deep ceremonial and cultural connections to it. European settlers adapted Indigenous stickball traditions into codified modern forms.",
+    "difficulty": 5, "source": {"label": "National Museum of the American Indian", "url": "https://americanindian.si.edu/nk360/lacrosse"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.zambia-women-s-national-volleyball-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.libero",
+    "subtopic": "Rules, Records & Equipment", "detailTags": ["Volleyball", "Libero", "Player Roles"],
+    "prompt": "Which volleyball defensive specialist wears a contrasting jersey and cannot complete a block?", "canonicalAnswer": "Libero", "aliases": ["The libero"],
+    "distractors": ["Setter", "Opposite hitter", "Middle blocker"], "explanation": "The libero is a back-row defensive specialist identified by a contrasting uniform.",
+    "details": "Liberos replace back-row players under special substitution procedures and cannot serve in some rulesets, block, or attempt to block. Additional restrictions apply to attacking the ball above net height.",
+    "difficulty": 5, "source": {"label": "FIVB Official Volleyball Rules", "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.comoros-national-under-20-football-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.panenka",
+    "subtopic": "Soccer", "detailTags": ["Penalty Kicks", "Antonín Panenka", "Soccer History"],
+    "prompt": "Which Czech player gave his name to a softly chipped penalty kick down the center of goal?", "canonicalAnswer": "Antonín Panenka", "aliases": ["Panenka", "Antonin Panenka"],
+    "distractors": ["Johan Cruyff", "Ferenc Puskás", "Lev Yashin"], "explanation": "Antonín Panenka popularized the chipped central penalty that now bears his name.",
+    "details": "He used it to score the decisive kick for Czechoslovakia in the 1976 European Championship final. The technique depends on the goalkeeper committing to a dive before the gently struck ball reaches the center.",
+    "difficulty": 5, "source": {"label": "UEFA", "url": "https://www.uefa.com/uefaeuro/history/news/0253-0d7b2f9f13f5-630715fca7f4-1000--panenka-s-penalty/"}, "answerMode": "recall"
+  }
+}

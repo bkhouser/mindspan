@@ -41,3 +41,19 @@ export function groupActivityLabel(
       return "unlocked a question pack";
   }
 }
+
+export function groupActivityDetail(
+  kind: ActivityKind,
+  payload: Json,
+  achievementDescriptionById: ReadonlyMap<string, string> = new Map(),
+) {
+  if (kind !== "achievement_earned") return null;
+
+  return (
+    payloadText(payload, "description") ??
+    achievementDescriptionById.get(
+      payloadText(payload, "achievement_id") ?? "",
+    ) ??
+    null
+  );
+}

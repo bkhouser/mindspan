@@ -1,0 +1,1526 @@
+[
+  {
+    "catalogKey": "at-the-table.ingredient-cilantro",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Ingredients"
+    ],
+    "prompt": "What leafy herb is called coriander leaf in many countries and cilantro in much of North America?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cilantro",
+    "aliases": [
+      "Coriander leaf",
+      "Fresh coriander"
+    ],
+    "distractors": [
+      "Parsley",
+      "Tarragon",
+      "Sage"
+    ],
+    "explanation": "Cilantro and coriander leaf name the fresh leaves of the same plant.",
+    "details": "The plant's dried seeds are usually called coriander in English, while naming conventions for the leaves vary by region.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Food",
+      "url": "https://www.britannica.com/topic/food"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.ingredient-saffron",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Ingredients"
+    ],
+    "prompt": "Which spice consists of dried stigmas collected from a purple crocus flower?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Saffron",
+    "aliases": [],
+    "distractors": [
+      "Turmeric",
+      "Paprika",
+      "Sumac"
+    ],
+    "explanation": "Saffron comes from the stigmas of Crocus sativus flowers.",
+    "details": "Each flower yields only three stigmas, so harvesting is highly labor-intensive and the spice is used sparingly for color and aroma.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Food",
+      "url": "https://www.britannica.com/topic/food"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.ingredient-umami",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Ingredients"
+    ],
+    "prompt": "Which basic taste is strongly associated with glutamate in foods such as mushrooms, tomatoes, and aged cheese?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Umami",
+    "aliases": [
+      "Savory"
+    ],
+    "distractors": [
+      "Astringency",
+      "Pungency",
+      "Maltiness"
+    ],
+    "explanation": "Umami is the savory basic taste stimulated strongly by glutamate.",
+    "details": "Nucleotides in ingredients such as dried mushrooms or fish can intensify glutamate's effect, producing culinary synergy.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Food",
+      "url": "https://www.britannica.com/topic/food"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.ingredient-aquafaba",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Ingredients"
+    ],
+    "prompt": "What cooking ingredient is the protein-rich liquid drained from cooked chickpeas?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Aquafaba",
+    "aliases": [
+      "Chickpea water",
+      "Chickpea liquid"
+    ],
+    "distractors": [
+      "Whey",
+      "Sofrito",
+      "Agar"
+    ],
+    "explanation": "Aquafaba can trap air and form foams much like egg whites.",
+    "details": "Cooks use it in vegan meringues, mousses, and emulsions because its dissolved proteins, starches, and other compounds stabilize bubbles.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Food",
+      "url": "https://www.britannica.com/topic/food"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.ingredient-asafoetida",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Ingredients"
+    ],
+    "prompt": "Which pungent resin called hing is used in South Asian cooking, often blooming in hot fat?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Asafoetida",
+    "aliases": [
+      "Asafetida",
+      "Hing"
+    ],
+    "distractors": [
+      "Ajwain",
+      "Amchur",
+      "Annatto"
+    ],
+    "explanation": "Asafoetida is a dried resin with an intense aroma that mellows during cooking.",
+    "details": "Especially useful in cuisines that avoid onion and garlic, a small amount adds deep allium-like savor to legumes and vegetable dishes.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Food",
+      "url": "https://www.britannica.com/topic/food"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.technique-saute",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cooking Techniques"
+    ],
+    "prompt": "What cooking method quickly fries food in a small amount of fat over fairly high heat?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sauteing",
+    "aliases": [
+      "Sautéing",
+      "Saute"
+    ],
+    "distractors": [
+      "Poaching",
+      "Steaming",
+      "Braising"
+    ],
+    "explanation": "Sauteing cooks small pieces quickly in a shallow layer of hot fat.",
+    "details": "The French verb means to jump, describing how ingredients may move in the pan as cooks toss or stir them.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cooking",
+      "url": "https://www.britannica.com/topic/cooking"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.technique-braise",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cooking Techniques"
+    ],
+    "prompt": "Which method browns food and then cooks it slowly with a modest amount of liquid in a covered vessel?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Braising",
+    "aliases": [
+      "Braise"
+    ],
+    "distractors": [
+      "Broiling",
+      "Blanching",
+      "Smoking"
+    ],
+    "explanation": "Braising combines dry-heat browning with gentle moist cooking.",
+    "details": "The long, covered stage tenderizes tough cuts and develops a concentrated sauce without fully submerging the food.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cooking",
+      "url": "https://www.britannica.com/topic/cooking"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.technique-deglaze",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cooking Techniques"
+    ],
+    "prompt": "What does a cook do when adding liquid to a hot pan to dissolve its browned bits?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Deglaze the pan",
+    "aliases": [
+      "Deglazing",
+      "Deglaze"
+    ],
+    "distractors": [
+      "Temper the pan",
+      "Proof the pan",
+      "Score the pan"
+    ],
+    "explanation": "Deglazing releases the flavorful browned residue called fond.",
+    "details": "Wine, stock, or another liquid loosens the fond so it can become the base of a pan sauce rather than remain stuck to the cookware.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cooking",
+      "url": "https://www.britannica.com/topic/cooking"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.technique-confit",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cooking Techniques"
+    ],
+    "prompt": "Which traditional preservation method slowly cooks meat in fat and stores it beneath the fat?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Confit",
+    "aliases": [],
+    "distractors": [
+      "Ceviche",
+      "Gravlax",
+      "Tempura"
+    ],
+    "explanation": "Confit uses low-temperature cooking and a protective layer of fat.",
+    "details": "The classic French preparation often uses salted duck or goose, though modern menus apply the word more broadly to slow-cooked ingredients.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cooking",
+      "url": "https://www.britannica.com/topic/cooking"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.technique-velveting",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cooking Techniques"
+    ],
+    "prompt": "What Chinese restaurant technique coats meat in starch and often egg white before a brief pre-cook?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Velveting",
+    "aliases": [],
+    "distractors": [
+      "Larding",
+      "Spatchcocking",
+      "En papillote"
+    ],
+    "explanation": "Velveting protects thin pieces of meat during high-heat cooking.",
+    "details": "The coating and brief oil- or water-blanching step help the finished meat remain tender and give it a characteristically smooth surface.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cooking",
+      "url": "https://www.britannica.com/topic/cooking"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.grain-rice",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Breads & Grains"
+    ],
+    "prompt": "Which staple grain is commonly grown in flooded paddies?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Rice",
+    "aliases": [],
+    "distractors": [
+      "Rye",
+      "Oats",
+      "Millet"
+    ],
+    "explanation": "Rice is a staple food for billions of people worldwide.",
+    "details": "Flooding is not biologically required for every rice variety, but managed paddies suppress many weeds and support water control.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "FAO: Cereal and Grain Products",
+      "url": "https://www.fao.org/4/w8079e/w8079e0u.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.grain-sourdough",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Breads & Grains"
+    ],
+    "prompt": "What mixture of flour and water contains the living yeasts and bacteria used to raise sourdough bread?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Starter",
+    "aliases": [
+      "Sourdough starter",
+      "Levain"
+    ],
+    "distractors": [
+      "Roux",
+      "Poolish salt",
+      "Bran mash"
+    ],
+    "explanation": "A sourdough starter maintains a community of wild yeast and lactic acid bacteria.",
+    "details": "Regular feeding supplies fresh flour and water, allowing the culture to produce gas, acids, and flavor compounds for future loaves.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "FAO: Cereal and Grain Products",
+      "url": "https://www.fao.org/4/w8079e/w8079e0u.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.grain-polenta",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Breads & Grains"
+    ],
+    "prompt": "Which northern Italian dish is a porridge traditionally made from coarsely ground cornmeal?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Polenta",
+    "aliases": [],
+    "distractors": [
+      "Risotto",
+      "Farro",
+      "Focaccia"
+    ],
+    "explanation": "Polenta is cornmeal cooked with liquid into a soft porridge.",
+    "details": "It may be served creamy or cooled until firm and then sliced, grilled, baked, or fried.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "FAO: Cereal and Grain Products",
+      "url": "https://www.fao.org/4/w8079e/w8079e0u.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.grain-nixtamal",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Breads & Grains"
+    ],
+    "prompt": "What alkaline process makes maize easier to grind and improves its nutritional availability for tortillas and tamales?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Nixtamalization",
+    "aliases": [
+      "Nixtamalisation"
+    ],
+    "distractors": [
+      "Malting",
+      "Pearling",
+      "Tempering"
+    ],
+    "explanation": "Nixtamalization cooks and soaks maize in an alkaline solution.",
+    "details": "The process loosens hulls, changes flavor and texture, improves dough formation, and makes niacin more biologically available.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "FAO: Cereal and Grain Products",
+      "url": "https://www.fao.org/4/w8079e/w8079e0u.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.grain-injera",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Breads & Grains"
+    ],
+    "prompt": "Which tiny grain is traditionally fermented to make Ethiopian and Eritrean injera?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Teff",
+    "aliases": [],
+    "distractors": [
+      "Freekeh",
+      "Spelt",
+      "Fonio"
+    ],
+    "explanation": "Teff flour is central to traditional injera, a sour fermented flatbread.",
+    "details": "The porous bread serves as both food and eating surface, absorbing sauces and stews while diners tear off pieces to scoop them up.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "FAO: Cereal and Grain Products",
+      "url": "https://www.fao.org/4/w8079e/w8079e0u.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.dairy-butter",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cheese & Dairy"
+    ],
+    "prompt": "What dairy product is made by churning cream until fat separates from buttermilk?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Butter",
+    "aliases": [],
+    "distractors": [
+      "Yogurt",
+      "Ricotta",
+      "Custard"
+    ],
+    "explanation": "Churning damages fat globule membranes so milk fat gathers into butter.",
+    "details": "The remaining liquid is traditional buttermilk, which differs from the cultured buttermilk commonly sold in modern supermarkets.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cheese",
+      "url": "https://www.britannica.com/topic/cheese"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.dairy-mozzarella",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cheese & Dairy"
+    ],
+    "prompt": "Which Italian cheese is traditionally stretched into an elastic texture and commonly used on pizza?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mozzarella",
+    "aliases": [],
+    "distractors": [
+      "Gorgonzola",
+      "Pecorino",
+      "Taleggio"
+    ],
+    "explanation": "Mozzarella belongs to the pasta filata family of stretched-curd cheeses.",
+    "details": "Hot curd is kneaded and pulled until smooth; versions range from high-moisture fresh cheese to firmer low-moisture pizza cheese.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cheese",
+      "url": "https://www.britannica.com/topic/cheese"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.dairy-rennet",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cheese & Dairy"
+    ],
+    "prompt": "What enzyme-rich substance is traditionally used to coagulate milk during cheesemaking?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Rennet",
+    "aliases": [],
+    "distractors": [
+      "Pectin",
+      "Malt",
+      "Gelatin"
+    ],
+    "explanation": "Rennet coagulates casein proteins so milk separates into curds and whey.",
+    "details": "Traditional animal rennet contains chymosin, while microbial and fermentation-produced alternatives are also widely used.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cheese",
+      "url": "https://www.britannica.com/topic/cheese"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.dairy-blue",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cheese & Dairy"
+    ],
+    "prompt": "Which mold genus creates the characteristic veins in cheeses such as Roquefort and Stilton?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Penicillium",
+    "aliases": [
+      "Penicillium roqueforti"
+    ],
+    "distractors": [
+      "Aspergillus",
+      "Rhizopus",
+      "Saccharomyces"
+    ],
+    "explanation": "Selected Penicillium molds produce blue or green veins and strong aromas.",
+    "details": "Cheesemakers pierce the cheese to admit oxygen, which helps the mold grow through channels within the paste.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cheese",
+      "url": "https://www.britannica.com/topic/cheese"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.dairy-affinage",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Cheese & Dairy"
+    ],
+    "prompt": "What French term names the controlled aging and care of cheese?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Affinage",
+    "aliases": [],
+    "distractors": [
+      "Bardage",
+      "Cuisson",
+      "Remuage"
+    ],
+    "explanation": "Affinage is the process of ripening cheese under managed conditions.",
+    "details": "An affineur may regulate humidity and temperature and turn, wash, brush, or otherwise tend cheeses as flavor and texture develop.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Cheese",
+      "url": "https://www.britannica.com/topic/cheese"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.drink-espresso",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Drinks"
+    ],
+    "prompt": "Which concentrated coffee is brewed by forcing hot water through finely ground beans?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Espresso",
+    "aliases": [],
+    "distractors": [
+      "Cold brew",
+      "Café au lait",
+      "Turkish coffee"
+    ],
+    "explanation": "Espresso uses pressure to extract a small, concentrated serving of coffee.",
+    "details": "It forms the base of drinks such as cappuccino and latte, but is also served alone with a characteristic layer of crema.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Beverage",
+      "url": "https://www.britannica.com/topic/beverage"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.drink-tea",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Drinks"
+    ],
+    "prompt": "Black, green, white, and oolong tea all come primarily from which plant species?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Camellia sinensis",
+    "aliases": [
+      "Tea plant"
+    ],
+    "distractors": [
+      "Coffea arabica",
+      "Ilex paraguariensis",
+      "Aspalathus linearis"
+    ],
+    "explanation": "True tea comes from leaves of Camellia sinensis.",
+    "details": "Processing choices such as withering, rolling, oxidation, and heating create major tea styles from the same species.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Beverage",
+      "url": "https://www.britannica.com/topic/beverage"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.drink-proof",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Drinks"
+    ],
+    "prompt": "In the United States, an alcoholic drink's proof is generally twice what percentage?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Alcohol by volume",
+    "aliases": [
+      "ABV",
+      "Alcohol percentage"
+    ],
+    "distractors": [
+      "Sugar by weight",
+      "Acidity",
+      "Barrel loss"
+    ],
+    "explanation": "U.S. proof is numerically twice the alcohol-by-volume percentage.",
+    "details": "A spirit labeled 80 proof therefore contains 40 percent alcohol by volume, though proof systems have differed historically by country.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Beverage",
+      "url": "https://www.britannica.com/topic/beverage"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.drink-champagne",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Drinks"
+    ],
+    "prompt": "In the traditional method, what creates sparkling wine's bubbles inside the sealed bottle?",
+    "answerMode": "recall",
+    "canonicalAnswer": "A second fermentation",
+    "aliases": [
+      "Secondary fermentation",
+      "Bottle fermentation"
+    ],
+    "distractors": [
+      "Injected nitrogen",
+      "Dry ice",
+      "Carbonated water"
+    ],
+    "explanation": "A second fermentation in the bottle produces dissolved carbon dioxide.",
+    "details": "Yeast and sugar are added before sealing; the spent yeast is later collected and removed through riddling and disgorgement.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Beverage",
+      "url": "https://www.britannica.com/topic/beverage"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.drink-qvevri",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Drinks"
+    ],
+    "prompt": "What large Georgian earthenware vessel is buried underground for fermenting and storing wine?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Qvevri",
+    "aliases": [
+      "Kvevri"
+    ],
+    "distractors": [
+      "Amphora",
+      "Samovar",
+      "Tagine"
+    ],
+    "explanation": "A qvevri is an egg-shaped clay wine vessel traditionally buried in the earth.",
+    "details": "Georgian winemaking may ferment grapes with skins, seeds, and stems inside it, using the surrounding ground to moderate temperature.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Beverage",
+      "url": "https://www.britannica.com/topic/beverage"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.asia-sushi",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "East & Southeast Asian Food"
+    ],
+    "prompt": "What vinegared grain forms the defining base of sushi?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Rice",
+    "aliases": [
+      "Sushi rice",
+      "Vinegared rice"
+    ],
+    "distractors": [
+      "Buckwheat",
+      "Barley",
+      "Millet"
+    ],
+    "explanation": "Seasoned rice, not raw fish, is the defining foundation of sushi.",
+    "details": "Toppings and fillings may be raw, cooked, cured, or vegetarian, while sashimi refers to sliced seafood served without sushi rice.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Asian Cuisine",
+      "url": "https://www.britannica.com/topic/cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.asia-kimchi",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "East & Southeast Asian Food"
+    ],
+    "prompt": "Which Korean staple consists of seasoned fermented vegetables, often napa cabbage or radish?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Kimchi",
+    "aliases": [],
+    "distractors": [
+      "Natto",
+      "Tempeh",
+      "Tsukemono"
+    ],
+    "explanation": "Kimchi is a broad family of Korean fermented vegetable dishes.",
+    "details": "Salt, temperature, ingredients, and lactic acid bacteria shape its preservation, acidity, texture, and regional variation.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Asian Cuisine",
+      "url": "https://www.britannica.com/topic/cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.asia-dashi",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "East & Southeast Asian Food"
+    ],
+    "prompt": "What Japanese stock is commonly made from kombu and dried bonito flakes?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Dashi",
+    "aliases": [],
+    "distractors": [
+      "Mirin",
+      "Ponzu",
+      "Miso"
+    ],
+    "explanation": "Dashi is a foundational Japanese stock valued for clean umami flavor.",
+    "details": "Kombu supplies glutamate while katsuobushi supplies flavor-enhancing nucleotides, creating a result stronger than either ingredient alone.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Asian Cuisine",
+      "url": "https://www.britannica.com/topic/cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.asia-wok-hei",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "East & Southeast Asian Food"
+    ],
+    "prompt": "What Cantonese expression describes the prized smoky character produced by intense wok cooking?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Wok hei",
+    "aliases": [
+      "Wok hay",
+      "Breath of the wok"
+    ],
+    "distractors": [
+      "Maillard broth",
+      "Five spice",
+      "Red cooking"
+    ],
+    "explanation": "Wok hei literally evokes the breath or energy of the wok.",
+    "details": "Very high heat, rapid tossing, vaporized oil, browning, and skilled timing contribute to the fleeting aroma and flavor.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Asian Cuisine",
+      "url": "https://www.britannica.com/topic/cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.asia-peranakan",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "East & Southeast Asian Food"
+    ],
+    "prompt": "Which cuisine developed among Chinese communities in maritime Southeast Asia and blends Chinese and local traditions?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Peranakan cuisine",
+    "aliases": [
+      "Nyonya cuisine",
+      "Nonya cuisine"
+    ],
+    "distractors": [
+      "Kaiseki",
+      "Hakka cuisine",
+      "Mughal cuisine"
+    ],
+    "explanation": "Peranakan food reflects centuries of Chinese settlement and local exchange.",
+    "details": "Its regional forms, including Nyonya cooking, combine techniques and ingredients associated with Chinese, Malay, Indonesian, and other communities.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Asian Cuisine",
+      "url": "https://www.britannica.com/topic/cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.middleeast-hummus",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "South Asian & Middle Eastern Food"
+    ],
+    "prompt": "Which legume is the main ingredient in hummus?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chickpea",
+    "aliases": [
+      "Chickpeas",
+      "Garbanzo bean"
+    ],
+    "distractors": [
+      "Lentil",
+      "Fava bean",
+      "Black bean"
+    ],
+    "explanation": "Hummus blends chickpeas with tahini, lemon, garlic, and other seasonings.",
+    "details": "Its name comes from the Arabic word for chickpeas, and many communities across the Middle East claim and adapt the dish.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Middle Eastern Cuisine",
+      "url": "https://www.britannica.com/topic/Middle-Eastern-cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.middleeast-tandoor",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "South Asian & Middle Eastern Food"
+    ],
+    "prompt": "What cylindrical oven gives its name to tandoori cooking?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Tandoor",
+    "aliases": [],
+    "distractors": [
+      "Karahi",
+      "Tawa",
+      "Handi"
+    ],
+    "explanation": "A tandoor is a high-heat clay or metal oven with a vertical chamber.",
+    "details": "Breads cling to its hot walls while skewered meats cook near the radiant heat and rising air from the fire below.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Middle Eastern Cuisine",
+      "url": "https://www.britannica.com/topic/Middle-Eastern-cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.middleeast-tahini",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "South Asian & Middle Eastern Food"
+    ],
+    "prompt": "What seed is ground into tahini?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sesame",
+    "aliases": [
+      "Sesame seeds"
+    ],
+    "distractors": [
+      "Poppy",
+      "Sunflower",
+      "Fenugreek"
+    ],
+    "explanation": "Tahini is a paste made from ground sesame seeds.",
+    "details": "It supplies richness and a gently bitter, nutty flavor to foods including hummus, sauces, sweets, and dressings.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Middle Eastern Cuisine",
+      "url": "https://www.britannica.com/topic/Middle-Eastern-cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.middleeast-tempering",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "South Asian & Middle Eastern Food"
+    ],
+    "prompt": "What South Asian technique fries whole spices in hot fat to release aroma before adding them to a dish?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Tadka",
+    "aliases": [
+      "Tempering",
+      "Chaunk",
+      "Baghaar"
+    ],
+    "distractors": [
+      "Dhungar",
+      "Dum",
+      "Bhuna"
+    ],
+    "explanation": "Tadka blooms spices in hot oil or ghee to extract fat-soluble flavors.",
+    "details": "The flavored fat may begin a recipe or be poured over a finished dish; regional names include tempering, chaunk, and baghaar.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Middle Eastern Cuisine",
+      "url": "https://www.britannica.com/topic/Middle-Eastern-cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.middleeast-wazwan",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "South Asian & Middle Eastern Food"
+    ],
+    "prompt": "What name is given to the elaborate multi-course Kashmiri banquet traditionally prepared by specialist cooks?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Wazwan",
+    "aliases": [],
+    "distractors": [
+      "Thali",
+      "Dastarkhwan",
+      "Langar"
+    ],
+    "explanation": "Wazwan is a ceremonial Kashmiri feast built around many carefully prepared courses.",
+    "details": "Specialist cooks called wazas prepare dishes that often feature lamb, and guests traditionally share food from large platters.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Middle Eastern Cuisine",
+      "url": "https://www.britannica.com/topic/Middle-Eastern-cuisine"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.europe-pasta",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "European Food"
+    ],
+    "prompt": "Which country is most closely associated with regional pasta traditions such as carbonara and pesto?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Italy",
+    "aliases": [],
+    "distractors": [
+      "Portugal",
+      "Belgium",
+      "Austria"
+    ],
+    "explanation": "Italy has hundreds of pasta shapes paired with distinct regional sauces.",
+    "details": "The most suitable pairing often reflects texture and structure: ridges catch chunky sauces, while long strands suit smoother coatings.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Europeana: Food and Drink",
+      "url": "https://www.europeana.eu/en/food-and-drink"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.europe-paella",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "European Food"
+    ],
+    "prompt": "From which Spanish region does paella originate?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Valencia",
+    "aliases": [],
+    "distractors": [
+      "Galicia",
+      "Andalusia",
+      "Catalonia"
+    ],
+    "explanation": "Paella originated in Valencia on Spain's Mediterranean coast.",
+    "details": "Traditional Valencian versions differ from mixed seafood versions popular abroad and are cooked in the wide pan that gives the dish its name.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Europeana: Food and Drink",
+      "url": "https://www.europeana.eu/en/food-and-drink"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.europe-socarrat",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "European Food"
+    ],
+    "prompt": "What Catalan or Valencian term describes the prized crisp rice layer at the bottom of a paella pan?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Socarrat",
+    "aliases": [],
+    "distractors": [
+      "Soffritto",
+      "Picada",
+      "Escabeche"
+    ],
+    "explanation": "Socarrat is the toasted layer of rice formed against the paella pan.",
+    "details": "Controlled heat near the end of cooking creates browning and crispness without turning the bottom into a burnt, bitter crust.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Europeana: Food and Drink",
+      "url": "https://www.europeana.eu/en/food-and-drink"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.europe-mother-sauces",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "European Food"
+    ],
+    "prompt": "In classical French cuisine, what collective name covers béchamel, velouté, espagnole, tomato, and hollandaise?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mother sauces",
+    "aliases": [
+      "Five mother sauces"
+    ],
+    "distractors": [
+      "Grand sauces",
+      "Five reductions",
+      "Sauces fines"
+    ],
+    "explanation": "The five mother sauces are foundational categories in classical French cooking.",
+    "details": "Many other sauces are described as derivatives created by adding aromatics, liquids, seasonings, or garnishes to a mother sauce.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Europeana: Food and Drink",
+      "url": "https://www.europeana.eu/en/food-and-drink"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.europe-solera",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "European Food"
+    ],
+    "prompt": "What fractional blending system ages wines such as sherry across stacked groups of barrels?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Solera system",
+    "aliases": [
+      "Solera"
+    ],
+    "distractors": [
+      "Méthode ancestrale",
+      "Ripasso method",
+      "Appassimento"
+    ],
+    "explanation": "A solera blends younger wine progressively with older wine across barrel tiers.",
+    "details": "Only part of the oldest tier is bottled at once, and replenishment maintains continuity of style over many harvests.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Europeana: Food and Drink",
+      "url": "https://www.europeana.eu/en/food-and-drink"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.global-cacao",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "African & American Foodways"
+    ],
+    "prompt": "What bean is processed to make chocolate?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cacao bean",
+    "aliases": [
+      "Cocoa bean",
+      "Cacao"
+    ],
+    "distractors": [
+      "Coffee bean",
+      "Vanilla bean",
+      "Tonka bean"
+    ],
+    "explanation": "Chocolate begins with seeds from the cacao tree's fruit.",
+    "details": "Fermentation and drying develop precursors that roasting transforms into chocolate aroma; grinding produces cocoa mass or chocolate liquor.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Folklife: Foodways",
+      "url": "https://folklife.si.edu/magazine/category/foodways"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.global-jollof",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "African & American Foodways"
+    ],
+    "prompt": "Which tomato-seasoned West African rice dish inspires spirited debate over national variations?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Jollof rice",
+    "aliases": [
+      "Jollof"
+    ],
+    "distractors": [
+      "Waakye",
+      "Thieboudienne",
+      "Bunny chow"
+    ],
+    "explanation": "Jollof is a one-pot rice dish with many West African versions.",
+    "details": "Recipes and preferred textures vary across countries, making friendly rivalry over Nigerian, Ghanaian, Senegalese, and other styles part of its fame.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Folklife: Foodways",
+      "url": "https://folklife.si.edu/magazine/category/foodways"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.global-barbecue",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "African & American Foodways"
+    ],
+    "prompt": "Which cooking tradition uses low heat and wood smoke to tenderize tough cuts over many hours?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Barbecue",
+    "aliases": [
+      "BBQ",
+      "Low and slow barbecue"
+    ],
+    "distractors": [
+      "Flambé",
+      "Fondue",
+      "Carpaccio"
+    ],
+    "explanation": "Low-and-slow barbecue uses smoke, heat, and time to transform connective tissue.",
+    "details": "Regional American traditions differ in favored meats, woods, sauces, and seasonings, and draw on Indigenous, African, Caribbean, and European foodways.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Folklife: Foodways",
+      "url": "https://folklife.si.edu/magazine/category/foodways"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.global-ceviche",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "African & American Foodways"
+    ],
+    "prompt": "Which dish cures raw seafood in citrus juice and is especially associated with Peru?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ceviche",
+    "aliases": [
+      "Cebiche",
+      "Seviche"
+    ],
+    "distractors": [
+      "Feijoada",
+      "Arepa",
+      "Mole"
+    ],
+    "explanation": "Ceviche combines seafood with acidic citrus and seasonings.",
+    "details": "Acid changes the seafood proteins but does not eliminate every food-safety risk, so freshness, temperature control, and handling still matter.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Folklife: Foodways",
+      "url": "https://folklife.si.edu/magazine/category/foodways"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.global-berbere",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "African & American Foodways"
+    ],
+    "prompt": "Which Ethiopian and Eritrean spice blend commonly includes chiles, fenugreek, and warm aromatics?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Berbere",
+    "aliases": [],
+    "distractors": [
+      "Ras el hanout",
+      "Za'atar",
+      "Dukkah"
+    ],
+    "explanation": "Berbere is a complex red spice blend central to many Ethiopian and Eritrean dishes.",
+    "details": "Its precise composition varies by household and region, but it commonly brings heat, fragrance, and depth to stews such as doro wat.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Folklife: Foodways",
+      "url": "https://folklife.si.edu/magazine/category/foodways"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.customs-chopsticks",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Dining Customs"
+    ],
+    "prompt": "In many East Asian dining traditions, what should you avoid doing by leaving chopsticks upright in a bowl of rice?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sticking them vertically",
+    "aliases": [
+      "Leaving them upright",
+      "Standing them in rice"
+    ],
+    "distractors": [
+      "Resting them on a holder",
+      "Using them to lift noodles",
+      "Holding them near the upper end"
+    ],
+    "explanation": "Upright chopsticks in rice can resemble offerings made for the dead.",
+    "details": "Customs differ across cultures and households, but the strong funerary association makes this a widely recognized table taboo.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Center for Folklife and Cultural Heritage",
+      "url": "https://folklife.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.customs-thali",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Dining Customs"
+    ],
+    "prompt": "What Indian meal format presents several dishes together on one platter?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Thali",
+    "aliases": [],
+    "distractors": [
+      "Bento",
+      "Meze",
+      "Smorgasbord"
+    ],
+    "explanation": "A thali brings complementary dishes together on a round tray or plate.",
+    "details": "The selection varies greatly by region and occasion, often balancing grains, breads, legumes, vegetables, pickles, sweets, and other flavors.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Center for Folklife and Cultural Heritage",
+      "url": "https://folklife.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.customs-meze",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Dining Customs"
+    ],
+    "prompt": "What term describes an assortment of small dishes shared in parts of the eastern Mediterranean and Middle East?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Meze",
+    "aliases": [
+      "Mezze"
+    ],
+    "distractors": [
+      "Dim sum",
+      "Tapas",
+      "Antipasto"
+    ],
+    "explanation": "Meze is a shared spread of small dishes rather than one fixed menu.",
+    "details": "It can accompany drinks or form a full social meal, with selections varying among Greek, Turkish, Levantine, Balkan, and other traditions.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Center for Folklife and Cultural Heritage",
+      "url": "https://folklife.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.customs-ethiopian",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Dining Customs"
+    ],
+    "prompt": "Which spongy flatbread commonly serves as both plate and utensil in Ethiopian and Eritrean meals?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Injera",
+    "aliases": [],
+    "distractors": [
+      "Lavash",
+      "Pita",
+      "Naan"
+    ],
+    "explanation": "Injera supports stews and salads while diners tear pieces to pick up food.",
+    "details": "Sharing from a common platter emphasizes the meal's social character, and feeding another person a bite can express affection or respect.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Center for Folklife and Cultural Heritage",
+      "url": "https://folklife.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "at-the-table.customs-omakase",
+    "topicSlug": "lifestyle-culture",
+    "packSlugs": [
+      "at-the-table"
+    ],
+    "subtopics": [
+      "Dining Customs"
+    ],
+    "prompt": "What Japanese dining term means leaving the selection to the chef?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Omakase",
+    "aliases": [],
+    "distractors": [
+      "Kaiseki",
+      "Izakaya",
+      "Teishoku"
+    ],
+    "explanation": "Omakase means entrusting the meal's choices to the chef.",
+    "details": "The format allows a chef to respond to season, quality, sequence, and the diner's reactions rather than follow a fixed list of selections.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Center for Folklife and Cultural Heritage",
+      "url": "https://folklife.si.edu/"
+    },
+    "expiresAt": null
+  }
+]

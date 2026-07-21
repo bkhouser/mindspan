@@ -6,7 +6,6 @@ import {
   Brain,
   ChevronDown,
   CircleUserRound,
-  FileQuestion,
   KeyRound,
   LayoutDashboard,
   ListChecks,
@@ -93,15 +92,6 @@ export function AppNav({
             href: "/admin/question-quality",
             label: "Question Quality",
             icon: ListChecks,
-          },
-        ]
-      : []),
-    ...(isAdmin
-      ? [
-          {
-            href: "/admin/questions",
-            label: "Questions",
-            icon: FileQuestion,
           },
         ]
       : []),

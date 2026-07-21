@@ -72,7 +72,7 @@ create table public.mindspan_seed_questions (
 insert into public.mindspan_seed_questions(topic_slug, prompt, answer, aliases, distractors, explanation, details, difficulty, source_label, source_url) values
 ('science-nature','What chemical symbol represents gold?','Au',array['gold','Au'],array['Ag','Fe','Gd'],'Gold uses the chemical symbol Au.','The symbol comes from the Latin word aurum, meaning gold.',1,'Royal Society of Chemistry','https://www.rsc.org/periodic-table/element/79/gold'),
 ('science-nature','What is the largest planet in our solar system?','Jupiter',array['Jupiter'],array['Saturn','Neptune','Earth'],'Jupiter is the solar system’s largest planet.','Its mass is more than twice that of all the other planets combined.',2,'NASA Solar System Exploration','https://science.nasa.gov/jupiter/'),
-('science-nature','What process lets plants convert light energy into chemical energy?','Photosynthesis',array['Photosynthesis'],array['Respiration','Fermentation','Transpiration'],'Plants use photosynthesis to turn light energy into stored chemical energy.','In plants, the process primarily occurs in chloroplasts and releases oxygen as a byproduct.',3,'Encyclopaedia Britannica','https://www.britannica.com/science/photosynthesis'),
+('science-nature','What process lets plants convert light energy into chemical energy?','Photosynthesis',array['Photosynthesis'],array['Respiration','Fermentation','Transpiration'],'Photosynthesis captures light energy and stores it in energy-rich organic molecules.','In plants, chlorophyll in chloroplasts absorbs light. The light-dependent reactions produce chemical energy and release oxygen from water; the Calvin cycle uses that energy to incorporate carbon dioxide into sugars.',2,'OpenStax Biology 2e','https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis'),
 ('science-nature','What elementary particle carries the electromagnetic force?','Photon',array['Photon','Photons'],array['Gluon','Neutrino','Proton'],'The photon is the force carrier of electromagnetism.','In quantum electrodynamics, electromagnetic interactions are described through photons.',4,'CERN','https://home.cern/science/physics/photon'),
 ('science-nature','Which element has atomic number 74?','Tungsten',array['Tungsten','W','Wolfram'],array['Tantalum','Rhenium','Osmium'],'Tungsten has atomic number 74 and symbol W.','Its symbol derives from wolfram, a name still used for the element in several languages.',5,'Royal Society of Chemistry','https://www.rsc.org/periodic-table/element/74/tungsten'),
 
@@ -83,27 +83,27 @@ insert into public.mindspan_seed_questions(topic_slug, prompt, answer, aliases, 
 ('history','Which Byzantine emperor ordered the compilation now called the Corpus Juris Civilis?','Justinian I',array['Justinian','Justinian I','Emperor Justinian'],array['Constantine I','Theodosius I','Basil II'],'Emperor Justinian I sponsored the Corpus Juris Civilis.','The sixth-century compilation became enormously influential in later civil-law traditions.',5,'Encyclopaedia Britannica','https://www.britannica.com/topic/Code-of-Justinian'),
 
 ('geography','What is the capital of Japan?','Tokyo',array['Tokyo'],array['Kyoto','Osaka','Sapporo'],'Tokyo is Japan’s capital.','The Tokyo metropolitan area is also one of the world’s largest urban concentrations.',1,'Japan National Tourism Organization','https://www.japan.travel/en/destinations/kanto/tokyo/'),
-('geography','Which continent contains the South Pole?','Antarctica',array['Antarctica'],array['Australia','South America','Asia'],'The geographic South Pole lies in Antarctica.','Antarctica is almost entirely covered by an ice sheet.',2,'National Science Foundation','https://www.nsf.gov/geo/opp/antarct/'),
+('geography','Which continent contains the South Pole?','Antarctica',array['Antarctica'],array['Australia','South America','Asia'],'The geographic South Pole lies in Antarctica.','Antarctica is almost entirely covered by an ice sheet.',1,'National Science Foundation','https://www.nsf.gov/geo/opp/antarct/'),
 ('geography','Which country is completely surrounded by South Africa?','Lesotho',array['Lesotho','Kingdom of Lesotho'],array['Eswatini','Botswana','Namibia'],'Lesotho is an enclave entirely surrounded by South Africa.','Its mountainous terrain has earned it the nickname Kingdom in the Sky.',3,'Encyclopaedia Britannica','https://www.britannica.com/place/Lesotho'),
-('geography','What strait separates southern Spain from northern Morocco?','Strait of Gibraltar',array['Strait of Gibraltar','Gibraltar Strait'],array['Bosporus','Strait of Messina','Dardanelles'],'The Strait of Gibraltar separates Europe from Africa.','It connects the Atlantic Ocean with the Mediterranean Sea.',4,'Encyclopaedia Britannica','https://www.britannica.com/place/Strait-of-Gibraltar'),
-('geography','What is the world’s largest island that is not considered a continent?','Greenland',array['Greenland'],array['New Guinea','Borneo','Madagascar'],'Greenland is the world’s largest noncontinental island.','Although geographically part of North America, Greenland is an autonomous territory within the Kingdom of Denmark.',5,'Encyclopaedia Britannica','https://www.britannica.com/place/Greenland'),
+('geography','What strait separates southern Spain from northern Morocco?','Strait of Gibraltar',array['Strait of Gibraltar','Gibraltar Strait','Gibraltar'],array['Bosporus','Strait of Messina','Dardanelles'],'The Strait of Gibraltar separates Europe from Africa.','It connects the Atlantic Ocean with the Mediterranean Sea.',4,'Encyclopaedia Britannica','https://www.britannica.com/place/Strait-of-Gibraltar'),
+('geography','What is the world’s largest island that is not considered a continent?','Greenland',array['Greenland'],array['New Guinea','Borneo','Madagascar'],'Greenland is the world’s largest noncontinental island.','Although geographically part of North America, Greenland is an autonomous territory within the Kingdom of Denmark.',2,'Encyclopaedia Britannica','https://www.britannica.com/place/Greenland'),
 
-('sports','How many players from one team are normally on the field in association football?','11',array['11','Eleven'],array['9','10','12'],'Each football team normally fields eleven players.','One of the eleven is the goalkeeper.',1,'IFAB Laws of the Game','https://www.theifab.com/laws/latest/the-players/'),
+('sports','How many players from one team are normally on the field in soccer?','11',array['11','Eleven'],array['9','10','12'],'Each soccer team normally fields eleven players, including its goalkeeper.','A match is played by two teams of no more than eleven players each. One must be the goalkeeper, and a team generally cannot start or continue with fewer than seven players.',1,'IFAB Laws of the Game','https://www.theifab.com/laws/latest/the-players/'),
 ('sports','Which tennis Grand Slam tournament is played on clay courts?','French Open',array['French Open','Roland Garros'],array['Wimbledon','US Open','Australian Open'],'The French Open is played on clay at Roland-Garros.','It is the only Grand Slam tournament contested on clay.',2,'Roland-Garros','https://www.rolandgarros.com/en-us/'),
 ('sports','Who scored 100 points in a single NBA game in 1962?','Wilt Chamberlain',array['Wilt Chamberlain','Chamberlain'],array['Bill Russell','Kareem Abdul-Jabbar','Elgin Baylor'],'Wilt Chamberlain scored 100 points on March 2, 1962.','He achieved the record for the Philadelphia Warriors against the New York Knicks.',3,'NBA','https://www.nba.com/news/history-wilt-chamberlain-100-point-game'),
-('sports','In cricket, how many stumps make up one wicket?','3',array['3','Three'],array['2','4','5'],'A cricket wicket consists of three stumps topped by two bails.','The wicket dimensions and construction are specified in Law 8.',4,'Marylebone Cricket Club','https://www.lords.org/mcc/the-laws-of-cricket/the-wickets'),
-('sports','Which trophy is awarded to the National Hockey League playoff champion?','Stanley Cup',array['Stanley Cup','The Stanley Cup'],array['Calder Cup','Grey Cup','Memorial Cup'],'The NHL playoff champion receives the Stanley Cup.','The trophy predates the NHL and was first awarded in 1893.',5,'Hockey Hall of Fame','https://www.hhof.com/thecollection/stanleycup.html'),
+('sports','In cricket, how many stumps make up one wicket?','3',array['3','Three'],array['2','4','5'],'A cricket wicket consists of three upright stumps topped by two bails.','The two wickets stand opposite one another at the ends of the pitch. Under Law 8, each is formed from three wooden stumps with two bails resting in grooves across their tops.',3,'Marylebone Cricket Club','https://www.lords.org/mcc/the-laws-of-cricket/the-wickets'),
+('sports','Which trophy is awarded to the National Hockey League playoff champion?','Stanley Cup',array['Stanley Cup','The Stanley Cup'],array['Calder Cup','Grey Cup','Memorial Cup'],'The NHL playoff champion is awarded the Stanley Cup.','Lord Stanley of Preston donated the trophy in 1892, before the NHL existed. It became the NHL championship trophy after the league formed and is famous for bearing the engraved names of champions.',2,'Hockey Hall of Fame','https://www.hhof.com/thecollection/stanleycup.html'),
 
 ('arts-literature','Who painted the Mona Lisa?','Leonardo da Vinci',array['Leonardo da Vinci','Leonardo','Da Vinci'],array['Michelangelo','Raphael','Titian'],'Leonardo da Vinci painted the Mona Lisa.','The portrait is held by the Louvre in Paris.',1,'Musée du Louvre','https://www.louvre.fr/en/explore/the-palace/from-the-mona-lisa-to-the-wedding-feast-at-cana'),
 ('arts-literature','Who wrote the novel Nineteen Eighty-Four?','George Orwell',array['George Orwell','Orwell','Eric Arthur Blair'],array['Aldous Huxley','Ray Bradbury','H. G. Wells'],'George Orwell wrote Nineteen Eighty-Four.','Published in 1949, the novel introduced terms such as Big Brother and doublethink.',2,'The Orwell Foundation','https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/'),
 ('arts-literature','Which artist painted The Persistence of Memory?','Salvador Dalí',array['Salvador Dali','Salvador Dalí','Dali','Dalí'],array['Joan Miró','René Magritte','Pablo Picasso'],'Salvador Dalí painted The Persistence of Memory.','The 1931 Surrealist work is famous for its soft, melting watches.',3,'Museum of Modern Art','https://www.moma.org/collection/works/79018'),
-('arts-literature','Who wrote the epic poem Paradise Lost?','John Milton',array['John Milton','Milton'],array['John Dryden','Alexander Pope','William Blake'],'John Milton wrote Paradise Lost.','The poem was first published in 1667 and is largely composed in blank verse.',4,'Poetry Foundation','https://www.poetryfoundation.org/poets/john-milton'),
-('arts-literature','What architectural support transfers a roof’s lateral thrust to an exterior pier?','Flying buttress',array['Flying buttress','A flying buttress'],array['Corbel','Pediment','Voussoir'],'A flying buttress carries lateral force outward to a separate support.','The technique enabled Gothic churches to use taller walls and larger windows.',5,'Encyclopaedia Britannica','https://www.britannica.com/technology/flying-buttress'),
+('arts-literature','Who wrote the epic poem Paradise Lost?','John Milton',array['John Milton','Milton'],array['John Dryden','Alexander Pope','William Blake'],'John Milton wrote Paradise Lost.','The poem was first published in 1667 and is largely composed in blank verse.',3,'Poetry Foundation','https://www.poetryfoundation.org/poets/john-milton'),
+('arts-literature','Which Gothic architectural feature uses an exterior arch to transfer a wall’s lateral thrust to a separate pier?','Flying buttress',array['Flying buttress','A flying buttress'],array['Corbel','Pediment','Voussoir'],'A flying buttress carries lateral force outward through an exterior arch to a separate support.','The technique enabled Gothic churches to use taller walls, larger windows, and extensive stained glass without sacrificing structural stability.',4,'Encyclopaedia Britannica','https://www.britannica.com/technology/flying-buttress'),
 
 ('film-television','Who directed the 1975 film Jaws?','Steven Spielberg',array['Steven Spielberg','Spielberg'],array['George Lucas','Francis Ford Coppola','Brian De Palma'],'Steven Spielberg directed Jaws.','The film’s enormous commercial success helped establish the modern summer blockbuster.',1,'American Film Institute','https://www.afi.com/afi-movie-club-jaws/'),
 ('film-television','Wakanda is the home country of which Marvel hero?','Black Panther',array['Black Panther','T Challa','T’Challa'],array['Doctor Strange','Thor','Ant-Man'],'Wakanda is the home of Black Panther, also known as T’Challa.','The fictional African nation is technologically advanced because of its vibranium resources.',2,'Marvel','https://www.marvel.com/characters/black-panther-t-challa'),
 ('film-television','Which 1927 film is widely credited with popularizing synchronized dialogue in feature films?','The Jazz Singer',array['The Jazz Singer','Jazz Singer'],array['Metropolis','Sunrise','Wings'],'The Jazz Singer helped usher in the era of talking pictures.','It was not the first film with synchronized sound, but its spoken sequences transformed the industry.',3,'Library of Congress','https://www.loc.gov/static/programs/national-film-preservation-board/documents/jazz_singer.pdf'),
-('film-television','Who directed the 1954 film Seven Samurai?','Akira Kurosawa',array['Akira Kurosawa','Kurosawa'],array['Yasujirō Ozu','Kenji Mizoguchi','Masaki Kobayashi'],'Akira Kurosawa directed Seven Samurai.','Its story structure influenced later ensemble action films, including The Magnificent Seven.',4,'The Criterion Collection','https://www.criterion.com/films/165-seven-samurai'),
+('film-television','Who directed the 1954 film Seven Samurai?','Akira Kurosawa',array['Akira Kurosawa','Kurosawa'],array['Yasujirō Ozu','Kenji Mizoguchi','Masaki Kobayashi'],'Akira Kurosawa directed Seven Samurai.','Its story structure influenced later ensemble action films, including The Magnificent Seven.',3,'The Criterion Collection','https://www.criterion.com/films/165-seven-samurai'),
 ('film-television','Which cinematographer shot Blade Runner 2049 and 1917?','Roger Deakins',array['Roger Deakins','Deakins'],array['Emmanuel Lubezki','Vittorio Storaro','Janusz Kamiński'],'Roger Deakins was cinematographer on both films.','He won Academy Awards for Blade Runner 2049 and 1917 after numerous earlier nominations.',5,'Academy of Motion Picture Arts and Sciences','https://www.oscars.org/oscars/ceremonies/2020'),
 
 ('music','How many strings does a standard violin have?','4',array['4','Four'],array['5','6','8'],'A standard violin has four strings.','From lowest to highest, they are normally tuned G, D, A, and E.',1,'Encyclopaedia Britannica','https://www.britannica.com/art/violin'),
@@ -116,7 +116,7 @@ insert into public.mindspan_seed_questions(topic_slug, prompt, answer, aliases, 
 ('lifestyle-culture','On which color square does the queen begin a game of chess?','Her own color',array['Her own color','Same color','A matching color'],array['The opposite color','Always white','Always black'],'Each queen begins on a square matching her color.','The mnemonic is “queen on her own color”: White on a light square and Black on a dark square.',2,'FIDE Laws of Chess','https://handbook.fide.com/chapter/E012023'),
 ('lifestyle-culture','What does the Japanese word sushi primarily refer to?','Vinegared rice',array['Vinegared rice','Seasoned rice','Sour rice'],array['Raw fish','Seaweed','Soy sauce'],'Sushi refers primarily to prepared vinegared rice.','Raw fish may accompany sushi, but it is not required; sashimi is sliced raw seafood served without sushi rice.',3,'Japan Ministry of Agriculture, Forestry and Fisheries','https://www.maff.go.jp/e/policies/market/k_ryouri/search_menu/'),
 ('lifestyle-culture','Which microorganisms drive the fermentation of traditional sauerkraut?','Lactic acid bacteria',array['Lactic acid bacteria','Lactobacillus','LAB'],array['Yeast only','Acetic acid bacteria','Molds'],'Lactic acid bacteria ferment the sugars in cabbage.','The resulting acids preserve the cabbage and create sauerkraut’s characteristic flavor.',4,'National Center for Home Food Preservation','https://nchfp.uga.edu/how/ferment/recipes/sauerkraut/'),
-('lifestyle-culture','In the board game Go, what term describes a single empty point inside a surrounded group?','Liberty',array['Liberty','A liberty'],array['Ko','Atari','Eye'],'An empty adjacent point available to a stone or connected group is a liberty.','A group with no liberties is captured; a group with one liberty is in atari.',5,'American Go Association','https://www.usgo.org/brief-history-go');
+('lifestyle-culture','In the board game Go, what term describes a single empty point inside a surrounded group?','Liberty',array['Liberty','A liberty'],array['Ko','Atari','Eye'],'An empty adjacent point available to a stone or connected group is a liberty.','A group with no liberties is captured; a group with one liberty is in atari.',3,'American Go Association','https://www.usgo.org/brief-history-go');
 
 insert into public.questions(id) select question_id from public.mindspan_seed_questions on conflict do nothing;
 
@@ -166,7 +166,7 @@ with labels(prompt, subtopic_name) as (values
   ('Which country is completely surrounded by South Africa?', 'African Geography'),
   ('What strait separates southern Spain from northern Morocco?', 'Straits and Waterways'),
   ('What is the world’s largest island that is not considered a continent?', 'Islands'),
-  ('How many players from one team are normally on the field in association football?', 'Association Football'),
+  ('How many players from one team are normally on the field in soccer?', 'Soccer'),
   ('Which tennis Grand Slam tournament is played on clay courts?', 'Tennis'),
   ('Who scored 100 points in a single NBA game in 1962?', 'Basketball'),
   ('In cricket, how many stumps make up one wicket?', 'Cricket'),
@@ -175,7 +175,7 @@ with labels(prompt, subtopic_name) as (values
   ('Who wrote the novel Nineteen Eighty-Four?', 'Fiction'),
   ('Which artist painted The Persistence of Memory?', 'Surrealism'),
   ('Who wrote the epic poem Paradise Lost?', 'Poetry'),
-  ('What architectural support transfers a roof’s lateral thrust to an exterior pier?', 'Architecture'),
+  ('Which Gothic architectural feature uses an exterior arch to transfer a wall’s lateral thrust to a separate pier?', 'Architecture'),
   ('Who directed the 1975 film Jaws?', 'Film Directors'),
   ('Wakanda is the home country of which Marvel hero?', 'Superhero Films'),
   ('Which 1927 film is widely credited with popularizing synchronized dialogue in feature films?', 'Film History'),
@@ -218,7 +218,7 @@ with labels(prompt, subtopic_name) as (values
   ('Which country is completely surrounded by South Africa?', 'African Geography'),
   ('What strait separates southern Spain from northern Morocco?', 'Straits and Waterways'),
   ('What is the world’s largest island that is not considered a continent?', 'Islands'),
-  ('How many players from one team are normally on the field in association football?', 'Association Football'),
+  ('How many players from one team are normally on the field in soccer?', 'Soccer'),
   ('Which tennis Grand Slam tournament is played on clay courts?', 'Tennis'),
   ('Who scored 100 points in a single NBA game in 1962?', 'Basketball'),
   ('In cricket, how many stumps make up one wicket?', 'Cricket'),
@@ -227,7 +227,7 @@ with labels(prompt, subtopic_name) as (values
   ('Who wrote the novel Nineteen Eighty-Four?', 'Fiction'),
   ('Which artist painted The Persistence of Memory?', 'Surrealism'),
   ('Who wrote the epic poem Paradise Lost?', 'Poetry'),
-  ('What architectural support transfers a roof’s lateral thrust to an exterior pier?', 'Architecture'),
+  ('Which Gothic architectural feature uses an exterior arch to transfer a wall’s lateral thrust to a separate pier?', 'Architecture'),
   ('Who directed the 1975 film Jaws?', 'Film Directors'),
   ('Wakanda is the home country of which Marvel hero?', 'Superhero Films'),
   ('Which 1927 film is widely credited with popularizing synchronized dialogue in feature films?', 'Film History'),
@@ -251,6 +251,34 @@ from labels
 join public.question_versions qv on qv.prompt = labels.prompt
 join public.subtopics st on st.topic_id = qv.topic_id and st.slug =
   trim(both '-' from regexp_replace(lower(labels.subtopic_name), '[^a-z0-9]+', '-', 'g'))
+on conflict do nothing;
+
+with requested(prompt, tag_name) as (values
+  ('Which artist painted The Persistence of Memory?', 'Artists'),
+  ('Which artist painted The Persistence of Memory?', 'Surrealism'),
+  ('Which Gothic architectural feature uses an exterior arch to transfer a wall’s lateral thrust to a separate pier?', 'Gothic Architecture'),
+  ('Which Gothic architectural feature uses an exterior arch to transfer a wall’s lateral thrust to a separate pier?', 'Structural Engineering')
+), resolved as (
+  select distinct
+    qv.question_id,
+    qv.topic_id,
+    requested.tag_name,
+    trim(both '-' from regexp_replace(lower(requested.tag_name), '[^a-z0-9]+', '-', 'g')) as tag_slug
+  from requested
+  join public.question_versions qv on qv.prompt = requested.prompt
+), inserted_tags as (
+  insert into public.detail_tags(topic_id, slug, name)
+  select distinct topic_id, tag_slug, tag_name
+  from resolved
+  on conflict(topic_id, slug) do update set name = excluded.name
+  returning id
+)
+insert into public.question_detail_tags(question_id, detail_tag_id)
+select resolved.question_id, detail_tags.id
+from resolved
+join public.detail_tags
+  on detail_tags.topic_id = resolved.topic_id
+  and detail_tags.slug = resolved.tag_slug
 on conflict do nothing;
 
 drop table public.mindspan_seed_questions;

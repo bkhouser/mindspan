@@ -1,0 +1,2772 @@
+{
+  "schemaVersion": 1,
+  "approvals": {
+    "arts-literature-starter.opentdb.0086f0862dd22f46": [
+      "0ccf5a687bf7f5b0fdac4f2f5e5842e6"
+    ],
+    "arts-literature-starter.opentdb.016ef242e405f131": [
+      "8deb7792ce48f2e84a7343ab4ccc211d"
+    ],
+    "arts-literature-starter.opentdb.0332d88074f2c9c6": [
+      "6f20276e044ec027f7f5dd48650a80c9"
+    ],
+    "arts-literature-starter.opentdb.064ed814a11e4a0c": [
+      "9c8161fb5286f3026644fe2e8b514c19"
+    ],
+    "arts-literature-starter.opentdb.0a0325e2c28fbd1e": [
+      "872f9a0da79f59998007292c4e5a5673"
+    ],
+    "arts-literature-starter.opentdb.0b707393d3a7c543": [
+      "5470ebd0272af856cc030f3286c9c60f"
+    ],
+    "arts-literature-starter.opentdb.0cf1d8771f60d4b0": [
+      "9a5fab16401bc96c72ba6b5022611e00"
+    ],
+    "arts-literature-starter.opentdb.0dc6d01fa51fe71e": [
+      "5bb958cfdeb1cb3cd7be11af7e8b537c"
+    ],
+    "arts-literature-starter.opentdb.0e608c2e41d22145": [
+      "4d37fff24aa77aefc65ed8a361e9d91d"
+    ],
+    "arts-literature-starter.opentdb.12fb6e4a8571e553": [
+      "2a0753256f67f1266e9f09d6f33d40c8"
+    ],
+    "arts-literature-starter.opentdb.17e30bdfcf20eb13": [
+      "7db8e621d6d1b4006289bb2b928efd64"
+    ],
+    "arts-literature-starter.opentdb.1aad9f2e06570da5": [
+      "a95e764e1223850cb351170f0f4febee"
+    ],
+    "arts-literature-starter.opentdb.1cd7dc2afd1c138b": [
+      "96a0dc17a9d82c87edb7949a2f6392d0"
+    ],
+    "arts-literature-starter.opentdb.230cecf7b3247ce3": [
+      "feba3b9166263e01a3539f2f805add9e"
+    ],
+    "arts-literature-starter.opentdb.27937af9b6844014": [
+      "0f4b6806dc53f49d14cb54b0629edcf1"
+    ],
+    "arts-literature-starter.opentdb.2c144d7cdad718c8": [
+      "39086412e57675ab1e17d788bb38992c"
+    ],
+    "arts-literature-starter.opentdb.2f5a5e3911866c3f": [
+      "3000ec16dab00b1e22a8cb1409411f4d"
+    ],
+    "arts-literature-starter.opentdb.3096afed17137eaf": [
+      "cfae5078595c17b381685b3600bbe87b"
+    ],
+    "arts-literature-starter.opentdb.31fcbe3f36ca1045": [
+      "919073f51afddb48af252ae047fef68a"
+    ],
+    "arts-literature-starter.opentdb.3363f2dfdd209978": [
+      "591908cb1e99147e8b1c2062860a52b1"
+    ],
+    "arts-literature-starter.opentdb.49307361a1c22b3e": [
+      "686bda2a502f71b7244a37112c2900d7",
+      "c8c69383896bf0c044a4855f057aef50"
+    ],
+    "arts-literature-starter.opentdb.4a393d0102047d06": [
+      "dd033fa1125417d4a862bb59e64a0aad"
+    ],
+    "arts-literature-starter.opentdb.4fba1a0903576cae": [
+      "9fef89d5a6b89d51f994f167175b4a63"
+    ],
+    "arts-literature-starter.opentdb.52b03238ea9a6084": [
+      "fd5d60b6ed1d6050e32eb6614bfd10cb"
+    ],
+    "arts-literature-starter.opentdb.5478c2d7457abb3d": [
+      "72672f0c1b4e41435285d35c3ad2a2ef"
+    ],
+    "arts-literature-starter.opentdb.55413466fa679f20": [
+      "15588121332b253957b034c719273fdf"
+    ],
+    "arts-literature-starter.opentdb.5653ded4aa68cec9": [
+      "27ecfdffcf21b4b3f7fa0044c98e6088"
+    ],
+    "arts-literature-starter.opentdb.56d2e20f25a0c63d": [
+      "a9b07d97cbc0a5e8192d9505b6cc632d"
+    ],
+    "arts-literature-starter.opentdb.5d49dca418246404": [
+      "8e275720ac431e2998ed619ab47bae63"
+    ],
+    "arts-literature-starter.opentdb.653a1da4f18e5ae2": [
+      "399f3a709be7bb9e8487f59ece618a09"
+    ],
+    "arts-literature-starter.opentdb.66194afb1be4aeab": [
+      "c04b496408c7be69b58ac02cd8dbe38f"
+    ],
+    "arts-literature-starter.opentdb.68a41b72fabe1be5": [
+      "2885d6441fa86369bfaed99e5271f6a9"
+    ],
+    "arts-literature-starter.opentdb.6abb804734177ae4": [
+      "0fb5a6ee47485297cc129d9224e0636f"
+    ],
+    "arts-literature-starter.opentdb.749102c4d3669593": [
+      "5c50e764155e540ae56c0766ee543947"
+    ],
+    "arts-literature-starter.opentdb.7501b6c1aa7ce3c3": [
+      "84802a129f323957c8c77b8dd70fe839"
+    ],
+    "arts-literature-starter.opentdb.78c25b77c79a09dc": [
+      "7a97ade3230cf69b473aa69f5ae52e0b"
+    ],
+    "arts-literature-starter.opentdb.78d701ec8e63f810": [
+      "f58528df0c3bb539140f112b1a31abee"
+    ],
+    "arts-literature-starter.opentdb.7962f510d959ea6b": [
+      "07886560b0b7939c694c8d3dcade2bfe"
+    ],
+    "arts-literature-starter.opentdb.7c3fbc243fd62cfe": [
+      "d8579a6b13050dd4b18b03bd3d0d5a6a"
+    ],
+    "arts-literature-starter.opentdb.7e20b018519f2ef2": [
+      "c35cd100de61de1489c119906b847570"
+    ],
+    "arts-literature-starter.opentdb.8229f0a0b40f56e7": [
+      "6ac6c9581e4f1874ba45b28a3ea0499b"
+    ],
+    "arts-literature-starter.opentdb.827857d5a30d4b08": [
+      "c714e33cadf2da1ee0226017e27cbde0"
+    ],
+    "arts-literature-starter.opentdb.894b412b46db84a6": [
+      "aeb1f81b641aa01ce6eab970b45d9e09"
+    ],
+    "arts-literature-starter.opentdb.8b4a6252730d62a1": [
+      "cac36a0f2fc7cadbdf726c718db074f5"
+    ],
+    "arts-literature-starter.opentdb.8cb684e96447fb08": [
+      "3d3c078eec29092229cce09940de3d22"
+    ],
+    "arts-literature-starter.opentdb.90f172246775cbfd": [
+      "10c8cfdfcd47b86e0f6ada013a1458d2"
+    ],
+    "arts-literature-starter.opentdb.9a9e41bcd9c93730": [
+      "9740ad1c74198be908ab33020638b039"
+    ],
+    "arts-literature-starter.opentdb.9b43450b74e4ee0d": [
+      "d78c2386b438404cf29a53b2da498b43"
+    ],
+    "arts-literature-starter.opentdb.9bc831fb5662f37a": [
+      "cadbc866e492f67fdecd07a2df7d7556"
+    ],
+    "arts-literature-starter.opentdb.a044d213a31ab7dc": [
+      "19d3425109fbec6c00a789385933c892"
+    ],
+    "arts-literature-starter.opentdb.a133103f1372b325": [
+      "37cbb3a42937eafab399cfa85dd164fb",
+      "d68bee6e82faaee1f32180ab871794c3"
+    ],
+    "arts-literature-starter.opentdb.a2ce7644466c12fe": [
+      "ae5809f4dc551389e44f600602878c9d"
+    ],
+    "arts-literature-starter.opentdb.a5b4e3b51b129366": [
+      "f18759949498fe6a6d3faf5f71366ccf"
+    ],
+    "arts-literature-starter.opentdb.abd02539d2f9ede5": [
+      "0068179d0a1b39733c86f3e288c47b58"
+    ],
+    "arts-literature-starter.opentdb.ac5bbab7c25d70d4": [
+      "0a592f4839d52d526de3e7ba250b1e50"
+    ],
+    "arts-literature-starter.opentdb.acbe94dd44a8a9c7": [
+      "e229cb393134cdd81262fb16ef35c1fb"
+    ],
+    "arts-literature-starter.opentdb.ad72a00b12a7783a": [
+      "85ad2c51a7539100aefdcf52677a3eb5"
+    ],
+    "arts-literature-starter.opentdb.b08b8c32efbfc2f4": [
+      "8fdce903cd877c622d8d0addf1e3beae"
+    ],
+    "arts-literature-starter.opentdb.b395331dfb51d441": [
+      "c769f78fb3e528a967bf8884fc97c7ff"
+    ],
+    "arts-literature-starter.opentdb.b872ddce46d16da4": [
+      "6805ee1dc8b6a72a0a82976fd899aaa1"
+    ],
+    "arts-literature-starter.opentdb.bf681f54aa70d486": [
+      "7f4122389703c6e603a22b0e5b04c8eb",
+      "b059596b5ca668b701e4114708a94aa6"
+    ],
+    "arts-literature-starter.opentdb.c0dbc8c0eec2329a": [
+      "0199a6a7a8c7f0a4645f758d851684cc"
+    ],
+    "arts-literature-starter.opentdb.cf8b2fdf3ac51f4d": [
+      "6a418078cd979f0af15a65f10c0c786b"
+    ],
+    "arts-literature-starter.opentdb.d01e7ab92434c707": [
+      "2da947a35092dbde6896a431c6f26219"
+    ],
+    "arts-literature-starter.opentdb.d2f66e018ed70f48": [
+      "8d5b889becbe9d8c59806a88a6acc396"
+    ],
+    "arts-literature-starter.opentdb.d688fc10a225c5f4": [
+      "7209327168684704c2eb46db7b95f431"
+    ],
+    "arts-literature-starter.opentdb.d79807a7d0e8e75a": [
+      "ca2479adb68766ebac90367e8562ffce"
+    ],
+    "arts-literature-starter.opentdb.db80087a98e01186": [
+      "344bc45f7239c28bd0f7b5f974553746"
+    ],
+    "arts-literature-starter.opentdb.df26da1473472524": [
+      "bccbdfd7aeb1070181e0b20463a56e88"
+    ],
+    "arts-literature-starter.opentdb.df976a2066a0b531": [
+      "c603aa22081b4403694518b36b7f7360"
+    ],
+    "arts-literature-starter.opentdb.e06e5a8abb568805": [
+      "283d1f6c9936ee9b327150d513769449"
+    ],
+    "arts-literature-starter.opentdb.e0c8993e681146b4": [
+      "898b73b85140c2bff681a89c2a8c51da"
+    ],
+    "arts-literature-starter.opentdb.e47c1d6b37756fe6": [
+      "d4cc689eebca3a9bf319e3358d46f969"
+    ],
+    "arts-literature-starter.opentdb.e8c58e62e9aa0092": [
+      "a93dc606be3de35ca2630dfa8e13253b"
+    ],
+    "arts-literature-starter.opentdb.ebc2a564c5508245": [
+      "4635dcbd7a68ec5498fb6c4558cb2440"
+    ],
+    "arts-literature-starter.opentdb.ed905b52d9f64f46": [
+      "e5c58ee45a56e9953790e48a7030cb3e"
+    ],
+    "arts-literature-starter.opentdb.ef68cf0ffe12bdd9": [
+      "b639f836cd98bf5d869ddc3422b261f7"
+    ],
+    "arts-literature-starter.opentdb.efd1d835c20ebdbe": [
+      "30e056b4a91efbd329784e19ba9962ef"
+    ],
+    "arts-literature-starter.opentdb.f0e9bf69e9a66bdd": [
+      "1b7ed60e74d437fe3ddcf1da7811e546"
+    ],
+    "arts-literature-starter.opentdb.f13e9741c8036410": [
+      "21bb7bbb980288e44cecc1bc719803ce"
+    ],
+    "arts-literature-starter.opentdb.f352307dad76306a": [
+      "6b50d84f0a222653932687f9aef2cc78"
+    ],
+    "arts-literature-starter.opentdb.f3b1511fd8952141": [
+      "c81fff2959b9632c46f7ffa1de316530"
+    ],
+    "arts-literature-starter.opentdb.f57c1d8371a821e7": [
+      "d67abc0d391cf8875b18e9f7685542e3"
+    ],
+    "arts-literature-starter.opentdb.f6c8a9e34538299e": [
+      "3049de8baa77f2795e170c1ac4a97c9a"
+    ],
+    "arts-literature-starter.opentdb.f7e9e5f6d0d4a425": [
+      "91aa7318a4cf692750f61021533ebfd8"
+    ],
+    "arts-literature-starter.opentdb.f8f8145ee94d41c8": [
+      "e2184b442666ed3a8ae13c1ca39041f9"
+    ],
+    "arts-literature-starter.opentdb.fd80e0afbdea01b8": [
+      "79a5065b14c8422be28fef7612aa0010"
+    ],
+    "arts-literature-starter.replacement.20260718.discworld": [
+      "906d3f94522cb1d4549635f2b4d90aca"
+    ],
+    "arts-literature-starter.replacement.20260718.impressionism": [
+      "c744e684ddcb09915470f79b871c6277"
+    ],
+    "arts-literature-starter.replacement.20260718.kindred": [
+      "e63e125d8dc9169a6918bc2679d0147c"
+    ],
+    "arts-literature-starter.replacement.20260718.mockingbird": [
+      "e34b40ed2aaab1085bac3dff7d76a6ed"
+    ],
+    "arts-literature-starter.replacement.20260718.pointillism": [
+      "cf4ea19c9a93f65900f7b97fb187cb94"
+    ],
+    "arts-literature-starter.replacement.20260718.rodin-thinker": [
+      "24e177bfbb86085bd5b0553b848baa06"
+    ],
+    "arts-literature-starter.replacement.20260718.wrinkle-time": [
+      "21e756a54b775a59065ae1bd97586246"
+    ],
+    "arts-literature-starter.replacement.20260721.screaming-lambs": [
+      "cf19d4b01e6bbb8c019aab71efe071ed"
+    ],
+    "easy-does-it.opentdb.04ca3fe5fd5e94bb": [
+      "11985ccd55392180978385051bb2c41e",
+      "2c06346332048150e874f99ea7d25dc8"
+    ],
+    "easy-does-it.opentdb.0521f2041805faa5": [
+      "165d4d35a2af2dee71312edfae38045e",
+      "b723566d2bb97c445561b54235c9aeb9"
+    ],
+    "easy-does-it.opentdb.0773d22d29701c69": [
+      "34739ea1023a4e9f60cfc305dd869545",
+      "85ec645967fd245966a4efe5b9fc8dc3"
+    ],
+    "easy-does-it.opentdb.156aeec902055d73": [
+      "19465f70178a187162d9f44d974eb261",
+      "da2c315bd7b0cae35f58593778640bd6"
+    ],
+    "easy-does-it.opentdb.18eb986bb73d8c7a": [
+      "40001909eee64ef1f6e97a9c46f8003d",
+      "877c63eccb8352e57c987a1d4ccb9900"
+    ],
+    "easy-does-it.opentdb.1b5a34c3e5f02757": [
+      "2041cf14e0694bce660ad218a5cd6fa8",
+      "a4874658eefd53ae299d12714d888d91"
+    ],
+    "easy-does-it.opentdb.1ca147c97d9db6b8": [
+      "b55acc8d80dd849573b4005c9a4ef6b7",
+      "c64445abb97e0c8c1ca94a92313ebc0a"
+    ],
+    "easy-does-it.opentdb.3899396f304d9690": [
+      "5bd9cdcdbdd57158be06aef8681ab588",
+      "c294859046a26ae50ae6486f18b6d291"
+    ],
+    "easy-does-it.opentdb.39e77df462e20698": [
+      "113f36d2a256f4a9aab4a303b2da0456",
+      "f7f8256a4f2b9c3bcd0a6df3c0e8b1c5"
+    ],
+    "easy-does-it.opentdb.3b9df37bbde6ad9b": [
+      "2548b6a904807e324d1c946626a74397",
+      "4057c344739aaeb0acdacbbc1e6693df"
+    ],
+    "easy-does-it.opentdb.3eb4e0fa6f61faee": [
+      "d6451f050382fa9a648d60c59cdcb6aa"
+    ],
+    "easy-does-it.opentdb.40b3e9b4b2121249": [
+      "832404ec2aec330f37ccb33793564110",
+      "a0d4567e70c6e4442d8bd5fea67aee9b"
+    ],
+    "easy-does-it.opentdb.425276a0efdd7799": [
+      "cbde97b07c6650d0972db37cd7fdb51f"
+    ],
+    "easy-does-it.opentdb.450e34a2807a09ad": [
+      "72e539ee10c83088a3159a464feb47ca",
+      "e9dd2477cc872bcb55376275798a746a"
+    ],
+    "easy-does-it.opentdb.58cf990c0b5915a3": [
+      "272d03a3b8dd1a49496d9acbc36ada62",
+      "f36f9a297deac2f397cd76e74158161d"
+    ],
+    "easy-does-it.opentdb.5a0194fbb8fae3be": [
+      "48600ac11fca3965a6919a236c253404",
+      "98e1c21838a7189967e1a63860ec3f23"
+    ],
+    "easy-does-it.opentdb.5e7163fbe5bb3855": [
+      "72be2527a624fddc2d77a5823274b9ab",
+      "bcd40fa0dbb9542da8af52b9a9fbc2d6"
+    ],
+    "easy-does-it.opentdb.64faa6d441a0d465": [
+      "0283e42ee2fa09955146e6afc32861e3",
+      "8bb0b5432acb3ba5bbca5d90af21a74d"
+    ],
+    "easy-does-it.opentdb.668f81343318c1cf": [
+      "6c0491b1b51e5c93d35982448b415c5e",
+      "9c88c219e33ecbfb38bf44782dae1e31",
+      "bc34d3bb819dc472af5bc42abbfd3101"
+    ],
+    "easy-does-it.opentdb.75d8133b4c9ae5ff": [
+      "2d7779ae15c67f72928acb669939bdc1",
+      "7f38882d041242406d5d281640ad89ee"
+    ],
+    "easy-does-it.opentdb.7cb14e3723da4947": [
+      "5dabce5b53769ed056f9f399bf669eab",
+      "88d455a5797cb8f2ae47df38df4ab90f"
+    ],
+    "easy-does-it.opentdb.7d180f804ef859cb": [
+      "1687978ac34c383b97bc8912f2fb671f",
+      "a56fa2ec3c61c046d7f2ca95e6f66694"
+    ],
+    "easy-does-it.opentdb.7dcd13363b49df12": [
+      "69343f2a1e62a208ceb806b1532a1fb5",
+      "a014c5263f1991b8c3ec64b688dea6f5"
+    ],
+    "easy-does-it.opentdb.8cf71644fa8b5973": [
+      "bd4cdd5650fed9994447a3cc191060df",
+      "d53501f28ba4ebc00d401be23dac1181"
+    ],
+    "easy-does-it.opentdb.8da6364216e3afe8": [
+      "35ae72f7770ff4d56b69dd1e39f18e4c",
+      "e07766e463af4f6a051effc7ec4d0bc8"
+    ],
+    "easy-does-it.opentdb.92148e8a998fab6b": [
+      "386866a4a5039a387b46da5a6e62a7b7",
+      "a88b4201c43946075458525a9047e316",
+      "d4675048ae1fd957383b787fe4348e17"
+    ],
+    "easy-does-it.opentdb.9800e24197aa3b47": [
+      "680ddaa8813965669fc7006504e03e5c",
+      "7ca505376720ede24badd2d1584d7e04"
+    ],
+    "easy-does-it.opentdb.9bf9f8ba7aa2f6b5": [
+      "9283d515c8f0190f644f30cd1b4113c2",
+      "ae685059fe2a98a385987d84f8309a4f"
+    ],
+    "easy-does-it.opentdb.a0d87d8f291c7710": [
+      "41b5f164fb8b99a9b6b3ceb6c6be0449",
+      "6d29632cd96ea3e83012ad447f13efc5",
+      "75ca775b03dcb385eda0f4a8ea616f71"
+    ],
+    "easy-does-it.opentdb.a160dea133c90099": [
+      "03020bc81a41873ce6c2ffb7cc7b94e4"
+    ],
+    "easy-does-it.opentdb.aa31640d14d53150": [
+      "15750f0439b2d5e21b830699c7ad0933",
+      "8e2782d7b8873a33e9d021ce79383414"
+    ],
+    "easy-does-it.opentdb.b17397bdc8dbac32": [
+      "e794b273ec57926c687d0796a7e805a5"
+    ],
+    "easy-does-it.opentdb.b65a4c26a02790ae": [
+      "9ce1103009a22a3bd30c6c371e9e2142",
+      "ff5394a8296d15d1bd64e963a288ba76"
+    ],
+    "easy-does-it.opentdb.b92d89bacc347924": [
+      "8896c8fcdb0e95e7426d2d3dde752461"
+    ],
+    "easy-does-it.opentdb.ba8c10a3960a3637": [
+      "1be4f2970c7be671692d7042f22f65d8",
+      "d76b51fe6341b072e657e019600edd5f"
+    ],
+    "easy-does-it.opentdb.c01d026d8e1b31fc": [
+      "11f5b99c32cd18c6dde320f1a8e368f3",
+      "5ad175671a4b45bba5bfcad33ea2d798",
+      "e783794f0fa7c5b6916d24095ad5cc9c"
+    ],
+    "easy-does-it.opentdb.c208bd4a3fd41826": [
+      "7c178d8505232bdfa6bf5139837cdf3e",
+      "bfa08082184f312aa1af6e9244d1838c"
+    ],
+    "easy-does-it.opentdb.ce252b3ea1bfc2f9": [
+      "98a65d98a743604c6e6aabf7fc30fd2c",
+      "d57c42645ba4daf18c6a8252496cf32b",
+      "fe0bb945b4a27c42a5707c6d85291f15"
+    ],
+    "easy-does-it.opentdb.d05cd7f970e9f6f3": [
+      "3bc512770e75c99ef4c2755fad3ebf64"
+    ],
+    "easy-does-it.opentdb.d0c625e67ff72cb0": [
+      "9dd75dce078e576dbae88033e3e87d56",
+      "d82a54d719d131bfe91cbef96584f7b2"
+    ],
+    "easy-does-it.opentdb.dccbb84411f85182": [
+      "304d6ffffce58f06558cb3a6f1a4240e",
+      "ae4d5e7882bd930fe383080d1d0aa77d"
+    ],
+    "easy-does-it.opentdb.de708c7c0f4f5a20": [
+      "b458e10c78ae6cf635f47015b2323ba2",
+      "d32e935054680195349d7638c6e21a55"
+    ],
+    "easy-does-it.opentdb.ef66e20f740c6692": [
+      "0c1a07c50878eff2362647fdde610660",
+      "a6644d387fb2da94fd2f1f5bef9a950e"
+    ],
+    "easy-does-it.opentdb.f164cbc8b878f45a": [
+      "22a7d21ddc68a98f28a0a3137e86c1ba",
+      "7444827433e4b036978b0507218062b3"
+    ],
+    "easy-does-it.opentdb.f2960042928e33d2": [
+      "52e0f11c1be7651611dc3e71de2e75e7",
+      "d28fc688a5e78c60a4c9e583738eeb69"
+    ],
+    "easy-does-it.opentdb.f3e3740813e63d27": [
+      "c235185999b84fc2f33c3a0f617b81ee"
+    ],
+    "easy-does-it.opentdb.f6e8c06f24125ebb": [
+      "5f99d21e3e9c829343c7a3999208aef5",
+      "c1b4820b2b5120055fe77c05ac13409d"
+    ],
+    "easy-does-it.opentdb.f83ff1219e86ff8e": [
+      "3e6082ed055326b1bdd00dcdbb124889",
+      "c2ef2811378691c617da6532a42552ff"
+    ],
+    "easy-does-it.opentdb.fa5cd74d905c6f22": [
+      "7726e08875068058fc9591419184deba",
+      "c44eeaeffceac18b272e9ab1d622827e"
+    ],
+    "easy-does-it.opentdb.ff8f9066877d3fdb": [
+      "ab8fb9d06298dd997a80e82f1fce3c70"
+    ],
+    "easy-does-it.replacement.20260718.hexagon": [
+      "6940c6bf748ce7f4991087abacff7237"
+    ],
+    "easy-does-it.replacement.20260718.thermometer": [
+      "a2fc6cb7997a702e8f8e4c41b212e02f"
+    ],
+    "film-television-starter.opentdb.00a4f415954325bf": [
+      "f68effb7355677fb42a247fe3f657ebf"
+    ],
+    "film-television-starter.opentdb.01feb52fe73fbe69": [
+      "3d15bfbc5f6fe347190a7cb11a0cd94d"
+    ],
+    "film-television-starter.opentdb.0651659780ae216b": [
+      "2cf31b551da79e58641809c6b11ba3c9"
+    ],
+    "film-television-starter.opentdb.0a3bc2420e7f4ee8": [
+      "48c7286844b4abf5fd48322a3d51f98c"
+    ],
+    "film-television-starter.opentdb.0b9225e33094047e": [
+      "4e5056d1f284492316219e054e003bc6"
+    ],
+    "film-television-starter.opentdb.0d935659f6d08e5c": [
+      "361b71ddc58e98976be8a7d577918c40"
+    ],
+    "film-television-starter.opentdb.0dc867a4f2b41774": [
+      "0df004e6fe87017b96ca2a3f5ba965d7"
+    ],
+    "film-television-starter.opentdb.152965adab256185": [
+      "6dceacedcfc4c770f719edb86e9f5593"
+    ],
+    "film-television-starter.opentdb.185ec53272d02b3b": [
+      "c090a3f56033637f6a5450ce3aed20a3"
+    ],
+    "film-television-starter.opentdb.1b0e88dc7e350563": [
+      "24e393e8ef176e8860627d7a806d9cdd"
+    ],
+    "film-television-starter.opentdb.1bf64a78e6615853": [
+      "05e132c8d5ae6344d261950439f391b6"
+    ],
+    "film-television-starter.opentdb.249df81e9ae679e7": [
+      "ccdf343519b92bb4d0327a12d1ebf8fe"
+    ],
+    "film-television-starter.opentdb.24aa46e6de5a2055": [
+      "36ba56d4816e6a9f821aabffdae426e1"
+    ],
+    "film-television-starter.opentdb.2863d8e3421ae559": [
+      "1f1637ed328f156ba2b0b5253c74b47a"
+    ],
+    "film-television-starter.opentdb.29cf1952d561be8c": [
+      "4527dd889cba6779aa7c5ad374cab2a4"
+    ],
+    "film-television-starter.opentdb.2babdf874221a7c4": [
+      "8ab35f9b8ef9a4de0e60d899cd5b3650"
+    ],
+    "film-television-starter.opentdb.326b1d9d6fa7596d": [
+      "4130a82e32529b5a676cfe5ef4d39178"
+    ],
+    "film-television-starter.opentdb.37d3812a6e51b0c2": [
+      "05cfac672da3e5eb7c1e5e4acd01d42f"
+    ],
+    "film-television-starter.opentdb.388bc681e02c4b76": [
+      "adc1e6b44cdb34b290e74d04d27dc331"
+    ],
+    "film-television-starter.opentdb.38ae8ac08e9b04de": [
+      "bdfcb1560fa00aded11a8e6f61fa6400"
+    ],
+    "film-television-starter.opentdb.3a295ad5cbbef852": [
+      "ad376361c94372d7090aee298349e331"
+    ],
+    "film-television-starter.opentdb.3a2f5107dde224e3": [
+      "2bf9b20f4b83bf5f6593732c0d9ea1bc"
+    ],
+    "film-television-starter.opentdb.3c9c6ee3cbb445ed": [
+      "108b7ec181c63bbe123e8918f879fd2a"
+    ],
+    "film-television-starter.opentdb.3dd77fe0f3de27a6": [
+      "e12f2733b18310d87c5a186fdaf023e7"
+    ],
+    "film-television-starter.opentdb.44654760a7b8737c": [
+      "c496887268583b464d8d582f67753fe8"
+    ],
+    "film-television-starter.opentdb.48651b1e7f0f1120": [
+      "fc9b47b9b8eea3781b5eeec17fb0ffae"
+    ],
+    "film-television-starter.opentdb.4e3d19b8b7578ab4": [
+      "438a17eb7593a17afe6efe4f0174faf2"
+    ],
+    "film-television-starter.opentdb.4f1046a941ea1aea": [
+      "51da4a86edcdfe3e3e51863605843d9c"
+    ],
+    "film-television-starter.opentdb.541573dc75788504": [
+      "e7602a972be54b71a5b81433436b675a"
+    ],
+    "film-television-starter.opentdb.543a5e2dda55fe76": [
+      "c367783af16c89efbe3fbc228e0a3c47"
+    ],
+    "film-television-starter.opentdb.54f8d03762b7cde1": [
+      "722d0858da19e3f92867bfc3b9293c1f"
+    ],
+    "film-television-starter.opentdb.57cfd4fde9ff851e": [
+      "ab8c91af64df92f0bfc37ba4727ffbc2"
+    ],
+    "film-television-starter.opentdb.5f8c65fa4f9fdc5e": [
+      "bc90f9d4112a20b05cea5f7b1d97b316"
+    ],
+    "film-television-starter.opentdb.62193669c009c982": [
+      "2f1555cc7ed181565a738d4dbe185a8e"
+    ],
+    "film-television-starter.opentdb.665824324ed3ff3a": [
+      "1e7ce40e1e89cc761fb19f5ce5a1a97a"
+    ],
+    "film-television-starter.opentdb.671e457da610f534": [
+      "bd929999b5e92a2375c9f028308a6407"
+    ],
+    "film-television-starter.opentdb.6768ec1e82be87f3": [
+      "ed9195e93f72514cdc746d4f83256454"
+    ],
+    "film-television-starter.opentdb.6dd7a3ae412f089d": [
+      "d31d65a8d298ec834a88297ccb6a6783"
+    ],
+    "film-television-starter.opentdb.74841f84b12945b3": [
+      "a6096f82fcc9273b2499ee52a7d9f7c5"
+    ],
+    "film-television-starter.opentdb.7620c0f38e783ba8": [
+      "3a5ad938ae0bbf7b3d342389b92fd9ae"
+    ],
+    "film-television-starter.opentdb.796a2e1076711087": [
+      "538f3c64e3529b71cd4413e82ea8cd32"
+    ],
+    "film-television-starter.opentdb.7ad42b1556f49b6c": [
+      "3902db16a6d090b9a99b1b6983dfee41"
+    ],
+    "film-television-starter.opentdb.7b7c5ed1ab6217ee": [
+      "269b187ec246768b61c9c772231ebe27"
+    ],
+    "film-television-starter.opentdb.7d3a1c96fd744560": [
+      "014dd4171bbf09139f93565ea65a1b69"
+    ],
+    "film-television-starter.opentdb.7e37400688368130": [
+      "432d6b11b93162382fff393b050dd51f"
+    ],
+    "film-television-starter.opentdb.7e652735c811b9ee": [
+      "d7987a8b9dd07f21f43b4a75dd6c1f2a"
+    ],
+    "film-television-starter.opentdb.7e744a3e3cb609c2": [
+      "083352cd096a6688bd6dbeaf30daec0a"
+    ],
+    "film-television-starter.opentdb.7e978d6a8f5b3897": [
+      "64cbd098c9ecd642408114148e6ede67"
+    ],
+    "film-television-starter.opentdb.8505f8debceed770": [
+      "365723e75673e41b746bf91852d9b077"
+    ],
+    "film-television-starter.opentdb.866923886eb4bdac": [
+      "6d13bdf2f0e7e9470fe9c66fa49a2365"
+    ],
+    "film-television-starter.opentdb.8da34da409f7379b": [
+      "7edf237c3a84a47fb65098f80195fe49"
+    ],
+    "film-television-starter.opentdb.8e73330e28fa1665": [
+      "fc5d0199b909f145adf63ace859547cb"
+    ],
+    "film-television-starter.opentdb.9fe3d7fa4d41227c": [
+      "02ab7d4fb20699ed27dc5f3ad576be1b"
+    ],
+    "film-television-starter.opentdb.a6661300a280b17a": [
+      "57ed299b2e4b026691d34052c56eca6b"
+    ],
+    "film-television-starter.opentdb.a6f171c4724fcc1f": [
+      "885e55053bcd96566fb4a4a4c01bc3e4"
+    ],
+    "film-television-starter.opentdb.a784f1d96925b2c5": [
+      "5bd5aa830fbe9e7b73c011162cdb64c9"
+    ],
+    "film-television-starter.opentdb.a7e1d0f606280844": [
+      "80942de3e1b5a03d35266580f852e625"
+    ],
+    "film-television-starter.opentdb.a8547b1332b82cd9": [
+      "f0de53ff144bc411a2c3aacecf383e21"
+    ],
+    "film-television-starter.opentdb.a8de0f26e87e044b": [
+      "6a3cf04d60997cb8896672632b1f26f1"
+    ],
+    "film-television-starter.opentdb.af34a7c4268cd3a9": [
+      "d3ca590e82b7cff733ae0c11728ea872"
+    ],
+    "film-television-starter.opentdb.b0535da26bc6e089": [
+      "d8a75979d4bcef7fcecfa5ba5c12eb26"
+    ],
+    "film-television-starter.opentdb.b461ce36301bc0f9": [
+      "e2edf471c70fdfde349d4a7b85429b1a"
+    ],
+    "film-television-starter.opentdb.b4ba51d8d20ca43c": [
+      "433963b72efc2ea5a0414318e657326e"
+    ],
+    "film-television-starter.opentdb.b7f522ffa02b517c": [
+      "925b06620d14ace336744692abf2f94c"
+    ],
+    "film-television-starter.opentdb.b82ddad0c80d3001": [
+      "e26b23e7b5f53f0b54841411e375766b"
+    ],
+    "film-television-starter.opentdb.b94fe374704b8b83": [
+      "4ac30015d49398536492d359c123505d"
+    ],
+    "film-television-starter.opentdb.c2fda5b731bef6f7": [
+      "4eef89937e539528fe853042589e8f7f"
+    ],
+    "film-television-starter.opentdb.ccedb6d83ed24179": [
+      "59ddefecb2988aae9594465f697ce8e7"
+    ],
+    "film-television-starter.opentdb.d04597617c008f55": [
+      "b273873f4277215dcea589112a742256"
+    ],
+    "film-television-starter.opentdb.d3ea6a8d595946ac": [
+      "edf006b6291d068166a62f9a91ba8d9c"
+    ],
+    "film-television-starter.opentdb.d5346b9988f72c8a": [
+      "7cf238e20203522c05f9969bf0bd0dd9"
+    ],
+    "film-television-starter.opentdb.dde3e774dd2eacae": [
+      "ddaad1f6f1b05733e876846f247eba5e"
+    ],
+    "film-television-starter.opentdb.df789333c5ab2a12": [
+      "55652105e54b6832bce929064c6d6709"
+    ],
+    "film-television-starter.opentdb.e11c09689d4ff217": [
+      "944e1670e86cf66392977d474bd8f159"
+    ],
+    "film-television-starter.opentdb.e1f38f71f81ec7f6": [
+      "d65caade5d98957a16bf09a704cb120c"
+    ],
+    "film-television-starter.opentdb.e24c67ac55a65352": [
+      "68c077f0322cb5ab0a8ffb448baa9947"
+    ],
+    "film-television-starter.opentdb.e3080e542eae0ef5": [
+      "fdb120e6ea533f30abf6e87ca81014a2"
+    ],
+    "film-television-starter.opentdb.e53ae31b77807209": [
+      "2973228461939b6ab10442b5099bb12d"
+    ],
+    "film-television-starter.opentdb.e664072f9d14af0c": [
+      "0622eaa9b8ac3b69417356ef406eddc7"
+    ],
+    "film-television-starter.opentdb.e84c720f2013e5b9": [
+      "4b62960ed96d73a491dd295c05e83fde"
+    ],
+    "film-television-starter.opentdb.e85f908aa5e71cb1": [
+      "816f2e1733c4d411462b83b36580c46b"
+    ],
+    "film-television-starter.opentdb.ea1c66302cdb0a87": [
+      "5e6a43213b4fb216390513442ded52c9"
+    ],
+    "film-television-starter.opentdb.eae5c019704e255d": [
+      "3a0ab6029ea7a9c26470c04d1fd4e523"
+    ],
+    "film-television-starter.opentdb.f4323c4ca43f76b9": [
+      "514ac3d07b1d0472a1d67abf79e73224"
+    ],
+    "film-television-starter.opentdb.f75413458e54529a": [
+      "e5dc062a2c95a744b57130415ec22035"
+    ],
+    "film-television-starter.opentdb.f7d2b3e9220072d0": [
+      "a2deed242365e03664549d2fedb17c3c"
+    ],
+    "film-television-starter.opentdb.f843ff6dc46d2841": [
+      "fad8f3354fb07acede14ef832c74f874"
+    ],
+    "film-television-starter.opentdb.f8e0e8f7839fa09c": [
+      "b77095c01a2e72eecd724ef0550bf5c5"
+    ],
+    "film-television-starter.opentdb.f9dc2248a434308d": [
+      "01d0eb6e912393d76bad2358449175c9"
+    ],
+    "film-television-starter.opentdb.fd03d6dc9742274f": [
+      "01a0fdd42af500524a7899e508b7dd35"
+    ],
+    "film-television-starter.opentdb.fd4033020479da36": [
+      "b53698642876f86486eb91f564a25026"
+    ],
+    "film-television-starter.opentdb.ff5bddc289d29032": [
+      "778c6b44ad100b2a88ff91740e92a78d"
+    ],
+    "film-television-starter.replacement.20260718.dunder-mifflin": [
+      "e9ebca3b5442d965a2f7a108e2ec10ef"
+    ],
+    "film-television-starter.replacement.20260718.sean-connery-bond": [
+      "21580b044a8660a00590b9b42c027f3e"
+    ],
+    "film-television-starter.replacement.20260721.storyboard": [
+      "dddbe6042b15d96d90357f6e8f469de2"
+    ],
+    "geography-starter.country-continent.barbados": [
+      "88e88d3d5b30230246cb1d297701c5c7"
+    ],
+    "geography-starter.country-continent.belarus": [
+      "19af157ce1bca72d6bf7aeaa2406105d"
+    ],
+    "geography-starter.country-continent.india": [
+      "22759dada46f01447fe3f5cd979b7326"
+    ],
+    "geography-starter.landmark-country.al-kadhimiya-mosque": [
+      "19691b533e3f5b50a956ff1e3687683b"
+    ],
+    "geography-starter.landmark-country.chapel-bridge": [
+      "7e04292585a9077b65ac4c821893de88"
+    ],
+    "geography-starter.landmark-country.hollywood-sign": [
+      "f48aa725d344154ce13740c6ceccbe27"
+    ],
+    "geography-starter.landmark-country.lenin-s-mausoleum": [
+      "e52f78ab6d2d7f813bde4425c97f3283"
+    ],
+    "geography-starter.landmark-country.veliky-ustyug": [
+      "38718a5304b7d39d7f01aeae1006aa09"
+    ],
+    "geography-starter.mountain-country.gross-fiescherhorn": [
+      "9433fed67f70ac726a859e57249aeb15"
+    ],
+    "geography-starter.mountain-country.mont-blanc-du-tacul": [
+      "0ecd308d2aa8e02fb79401e4c6034707"
+    ],
+    "geography-starter.mountain-country.salbitschijen": [
+      "82db25f715cb2a2f86a09aa30e9c8a6c"
+    ],
+    "geography-starter.replacement.20260718.adriatic": [
+      "a86f21b042747b63c2a306cadc11a946"
+    ],
+    "geography-starter.replacement.20260718.africas-largest-lake": [
+      "0849387e5c173aa447bb650f221feaa8"
+    ],
+    "geography-starter.replacement.20260718.agulhas": [
+      "80464e8df1714abd2426dc7b970fef53"
+    ],
+    "geography-starter.replacement.20260718.amazon-rainforest": [
+      "6cbc2e31482f55899f3a6b80942bb588"
+    ],
+    "geography-starter.replacement.20260718.andes-continent": [
+      "097a4b973bae98d5293c98c35fddf101"
+    ],
+    "geography-starter.replacement.20260718.angel-falls": [
+      "e39168f44881a0de7cc5fed908529456"
+    ],
+    "geography-starter.replacement.20260718.aral-sea": [
+      "aa9989edb55c27a73a01ff90d5a56674"
+    ],
+    "geography-starter.replacement.20260718.asia-largest-continent": [
+      "bcc007c4c5340c08fdb912e8613746c0"
+    ],
+    "geography-starter.replacement.20260718.atacama": [
+      "7f0380362a185ca7259abc67f199bdf2"
+    ],
+    "geography-starter.replacement.20260718.baikal": [
+      "d827c3924c0c344c3ce8167705099bca"
+    ],
+    "geography-starter.replacement.20260718.bishkek": [
+      "89ef17d5335095a27505480fb6674aa6"
+    ],
+    "geography-starter.replacement.20260718.borneo-countries": [
+      "52ad20163e8e45eaed23096c56cc0d6b"
+    ],
+    "geography-starter.replacement.20260718.bosporus-city": [
+      "057ef9cbc2d23d7ff10094979db205ef"
+    ],
+    "geography-starter.replacement.20260718.cabinda": [
+      "830230328166eaeb4d2da4b1be703966"
+    ],
+    "geography-starter.replacement.20260718.canberra": [
+      "840a2e7c04ddda3b4553b192805c70ec"
+    ],
+    "geography-starter.replacement.20260718.ceuta-melilla": [
+      "8dd1c0cc24a2e12d13b7da7e425e7ad0"
+    ],
+    "geography-starter.replacement.20260718.danube-budapest": [
+      "3b262744bf71e70615838950f4f6ae1a"
+    ],
+    "geography-starter.replacement.20260718.danube-capitals": [
+      "af54db2065185ebaff5fe3551c2a54ee"
+    ],
+    "geography-starter.replacement.20260718.drakensberg": [
+      "5043651b931da4f8ee9be234a460256d"
+    ],
+    "geography-starter.replacement.20260718.eiffel-city": [
+      "52cdfec7c84272e792d4b64d935bd072"
+    ],
+    "geography-starter.replacement.20260718.equator": [
+      "bf6fe82bbf60595afb45db8aac1c37ad"
+    ],
+    "geography-starter.replacement.20260718.everest-range": [
+      "bc38f49fe0a1ee5386704b75387ffe6c"
+    ],
+    "geography-starter.replacement.20260718.fergana": [
+      "a45b24cad746d0455b1bed7b3504331a"
+    ],
+    "geography-starter.replacement.20260718.fjords": [
+      "912d0ea8e33f78fa6babad38d6b8950c"
+    ],
+    "geography-starter.replacement.20260718.gobi": [
+      "95fcf1f5ef6452283df6771ac9d549e2"
+    ],
+    "geography-starter.replacement.20260718.great-barrier-reef": [
+      "0adcbdf9de21ba9916548392c835a830"
+    ],
+    "geography-starter.replacement.20260718.great-lakes-border": [
+      "016716f0a7113d8d6f478b87f34135d7"
+    ],
+    "geography-starter.replacement.20260718.gulf-bothnia": [
+      "16d593837cfcc67e1a9411f6db0bcd2c"
+    ],
+    "geography-starter.replacement.20260718.hispaniola": [
+      "129a80a3137f0d8b0c0ecf1aad23bbc7"
+    ],
+    "geography-starter.replacement.20260718.italy-boot": [
+      "cecad9b7f2043e096a7ea1fac40c241e"
+    ],
+    "geography-starter.replacement.20260718.kaliningrad": [
+      "4826591bf448d31524606f72ba9df87d"
+    ],
+    "geography-starter.replacement.20260718.kharthoum-niles": [
+      "7cdd2de167763838d26e7ad8517d4a9f"
+    ],
+    "geography-starter.replacement.20260718.khyber-pass": [
+      "ee05434561115cc8e102c772d4cb8ffa"
+    ],
+    "geography-starter.replacement.20260718.kilimanjaro": [
+      "f540a42239c427cb08c49a156d1803d6"
+    ],
+    "geography-starter.replacement.20260718.lake-tana": [
+      "de6cf9f314dcb561230c8b8210fba677"
+    ],
+    "geography-starter.replacement.20260718.lake-victoria": [
+      "28c4a122cfd3ec54961871f5a1f6c92d"
+    ],
+    "geography-starter.replacement.20260718.landlocked-south-america": [
+      "60e8a024006ade402685b3ef968d94dc"
+    ],
+    "geography-starter.replacement.20260718.largest-country": [
+      "281969b636186fa2ab20c369de30e8a3"
+    ],
+    "geography-starter.replacement.20260718.largest-mediterranean-island": [
+      "adcb18c9ac171946d35e5e5d387225c7"
+    ],
+    "geography-starter.replacement.20260718.largest-us-state": [
+      "8203e696b6e734d18efa48372eb163c0"
+    ],
+    "geography-starter.replacement.20260718.lena-laptev": [
+      "63ead0a9ca93c46130e786e38a2fdc05"
+    ],
+    "geography-starter.replacement.20260718.longest-coastline": [
+      "9b0c5d3d356b5dd830f1028faa8f3e1f"
+    ],
+    "geography-starter.replacement.20260718.machu-picchu": [
+      "3c1d00af68a7255d93607c78bba3971c"
+    ],
+    "geography-starter.replacement.20260718.malacca": [
+      "2408594da7bd590f19a993bb51e0ec86"
+    ],
+    "geography-starter.replacement.20260718.maple-leaf-country": [
+      "1cf24f7af4b61bac9c3c4fc985cbc4ef"
+    ],
+    "geography-starter.replacement.20260718.maracaibo": [
+      "9a5364f935770105791b004db396ec06"
+    ],
+    "geography-starter.replacement.20260718.mediterranean-continents": [
+      "2f3bb453500a0465d20b88fd78f4ee07"
+    ],
+    "geography-starter.replacement.20260718.mekong-delta": [
+      "828e5dc105055db2326798f953da16e5"
+    ],
+    "geography-starter.replacement.20260718.nakhchivan": [
+      "76b319d8036e82d06e75b9a798c281ac"
+    ],
+    "geography-starter.replacement.20260718.namib": [
+      "a7e7b36fec47c89ae425600a74a1205f"
+    ],
+    "geography-starter.replacement.20260718.new-zealand-islands": [
+      "d28e9d315a15ca90c6029efa19018d4c"
+    ],
+    "geography-starter.replacement.20260718.nile-cairo": [
+      "e92557f23b2eeadf5ca26dd5d67117fc"
+    ],
+    "geography-starter.replacement.20260718.okavango": [
+      "1a40bce99bea1e080a0c426e4244b674"
+    ],
+    "geography-starter.replacement.20260718.oresund": [
+      "d9f087d695378144dcf5fa8bd6d97404"
+    ],
+    "geography-starter.replacement.20260718.ottawa": [
+      "0fef874332202a9ecbded33aa36146ab"
+    ],
+    "geography-starter.replacement.20260718.palk-strait": [
+      "1ad28629250c884445d10fe8645a1bd5"
+    ],
+    "geography-starter.replacement.20260718.panama-canal": [
+      "83f8ba24c6f7edc394c6d2a0e2287a3c"
+    ],
+    "geography-starter.replacement.20260718.pantanal": [
+      "5490e81fe2342e2e1a87595011985c54"
+    ],
+    "geography-starter.replacement.20260718.polders": [
+      "bd09e3246052b3abb57240a568df66e3"
+    ],
+    "geography-starter.replacement.20260718.prime-meridian": [
+      "beb50705068266ddb664306efb1869ea"
+    ],
+    "geography-starter.replacement.20260718.ring-of-fire": [
+      "d551ec57f8f52e9d4748fcec97823ab3"
+    ],
+    "geography-starter.replacement.20260718.rio-grande-border": [
+      "0936ec51f24794f77e0515350fb384e0"
+    ],
+    "geography-starter.replacement.20260718.sahara-continent": [
+      "6df9423377def770bb3ea9f7cb4f4b59"
+    ],
+    "geography-starter.replacement.20260718.sahel": [
+      "bd06a8d90c463f08632369c81c4f3b5e"
+    ],
+    "geography-starter.replacement.20260718.san-marino-enclave": [
+      "7af26eb4844bef8728d7d95579de93e5"
+    ],
+    "geography-starter.replacement.20260718.sargasso": [
+      "448c1a7731a86f8f2ab083f8512fe906"
+    ],
+    "geography-starter.replacement.20260718.seine-paris": [
+      "8d550206dcee61e2fc1d11d83e44b1c8"
+    ],
+    "geography-starter.replacement.20260718.sicily-country": [
+      "3279a097c10585c8f97b5e941be7bdea"
+    ],
+    "geography-starter.replacement.20260718.socotra": [
+      "2359d0e43aed924677941cf682e7a9b8"
+    ],
+    "geography-starter.replacement.20260718.sunda-strait": [
+      "f8f77c87832f1b1f368873c8958d6168"
+    ],
+    "geography-starter.replacement.20260718.tibetan-plateau": [
+      "07de886aa1b6a6c4a7d452ebafdafac4"
+    ],
+    "geography-starter.replacement.20260718.titicaca": [
+      "6d536b1fc24039fe99120499a7e7bfb4"
+    ],
+    "geography-starter.replacement.20260718.transylvania": [
+      "964b297e3bd356bb668903e6488192fc"
+    ],
+    "geography-starter.replacement.20260718.ulaanbaatar": [
+      "a51d464de0762d8bfde0eb6aed76e131"
+    ],
+    "geography-starter.replacement.20260718.ural-divide": [
+      "88c64608da8507a6f635edf363921958"
+    ],
+    "geography-starter.replacement.20260718.uyuni": [
+      "3943931f30ac105c8a484014155a7422"
+    ],
+    "geography-starter.replacement.20260718.victoria-falls-river": [
+      "e95c134ff669fdc289c4e4003d2e0eeb"
+    ],
+    "geography-starter.replacement.20260718.wakhan": [
+      "4a9d735586312b2935fa37fb7feb8cde"
+    ],
+    "geography-starter.river-mouth.congo": [
+      "5f84c3cbd15153614540605866ebac60"
+    ],
+    "geography-starter.river-mouth.draa-river": [
+      "9230898768245cd960e391b5e9c5672f"
+    ],
+    "geography-starter.river-mouth.massa-river": [
+      "16ea9272564f701e53da1980c8209f12"
+    ],
+    "geography-starter.river-mouth.nunez-river": [
+      "6f60b9bb0e65689213873d7f755b4b2f"
+    ],
+    "geography-starter.river-mouth.orinoco-river": [
+      "d83a2d49fed24699b6fc8a7830e0d2e1"
+    ],
+    "geography-starter.river-mouth.rio-de-la-plata": [
+      "f6d47d9912ce2ca18de920b5608e608b"
+    ],
+    "history-starter.battle-location.battle-of-agincourt": [
+      "af0f4884d2d1dfb881264c0be0a0390f"
+    ],
+    "history-starter.battle-location.battle-of-borodino": [
+      "eb797064890e08b3822ebf620ed048d8"
+    ],
+    "history-starter.battle-location.battle-of-epehy": [
+      "26f4bb60c8d17f1e626d8e99b3f26a0b"
+    ],
+    "history-starter.battle-location.battle-of-hattin": [
+      "a830c760cff72c2828488c178aaa2d97"
+    ],
+    "history-starter.battle-location.battle-of-kelja": [
+      "b15d1612a72aeedf02cc030a067bc234"
+    ],
+    "history-starter.battle-location.battle-of-lake-trasimene": [
+      "1f9ea98849c9f02213f9951d9310df77"
+    ],
+    "history-starter.battle-location.battle-of-nicopolis": [
+      "a31bd9ddaba425cdbdbf8a1ee76e928e"
+    ],
+    "history-starter.battle-location.battle-of-nola": [
+      "a1263397661ec458055ccee4af9739cd"
+    ],
+    "history-starter.battle-location.battle-of-poitiers": [
+      "ada09d2bc6783e99e57b6fdc84464547"
+    ],
+    "history-starter.battle-location.battle-of-queenston-heights": [
+      "a845c95b2000715b430fd8635658948f"
+    ],
+    "history-starter.battle-location.battle-of-shizugatake": [
+      "d07629e058ffc62b6e26cb1300392e7d"
+    ],
+    "history-starter.battle-location.battle-of-stockach": [
+      "e813bf96c338865c65b040ae350878a7"
+    ],
+    "history-starter.battle-location.battle-of-the-ardennes": [
+      "7445c86078d66bed80d75e0a6dc53bb3"
+    ],
+    "history-starter.battle-location.battle-of-xiaoyao-ford": [
+      "72a4099aa1470e45b6f9b3ac9e326109"
+    ],
+    "history-starter.battle-location.battles-of-khalkhin-gol": [
+      "bd937abda8b66f676477007063644586"
+    ],
+    "history-starter.battle-location.operation-junction-city": [
+      "8f63828905fc7e4537ae32bf51bf3602"
+    ],
+    "history-starter.battle-location.second-battle-of-krithia": [
+      "8791871359a3aef05508a011febb5534"
+    ],
+    "history-starter.empire-capital.county-of-louvain": [
+      "8ea32ad4d885d7bfe97eff9f0ee5d7f4"
+    ],
+    "history-starter.empire-capital.duchy-of-brabant": [
+      "de7e14c15a1bebb57c9a3a1221166412"
+    ],
+    "history-starter.empire-capital.duchy-of-prussia": [
+      "a995d726a2acdf442187e92b55d19a09"
+    ],
+    "history-starter.empire-capital.duchy-of-warsaw": [
+      "516f77cbc516261dd09e6cec3a721c7b"
+    ],
+    "history-starter.empire-capital.east-francia": [
+      "c02c2d023d6e8006e62a0c085f4c0527"
+    ],
+    "history-starter.empire-capital.grand-duchy-of-mecklenburg-strelitz": [
+      "e69acc07e1a5eb8e8f859e4a34eff314"
+    ],
+    "history-starter.empire-capital.habsburg-monarchy": [
+      "7a25edafa11007ef1106e9c26970c7c8"
+    ],
+    "history-starter.empire-capital.independent-state-of-croatia": [
+      "0046fc735f94c075d466567591d3667c"
+    ],
+    "history-starter.empire-capital.jabal-druze": [
+      "39fe7e4818fe8f1086f77a9d244c0ad8"
+    ],
+    "history-starter.empire-capital.kingdom-of-bavaria": [
+      "b1f9738b7999303baace071563b5d440"
+    ],
+    "history-starter.empire-capital.kingdom-of-cochin": [
+      "eaceb2cf2059f3ff66deaa9292abc9c5"
+    ],
+    "history-starter.empire-capital.kingdom-of-iraq": [
+      "6407071c2f318ad1da6d33fc90b39043"
+    ],
+    "history-starter.empire-capital.kingdom-of-saxony": [
+      "cff0add907381a28b1f97949ccdb6d25"
+    ],
+    "history-starter.empire-capital.muscat-and-oman": [
+      "5bd44a39e045df4a2a242cb77c6e8adc"
+    ],
+    "history-starter.empire-capital.novgorod-republic": [
+      "431ec265f10bd6f7dd90bc43b3bc6201"
+    ],
+    "history-starter.empire-capital.samo-s-realm": [
+      "525004077b75c5d2d4935d68b7bccdc2"
+    ],
+    "history-starter.empire-capital.sultanate-of-zanzibar": [
+      "95f9ba9cada90d7d3b4d57e7d2a0ff84"
+    ],
+    "history-starter.empire-capital.zagwe-dynasty": [
+      "c220ae18cce3d666a1f6d746463e0164"
+    ],
+    "history-starter.event-year.1905-tibetan-rebellion": [
+      "6f5d26f1ea36b7c060886996db9a2680"
+    ],
+    "history-starter.event-year.autumn-harvest-uprising": [
+      "84a2d1cc64da7b1717e304579bd0797b"
+    ],
+    "history-starter.event-year.bai-lang-rebellion": [
+      "dbd4d899be19f6d9b5d202ea3462ff01"
+    ],
+    "history-starter.event-year.bava-beccaris-massacre": [
+      "78eb65834ff68e02395b66f8d120a066"
+    ],
+    "history-starter.event-year.coluna-prestes": [
+      "f5455dc6feedb14747f6ed048ccd7de6"
+    ],
+    "history-starter.event-year.cudgel-war": [
+      "2a7cd15aa37cf70d68bfeb30df0dc692"
+    ],
+    "history-starter.event-year.greater-poland-uprising-of-1806": [
+      "19df2810de6ca7b530117123cc8397c2"
+    ],
+    "history-starter.event-year.greater-poland-uprising-of-1848": [
+      "2bb0978a15a5b81d1f6c3891c6fc478c"
+    ],
+    "history-starter.event-year.guangzhou-uprising": [
+      "f1225c36829fac681ee38f05e97257e4"
+    ],
+    "history-starter.event-year.jacobite-rising-of-1745": [
+      "e321d954d1891c1b91f892e3e8db4dea"
+    ],
+    "history-starter.event-year.majimaji-war": [
+      "6b18775c90f24841e15d9d4be63d6558"
+    ],
+    "history-starter.event-year.malabar-rebellion": [
+      "a8590a48877f4a43e04d7450e8051af9"
+    ],
+    "history-starter.event-year.march-action": [
+      "28e9810c7bb88d1672e88ad75217d51c"
+    ],
+    "history-starter.event-year.musha-incident": [
+      "fad99d5f4a8649b92a4b7f5efe18a8a0"
+    ],
+    "history-starter.event-year.odz-insurrection": [
+      "dbcca65c44a0ec6b2376dd4040d334d3"
+    ],
+    "history-starter.event-year.slovak-uprising-1848-1849": [
+      "ef3f9884fe43ad838ebdfb516d62b08f"
+    ],
+    "history-starter.event-year.tambov-rebellion": [
+      "ae9c16fc7b03123327adb77d5d22d823"
+    ],
+    "history-starter.event-year.treblinka-uprising": [
+      "460a6b8c183c301628e32c27c70e14ab"
+    ],
+    "history-starter.monarch-country.airlangga": [
+      "b5266e5e074a92d613ca307d34b741be"
+    ],
+    "history-starter.monarch-country.bagyidaw": [
+      "963af5856bbf792119b1cd50ef6b6d2e"
+    ],
+    "history-starter.monarch-country.christina-of-sweden": [
+      "d6e126897571b4cac353a346df39aa40"
+    ],
+    "history-starter.monarch-country.darius-i": [
+      "b92c765d2ee917c5f7da77769fbe5d9a"
+    ],
+    "history-starter.monarch-country.david": [
+      "79dd47624fb4aedad8c15e49d0e58d32"
+    ],
+    "history-starter.monarch-country.edward-i-of-england": [
+      "b7193c2d9e2068d7d052a790740a6e26"
+    ],
+    "history-starter.monarch-country.empress-dowager-cixi": [
+      "90f6ac353401766a9c91c4a1e44b3f4f"
+    ],
+    "history-starter.monarch-country.ernst-august-duke-of-brunswick": [
+      "a238355af441746d623f4b42dca9584a"
+    ],
+    "history-starter.monarch-country.friedrich-ii-grand-duke-of-baden": [
+      "db9367650a6adc31a8963503215d6e76"
+    ],
+    "history-starter.monarch-country.gustaf-v-of-sweden": [
+      "38f2a0c0341392b9fce9c257a0369650"
+    ],
+    "history-starter.monarch-country.haile-selassie-i": [
+      "c78b7fc3c463f70c843d1f8440b6ec92"
+    ],
+    "history-starter.monarch-country.harald-v-of-norway": [
+      "159ff279039bdb4a93b9884d37413436"
+    ],
+    "history-starter.monarch-country.joscelin-i-count-of-edessa": [
+      "fd76d9acb5a7fef4f02f29e8fe7c246f"
+    ],
+    "history-starter.monarch-country.louis-the-pious": [
+      "4c889dc245eb5b181ad05a5a6be1ab8e"
+    ],
+    "history-starter.monarch-country.micha-korybut-wisniowiecki": [
+      "373eb4bc09beb307ed14a4ed8f73f0c3"
+    ],
+    "history-starter.monarch-country.mohammed-vi-of-morocco": [
+      "a4764ab6676518293da75ddb1d79d187"
+    ],
+    "history-starter.monarch-country.richard-i-of-england": [
+      "e26cbb6a44480ed5b286b1889816c713"
+    ],
+    "history-starter.monarch-country.w-adys-aw-iv-vasa": [
+      "1fa6bcf00532890ea05086b6fdda48d0"
+    ],
+    "history-starter.replacement.20260718.devshirme": [
+      "acb87bb9669070bdabfded3e3e378835"
+    ],
+    "history-starter.replacement.20260718.english-bill-rights": [
+      "99ef1fb78974c53f6a3cbc0303e841dc"
+    ],
+    "history-starter.replacement.20260718.haitian-independence": [
+      "3fba004352f9630408e6e9ffb093685f"
+    ],
+    "history-starter.replacement.20260718.howard-carter": [
+      "fb42131a2417280924e1472c5ef042b2"
+    ],
+    "history-starter.replacement.20260718.mansa-musa": [
+      "02ef8d6185ff13b742e05475d6802e76"
+    ],
+    "history-starter.replacement.20260718.papyrus": [
+      "1e375680d4ec630c288ef3da2c156a32"
+    ],
+    "history-starter.replacement.20260718.ur-ziggurat": [
+      "74a21b5d743a096e264a2228f2079509"
+    ],
+    "history-starter.replacement.20260721.domesday-book": [
+      "a1e306841304e855d8981cb0b501974a"
+    ],
+    "history-starter.treaty-year.african-nuclear-weapon-free-zone-treaty": [
+      "79b14e7679ff4643d06497a3a354d6be"
+    ],
+    "history-starter.treaty-year.cross-strait-service-trade-agreement": [
+      "84f515a7a272da3722c2b0923caa658d"
+    ],
+    "history-starter.treaty-year.declaration-recognising-the-right-to-a-flag-of-states-having-no-sea-coast": [
+      "3e93d07f78ab0a2fd0f879b9981b5a03"
+    ],
+    "history-starter.treaty-year.donation-of-pepin": [
+      "eca24127b079317727aa1855cfc7e6c4"
+    ],
+    "history-starter.treaty-year.fourth-geneva-convention": [
+      "1f02bf6a6c9fad5ba1794e57cb996cfe"
+    ],
+    "history-starter.treaty-year.inter-american-democratic-charter": [
+      "6a1465945c3e686b776116573f77115b"
+    ],
+    "history-starter.treaty-year.munich-agreement": [
+      "60508c87d7466d1cc5f6cec6861e16fc"
+    ],
+    "history-starter.treaty-year.optional-protocol-to-the-convention-on-the-elimination-of-all-forms-of-discrimin": [
+      "915c8155d13a7b284c1366ebf6b0c9aa"
+    ],
+    "history-starter.treaty-year.protocol-ii": [
+      "82ba75fbce3bcf42f5df77d58e819f7c"
+    ],
+    "history-starter.treaty-year.regional-roaming-agreement": [
+      "8912e3232968d3b764806b4aac2061f9"
+    ],
+    "history-starter.treaty-year.sino-japanese-friendship-and-trade-treaty": [
+      "bf56a9d9432a33c682ab3ad73199eec7"
+    ],
+    "history-starter.treaty-year.split-agreement": [
+      "fbb5670b436e05441cbacd3254e5d5c7"
+    ],
+    "history-starter.treaty-year.thomson-urrutia-treaty": [
+      "6b96a01fc01dd1067226ac77bb67fa76"
+    ],
+    "history-starter.treaty-year.treaty-of-prum": [
+      "94232161014ecc6458ba5ec97a3dc0c0"
+    ],
+    "history-starter.treaty-year.treaty-of-verdun": [
+      "6399d68394a813ed2cf0a4efc78cce93"
+    ],
+    "history-starter.treaty-year.treaty-on-the-prohibition-of-nuclear-weapons": [
+      "88284fe97a04a0e41a0c38934ae4f3eb"
+    ],
+    "lifestyle-culture-starter.opentdb.00064a8239bfcc95": [
+      "6048053fed948659748a59df3df93149"
+    ],
+    "lifestyle-culture-starter.opentdb.03ce0e9c9ed2fb3f": [
+      "1fb5590131b8e206cf1448de1914ddb5"
+    ],
+    "lifestyle-culture-starter.opentdb.053e457224f7e636": [
+      "7570ba7d41b65cbb2e09117f69d9a99f"
+    ],
+    "lifestyle-culture-starter.opentdb.0993ecd776d1ad31": [
+      "c09422f43523c08f43c1e76f9f1c1b3c"
+    ],
+    "lifestyle-culture-starter.opentdb.0ad579adeb64b0e3": [
+      "7dfb46e161d2665371dd93c6c491e5fc"
+    ],
+    "lifestyle-culture-starter.opentdb.0e4f5a08ab5c1ff1": [
+      "b925b720ff7b6a9077a1c6635737f95c"
+    ],
+    "lifestyle-culture-starter.opentdb.12a07363891a9e3a": [
+      "bd68df699c5dce58b19bda23ce97ea21"
+    ],
+    "lifestyle-culture-starter.opentdb.13cd0d054ef22655": [
+      "5485b2172b25b371bd5b6313cd09a2ca"
+    ],
+    "lifestyle-culture-starter.opentdb.155c332e175ff40e": [
+      "29b8c090edf2fe6f8a889bf5846ca8f8"
+    ],
+    "lifestyle-culture-starter.opentdb.1698b57df9e93325": [
+      "5c0fd8dda28fc93ba69de35a30ef5abf"
+    ],
+    "lifestyle-culture-starter.opentdb.22d5b3c375bcbe79": [
+      "d14902cf0a8326aae869d235448da5f2"
+    ],
+    "lifestyle-culture-starter.opentdb.26792fd12c855ed2": [
+      "20fcc94eb0135766a4b82866b6385510"
+    ],
+    "lifestyle-culture-starter.opentdb.27c0def3f0e90018": [
+      "29a2e119b6911924a4f824c3ac6bafca"
+    ],
+    "lifestyle-culture-starter.opentdb.2decfd761a4edb67": [
+      "0d7d1743e77bd69add577f1800d6c3b7"
+    ],
+    "lifestyle-culture-starter.opentdb.34de776b417ea086": [
+      "90a90daef13c5ae245d755a24b0d92d4"
+    ],
+    "lifestyle-culture-starter.opentdb.3500b4884c0473f5": [
+      "2ce0b47a29cc8d8037e6f9af5a7eaae4"
+    ],
+    "lifestyle-culture-starter.opentdb.363c9b1d9985170d": [
+      "33349fcbc31e863efa334fc680bba213"
+    ],
+    "lifestyle-culture-starter.opentdb.368cadaa687fd74b": [
+      "e3bc2c6667b4eeae724bf63ac6afa068"
+    ],
+    "lifestyle-culture-starter.opentdb.45be0e4cb0d7d4b1": [
+      "e3d7c0e7d2778d46e83a66ba3cc16f2c"
+    ],
+    "lifestyle-culture-starter.opentdb.472808e30ea59582": [
+      "a027b08c9cc744f74af64d3bd31d7ae6"
+    ],
+    "lifestyle-culture-starter.opentdb.4a288047494fc497": [
+      "17c84ae3f91562da08db99afe5a9e0d6"
+    ],
+    "lifestyle-culture-starter.opentdb.4aab193b3ed432eb": [
+      "27c6d2140f25d3377075c45510f48e48"
+    ],
+    "lifestyle-culture-starter.opentdb.509505171a7e569c": [
+      "5aa1e0609574241936b0ee2d0d39b1eb"
+    ],
+    "lifestyle-culture-starter.opentdb.581a8721aa2a5903": [
+      "66640a2043d406287205aa30a81b85ef"
+    ],
+    "lifestyle-culture-starter.opentdb.5e8b7663eb4be904": [
+      "0a30082f1cf23713590c12daf79f0398"
+    ],
+    "lifestyle-culture-starter.opentdb.5e94587e8a5b4336": [
+      "1ef72546e1cf99d0078b01817eb21833"
+    ],
+    "lifestyle-culture-starter.opentdb.62d5ad49e527b799": [
+      "65d5a6fad14421b5a90cefe18f1ad733"
+    ],
+    "lifestyle-culture-starter.opentdb.63cc0bef6f90e309": [
+      "84fda3760c30d5cc7cb08153fb5e76ce"
+    ],
+    "lifestyle-culture-starter.opentdb.6716b957f325ea57": [
+      "f1d046f6f99017178478809890ca911b"
+    ],
+    "lifestyle-culture-starter.opentdb.6bcb72cf21b8704a": [
+      "fffdbcb4c36ba175227ed33ec12d37e3"
+    ],
+    "lifestyle-culture-starter.opentdb.6bdfda80ac3653c8": [
+      "a4d4de316229830a2b4c3aa43d05c976"
+    ],
+    "lifestyle-culture-starter.opentdb.70cdaf60cd71058a": [
+      "caf46dafb8cb0f60220293dde1caf032"
+    ],
+    "lifestyle-culture-starter.opentdb.729f755b6108dc15": [
+      "858e4a24f96c488f40d0e4d1c42a6475"
+    ],
+    "lifestyle-culture-starter.opentdb.7706d5be21915542": [
+      "053a22cf5f8f7be52ff565acee78fa62"
+    ],
+    "lifestyle-culture-starter.opentdb.79106d036d62b3ee": [
+      "15b8306b0d1ed1f09c1e900111dcff95"
+    ],
+    "lifestyle-culture-starter.opentdb.7d0ed1e26acab775": [
+      "2bb0eb6cabf1e844530713f474564cb0"
+    ],
+    "lifestyle-culture-starter.opentdb.88de431a8f448112": [
+      "8c7463ccb76ca4e712061dc1eeee07a4"
+    ],
+    "lifestyle-culture-starter.opentdb.8f17c65474615692": [
+      "fca3a08b60757c95d55e2e23937f67a8"
+    ],
+    "lifestyle-culture-starter.opentdb.9287d3de8737d27f": [
+      "bc91575eb628e9efcece1128c154dbdb"
+    ],
+    "lifestyle-culture-starter.opentdb.92ece00bd991c4f3": [
+      "1901b9c7e6f624b3fea844150abad158"
+    ],
+    "lifestyle-culture-starter.opentdb.93f3bbb9d4c2cd64": [
+      "e6e2ed81127f09b78349b95ad3ca1956"
+    ],
+    "lifestyle-culture-starter.opentdb.99556f168b2cbf76": [
+      "ea951bb3688083b7f9409bf63557a6e6"
+    ],
+    "lifestyle-culture-starter.opentdb.9ba27bcffb656d65": [
+      "9540e1be682fa200a5555170f5222c35"
+    ],
+    "lifestyle-culture-starter.opentdb.9ba3d823b6400df9": [
+      "4dae37ecb36e63cc20c1f64391082560"
+    ],
+    "lifestyle-culture-starter.opentdb.9ba5c6fb2d016a34": [
+      "b28dc1ca006f82ee8156ac9166440be8"
+    ],
+    "lifestyle-culture-starter.opentdb.a074e0e85c29f61a": [
+      "36869c839c10eb8c4224fbdfc8a4bac3"
+    ],
+    "lifestyle-culture-starter.opentdb.a6662c1022168a5b": [
+      "28b5c8340bb53d35af0d1252d8d7f9e6"
+    ],
+    "lifestyle-culture-starter.opentdb.a667ccc80678adee": [
+      "3bb2b48100b4b5258ee75debe3d5409c"
+    ],
+    "lifestyle-culture-starter.opentdb.ad1c93f0c9d3d0b2": [
+      "5073f7c66609449291f1a4547210ec16"
+    ],
+    "lifestyle-culture-starter.opentdb.aecb763f66863931": [
+      "681c49864d023d994ec21ed95d52ac69"
+    ],
+    "lifestyle-culture-starter.opentdb.b47bc86f4a3f2130": [
+      "4a13a7f7aa74f3e50c01ecff8f0d9913"
+    ],
+    "lifestyle-culture-starter.opentdb.b56e90ec7da26f5f": [
+      "1c6b6f285934ccc55c9f00b0acbf6c41"
+    ],
+    "lifestyle-culture-starter.opentdb.bb35551883421012": [
+      "9c9e3b1350edcd13dbc5c158e86257a5"
+    ],
+    "lifestyle-culture-starter.opentdb.c5206ef7a82bdc58": [
+      "fd1c9d155fbb2a8fd1ef45abc044896b"
+    ],
+    "lifestyle-culture-starter.opentdb.c5eb3c66ef275c3c": [
+      "1e4e320170d3c7f8ba52a9755445c4f3"
+    ],
+    "lifestyle-culture-starter.opentdb.c862aa6146071e12": [
+      "3055debd82d1071e8a998103cd7af2fe"
+    ],
+    "lifestyle-culture-starter.opentdb.ca985e79da73429d": [
+      "22b06ef4e828699abc1afe35b3041eff"
+    ],
+    "lifestyle-culture-starter.opentdb.cac7baa5417f2f06": [
+      "eb4a47f7876b4e3647640bc638a4854b"
+    ],
+    "lifestyle-culture-starter.opentdb.cd249218bd676220": [
+      "c180f0ec50c886f133753f9ff9f38360"
+    ],
+    "lifestyle-culture-starter.opentdb.ce1fa64c03ec087e": [
+      "91da2cdcf05a9b134a7d81dc0ea3adc7"
+    ],
+    "lifestyle-culture-starter.opentdb.d2fe95b222d5ee39": [
+      "6cb372d80340b0ad118c321a38cb4c71"
+    ],
+    "lifestyle-culture-starter.opentdb.d559cdcee290438c": [
+      "8b0f204a1a09082b4b84fc86d82490fd"
+    ],
+    "lifestyle-culture-starter.opentdb.d5e47161e0569dc2": [
+      "872d15557d9b4d52bc61561aa5d08ed6"
+    ],
+    "lifestyle-culture-starter.opentdb.d636f9e2ebb213df": [
+      "e4a6ba234c5c1a752411129545b13538"
+    ],
+    "lifestyle-culture-starter.opentdb.d69acdebc5d9bd8d": [
+      "74a0c8dbc99a5339656b78dd67494bc9"
+    ],
+    "lifestyle-culture-starter.opentdb.d6cd9d02fc14bad7": [
+      "e825eb0d769c670dc5319227f6881b0f"
+    ],
+    "lifestyle-culture-starter.opentdb.db845012e84b80d9": [
+      "a2aa19e46a5adcd351093b48c7e0671f"
+    ],
+    "lifestyle-culture-starter.opentdb.dcadda70d319cd2a": [
+      "81c6f513fb33aeddad43ab18a990fd9d"
+    ],
+    "lifestyle-culture-starter.opentdb.ddcd07129f8cb56f": [
+      "59f56db0e2e2e969bda727422e970967"
+    ],
+    "lifestyle-culture-starter.opentdb.de4f017f6aff8d1c": [
+      "526b2aab4104a8e97895adacc65dc0d1"
+    ],
+    "lifestyle-culture-starter.opentdb.dfb97220eba861a7": [
+      "fbfb726d2bdcb88106edf0ccb2962f7d"
+    ],
+    "lifestyle-culture-starter.opentdb.e3d78ce6a8fabeb9": [
+      "f3ef91f25adaacccaa2ee6ff8cfac374"
+    ],
+    "lifestyle-culture-starter.opentdb.e82e2945efae7176": [
+      "65f20d8463c5cc6b0612be222056591b"
+    ],
+    "lifestyle-culture-starter.opentdb.e8eef0071a9fe1a3": [
+      "468cfdeaec72ab867b7df3be61f5dc55"
+    ],
+    "lifestyle-culture-starter.opentdb.e9184e4c6fc3059f": [
+      "b2c8e744f29717d7ac47726a45b3c214"
+    ],
+    "lifestyle-culture-starter.opentdb.e920e22d69ba632e": [
+      "993d5642213d354c4b2222fafac73558"
+    ],
+    "lifestyle-culture-starter.opentdb.e99ad35eefa02329": [
+      "8fadb33cf14991311f9f9a28ee50dbda"
+    ],
+    "lifestyle-culture-starter.opentdb.ec09665924c7fc1b": [
+      "daede4127fd57b8a774c9f8b3699077e"
+    ],
+    "lifestyle-culture-starter.opentdb.f05ab8dffec444b2": [
+      "888cbb633eaed9c4778c9460ffb5d22d"
+    ],
+    "lifestyle-culture-starter.opentdb.f0f583a72a976ecc": [
+      "fc054088e2c6522596cf7d977b5386ae"
+    ],
+    "lifestyle-culture-starter.opentdb.f2377b41af2b2e4f": [
+      "08e3feb3b304930413feed246bc91fc5"
+    ],
+    "lifestyle-culture-starter.opentdb.f634aa16e1caeb0d": [
+      "c1264a142946bc819e35d77daf52dfea"
+    ],
+    "lifestyle-culture-starter.opentdb.faf8190f892bbde1": [
+      "689a39e5228e55871d7144432b6dbab2"
+    ],
+    "lifestyle-culture-starter.opentdb.fdf72faf55829f6b": [
+      "a312216ba060d39fddee9d7bd66a57b1"
+    ],
+    "lifestyle-culture-starter.replacement.20260718.athena-birth": [
+      "21eb8ab3d03604282ede62d31e6404cd"
+    ],
+    "lifestyle-culture-starter.replacement.20260718.japanese-bowing": [
+      "5dc5984b667d70bb486565e5686222cc"
+    ],
+    "lifestyle-culture-starter.replacement.20260718.judgment-paris": [
+      "e53a94f37490238a01e0e905cca7a0c5"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.diy": [
+      "18c46c78c9d4df3d8d7bbcbbbd497ece"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.hanami": [
+      "1efe56eab0aafc57d5825ba77174a557"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.knit-purl": [
+      "8e9129ec76b69803967102c403b28702"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.laundry-drying-symbol": [
+      "18204fed086a8ea1497ae651c02eb7b2"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.qr-meaning": [
+      "fa0bf61dbaeef2dfbc459246fa15112d"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.rsvp": [
+      "dbec2e01b02224f0595fa1ca6a1987fa"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.spf": [
+      "2a1f26685535d1e5e00a9e44d246567b"
+    ],
+    "lifestyle-culture-starter.replacement.20260721.tachometer": [
+      "502b9477914065d3f10037549fb475f5"
+    ],
+    "music-starter.opentdb.00c8ae072d35b58c": [
+      "73e200892a75dc5ddc5c841087aa720d"
+    ],
+    "music-starter.opentdb.02c907427c2e6838": [
+      "93b28165926d077c38804d1172f98d05"
+    ],
+    "music-starter.opentdb.03f2fa19a9e3c05b": [
+      "dc223e5d2002973f59f8cf71e9f90df5"
+    ],
+    "music-starter.opentdb.088ccd509eeea772": [
+      "ca0ff63d262db76efb8d71a369833076"
+    ],
+    "music-starter.opentdb.08b461b7ed2b718a": [
+      "f2e05c1bd4897f404a54cd0449ab0896"
+    ],
+    "music-starter.opentdb.13311f789390d029": [
+      "16a853e772151a68a93d93d3c20ac01d"
+    ],
+    "music-starter.opentdb.15d0d9b52623403e": [
+      "fd322332434c19808b136751975d72c5"
+    ],
+    "music-starter.opentdb.1bd92ed6da39097c": [
+      "85eb0f979dfe880d1c9913898941c047"
+    ],
+    "music-starter.opentdb.1cb8979d8a0422a9": [
+      "f58fffec9f93d91c48ceb2e2f199c185"
+    ],
+    "music-starter.opentdb.368f85e4d205b3e2": [
+      "c41369ff7e1c7f2dc0b3383c607056d3"
+    ],
+    "music-starter.opentdb.4a3662b32e04d3c7": [
+      "5157924cc0050d854ff9fffbc1febd1f"
+    ],
+    "music-starter.opentdb.4c3f6b1d7d39f24c": [
+      "0e3f13415bb2625bb101e21cbdf1c0a1"
+    ],
+    "music-starter.opentdb.4df62cb9d9770859": [
+      "dc317c378a5dfdc93ed46c17b54bfc37"
+    ],
+    "music-starter.opentdb.4f208aa8cb09c620": [
+      "7bbfd8707e981f64ee9adb109cd6116c"
+    ],
+    "music-starter.opentdb.59ec11a6b0fa512c": [
+      "b2b24ec33db40f327ef185bf3e711a25"
+    ],
+    "music-starter.opentdb.61ff590488bb0caf": [
+      "3715c3d5290ef0df33a5e76bfbfa1da1"
+    ],
+    "music-starter.opentdb.6809589c171e3bc9": [
+      "906aa8025d3926a9f2eb0e6e1b0230d4"
+    ],
+    "music-starter.opentdb.725288c534ec5265": [
+      "dd8a0e5d81ce716c20cd09c17cdb7b02"
+    ],
+    "music-starter.opentdb.734bda2337db48e2": [
+      "7b26eb0cd5f0cbeee8dd52ab17b1ff69"
+    ],
+    "music-starter.opentdb.8396a52ba8ec893d": [
+      "b839935e3b8d9093ef1851d6afece438"
+    ],
+    "music-starter.opentdb.897921b56495aded": [
+      "e140a194fc14f63852f5c5bfec64ec7b"
+    ],
+    "music-starter.opentdb.92db457dcb0b5b80": [
+      "73627bb1da40cf771b07b7b0a1a10d93"
+    ],
+    "music-starter.opentdb.9daaf96604abf30c": [
+      "db64c1520df3ab06fd1cfd98b7eaf1b7"
+    ],
+    "music-starter.opentdb.9de33fbef6079425": [
+      "523f77a030e4dcdca3f49dccd3e06f7d"
+    ],
+    "music-starter.opentdb.9f31bc1ab7fe93b0": [
+      "21bd1eacb439f287b7d06d1a8d9ff514"
+    ],
+    "music-starter.opentdb.ad7821fa48b57e84": [
+      "27a0a43b948c8f185fd0067dcc16790b"
+    ],
+    "music-starter.opentdb.b22bac128f758cf2": [
+      "70afaaff188242274064b25be6ab094b"
+    ],
+    "music-starter.opentdb.b89a873823beb75a": [
+      "d3789f8b7e664e414b8f3598434925b9"
+    ],
+    "music-starter.opentdb.b9219db8d0bf91ab": [
+      "0d7e82cbcf476e7d5180cf7422de5fb2"
+    ],
+    "music-starter.opentdb.c4e0d9aa6bb7300f": [
+      "a0d4b2d0a623e69633eee04eb619abe6"
+    ],
+    "music-starter.opentdb.c84e64d18222d3d9": [
+      "e5044805ddbf2c27913042f58e9e8c2e"
+    ],
+    "music-starter.opentdb.cfbf55963f32bc98": [
+      "274ec7cb8351d6f5a61c014ecdc4b48e"
+    ],
+    "music-starter.opentdb.d2578644e4fe7265": [
+      "2ee5a1e78aaf2d765a88d50082299e15"
+    ],
+    "music-starter.opentdb.d92f5d6e3635fad8": [
+      "95d24add430b40b0723995c2d01aca8c"
+    ],
+    "music-starter.opentdb.e6bc230bd2f61d0a": [
+      "df64c5dfcfa29274fe468afbefa2d394"
+    ],
+    "music-starter.opentdb.ece247dc63b4f337": [
+      "d372842d351315b0cabe1ff3bf0a6bbe"
+    ],
+    "music-starter.opentdb.ed3b8f4425030036": [
+      "8a004177336ce293e2053d6c5bdc6a17"
+    ],
+    "music-starter.opentdb.f518621c33bbfefb": [
+      "91b5477749bd02d5c593bd30bcee361f"
+    ],
+    "music-starter.opentdb.f6063b5d2eb9aa32": [
+      "5e8d87c15b60a2cd8169119ab1069554"
+    ],
+    "music-starter.opentdb.f8b49551f4084d46": [
+      "8a40a89ffaa693393e9a986934fc26ab"
+    ],
+    "music-starter.opentdb.f94e997cd0fbd58d": [
+      "99c3bf1be9e8d47cbd32ac4cd1c799c2"
+    ],
+    "music-starter.opentdb.fac50a755983f71f": [
+      "1ebf3761b8a2a1cafe997f9c95b8546c"
+    ],
+    "music-starter.opentdb.faf5b4692be3eedb": [
+      "6fc3355f9c8e9e89baf8ef4d368362d1"
+    ],
+    "music-starter.replacement.20260720.armstrong-instrument": [
+      "08e3b41790507ff2a254b3d6157959d3"
+    ],
+    "music-starter.replacement.20260720.bassoon-double-reed": [
+      "37fb9208349f1e4e6b943cd4e95145e8"
+    ],
+    "music-starter.replacement.20260720.bitches-brew": [
+      "0808fc1b04a944babfade084922acae3"
+    ],
+    "music-starter.replacement.20260720.bluegrass-banjo": [
+      "26aa01555f42d9e6f7e92f2db777688c"
+    ],
+    "music-starter.replacement.20260720.blues-chord-degrees": [
+      "0964283de8b3b4308a0be4b10fb051ee"
+    ],
+    "music-starter.replacement.20260720.both-sides-now-writer": [
+      "f0bf5a9ad624a224c204aa81e6cb7b9b"
+    ],
+    "music-starter.replacement.20260720.c-major-relative-minor": [
+      "b55aa2071ecc6a82530a1646a75efb39"
+    ],
+    "music-starter.replacement.20260720.cadenza-definition": [
+      "445181ce398cb8b217d74134a167bf00"
+    ],
+    "music-starter.replacement.20260720.calypso-origin": [
+      "b5c375935002b1f5cd079805c24b7f18"
+    ],
+    "music-starter.replacement.20260720.crescendo": [
+      "506c3a5fba5acf96b89dea150a9596f6"
+    ],
+    "music-starter.replacement.20260720.da-capo": [
+      "03ab865ccd2ccb81a8fb6e77c2b05ff4"
+    ],
+    "music-starter.replacement.20260720.dj-scratching": [
+      "87ba05d7b824dfee9be4019d6a39809a"
+    ],
+    "music-starter.replacement.20260720.django-reinhardt": [
+      "b6382f68791c4560c1f169c98fa2af67"
+    ],
+    "music-starter.replacement.20260720.dolly-parton-song": [
+      "b7a494981e8a93be4271a5f21916af2a"
+    ],
+    "music-starter.replacement.20260720.four-seasons-composer": [
+      "3cdf41eb65cbe137bc1daba08c9aadf3"
+    ],
+    "music-starter.replacement.20260720.gamelan": [
+      "640d6204672dc5152f9d6fc57aa4c68d"
+    ],
+    "music-starter.replacement.20260720.george-martin": [
+      "d818a281acba92437609e1ff789eb87f"
+    ],
+    "music-starter.replacement.20260720.gil-evans": [
+      "1701fcbb4f547e2e9ded584b0e01c657"
+    ],
+    "music-starter.replacement.20260720.gospel-roots": [
+      "868bc894ded399873e79d5a273c20a94"
+    ],
+    "music-starter.replacement.20260720.grand-staff": [
+      "08fce0c683d7ed4e9204c40fab398a2b"
+    ],
+    "music-starter.replacement.20260720.hamilton-creator": [
+      "5f9744f43272c40f4da6b45f75f3bad2"
+    ],
+    "music-starter.replacement.20260720.harmolodics": [
+      "eccf51739e315c7e4fbafa609231c4e2"
+    ],
+    "music-starter.replacement.20260720.isicathamiya": [
+      "37d095ee7d229de1b616f9a77f72f9cf"
+    ],
+    "music-starter.replacement.20260720.john-adams-operas": [
+      "5b83efd713316b43b7aec0a58c1dddb2"
+    ],
+    "music-starter.replacement.20260720.kora": [
+      "820e5ee9fc5ae3792876c67c14681784"
+    ],
+    "music-starter.replacement.20260720.love-supreme-coltrane": [
+      "be44471e9a5bca1ff221768b402ef404"
+    ],
+    "music-starter.replacement.20260720.mariachi-mexico": [
+      "e3f80795e731e9f22530c0fbd1e73ff4"
+    ],
+    "music-starter.replacement.20260720.motown-detroit": [
+      "83c3b2e98af86bcfade558d63cc20c29"
+    ],
+    "music-starter.replacement.20260720.music-for-18-musicians": [
+      "fe877cda82c6ee6461ef86a9d425376d"
+    ],
+    "music-starter.replacement.20260720.opera-definition": [
+      "a33069812944a46185c774c4215f5454"
+    ],
+    "music-starter.replacement.20260720.orchestra-conductor": [
+      "e32a4b8843aae797629619bbcdc5923b"
+    ],
+    "music-starter.replacement.20260720.orchestral-string-order": [
+      "ab0f3a1eff8ea750d75ce857f34c8d3f"
+    ],
+    "music-starter.replacement.20260720.phantom-composer": [
+      "ab6d6d377670a0cd43863404f5e2c9ba"
+    ],
+    "music-starter.replacement.20260720.polytonality": [
+      "26f0fed5fb62f223c4f818b408105b4f"
+    ],
+    "music-starter.replacement.20260720.queen-of-night-opera": [
+      "773963470447da99cadadcc31fdf495f"
+    ],
+    "music-starter.replacement.20260720.rappers-delight-group": [
+      "016cdd576a3a055a4c8f1f10a38d6499"
+    ],
+    "music-starter.replacement.20260720.reggae-jamaica": [
+      "2530c708725ff167816a3d5225c2660e"
+    ],
+    "music-starter.replacement.20260720.rhapsody-in-blue": [
+      "6a82237332f3436af0ae18928de1165b"
+    ],
+    "music-starter.replacement.20260720.ring-cycle-composer": [
+      "d0b196141e9d2fa3defd9bd1e051ee0c"
+    ],
+    "music-starter.replacement.20260720.round-midnight-composer": [
+      "163dba5e4f9d7b78e39f4d09dcfd18f8"
+    ],
+    "music-starter.replacement.20260720.saxophone-family": [
+      "e39c145f5738c3bc8eaf8fb81db7ea34"
+    ],
+    "music-starter.replacement.20260720.sitar-india": [
+      "9d3e5219379a9eb30df4451aa3ae8802"
+    ],
+    "music-starter.replacement.20260720.sonata-form-sections": [
+      "c36881b41178abc9295d109ac555d281"
+    ],
+    "music-starter.replacement.20260720.stax-house-band": [
+      "94df1662b41126193e62ff280095930e"
+    ],
+    "music-starter.replacement.20260720.strange-fruit": [
+      "2305c8a58acc1ef613b4774f9f6c6cef"
+    ],
+    "music-starter.replacement.20260720.string-family": [
+      "f9a955cde7ad4cdcb3896111301213f6"
+    ],
+    "music-starter.replacement.20260720.syncopation": [
+      "c1ebd5c5d2bc20c6ddae9adbffe07ca2"
+    ],
+    "music-starter.replacement.20260720.tala": [
+      "4237d2ec457fbfe78beb28d9208cae64"
+    ],
+    "music-starter.replacement.20260720.treble-clef": [
+      "e01a683b43793f2b5cdf6961ac393c52"
+    ],
+    "music-starter.replacement.20260720.twelve-tone-schoenberg": [
+      "0d429df77592b90573d0768ef2aea977"
+    ],
+    "music-starter.replacement.20260720.wall-of-sound": [
+      "277607a542b0f0af27ab50c7d8127c35"
+    ],
+    "music-starter.replacement.20260720.xylophone": [
+      "f5441d8491f797899ba71f078cd4bbaa"
+    ],
+    "science-nature-starter.constellation-abbreviation.apus": [
+      "1cc67b413131bf9aa0d034d5717da7be"
+    ],
+    "science-nature-starter.constellation-abbreviation.camelopardalis": [
+      "bd0a9caab75321518fba8e970ed4ab05"
+    ],
+    "science-nature-starter.constellation-abbreviation.cetus": [
+      "22ebc3f13835a47c24840124d92acd2b"
+    ],
+    "science-nature-starter.constellation-abbreviation.cygnus": [
+      "cc2e163c7785d66b6c77e6bf52122b16"
+    ],
+    "science-nature-starter.constellation-abbreviation.dorado": [
+      "5271dfc7c2c45b6a5c285a410ce79af0"
+    ],
+    "science-nature-starter.constellation-abbreviation.draco": [
+      "87a9c5cdb666b13cc40a83c20d6af3aa"
+    ],
+    "science-nature-starter.constellation-abbreviation.eridanus": [
+      "7bcf1dd9f74f117bb691ae02a51b91ec"
+    ],
+    "science-nature-starter.constellation-abbreviation.gemini": [
+      "be7923e07b5b8e91929ac1b4f19c40ff"
+    ],
+    "science-nature-starter.constellation-abbreviation.lacerta": [
+      "b4b7769e6939e45bbad3d60aae0eb99f"
+    ],
+    "science-nature-starter.constellation-abbreviation.libra": [
+      "911759056ac5c8c9d73dbdf0fcc1e747"
+    ],
+    "science-nature-starter.constellation-abbreviation.monoceros": [
+      "2e6efc01314ddb5fce858ed5293dff85"
+    ],
+    "science-nature-starter.constellation-abbreviation.orion": [
+      "1cd55906e6c6491f7128bef0f606641a"
+    ],
+    "science-nature-starter.constellation-abbreviation.sagittarius": [
+      "19a7aa03571477ce183687504c6eed87"
+    ],
+    "science-nature-starter.constellation-abbreviation.scutum": [
+      "7ba90fa076e762eeaba4dfed7824fc68"
+    ],
+    "science-nature-starter.constellation-abbreviation.taurus": [
+      "6bf603155e13849b50b779186b39e32a"
+    ],
+    "science-nature-starter.constellation-abbreviation.ursa-major": [
+      "2f1de544dfc161452c7efbf643b3e267"
+    ],
+    "science-nature-starter.disease-specialty.complications-of-diabetes-mellitus": [
+      "63593371932f60811ebef64e7efb6015"
+    ],
+    "science-nature-starter.disease-specialty.fecal-incontinence": [
+      "542e39bff26fe4722ae85082703da659"
+    ],
+    "science-nature-starter.disease-specialty.fluoride-toxicity": [
+      "bb927cb937df2b19d0968b00273163d0"
+    ],
+    "science-nature-starter.disease-specialty.sweating-sickness": [
+      "f647947e263bf81137ef58759065926c"
+    ],
+    "science-nature-starter.element-number.americium": [
+      "33d1e18cb34799c4cfe20437919fc7e4"
+    ],
+    "science-nature-starter.element-number.californium": [
+      "7873b1d1847383f1a2fe87c3e1869822"
+    ],
+    "science-nature-starter.element-number.terbium": [
+      "1866aafad162e58489d8c74a670341ef"
+    ],
+    "science-nature-starter.element-number.unhexquadium": [
+      "fc3b67103b3fff90ad9183473713383a"
+    ],
+    "science-nature-starter.element-number.unpentbium": [
+      "458e10dce401d7c7eb7c1111778fe137"
+    ],
+    "science-nature-starter.element-number.unpentnilium": [
+      "365a5f84e68c81bb5ac416de69133652"
+    ],
+    "science-nature-starter.element-number.unpenttrium": [
+      "fb650234f40b2249528668ed6d010b6c"
+    ],
+    "science-nature-starter.element-number.unpentunium": [
+      "4e7b699837bfc1382bfa84a1269ac4d3"
+    ],
+    "science-nature-starter.element-number.unquadbium": [
+      "6c9e913d432f71a0d9f5bd1e117c79ca"
+    ],
+    "science-nature-starter.element-number.unquadhexium": [
+      "47c22151b724ff4a1d2c6310b93d61a5"
+    ],
+    "science-nature-starter.element-number.unquadoctium": [
+      "bb33d2643cff60e17ff3455ce787b63d"
+    ],
+    "science-nature-starter.element-number.unquadpentium": [
+      "549f25285310c24d1807a2f959f20eb8"
+    ],
+    "science-nature-starter.element-number.unquadquadium": [
+      "3b479a53a8d6a62bc0b09424984c73e1"
+    ],
+    "science-nature-starter.element-number.unquadtrium": [
+      "41ef3cd3f472524cc11fa844df5be99e"
+    ],
+    "science-nature-starter.element-number.unquadunium": [
+      "2f53f14fcbd5e2d5713723b894d33cf1"
+    ],
+    "science-nature-starter.element-number.ytterbium": [
+      "bfa3c45bb776594c88d231105d799fd4"
+    ],
+    "science-nature-starter.element-symbol.cerium": [
+      "477dd77b2b8093e838dab9546071453b"
+    ],
+    "science-nature-starter.element-symbol.helium": [
+      "5b1f8236bb9a33594d7eef0bfa6b4987"
+    ],
+    "science-nature-starter.element-symbol.livermorium": [
+      "4a7df48ee3f544cac0ab66fb18cb6d40"
+    ],
+    "science-nature-starter.element-symbol.magnesium": [
+      "503b9c62f72f61b1a7898e35e00fdd88"
+    ],
+    "science-nature-starter.element-symbol.moscovium": [
+      "ee4bb450552d0605242861a4fd19b90b"
+    ],
+    "science-nature-starter.element-symbol.niobium": [
+      "75abf68d4687d74fded474f7b1c99ae3"
+    ],
+    "science-nature-starter.element-symbol.palladium": [
+      "5db2270b5993007152533a1e2c3deff1"
+    ],
+    "science-nature-starter.element-symbol.protactinium": [
+      "61e01e47ae16066be40574b723701ebb"
+    ],
+    "science-nature-starter.element-symbol.rubidium": [
+      "b490c4aed8989390cd2e3170877b3603"
+    ],
+    "science-nature-starter.element-symbol.strontium": [
+      "b5cccc05e1c041b99ea2113b9303afc6"
+    ],
+    "science-nature-starter.element-symbol.tellurium": [
+      "e32c33183b4bfe96ed3cfde5f80484f4"
+    ],
+    "science-nature-starter.element-symbol.thorium": [
+      "aa68675169cfe26f2dad824549bd008d"
+    ],
+    "science-nature-starter.element-symbol.xenon": [
+      "58c1f51a9ace163a282b9621fef570db"
+    ],
+    "science-nature-starter.moon-parent.moon": [
+      "1584d786d52c8449ac0e5e573f2eb8fb"
+    ],
+    "science-nature-starter.moon-parent.s-2004-s-12": [
+      "68f071313e0eb65828f82ac096adb4c1"
+    ],
+    "science-nature-starter.replacement.20260718.medulla": [
+      "2acda730c0014a5e45a747b1681fe1de"
+    ],
+    "science-nature-starter.replacement.20260720.adiabatic-cooling": [
+      "dbfc17b2b9056d5a048a6e488c0ec346"
+    ],
+    "science-nature-starter.replacement.20260720.angular-momentum-skater": [
+      "7486ae8c6f8d8b43567ef1fd30a6d2b9"
+    ],
+    "science-nature-starter.replacement.20260720.antibiotics-bacteria": [
+      "f47293d299dd6152e8ff0434aeb79dbf"
+    ],
+    "science-nature-starter.replacement.20260720.arithmetic-logic-unit": [
+      "d51d745d451ec84060a5c607828d820a"
+    ],
+    "science-nature-starter.replacement.20260720.auxin": [
+      "0d92806ab654f9261dd33182d9600274"
+    ],
+    "science-nature-starter.replacement.20260720.binary-search-complexity": [
+      "d9c614fb05602b215893ddc1a1d148f9"
+    ],
+    "science-nature-starter.replacement.20260720.biomagnification": [
+      "285b04106de6c8ee21ea08f2337d47c9"
+    ],
+    "science-nature-starter.replacement.20260720.carrying-capacity": [
+      "b58df6219019b97b73ca5e861e4f6e6e"
+    ],
+    "science-nature-starter.replacement.20260720.chromosome-dna": [
+      "68fd56903b3f577fab6c9177b3863292"
+    ],
+    "science-nature-starter.replacement.20260720.control-group": [
+      "043dc505d06b6e51074de34ae7da836f"
+    ],
+    "science-nature-starter.replacement.20260720.countercurrent-gills": [
+      "9409544f58c39184d4800a0ef44ae402"
+    ],
+    "science-nature-starter.replacement.20260720.cumulonimbus": [
+      "45c1f05b942de5d09163d30c8b729014"
+    ],
+    "science-nature-starter.replacement.20260720.diaphragm": [
+      "aa0243fe6158bfeda89d4cc101c21d13"
+    ],
+    "science-nature-starter.replacement.20260720.double-blind": [
+      "9c4a5abd2d2cb4a0d4838710711accb0"
+    ],
+    "science-nature-starter.replacement.20260720.ecosystem-producer": [
+      "1fd54816f59f8d06c5e9212b6d46c919"
+    ],
+    "science-nature-starter.replacement.20260720.electromagnetic-induction": [
+      "036750b50537d6880610c7ce8e752d7e"
+    ],
+    "science-nature-starter.replacement.20260720.gallbladder": [
+      "4812689aeb5e4e6a34eb2d5c68d0273c"
+    ],
+    "science-nature-starter.replacement.20260720.gene-heredity": [
+      "049cf709b8999c8df09cfe7c0af2c2ec"
+    ],
+    "science-nature-starter.replacement.20260720.gravity-earth": [
+      "aa1e90821e8237d7dfb1b429cee61772"
+    ],
+    "science-nature-starter.replacement.20260720.hail": [
+      "1e8c0471655d3d5469264657fdc71d9f"
+    ],
+    "science-nature-starter.replacement.20260720.herd-immunity": [
+      "94e3add261cffc5ea2d97e4b4619ac84"
+    ],
+    "science-nature-starter.replacement.20260720.igneous-rock": [
+      "80ff9d9f97a1930d652c87803299bc28"
+    ],
+    "science-nature-starter.replacement.20260720.largest-organ": [
+      "f096c918ba766a599a99236eba32ef18"
+    ],
+    "science-nature-starter.replacement.20260720.lever": [
+      "70dd3fe63b68db58f9e6c75fb20cbfe2"
+    ],
+    "science-nature-starter.replacement.20260720.light-faster-than-sound": [
+      "8a4fb2ec8fe8e5bf6c3bc5512bfb86aa"
+    ],
+    "science-nature-starter.replacement.20260720.mammal-hair": [
+      "edf1344ef5610523d2e142f8d37a75a6"
+    ],
+    "science-nature-starter.replacement.20260720.meiosis": [
+      "b9159bd784fbee2bc1162f1f500a3aad"
+    ],
+    "science-nature-starter.replacement.20260720.mohs-scale": [
+      "fa7cfa56bac350e82559b75902b218e8"
+    ],
+    "science-nature-starter.replacement.20260720.nephron": [
+      "9feaf8e79a68f7a9ba55979b4f18e654"
+    ],
+    "science-nature-starter.replacement.20260720.octopus-hearts": [
+      "c1f3485b6d8368b81328250e18225207"
+    ],
+    "science-nature-starter.replacement.20260720.ohms-law": [
+      "81cbf3e061a14e082b05e5fe3f8182b2"
+    ],
+    "science-nature-starter.replacement.20260720.photo-51": [
+      "91e9ea3bd192d01825aaf90193cee69f"
+    ],
+    "science-nature-starter.replacement.20260720.root-absorption": [
+      "4bd8b8b45e015563e62dab0ba85e3bac"
+    ],
+    "science-nature-starter.replacement.20260720.standard-deviation": [
+      "4b64f13f39f4d43dd10d9dde0b1bc2d5"
+    ],
+    "science-nature-starter.replacement.20260720.transistor": [
+      "6c26760744b987320d2ca3433d4ee92a"
+    ],
+    "science-nature-starter.replacement.20260720.turtle-shell": [
+      "5efaaf58be116fe3aef2a1872cfc52c5"
+    ],
+    "science-nature-starter.replacement.20260720.uncertainty-principle": [
+      "5bcdb8b8d1fc111b38995f3560c8900e"
+    ],
+    "science-nature-starter.replacement.20260721.mycology": [
+      "7d5f50254b3cc245ff5db7cd87ec7f30"
+    ],
+    "science-nature-starter.scientist-field.barys-kit": [
+      "c5a3ebb2b79ee6e70a20205400a2790f"
+    ],
+    "science-nature-starter.scientist-field.hans-winkler": [
+      "2f5bea430ac0411e438d9140534daa56"
+    ],
+    "science-nature-starter.scientist-field.lise-thiry": [
+      "a1f49f9119bd175c3bb2aeb838b14b72"
+    ],
+    "science-nature-starter.scientist-field.nikolai-grube": [
+      "6df36d69274ec2a6d17b822c02e5b7c2"
+    ],
+    "science-nature-starter.scientist-field.ole-w-ver": [
+      "68ca9b899903714471f6484a3fe819b7"
+    ],
+    "seed.arts-literature.49caef6dc14b6227255160b1117b049f": [
+      "cd2cf0c2a5db07346c782fccac3b4a71"
+    ],
+    "seed.arts-literature.729699f7b0131490af91795448d0946d": [
+      "3325b88dde2e543a0c723401eb393c06",
+      "7c670fe4561fbdd5f61589eb87057f79"
+    ],
+    "seed.arts-literature.a30f349f9fe29db7e7b4872438f89ef5": [
+      "aba50ab8664589908b91d2fb4db01691"
+    ],
+    "seed.arts-literature.d2f64e746e9c6fb64a9f8f73f713d545": [
+      "838ac7418e74de5ae7ffd44ccacda0b3",
+      "bc255caf5faa9226e7a287d4349eb8f5"
+    ],
+    "seed.arts-literature.ed546f52e29186c34fd12ac5adcd0a3d": [
+      "d5f4987933d30e379b4a904065c2f6dd"
+    ],
+    "seed.film-television.1e0b3fddc762ec505e394cce27515caf": [
+      "d60e23ad09ac25e07151debf8ce785ab"
+    ],
+    "seed.film-television.2cf6ed92f7753e231b75345019acabc1": [
+      "7bea64304ad1242f344ba8533b9c149c"
+    ],
+    "seed.film-television.606dff047d29230d1cde5a52593a6b0c": [
+      "7d83982082c8c1c622c7c2fe62029b76"
+    ],
+    "seed.film-television.68d6be8c4736d4a26a0e0ed60381c320": [
+      "9c6f975dd739678973dcb40fd5cc8826"
+    ],
+    "seed.film-television.cc16ad34a09541c2ddffe22088c35706": [
+      "21833047e65b69cb8a723023b4f6cba6"
+    ],
+    "seed.geography.3b8f52ae414c1594bf99e54a19e850be": [
+      "37b01f75953ae2a918ad02687e9141cc"
+    ],
+    "seed.geography.61fafa06ce39b0f62e41bcaf94ac1e93": [
+      "970f41ebf5bdc10bf92b3c532a75abe2"
+    ],
+    "seed.geography.81220793ec324e8aee84a8a0bbfe9993": [
+      "6f3fc39c9be018fd29e63e21898e34a7"
+    ],
+    "seed.geography.e3fb09dea77b4bcb39a2177f307a1f08": [
+      "ac26d5ad9799ddf817f4e5bda205e6b1"
+    ],
+    "seed.geography.f1ed0f50d99264fd14c4803380e74e9e": [
+      "8347f5ef9a7711271994e66aed8e0bf8"
+    ],
+    "seed.history.1cf28c726b2e8f8448a25a57252a332a": [
+      "65ae5d7ac1ef4c37242019a9b7770282"
+    ],
+    "seed.history.2f99889482754909438ffadcecd25b28": [
+      "7aac1c5edc62ac9ca8508d7d7b31ea92"
+    ],
+    "seed.history.90f800a671ca0c5eb7fd14cea2094258": [
+      "4d29b64ad22b7b0649a7e007c3145139"
+    ],
+    "seed.history.bfb6ead47cdc040e996d6f0517f9a9ad": [
+      "2e055b150f54468233c54ae6cb1595d9"
+    ],
+    "seed.history.cf2de4c490ff75180c9b5c770dc99139": [
+      "4e4e93bae6594b5f7bbefa2ecaac0907"
+    ],
+    "seed.lifestyle-culture.005d21cb22aca013fb2c4ca4d9cb64a1": [
+      "471e2fbc2d6c0060a8d9bfb3f8a54745"
+    ],
+    "seed.lifestyle-culture.6b41a29d237e5fc7583146f68dd86c82": [
+      "e235e2377a22cc3b6309f829e3ef21af"
+    ],
+    "seed.lifestyle-culture.6cbfb200474f28c89b56b8c946861466": [
+      "cc6392dd5935e5c10c7fb30c5dfec4aa"
+    ],
+    "seed.lifestyle-culture.96b215915ca19d875c06ee233f075cef": [
+      "d893e6db28df6712dc17c093177f7be1"
+    ],
+    "seed.lifestyle-culture.9fb6a877c0217d72ae3135bd35fc4f6e": [
+      "cf35cb7a7964f3a806b542cc041289cc"
+    ],
+    "seed.music.2398ec3a0f47bad1bd1a2c8a1d1f9098": [
+      "496c8ea6f8d4b46cef8ae183fdc2a9f6"
+    ],
+    "seed.music.94326aea83b5579fed62c8fe89215597": [
+      "f0c35828f9c11c114aceb95789a95416"
+    ],
+    "seed.music.a04728640aa21bcfd8cf2c138c2247ad": [
+      "a96644460311bee01a06056fdd20617b"
+    ],
+    "seed.music.a18db6a26f05de85b8869b7a5b279e64": [
+      "728d04626a98b86e118a86ef19a2bb84"
+    ],
+    "seed.music.b7f13c051b225b5eba8f0f947bc95e59": [
+      "bffc008db3c5886b0ee4b8b29a105f81"
+    ],
+    "seed.science-nature.3e7ef5002d00a0cc6321451f820d036d": [
+      "8317f522fca38c0f84b2a233e4822249"
+    ],
+    "seed.science-nature.425e4302c5d482f5dfaa0393421fc6ab": [
+      "ec9b3014204d516bbbca399576ec52b8"
+    ],
+    "seed.science-nature.796a27df2ed242bdfb49a9ea1ba2998c": [
+      "776cedce91f2d72285b38c1fe11fa7e2"
+    ],
+    "seed.science-nature.b7354b289eaf6ad00929d398e366884e": [
+      "177adac42dd4c2775f00b4c9c0e8821a"
+    ],
+    "seed.science-nature.cc7b654c2a618218a717062353f1b3be": [
+      "09cf2fb5679aa66ded962534101b0dc0"
+    ],
+    "seed.sports.0f5633e037f3384b45738dcae72d6b23": [
+      "aa9c8d4f2c0e26f6db1c60df1a2b462b"
+    ],
+    "seed.sports.50b457753c81a36e6afc96eea74f2141": [
+      "1daf395e3d023cda3be28de0d38ad556"
+    ],
+    "seed.sports.71bf7d01b4dc2f0337f6a71cbdbbb792": [
+      "cea802baf270c64f63b21bbf0b569510"
+    ],
+    "seed.sports.ce6992ef501524c54f0d4c85ed079a3c": [
+      "41d8d5cc3efb3c57977b15a17bea460c"
+    ],
+    "seed.sports.f68e027b4904eaefee95829a0957ca43": [
+      "26561ffa017662957726adf11baf71c4"
+    ],
+    "sports-starter.athlete-country.egon-muller": [
+      "1d159dc972a418f8b311b4af63875069"
+    ],
+    "sports-starter.athlete-country.ernst-jakob-henne": [
+      "8f2e2e9487af702ffde4f4a73cb3f0c6"
+    ],
+    "sports-starter.athlete-country.heidi-schuller": [
+      "2f0f42f6fce21c805c8f71d3f15d83cd"
+    ],
+    "sports-starter.athlete-sport.bim-diederich": [
+      "a738b3907a895ba9dab63092f0b9638c"
+    ],
+    "sports-starter.competition-sport.badwater-ultramarathon": [
+      "083cf7c6f80fa020f40115de549a3347"
+    ],
+    "sports-starter.competition-sport.mezzalama-trophy": [
+      "76c652bfd7f7e58866394da0c678f28f"
+    ],
+    "sports-starter.competition-sport.speedway-grand-prix": [
+      "a834b369ef5d90333accd97af7e49216"
+    ],
+    "sports-starter.competition-sport.yugoslav-handball-championship": [
+      "d91645cc320a95ecc930f86832f24c2e"
+    ],
+    "sports-starter.replacement.20260720.al-oerter-discus": [
+      "06c3d2147acb8f53aa7d236b990d84ce"
+    ],
+    "sports-starter.replacement.20260720.alpine-combined": [
+      "cb64479552f159b0583fde37d8a28fd8"
+    ],
+    "sports-starter.replacement.20260720.alpine-slalom": [
+      "a3e8944c1abafb2188984997c05ed918"
+    ],
+    "sports-starter.replacement.20260720.athens-1896": [
+      "c79b34f132bc0518e7e4cecc6df1962c"
+    ],
+    "sports-starter.replacement.20260720.atlanta-1996": [
+      "29d05a61c440f83f108936c9cdb52445"
+    ],
+    "sports-starter.replacement.20260720.baseball-bases": [
+      "73eab2815a268c9c3ec9334a45b7ecea"
+    ],
+    "sports-starter.replacement.20260720.boxing-count": [
+      "11afeaa36939ddb3ff62d778cfc4a38b"
+    ],
+    "sports-starter.replacement.20260720.boxing-gloves": [
+      "0b0bb7a030f5e3bd7ca2f2efb67926c1"
+    ],
+    "sports-starter.replacement.20260720.calendar-grand-slam": [
+      "b94a0ce3194721a6ef268717d047feb3"
+    ],
+    "sports-starter.replacement.20260720.chamonix-1924": [
+      "fdd5f3a58aeac0f008cc59494b701880"
+    ],
+    "sports-starter.replacement.20260720.cricket-over": [
+      "f6832d2ccfbd2811ad8c6232a93af3de"
+    ],
+    "sports-starter.replacement.20260720.curling-house": [
+      "ab00e04565dfd7948a78d8e82a83f980"
+    ],
+    "sports-starter.replacement.20260720.decathlon-events": [
+      "c682be3fc99227c0eab17d195744fe8d"
+    ],
+    "sports-starter.replacement.20260720.designated-hitter": [
+      "c65c2742aaa21b4bac6f919c3347eda8"
+    ],
+    "sports-starter.replacement.20260720.dls-method": [
+      "408d81ca420d50641686f912cb5e7b23"
+    ],
+    "sports-starter.replacement.20260720.double-play": [
+      "1b8abd12976f6fcda03182d35e147bb7"
+    ],
+    "sports-starter.replacement.20260720.dribbling": [
+      "29a536038d27d9882dad46a482dca38f"
+    ],
+    "sports-starter.replacement.20260720.earned-run-average": [
+      "0a67d23a818efce56ed509adde172f1d"
+    ],
+    "sports-starter.replacement.20260720.eight-second-rule": [
+      "2638fe85f2d0411f9b0e2819598b653d"
+    ],
+    "sports-starter.replacement.20260720.eventing-phases": [
+      "c95b61f5c99364d22a3e9d92a99944b3"
+    ],
+    "sports-starter.replacement.20260720.fencing-weapons": [
+      "f610938e587db848469da106ce249b71"
+    ],
+    "sports-starter.replacement.20260720.field-goal-points": [
+      "16e576d6dd3631a549ad921913fe0bb2"
+    ],
+    "sports-starter.replacement.20260720.fosbury-flop": [
+      "4709009a3bb9616453995ceead67f9bb"
+    ],
+    "sports-starter.replacement.20260720.four-grand-slams": [
+      "c4c6909a58c8aaae3e226447725ed0e2"
+    ],
+    "sports-starter.replacement.20260720.free-throw-point": [
+      "ecc207e767bfeb44dbb32a83c59d2f50"
+    ],
+    "sports-starter.replacement.20260720.freestyle-stroke": [
+      "24ea036ffae0e9797e718672a909499d"
+    ],
+    "sports-starter.replacement.20260720.goalkeeper-hands": [
+      "33e4b8b0c9b8af888cdc0f8ee29e923b"
+    ],
+    "sports-starter.replacement.20260720.goaltending": [
+      "d043bb38c0c393fa2f802065175eb55a"
+    ],
+    "sports-starter.replacement.20260720.golf-birdie": [
+      "002b67e6ffacc91d3edc84d17210bb9d"
+    ],
+    "sports-starter.replacement.20260720.golf-low-score": [
+      "e4871a064352fba762a0f676eb2bfa99"
+    ],
+    "sports-starter.replacement.20260720.golf-par": [
+      "2bf21b0d019d00e286217e8963c66e2c"
+    ],
+    "sports-starter.replacement.20260720.hat-trick": [
+      "097bc46064bc80450daec01004c6dc96"
+    ],
+    "sports-starter.replacement.20260720.heptathlon-events": [
+      "733ff801b0c952010feb860cd88353c0"
+    ],
+    "sports-starter.replacement.20260720.hockey-icing": [
+      "b0494ad9cb4ab0f73361189650c9df1d"
+    ],
+    "sports-starter.replacement.20260720.hockey-puck": [
+      "b8e22e7f54466406bd289b9d27d9351d"
+    ],
+    "sports-starter.replacement.20260720.home-run": [
+      "8cfa227870a69eb4a773259c89aa6b76"
+    ],
+    "sports-starter.replacement.20260720.immaculate-reception": [
+      "7080e345febda9c3b0b5743dbd018e2a"
+    ],
+    "sports-starter.replacement.20260720.indy-500-venue": [
+      "a7ca5d6b841cde384a8469d8c1277440"
+    ],
+    "sports-starter.replacement.20260720.ironman-distances": [
+      "e3a060a0efe0b6f771cfd54214e3ce8d"
+    ],
+    "sports-starter.replacement.20260720.jesse-owens-golds": [
+      "c49b334d143c66ae0bc670d97ba1f0b3"
+    ],
+    "sports-starter.replacement.20260720.judo-ippon": [
+      "3983c6c44597b26589b1e6c0a2bf8977"
+    ],
+    "sports-starter.replacement.20260720.lacrosse-origins": [
+      "1f2516087d6a0c05733ee40b21dcd29c"
+    ],
+    "sports-starter.replacement.20260720.lbw": [
+      "560788848c552109d8b5a002635c6f46"
+    ],
+    "sports-starter.replacement.20260720.libero": [
+      "3577f616d9c2da8cf5483aba08ac8b22"
+    ],
+    "sports-starter.replacement.20260720.line-of-scrimmage": [
+      "c0be26a99d711f9e422b4d3a72b82cdc"
+    ],
+    "sports-starter.replacement.20260720.lombardi-trophy": [
+      "066c03d6a35f6d1ea2b66db8fd75e922"
+    ],
+    "sports-starter.replacement.20260720.medley-order": [
+      "fd5eea7b718e2b7a50b2540b0bfa97b7"
+    ],
+    "sports-starter.replacement.20260720.ncaa-shot-clock": [
+      "7489b06dcb15e79803c36ec9948c0f2b"
+    ],
+    "sports-starter.replacement.20260720.olympic-motto": [
+      "14d17beeb199843793bc0d323dfdcb11"
+    ],
+    "sports-starter.replacement.20260720.olympic-rings": [
+      "30ddb09914189ac46224dd451677ac29"
+    ],
+    "sports-starter.replacement.20260720.original-six-count": [
+      "52e4dee5bd00c29a377eece78481dfc6"
+    ],
+    "sports-starter.replacement.20260720.panenka": [
+      "e25b71d0cb923a445b0c3add8d666dcd"
+    ],
+    "sports-starter.replacement.20260720.paralympic-agitos": [
+      "9b0d077a1d1a9886bfb1a4db717ebbf8"
+    ],
+    "sports-starter.replacement.20260720.penalty-spot": [
+      "960cc8467ee5a9f9c782232513eb1be3"
+    ],
+    "sports-starter.replacement.20260720.perfect-game": [
+      "f798901aabc83e034c7f12e456b8e9f5"
+    ],
+    "sports-starter.replacement.20260720.pole-position": [
+      "83edce2d106b09820858713ecddfa7f2"
+    ],
+    "sports-starter.replacement.20260720.power-play": [
+      "72359ec60573ba8850d1fa7ab31525ca"
+    ],
+    "sports-starter.replacement.20260720.quarterback": [
+      "c7cde8d0e4ad1c6a798285bba4d9be26"
+    ],
+    "sports-starter.replacement.20260720.red-card": [
+      "0877c87aeaa351fdce36d0840de412cd"
+    ],
+    "sports-starter.replacement.20260720.regenerative-braking": [
+      "4c893195e4c9f8879b6e229fe13afcd7"
+    ],
+    "sports-starter.replacement.20260720.rugby-conversion": [
+      "3b5d904940193b5ef179d55645b9f571"
+    ],
+    "sports-starter.replacement.20260720.rugby-knock-on": [
+      "dd00c4308c203eadb854bc37cc3d4233"
+    ],
+    "sports-starter.replacement.20260720.rugby-scrum-forwards": [
+      "10adcd8d8f6bf18bcc3f10181c11d1d3"
+    ],
+    "sports-starter.replacement.20260720.safety-points": [
+      "52ee181fa7929ecca369e57745b4cfe2"
+    ],
+    "sports-starter.replacement.20260720.shot-clock": [
+      "be0eed0f515bc9e24d53d73686bd7288"
+    ],
+    "sports-starter.replacement.20260720.shuttlecock": [
+      "46bc897ced14ee2f5ac4946c76585a3f"
+    ],
+    "sports-starter.replacement.20260720.skeleton-headfirst": [
+      "2633914f68d8b17588310f9bf501386c"
+    ],
+    "sports-starter.replacement.20260720.soccer-hat-trick": [
+      "6cc8ac771ee53ab2936a880445a6ea25"
+    ],
+    "sports-starter.replacement.20260720.stalemate": [
+      "1de78d9cff86b3104d528ab3034b041b"
+    ],
+    "sports-starter.replacement.20260720.steeplechase-water-jump": [
+      "91ed65636d4f8b082662a200c529d38e"
+    ],
+    "sports-starter.replacement.20260720.summer-olympics-cycle": [
+      "243e2f985c3383684851553b8f1b53fb"
+    ],
+    "sports-starter.replacement.20260720.tennis-deuce": [
+      "42745a6b7a0d3a82a5fc945d943f134c"
+    ],
+    "sports-starter.replacement.20260720.tennis-love": [
+      "18309a0c25dc4ff2d145b3a7a2fd030e"
+    ],
+    "sports-starter.replacement.20260720.the-ashes": [
+      "989086720422ee6d525b5fcc7f4be9d7"
+    ],
+    "sports-starter.replacement.20260720.three-strikes": [
+      "1f2294e7b17e44f0eeb4cac5f92b604e"
+    ],
+    "sports-starter.replacement.20260720.touchdown-points": [
+      "0679e248b2003a490bdc9871d60a1999"
+    ],
+    "sports-starter.replacement.20260720.tour-de-france": [
+      "406fa9598d205da656fab3965b17a9be"
+    ],
+    "sports-starter.replacement.20260720.triple-double": [
+      "cd1d34c97abf82e398cde3564ed372fb"
+    ],
+    "sports-starter.replacement.20260720.volleyball-players": [
+      "0424b494ba7caaa66d24618d8eba99cb"
+    ],
+    "sports-starter.replacement.20260720.wicketkeeper": [
+      "69e61f52cc6f0e8c60c752d21d27ddde"
+    ],
+    "sports-starter.replacement.20260720.wrestling-fall": [
+      "83d45d9990594c38d218559a20922685"
+    ],
+    "sports-starter.replacement.20260720.yellow-jersey": [
+      "39ebedb1a3009361b0b88d2270eca33f"
+    ],
+    "sports-starter.replacement.20260721.olympic-torch": [
+      "8dd413ea9120df10a30d0ef5cbb4d016"
+    ],
+    "sports-starter.replacement.20260721.photo-finish-torso": [
+      "2f8590c4cb862104dfe5e73b2653df00"
+    ],
+    "sports-starter.replacement.20260721.traveling": [
+      "f0b844c2a21ed77c7dd2be738820337b"
+    ],
+    "sports-starter.team-sport.klm-line": [
+      "2badda486e3611fb77298047c3c82337"
+    ],
+    "sports-starter.team-sport.koi": [
+      "d179ca8245a55d1d07e778ace1273d56"
+    ],
+    "sports-starter.team-venue.amatori-lodi": [
+      "6b78967324bbbcb134874c58ae6d295b"
+    ],
+    "sports-starter.team-venue.cn-atletic-barceloneta": [
+      "91d00ae045babf458ea34eaceded6ea2"
+    ],
+    "trivia-101.opentdb.0006279f0d344f5d": [
+      "4a9a90e27795c74a24c3767a9f440dcf"
+    ],
+    "trivia-101.opentdb.0a202d74e3632689": [
+      "1973720763e76bb556ce4019728e862e"
+    ],
+    "trivia-101.opentdb.0e1712ef9f61604d": [
+      "6be202ab97446d554e8cb09d6577c237"
+    ],
+    "trivia-101.opentdb.0f441861b7ecbcfd": [
+      "b923d29d741fb0377859ec73fc4aaf9a"
+    ],
+    "trivia-101.opentdb.15eaa9c8c1da2a7d": [
+      "73aa71cfca9bd2aff329e3470c9d4926"
+    ],
+    "trivia-101.opentdb.1630b6594ee7c4b0": [
+      "16badf6acbaa8d7bb3e701b0d76eae12"
+    ],
+    "trivia-101.opentdb.1eba43c67ec5eeca": [
+      "e46cc059da5249e1d91dc9c46082fd57"
+    ],
+    "trivia-101.opentdb.22802193c3800f34": [
+      "c9a40802d51b9e2ab7d69fcad371e5f1"
+    ],
+    "trivia-101.opentdb.283844ee4d6c3eac": [
+      "62ab3e692d2aaf1c17e847ba5d1a199f"
+    ],
+    "trivia-101.opentdb.2ee4e666a193ee37": [
+      "f6ea36774aebe942f127d7af31a25872"
+    ],
+    "trivia-101.opentdb.3472de3135faed88": [
+      "c30df6fabefc2636ef5b463233f78ef5"
+    ],
+    "trivia-101.opentdb.4134b68f7b005189": [
+      "7dc11b5812e19c46ed0cab3add8a122b"
+    ],
+    "trivia-101.opentdb.4a61dd51ff287328": [
+      "7b30a0ca820475850e5640e5f203b45a"
+    ],
+    "trivia-101.opentdb.5fa652b7e134c0e6": [
+      "1747838c8aa85f0866ac6f3f7ac6abbd"
+    ],
+    "trivia-101.opentdb.6e0fd4df19de972a": [
+      "d258b36c01086ceb9d6bd0a4797db4e9"
+    ],
+    "trivia-101.opentdb.70418dfa69a82068": [
+      "4c965a5fde4f3f09707d05bdedf2af96"
+    ],
+    "trivia-101.opentdb.70d41876eb243f77": [
+      "53181a2c25f9e4ad0b9a79fd57257aa4"
+    ],
+    "trivia-101.opentdb.74c966721bafea89": [
+      "9b48f0e781b36769d70425534972b034"
+    ],
+    "trivia-101.opentdb.7969e1066cb1ca9b": [
+      "50b8161891ec13c3f95e11345e42da37"
+    ],
+    "trivia-101.opentdb.7b544deb2dd1dd35": [
+      "d90a52739b3981f6f8a657ca9a1e25e9"
+    ],
+    "trivia-101.opentdb.801c54fddc854c3f": [
+      "8d429df14234dc23826f630d8200346c"
+    ],
+    "trivia-101.opentdb.83bde02035017c23": [
+      "b669c4bab9f6662371842bd1a4b12689"
+    ],
+    "trivia-101.opentdb.899d5f90d3680e4f": [
+      "f225bad5756588937b6fac1d0cd0519a"
+    ],
+    "trivia-101.opentdb.8c052dedd910b6b7": [
+      "965f654200cb6ac0730e26206bd38425"
+    ],
+    "trivia-101.opentdb.8f56ce62163b546e": [
+      "120658d96f2aa9b46025d088708a1623"
+    ],
+    "trivia-101.opentdb.97442a76c96d05da": [
+      "dc291207a6ab7278317bfaa3990c791f"
+    ],
+    "trivia-101.opentdb.9780c32f7aa359de": [
+      "bc25f05245ac95f60b18d0637bb780e5"
+    ],
+    "trivia-101.opentdb.9ebdcc4178369ac6": [
+      "64f304294962a02706ceff5f625bf4df"
+    ],
+    "trivia-101.opentdb.a48ce10eba12bc0f": [
+      "33e5cfa97c7f10495eb9fb25dcec3aca"
+    ],
+    "trivia-101.opentdb.a81f4cc798ec8a0d": [
+      "818c107877d1c3a2357a54370e737a1c"
+    ],
+    "trivia-101.opentdb.b222980de7281699": [
+      "ef2b2546d248b35949ecfd4ebcb2619c"
+    ],
+    "trivia-101.opentdb.bd30c1875934370b": [
+      "3b2c50f63bae89b127569a915d4844b9"
+    ],
+    "trivia-101.opentdb.c2cfbc2d306cf7cc": [
+      "5ef7891b92b72cd2da5f66c1823d10ef"
+    ],
+    "trivia-101.opentdb.ca7652453dec9850": [
+      "c9918607e58f614813eb2f36b101962f"
+    ],
+    "trivia-101.opentdb.cd6d08d200040d39": [
+      "8c49afb77c17fdda7eca856fb06063ab"
+    ],
+    "trivia-101.opentdb.d25e0db829aeca17": [
+      "f1f265ecbaa989e4d91932d013386100"
+    ],
+    "trivia-101.opentdb.d9a9d54b9c3df34c": [
+      "d3e51431336e39698064ede81d87f2e2"
+    ],
+    "trivia-101.opentdb.d9df6ac5e24300d6": [
+      "1ddef8c8e82335432160ce198ea63c1a"
+    ],
+    "trivia-101.opentdb.dd5c02e8f04be361": [
+      "f5d28cd423be6546030e6ffbbf896e4c"
+    ],
+    "trivia-101.opentdb.e80020046f17987b": [
+      "39a44bcd668912381ba452d53639f7ac"
+    ],
+    "trivia-101.opentdb.e801fd1bd973c275": [
+      "bc78a7c95bf87357d0fdccf79465cd39"
+    ],
+    "trivia-101.replacement.20260718.monopoly-properties": [
+      "8995b57dce822a39a1cb9fca7e0664ff"
+    ],
+    "trivia-101.replacement.20260718.soccer-red-card": [
+      "260c8bf751e616c552441be3c58b2f32"
+    ],
+    "trivia-101.replacement.20260721.bernabeu": [
+      "23259db5f03e80c0c9caec1619dade79"
+    ],
+    "trivia-101.replacement.20260721.clue": [
+      "17e73ab15e17abe8bd0ee7a29329b92e"
+    ],
+    "trivia-101.replacement.20260721.dr-melfi": [
+      "b3b1a3e5bf77f89dc393ff9cf5e3de97"
+    ],
+    "trivia-101.replacement.20260721.flux-capacitor": [
+      "c9d3ada3b4ed9d449090f41a91c6b98c"
+    ],
+    "trivia-101.replacement.20260721.force-awakens-rey": [
+      "e6df62d0160b9ca704a771803f749aa2"
+    ],
+    "trivia-101.replacement.20260721.porsche-911": [
+      "058cedf6b0a05f1ae3e459d3b47d4b02"
+    ],
+    "trivia-101.replacement.20260721.radarange": [
+      "db3a57b44f6a367bc97d962bcc676f19"
+    ],
+    "trivia-101.replacement.20260721.yellow-brick-road": [
+      "b99613739db561a84a5ac92aaaa1eff9"
+    ]
+  }
+}

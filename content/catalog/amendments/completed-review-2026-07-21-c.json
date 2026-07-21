@@ -1,0 +1,103 @@
+{
+  "lifestyle-culture-starter.opentdb.ec09665924c7fc1b": {"difficulty":2},
+  "science-nature-starter.replacement.20260720.antibiotics-bacteria": {
+    "prompt":"Antibiotics are used to treat infections caused by what type of microorganism?",
+    "explanation":"Antibiotics treat bacterial infections, not infections caused by viruses.",
+    "details":"Different antibiotics act on bacterial structures or processes such as cell-wall synthesis or protein production. They do not work against viruses, and unnecessary use can promote antibiotic resistance."
+  },
+  "music-starter.replacement.20260720.both-sides-now-writer": {"difficulty":3},
+  "lifestyle-culture-starter.opentdb.03ce0e9c9ed2fb3f": {"difficulty":2},
+  "trivia-101.opentdb.c69c4eee8d3838a3": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.porsche-911",
+    "subtopic":"Business, Brands & Consumer Culture",
+    "detailTags":["Porsche","Porsche 911","Automobiles","Brands"],
+    "prompt":"Which automaker produces the 911 sports car?",
+    "canonicalAnswer":"Porsche",
+    "aliases":["Porsche AG"],
+    "distractors":["Ferrari","BMW","Aston Martin"],
+    "explanation":"The 911 is Porsche's long-running rear-engine sports car.",
+    "details":"Introduced in the 1960s, the model has retained its distinctive basic silhouette and rear-engine layout through many generations. The 911 name now covers a broad family of road and competition variants.",
+    "difficulty":1,
+    "source":{"label":"Porsche Newsroom","url":"https://newsroom.porsche.com/en/products/911.html"},
+    "answerMode":"recall"
+  },
+  "film-television-starter.opentdb.152965adab256185": {"difficulty":2},
+  "history-starter.battle-location.battle-of-lake-trasimene": {"difficulty":2},
+  "trivia-101.opentdb.f7c47e7cd9cf0725": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.bernabeu",
+    "subtopic":"Soccer",
+    "detailTags":["Real Madrid","Santiago Bernabéu","Stadiums","Spain"],
+    "prompt":"Which Spanish soccer club plays its home matches at Santiago Bernabéu Stadium?",
+    "canonicalAnswer":"Real Madrid",
+    "aliases":["Real Madrid C.F.","Real Madrid CF"],
+    "distractors":["FC Barcelona","Atlético Madrid","Sevilla FC"],
+    "explanation":"Santiago Bernabéu Stadium is the home of Real Madrid.",
+    "details":"The stadium opened in 1947 and was later named for longtime club president Santiago Bernabéu. It stands in central Madrid and has undergone several major expansions and renovations.",
+    "difficulty":2,
+    "source":{"label":"Real Madrid C.F.","url":"https://www.realmadrid.com/en-US/the-club/contact"},
+    "answerMode":"recall"
+  },
+  "arts-literature-starter.opentdb.212b740605a3a7c8": {
+    "replacementCatalogKey":"arts-literature-starter.replacement.20260721.screaming-lambs",
+    "subtopic":"Novels & Fiction",
+    "detailTags":["The Silence of the Lambs","Thomas Harris","Clarice Starling"],
+    "prompt":"In The Silence of the Lambs, what animals does Clarice Starling remember screaming during her childhood?",
+    "canonicalAnswer":"Lambs",
+    "aliases":["The lambs","Sheep"],
+    "distractors":["Horses","Pigs","Calves"],
+    "explanation":"Clarice remembers hearing lambs scream as they were being slaughtered.",
+    "details":"The memory comes from a traumatic childhood stay on a relative's farm. Her attempt to rescue one lamb failed, and the image becomes a symbol of the vulnerable victims she hopes to save.",
+    "difficulty":3,
+    "source":{"label":"Library of Congress National Film Preservation Board","url":"https://lcweb2.loc.gov/static/programs/national-film-preservation-board/documents/Silence-of-the-Lambs_Mann.pdf"},
+    "answerMode":"recall"
+  },
+  "sports-starter.replacement.20260720.lombardi-trophy": {"aliases":["Lombardi Trophy","Lombardi"]},
+  "trivia-101.opentdb.801c54fddc854c3f": {"difficulty":2},
+  "history-starter.empire-capital.duchy-of-prussia": {"difficulty":2},
+  "history-starter.empire-capital.grand-duchy-of-mecklenburg-strelitz": {"difficulty":3},
+  "history-starter.treaty-year.inter-american-democratic-charter": {"difficulty":2},
+  "trivia-101.opentdb.5fa652b7e134c0e6": {"aliases":["Milkshake mixer","Multimixers","Multimixer","Milkshake"]},
+  "geography-starter.replacement.20260718.polders": {"difficulty":3},
+  "film-television-starter.opentdb.e85f908aa5e71cb1": {"difficulty":3},
+  "trivia-101.opentdb.c37ee4350a39f8a9": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.dr-melfi",
+    "subtopic":"Television Drama",
+    "detailTags":["The Sopranos","Jennifer Melfi","Television Characters"],
+    "prompt":"What is the surname of Tony Soprano's psychiatrist in The Sopranos?",
+    "canonicalAnswer":"Melfi",
+    "aliases":["Dr. Melfi","Jennifer Melfi","Dr. Jennifer Melfi"],
+    "distractors":["Cusamano","Bucco","La Cerva"],
+    "explanation":"Dr. Jennifer Melfi is the psychiatrist who treats Tony Soprano.",
+    "details":"Their therapy sessions provide a central framing device for the series, revealing Tony's anxieties and rationalizations while raising questions about whether treatment helps him change.",
+    "difficulty":2,
+    "source":{"label":"HBO","url":"https://www.hbo.com/the-sopranos"},
+    "answerMode":"recall"
+  },
+  "film-television-starter.opentdb.fd4033020479da36": {"aliases":["Eggo","Waffles"]},
+  "film-television-starter.opentdb.7e652735c811b9ee": {"difficulty":2},
+  "film-television-starter.opentdb.e84c720f2013e5b9": {
+    "prompt":"In Cast Away, what name does Chuck give the volleyball that becomes his companion on the island?",
+    "explanation":"Chuck names the volleyball Wilson after the brand printed on it.",
+    "details":"Talking to Wilson helps Chuck cope with isolation after the plane crash. The volleyball becomes an emotionally important companion even though it is an inanimate object."
+  },
+  "film-television-starter.opentdb.eae5c019704e255d": {"difficulty":4},
+  "lifestyle-culture-starter.opentdb.e9184e4c6fc3059f": {"difficulty":3,"aliases":["Cupertino","California"]},
+  "sports-starter.team-venue.amatori-lodi": {
+    "canonicalAnswer":"10 feet",
+    "aliases":["Ten feet","10 ft","3.05 meters","3.048 meters"],
+    "distractors":["8 feet","9 feet","12 feet"],
+    "explanation":"A regulation basketball rim is 10 feet above the playing surface.",
+    "details":"The 10-foot height has remained a defining dimension since James Naismith's original game used elevated peach baskets. It is approximately 3.05 meters and is standard in major men's and women's competitions."
+  },
+  "science-nature-starter.replacement.20260720.mohs-scale": {"aliases":["Mohs hardness scale","Mohs scale of mineral hardness","Mohs"]},
+  "geography-starter.replacement.20260718.bosporus-city": {"difficulty":3},
+  "film-television-starter.opentdb.fd03d6dc9742274f": {"difficulty":3},
+  "film-television-starter.opentdb.b0535da26bc6e089": {
+    "prompt":"In Big Hero 6, what fictional city is home to the superhero team?",
+    "difficulty":2
+  },
+  "film-television-starter.opentdb.74841f84b12945b3": {"difficulty":3},
+  "film-television-starter.opentdb.388bc681e02c4b76": {"aliases":["Batman v Superman","Dawn of Justice"]},
+  "lifestyle-culture-starter.opentdb.ca985e79da73429d": {"difficulty":4},
+  "history-starter.treaty-year.donation-of-pepin": {"difficulty":3}
+}

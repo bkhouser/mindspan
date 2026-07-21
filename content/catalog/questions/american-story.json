@@ -1,0 +1,1551 @@
+[
+  {
+    "catalogKey": "american-story.indigenous-three-sisters",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Indigenous History"
+    ],
+    "prompt": "Corn, beans, and squash are traditionally grown together under what collective name?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Three Sisters",
+    "aliases": [
+      "The Three Sisters"
+    ],
+    "distractors": [
+      "Four Directions",
+      "Sacred Hoop",
+      "Green Corn Road"
+    ],
+    "explanation": "The Three Sisters planting system combines crops that support one another.",
+    "details": "Corn provides a climbing stalk, beans add nitrogen to soil, and broad squash leaves help suppress weeds and retain moisture.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.indigenous-cahokia",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Indigenous History"
+    ],
+    "prompt": "Which large Mississippian city flourished near present-day St. Louis?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cahokia",
+    "aliases": [],
+    "distractors": [
+      "Mesa Verde",
+      "Chaco Canyon",
+      "Poverty Point"
+    ],
+    "explanation": "Cahokia was the largest known urban center north of Mexico in pre-Columbian America.",
+    "details": "Its plazas and earthen mounds, including Monks Mound, reflect a populous and politically organized regional society.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.indigenous-haudenosaunee",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Indigenous History"
+    ],
+    "prompt": "What confederacy united the Mohawk, Oneida, Onondaga, Cayuga, and Seneca nations?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Haudenosaunee Confederacy",
+    "aliases": [
+      "Iroquois Confederacy",
+      "Five Nations",
+      "Six Nations"
+    ],
+    "distractors": [
+      "Powhatan Confederacy",
+      "Wabanaki Confederacy",
+      "Blackfoot Confederacy"
+    ],
+    "explanation": "The Haudenosaunee Confederacy is also called the Iroquois Confederacy.",
+    "details": "Its Great Law of Peace established a council system; the Tuscarora later joined as a sixth nation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.indigenous-pueblo",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Indigenous History"
+    ],
+    "prompt": "Which peoples of the Southwest are known for multistory settlements built from stone and adobe?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pueblo peoples",
+    "aliases": [
+      "Puebloans",
+      "Pueblo"
+    ],
+    "distractors": [
+      "Inuit peoples",
+      "Seminole peoples",
+      "Tlingit peoples"
+    ],
+    "explanation": "Pueblo communities developed durable apartment-like settlements adapted to arid environments.",
+    "details": "Their diverse nations include Hopi, Zuni, Acoma, Taos, and others with distinct languages and traditions.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.indigenous-potlach",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Indigenous History"
+    ],
+    "prompt": "What ceremonial feast of Pacific Northwest peoples centers on gift giving and redistribution?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Potlatch",
+    "aliases": [],
+    "distractors": [
+      "Powwow",
+      "Kiva",
+      "Sun Dance"
+    ],
+    "explanation": "A potlatch affirms status, kinship, history, and responsibility through feasting and gifts.",
+    "details": "Colonial governments once prohibited the practice, but communities preserved and revitalized it.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.colonial-thirteen",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Colonial America"
+    ],
+    "prompt": "How many British colonies declared independence in 1776?",
+    "answerMode": "recall",
+    "canonicalAnswer": "13",
+    "aliases": [
+      "Thirteen"
+    ],
+    "distractors": [
+      "10",
+      "12",
+      "15"
+    ],
+    "explanation": "Thirteen British colonies formed the original United States.",
+    "details": "Their borders, economies, religions, and political institutions varied substantially despite their joint break with Britain.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/3-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.colonial-mayflower",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Colonial America"
+    ],
+    "prompt": "Which 1620 agreement created a framework for self-government among Plymouth settlers?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mayflower Compact",
+    "aliases": [
+      "The Mayflower Compact"
+    ],
+    "distractors": [
+      "Fundamental Orders",
+      "Albany Plan",
+      "Virginia Resolves"
+    ],
+    "explanation": "The Mayflower Compact pledged signers to form a civil political body and obey agreed laws.",
+    "details": "It was not a constitution for democracy, but it became a prominent symbol of government by covenant and consent.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/3-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.colonial-burgesses",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Colonial America"
+    ],
+    "prompt": "What was the elected representative assembly founded in Virginia in 1619 called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "House of Burgesses",
+    "aliases": [
+      "Virginia House of Burgesses"
+    ],
+    "distractors": [
+      "General Court",
+      "Continental Congress",
+      "Privy Council"
+    ],
+    "explanation": "The House of Burgesses was the first representative legislative assembly in English North America.",
+    "details": "Its authority remained limited by the governor, company, crown, and a political system that excluded most residents.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/3-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.colonial-awakening",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Colonial America"
+    ],
+    "prompt": "What name is given to the religious revival that swept British North America in the 1730s and 1740s?",
+    "answerMode": "recall",
+    "canonicalAnswer": "First Great Awakening",
+    "aliases": [
+      "Great Awakening"
+    ],
+    "distractors": [
+      "Second Great Awakening",
+      "Social Gospel",
+      "Restoration Movement"
+    ],
+    "explanation": "The First Great Awakening emphasized personal conversion and emotionally powerful preaching.",
+    "details": "It challenged established churches, encouraged new denominations, and created shared experiences across colonial boundaries.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/3-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.colonial-salutary",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Colonial America"
+    ],
+    "prompt": "What term describes Britain's long period of loosely enforcing many colonial trade rules?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Salutary neglect",
+    "aliases": [],
+    "distractors": [
+      "Home rule",
+      "Mercantilist repeal",
+      "Virtual representation"
+    ],
+    "explanation": "Salutary neglect allowed colonial merchants and assemblies considerable practical autonomy.",
+    "details": "Britain's tighter postwar enforcement after 1763 contributed to conflict over taxation, trade, and political authority.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/3-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.revolution-declaration",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "American Revolution"
+    ],
+    "prompt": "Which document announced that the thirteen colonies considered themselves independent states?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Declaration of Independence",
+    "aliases": [
+      "The Declaration of Independence"
+    ],
+    "distractors": [
+      "Constitution",
+      "Bill of Rights",
+      "Articles of Confederation"
+    ],
+    "explanation": "The Declaration of Independence announced separation from Britain in 1776.",
+    "details": "Its argument combined specific grievances with claims about equality, natural rights, consent, and the right to alter government.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/6-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.revolution-lexington",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "American Revolution"
+    ],
+    "prompt": "At which two Massachusetts towns did fighting open the American Revolutionary War?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Lexington and Concord",
+    "aliases": [],
+    "distractors": [
+      "Yorktown and Jamestown",
+      "Trenton and Princeton",
+      "Saratoga and Albany"
+    ],
+    "explanation": "British regulars and colonial militia fought at Lexington and Concord in April 1775.",
+    "details": "The expedition sought military supplies at Concord, while riders spread warnings that mobilized militia along the return route.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/6-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.revolution-valley-forge",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "American Revolution"
+    ],
+    "prompt": "Where did Washington's Continental Army endure the difficult winter of 1777–1778?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Valley Forge",
+    "aliases": [],
+    "distractors": [
+      "Fort Ticonderoga",
+      "Bunker Hill",
+      "Morristown Harbor"
+    ],
+    "explanation": "Valley Forge became a symbol of hardship and army reform.",
+    "details": "Supply failures caused severe suffering, while training associated with Friedrich von Steuben improved discipline and standardized drills.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/6-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.revolution-saratoga",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "American Revolution"
+    ],
+    "prompt": "Which American victory helped persuade France to enter the Revolutionary War openly?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Saratoga",
+    "aliases": [
+      "Battle of Saratoga",
+      "Battles of Saratoga"
+    ],
+    "distractors": [
+      "Camden",
+      "Long Island",
+      "Charleston"
+    ],
+    "explanation": "The British surrender at Saratoga helped secure a formal French alliance.",
+    "details": "French money, weapons, troops, naval power, and global pressure substantially changed the strategic balance against Britain.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/6-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.revolution-federalist",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "American Revolution"
+    ],
+    "prompt": "Which three authors wrote the Federalist Papers under the name Publius?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hamilton, Madison, and Jay",
+    "aliases": [
+      "Alexander Hamilton James Madison and John Jay",
+      "Hamilton Madison Jay"
+    ],
+    "distractors": [
+      "Adams, Franklin, and Paine",
+      "Jefferson, Monroe, and Henry",
+      "Washington, Knox, and Morris"
+    ],
+    "explanation": "Alexander Hamilton, James Madison, and John Jay wrote the Federalist essays.",
+    "details": "The essays defended the proposed Constitution and remain influential explanations of federalism, institutional design, and republican government.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/6-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.constitution-branches",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Constitutional History"
+    ],
+    "prompt": "How many branches of the federal government are established by the Constitution?",
+    "answerMode": "recall",
+    "canonicalAnswer": "3",
+    "aliases": [
+      "Three"
+    ],
+    "distractors": [
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "The Constitution establishes legislative, executive, and judicial branches.",
+    "details": "Separated powers and overlapping checks are intended to prevent authority from concentrating in one institution.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.constitution-bill-rights",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Constitutional History"
+    ],
+    "prompt": "What collective name is given to the first ten amendments?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Bill of Rights",
+    "aliases": [
+      "The Bill of Rights"
+    ],
+    "distractors": [
+      "Federalist Papers",
+      "Reconstruction Acts",
+      "Articles of Union"
+    ],
+    "explanation": "The Bill of Rights protects specified liberties and limits federal power.",
+    "details": "Ratified in 1791, the amendments address expression, religion, criminal procedure, arms, federalism, and other rights.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.constitution-great-compromise",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Constitutional History"
+    ],
+    "prompt": "Which convention agreement created a House based on population and a Senate with equal state representation?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Great Compromise",
+    "aliases": [
+      "Connecticut Compromise"
+    ],
+    "distractors": [
+      "Missouri Compromise",
+      "Compromise of 1850",
+      "Three-Fifths Compromise"
+    ],
+    "explanation": "The Great Compromise created the basic structure of Congress.",
+    "details": "It reconciled competing large-state and small-state plans through a bicameral legislature with different bases of representation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.constitution-marbury",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Constitutional History"
+    ],
+    "prompt": "Which Supreme Court case firmly established judicial review of federal laws?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Marbury v. Madison",
+    "aliases": [
+      "Marbury versus Madison",
+      "Marbury"
+    ],
+    "distractors": [
+      "McCulloch v. Maryland",
+      "Gibbons v. Ogden",
+      "Dred Scott v. Sandford"
+    ],
+    "explanation": "Marbury v. Madison asserted the Supreme Court's authority to invalidate unconstitutional federal legislation.",
+    "details": "Chief Justice John Marshall reasoned that courts must apply the Constitution when an ordinary law conflicts with it.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.constitution-electoral-college",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Constitutional History"
+    ],
+    "prompt": "What constitutional body formally chooses the president and vice president?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Electoral College",
+    "aliases": [
+      "The Electoral College"
+    ],
+    "distractors": [
+      "Cabinet",
+      "Supreme Court",
+      "Senate alone"
+    ],
+    "explanation": "Presidential electors cast the formal votes counted to determine the election winner.",
+    "details": "Each state's allocation equals its total representation in Congress, while the District of Columbia receives electors under the Twenty-Third Amendment.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "U.S. National Archives",
+      "url": "https://www.archives.gov/founding-docs/constitution"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.expansion-louisiana",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Expansion & Civil War"
+    ],
+    "prompt": "Which 1803 acquisition roughly doubled the territory claimed by the United States?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Louisiana Purchase",
+    "aliases": [
+      "The Louisiana Purchase"
+    ],
+    "distractors": [
+      "Alaska Purchase",
+      "Gadsden Purchase",
+      "Mexican Cession"
+    ],
+    "explanation": "The Louisiana Purchase transferred France's North American claim to the United States.",
+    "details": "The acquisition secured New Orleans and the Mississippi outlet while raising lasting questions about Indigenous sovereignty and slavery's expansion.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/15-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.expansion-underground",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Expansion & Civil War"
+    ],
+    "prompt": "What was the secret network that helped freedom seekers escape slavery called?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Underground Railroad",
+    "aliases": [
+      "The Underground Railroad"
+    ],
+    "distractors": [
+      "National Road",
+      "Freedom Trail",
+      "Oregon Trail"
+    ],
+    "explanation": "The Underground Railroad was a decentralized network of people, routes, and safe places.",
+    "details": "Free Black communities, formerly enslaved people, and allies assisted escape despite severe legal danger; it was neither underground nor a railroad.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/15-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.expansion-kansas-nebraska",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Expansion & Civil War"
+    ],
+    "prompt": "Which 1854 law let settlers in two territories vote on slavery and effectively repealed the Missouri Compromise line?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Kansas-Nebraska Act",
+    "aliases": [],
+    "distractors": [
+      "Homestead Act",
+      "Fugitive Slave Act",
+      "Dawes Act"
+    ],
+    "explanation": "The Kansas-Nebraska Act applied popular sovereignty to Kansas and Nebraska.",
+    "details": "Its passage triggered violent conflict in Kansas and accelerated the collapse and realignment of national political parties.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/15-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.expansion-emancipation",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Expansion & Civil War"
+    ],
+    "prompt": "Which wartime order declared enslaved people free in areas still in rebellion on January 1, 1863?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Emancipation Proclamation",
+    "aliases": [
+      "The Emancipation Proclamation"
+    ],
+    "distractors": [
+      "Gettysburg Address",
+      "Reconstruction Act",
+      "Compromise of 1877"
+    ],
+    "explanation": "The Emancipation Proclamation made ending slavery an explicit Union war aim.",
+    "details": "Its immediate legal reach was limited, but it encouraged escape, authorized Black military service, and transformed the war's meaning.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/15-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.expansion-fourteenth",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Expansion & Civil War"
+    ],
+    "prompt": "Which amendment established birthright citizenship and equal protection under law?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Fourteenth Amendment",
+    "aliases": [
+      "14th Amendment",
+      "Amendment XIV"
+    ],
+    "distractors": [
+      "Thirteenth Amendment",
+      "Fifteenth Amendment",
+      "Nineteenth Amendment"
+    ],
+    "explanation": "The Fourteenth Amendment constitutionalized national citizenship and equal protection.",
+    "details": "Ratified during Reconstruction, it also includes due process and became central to later litigation over civil rights and liberties.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/15-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.industry-assembly",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Industrial & Progressive Era"
+    ],
+    "prompt": "Which automobile manufacturer became closely associated with the moving assembly line?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ford",
+    "aliases": [
+      "Henry Ford",
+      "Ford Motor Company"
+    ],
+    "distractors": [
+      "Packard",
+      "Studebaker",
+      "Oldsmobile"
+    ],
+    "explanation": "Ford Motor Company used moving assembly lines to reduce Model T production time and cost.",
+    "details": "The technique built on earlier industrial methods but demonstrated the enormous scale possible through standardized parts and tightly sequenced work.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.industry-promontory",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Industrial & Progressive Era"
+    ],
+    "prompt": "Where did the Union Pacific and Central Pacific railroads meet in 1869?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Promontory Summit",
+    "aliases": [
+      "Promontory Point",
+      "Promontory Utah"
+    ],
+    "distractors": [
+      "South Pass",
+      "Donner Pass",
+      "Cumberland Gap"
+    ],
+    "explanation": "The first transcontinental railroad was ceremonially joined at Promontory Summit, Utah Territory.",
+    "details": "The connection shortened cross-country travel while relying heavily on immigrant labor and accelerating settlement and Indigenous dispossession.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.industry-sherman",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Industrial & Progressive Era"
+    ],
+    "prompt": "Which 1890 federal law targeted combinations that restrained interstate trade?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sherman Antitrust Act",
+    "aliases": [
+      "Sherman Act"
+    ],
+    "distractors": [
+      "Pendleton Act",
+      "Morrill Act",
+      "Volstead Act"
+    ],
+    "explanation": "The Sherman Antitrust Act created a federal tool against monopolistic restraints of trade.",
+    "details": "Early enforcement was inconsistent and sometimes used against unions, but later cases expanded its role in competition policy.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.industry-pullman",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Industrial & Progressive Era"
+    ],
+    "prompt": "Which 1894 railroad strike began in a company town near Chicago and disrupted national rail traffic?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Pullman Strike",
+    "aliases": [
+      "The Pullman Strike"
+    ],
+    "distractors": [
+      "Homestead Strike",
+      "Haymarket Affair",
+      "Ludlow Massacre"
+    ],
+    "explanation": "The Pullman Strike grew from wage cuts and high company-town rents.",
+    "details": "Federal intervention and an injunction broke the American Railway Union strike, exposing the era's intense conflict over labor and corporate power.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.industry-niagara",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Industrial & Progressive Era"
+    ],
+    "prompt": "Which civil-rights organization founded by W. E. B. Du Bois and others in 1905 demanded immediate equality?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Niagara Movement",
+    "aliases": [
+      "The Niagara Movement"
+    ],
+    "distractors": [
+      "Grange",
+      "Mugwumps",
+      "Know-Nothings"
+    ],
+    "explanation": "The Niagara Movement rejected gradual accommodation and demanded full civil and political rights.",
+    "details": "Although short-lived, it helped supply leaders and ideas for the NAACP, founded several years later.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/18-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.immigration-ellis",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Immigration & Society"
+    ],
+    "prompt": "Which New York Harbor station processed millions of arriving immigrants from 1892 to 1954?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ellis Island",
+    "aliases": [],
+    "distractors": [
+      "Angel Island",
+      "Governors Island",
+      "Liberty Island"
+    ],
+    "explanation": "Ellis Island became the busiest federal immigration inspection station.",
+    "details": "Most arrivals passed through in hours, while some faced medical examination, legal hearings, detention, or exclusion.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.immigration-chinese-exclusion",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Immigration & Society"
+    ],
+    "prompt": "Which 1882 law broadly suspended immigration of Chinese laborers?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chinese Exclusion Act",
+    "aliases": [
+      "Chinese Exclusion Act of 1882"
+    ],
+    "distractors": [
+      "Dawes Act",
+      "Mann Act",
+      "Burlingame Treaty"
+    ],
+    "explanation": "The Chinese Exclusion Act was the first major federal law to bar immigration by nationality and class.",
+    "details": "It intensified discrimination, divided families, and shaped later exclusion systems before repeal during World War II.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.immigration-great-migration",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Immigration & Society"
+    ],
+    "prompt": "What movement carried millions of Black Americans from the rural South to northern and western cities?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Great Migration",
+    "aliases": [
+      "The Great Migration"
+    ],
+    "distractors": [
+      "Dust Bowl migration",
+      "Trail of Tears",
+      "Back-to-Africa movement"
+    ],
+    "explanation": "The Great Migration reshaped American cities, politics, labor, music, and culture.",
+    "details": "People sought industrial jobs and greater freedom while escaping Jim Crow violence, disfranchisement, and agricultural exploitation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.immigration-gentlemens",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Immigration & Society"
+    ],
+    "prompt": "Which informal 1907–1908 arrangement limited Japanese labor immigration without a formal exclusion law?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Gentlemen's Agreement",
+    "aliases": [
+      "Gentlemen's Agreement of 1907"
+    ],
+    "distractors": [
+      "Open Door Policy",
+      "Root-Takahira Agreement",
+      "Lansing-Ishii Agreement"
+    ],
+    "explanation": "Japan restricted passports for laborers while the United States avoided a statutory ban.",
+    "details": "The arrangement reflected diplomatic compromise amid intense anti-Asian discrimination, especially on the West Coast.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.immigration-1924",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Immigration & Society"
+    ],
+    "prompt": "Which law established national-origins quotas that strongly favored northern and western Europe?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Immigration Act of 1924",
+    "aliases": [
+      "Johnson-Reed Act",
+      "1924 Immigration Act"
+    ],
+    "distractors": [
+      "Homestead Act",
+      "Refugee Act of 1980",
+      "Civil Rights Act of 1875"
+    ],
+    "explanation": "The Immigration Act of 1924 sharply restricted entry through discriminatory national-origins quotas.",
+    "details": "It also excluded immigrants ineligible for citizenship, effectively barring most immigration from Asia until later reforms.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "OpenStax U.S. History",
+      "url": "https://openstax.org/books/us-history/pages/19-introduction"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.rights-brown",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Civil Rights"
+    ],
+    "prompt": "Which Supreme Court decision ruled that segregated public schools were inherently unequal?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Brown v. Board of Education",
+    "aliases": [
+      "Brown versus Board of Education",
+      "Brown"
+    ],
+    "distractors": [
+      "Plessy v. Ferguson",
+      "Korematsu v. United States",
+      "Schenck v. United States"
+    ],
+    "explanation": "Brown v. Board rejected school segregation under the Equal Protection Clause.",
+    "details": "The 1954 ruling overturned the public-school application of separate but equal, though implementation faced organized resistance.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service Civil Rights",
+      "url": "https://www.nps.gov/subjects/civilrights/index.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.rights-montgomery",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Civil Rights"
+    ],
+    "prompt": "Which protest began after Rosa Parks was arrested for refusing to surrender her bus seat?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Montgomery Bus Boycott",
+    "aliases": [
+      "Montgomery boycott"
+    ],
+    "distractors": [
+      "March on Washington",
+      "Freedom Summer",
+      "Selma campaign"
+    ],
+    "explanation": "The Montgomery Bus Boycott challenged segregated public transportation for more than a year.",
+    "details": "Black residents organized carpools and sustained collective action until federal courts struck down bus segregation.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service Civil Rights",
+      "url": "https://www.nps.gov/subjects/civilrights/index.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.rights-sit-ins",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Civil Rights"
+    ],
+    "prompt": "What nonviolent tactic brought students to segregated lunch counters where they requested service and remained seated?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sit-ins",
+    "aliases": [
+      "Sit in protests",
+      "Lunch counter sit-ins"
+    ],
+    "distractors": [
+      "Freedom schools",
+      "Court packing",
+      "Rent strikes"
+    ],
+    "explanation": "Lunch-counter sit-ins exposed segregation through disciplined nonviolent protest.",
+    "details": "The Greensboro action of 1960 inspired rapid student organizing and helped drive desegregation across many businesses.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service Civil Rights",
+      "url": "https://www.nps.gov/subjects/civilrights/index.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.rights-freedom-rides",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Civil Rights"
+    ],
+    "prompt": "What 1961 campaign tested federal rulings against segregation in interstate bus travel?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Freedom Rides",
+    "aliases": [
+      "The Freedom Rides"
+    ],
+    "distractors": [
+      "Poor People's Campaign",
+      "Albany Movement",
+      "Double V campaign"
+    ],
+    "explanation": "Interracial Freedom Riders traveled through the South and faced violent attacks and arrests.",
+    "details": "The campaign pressured federal regulators to enforce desegregation in interstate buses and terminal facilities.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service Civil Rights",
+      "url": "https://www.nps.gov/subjects/civilrights/index.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.rights-mfdp",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Civil Rights"
+    ],
+    "prompt": "Which integrated political group challenged Mississippi's all-white Democratic delegation at the 1964 national convention?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mississippi Freedom Democratic Party",
+    "aliases": [
+      "MFDP",
+      "Freedom Democratic Party"
+    ],
+    "distractors": [
+      "Student Nonviolent Coordinating Committee",
+      "Congress of Racial Equality",
+      "Southern Christian Leadership Conference"
+    ],
+    "explanation": "The Mississippi Freedom Democratic Party exposed systematic exclusion from the state's regular party.",
+    "details": "Fannie Lou Hamer's nationally televised testimony made the challenge a defining confrontation over representation and voting rights.",
+    "difficulty": 5,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "National Park Service Civil Rights",
+      "url": "https://www.nps.gov/subjects/civilrights/index.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.foreign-monroe",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Foreign Policy"
+    ],
+    "prompt": "Which doctrine warned European powers against new colonization in the Americas?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Monroe Doctrine",
+    "aliases": [
+      "The Monroe Doctrine"
+    ],
+    "distractors": [
+      "Truman Doctrine",
+      "Open Door Policy",
+      "Roosevelt Corollary"
+    ],
+    "explanation": "The Monroe Doctrine declared the Western Hemisphere closed to new European colonization.",
+    "details": "The United States initially lacked power to enforce the 1823 declaration alone, but later leaders expanded its meaning.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.foreign-marshall",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Foreign Policy"
+    ],
+    "prompt": "What U.S. program funded European economic recovery after World War II?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Marshall Plan",
+    "aliases": [
+      "European Recovery Program"
+    ],
+    "distractors": [
+      "Dawes Plan",
+      "Point Four Program",
+      "Lend-Lease"
+    ],
+    "explanation": "The Marshall Plan supplied large-scale aid for European reconstruction.",
+    "details": "It sought economic recovery, trade stability, political resilience, and reduced appeal of communist movements.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.foreign-cuban-missile",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Foreign Policy"
+    ],
+    "prompt": "Which 1962 confrontation brought the United States and Soviet Union closest to nuclear war?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cuban Missile Crisis",
+    "aliases": [
+      "October Crisis",
+      "Caribbean Crisis"
+    ],
+    "distractors": [
+      "Berlin Airlift",
+      "Suez Crisis",
+      "U-2 incident"
+    ],
+    "explanation": "The Cuban Missile Crisis centered on Soviet nuclear missiles placed in Cuba.",
+    "details": "A naval quarantine and secret negotiations ended the standoff, followed by removal of Soviet missiles and later U.S. missiles from Turkey.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.foreign-containment",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Foreign Policy"
+    ],
+    "prompt": "What Cold War strategy sought to prevent communism from spreading to additional countries?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Containment",
+    "aliases": [],
+    "distractors": [
+      "Isolationism",
+      "Appeasement",
+      "Dollar diplomacy"
+    ],
+    "explanation": "Containment aimed to limit further expansion of Soviet influence and communist governments.",
+    "details": "It shaped alliances, aid programs, covert operations, and wars, though policymakers disagreed sharply over its application.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.foreign-open-door",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Foreign Policy"
+    ],
+    "prompt": "Which policy notes called for equal commercial access to China and preservation of its territorial integrity?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Open Door Policy",
+    "aliases": [
+      "Open Door Notes",
+      "Open Door"
+    ],
+    "distractors": [
+      "Good Neighbor Policy",
+      "Big Stick policy",
+      "Dollar diplomacy"
+    ],
+    "explanation": "The Open Door notes asked imperial powers to preserve equal trading opportunities in China.",
+    "details": "Issued by Secretary of State John Hay, they reflected U.S. commercial interests despite lacking formal acceptance by every recipient.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Office of the Historian, U.S. Department of State",
+      "url": "https://history.state.gov/milestones"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.culture-telegraph",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Culture & Innovation"
+    ],
+    "prompt": "Who developed the best-known American telegraph system and the code bearing his name?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Samuel Morse",
+    "aliases": [
+      "Samuel F. B. Morse",
+      "Morse"
+    ],
+    "distractors": [
+      "Alexander Bell",
+      "Thomas Edison",
+      "Eli Whitney"
+    ],
+    "explanation": "Samuel Morse helped develop a practical electrical telegraph and Morse code.",
+    "details": "Telegraph networks separated communication speed from transportation speed, transforming news, business, railroads, and government.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Institution",
+      "url": "https://www.si.edu/spotlight/american-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.culture-harlem",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Culture & Innovation"
+    ],
+    "prompt": "What cultural flowering of Black literature, music, and art centered in New York during the 1920s?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Harlem Renaissance",
+    "aliases": [
+      "The Harlem Renaissance"
+    ],
+    "distractors": [
+      "Lost Generation",
+      "Hudson River School",
+      "Beat Generation"
+    ],
+    "explanation": "The Harlem Renaissance amplified diverse Black artistic and intellectual voices.",
+    "details": "Writers, musicians, performers, and thinkers reshaped American culture amid migration, urban life, racial pride, and continuing discrimination.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Institution",
+      "url": "https://www.si.edu/spotlight/american-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.culture-wpa",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Culture & Innovation"
+    ],
+    "prompt": "Which New Deal agency employed millions on public works and cultural projects?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Works Progress Administration",
+    "aliases": [
+      "WPA",
+      "Work Projects Administration"
+    ],
+    "distractors": [
+      "Federal Reserve",
+      "Interstate Commerce Commission",
+      "Tennessee Valley Authority"
+    ],
+    "explanation": "The Works Progress Administration built infrastructure and supported artists, writers, musicians, and historians.",
+    "details": "Its projects included roads, schools, parks, murals, theater, guidebooks, and interviews preserving formerly enslaved people's recollections.",
+    "difficulty": 3,
+    "timeLimitSeconds": 45,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Institution",
+      "url": "https://www.si.edu/spotlight/american-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.culture-gi-bill",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Culture & Innovation"
+    ],
+    "prompt": "Which 1944 law funded education and housing benefits for many returning veterans?",
+    "answerMode": "recall",
+    "canonicalAnswer": "GI Bill",
+    "aliases": [
+      "Servicemen's Readjustment Act"
+    ],
+    "distractors": [
+      "Social Security Act",
+      "Taft-Hartley Act",
+      "National Defense Education Act"
+    ],
+    "explanation": "The GI Bill expanded access to college, training, mortgages, and business support.",
+    "details": "Its benefits helped grow the postwar middle class but discriminatory implementation often limited access for Black veterans.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Institution",
+      "url": "https://www.si.edu/spotlight/american-history"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "american-story.culture-arpanet",
+    "topicSlug": "history",
+    "packSlugs": [
+      "american-story"
+    ],
+    "subtopics": [
+      "Culture & Innovation"
+    ],
+    "prompt": "What two-letter fragment was transmitted before the first ARPANET login attempt crashed?",
+    "answerMode": "recall",
+    "canonicalAnswer": "LO",
+    "aliases": [],
+    "distractors": [
+      "OK",
+      "HI",
+      "GO"
+    ],
+    "explanation": "The first ARPANET message was intended to be LOGIN, but the system failed after LO.",
+    "details": "The 1969 exchange between UCLA and Stanford Research Institute became a celebrated milestone in packet-switched networking and Internet history.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian Institution",
+      "url": "https://www.si.edu/spotlight/american-history"
+    },
+    "expiresAt": null
+  }
+]

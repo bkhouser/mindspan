@@ -1,7 +1,11 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { hasSupabaseEnv, serverEnv } from "@/lib/env";
+import { currentAuthenticationDestination } from "@/server/authentication";
 import { LoginForm } from "./login-form";
+
+export const dynamic = "force-dynamic";
 
 export default async function LoginPage({
   searchParams,
@@ -10,6 +14,12 @@ export default async function LoginPage({
 }) {
   const params = await searchParams;
   const configured = hasSupabaseEnv();
+  if (configured) {
+    const destination = await currentAuthenticationDestination({
+      invite: params.invite,
+    });
+    if (destination) redirect(destination);
+  }
   const errorMessage =
     params.error === "invalid-invite"
       ? "That invitation is invalid or has expired."

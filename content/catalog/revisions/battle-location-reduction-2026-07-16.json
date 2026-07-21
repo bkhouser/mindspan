@@ -1,16 +1,20 @@
 {
   "history-starter.battle-location.battle-of-the-assunpink-creek": {
-    "subtopics": ["Ancient Civilizations"],
-    "prompt": "Which civilization built Machu Picchu?",
-    "canonicalAnswer": "Inca civilization",
-    "aliases": ["Inca", "Inca Empire", "the Inca"],
-    "distractors": ["Maya civilization", "Aztec Empire", "Olmec civilization"],
-    "explanation": "The Inca built Machu Picchu in the Andes during the 15th century.",
-    "details": "Machu Picchu was constructed during the height of the Inca Empire, probably in the reign of Pachacuti. Its stone buildings and terraces stand high above the Urubamba River in present-day Peru.",
+    "replacementCatalogKey": "history-starter.replacement.20260718.haitian-independence",
+    "subtopic": "Latin American History",
+    "detailTags": ["Haiti", "Revolutions"],
+    "prompt": "Which Caribbean nation became independent in 1804 after a successful revolution by formerly enslaved people?",
+    "canonicalAnswer": "Haiti",
+    "aliases": ["Republic of Haiti"],
+    "distractors": ["Jamaica", "Cuba", "Dominican Republic"],
+    "explanation": "Haiti declared independence in 1804 after the Haitian Revolution.",
+    "details": "The revolution overthrew French colonial rule in Saint-Domingue and created the first independent Black republic. Its success transformed politics across the Atlantic world.",
+    "difficulty": 3,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/place/Machu-Picchu"
-    }
+      "url": "https://www.britannica.com/topic/Haitian-Revolution"
+    },
+    "answerMode": "recall"
   },
   "history-starter.battle-location.battle-of-borodino": {
     "subtopics": ["United States History"],
@@ -211,21 +215,25 @@
     }
   },
   "world-turning-points.battle-location.battle-of-chandannagar": {
-    "subtopics": ["Diplomatic History"],
-    "prompt": "What 1648 peace settlement ended the Thirty Years' War?",
-    "canonicalAnswer": "Peace of Westphalia",
-    "aliases": ["Westphalian Peace", "Treaties of Westphalia", "Westphalia"],
+    "replacementCatalogKey": "world-turning-points.replacement.20260718.nuremberg",
+    "subtopic": "Modern History",
+    "detailTags": ["World War II", "War Crimes Trials"],
+    "prompt": "What post-World War II trials prosecuted leading officials of Nazi Germany?",
+    "canonicalAnswer": "Nuremberg Trials",
+    "aliases": ["Nuremberg war crimes trials", "International Military Tribunal at Nuremberg"],
     "distractors": [
-      "Peace of Augsburg",
-      "Treaty of Utrecht",
-      "Congress of Vienna"
+      "Tokyo Trials",
+      "Dachau Trials",
+      "Eichmann trial"
     ],
-    "explanation": "The Peace of Westphalia ended the Thirty Years' War in 1648.",
-    "details": "The settlement consisted chiefly of treaties signed at Munster and Osnabruck. It reshaped the political and religious order of the Holy Roman Empire and recognized Dutch and Swiss independence.",
+    "explanation": "The Nuremberg Trials prosecuted major Nazi leaders after World War II.",
+    "details": "The International Military Tribunal tried defendants for crimes including aggressive war, war crimes, and crimes against humanity. The proceedings influenced later international criminal law.",
+    "difficulty": 3,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/event/Peace-of-Westphalia"
-    }
+      "url": "https://www.britannica.com/event/Nurnberg-trials"
+    },
+    "answerMode": "recall"
   },
   "world-turning-points.battle-location.battle-of-chinsurah": {
     "subtopics": ["Chinese History"],

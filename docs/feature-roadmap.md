@@ -47,9 +47,9 @@ pack contracts and pass the normal catalog review and production-data checks.
 | **1.2.0** | Progression and Discovery | Planned after more play data | Create renewable Insight and clearer long-term progression. |
 | **1.3.0** | Operations and Group Polish | Planned | Strengthen administration, quality intelligence, media, and private groups. |
 | **1.4.0** | AI Explanations | Directional | Establish grounded, reviewable, cost-controlled AI assistance. |
-| **1.5.0** | Personalized AI Tutor | Directional | Turn demonstrated weak areas into private, structured lessons. |
+| **1.5.0** | Personalized Learning | Directional | Turn demonstrated weak areas into private lessons and active learning games. |
 | **1.6.0** | Custom AI Packs | Directional | Generate premium private practice packs with validation and refunds. |
-| **2.0.0** | Live and Broader Social Play | Directional | Add public competition, user conversation, and synchronous rounds safely. |
+| **2.0.0** | Live and Broader Social Play | Directional | Add weekly league competition, public comparison, user conversation, and synchronous rounds safely. |
 
 ### 1.0.0-beta.2 — Reviewer Workbench
 
@@ -202,6 +202,9 @@ Included:
   group membership, support events, and high-friction audited actions.
 - Add the confidence-aware system half of dual question-quality ratings once
   attempt and distinct-player thresholds are supportable.
+- Add evidence-based Question Quality candidate queues that surface the most
+  actionable high-miss, choice-reveal, timeout, abandonment, and
+  answer-acceptance patterns with an explanation of each ranking.
 - Add controlled content correction and attempt regrading with compensating,
   auditable updates.
 - Add the useful Home group-status panel, richer licensed multimedia and
@@ -229,12 +232,14 @@ Included:
 Gate: a fixed cross-topic evaluation set must meet accuracy, latency, safety,
 and cost budgets, and an AI failure must never interrupt normal answer feedback.
 
-### 1.5.0 — Personalized AI Tutor
+### 1.5.0 — Personalized Learning
 
 Use the proven AI foundation to build resumable private lessons from the
 player's interests, limited evidence, recurring misses, and due reviews. Lessons
 remain noncompetitive; only reviewed Mindspan questions can add normal mastery
-or points. Measure success through later recall rather than opens or reading time.
+or points. Add active learning formats such as relative timeline challenges that
+teach chronological relationships without requiring exact-date recall. Measure
+success through later recall rather than opens or reading time.
 
 ### 1.6.0 — Custom AI Packs
 
@@ -245,11 +250,12 @@ or marketplace use requires a separate future review path.
 
 ### 2.0.0 — Live and Broader Social Play
 
-Treat public leaderboards, group chat/moderation, and synchronous multiplayer as
-one major product expansion. They introduce public identity, abuse prevention,
-user-authored content, real-time infrastructure, latency fairness, moderation,
-and new privacy expectations. Preserve private asynchronous training as the
-default even after these features exist.
+Treat weekly league competition, public leaderboards, group chat/moderation,
+and synchronous multiplayer as one major product expansion. They introduce
+public identity, abuse prevention, user-authored content, real-time
+infrastructure, latency fairness, moderation, and new privacy expectations.
+Preserve private asynchronous training as the default even after these features
+exist.
 
 ### Unscheduled and externally gated
 
@@ -260,6 +266,70 @@ default even after these features exist.
   guardian-control design.
 - Additional beginner packs and ordinary catalog expansions can ship as reviewed
   content releases without waiting for a major feature version.
+
+## Learning games
+
+### Relative timeline challenges
+
+**Status:** Defined
+
+**Priority:** Medium-high candidate
+
+**Target:** 1.5.0 — Personalized Learning
+
+Add an original Mindspan learning game in which the player arranges several
+events from earliest to latest. The goal is to build an intuitive sense of what
+happened before, after, or during the same broad era without requiring the
+player to memorize an exact year before participating.
+
+Proposed experience:
+
+1. Present four to six concise event cards with their dates initially hidden.
+2. Let the player reorder them using drag-and-drop, keyboard controls, or
+   explicit move buttons.
+3. After submission, reveal the correct sequence and each event's date or date
+   range.
+4. Explain the most useful chronological relationships, especially adjacent
+   events the player reversed.
+5. Offer another mixed timeline or let the player focus on a topic, subtopic,
+   pack, region, or historical era.
+
+Implementation principles:
+
+- Build a reviewed event catalog with stable identities, source citations,
+  start/end dates, date precision, topic/subtopic classification, and concise
+  learning context. Do not infer chronology from question wording.
+- Permit approximate dates and date ranges, but only combine events whose
+  required order is editorially unambiguous. Deliberately overlapping events
+  require a separately designed partial-order mechanic.
+- Grade both the exact arrangement and the percentage of event pairs placed in
+  the correct relative order, so feedback remains useful when one misplaced
+  event shifts several cards.
+- Default to untimed learning. A future optional timed challenge may award a
+  separate score, but it must not alter ordinary trivia points or leaderboards
+  without a specific fairness review.
+- Prefer significant, broadly useful relationships over clusters of obscure
+  exact-year facts. Include science, arts, literature, music, sports, and popular
+  culture timelines as well as political and military history.
+- Reduce recurrence after a fully correct arrangement and schedule missed
+  relationships for later review without immediately repeating the same set.
+- Use authored and reviewed event data for the first release. AI may later help
+  propose event sets or explanations, but cannot publish them automatically.
+- Keep the interaction visually and behaviorally part of Mindspan rather than
+  reproducing another publication's branding, layout, wording, or content.
+
+Acceptance criteria:
+
+- Every presented set has one defensible chronological order at the precision
+  shown after submission.
+- Touch, mouse, and keyboard users can arrange and submit the same timeline.
+- Feedback reveals dates, highlights incorrect relationships, and supplies
+  enough context to make the sequence memorable.
+- Progress persists across devices, and the system can measure later
+  improvement on previously missed event relationships.
+- Merely opening or repeatedly replaying a timeline cannot generate normal
+  trivia points, mastery, or Insight.
+- Event corrections are versioned without rewriting completed historical runs.
 
 ## AI-assisted learning
 
@@ -335,7 +405,7 @@ change.
 
 **Status:** Defined  
 **Priority:** High candidate  
-**Target:** 1.5.0 — Personalized AI Tutor
+**Target:** 1.5.0 — Personalized Learning
 
 **Depends on:** AI “Tell me more” generation, grounding, caching, safety, and
 cost controls
@@ -950,6 +1020,94 @@ without deleting ownership or historical attempt records.
 
 ## Groups and competition
 
+### Weekly challenges and tiered leagues
+
+**Status:** Candidate
+
+**Target:** 2.0.0 — Live and Broader Social Play
+
+**Priority:** High social-progression candidate
+
+Run an asynchronous challenge each week with its own weekly leaderboard. Place
+participating players into tiered leagues and promote players who finish near
+the top of their league. The feature should create a recurring reason to play
+without turning ordinary unlimited practice into a daily obligation.
+
+Proposed experience:
+
+- Each challenge opens and closes at one globally defined weekly boundary,
+  shown in the player's local time.
+- Every participant receives an equivalent reviewed question set and scoring
+  opportunity. Challenge eligibility must not depend on owning a paid pack;
+  challenge questions may be temporarily playable without granting pack
+  ownership.
+- Players can practice normally throughout the week, but receive one scored
+  challenge run or another clearly bounded number of scored attempts. Abandoned
+  and interrupted runs need an explicit recovery rule.
+- Show the player's rank, challenge score, completed-question count, league,
+  promotion zone, and time remaining. Also provide a private-group weekly view
+  without changing league placement.
+- Begin with a small understandable ladder such as **Bronze**, **Silver**,
+  **Gold**, and **Platinum**. Add more tiers only when the active population can
+  support fair cohorts.
+- Promote a defined top share of eligible finishers. Consider relegation for
+  the bottom share only after participation is large enough, with an inactivity
+  grace period so vacations do not feel punitive.
+- Give first-time participants a transparent placement path rather than
+  dropping every experienced player into the lowest league.
+- Award modest Insight, achievements, profile badges, or cosmetic recognition
+  for participation, promotion, and top finishes. Rewards must not create a
+  loop where prior winners can buy a competitive advantage.
+
+Fair-scoring principles:
+
+- Use a separate **Challenge score** calculated from the same question
+  difficulty, correctness, assistance, and server-authoritative time concepts,
+  but do not apply a player's proficiency factor or prior-repeat discount.
+  Otherwise prior exposure and different mastery levels would make the weekly
+  leaderboard incomparable.
+- Lock the challenge definition, question versions, scoring formula version,
+  time limits, and tie-break order before the week opens. A critical question
+  correction should follow a defined void/regrade policy for every participant.
+- Never reveal answer-bearing payloads before presentation. Keep question order
+  randomized where possible and record suspiciously impossible timing or
+  duplicate-account patterns for review without automatically accusing users.
+- Use deterministic tie breakers such as more unassisted correct answers, then
+  less total answer time, while displaying ties when the evidence is genuinely
+  equal.
+- Require a minimum number of completed challenge questions before a player can
+  occupy a promotion position.
+
+League and lifecycle rules:
+
+- Store weekly seasons, league membership, challenge entries, immutable scoring
+  snapshots, final standings, promotion/relegation decisions, and rewards as
+  auditable records.
+- Finalize standings once, idempotently, after the challenge closes. Retrying a
+  job must never duplicate promotions or rewards.
+- Preserve historical weekly standings and league history on player profiles.
+- If too few players occupy a tier, combine cohorts or suspend relegation rather
+  than presenting a misleading competition.
+- Disabled accounts and confirmed cheating cases require an explicit audited
+  standings-adjustment workflow; ordinary question retirement must not erase a
+  completed historical season.
+
+Acceptance criteria:
+
+- Two players presented equivalent challenge material receive comparable scores
+  regardless of prior topic proficiency, pack ownership, or previous exposure
+  to the selected questions.
+- Standings, tie breakers, promotion zones, and week boundaries are explained
+  in plain language before a player starts.
+- A completed challenge survives refresh, device changes, deployment, and
+  finalization retries without duplicate attempts, rewards, or league movement.
+- Promotions and any relegations are deterministic and reconstructable from the
+  frozen weekly standings.
+- Private group members can compare their weekly results while league cohorts
+  remain the authority for movement between tiers.
+- Players can ignore weekly competition and continue normal Mindspan play with
+  no loss of ordinary access, mastery, points, or pack progress.
+
 ### Group status panel on Home
 
 **Status:** Scheduled
@@ -1189,6 +1347,129 @@ Acceptance criteria:
 - Every question-quality export includes the complete reviewer and system rating
   fields, including explicit null or insufficient-evidence states rather than
   silently omitting unavailable ratings.
+
+### Statistical question-adjustment candidates
+
+**Status:** Defined
+
+**Target:** 1.3.0 — Operations and Group Polish
+
+**Priority:** High question-quality candidate
+
+**Depends on:** Sufficient production attempts from distinct players and the
+aggregate evidence foundation used by system question-quality ratings
+
+Add a **Top adjustment candidates** area to Question Quality. It should help a
+reviewer find questions whose actual play behavior most strongly suggests a
+difficulty, wording, alias, distractor, answer-mode, timer, explanation,
+classification, or replacement review. This is a set of explainable diagnostic
+queues, not an automatic content editor or a single unexplained “bad question”
+list.
+
+Candidate queues:
+
+- **Most missed** — unusually low adjusted success relative to authored
+  difficulty and the proficiency of the players who received the question.
+- **Choices revealed often** — recall questions where players request choices
+  substantially more often than comparable questions.
+- **Possible missing aliases** — recurring semantically similar submitted
+  answers, especially when paired with **My answer should be accepted**
+  feedback.
+- **Frequent timeouts or abandonment** — questions with unusually high expiry,
+  no-submit, or very-late-answer rates after excluding media-load failures.
+- **Difficulty mismatch** — questions performing materially easier or harder
+  than other questions carrying the same authored difficulty. This includes
+  four- and five-star questions that are answered correctly far more often than
+  comparable hard questions, as well as one- and two-star questions that are
+  missed unusually often.
+- **Likely overrated difficulty** — a focused view of high-difficulty questions
+  with unusually strong unassisted success, fast correct answers, and low
+  choice-reveal rates after controlling for player proficiency and repeat
+  exposure. These are candidates for a lower difficulty rating, not presumed
+  content defects.
+- **Distractor concern** — required-choice questions where one wrong option
+  attracts a disproportionate share of otherwise capable players, suggesting
+  ambiguity or a second defensible answer.
+- **Assistance mismatch** — required-choice questions must never be flagged for
+  always showing choices, while recall questions should compare reveal rates
+  only with similar recall questions.
+- **Negative feedback concentration** — questions with elevated thumbs-down,
+  wrong-topic, unclear-wording, weak-explanation, uninteresting-question, or
+  answer-rejection reports.
+- **Unexpectedly healthy** — optional positive queue showing questions with
+  strong results and feedback, useful as models for future authoring rather
+  than only emphasizing failures.
+
+Ranking and evidence rules:
+
+- Require configurable minimum attempt and distinct-player counts. Show
+  **Insufficient evidence** instead of ranking tiny samples as strong signals.
+- Weight distinct players more heavily than repeated attempts by one player and
+  prevent a single prolific player from dominating a queue.
+- Compare like with like: account for authored difficulty, answer mode, topic,
+  media type, timer length, assistance availability, player proficiency, prior
+  exposure, and whether the question was presented competitively or in a future
+  practice-only mode.
+- Evaluate difficulty in both directions. High success on a four- or five-star
+  question and high failure on a one- or two-star question should receive
+  symmetric scrutiny once the evidence threshold is satisfied.
+- Show the observed value, comparison baseline, sample size, confidence state,
+  calculation window, and concise **Why this surfaced** explanation for every
+  candidate.
+- Support lifetime and recent windows so a newly revised question can be
+  evaluated without old-version evidence masking its current behavior.
+- Keep evidence version-specific. A newly published immutable version starts a
+  fresh candidate evaluation, while reviewers may inspect predecessor evidence
+  separately for context.
+- Version all formulas and thresholds. A candidate ranking must be reproducible
+  from the stored aggregate snapshot and formula version.
+
+Reviewer workflow:
+
+- Filter and sort candidates by queue, pack, topic, subtopic, difficulty,
+  answer mode, evidence confidence, reviewer verdict, player-feedback status,
+  and current reviewer/system quality ratings.
+- Open a candidate directly in the pack-scoped Question Quality flow with its
+  evidence breakdown visible beside the question.
+- Let reviewers dismiss a signal as expected behavior, approve the question,
+  mark it **Needs revision**, reject it, or add a focused note such as
+  **reconsider difficulty** or **inspect aliases**.
+- Record reviewer disposition against the candidate snapshot so the same
+  already-explained signal does not remain permanently at the top unless new
+  evidence materially strengthens it.
+- Include unresolved high-confidence candidates and their evidence breakdowns
+  in the restricted Question Quality action-items export.
+
+Privacy and safety:
+
+- Use aggregate evidence by default. Do not reveal player identities or an
+  individual's complete private answer history in the candidate list.
+- Show submitted-answer clusters only when enough players produced them to
+  avoid identifying an individual; otherwise rely on explicit player feedback
+  already authorized for reviewer inspection.
+- Never automatically change difficulty, add an alias, rewrite content,
+  regrade attempts, retire a question, or alter points based on a statistical
+  signal. Every content action remains a human editorial decision.
+
+Acceptance criteria:
+
+- Reviewers can identify and open the strongest evidence-backed adjustment
+  candidates without manually scanning every question or exporting raw data.
+- A deliberately hard but healthy question is not ranked poorly merely because
+  many players miss it.
+- Four- and five-star questions that are consistently answered correctly by
+  players without high proficiency, assistance, or prior exposure appear as
+  possible difficulty reductions with an explainable comparison baseline.
+- Required-choice questions are not penalized for mandatory choices, and media
+  questions are not penalized for verified asset-loading delays.
+- Low-volume questions display insufficient evidence rather than false
+  precision.
+- Every ranking includes enough factor and baseline information for a reviewer
+  to understand why it appeared.
+- Dispositions are auditable, version-specific, and do not suppress genuinely
+  new evidence indefinitely.
+- Candidate computation cannot change question publication, scoring, mastery,
+  points, pack access, or player records.
 
 ### System-admin user detail and support tools
 

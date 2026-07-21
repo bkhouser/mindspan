@@ -2,15 +2,12 @@ import { ArrowRight, Download, Flag, ListChecks } from "lucide-react";
 import Link from "next/link";
 import { DifficultyStars } from "@/components/difficulty-stars";
 import { Card } from "@/components/ui/card";
+import { answersAreEquivalent } from "@/domain/answers";
 import { requireQuestionReviewer } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 function related<T>(value: T | T[] | null | undefined): T | null {
   return Array.isArray(value) ? (value[0] ?? null) : (value ?? null);
-}
-
-function comparableAnswer(value: string) {
-  return value.normalize("NFKC").trim().toLocaleLowerCase("en-US");
 }
 
 const verdictLabels: Record<string, string> = {
@@ -64,7 +61,7 @@ export default async function QuestionIndexPage({
     ? await admin
         .from("question_versions")
         .select(
-          "id,question_id,version_number,prompt,canonical_answer,answer_mode,difficulty,topic:topics(name),answer_aliases(answer),questions(question_subtopics(subtopics(name)))",
+          "id,question_id,version_number,prompt,canonical_answer,answer_mode,difficulty,topic:topics(name),answer_aliases(answer),questions(question_subtopics(subtopics(name)),question_detail_tags(detail_tags(name)))",
         )
         .eq("status", "published")
         .in("question_id", questionIds)
@@ -148,16 +145,21 @@ export default async function QuestionIndexPage({
     const attemptSummary = attemptsByVersion.get(version.id);
     const topic = related(version.topic);
     const question = related(version.questions);
-    const subtopics = (question?.question_subtopics ?? []).flatMap((link) => {
+    const subtopic = (question?.question_subtopics ?? []).flatMap((link) => {
       const subtopic = related(link.subtopics);
       return subtopic?.name ? [subtopic.name] : [];
+    })[0] ?? null;
+    const detailTags = (question?.question_detail_tags ?? []).flatMap((link) => {
+      const detailTag = related(link.detail_tags);
+      return detailTag?.name ? [detailTag.name] : [];
     });
     const aliases = version.answer_aliases
       .map((alias) => alias.answer)
       .filter(
         (alias) =>
-          comparableAnswer(alias) !==
-          comparableAnswer(version.canonical_answer),
+          !answersAreEquivalent(alias, version.canonical_answer, {
+            removeLeadingArticles: true,
+          }),
       );
     return [
       {
@@ -165,11 +167,12 @@ export default async function QuestionIndexPage({
         attemptCount: attemptSummary?.attempt_count ?? 0,
         catalogKey: related(link.questions)?.catalog_key ?? "database-seed",
         correctCount: attemptSummary?.correct_count ?? 0,
+        detailTags,
         feedbackFlags,
         index: link.sort_order || index + 1,
         reportFlags,
         review,
-        subtopics,
+        subtopic,
         topicName: topic?.name ?? "Topic",
         unreviewedFeedbackFlags,
         version,
@@ -256,11 +259,24 @@ export default async function QuestionIndexPage({
       </Card>
 
       <Card className="mt-5 overflow-hidden">
-        <div className="overflow-x-auto">
-          <table className="w-full min-w-[1320px] border-collapse text-left text-sm">
+        <div
+          aria-label={`Question table for ${selectedPack.pack_name}`}
+          className="max-w-full overflow-x-auto [scrollbar-gutter:stable]"
+          role="region"
+          tabIndex={0}
+        >
+          <table className="w-full min-w-[900px] table-fixed border-collapse text-left text-sm">
             <caption className="sr-only">
               Questions in {selectedPack.pack_name}
             </caption>
+            <colgroup>
+              <col className="w-[5%]" />
+              <col className="w-[30%]" />
+              <col className="w-[18%]" />
+              <col className="w-[21%]" />
+              <col className="w-[12%]" />
+              <col className="w-[14%]" />
+            </colgroup>
             <thead className="bg-white/[.04] text-[11px] font-black uppercase tracking-[.13em] text-[var(--muted)]">
               <tr>
                 <th className="px-4 py-3" scope="col">
@@ -274,12 +290,6 @@ export default async function QuestionIndexPage({
                 </th>
                 <th className="px-4 py-3" scope="col">
                   Classification
-                </th>
-                <th className="px-4 py-3 text-center" scope="col">
-                  Difficulty
-                </th>
-                <th className="px-4 py-3" scope="col">
-                  Mode
                 </th>
                 <th className="px-4 py-3" scope="col">
                   Player results
@@ -301,9 +311,9 @@ export default async function QuestionIndexPage({
                     <td className="px-4 py-4 font-black text-[var(--muted)]">
                       {row.index}
                     </td>
-                    <th className="max-w-md px-4 py-4" scope="row">
+                    <th className="px-4 py-4" scope="row">
                       <Link
-                        className="font-black leading-6 text-white hover:text-[var(--brand)]"
+                        className="break-words font-black leading-6 text-white hover:text-[var(--brand)]"
                         href={reviewUrl}
                       >
                         {row.version.prompt}
@@ -312,36 +322,46 @@ export default async function QuestionIndexPage({
                         {row.catalogKey} · v{row.version.version_number}
                       </code>
                     </th>
-                    <td className="max-w-xs px-4 py-4">
-                      <b>{row.version.canonical_answer}</b>
-                      <span className="mt-1 block text-xs leading-5 text-[var(--muted)]">
+                    <td className="px-4 py-4">
+                      <b className="break-words">
+                        {row.version.canonical_answer}
+                      </b>
+                      <span className="mt-1 block break-words text-xs leading-5 text-[var(--muted)]">
                         {row.aliases.length
                           ? `Also: ${row.aliases.join(" · ")}`
                           : "No additional aliases"}
                       </span>
                     </td>
-                    <td className="max-w-xs px-4 py-4">
+                    <td className="px-4 py-4">
                       <b>{row.topicName}</b>
-                      <span className="mt-1 block text-xs leading-5 text-[var(--muted)]">
-                        {row.subtopics.join(" · ") || "No subtopics"}
+                      <span className="mt-1 block break-words text-xs leading-5 text-[var(--muted)]">
+                        {row.subtopic ?? "No subtopic"}
                       </span>
-                    </td>
-                    <td className="px-4 py-4 text-center">
-                      <DifficultyStars difficulty={row.version.difficulty} />
-                    </td>
-                    <td className="px-4 py-4 text-xs font-bold">
-                      {row.version.answer_mode === "required_choice"
-                        ? "Required choice"
-                        : "Typed answer"}
+                      {row.detailTags.length ? (
+                        <span className="mt-1 block break-words text-[11px] leading-5 text-slate-400">
+                          Tags: {row.detailTags.join(" · ")}
+                        </span>
+                      ) : null}
+                      <div className="mt-2 flex flex-wrap items-center gap-2">
+                        <DifficultyStars
+                          difficulty={row.version.difficulty}
+                          size={12}
+                        />
+                        <span className="rounded-full bg-white/5 px-2 py-0.5 text-[10px] font-bold text-[var(--muted)]">
+                          {row.version.answer_mode === "required_choice"
+                            ? "Required choice"
+                            : "Typed answer"}
+                        </span>
+                      </div>
                     </td>
                     <td className="px-4 py-4">
                       {row.attemptCount ? (
                         <>
-                          <b className="whitespace-nowrap text-sm">
-                            {row.attemptCount} attempts · {row.correctCount}{" "}
-                            correct
+                          <b className="text-sm">
+                            {row.attemptCount} attempts
                           </b>
                           <span className="mt-1 block text-xs text-[var(--muted)]">
+                            {row.correctCount} correct ·{" "}
                             {Math.round(
                               (row.correctCount / row.attemptCount) * 100,
                             )}

@@ -1,0 +1,73 @@
+{
+  "history-starter.treaty-year.treaty-of-verdun": {"difficulty":4},
+  "trivia-101.opentdb.bd30c1875934370b": {"difficulty":2},
+  "arts-literature-starter.opentdb.17e30bdfcf20eb13": {"difficulty":2},
+  "sports-starter.replacement.20260720.decathlon-events": {"difficulty":2},
+  "history-starter.treaty-year.regional-roaming-agreement": {"difficulty":4},
+  "science-nature-starter.constellation-abbreviation.taurus": {
+    "prompt":"Against the background stars, what is the name of the Sun's apparent annual path across the sky?",
+    "explanation":"The ecliptic is the Sun's apparent yearly path across the celestial sphere.",
+    "details":"Earth's orbit around the Sun creates this apparent motion. The Moon and planets also remain near the ecliptic because the major bodies of the solar system orbit in roughly the same plane."
+  },
+  "history-starter.treaty-year.munich-agreement": {"difficulty":2},
+  "trivia-101.opentdb.d25e0db829aeca17": {"difficulty":2},
+  "science-nature-starter.replacement.20260720.double-blind": {"aliases":["Double-blind trial","Double-blinded study","Double-blind"]},
+  "trivia-101.opentdb.3472de3135faed88": {"difficulty":3},
+  "geography-starter.replacement.20260718.pantanal": {"difficulty":4},
+  "lifestyle-culture-starter.opentdb.2898661cf918495d": {
+    "replacementCatalogKey":"lifestyle-culture-starter.replacement.20260721.diy",
+    "subtopic":"Home & Daily Life",
+    "detailTags":["DIY","Home Improvement","Abbreviations"],
+    "prompt":"What does the abbreviation DIY stand for?",
+    "canonicalAnswer":"Do it yourself",
+    "aliases":["Do-it-yourself"],
+    "distractors":["Design it yourself","Do it yearly","Develop it yourself"],
+    "explanation":"DIY stands for “do it yourself.”",
+    "details":"The term describes making, repairing, or modifying something without hiring a professional to do the work. It is widely associated with home improvement, crafts, and hands-on hobbies.",
+    "difficulty":1,
+    "source":{"label":"Merriam-Webster Dictionary","url":"https://www.merriam-webster.com/dictionary/DIY"},
+    "answerMode":"recall"
+  },
+  "lifestyle-culture-starter.opentdb.d67115ddb0284bf4": {
+    "replacementCatalogKey":"lifestyle-culture-starter.replacement.20260721.playstation-3",
+    "subtopic":"Games, Hobbies & Recreation",
+    "detailTags":["PlayStation 3","Sony","Video Games","Blu-ray"],
+    "prompt":"Which Sony game console launched with built-in Blu-ray support and the PlayStation Network?",
+    "canonicalAnswer":"PlayStation 3",
+    "aliases":["PS3","Sony PlayStation 3"],
+    "distractors":["PlayStation 2","PlayStation 4","PlayStation Vita"],
+    "explanation":"The PlayStation 3 paired Blu-ray game discs with Sony's PlayStation Network.",
+    "details":"Sony launched the console in Japan and North America in November 2006. Its Blu-ray drive helped make the format a central part of the high-definition media era, while PlayStation Network supported online play and digital distribution.",
+    "difficulty":2,
+    "source":{"label":"PlayStation Blog","url":"https://blog.playstation.com/2009/11/17/happy-3rd-anniversary-ps3-and-playstation-network/"},
+    "answerMode":"recall"
+  },
+  "history-starter.battle-location.battle-of-hattin": {"difficulty":2},
+  "arts-literature-starter.opentdb.a5b4e3b51b129366": {"difficulty":4},
+  "geography-starter.replacement.20260718.borneo-countries": {"difficulty":4},
+  "lifestyle-culture-starter.opentdb.d6cd9d02fc14bad7": {"difficulty":3,"aliases":["Prius"]},
+  "music-starter.replacement.20260720.rhapsody-in-blue": {"difficulty":3},
+  "trivia-101.opentdb.d9df6ac5e24300d6": {"aliases":["Bianchi"]},
+  "music-starter.replacement.20260720.blues-chord-degrees": {"difficulty":4},
+  "trivia-101.opentdb.0e1712ef9f61604d": {"aliases":["Washington","D.C.","District of Columbia"]},
+  "lifestyle-culture-starter.opentdb.7d0ed1e26acab775": {"difficulty":2},
+  "trivia-101.opentdb.1630b6594ee7c4b0": {"difficulty":2},
+  "lifestyle-culture-starter.opentdb.053e457224f7e636": {"difficulty":2},
+  "lifestyle-culture-starter.opentdb.88de431a8f448112": {"difficulty":4},
+  "sports-starter.replacement.20260720.paralympic-agitos": {"difficulty":4},
+  "history-starter.treaty-year.treaty-of-prum": {
+    "prompt":"Gandhi's 1930 march to the Arabian Sea protested a British monopoly and tax on what commodity?",
+    "explanation":"Gandhi's march challenged British control and taxation of salt.",
+    "details":"At the coastal village of Dandi, Gandhi symbolically broke colonial law by making salt from seawater. The campaign became a major act of nonviolent resistance in India's independence movement."
+  },
+  "arts-literature-starter.opentdb.653a1da4f18e5ae2": {"difficulty":2},
+  "film-television-starter.opentdb.7ad42b1556f49b6c": {
+    "prompt":"In the Austin Powers films, which of these characters is not presented as a parody of a Bond girl?",
+    "explanation":"Vanessa Kensington is an Austin Powers character rather than a Bond-film character.",
+    "details":"Elizabeth Hurley plays Vanessa in Austin Powers: International Man of Mystery. The question contrasts that parody character with names drawn from the James Bond film series."
+  },
+  "science-nature-starter.constellation-abbreviation.monoceros": {"aliases":["Barred spiral","Spiral galaxy","Spiral"]},
+  "arts-literature-starter.opentdb.b08b8c32efbfc2f4": {"difficulty":3},
+  "geography-starter.replacement.20260718.khyber-pass": {"difficulty":4},
+  "sports-starter.athlete-country.ernst-jakob-henne": {"aliases":["Chequered flag","Black-and-white checkered flag","Black and white flag","Checker","Checkered"]}
+}

@@ -4,7 +4,7 @@
     "subtopics": ["United States History"],
     "prompt": "John Brown's 1859 raid targeted the federal armory at which town in present-day West Virginia?",
     "explanation": "John Brown raided the federal armory at Harpers Ferry in October 1859.",
-    "details": "Brown hoped the captured weapons would help begin a broader uprising against slavery. U.S. Marines ended the raid, and Brown's subsequent trial and execution intensified sectional conflict before the Civil War. Mindspan ignores punctuation and spacing, so Harpers Ferry is accepted without the apostrophe."
+    "details": "Brown hoped the captured weapons would help begin a broader uprising against slavery. U.S. Marines ended the raid, and Brown's subsequent trial and execution intensified sectional conflict before the Civil War."
   },
   "easy-does-it.opentdb.3899396f304d9690": {
     "difficulty": 3,
@@ -41,15 +41,23 @@
     }
   },
   "easy-does-it.opentdb.156aeec902055d73": {
-    "prompt": "How many players does each soccer team normally have on the field at the start of a match?",
-    "canonicalAnswer": "11",
-    "aliases": ["Eleven"],
-    "distractors": ["9", "10", "12"],
-    "explanation": "A soccer team normally fields 11 players, including its goalkeeper.",
-    "details": "Teams may name substitutes, but only eleven players per side can be on the field at once under the standard Laws of the Game."
+    "replacementCatalogKey": "easy-does-it.replacement.20260718.hexagon",
+    "topicSlug": "science-nature",
+    "subtopic": "Mathematics",
+    "detailTags": ["Geometry", "Basic Shapes"],
+    "prompt": "How many sides does a hexagon have?",
+    "canonicalAnswer": "6",
+    "aliases": ["Six"],
+    "distractors": ["5", "7", "8"],
+    "explanation": "A hexagon is a polygon with six sides.",
+    "details": "The prefix hex- means six. A regular hexagon has six equal sides and six equal interior angles.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/science/hexagon"},
+    "answerMode": "recall"
   },
   "easy-does-it.opentdb.0521f2041805faa5": { "difficulty": 2 },
   "easy-does-it.opentdb.c208bd4a3fd41826": {
+    "topicSlug": "science-nature",
+    "subtopics": ["Zoology"],
     "prompt": "What is the largest living land animal?",
     "canonicalAnswer": "African elephant",
     "aliases": ["African bush elephant", "Elephant"],
@@ -95,6 +103,8 @@
   },
   "easy-does-it.opentdb.f6e8c06f24125ebb": { "difficulty": 2 },
   "easy-does-it.opentdb.75d8133b4c9ae5ff": {
+    "topicSlug": "arts-literature",
+    "subtopics": ["Visual Arts", "Color Theory"],
     "prompt": "What color is made by mixing blue and yellow paint?",
     "canonicalAnswer": "Green",
     "aliases": [],
@@ -102,8 +112,29 @@
     "explanation": "Mixing blue and yellow pigments produces green.",
     "details": "This is subtractive color mixing, used with paint and ink. Mixing colored light follows different additive-color rules."
   },
-  "easy-does-it.opentdb.b92d89bacc347924": { "difficulty": 2 },
-  "easy-does-it.opentdb.b17397bdc8dbac32": { "difficulty": 1 },
+  "easy-does-it.opentdb.9800e24197aa3b47": {
+    "topicSlug": "science-nature",
+    "subtopics": ["Zoology"]
+  },
+  "easy-does-it.opentdb.b92d89bacc347924": {
+    "difficulty": 2,
+    "subtopic": "Capitals & Cities",
+    "detailTags": ["United States", "State Capitals"]
+  },
+  "easy-does-it.opentdb.b17397bdc8dbac32": {
+    "replacementCatalogKey": "easy-does-it.replacement.20260718.thermometer",
+    "difficulty": 1,
+    "subtopic": "Technology & Engineering",
+    "detailTags": ["Measuring Instruments", "Temperature"],
+    "prompt": "What instrument is used to measure temperature?",
+    "canonicalAnswer": "Thermometer",
+    "aliases": ["A thermometer"],
+    "distractors": ["Barometer", "Altimeter", "Speedometer"],
+    "explanation": "A thermometer measures temperature.",
+    "details": "Different thermometers sense temperature through effects such as liquid expansion, electrical resistance, or infrared radiation, then display the result on a calibrated scale.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/technology/thermometer"},
+    "answerMode": "recall"
+  },
   "easy-does-it.opentdb.1ca147c97d9db6b8": {
     "difficulty": 2,
     "topicSlug": "science-nature",
@@ -124,6 +155,7 @@
     "details": "It is played on grass courts at the All England Club in London and is the oldest of the four Grand Slam events."
   },
   "easy-does-it.opentdb.ff8f9066877d3fdb": {
+    "difficulty": 1,
     "prompt": "How many points is a successful free throw worth in basketball?",
     "canonicalAnswer": "1",
     "aliases": ["One", "One point"],
@@ -139,7 +171,11 @@
     "explanation": "Leonardo DiCaprio played Jack Dawson in Titanic.",
     "details": "Jack is the young artist who falls in love with Rose, played by Kate Winslet, during the doomed ship's maiden voyage."
   },
-  "easy-does-it.opentdb.a160dea133c90099": { "difficulty": 1 },
+  "easy-does-it.opentdb.a160dea133c90099": {
+    "difficulty": 1,
+    "subtopic": "Chemistry",
+    "detailTags": ["Periodic Table", "Chemical Symbols"]
+  },
   "easy-does-it.opentdb.b65a4c26a02790ae": { "difficulty": 3 },
   "easy-does-it.opentdb.5e7163fbe5bb3855": {
     "prompt": "In which country are the pyramids of Giza?",
@@ -190,9 +226,11 @@
   "easy-does-it.opentdb.92148e8a998fab6b": { "difficulty": 1 },
   "easy-does-it.opentdb.f3e3740813e63d27": {
     "difficulty": 1,
+    "subtopic": "Actors & Performers",
+    "detailTags": ["Marvel Cinematic Universe", "Superhero Films"],
     "prompt": "Which actor plays Iron Man in the Marvel Cinematic Universe?",
     "canonicalAnswer": "Robert Downey Jr.",
-    "aliases": ["Robert Downey Junior", "Robert Downey", "RDJ"],
+    "aliases": ["Robert Downey Junior", "Robert Downey", "Downey", "RDJ"],
     "distractors": ["Chris Evans", "Chris Hemsworth", "Mark Ruffalo"],
     "explanation": "Robert Downey Jr. plays Tony Stark, also known as Iron Man, in the Marvel Cinematic Universe.",
     "details": "He debuted in 2008's Iron Man, the film that launched the interconnected Marvel Cinematic Universe."
@@ -210,7 +248,7 @@
     "difficulty": 1,
     "prompt": "Which rock band released the albums Back in Black and Ballbreaker?",
     "explanation": "AC/DC released both Back in Black and Ballbreaker.",
-    "details": "Back in Black arrived in 1980 and became one of rock's best-selling albums. Ballbreaker followed in 1995. Mindspan's answer normalization ignores punctuation and spaces, so AC/DC, ACDC, and AC DC are treated alike."
+    "details": "Back in Black arrived in 1980 and became one of rock's best-selling albums. Ballbreaker followed in 1995, reuniting the band with drummer Phil Rudd."
   },
   "easy-does-it.opentdb.64faa6d441a0d465": {
     "difficulty": 2,
@@ -219,6 +257,8 @@
   },
   "easy-does-it.opentdb.3eb4e0fa6f61faee": {
     "difficulty": 1,
+    "subtopic": "Human Anatomy & Physiology",
+    "detailTags": ["Respiratory Physiology"],
     "topicSlug": "science-nature",
     "subtopics": ["Human Biology"],
     "prompt": "Which gas must humans breathe to survive?",
@@ -243,7 +283,7 @@
     }
   },
   "easy-does-it.opentdb.d05cd7f970e9f6f3": {
-    "difficulty": 1,
+    "difficulty": 2,
     "prompt": "Which singer had the 2010 hit Baby?",
     "canonicalAnswer": "Justin Bieber",
     "aliases": ["Bieber"],

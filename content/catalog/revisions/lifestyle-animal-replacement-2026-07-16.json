@@ -1,0 +1,299 @@
+{
+  "lifestyle-culture-starter.opentdb.cd249218bd676220": {
+    "answerMode": "recall",
+    "subtopics": ["Holidays & Celebrations"],
+    "prompt": "On which date is Christmas Day celebrated in many countries?",
+    "canonicalAnswer": "December 25",
+    "aliases": ["25 December", "December twenty-fifth", "The 25th of December"],
+    "distractors": ["December 24", "January 1", "January 6"],
+    "explanation": "Christmas Day is celebrated on December 25 in many countries.",
+    "details": "Christmas commemorates the birth of Jesus Christ. Its religious observances and secular customs vary widely, and some Eastern Christian churches celebrate Christmas on a different civil-calendar date.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Christmas"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.13cd0d054ef22655": {
+    "answerMode": "recall",
+    "subtopics": ["Food & Drink"],
+    "prompt": "What meal combines elements of breakfast and lunch?",
+    "canonicalAnswer": "Brunch",
+    "aliases": [],
+    "distractors": ["Supper", "Tea", "Elevenses"],
+    "explanation": "Brunch is a late-morning meal that combines breakfast and lunch.",
+    "details": "The word is a blend of breakfast and lunch. Brunch menus commonly mix breakfast foods with more substantial midday dishes.",
+    "source": {
+      "label": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/brunch"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.a6662c1022168a5b": {
+    "answerMode": "recall",
+    "subtopics": ["Food & Drink"],
+    "prompt": "What hot drink is traditionally made by steeping leaves of Camellia sinensis in water?",
+    "canonicalAnswer": "Tea",
+    "aliases": [],
+    "distractors": ["Coffee", "Cocoa", "Mate"],
+    "explanation": "Tea is made by steeping processed leaves of the tea plant, Camellia sinensis.",
+    "details": "Green, black, white, and oolong teas all come from the same plant. Their differences result largely from how the leaves are processed after harvesting.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/tea-beverage"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.c5206ef7a82bdc58": {
+    "answerMode": "recall",
+    "subtopics": ["Holidays & Celebrations"],
+    "prompt": "What holiday marks January 1 in the Gregorian calendar?",
+    "canonicalAnswer": "New Year's Day",
+    "aliases": ["New Year", "January first"],
+    "distractors": ["Epiphany", "Boxing Day", "Twelfth Night"],
+    "explanation": "January 1 is New Year's Day in the Gregorian calendar.",
+    "details": "Cultures celebrate the new year in many different ways and on several calendars. January 1 became the civil New Year's Day across countries that adopted the Gregorian calendar.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/New-Year-festival"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.5e8b7663eb4be904": {
+    "answerMode": "recall",
+    "subtopics": ["Holidays & Celebrations"],
+    "prompt": "In which month is Valentine's Day celebrated?",
+    "canonicalAnswer": "February",
+    "aliases": ["Feb", "The second month"],
+    "distractors": ["January", "March", "May"],
+    "explanation": "Valentine's Day is celebrated on February 14.",
+    "details": "The holiday became associated with romantic love over centuries. Modern customs often include exchanging cards, flowers, or other tokens of affection.",
+    "source": {
+      "label": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/topic/Valentines-Day"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.de4f017f6aff8d1c": {
+    "answerMode": "recall",
+    "subtopics": ["Fashion & Dress", "Japanese Culture"],
+    "prompt": "What broad sash is used to secure a traditional Japanese kimono?",
+    "canonicalAnswer": "Obi",
+    "aliases": ["Obi sash"],
+    "distractors": ["Hakama", "Geta", "Haori"],
+    "explanation": "An obi is the broad sash worn around a kimono.",
+    "details": "Obi vary in width, material, formality, and tying style. They are both functional and decorative parts of traditional Japanese dress.",
+    "source": {
+      "label": "Victoria and Albert Museum",
+      "url": "https://www.vam.ac.uk/articles/kimono"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.79106d036d62b3ee": {
+    "answerMode": "recall",
+    "subtopics": ["Holidays & Celebrations", "Mexican Culture"],
+    "prompt": "What Mexican holiday honors deceased loved ones around November 1 and 2?",
+    "canonicalAnswer": "Day of the Dead",
+    "aliases": ["Día de los Muertos", "Dia de los Muertos"],
+    "distractors": ["Cinco de Mayo", "Las Posadas", "Carnival"],
+    "explanation": "Day of the Dead, or Día de los Muertos, honors family members and friends who have died.",
+    "details": "Families may create ofrendas with photographs, candles, marigolds, and favorite foods. The observance blends Indigenous traditions with Catholic All Saints' and All Souls' commemorations.",
+    "source": {
+      "label": "Smithsonian National Museum of American History",
+      "url": "https://americanhistory.si.edu/dia-de-los-muertos"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.cac7baa5417f2f06": {
+    "answerMode": "recall",
+    "subtopics": ["Beliefs & Traditions", "South Asian Culture"],
+    "prompt": "What Hindu festival is widely known as the Festival of Lights?",
+    "canonicalAnswer": "Diwali",
+    "aliases": ["Deepavali", "Dipavali"],
+    "distractors": ["Holi", "Navaratri", "Vaisakhi"],
+    "explanation": "Diwali is widely known as the Festival of Lights.",
+    "details": "The multi-day festival is celebrated by Hindus and also by members of several other South Asian religions. Customs vary by region but often include lamps, family gatherings, sweets, and fireworks.",
+    "source": {
+      "label": "National Geographic",
+      "url": "https://www.nationalgeographic.com/history/article/diwali-history-customs-indian-festival-of-lights"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.0ea8bdc8093b1f34": {
+    "replacementCatalogKey": "lifestyle-culture-starter.replacement.20260718.japanese-bowing",
+    "answerMode": "recall",
+    "subtopic": "Customs & Etiquette",
+    "detailTags": ["Japan", "Social Customs"],
+    "prompt": "What is the customary Japanese gesture of bending at the waist to greet, thank, or show respect?",
+    "canonicalAnswer": "Bowing",
+    "aliases": ["A bow", "Ojigi"],
+    "distractors": ["Handshaking", "Saluting", "Kneeling"],
+    "explanation": "Bowing is a customary Japanese gesture used in greetings and other respectful interactions.",
+    "details": "The depth and duration of a bow can vary with the formality of the situation and the relationship between the people involved. The gesture may express greeting, gratitude, apology, or respect.",
+    "difficulty": 2,
+    "source": {
+      "label": "Japan National Tourism Organization",
+      "url": "https://www.japan.travel/en/guide/understanding-and-mastering-the-japanese-bow/"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.3500b4884c0473f5": {
+    "answerMode": "recall",
+    "subtopics": ["Food & Drink", "Spanish Culture"],
+    "prompt": "What Spanish term describes small savory dishes often ordered for sharing?",
+    "canonicalAnswer": "Tapas",
+    "aliases": ["Tapa", "Spanish tapas"],
+    "distractors": ["Antipasti", "Meze", "Dim sum"],
+    "explanation": "Tapas are small Spanish dishes commonly served with drinks or combined into a shared meal.",
+    "details": "Tapas can be simple, such as olives or cheese, or more elaborate cooked dishes. The custom and typical dishes vary across Spain's regions.",
+    "source": {
+      "label": "MICHELIN Guide",
+      "url": "https://guide.michelin.com/en/article/features/guide-to-spanish-tapas"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.aecb763f66863931": {
+    "answerMode": "recall",
+    "subtopics": ["Fashion & Dress", "Scottish Culture"],
+    "prompt": "What patterned cloth associated with Scotland uses intersecting horizontal and vertical bands?",
+    "canonicalAnswer": "Tartan",
+    "aliases": ["Tartan cloth", "Tartan fabric"],
+    "distractors": ["Paisley", "Herringbone", "Madras"],
+    "explanation": "Tartan is a pattern of intersecting colored bands strongly associated with Scotland.",
+    "details": "Tartans are woven with repeated horizontal and vertical stripes. Particular designs became associated with clans, institutions, districts, and organizations, especially from the 18th and 19th centuries onward.",
+    "source": {
+      "label": "Merriam-Webster",
+      "url": "https://www.merriam-webster.com/dictionary/tartan"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.9ba27bcffb656d65": {
+    "answerMode": "recall",
+    "subtopics": ["Beliefs & Traditions", "Islamic Culture"],
+    "prompt": "During what month of the Islamic calendar do observant Muslims fast from dawn to sunset?",
+    "canonicalAnswer": "Ramadan",
+    "aliases": ["The month of Ramadan"],
+    "distractors": ["Muharram", "Shawwal", "Rajab"],
+    "explanation": "Muslims observe the month of Ramadan with fasting from dawn to sunset.",
+    "details": "The daily fast is called sawm and is one of the Five Pillars of Islam. Ramadan follows a lunar calendar, so its dates move through the seasons over time.",
+    "source": {
+      "label": "National Geographic Education",
+      "url": "https://education.nationalgeographic.org/resource/ramadan/"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.f2377b41af2b2e4f": {
+    "answerMode": "recall",
+    "subtopics": ["Japanese Culture", "Beliefs & Traditions"],
+    "prompt": "What Japanese term names the formal practice commonly called the tea ceremony?",
+    "canonicalAnswer": "Chanoyu",
+    "aliases": ["Chado", "Sado", "The way of tea"],
+    "distractors": ["Kabuki", "Shodo", "Kodo"],
+    "explanation": "Chanoyu is the Japanese practice commonly known as the tea ceremony.",
+    "details": "Also called chadō or sadō, the way of tea centers on the preparation and serving of powdered green tea. Its highly considered setting and movements reflect ideals influenced by Zen aesthetics.",
+    "source": {
+      "label": "Government of Japan",
+      "url": "https://www.japan.go.jp/tomodachi/2014/spring2014/friends_of_japan3.html"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.8f17c65474615692": {
+    "answerMode": "recall",
+    "subtopics": ["Japanese Culture", "Customs & Traditions"],
+    "prompt": "What Japanese term describes wholehearted hospitality that anticipates a guest's needs?",
+    "canonicalAnswer": "Omotenashi",
+    "aliases": ["Japanese hospitality"],
+    "distractors": ["Kaizen", "Ikigai", "Nemawashi"],
+    "explanation": "Omotenashi describes a Japanese ideal of attentive, wholehearted hospitality.",
+    "details": "The concept emphasizes caring for guests sincerely and noticing needs without expecting a reward. It is expressed through thoughtful preparation, courtesy, and attention to detail.",
+    "source": {
+      "label": "Government of Japan",
+      "url": "https://www.japan.go.jp/tomodachi/2014/spring-summer2014/japans_global-leading_medical_services.html"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.ddcd07129f8cb56f": {
+    "answerMode": "recall",
+    "subtopics": ["Māori Culture", "Customs & Traditions"],
+    "prompt": "What Māori greeting traditionally involves two people pressing their noses and foreheads together?",
+    "canonicalAnswer": "Hongi",
+    "aliases": ["Māori hongi"],
+    "distractors": ["Haka", "Powhiri", "Waiata"],
+    "explanation": "The hongi is a traditional Māori greeting made by pressing noses and foreheads together.",
+    "details": "The greeting symbolizes sharing the breath of life. It is often exchanged during a pōwhiri, a formal Māori welcoming ceremony.",
+    "source": {
+      "label": "Te Ara Encyclopedia of New Zealand",
+      "url": "https://teara.govt.nz/en/photograph/39856/the-hongi"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.27c0def3f0e90018": {
+    "answerMode": "recall",
+    "subtopics": ["Fashion & Dress"],
+    "prompt": "What French term describes exclusive high fashion made and fitted for an individual client?",
+    "canonicalAnswer": "Haute couture",
+    "aliases": ["Couture", "High fashion"],
+    "distractors": ["Prêt-à-porter", "Fast fashion", "Sportswear"],
+    "explanation": "Haute couture is custom-made high fashion fitted to a particular client.",
+    "details": "Unlike ready-to-wear clothing produced in standard sizes, haute couture garments are individually fitted and involve extensive specialist craftsmanship.",
+    "source": {
+      "label": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/exhibitions/listings/2016/manus-x-machina/exhibition-galleries"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.0993ecd776d1ad31": {
+    "answerMode": "recall",
+    "subtopics": ["Business & Brands", "Japanese Culture"],
+    "prompt": "What Japanese business philosophy centers on continuous, incremental improvement?",
+    "canonicalAnswer": "Kaizen",
+    "aliases": ["Continuous improvement"],
+    "distractors": ["Kanban", "Keiretsu", "Zaibatsu"],
+    "explanation": "Kaizen is a philosophy and practice of continuous improvement.",
+    "details": "Kaizen emphasizes ongoing small changes to improve quality, productivity, or processes. In organizations, it commonly encourages participation from people throughout the workplace.",
+    "source": {
+      "label": "Japan International Cooperation Agency",
+      "url": "https://www.jica.go.jp/english/activities/schemes/tech_pro/projects/activities/activities_54.html"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.e8eef0071a9fe1a3": {
+    "answerMode": "recall",
+    "subtopics": ["Danish Culture", "Daily Life"],
+    "prompt": "What Danish concept refers to slowing down and enjoying life's simple, cozy pleasures?",
+    "canonicalAnswer": "Hygge",
+    "aliases": ["Danish coziness", "Cosiness"],
+    "distractors": ["Lagom", "Sisu", "Fika"],
+    "explanation": "Hygge is a Danish concept centered on comfort, togetherness, and quiet enjoyment.",
+    "details": "Hygge can mean relaxing alone or spending informal time with friends and family. It often involves creating a warm atmosphere and appreciating ordinary pleasures without a fixed agenda.",
+    "source": {
+      "label": "Denmark.dk",
+      "url": "https://denmark.dk/people-and-culture/hygge"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.01404181100db0d7": {
+    "answerMode": "recall",
+    "subtopics": ["Icelandic Culture", "Holidays & Celebrations"],
+    "prompt": "What Icelandic term, literally meaning 'Christmas book flood,' names the surge in publishing and book buying before Christmas?",
+    "canonicalAnswer": "Jólabókaflóð",
+    "aliases": ["Christmas book flood", "Yule book flood"],
+    "distractors": ["Þorrablót", "Jónsmessa", "Bóndadagur"],
+    "explanation": "Jólabókaflóð is Iceland's annual pre-Christmas flood of new books and book buying.",
+    "details": "The publishing season is closely tied to books as popular Christmas gifts. An annual catalog called Bókatíðindi helps readers discover the many new titles released before the holiday.",
+    "source": {
+      "label": "Reykjavík UNESCO City of Literature",
+      "url": "https://reykjavik.is/sites/default/files/ymis_skjol/skjol_utgefid_efni/reykjavik_unesco_city_of_literature.pdf"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.9ba5c6fb2d016a34": {
+    "answerMode": "recall",
+    "subtopics": ["Indonesian Culture", "Customs & Traditions"],
+    "prompt": "What Indonesian expression names the cultural value of working together and providing mutual assistance?",
+    "canonicalAnswer": "Gotong royong",
+    "aliases": ["Mutual cooperation", "Mutual assistance"],
+    "distractors": ["Bhinneka tunggal ika", "Musyawarah", "Pancasila"],
+    "explanation": "Gotong royong expresses the Indonesian value of communal cooperation and mutual assistance.",
+    "details": "The principle is practiced when community members contribute work or support toward a shared need. It is frequently described as an important part of Indonesian social and civic life.",
+    "source": {
+      "label": "UNESCO",
+      "url": "https://www.unesco.org/creativity/en/policy-monitoring-platform/cultural-programmes-and-activities-supporting-mobility-artists-and-cultural-professionals-between"
+    }
+  },
+  "lifestyle-culture-starter.opentdb.0e4f5a08ab5c1ff1": {
+    "answerMode": "recall",
+    "subtopics": ["Bhutanese Culture", "Fashion & Dress"],
+    "prompt": "What is the name of Bhutan's draped national robe traditionally worn by men?",
+    "canonicalAnswer": "Gho",
+    "aliases": ["Bhutanese gho"],
+    "distractors": ["Kira", "Chuba", "Bakhu"],
+    "explanation": "The gho is the traditional national robe worn by men in Bhutan.",
+    "details": "The robe is belted at the waist and traditionally worn with knee-length socks. Bhutan's national dress for women is the kira, a long woven garment.",
+    "source": {
+      "label": "Bhutan Travel",
+      "url": "https://bhutan.travel/journal/editorial/cultural-fabric"
+    }
+  }
+}

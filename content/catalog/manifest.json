@@ -1,5 +1,5 @@
 {
-  "catalogVersion": "2026.07.13.3",
+  "catalogVersion": "2026.07.21.4",
   "packs": [
     {
       "slug": "science-nature-starter",
@@ -7,7 +7,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 26, 21, 15]
+      "difficulty": [13, 20, 26, 23, 13]
     },
     {
       "slug": "history-starter",
@@ -15,7 +15,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [15, 20, 24, 22, 14]
+      "difficulty": [9, 23, 27, 25, 11]
     },
     {
       "slug": "geography-starter",
@@ -23,7 +23,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [16, 20, 24, 21, 14]
+      "difficulty": [16, 18, 26, 25, 10]
     },
     {
       "slug": "sports-starter",
@@ -31,7 +31,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [15, 21, 25, 20, 14]
+      "difficulty": [18, 24, 21, 18, 14]
     },
     {
       "slug": "arts-literature-starter",
@@ -39,7 +39,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 19, 29, 19, 14]
+      "difficulty": [6, 30, 28, 21, 10]
     },
     {
       "slug": "film-television-starter",
@@ -47,7 +47,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [13, 20, 28, 22, 12]
+      "difficulty": [9, 28, 25, 24, 9]
     },
     {
       "slug": "music-starter",
@@ -55,7 +55,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [14, 17, 29, 21, 14]
+      "difficulty": [16, 18, 26, 21, 14]
     },
     {
       "slug": "lifestyle-culture-starter",
@@ -63,7 +63,7 @@
       "target": 100,
       "existingSeedCount": 5,
       "generatedTarget": 95,
-      "difficulty": [15, 18, 28, 20, 14]
+      "difficulty": [15, 24, 30, 19, 7]
     },
     {
       "slug": "space-and-beyond",
@@ -79,7 +79,7 @@
       "target": 50,
       "existingSeedCount": 0,
       "generatedTarget": 50,
-      "difficulty": [5, 10, 20, 10, 5]
+      "difficulty": [5, 10, 19, 11, 5]
     },
     {
       "slug": "masterworks",
@@ -87,7 +87,7 @@
       "target": 50,
       "existingSeedCount": 0,
       "generatedTarget": 50,
-      "difficulty": [5, 10, 20, 10, 5]
+      "difficulty": [5, 10, 21, 9, 5]
     },
     {
       "slug": "sound-and-song",
@@ -103,7 +103,7 @@
       "target": 50,
       "existingSeedCount": 0,
       "generatedTarget": 50,
-      "difficulty": [25, 15, 10, 0, 0]
+      "difficulty": [24, 16, 10, 0, 0]
     },
     {
       "slug": "trivia-101",
@@ -111,7 +111,71 @@
       "target": 50,
       "existingSeedCount": 0,
       "generatedTarget": 50,
-      "difficulty": [21, 18, 9, 2, 0]
+      "difficulty": [12, 28, 8, 2, 0]
+    },
+    {
+      "slug": "body-of-knowledge",
+      "name": "Body of Knowledge",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 20, 10, 5]
+    },
+    {
+      "slug": "wild-world",
+      "name": "Wild World",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [8, 12, 20, 8, 2]
+    },
+    {
+      "slug": "how-it-works",
+      "name": "How It Works",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 20, 10, 5]
+    },
+    {
+      "slug": "ancient-worlds",
+      "name": "Ancient Worlds",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 21, 9, 5]
+    },
+    {
+      "slug": "american-story",
+      "name": "The American Story",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 10, 20, 10, 5]
+    },
+    {
+      "slug": "myth-and-legend",
+      "name": "Myth & Legend",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [8, 12, 18, 8, 4]
+    },
+    {
+      "slug": "at-the-table",
+      "name": "At the Table",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [9, 16, 15, 8, 2]
+    },
+    {
+      "slug": "bookshelf-essentials",
+      "name": "Bookshelf Essentials",
+      "target": 50,
+      "existingSeedCount": 0,
+      "generatedTarget": 50,
+      "difficulty": [5, 9, 21, 10, 5]
     }
   ]
 }

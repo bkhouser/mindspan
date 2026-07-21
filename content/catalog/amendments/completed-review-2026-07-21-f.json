@@ -1,0 +1,67 @@
+{
+  "geography-starter.replacement.20260718.agulhas": {
+    "difficulty": 2
+  },
+  "arts-literature-starter.replacement.20260721.screaming-lambs": {
+    "difficulty": 2
+  },
+  "lifestyle-culture-starter.opentdb.7706d5be21915542": {
+    "aliases": [
+      "Distance",
+      "Mileage",
+      "Miles",
+      "Distance the vehicle has traveled",
+      "Total distance"
+    ]
+  },
+  "science-nature-starter.element-number.unquadoctium": {
+    "aliases": [
+      "Avogadro constant",
+      "Avogadro's constant"
+    ]
+  },
+  "history-starter.battle-location.battle-of-hattin": {
+    "explanation": "Saladin's forces defeated the Crusader army near the twin hills known as the Horns of Hattin.",
+    "details": "The battle took place in July 1187 near Tiberias in present-day Israel. The defeat destroyed much of the Kingdom of Jerusalem's field army and opened the way for Saladin to recapture Jerusalem later that year.",
+    "source": {
+      "label": "World History Encyclopedia",
+      "url": "https://www.worldhistory.org/Battle_of_Hattin/"
+    }
+  },
+  "music-starter.replacement.20260720.rhapsody-in-blue": {
+    "difficulty": 2
+  },
+  "lifestyle-culture-starter.opentdb.03ce0e9c9ed2fb3f": {
+    "difficulty": 3
+  },
+  "history-starter.treaty-year.inter-american-democratic-charter": {
+    "aliases": [
+      "Luther"
+    ]
+  },
+  "trivia-101.opentdb.5fa652b7e134c0e6": {
+    "aliases": [
+      "Milkshake mixer",
+      "Milkshake mixers",
+      "Milkshake machine",
+      "Multimixers",
+      "Multimixer",
+      "Milkshake"
+    ]
+  },
+  "film-television-starter.opentdb.74841f84b12945b3": {
+    "difficulty": 2
+  },
+  "film-television-starter.opentdb.541573dc75788504": {
+    "answerMode": "required_choice"
+  },
+  "arts-literature-starter.opentdb.9b43450b74e4ee0d": {
+    "aliases": [
+      "Toyota Land Cruiser",
+      "Land Cruiser"
+    ]
+  },
+  "arts-literature-starter.opentdb.7c3fbc243fd62cfe": {
+    "prompt": "Which Scottish-born author created Sherlock Holmes?"
+  }
+}

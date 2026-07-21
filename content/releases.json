@@ -1,6 +1,167 @@
 {
   "releases": [
     {
+      "version": "1.0.0-rc.1",
+      "releasedAt": "2026-07-20",
+      "title": "A stronger, fully reviewed core",
+      "summary": "This release completes Mindspan's first full editorial review of the 900-question core catalog, substantially improves question quality and variety, makes answer matching more natural, and provides clearer ways to understand individual and group progress.",
+      "highlights": [
+        {
+          "text": "Completed editorial review of all 900 questions in the core catalog.",
+          "audience": "all"
+        },
+        {
+          "text": "Improved 438 questions for accuracy, variety, difficulty, explanations, and accepted answers.",
+          "audience": "all"
+        },
+        {
+          "text": "Numeric answers and familiar surnames are now accepted more naturally.",
+          "audience": "all"
+        },
+        {
+          "text": "Achievement progress and group knowledge coverage are clearer.",
+          "audience": "all"
+        },
+        {
+          "text": "Improved sign-in reliability and question-review tools.",
+          "audience": "all"
+        }
+      ],
+      "questionChanges": {
+        "added": 400,
+        "addedLabel": "questions prepared for future packs",
+        "revised": 438,
+        "retired": 0
+      },
+      "sections": [
+        {
+          "heading": "A thoroughly reviewed question catalog",
+          "items": [
+            {
+              "text": "Every current question in the eight starter packs, Easy Does It, and Trivia 101 has received editorial review.",
+              "audience": "all"
+            },
+            {
+              "text": "Revised 438 questions based on player feedback, systematic pack reviews, and duplicate analysis.",
+              "audience": "all"
+            },
+            {
+              "text": "Rebuilt substantial portions of the Geography, History, Music, Sports, and Science & Nature starter packs to provide better variety and more useful knowledge.",
+              "audience": "all"
+            },
+            {
+              "text": "Reduced repetitive battle-location, exact-year, season-count, obscure element, constellation-abbreviation, athlete, venue, and model-number questions.",
+              "audience": "all"
+            },
+            {
+              "text": "Strengthened explanations, additional context, distractors, difficulty ratings, classifications, sources, and accepted answers.",
+              "audience": "all"
+            },
+            {
+              "text": "Replaced all questions rejected during final review while preserving previous attempts and earned points.",
+              "audience": "all"
+            },
+            {
+              "text": "Removed confirmed duplicate questions while retaining genuinely distinct questions that happen to share an answer.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "More natural answer acceptance",
+          "items": [
+            {
+              "text": "Numeric answers now accept equivalent written forms, such as 4 and four.",
+              "audience": "all"
+            },
+            {
+              "text": "Familiar surnames are accepted when a well-known person's full name is the answer.",
+              "audience": "all"
+            },
+            {
+              "text": "Leading articles such as a, an, and the continue to be handled automatically without requiring redundant aliases.",
+              "audience": "all"
+            },
+            {
+              "text": "Accepted-answer aliases were expanded where player and reviewer feedback identified reasonable responses.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Clearer progress and group knowledge",
+          "items": [
+            {
+              "text": "Achievement entries now show live progress toward unfinished milestones.",
+              "audience": "all"
+            },
+            {
+              "text": "Completed achievements are ordered with the most recently earned first.",
+              "audience": "all"
+            },
+            {
+              "text": "Group Activity entries now include details about the achievement that was earned.",
+              "audience": "all"
+            },
+            {
+              "text": "Group coverage now uses consistent percentage-based heatmaps and summarizes strengths, specialties, and knowledge gaps.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "More reliable access",
+          "items": [
+            {
+              "text": "The landing and login pages now recognize an existing authenticated session and continue directly into Mindspan.",
+              "audience": "all"
+            },
+            {
+              "text": "Question-review statistics failures no longer make the entire reviewer page unusable.",
+              "audience": "admin"
+            }
+          ]
+        },
+        {
+          "heading": "Improved reviewer tools",
+          "items": [
+            {
+              "text": "Editorial approvals now follow exact unchanged question content safely between development and production.",
+              "audience": "admin"
+            },
+            {
+              "text": "Each question now has one primary subtopic plus optional reviewer-only detail tags.",
+              "audience": "admin"
+            },
+            {
+              "text": "The Question Index provides pack-scoped statistics and direct access to individual reviews.",
+              "audience": "admin"
+            },
+            {
+              "text": "Previous and Next controls remain visible while reviewing a pack.",
+              "audience": "admin"
+            },
+            {
+              "text": "Reviewers can see submitted player answers and aggregate answer counts.",
+              "audience": "admin"
+            },
+            {
+              "text": "Reviewers can award missed credit when player feedback identifies a valid answer that should have been accepted.",
+              "audience": "admin"
+            },
+            {
+              "text": "Rejected questions are now included in Question Quality action-item exports.",
+              "audience": "admin"
+            },
+            {
+              "text": "Eight additional 50-question expansion packs have been prepared and remain disabled while awaiting review.",
+              "audience": "admin"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "1.0.0-beta.2",
       "releasedAt": "2026-07-16",
       "title": "Faster play, better questions",

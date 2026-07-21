@@ -1,6 +1,6 @@
 {
   "name": "mindspan",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-rc.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -19,12 +19,17 @@
     "db:types": "supabase gen types typescript --local > src/types/database.generated.ts",
     "db:verify": "node scripts/verify-local.mjs",
     "db:test:rls": "node scripts/verify-rls.mjs",
+    "db:test:taxonomy": "node scripts/verify-taxonomy-mastery.mjs",
+    "db:test:replacement": "node scripts/verify-replacement-identities.mjs",
     "db:test:import": "node scripts/verify-import.mjs",
     "db:test:auth": "node scripts/verify-auth.mjs",
     "catalog:generate": "node scripts/generate-catalog.mjs",
     "catalog:generate:opentdb": "node scripts/generate-opentdb-catalog.mjs",
+    "catalog:generate:hidden": "node scripts/generate-hidden-expansions.mjs",
     "catalog:validate": "node scripts/validate-catalog.mjs",
+    "catalog:audit:duplicates": "node scripts/audit-question-duplicates.mjs --fail-on-exact",
     "catalog:load": "node scripts/load-catalog.mjs",
+    "catalog:reviews:capture": "node scripts/capture-editorial-approvals.mjs",
     "catalog:verify": "node scripts/verify-catalog.mjs",
     "release:question-changes": "node scripts/question-release-diff.mjs",
     "release:verify": "node scripts/verify-release-metadata.mjs"

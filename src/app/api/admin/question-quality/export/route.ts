@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { canReviewQuestions } from "@/domain/authorization";
 import { ApiError, apiContext, errorResponse } from "@/lib/api";
 import { fetchAllPages } from "@/lib/supabase-pagination";
+import { isQuestionQualityActionable } from "@/domain/question-quality";
 
 export async function GET() {
   try {
@@ -9,12 +10,13 @@ export async function GET() {
     if (!canReviewQuestions(profile.role))
       throw new ApiError("QUESTION_REVIEWER_REQUIRED", 403);
 
-    const [versions, feedback, reviews, reports] = await Promise.all([
+    const [versions, feedback, reviews, reports, creditCorrections] =
+      await Promise.all([
       fetchAllPages((from, to) =>
         admin
           .from("question_versions")
           .select(
-            "id,question_id,version_number,prompt,canonical_answer,answer_mode,explanation,details,difficulty,time_limit_seconds,remove_leading_articles,verified_at,expires_at,topic:topics(slug,name),answer_aliases(answer),distractors(answer,sort_order),question_citations(label,url,sort_order),questions(catalog_key,pack_questions(packs(slug,name)),question_subtopics(subtopics(name)))",
+            "id,question_id,version_number,editorial_key,editorial_content_hash,prompt,canonical_answer,answer_mode,explanation,details,difficulty,time_limit_seconds,remove_leading_articles,verified_at,expires_at,topic:topics(slug,name),answer_aliases(answer),distractors(answer,sort_order),question_citations(label,url,sort_order),questions(catalog_key,pack_questions(packs(slug,name)),question_subtopics(subtopics(name)),question_detail_tags(detail_tags(name)))",
           )
           .eq("status", "published")
           .order("question_id")
@@ -24,7 +26,7 @@ export async function GET() {
         admin
           .from("question_feedback")
           .select(
-            "question_version_id,sentiment,reasons,comment,answer_correct,assisted,timed_out,created_at,updated_at",
+            "id,question_version_id,sentiment,reasons,comment,answer_correct,assisted,timed_out,created_at,updated_at,attempt:attempts!question_feedback_attempt_id_fkey(submitted_answer,correct,earned_points)",
           )
           .order("updated_at", { ascending: false })
           .range(from, to),
@@ -47,6 +49,15 @@ export async function GET() {
           .order("created_at", { ascending: false })
           .range(from, to),
       ),
+      fetchAllPages((from, to) =>
+        admin
+          .from("attempt_credit_corrections")
+          .select(
+            "question_feedback_id,points_awarded,mastery_success_delta,created_at",
+          )
+          .order("created_at", { ascending: false })
+          .range(from, to),
+      ),
     ]);
     const reviewByVersion = new Map(
       reviews.map((review) => [review.question_version_id, review]),
@@ -57,6 +68,12 @@ export async function GET() {
       rows.push(item);
       feedbackByVersion.set(item.question_version_id, rows);
     }
+    const creditByFeedback = new Map(
+      creditCorrections.map((correction) => [
+        correction.question_feedback_id,
+        correction,
+      ]),
+    );
     const reportsByVersion = new Map<string, typeof reports>();
     for (const report of reports) {
       const rows = reportsByVersion.get(report.question_version_id) ?? [];
@@ -80,25 +97,45 @@ export async function GET() {
     };
     const actionableVersions = versions.filter((version) => {
       const review = reviewByVersion.get(version.id);
-      return (
-        review?.verdict === "needs_revision" ||
-        hasUnresolvedPlayerFlag(version.id)
+      return isQuestionQualityActionable(
+        review?.verdict,
+        hasUnresolvedPlayerFlag(version.id),
       );
     });
     const exportedAt = new Date();
+    const editorialApprovals = versions.flatMap((version) => {
+      const review = reviewByVersion.get(version.id);
+      return review?.verdict === "approved" &&
+        version.editorial_key &&
+        version.editorial_content_hash
+        ? [
+            {
+              editorialKey: version.editorial_key,
+              contentHash: version.editorial_content_hash,
+            },
+          ]
+        : [];
+    });
     const payload = {
-      schemaVersion: 1,
+      schemaVersion: 2,
       exportedAt: exportedAt.toISOString(),
       selection: {
         needsRevision: true,
+        rejected: true,
         unresolvedPlayerFlags: true,
       },
       instructions:
-        "This export contains only questions marked needs revision or carrying unresolved player feedback. Use catalogKey to update content/catalog. Editorial decisions apply only to the exported immutable versionId.",
+        "The questions array contains only items marked needs revision, marked rejected, or carrying unresolved player feedback. The editorialApprovals array contains portable approvals for unchanged content and can be merged with npm run catalog:reviews:capture -- <export-file>.",
+      editorialApprovals,
       questions: actionableVersions.map((version) => ({
         ...version,
         editorialReview: reviewByVersion.get(version.id) ?? null,
-        playerFeedback: feedbackByVersion.get(version.id) ?? [],
+        playerFeedback: (feedbackByVersion.get(version.id) ?? []).map(
+          (item) => ({
+            ...item,
+            awardedCredit: creditByFeedback.get(item.id) ?? null,
+          }),
+        ),
         formalReports: reportsByVersion.get(version.id) ?? [],
       })),
     };

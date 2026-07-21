@@ -1,0 +1,20 @@
+{
+  "trivia-101.opentdb.43ade97d762d36e4": {
+    "replacementCatalogKey": "trivia-101.replacement.20260718.soccer-red-card",
+    "topicSlug": "sports",
+    "subtopic": "Soccer",
+    "detailTags": ["Soccer Rules", "Cards", "Officiating"],
+    "prompt": "What color card does a referee show to send a player off in soccer?",
+    "canonicalAnswer": "Red",
+    "aliases": ["Red card", "A red card"],
+    "distractors": ["Yellow", "Blue", "White"],
+    "explanation": "A red card sends a player off, leaving that player's team with one fewer player.",
+    "details": "A referee may show a red card directly for a serious offense or after a player receives a second yellow card. The dismissed player cannot be replaced during the match.",
+    "difficulty": 1,
+    "source": {
+      "label": "The International Football Association Board",
+      "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/"
+    },
+    "answerMode": "recall"
+  }
+}

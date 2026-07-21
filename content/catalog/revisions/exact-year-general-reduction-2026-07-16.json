@@ -180,19 +180,6 @@
       "url": "https://www.britannica.com/topic/Red-Hot-Chili-Peppers"
     }
   },
-  "music-starter.opentdb.c79e60be45d413d4": {
-    "subtopics": ["Rock Music"],
-    "prompt": "Which singer provides the high-pitched opening vocal on Dire Straits' Money for Nothing?",
-    "canonicalAnswer": "Sting",
-    "aliases": ["Gordon Sumner", "Gordon Matthew Thomas Sumner"],
-    "distractors": ["Peter Gabriel", "Phil Collins", "Bryan Ferry"],
-    "explanation": "Sting sings the song's opening 'I want my MTV' vocal line.",
-    "details": "Sting received a co-writing credit because the melody echoes Don't Stand So Close to Me, a song he wrote for the Police.",
-    "source": {
-      "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/topic/Dire-Straits"
-    }
-  },
   "music-starter.opentdb.1cb8979d8a0422a9": {
     "subtopics": ["Popular Music"],
     "prompt": "What name does BTS member Suga use for his solo music projects?",

@@ -1,0 +1,78 @@
+{
+  "trivia-101.opentdb.2aa2bf4e5b71d505": {
+    "replacementCatalogKey":"trivia-101.replacement.20260721.force-awakens-rey",
+    "subtopic":"Science Fiction & Fantasy",
+    "detailTags":["Star Wars","The Force Awakens","Rey"],
+    "prompt":"Which Star Wars film first introduced the character Rey?",
+    "canonicalAnswer":"The Force Awakens",
+    "aliases":["Star Wars: The Force Awakens","Episode VII","Star Wars Episode VII"],
+    "distractors":["The Last Jedi","Rogue One","The Rise of Skywalker"],
+    "explanation":"Rey first appears in Star Wars: The Force Awakens.",
+    "details":"The 2015 film introduces Rey as a scavenger on Jakku before she becomes entangled with the Resistance and discovers her connection to the Force. Daisy Ridley plays the character.",
+    "difficulty":2,
+    "source":{"label":"StarWars.com Databank","url":"https://www.starwars.com/databank/rey"},
+    "answerMode":"recall"
+  },
+  "trivia-101.opentdb.9780c32f7aa359de": {"aliases":["Canadiens","Montreal","The Canadiens"]},
+  "lifestyle-culture-starter.opentdb.509505171a7e569c": {
+    "prompt":"What mythological creature has the upper body of a human and the body of a horse?",
+    "answerMode":"recall",
+    "explanation":"A centaur combines a human upper body with a horse's body and legs.",
+    "details":"Centaurs appear in Greek mythology. Ancient stories portray them in different ways, from unruly wilderness figures to the wise teacher Chiron."
+  },
+  "film-television-starter.opentdb.541573dc75788504": {"difficulty":2},
+  "lifestyle-culture-starter.opentdb.7f0b0e929f05524a": {
+    "replacementCatalogKey":"lifestyle-culture-starter.replacement.20260721.tachometer",
+    "subtopic":"Everyday Technology",
+    "detailTags":["Automobiles","Tachometers","Dashboard Instruments"],
+    "prompt":"What dashboard instrument displays an engine's revolutions per minute?",
+    "canonicalAnswer":"Tachometer",
+    "aliases":["Rev counter","RPM gauge"],
+    "distractors":["Odometer","Speedometer","Fuel gauge"],
+    "explanation":"A tachometer shows how quickly an engine's crankshaft is rotating.",
+    "details":"The reading is usually displayed in revolutions per minute, often abbreviated RPM. Drivers can use it to judge engine speed and choose appropriate gear changes.",
+    "difficulty":2,
+    "source":{"label":"IEEE Technology Navigator","url":"https://technav.ieee.org/topic/tachometers/"},
+    "answerMode":"recall"
+  },
+  "film-television-starter.opentdb.b82ddad0c80d3001": {"difficulty":4},
+  "trivia-101.opentdb.dd5c02e8f04be361": {"aliases":["Grohl"]},
+  "arts-literature-starter.opentdb.ac5bbab7c25d70d4": {"difficulty":2},
+  "music-starter.replacement.20260720.armstrong-instrument": {"difficulty":2},
+  "film-television-starter.opentdb.6768ec1e82be87f3": {"difficulty":2},
+  "lifestyle-culture-starter.opentdb.27c0def3f0e90018": {"aliases":["Couture"]},
+  "music-starter.replacement.20260720.da-capo": {
+    "prompt":"In written music, what does the Italian direction “da capo” instruct a performer to do?",
+    "explanation":"Da capo instructs a performer to return to the beginning of the music.",
+    "details":"The phrase literally means “from the head.” It is often abbreviated D.C.; additional words or symbols indicate where the repeated passage should end."
+  },
+  "arts-literature-starter.opentdb.9b43450b74e4ee0d": {"difficulty":4},
+  "film-television-starter.opentdb.29cf1952d561be8c": {"difficulty":3},
+  "music-starter.replacement.20260720.c-major-relative-minor": {"difficulty":4},
+  "trivia-101.opentdb.6e0fd4df19de972a": {"difficulty":2},
+  "film-television-starter.opentdb.866923886eb4bdac": {"aliases":["Wood"]},
+  "arts-literature-starter.opentdb.d2f66e018ed70f48": {
+    "prompt":"Who wrote the novel Username: Evie?",
+    "answerMode":"recall",
+    "aliases":["Sugg"],
+    "explanation":"Joe Sugg wrote Username: Evie, a graphic novel illustrated by Amrit Birdi.",
+    "details":"Published in 2015, the story follows a teenager who discovers a virtual world created by her father. It became the first book in Sugg's Username series."
+  },
+  "science-nature-starter.scientist-field.ole-w-ver": {"difficulty":4},
+  "sports-starter.replacement.20260720.line-of-scrimmage": {"aliases":["Scrimmage line","Scrimmage"]},
+  "film-television-starter.opentdb.326b1d9d6fa7596d": {"aliases":["Mining","Mining suit"]},
+  "film-television-starter.opentdb.4f1046a941ea1aea": {"aliases":["Holly"]},
+  "arts-literature-starter.opentdb.7c3fbc243fd62cfe": {
+    "prompt":"Which author of the Sherlock Holmes stories was born in Scotland rather than England?",
+    "answerMode":"recall",
+    "aliases":["Doyle","Conan Doyle"],
+    "explanation":"Arthur Conan Doyle was born in Edinburgh, Scotland.",
+    "details":"Doyle studied medicine at the University of Edinburgh before creating Sherlock Holmes. His birthplace distinguishes him from the English-born writers used as the original distractors."
+  },
+  "film-television-starter.opentdb.a6f171c4724fcc1f": {"difficulty":3},
+  "science-nature-starter.replacement.20260720.euler-polyhedron": {
+    "prompt":"Euler's polyhedron formula states that V − E + F equals what for any convex polyhedron?",
+    "explanation":"For any convex polyhedron, Euler's formula gives V − E + F = 2.",
+    "details":"V, E, and F count vertices, edges, and faces. For a cube, 8 − 12 + 6 equals 2; the same invariant holds for every convex polyhedron and helps connect a solid's combinatorial structure to topology."
+  }
+}

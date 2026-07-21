@@ -7,13 +7,19 @@
     "details": "The Clyde helped Glasgow grow into a major shipbuilding and industrial center before widening into the Firth of Clyde and reaching the Atlantic Ocean."
   },
   "history-starter.monarch-country.edward-i-of-england": {
-    "prompt": "Edward I, known as Edward Longshanks, was king of which country?",
-    "canonicalAnswer": "England",
-    "aliases": ["Kingdom of England"],
-    "distractors": ["France", "Scotland", "Wales"],
-    "explanation": "Edward I was king of England from 1272 to 1307.",
-    "details": "Called Edward Longshanks, he strengthened royal government, conquered Wales, and fought campaigns in Scotland. England is accepted in addition to the formal historical name Kingdom of England.",
-    "difficulty": 1
+    "subtopics": ["Carthaginian History", "Military History"],
+    "prompt": "Which Carthaginian general famously crossed the Alps with elephants during the Second Punic War?",
+    "canonicalAnswer": "Hannibal",
+    "aliases": ["Hannibal Barca"],
+    "distractors": ["Scipio Africanus", "Hasdrubal", "Marius"],
+    "explanation": "Hannibal led a Carthaginian army across the Alps to invade Italy.",
+    "details": "His campaign began in 218 BCE during the Second Punic War. Hannibal won major victories against Rome, including at Cannae, but could not force Rome to surrender.",
+    "difficulty": 1,
+    "source": {
+      "label": "OpenStax World History Volume 1",
+      "url": "https://openstax.org/books/world-history-volume-1/pages/6-4-the-roman-republic"
+    },
+    "answerMode": "recall"
   },
   "geography-starter.river-mouth.rio-de-la-plata": {
     "explanation": "The Rio de la Plata opens into the Atlantic Ocean.",
@@ -38,34 +44,37 @@
     "difficulty": 4
   },
   "history-starter.empire-capital.east-francia": {
-    "prompt": "Which city became an important royal center and meeting place in East Francia after 843?",
-    "canonicalAnswer": "Frankfurt am Main",
-    "aliases": ["Frankfurt"],
-    "distractors": ["Aachen", "Regensburg", "Cologne"],
-    "explanation": "Frankfurt became a leading royal center of East Francia after the Carolingian Empire was divided in 843.",
-    "details": "East Frankish kings traveled among royal residences rather than governing from one fixed capital. Frankfurt was at times their most important royal palatinate and hosted major assemblies, so describing it as a royal center is more accurate than calling it the realm's sole capital.",
+    "subtopics": ["Mongol History", "Trade"],
+    "prompt": "What term describes the period of increased security and exchange across Mongol-ruled Eurasia?",
+    "canonicalAnswer": "Pax Mongolica",
+    "aliases": ["Mongol Peace", "The Pax Mongolica"],
+    "distractors": ["Pax Romana", "Silk Road compact", "Great Peace of the Steppe"],
+    "explanation": "Pax Mongolica refers to the relative stability that supported travel and trade across much of Mongol Eurasia.",
+    "details": "Mongol authorities protected routes and connected territories stretching across Asia and into Europe. Merchants, diplomats, technologies, ideas, and diseases moved more readily through these networks.",
     "difficulty": 4,
     "source": {
-      "label": "City of Frankfurt am Main",
-      "url": "https://frankfurt.de/english/discover-and-experience/about-frankfurt/history"
-    }
+      "label": "OpenStax World History Volume 1",
+      "url": "https://openstax.org/books/world-history-volume-1/pages/14-2-chinggis-khan-and-the-early-mongol-empire"
+    },
+    "answerMode": "recall"
   },
   "science-nature-starter.element-number.unquadbium": {
-    "prompt": "What atomic number is encoded by the systematic placeholder name unquadbium?",
-    "canonicalAnswer": "142",
-    "aliases": ["One hundred forty-two", "One hundred and forty-two"],
-    "distractors": ["124", "140", "143"],
-    "explanation": "The placeholder name unquadbium encodes the atomic number 142.",
-    "details": "Systematic temporary element names use digit roots: un means 1, quad means 4, and bi means 2. Adding the element ending -ium produces un-quad-bi-um for a hypothetical element with atomic number 142.",
-    "difficulty": 5
-  },
-  "sports-starter.athlete-sport.jens-lehmann": {
-    "aliases": ["football", "soccer"],
-    "explanation": "Jens Lehmann was a professional association football goalkeeper.",
-    "details": "The German goalkeeper played for clubs including Schalke 04, Borussia Dortmund, and Arsenal, and represented Germany at three FIFA World Cups. Both football and soccer are accepted."
+    "subtopics": ["Chemistry", "Thermodynamics"],
+    "prompt": "According to the second law of thermodynamics, what state function tends to increase in an isolated system?",
+    "canonicalAnswer": "Entropy",
+    "aliases": ["Thermodynamic entropy"],
+    "distractors": ["Enthalpy", "Gibbs free energy", "Internal energy"],
+    "explanation": "The total entropy of an isolated system cannot decrease during a spontaneous process.",
+    "details": "Entropy describes how energy and matter are dispersed among the microscopic arrangements available to a system. Entropy can decrease locally, but only when the surroundings experience a compensating increase.",
+    "difficulty": 5,
+    "source": {
+      "label": "OpenStax Chemistry 2e",
+      "url": "https://openstax.org/books/chemistry-2e/pages/16-2-entropy"
+    },
+    "answerMode": "recall"
   },
   "geography-starter.landmark-country.lenin-s-mausoleum": {
-    "explanation": "Lenin's Mausoleum is in Russia.",
+    "explanation": "Lenin's Mausoleum stands on Red Square in Moscow, immediately beside the Kremlin wall.",
     "details": "The mausoleum stands on Red Square in Moscow beside the Kremlin wall and contains the preserved body of Soviet leader Vladimir Lenin.",
     "difficulty": 2
   },
@@ -92,23 +101,8 @@
       "url": "https://www.acmt.net/about-medtox/"
     }
   },
-  "sports-starter.competition-sport.austrian-basketball-supercup": {
-    "prompt": "The Austrian Basketball Supercup is contested in which sport?",
-    "explanation": "The Austrian Basketball Supercup is a basketball competition.",
-    "details": "The event is part of Austria's domestic basketball calendar and is played as a supercup competition between leading clubs.",
-    "difficulty": 1
-  },
   "film-television-starter.opentdb.57cfd4fde9ff851e": {
     "difficulty": 4
-  },
-  "sports-starter.competition-sport.new-south-wales-cup": {
-    "explanation": "The New South Wales Cup is a rugby league competition.",
-    "details": "Played in Australia, it is the leading state-level men's rugby league competition in New South Wales and serves as a major pathway and reserve-grade competition below the NRL."
-  },
-  "sports-starter.athlete-country.michael-uhrmann": {
-    "prompt": "Which country did ski jumper Michael Uhrmann represent?",
-    "explanation": "Michael Uhrmann represented Germany in ski jumping.",
-    "details": "Uhrmann competed for Germany at multiple Winter Olympic Games and won an Olympic team gold medal in 2002."
   },
   "film-television-starter.opentdb.4e3d19b8b7578ab4": {
     "prompt": "Which spelling correctly names the young warrior in The NeverEnding Story?",
@@ -120,11 +114,6 @@
     "details": "India occupies most of the Indian subcontinent and shares land borders with Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar.",
     "difficulty": 1
   },
-  "sports-starter.athlete-sport.billie-jean-king": {
-    "explanation": "Billie Jean King is a champion tennis player.",
-    "details": "King won 39 major titles across singles, doubles, and mixed doubles and became a prominent advocate for gender equality in sports.",
-    "difficulty": 2
-  },
   "geography-starter.country-continent.barbados": {
     "prompt": "Barbados is an island country in which region of the Americas?",
     "canonicalAnswer": "Caribbean",
@@ -134,15 +123,6 @@
     "explanation": "Barbados is an island country in the Caribbean region.",
     "details": "Barbados lies in the Lesser Antilles, east of the main arc of Caribbean islands. Asking for its region avoids the disputed convention of assigning Caribbean islands to a continent.",
     "difficulty": 2
-  },
-  "sports-starter.team-venue.san-diego-fleet": {
-    "prompt": "At which stadium did the short-lived San Diego Fleet play its 2019 home games?",
-    "canonicalAnswer": "SDCCU Stadium",
-    "aliases": ["San Diego Stadium"],
-    "distractors": ["Petco Park", "Snapdragon Stadium", "Balboa Stadium"],
-    "explanation": "The San Diego Fleet played its home games at SDCCU Stadium.",
-    "details": "The Fleet competed in the Alliance of American Football's only season in 2019. Their home field was the venue long known as San Diego Stadium, then operating under the SDCCU Stadium name.",
-    "difficulty": 4
   },
   "film-television-starter.opentdb.6dd7a3ae412f089d": {
     "prompt": "Which of these actors was not a major cast member of Freaks and Geeks?",

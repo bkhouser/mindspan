@@ -48,26 +48,6 @@
     "explanation": "Rick Astley recorded Never Gonna Give You Up.",
     "details": "The Stock Aitken Waterman production topped charts internationally and later became the basis of the internet prank known as rickrolling."
   },
-  "music-starter.opentdb.eda52e36629c9581": {
-    "prompt": "What was the title of the Beatles' first studio album?",
-    "canonicalAnswer": "Please Please Me",
-    "aliases": [],
-    "distractors": [
-      "With the Beatles",
-      "A Hard Day's Night",
-      "Beatles for Sale"
-    ],
-    "explanation": "Please Please Me was the Beatles' debut studio album.",
-    "details": "Most of the album was recorded during a famously long single-day session at EMI Studios, including a climactic performance of Twist and Shout."
-  },
-  "music-starter.opentdb.2b0d41f42d508b6d": {
-    "prompt": "Which musician released the influential vaporwave album Floral Shoppe under the alias Macintosh Plus?",
-    "canonicalAnswer": "Vektroid",
-    "aliases": ["Ramona Andra Xavier", "Ramona Xavier"],
-    "distractors": ["Oneohtrix Point Never", "James Ferraro", "George Clanton"],
-    "explanation": "Vektroid released Floral Shoppe under the alias Macintosh Plus.",
-    "details": "The album became a defining vaporwave release through its slowed samples, surreal artwork, and circulation through online music communities."
-  },
   "sound-and-song.opentdb.fd9a16175e66f648": {
     "prompt": "What is the title of Muse's debut studio album?",
     "canonicalAnswer": "Showbiz",

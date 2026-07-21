@@ -1,0 +1,44 @@
+{
+  "music-starter.opentdb.2882e54af91546ed": {
+    "replacementCatalogKey": "music-starter.replacement.20260720.motown-detroit",
+    "subtopic": "Blues, Soul & R&B",
+    "detailTags": ["Motown", "Detroit", "Record Labels"],
+    "prompt": "The Motown record label was founded in which U.S. city?",
+    "canonicalAnswer": "Detroit",
+    "aliases": ["Detroit, Michigan"],
+    "distractors": ["Memphis", "Chicago", "Philadelphia"],
+    "explanation": "Berry Gordy Jr. founded Motown in Detroit, Michigan.",
+    "details": "Motown's Hitsville U.S.A. studios produced a polished, rhythmic sound heard on recordings by the Supremes, the Temptations, Marvin Gaye, and Stevie Wonder. The label helped bring Black popular music to a mass audience.",
+    "difficulty": 2,
+    "source": {"label": "Motown Museum", "url": "https://www.motownmuseum.org/story/motown/"},
+    "answerMode": "recall"
+  },
+  "music-starter.opentdb.d5e03fcd9c36bc0f": {
+    "replacementCatalogKey": "music-starter.replacement.20260720.bluegrass-banjo",
+    "subtopic": "Country & Folk",
+    "detailTags": ["Bluegrass", "Banjo", "American Roots Music"],
+    "prompt": "Which instrument, commonly played with five strings, is central to traditional bluegrass music?",
+    "canonicalAnswer": "Banjo",
+    "aliases": ["Five-string banjo", "5-string banjo"],
+    "distractors": ["Mandolin", "Dobro", "Autoharp"],
+    "explanation": "The five-string banjo is a defining instrument of bluegrass music.",
+    "details": "Bluegrass banjoists often use a rapid three-finger picking style associated with Earl Scruggs. The instrument's roots also reflect African musical traditions carried into North America.",
+    "difficulty": 2,
+    "source": {"label": "Smithsonian Institution", "url": "https://www.si.edu/spotlight/banjos-smithsonian"},
+    "answerMode": "recall"
+  },
+  "music-starter.opentdb.e25f511bd3d3a5bf": {
+    "replacementCatalogKey": "music-starter.replacement.20260720.hamilton-creator",
+    "subtopic": "Musical Theatre & Soundtracks",
+    "detailTags": ["Hamilton", "Broadway", "Musical Theatre Creators"],
+    "prompt": "Who wrote the music, lyrics, and original book for the Broadway musical Hamilton?",
+    "canonicalAnswer": "Lin-Manuel Miranda",
+    "aliases": ["Miranda", "Lin Manuel Miranda"],
+    "distractors": ["Stephen Sondheim", "Jonathan Larson", "Jason Robert Brown"],
+    "explanation": "Lin-Manuel Miranda created Hamilton's book, music, and lyrics and originated its title role.",
+    "details": "The musical combines hip-hop, R&B, pop, and traditional musical-theatre forms to tell the story of Alexander Hamilton. It opened on Broadway in 2015 after an earlier run at the Public Theater.",
+    "difficulty": 2,
+    "source": {"label": "Hamilton official site", "url": "https://hamiltonmusical.com/new-york/cast/"},
+    "answerMode": "recall"
+  }
+}

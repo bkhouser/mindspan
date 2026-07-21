@@ -1,0 +1,98 @@
+{
+  "geography-starter.landmark-country.st-peter-s-basilica": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.longest-coastline", "subtopic": "Countries & Borders", "detailTags": ["Canada", "Coastlines", "World Records"],
+    "prompt": "Which country has the world's longest coastline?", "canonicalAnswer": "Canada", "aliases": [], "distractors": ["Russia", "Indonesia", "Australia"],
+    "explanation": "Canada has the world's longest coastline, bordering three oceans.", "details": "Its mainland and thousands of islands meet the Atlantic, Pacific, and Arctic oceans. Measuring coastlines depends on map scale, but standard international comparisons place Canada far ahead of every other country.",
+    "source": {"label": "Statistics Canada", "url": "https://www.statcan.gc.ca/o1/en/plus/6381-canadas-coastline-longest-world"}, "answerMode": "recall"
+  },
+  "geography-starter.country-capital.india": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.seine-paris", "subtopic": "Rivers & Lakes", "detailTags": ["Seine", "Paris", "France"],
+    "prompt": "Paris developed along the banks of which river?", "canonicalAnswer": "Seine", "aliases": ["Seine River", "The Seine"], "distractors": ["Loire", "Rhine", "Rhone"],
+    "explanation": "The Seine flows through the center of Paris and divides it into the Left and Right Banks.", "details": "Several of the city's best-known sights stand beside the river or on its islands. The Seine continues northwest across northern France and reaches the English Channel near Le Havre.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Seine-River"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.slovenia": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.gobi", "subtopic": "Climate & Biomes", "detailTags": ["Gobi Desert", "Mongolia", "China"],
+    "prompt": "The Gobi Desert stretches across Mongolia and which neighboring country?", "canonicalAnswer": "China", "aliases": [], "distractors": ["India", "Russia", "Kazakhstan"],
+    "explanation": "The Gobi spans southern Mongolia and northern China.", "details": "Unlike the stereotypical sandy desert, much of the Gobi consists of bare rock and gravel. Its inland location and surrounding mountains contribute to a cold, dry climate with severe winters.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Gobi"}, "answerMode": "recall"
+  },
+  "geography-starter.mountain-country.lenzspitze": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.canberra", "subtopic": "Capitals & Cities", "detailTags": ["Canberra", "Australia", "National Capitals"],
+    "prompt": "What is the capital of Australia?", "canonicalAnswer": "Canberra", "aliases": [], "distractors": ["Sydney", "Melbourne", "Brisbane"],
+    "explanation": "Canberra, not Sydney or Melbourne, is Australia's national capital.", "details": "The inland city was selected as a compromise between rival Sydney and Melbourne and was purpose-built in the Australian Capital Territory. Parliament House opened there in 1988.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Canberra"}, "answerMode": "recall"
+  },
+  "geography-starter.landmark-country.namsan-seoul-tower": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.sicily-country", "subtopic": "Oceans, Seas & Islands", "detailTags": ["Sicily", "Italy", "Mediterranean Islands"],
+    "prompt": "Sicily is an island belonging to which country?", "canonicalAnswer": "Italy", "aliases": [], "distractors": ["Greece", "Spain", "Croatia"],
+    "explanation": "Sicily is an autonomous region of Italy just off the peninsula's southern tip.", "details": "The Strait of Messina separates Sicily from mainland Italy. The island is the largest in the Mediterranean and is dominated in the east by the active volcano Mount Etna.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Sicily"}, "answerMode": "recall"
+  },
+  "geography-starter.country-capital.poland": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.great-barrier-reef", "subtopic": "Landmarks & World Heritage", "detailTags": ["Great Barrier Reef", "Australia", "Coral Reefs"],
+    "prompt": "The Great Barrier Reef lies off the coast of which country?", "canonicalAnswer": "Australia", "aliases": [], "distractors": ["Indonesia", "South Africa", "Mexico"],
+    "explanation": "The Great Barrier Reef extends along the northeastern coast of Australia.", "details": "The vast reef system lies in the Coral Sea off Queensland and contains thousands of individual reefs and islands. It is both a UNESCO World Heritage site and a highly diverse marine ecosystem.",
+    "source": {"label": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/154/"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.indonesia": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.adriatic", "subtopic": "Oceans, Seas & Islands", "detailTags": ["Adriatic Sea", "Italy", "Balkans"],
+    "prompt": "Which sea lies between Italy and the Balkan Peninsula?", "canonicalAnswer": "Adriatic Sea", "aliases": ["Adriatic", "The Adriatic"], "distractors": ["Aegean Sea", "Black Sea", "Baltic Sea"],
+    "explanation": "The Adriatic Sea separates eastern Italy from the western Balkans.", "details": "It is a long northern arm of the Mediterranean Sea. Slovenia, Croatia, Bosnia and Herzegovina, Montenegro, and Albania face Italy across its eastern shore.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Adriatic-Sea"}, "answerMode": "recall"
+  },
+  "geography-starter.mountain-country.grand-pilier-d-angle": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.panama-canal", "subtopic": "Economic Geography", "detailTags": ["Panama Canal", "Shipping", "Atlantic Ocean", "Pacific Ocean"],
+    "prompt": "The Panama Canal provides a shipping route between which two oceans?", "canonicalAnswer": "Atlantic and Pacific oceans", "aliases": ["Pacific and Atlantic oceans", "Atlantic and Pacific", "Pacific and Atlantic"], "distractors": ["Atlantic and Indian", "Pacific and Indian", "Arctic and Atlantic"],
+    "explanation": "The Panama Canal links the Atlantic and Pacific oceans across the Isthmus of Panama.", "details": "Ships enter from the Caribbean Sea on the Atlantic side and cross locks and Gatun Lake before reaching the Pacific. The route avoids the much longer voyage around South America.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/topic/Panama-Canal"}, "answerMode": "recall"
+  },
+  "geography-starter.landmark-country.umayyad-mosque": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.ural-divide", "subtopic": "Mountains & Landforms", "detailTags": ["Ural Mountains", "Europe", "Asia", "Continental Boundaries"],
+    "prompt": "Which mountain range traditionally marks part of the boundary between Europe and Asia?", "canonicalAnswer": "Ural Mountains", "aliases": ["Urals", "The Urals"], "distractors": ["Alps", "Carpathians", "Caucasus Mountains"],
+    "explanation": "The Ural Mountains form a widely used section of the conventional Europe–Asia boundary.", "details": "The range runs roughly north–south through western Russia from the Arctic toward Kazakhstan. The continental division is a cultural convention rather than a sharp physical break.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Ural-Mountains"}, "answerMode": "recall"
+  },
+  "geography-starter.country-capital.new-zealand": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.lake-victoria", "subtopic": "Rivers & Lakes", "detailTags": ["Lake Victoria", "African Great Lakes", "Africa"],
+    "prompt": "Lake Victoria is located on which continent?", "canonicalAnswer": "Africa", "aliases": [], "distractors": ["Asia", "North America", "South America"],
+    "explanation": "Lake Victoria lies in East Africa between Uganda, Kenya, and Tanzania.", "details": "It is Africa's largest lake by surface area and one of the principal reservoirs feeding the White Nile. Numerous islands and densely populated shorelines surround it.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Lake-Victoria"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.luxembourg": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.machu-picchu", "subtopic": "Landmarks & World Heritage", "detailTags": ["Machu Picchu", "Peru", "Inca"],
+    "prompt": "Machu Picchu is located in which country?", "canonicalAnswer": "Peru", "aliases": [], "distractors": ["Bolivia", "Ecuador", "Chile"],
+    "explanation": "Machu Picchu is an Inca site high in the Andes of Peru.", "details": "The stone complex stands above the Urubamba valley northwest of Cusco. Built in the 15th century, it is celebrated for architecture carefully fitted to its steep mountain setting.",
+    "source": {"label": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/274/"}, "answerMode": "recall"
+  },
+  "geography-starter.river-mouth.maroni": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.danube-budapest", "subtopic": "Capitals & Cities", "detailTags": ["Budapest", "Danube", "Hungary"],
+    "prompt": "Which river divides Budapest into its historic Buda and Pest sides?", "canonicalAnswer": "Danube", "aliases": ["Danube River", "The Danube"], "distractors": ["Rhine", "Elbe", "Vistula"],
+    "explanation": "The Danube separates hilly Buda from flatter Pest in Hungary's capital.", "details": "The two cities, together with Óbuda, formally united as Budapest in 1873. Bridges now connect both banks, including the landmark Chain Bridge.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Budapest"}, "answerMode": "recall"
+  },
+  "geography-starter.mountain-country.beinn-bhuidhe": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.polders", "subtopic": "Physical Geography", "detailTags": ["Netherlands", "Polders", "Land Reclamation"],
+    "prompt": "What name is given to low-lying land reclaimed behind dikes, especially in the Netherlands?", "canonicalAnswer": "Polder", "aliases": ["Polders"], "distractors": ["Atoll", "Delta", "Mesa"],
+    "explanation": "A polder is reclaimed lowland enclosed by dikes and managed by drainage.", "details": "Many Dutch polders were created by pumping water from lakes or shallow coastal areas. Because water must continue to be controlled, they depend on canals, pumps, dikes, and coordinated water management.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/science/polder"}, "answerMode": "recall"
+  },
+  "geography-starter.landmark-country.holy-trinity-church-in-listy": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.kilimanjaro", "subtopic": "Mountains & Landforms", "detailTags": ["Mount Kilimanjaro", "Tanzania", "Volcanoes"],
+    "prompt": "Mount Kilimanjaro is located in which country?", "canonicalAnswer": "Tanzania", "aliases": [], "distractors": ["Kenya", "Ethiopia", "Uganda"],
+    "explanation": "Mount Kilimanjaro rises in northeastern Tanzania near the Kenyan border.", "details": "Its highest cone, Kibo, contains Uhuru Peak, the highest point in Africa. Kilimanjaro is a massive freestanding volcanic mountain rather than part of a long range.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Kilimanjaro"}, "answerMode": "recall"
+  },
+  "geography-starter.country-capital.federated-states-of-micronesia": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.largest-us-state", "subtopic": "Political Geography", "detailTags": ["Alaska", "United States", "Area"],
+    "prompt": "Which is the largest U.S. state by area?", "canonicalAnswer": "Alaska", "aliases": [], "distractors": ["Texas", "California", "Montana"],
+    "explanation": "Alaska is by far the largest U.S. state by total area.", "details": "It is more than twice the size of Texas and is separated from the contiguous states by Canada. Alaska also contains the country's northernmost, westernmost, and highest points.",
+    "source": {"label": "U.S. Census Bureau", "url": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html"}, "answerMode": "recall"
+  },
+  "geography-starter.country-continent.chile": {
+    "replacementCatalogKey": "geography-starter.replacement.20260718.bosporus-city", "subtopic": "Capitals & Cities", "detailTags": ["Istanbul", "Bosporus", "Europe", "Asia"],
+    "prompt": "Which major city straddles Europe and Asia on the Bosporus?", "canonicalAnswer": "Istanbul", "aliases": ["Istanbul, Turkey"], "distractors": ["Athens", "Cairo", "Tbilisi"],
+    "explanation": "Istanbul occupies both sides of the Bosporus, with districts in Europe and Asia.", "details": "The strait connects the Black Sea with the Sea of Marmara and separates European Thrace from Anatolia. Istanbul's position made it a major imperial capital and trading center.",
+    "source": {"label": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Istanbul"}, "answerMode": "recall"
+  }
+}

@@ -1,5 +1,6 @@
 export type QuestionChanges = {
   added: number;
+  addedLabel?: string;
   revised: number;
   retired: number;
 };
@@ -17,7 +18,10 @@ export function hasSignificantQuestionChanges(
 export function questionChangesSummary(changes: QuestionChanges) {
   const parts = [
     changes.added
-      ? `${changes.added.toLocaleString()} new question${changes.added === 1 ? "" : "s"}`
+      ? `${changes.added.toLocaleString()} ${
+          changes.addedLabel ??
+          `new question${changes.added === 1 ? "" : "s"}`
+        }`
       : null,
     changes.revised ? `${changes.revised.toLocaleString()} revised` : null,
     changes.retired ? `${changes.retired.toLocaleString()} retired` : null,

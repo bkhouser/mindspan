@@ -1,0 +1,143 @@
+{
+  "sports-starter.athlete-sport.thomas-kretschmann": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.three-strikes",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Rules", "Batting", "Strikeout"],
+    "prompt": "How many strikes normally retire a batter in baseball?", "canonicalAnswer": "3", "aliases": ["Three"],
+    "distractors": ["2", "4", "5"], "explanation": "A third strike normally completes a strikeout and retires the batter.",
+    "details": "A strike can result from a swing and miss, a called strike, or certain foul balls. A foul ball ordinarily cannot become strike three unless it is a bunt, while an uncaught third strike can sometimes allow the batter to run to first base.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/rules/strike"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.amatori-lodi": {
+    "subtopics": ["Basketball"], "detailTags": ["Basketball Rules", "Court Dimensions", "Basket"],
+    "prompt": "How high is the rim of a regulation basketball hoop above the court?", "aliases": ["10 feet", "Ten feet", "10 ft", "3.05 meters", "3.048 meters"],
+    "explanation": "A regulation basketball rim is 10 feet above the playing surface.",
+    "details": "The 10-foot height has remained a defining dimension since James Naismith's original game used elevated peach baskets. It is approximately 3.05 meters and is standard in major men's and women's competitions.",
+    "source": {"label": "NBA Official Rules", "url": "https://official.nba.com/rule-no-1-court-dimensions-equipment/"}
+  },
+  "sports-starter.competition-sport.austrian-basketball-supercup": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.dribbling",
+    "subtopic": "Basketball", "detailTags": ["Basketball Rules", "Ball Handling", "Dribbling"],
+    "prompt": "What is it called when a basketball player repeatedly bounces the ball while moving?", "canonicalAnswer": "Dribbling", "aliases": ["A dribble", "Dribble"],
+    "distractors": ["Screening", "Rebounding", "Posting up"], "explanation": "Dribbling is the legal method of moving while controlling the basketball.",
+    "details": "A player who stops dribbling generally may not begin again, and moving the pivot foot without a legal dribble can be traveling. The skill combines fingertip control, body position, and changes of pace or direction.",
+    "source": {"label": "NBA Official Rules", "url": "https://official.nba.com/rule-no-4-definitions/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.rita-konig": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.touchdown-points",
+    "subtopic": "Football", "detailTags": ["Football Scoring", "Touchdowns", "Rules"],
+    "prompt": "How many points is a touchdown worth in football before the conversion attempt?", "canonicalAnswer": "6", "aliases": ["Six", "Six points", "6 points"],
+    "distractors": ["3", "5", "7"], "explanation": "A touchdown adds six points to the scoring team's total.",
+    "details": "After a touchdown, the scoring team can attempt an extra-point kick or a two-point conversion. A touchdown occurs when a player legally possesses the ball in the opponent's end zone or advances it across the goal line.",
+    "source": {"label": "NFL Football Operations", "url": "https://operations.nfl.com/rules-officiating/2025-nfl-rulebook"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.eks-rx": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.quarterback",
+    "subtopic": "Football", "detailTags": ["Football Positions", "Quarterback", "Offense"],
+    "prompt": "Which football position usually receives the snap and directs the offense?", "canonicalAnswer": "Quarterback", "aliases": ["QB", "The quarterback"],
+    "distractors": ["Linebacker", "Center", "Safety"], "explanation": "The quarterback normally receives the snap and initiates the offense's play.",
+    "details": "Depending on the play, the quarterback may hand off, pass, run, or change the call before the snap. The center is the player who delivers the snap to begin the play.",
+    "source": {"label": "NFL Football Operations", "url": "https://operations.nfl.com/learn-the-game/nfl-basics/terms-glossary/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.ernst-jakob-henne": {
+    "subtopics": ["Motor Sports"], "detailTags": ["Racing Flags", "Finish", "Motor Sports Rules"],
+    "prompt": "Which flag signals that a motor race has finished?", "canonicalAnswer": "Checkered flag", "aliases": ["Chequered flag", "Black-and-white checkered flag", "Black and white flag"],
+    "explanation": "The black-and-white checkered flag signals the end of a race or timed session.",
+    "details": "It is shown first to the leading competitor and then to each finisher crossing the line. Other flag colors communicate hazards, instructions, or track conditions during the event.",
+    "source": {"label": "FIA International Sporting Code", "url": "https://www.fia.com/regulation/category/123"}
+  },
+  "sports-starter.athlete-country.robert-hubner": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.goalkeeper-hands",
+    "subtopic": "Soccer", "detailTags": ["Soccer Rules", "Goalkeeper", "Penalty Area"],
+    "prompt": "Which soccer player may deliberately handle the ball inside their own penalty area?", "canonicalAnswer": "Goalkeeper", "aliases": ["Goalie", "Keeper", "The goalkeeper"],
+    "distractors": ["Center forward", "Captain", "Sweeper"], "explanation": "The goalkeeper may use the hands inside their own penalty area, subject to specific restrictions.",
+    "details": "Outfield players generally may not deliberately handle the ball. A goalkeeper also cannot handle a deliberate kick from a teammate or a teammate's direct throw-in.",
+    "source": {"label": "IFAB Laws of the Game", "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.szabolcs-safar": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.tennis-love",
+    "subtopic": "Tennis & Racket Sports", "detailTags": ["Tennis Scoring", "Terminology", "Love"],
+    "prompt": "In tennis scoring, what word means zero?", "canonicalAnswer": "Love", "aliases": [],
+    "distractors": ["Deuce", "Let", "Fault"], "explanation": "In tennis scoring, the word love represents a score of zero.",
+    "details": "A game score can progress from love to 15, 30, and 40. At 40–40 the score is deuce, after which a player normally must win two consecutive points.",
+    "source": {"label": "International Tennis Federation", "url": "https://www.itftennis.com/en/about-us/governance/rules-and-regulations/"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-country.georg-meier": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.golf-low-score",
+    "subtopic": "Golf", "detailTags": ["Golf Scoring", "Stroke Play", "Rules"],
+    "prompt": "In golf stroke play, does the lowest or highest score win?", "canonicalAnswer": "Lowest", "aliases": ["Lowest score", "The lowest score"],
+    "distractors": ["Highest", "Most even", "Fastest"], "explanation": "The player completing the stipulated rounds in the fewest total strokes wins stroke play.",
+    "details": "Each swing at the ball normally counts as a stroke, and penalty strokes are added to the total. This differs from match play, where players compete to win individual holes.",
+    "source": {"label": "The R&A Rules of Golf", "url": "https://www.randa.org/rog/the-rules-of-golf/rule-3"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.calgary-roughnecks": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.hockey-puck",
+    "subtopic": "Hockey", "detailTags": ["Ice Hockey Equipment", "Puck", "Rules"],
+    "prompt": "What object do ice hockey players shoot into the opposing net?", "canonicalAnswer": "Puck", "aliases": ["Hockey puck", "A puck"],
+    "distractors": ["Ball", "Shuttlecock", "Stone"], "explanation": "Ice hockey is played with a hard rubber puck.",
+    "details": "Players use curved sticks to pass, control, and shoot the puck. A goal counts when the puck legally crosses the goal line between the posts and beneath the crossbar.",
+    "source": {"label": "NHL Official Rules", "url": "https://www.nhl.com/info/video-rulebook"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.australian-football-international-cup": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.baseball-bases",
+    "subtopic": "Baseball & Softball", "detailTags": ["Baseball Field", "Bases", "Rules"],
+    "prompt": "Including home plate, how many bases form a baseball diamond?", "canonicalAnswer": "4", "aliases": ["Four"],
+    "distractors": ["3", "5", "6"], "explanation": "Home plate plus first, second, and third base form the four corners of the diamond.",
+    "details": "A runner scores after legally touching the bases in order and returning to home plate. The infield's square layout gives baseball its familiar diamond shape when viewed from behind home.",
+    "source": {"label": "Major League Baseball", "url": "https://www.mlb.com/glossary/rules/base"}, "answerMode": "recall"
+  },
+  "sports-starter.athlete-sport.yury-vlasov": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.olympic-rings",
+    "subtopic": "Olympics & International Sport", "detailTags": ["Olympic Symbols", "Olympic Rings", "Olympic Movement"],
+    "prompt": "How many interlocking rings appear on the Olympic symbol?", "canonicalAnswer": "5", "aliases": ["Five"],
+    "distractors": ["4", "6", "7"], "explanation": "The Olympic symbol consists of five interlocking rings.",
+    "details": "The rings are blue, yellow, black, green, and red on a white background. Pierre de Coubertin designed the emblem to represent the worldwide scope and union of the Olympic Movement.",
+    "source": {"label": "International Olympic Committee", "url": "https://library.olympics.com/default/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?documentId=168650&parentDocumentId=168649&skipCopyright=true&skipWatermark=true"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.minnesota-swarm": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.boxing-gloves",
+    "subtopic": "Combat Sports", "detailTags": ["Boxing Equipment", "Gloves", "Combat Sports"],
+    "prompt": "What padded equipment do boxers wear on their hands during a bout?", "canonicalAnswer": "Boxing gloves", "aliases": ["Gloves"],
+    "distractors": ["Gauntlets", "Mitts", "Hand wraps only"], "explanation": "Boxers wear padded gloves over wrapped hands during competition.",
+    "details": "Gloves protect the hands and alter how impact is distributed, although they do not eliminate injury risk. Their permitted weight and construction depend on the competition and weight class.",
+    "source": {"label": "USA Boxing Rulebook", "url": "https://www.usaboxing.org/rulebook"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.koi": {
+    "subtopics": ["Rules, Records & Equipment"], "detailTags": ["Chess", "Knight", "Chess Rules"],
+    "prompt": "Which chess piece can jump over other pieces?", "canonicalAnswer": "Knight", "aliases": ["The knight"],
+    "explanation": "The knight is the only standard chess piece that can leap over occupied squares.",
+    "details": "A knight moves in an L shape: two squares in one direction and one perpendicular to it. It always lands on a square of the opposite color from the one where it began.",
+    "source": {"label": "FIDE Laws of Chess", "url": "https://handbook.fide.com/chapter/E012023"}
+  },
+  "sports-starter.team-sport.donetsk-people-s-republic-national-football-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.red-card",
+    "subtopic": "Soccer", "detailTags": ["Soccer Rules", "Red Card", "Discipline"],
+    "prompt": "Which color card means a soccer player is sent off?", "canonicalAnswer": "Red", "aliases": ["Red card", "A red card"],
+    "distractors": ["Yellow", "Blue", "Green"], "explanation": "A red card sends a player off for the rest of the match.",
+    "details": "The dismissed player cannot be replaced, so the team normally continues with fewer players. A second yellow card in the same match also results in a sending-off.",
+    "source": {"label": "IFAB Laws of the Game", "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/"}, "answerMode": "recall"
+  },
+  "sports-starter.team-sport.croatia-men-s-national-field-hockey-team": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.freestyle-stroke",
+    "subtopic": "Aquatic Sports", "detailTags": ["Swimming", "Freestyle", "Front Crawl"],
+    "prompt": "Which stroke do swimmers almost always use in freestyle races because it is fastest?", "canonicalAnswer": "Front crawl", "aliases": ["Crawl", "Freestyle crawl"],
+    "distractors": ["Breaststroke", "Backstroke", "Butterfly"], "explanation": "Swimmers normally choose the front crawl in freestyle because it is the fastest common stroke.",
+    "details": "Freestyle rules allow almost any stroke, but the alternating arm recovery and flutter kick of front crawl are highly efficient. Medley events treat freestyle separately from butterfly, backstroke, and breaststroke.",
+    "source": {"label": "World Aquatics Competition Regulations", "url": "https://www.worldaquatics.com/rules/competition-regulations"}, "answerMode": "recall"
+  },
+  "sports-starter.team-venue.kk-mzt-skopje": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.tour-de-france",
+    "subtopic": "Cycling", "detailTags": ["Tour de France", "Road Cycling", "Grand Tours"],
+    "prompt": "What famous multi-stage bicycle race is held primarily in France each summer?", "canonicalAnswer": "Tour de France", "aliases": ["The Tour de France", "Le Tour"],
+    "distractors": ["Giro d'Italia", "Vuelta a España", "Paris–Roubaix"], "explanation": "The Tour de France is cycling's best-known multi-stage road race.",
+    "details": "The route changes yearly and combines flat stages, mountain stages, and time trials. Riders compete for the overall title as well as classifications for points, mountains, young riders, and teams.",
+    "source": {"label": "Tour de France official site", "url": "https://www.letour.fr/en/overall-route"}, "answerMode": "recall"
+  },
+  "sports-starter.competition-sport.fis-cup": {
+    "replacementCatalogKey": "sports-starter.replacement.20260720.volleyball-players",
+    "subtopic": "Rules, Records & Equipment", "detailTags": ["Volleyball Rules", "Team Size", "Court"],
+    "prompt": "How many players from one volleyball team are normally on the court?", "canonicalAnswer": "6", "aliases": ["Six"],
+    "distractors": ["5", "7", "8"], "explanation": "Six players from each team are on the court in indoor volleyball.",
+    "details": "Players rotate positions when their team wins the right to serve from the opponent. Beach volleyball is a separate form played by teams of two without substitutions.",
+    "source": {"label": "FIVB Official Volleyball Rules", "url": "https://www.fivb.com/volleyball/the-game/official-volleyball-rules/"}, "answerMode": "recall"
+  }
+}

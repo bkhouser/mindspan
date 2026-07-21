@@ -1,5 +1,9 @@
 import { createClient } from "@supabase/supabase-js";
-import { loadCatalog, readLocalEnv } from "./catalog-lib.mjs";
+import {
+  loadCatalog,
+  loadEditorialApprovals,
+  readLocalEnv,
+} from "./catalog-lib.mjs";
 
 const { questions } = loadCatalog();
 const values = readLocalEnv();
@@ -14,7 +18,7 @@ let updated = 0;
 let skipped = 0;
 for (let index = 0; index < questions.length; index += 200) {
   const batch = questions.slice(index, index + 200);
-  const { data, error } = await admin.rpc("sync_published_catalog_v2", {
+  const { data, error } = await admin.rpc("sync_published_catalog_v5", {
     payload: batch,
   });
   if (error) throw error;
@@ -29,3 +33,26 @@ for (let index = 0; index < questions.length; index += 200) {
 }
 
 console.log({ inserted, updated, skipped, total: questions.length });
+
+const editorialApprovals = loadEditorialApprovals();
+let approvalsApplied = 0;
+for (let index = 0; index < editorialApprovals.length; index += 200) {
+  const batch = editorialApprovals.slice(index, index + 200);
+  const { data, error } = await admin.rpc(
+    "apply_catalog_editorial_approvals_v1",
+    { payload: batch },
+  );
+  if (error) throw error;
+  approvalsApplied += (data ?? []).filter((result) => result.result_applied)
+    .length;
+}
+console.log({
+  editorialApprovals: editorialApprovals.length,
+  approvalsApplied,
+});
+
+const { data: taxonomySummary, error: taxonomyError } = await admin.rpc(
+  "finalize_normalized_taxonomy_v1",
+);
+if (taxonomyError) throw taxonomyError;
+console.log({ taxonomy: taxonomySummary?.[0] ?? null });

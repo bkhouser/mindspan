@@ -36,19 +36,20 @@ describe("AppNav admin submenu", () => {
     ).not.toBeInTheDocument();
   });
 
-  it("shows every released admin destination to a system admin", () => {
-    pathname = "/admin/questions";
+  it("shows released admin destinations to a system admin", () => {
+    pathname = "/admin";
     render(<AppNav canReviewQuestions isAdmin />);
 
-    expect(screen.getByRole("link", { name: "Overview" })).toBeVisible();
-    expect(
-      screen.getByRole("link", { name: "Question Quality" }),
-    ).toBeVisible();
-    expect(screen.getByRole("link", { name: "Questions" })).toBeVisible();
-    expect(screen.getByRole("link", { name: "Questions" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "Overview" })).toHaveAttribute(
       "aria-current",
       "page",
     );
+    expect(
+      screen.getByRole("link", { name: "Question Quality" }),
+    ).toBeVisible();
+    expect(
+      screen.queryByRole("link", { name: "Questions" }),
+    ).not.toBeInTheDocument();
   });
 
   it("remembers expansion and treats Question Index as part of quality", async () => {

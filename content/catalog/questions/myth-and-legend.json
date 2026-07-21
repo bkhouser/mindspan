@@ -1,0 +1,1519 @@
+[
+  {
+    "catalogKey": "myth-and-legend.greek-zeus",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Greek Myth"
+    ],
+    "prompt": "Who rules the Olympian gods and wields the thunderbolt in Greek myth?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Zeus",
+    "aliases": [],
+    "distractors": [
+      "Poseidon",
+      "Apollo",
+      "Ares"
+    ],
+    "explanation": "Zeus is the sky god and chief ruler of Olympus.",
+    "details": "Greek stories portray him as a guardian of oaths, hospitality, and political order as well as the wielder of lightning.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Greek Gods and Religious Practices",
+      "url": "https://www.metmuseum.org/essays/greek-gods-and-religious-practices"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.greek-odyssey",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Greek Myth"
+    ],
+    "prompt": "Which hero spends ten years trying to return to Ithaca after the Trojan War?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Odysseus",
+    "aliases": [
+      "Ulysses"
+    ],
+    "distractors": [
+      "Achilles",
+      "Perseus",
+      "Theseus"
+    ],
+    "explanation": "Odysseus is the wandering hero of Homer's Odyssey.",
+    "details": "His journey tests ingenuity and endurance through encounters with figures such as the Cyclops, Circe, and the Sirens.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Greek Gods and Religious Practices",
+      "url": "https://www.metmuseum.org/essays/greek-gods-and-religious-practices"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.greek-persephone",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Greek Myth"
+    ],
+    "prompt": "Whose annual return from the underworld helps explain the renewal of the seasons?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Persephone",
+    "aliases": [
+      "Kore"
+    ],
+    "distractors": [
+      "Athena",
+      "Aphrodite",
+      "Hestia"
+    ],
+    "explanation": "Persephone divides her time between the underworld and the world above.",
+    "details": "Her separation and reunion with her mother Demeter link the myth to crop cycles, loss, and seasonal renewal.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Greek Gods and Religious Practices",
+      "url": "https://www.metmuseum.org/essays/greek-gods-and-religious-practices"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.greek-aegis",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Greek Myth"
+    ],
+    "prompt": "What protective object, often bearing the Gorgon's head, is associated with Athena and Zeus?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Aegis",
+    "aliases": [
+      "The aegis"
+    ],
+    "distractors": [
+      "Caduceus",
+      "Golden Fleece",
+      "Cornucopia"
+    ],
+    "explanation": "The aegis is a fearsome protective emblem carried by Athena or Zeus.",
+    "details": "Ancient art variously represents it as a shield, breastplate, or goatskin edged with serpents and marked by the Gorgon's head.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Greek Gods and Religious Practices",
+      "url": "https://www.metmuseum.org/essays/greek-gods-and-religious-practices"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.greek-eris",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Greek Myth"
+    ],
+    "prompt": "Which goddess threw the golden apple that helped set the Trojan War in motion?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Eris",
+    "aliases": [],
+    "distractors": [
+      "Iris",
+      "Nike",
+      "Themis"
+    ],
+    "explanation": "Eris, goddess of strife, cast the golden apple among the wedding guests.",
+    "details": "Its inscription for the fairest provoked Hera, Athena, and Aphrodite to seek Paris's judgment, leading toward Helen's abduction.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Greek Gods and Religious Practices",
+      "url": "https://www.metmuseum.org/essays/greek-gods-and-religious-practices"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.roman-mars",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Roman Myth"
+    ],
+    "prompt": "Which Roman god gave his name to the month of March?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mars",
+    "aliases": [],
+    "distractors": [
+      "Mercury",
+      "Janus",
+      "Saturn"
+    ],
+    "explanation": "March was named for Mars, the Roman god of war.",
+    "details": "Mars also had agricultural and civic associations and was regarded as a father of Rome through Romulus and Remus.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Roman Mythology",
+      "url": "https://www.worldhistory.org/Roman_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.roman-aeneas",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Roman Myth"
+    ],
+    "prompt": "Which Trojan hero becomes an ancestor of Rome in Virgil's Aeneid?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Aeneas",
+    "aliases": [],
+    "distractors": [
+      "Hector",
+      "Ajax",
+      "Orpheus"
+    ],
+    "explanation": "Aeneas escapes Troy and journeys toward a new homeland in Italy.",
+    "details": "Virgil's epic connects Rome's legendary origins to Troy while exploring duty, sacrifice, war, and imperial destiny.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Roman Mythology",
+      "url": "https://www.worldhistory.org/Roman_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.roman-janus",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Roman Myth"
+    ],
+    "prompt": "Which two-faced Roman god presides over doorways, beginnings, and transitions?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Janus",
+    "aliases": [],
+    "distractors": [
+      "Vulcan",
+      "Neptune",
+      "Bacchus"
+    ],
+    "explanation": "Janus looks both backward and forward across thresholds.",
+    "details": "His name survives in January, the month that marks a transition from one calendar year to the next.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Roman Mythology",
+      "url": "https://www.worldhistory.org/Roman_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.roman-vestals",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Roman Myth"
+    ],
+    "prompt": "Which priestesses maintained Rome's sacred fire in the temple of Vesta?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Vestal Virgins",
+    "aliases": [
+      "Vestals"
+    ],
+    "distractors": [
+      "Sibyls",
+      "Maenads",
+      "Furies"
+    ],
+    "explanation": "The Vestal Virgins guarded the flame associated with Rome's security.",
+    "details": "Chosen as children, they served long terms and held unusual privileges within Roman society alongside strict religious obligations.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Roman Mythology",
+      "url": "https://www.worldhistory.org/Roman_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.roman-terminus",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Roman Myth"
+    ],
+    "prompt": "Which Roman deity embodied boundary markers and was honored at the Terminalia festival?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Terminus",
+    "aliases": [],
+    "distractors": [
+      "Quirinus",
+      "Faunus",
+      "Portunus"
+    ],
+    "explanation": "Terminus personified the stones that marked property boundaries.",
+    "details": "Rituals at shared boundary stones reinforced agreements between neighbors and made the integrity of borders a sacred concern.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Roman Mythology",
+      "url": "https://www.worldhistory.org/Roman_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.norse-thor",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Norse Myth"
+    ],
+    "prompt": "Which Norse god carries the hammer Mjolnir?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Thor",
+    "aliases": [],
+    "distractors": [
+      "Loki",
+      "Tyr",
+      "Balder"
+    ],
+    "explanation": "Thor uses Mjolnir to defend gods and humans against threatening forces.",
+    "details": "The hammer returns after being thrown and also appears in rituals of blessing, protection, and consecration.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Norse Mythology",
+      "url": "https://www.worldhistory.org/Norse_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.norse-yggdrasil",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Norse Myth"
+    ],
+    "prompt": "What immense tree connects the worlds of Norse cosmology?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Yggdrasil",
+    "aliases": [
+      "World tree"
+    ],
+    "distractors": [
+      "Bifrost",
+      "Valhalla",
+      "Gjallarhorn"
+    ],
+    "explanation": "Yggdrasil is the world tree at the center of the Norse cosmos.",
+    "details": "Its roots and branches link multiple realms, while gods, animals, and cosmic forces gather around or act upon it.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Norse Mythology",
+      "url": "https://www.worldhistory.org/Norse_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.norse-ragnarok",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Norse Myth"
+    ],
+    "prompt": "What name is given to the final catastrophic conflict of gods and giants?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ragnarok",
+    "aliases": [
+      "Ragnarök",
+      "Twilight of the gods"
+    ],
+    "distractors": [
+      "Fimbulwinter",
+      "Althing",
+      "Einherjar"
+    ],
+    "explanation": "Ragnarok is the foretold destruction and renewal of the Norse world.",
+    "details": "Several major gods fall, the world is consumed, and surviving figures emerge into a renewed landscape.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Norse Mythology",
+      "url": "https://www.worldhistory.org/Norse_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.norse-fenrir",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Norse Myth"
+    ],
+    "prompt": "Which monstrous wolf is bound by the magical fetter Gleipnir?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Fenrir",
+    "aliases": [
+      "Fenris Wolf"
+    ],
+    "distractors": [
+      "Jormungandr",
+      "Sleipnir",
+      "Nidhogg"
+    ],
+    "explanation": "Fenrir is restrained after the gods fear his growing power.",
+    "details": "Only Tyr is willing to place a hand in the wolf's mouth as a pledge, and Fenrir bites it off when the trick is revealed.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Norse Mythology",
+      "url": "https://www.worldhistory.org/Norse_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.norse-kvasir",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Norse Myth"
+    ],
+    "prompt": "The Mead of Poetry was made from the blood of which exceptionally wise being?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Kvasir",
+    "aliases": [],
+    "distractors": [
+      "Mimir",
+      "Bragi",
+      "Forseti"
+    ],
+    "explanation": "Kvasir's blood was mixed with honey to create the Mead of Poetry.",
+    "details": "Those who drink the mythic mead gain poetic skill or scholarship, making it a story about inspiration and stolen knowledge.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "World History Encyclopedia: Norse Mythology",
+      "url": "https://www.worldhistory.org/Norse_Mythology/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.egyptian-ra",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Egyptian Myth"
+    ],
+    "prompt": "Which solar deity travels across the sky by day in ancient Egyptian tradition?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ra",
+    "aliases": [
+      "Re"
+    ],
+    "distractors": [
+      "Anubis",
+      "Seth",
+      "Khnum"
+    ],
+    "explanation": "Ra is one of ancient Egypt's principal sun gods.",
+    "details": "His daily voyage and nightly passage through the underworld express the repeated victory of light and order over darkness.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Egyptian Mythology",
+      "url": "https://www.metmuseum.org/toah/hd/egml/hd_egml.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.egyptian-anubis",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Egyptian Myth"
+    ],
+    "prompt": "Which jackal-headed deity is closely associated with embalming and the dead?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Anubis",
+    "aliases": [],
+    "distractors": [
+      "Horus",
+      "Thoth",
+      "Sobek"
+    ],
+    "explanation": "Anubis oversees embalming and guides the dead through funerary rites.",
+    "details": "He is often shown attending mummification or the weighing of the heart, where a person's moral record is judged.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Egyptian Mythology",
+      "url": "https://www.metmuseum.org/toah/hd/egml/hd_egml.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.egyptian-osiris",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Egyptian Myth"
+    ],
+    "prompt": "Who becomes ruler of the underworld after being killed and restored through Isis's efforts?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Osiris",
+    "aliases": [],
+    "distractors": [
+      "Amun",
+      "Ptah",
+      "Atum"
+    ],
+    "explanation": "Osiris is murdered by Seth and reassembled by Isis.",
+    "details": "His restoration and role as judge of the dead connect him with legitimate kingship, fertility, and hopes for renewed life.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Egyptian Mythology",
+      "url": "https://www.metmuseum.org/toah/hd/egml/hd_egml.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.egyptian-heart",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Egyptian Myth"
+    ],
+    "prompt": "Against what object is a deceased person's heart weighed in the judgment scene?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Feather of Ma'at",
+    "aliases": [
+      "Feather",
+      "Ma'at's feather"
+    ],
+    "distractors": [
+      "Eye of Horus",
+      "Scarab amulet",
+      "Was scepter"
+    ],
+    "explanation": "The heart is balanced against the feather representing Ma'at.",
+    "details": "A balanced heart indicates a life aligned with truth and order; a failed heart may be consumed by the composite creature Ammit.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Egyptian Mythology",
+      "url": "https://www.metmuseum.org/toah/hd/egml/hd_egml.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.egyptian-benben",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Egyptian Myth"
+    ],
+    "prompt": "What primordial mound or sacred stone symbolizes the first land emerging from the waters?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Benben",
+    "aliases": [
+      "Benben stone"
+    ],
+    "distractors": [
+      "Djed",
+      "Sistrum",
+      "Uraeus"
+    ],
+    "explanation": "The Benben represents the first mound to rise from the primeval waters.",
+    "details": "Associated with creation traditions at Heliopolis, its form may also have influenced the pointed shape of obelisks and pyramid capstones.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Egyptian Mythology",
+      "url": "https://www.metmuseum.org/toah/hd/egml/hd_egml.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.mesopotamian-gilgamesh",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Mesopotamian Myth"
+    ],
+    "prompt": "Which king of Uruk is the central hero of a famous Mesopotamian epic?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Gilgamesh",
+    "aliases": [],
+    "distractors": [
+      "Sargon",
+      "Hammurabi",
+      "Nebuchadnezzar"
+    ],
+    "explanation": "Gilgamesh is the powerful king at the center of the Epic of Gilgamesh.",
+    "details": "His friendship with Enkidu and failed search for immortality turn the epic into a meditation on power, grief, and human limits.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Mesopotamian Deities",
+      "url": "https://www.metmuseum.org/toah/hd/deit/hd_deit.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.mesopotamian-ishtar",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Mesopotamian Myth"
+    ],
+    "prompt": "Which goddess of love and war descends to the underworld in a major myth?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Inanna",
+    "aliases": [
+      "Ishtar"
+    ],
+    "distractors": [
+      "Tiamat",
+      "Ninhursag",
+      "Ereshkigal"
+    ],
+    "explanation": "Inanna passes through seven gates on her descent to the underworld.",
+    "details": "The Sumerian goddess was later closely identified with the Akkadian Ishtar, and the story links authority with death and return.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Mesopotamian Deities",
+      "url": "https://www.metmuseum.org/toah/hd/deit/hd_deit.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.mesopotamian-enkidu",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Mesopotamian Myth"
+    ],
+    "prompt": "What wild-born companion becomes Gilgamesh's closest friend?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Enkidu",
+    "aliases": [],
+    "distractors": [
+      "Utnapishtim",
+      "Enmerkar",
+      "Etana"
+    ],
+    "explanation": "Enkidu begins as a wild counterpart to the domineering king Gilgamesh.",
+    "details": "Their friendship humanizes Gilgamesh, while Enkidu's death drives the king to confront mortality and seek enduring meaning.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Mesopotamian Deities",
+      "url": "https://www.metmuseum.org/toah/hd/deit/hd_deit.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.mesopotamian-enuma",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Mesopotamian Myth"
+    ],
+    "prompt": "Which Babylonian creation epic tells of Marduk defeating Tiamat?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Enuma Elish",
+    "aliases": [
+      "Enūma Eliš"
+    ],
+    "distractors": [
+      "Atrahasis",
+      "Eridu Genesis",
+      "Descent of Inanna"
+    ],
+    "explanation": "The Enuma Elish elevates Marduk through his victory over Tiamat.",
+    "details": "After the conflict, Marduk organizes the cosmos and receives supreme status, reflecting Babylon's political and religious prominence.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Mesopotamian Deities",
+      "url": "https://www.metmuseum.org/toah/hd/deit/hd_deit.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.mesopotamian-me",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Mesopotamian Myth"
+    ],
+    "prompt": "What Sumerian term describes divine powers or decrees underlying civilization's institutions?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Me",
+    "aliases": [],
+    "distractors": [
+      "Ka",
+      "Ren",
+      "Asha"
+    ],
+    "explanation": "The me are powers or ordinances that structure civilized life.",
+    "details": "Myths describe them as governing crafts, offices, emotions, and social institutions, and as objects that gods can hold or transfer.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "The Metropolitan Museum of Art: Mesopotamian Deities",
+      "url": "https://www.metmuseum.org/toah/hd/deit/hd_deit.htm"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.celtic-dagda",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Celtic Myth"
+    ],
+    "prompt": "Which Irish deity is known for a magical cauldron that never leaves a company unsatisfied?",
+    "answerMode": "recall",
+    "canonicalAnswer": "The Dagda",
+    "aliases": [
+      "Dagda"
+    ],
+    "distractors": [
+      "Lugh",
+      "Nuada",
+      "Manannan"
+    ],
+    "explanation": "The Dagda's inexhaustible cauldron signals abundance and hospitality.",
+    "details": "He is a many-skilled figure of the Tuatha Dé Danann associated with sovereignty, fertility, music, and formidable magical objects.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Celtic Religion",
+      "url": "https://www.britannica.com/topic/Celtic-religion"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.celtic-cu-chulainn",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Celtic Myth"
+    ],
+    "prompt": "Which hero defends Ulster almost single-handedly in the Cattle Raid of Cooley?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Cu Chulainn",
+    "aliases": [
+      "Cú Chulainn",
+      "Cuchulain"
+    ],
+    "distractors": [
+      "Fionn mac Cumhaill",
+      "Diarmuid",
+      "Oisin"
+    ],
+    "explanation": "Cu Chulainn is the young champion of the Ulster Cycle.",
+    "details": "During the Táin Bó Cúailnge, he meets the invading army's warriors one by one while Ulster's other fighters are incapacitated.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Celtic Religion",
+      "url": "https://www.britannica.com/topic/Celtic-religion"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.celtic-mabinogion",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Celtic Myth"
+    ],
+    "prompt": "What title is commonly given to the medieval Welsh collection containing the Four Branches?",
+    "answerMode": "recall",
+    "canonicalAnswer": "The Mabinogion",
+    "aliases": [
+      "Mabinogion"
+    ],
+    "distractors": [
+      "The Tain",
+      "The Kalevala",
+      "The Edda"
+    ],
+    "explanation": "The Mabinogion is the conventional title for a group of medieval Welsh tales.",
+    "details": "Its stories combine mythic figures, heroic adventures, enchantment, courtly narrative, and material connected to Arthurian tradition.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Celtic Religion",
+      "url": "https://www.britannica.com/topic/Celtic-religion"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.celtic-tir-na-nog",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Celtic Myth"
+    ],
+    "prompt": "What Irish otherworld is portrayed as a land of youth beyond ordinary time?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Tir na nOg",
+    "aliases": [
+      "Tír na nÓg",
+      "Land of Youth"
+    ],
+    "distractors": [
+      "Annwn",
+      "Avalon",
+      "Hy-Brasil"
+    ],
+    "explanation": "Tir na nOg is an otherworldly land where youth and beauty endure.",
+    "details": "In the story of Oisín, time passes differently there, making his eventual return to Ireland an encounter with loss and mortality.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Celtic Religion",
+      "url": "https://www.britannica.com/topic/Celtic-religion"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.celtic-geis",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Celtic Myth"
+    ],
+    "prompt": "What Irish narrative term means a binding personal taboo or obligation placed on a hero?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Geis",
+    "aliases": [
+      "Geas"
+    ],
+    "distractors": [
+      "Kenning",
+      "Wyrd",
+      "Dharma"
+    ],
+    "explanation": "A geis is a supernatural prohibition or required act tied to a person's fate.",
+    "details": "Heroes may face several conflicting geasa, and violating one can strip protection or set a tragedy in motion.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Celtic Religion",
+      "url": "https://www.britannica.com/topic/Celtic-religion"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.india-ganesha",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "South Asian Epic & Myth"
+    ],
+    "prompt": "Which elephant-headed deity is widely invoked as a remover of obstacles?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ganesha",
+    "aliases": [
+      "Ganesh",
+      "Ganapati"
+    ],
+    "distractors": [
+      "Agni",
+      "Indra",
+      "Surya"
+    ],
+    "explanation": "Ganesha is associated with beginnings, wisdom, and overcoming obstacles.",
+    "details": "His elephant head has several mythic explanations, and his image commonly appears at the start of journeys, studies, and enterprises.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Hindu Mythology",
+      "url": "https://www.britannica.com/topic/Hindu-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.india-ramayana",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "South Asian Epic & Myth"
+    ],
+    "prompt": "Which epic follows Rama's effort to rescue Sita from the ruler Ravana?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ramayana",
+    "aliases": [
+      "The Ramayana"
+    ],
+    "distractors": [
+      "Mahabharata",
+      "Panchatantra",
+      "Rigveda"
+    ],
+    "explanation": "The Ramayana recounts Rama's exile and campaign to recover Sita.",
+    "details": "The epic exists in many regional and religious versions across Asia, with differing emphases on duty, devotion, kingship, and character.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Hindu Mythology",
+      "url": "https://www.britannica.com/topic/Hindu-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.india-hanuman",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "South Asian Epic & Myth"
+    ],
+    "prompt": "Who leaps across the sea to Lanka while aiding Rama in the Ramayana?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hanuman",
+    "aliases": [],
+    "distractors": [
+      "Arjuna",
+      "Krishna",
+      "Bhishma"
+    ],
+    "explanation": "Hanuman's leap to Lanka demonstrates extraordinary strength and devotion.",
+    "details": "The monkey hero finds Sita, delivers Rama's message, and becomes an enduring model of loyal, courageous service.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Hindu Mythology",
+      "url": "https://www.britannica.com/topic/Hindu-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.india-churning",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "South Asian Epic & Myth"
+    ],
+    "prompt": "What cosmic event produces amrita when gods and asuras use a serpent as a rope?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Churning of the Ocean",
+    "aliases": [
+      "Churning of the Milk Ocean",
+      "Samudra Manthan"
+    ],
+    "distractors": [
+      "Descent of the Ganges",
+      "Burning of Khandava",
+      "Dance of Shiva"
+    ],
+    "explanation": "The churning of the cosmic ocean brings forth amrita and other treasures.",
+    "details": "Gods and asuras cooperate using Mount Mandara and the serpent Vasuki, but then contend over the nectar of immortality.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Hindu Mythology",
+      "url": "https://www.britannica.com/topic/Hindu-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.india-ashwatthama",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "South Asian Epic & Myth"
+    ],
+    "prompt": "Which Mahabharata warrior is cursed by Krishna to wander in suffering after the war?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Ashwatthama",
+    "aliases": [
+      "Ashwathama"
+    ],
+    "distractors": [
+      "Karna",
+      "Drona",
+      "Shakuni"
+    ],
+    "explanation": "Ashwatthama is cursed after killing sleeping warriors and attacking an unborn heir.",
+    "details": "His fate extends the epic's consequences beyond the battlefield and underscores the destructive cycle of vengeance after formal victory.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Hindu Mythology",
+      "url": "https://www.britannica.com/topic/Hindu-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.eastasia-jade-emperor",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "East Asian Myth"
+    ],
+    "prompt": "Who presides over a celestial bureaucracy in many Chinese popular traditions?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Jade Emperor",
+    "aliases": [
+      "Yuhuang"
+    ],
+    "distractors": [
+      "Yellow Emperor",
+      "Dragon King",
+      "Monkey King"
+    ],
+    "explanation": "The Jade Emperor is depicted as a sovereign of heaven and its officials.",
+    "details": "His role varies across Daoist and popular traditions, which often imagine the cosmos through offices mirroring earthly administration.",
+    "difficulty": 1,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Chinese Mythology",
+      "url": "https://www.britannica.com/topic/Chinese-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.eastasia-amaterasu",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "East Asian Myth"
+    ],
+    "prompt": "Which Japanese sun deity hides in a cave, plunging the world into darkness?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Amaterasu",
+    "aliases": [
+      "Amaterasu Omikami"
+    ],
+    "distractors": [
+      "Izanami",
+      "Benzaiten",
+      "Konohanasakuya"
+    ],
+    "explanation": "Amaterasu withdraws into a cave after conflict with her brother Susanoo.",
+    "details": "The other deities lure her out with celebration, a mirror, and jewels, restoring sunlight to the world.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Chinese Mythology",
+      "url": "https://www.britannica.com/topic/Chinese-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.eastasia-chang-e",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "East Asian Myth"
+    ],
+    "prompt": "Which figure is associated with drinking an immortality elixir and dwelling on the Moon?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Chang'e",
+    "aliases": [
+      "Chang-Er"
+    ],
+    "distractors": [
+      "Mazu",
+      "Nuwa",
+      "Xiwangmu"
+    ],
+    "explanation": "Chang'e becomes the moon-dwelling figure of a widely told Chinese legend.",
+    "details": "Different versions vary in motive and circumstance, but her story is closely associated with the Mid-Autumn Festival.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Chinese Mythology",
+      "url": "https://www.britannica.com/topic/Chinese-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.eastasia-sun-wukong",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "East Asian Myth"
+    ],
+    "prompt": "What title does Sun Wukong claim before accompanying the monk in Journey to the West?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Great Sage Equal to Heaven",
+    "aliases": [
+      "Qitian Dasheng"
+    ],
+    "distractors": [
+      "Dragon King of the East",
+      "Lord of the Southern Gate",
+      "Immortal of the Jade Hall"
+    ],
+    "explanation": "Sun Wukong styles himself the Great Sage Equal to Heaven during his rebellion.",
+    "details": "The boast captures the Monkey King's pride and power before discipline and pilgrimage redirect his abilities toward protecting Xuanzang.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Chinese Mythology",
+      "url": "https://www.britannica.com/topic/Chinese-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.eastasia-izanagi",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "East Asian Myth"
+    ],
+    "prompt": "Which Japanese creator deity performs purification after returning from the land of the dead?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Izanagi",
+    "aliases": [],
+    "distractors": [
+      "Izanami",
+      "Okuninushi",
+      "Hachiman"
+    ],
+    "explanation": "Izanagi cleanses himself after escaping the polluted underworld Yomi.",
+    "details": "Deities arise during the purification, including Amaterasu, Tsukuyomi, and Susanoo, connecting ritual cleanliness with cosmic generation.",
+    "difficulty": 4,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Encyclopaedia Britannica: Chinese Mythology",
+      "url": "https://www.britannica.com/topic/Chinese-mythology"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.africa-anansi",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "African Myth & Folklore"
+    ],
+    "prompt": "Which spider trickster appears in stories from Akan tradition and the African diaspora?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Anansi",
+    "aliases": [
+      "Ananse"
+    ],
+    "distractors": [
+      "Eshu",
+      "Legba",
+      "Shango"
+    ],
+    "explanation": "Anansi uses wit, appetite, and deception in stories originating among Akan peoples.",
+    "details": "Through the Atlantic diaspora, Anansi traditions developed in the Caribbean and Americas while retaining the trickster's verbal ingenuity.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of African Art",
+      "url": "https://africa.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.africa-mawu-lisa",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "African Myth & Folklore"
+    ],
+    "prompt": "What paired Fon deities embody complementary moon and sun principles?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Mawu-Lisa",
+    "aliases": [],
+    "distractors": [
+      "Ogun-Osun",
+      "Obatala-Oduduwa",
+      "Nyame-Asase"
+    ],
+    "explanation": "Mawu and Lisa form a complementary divine pair in Fon tradition.",
+    "details": "Mawu is commonly linked with the moon and Lisa with the sun, expressing balance across gendered and cosmic qualities.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of African Art",
+      "url": "https://africa.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.africa-sundiata",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "African Myth & Folklore"
+    ],
+    "prompt": "Which founder of the Mali Empire is celebrated in an epic preserved by griots?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sundiata Keita",
+    "aliases": [
+      "Sundiata"
+    ],
+    "distractors": [
+      "Mansa Musa",
+      "Sunni Ali",
+      "Askia Muhammad"
+    ],
+    "explanation": "Sundiata is remembered as the founder of the Mali Empire in oral epic.",
+    "details": "Griots preserve versions combining history, genealogy, political ideals, hardship, exile, and the ruler's eventual victory.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of African Art",
+      "url": "https://africa.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.africa-nommo",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "African Myth & Folklore"
+    ],
+    "prompt": "In Dogon traditions, what name is given to primordial water-associated beings or ancestral spirits?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Nommo",
+    "aliases": [],
+    "distractors": [
+      "Orisha",
+      "Loa",
+      "Abosom"
+    ],
+    "explanation": "Nommo are ancestral or primordial beings connected with water and creative order.",
+    "details": "Accounts vary, and modern descriptions should distinguish Dogon traditions from sensational claims imposed by outside writers.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of African Art",
+      "url": "https://africa.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.africa-kintu",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "African Myth & Folklore"
+    ],
+    "prompt": "In a Ganda origin story, who brings death into the human world by returning to heaven for forgotten grain?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Kintu",
+    "aliases": [],
+    "distractors": [
+      "Ggulu",
+      "Walumbe",
+      "Kayikuuzi"
+    ],
+    "explanation": "Kintu returns despite a warning, allowing Walumbe to follow him to earth.",
+    "details": "The narrative explains mortality through a sequence involving Kintu, Nambi, her father Ggulu, and the death-bringing Walumbe.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of African Art",
+      "url": "https://africa.si.edu/"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.americas-raven",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Indigenous American Traditions"
+    ],
+    "prompt": "Which clever bird is a creator and trickster in many traditions of the Pacific Northwest Coast?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Raven",
+    "aliases": [],
+    "distractors": [
+      "Eagle",
+      "Thunderbird",
+      "Owl"
+    ],
+    "explanation": "Raven appears as a transformer, creator, and trickster in numerous Northwest Coast traditions.",
+    "details": "The stories belong to distinct Indigenous nations and differ in meaning; Raven should not be treated as one universal character.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.americas-quetzalcoatl",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Indigenous American Traditions"
+    ],
+    "prompt": "Which Feathered Serpent deity was important in several Mesoamerican cultures?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Quetzalcoatl",
+    "aliases": [
+      "Feathered Serpent"
+    ],
+    "distractors": [
+      "Tezcatlipoca",
+      "Huitzilopochtli",
+      "Tlaloc"
+    ],
+    "explanation": "Quetzalcoatl is the Nahuatl name for a prominent Feathered Serpent deity.",
+    "details": "Related feathered-serpent traditions long predate the Aztec Empire and carried associations including wind, learning, priesthood, and creation.",
+    "difficulty": 2,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.americas-popol-vuh",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Indigenous American Traditions"
+    ],
+    "prompt": "Which K'iche' Maya narrative includes the Hero Twins and several attempts to create humanity?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Popol Vuh",
+    "aliases": [
+      "Popol Wuj"
+    ],
+    "distractors": [
+      "Chilam Balam",
+      "Huarochiri Manuscript",
+      "Codex Mendoza"
+    ],
+    "explanation": "The Popol Vuh preserves K'iche' Maya accounts of creation and the Hero Twins.",
+    "details": "Its surviving colonial-era text records a much older narrative tradition involving divine councils, trials in Xibalba, and maize people.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.americas-sedna",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Indigenous American Traditions"
+    ],
+    "prompt": "Which sea-associated figure controls access to marine animals in several Inuit traditions?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Sedna",
+    "aliases": [],
+    "distractors": [
+      "Spider Woman",
+      "White Buffalo Calf Woman",
+      "Changing Woman"
+    ],
+    "explanation": "Sedna is linked with sea animals and the relationship between hunters and the ocean.",
+    "details": "Versions differ across Inuit regions, including her name and origin, but often stress reciprocal obligations and the consequences of broken taboos.",
+    "difficulty": 3,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  },
+  {
+    "catalogKey": "myth-and-legend.americas-hunahpu",
+    "topicSlug": "arts-literature",
+    "packSlugs": [
+      "myth-and-legend"
+    ],
+    "subtopics": [
+      "Indigenous American Traditions"
+    ],
+    "prompt": "What are the names of the Hero Twins who defeat the lords of Xibalba in the Popol Vuh?",
+    "answerMode": "recall",
+    "canonicalAnswer": "Hunahpu and Xbalanque",
+    "aliases": [
+      "Hunahpu and Ixbalanque",
+      "The Hero Twins"
+    ],
+    "distractors": [
+      "Tepeu and Gucumatz",
+      "Balam Quitze and Balam Acab",
+      "Cipactli and Oxomoco"
+    ],
+    "explanation": "Hunahpu and Xbalanque overcome deadly tests through skill, deception, and transformation.",
+    "details": "Their victory answers the earlier defeat of their father and uncle and connects ballgame imagery with death, rebirth, and cosmic order.",
+    "difficulty": 5,
+    "timeLimitSeconds": 30,
+    "removeLeadingArticles": true,
+    "source": {
+      "label": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/nk360"
+    },
+    "expiresAt": null
+  }
+]

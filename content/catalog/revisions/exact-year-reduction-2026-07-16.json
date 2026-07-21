@@ -13,17 +13,21 @@
     }
   },
   "history-starter.treaty-year.japan-china-joint-declaration-on-building-a-partnership-of-friendship-and-cooper": {
-    "subtopics": ["Ancient Civilizations"],
-    "prompt": "What wedge-shaped writing system was used in ancient Mesopotamia?",
-    "canonicalAnswer": "Cuneiform",
-    "aliases": [],
-    "distractors": ["Hieroglyphics", "Linear B", "Sanskrit"],
-    "explanation": "Cuneiform was the wedge-shaped writing system developed in ancient Mesopotamia.",
-    "details": "Scribes pressed reed styli into clay tablets to form wedge-shaped marks. Sumerians developed the system, and several later Mesopotamian languages adopted it.",
+    "replacementCatalogKey": "history-starter.replacement.20260718.ur-ziggurat",
+    "subtopic": "Ancient History",
+    "detailTags": ["Mesopotamia", "Cities & Religion"],
+    "prompt": "Which ancient Sumerian city was home to a major ziggurat dedicated to the moon god Nanna?",
+    "canonicalAnswer": "Ur",
+    "aliases": ["The city of Ur", "Ur of the Chaldees"],
+    "distractors": ["Uruk", "Lagash", "Nineveh"],
+    "explanation": "Ur was home to a monumental ziggurat dedicated to the moon god Nanna.",
+    "details": "The Great Ziggurat of Ur was built in the third millennium BCE under the kings of the Third Dynasty of Ur. Its surviving core remains one of Mesopotamia's best-known monuments.",
+    "difficulty": 3,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/topic/cuneiform"
-    }
+      "url": "https://www.britannica.com/place/Ur"
+    },
+    "answerMode": "recall"
   },
   "history-starter.event-year.guangzhou-uprising": {
     "subtopics": ["Age of Exploration"],
@@ -39,17 +43,21 @@
     }
   },
   "history-starter.treaty-year.bangkok-rules": {
-    "subtopics": ["Ancient Civilizations"],
-    "prompt": "Which river was central to the agriculture and settlement of ancient Egypt?",
-    "canonicalAnswer": "Nile River",
-    "aliases": ["Nile", "the Nile"],
-    "distractors": ["Tigris River", "Indus River", "Yellow River"],
-    "explanation": "The Nile supported ancient Egyptian agriculture and settlement.",
-    "details": "Its annual inundation deposited fertile soil along the river valley, while the river also served as Egypt's principal transportation corridor.",
+    "replacementCatalogKey": "history-starter.replacement.20260718.papyrus",
+    "subtopic": "Ancient History",
+    "detailTags": ["Ancient Egypt", "Writing Systems"],
+    "prompt": "What writing material did ancient Egyptians make from the pith of a Nile plant?",
+    "canonicalAnswer": "Papyrus",
+    "aliases": ["Papyrus sheets", "Papyrus paper"],
+    "distractors": ["Parchment", "Vellum", "Bamboo slips"],
+    "explanation": "Ancient Egyptians made papyrus sheets from strips cut from the papyrus plant.",
+    "details": "Workers layered strips of pith at right angles, pressed them together, and dried the resulting sheet. Papyrus became a major writing surface around the Mediterranean.",
+    "difficulty": 2,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/place/Nile-River"
-    }
+      "url": "https://www.britannica.com/topic/papyrus-writing-material"
+    },
+    "answerMode": "recall"
   },
   "history-starter.event-year.odz-insurrection": {
     "subtopics": ["Ancient Greece"],
@@ -173,34 +181,42 @@
     }
   },
   "history-starter.treaty-year.geneva-convention-of-1864": {
-    "subtopics": ["Medieval History"],
-    "prompt": "In what year did King John agree to Magna Carta?",
-    "canonicalAnswer": "1215",
-    "aliases": [],
-    "distractors": ["1066", "1295", "1348"],
-    "explanation": "King John agreed to Magna Carta in 1215.",
-    "details": "The charter was sealed at Runnymede after a rebellion by English barons. Later versions became enduring symbols of limited government and due process.",
+    "replacementCatalogKey": "history-starter.replacement.20260718.english-bill-rights",
+    "subtopic": "Early Modern History",
+    "detailTags": ["English History", "Constitutional History"],
+    "prompt": "Which 1689 English document limited royal power and affirmed rights of Parliament?",
+    "canonicalAnswer": "English Bill of Rights",
+    "aliases": ["Bill of Rights 1689", "The English Bill of Rights"],
+    "distractors": ["Act of Settlement", "Petition of Right", "Habeas Corpus Act"],
+    "explanation": "The English Bill of Rights of 1689 limited royal authority and strengthened Parliament.",
+    "details": "Adopted after the Glorious Revolution, it barred several abuses of monarchical power and set conditions under which William III and Mary II accepted the crown.",
+    "difficulty": 3,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/topic/Magna-Carta"
-    }
+      "url": "https://www.britannica.com/topic/Bill-of-Rights-British-history"
+    },
+    "answerMode": "recall"
   },
   "history-starter.event-year.revolution-of-maria-da-fonte": {
-    "subtopics": ["Ancient Civilizations"],
-    "prompt": "Which ancient artifact enabled scholars to decipher Egyptian hieroglyphs?",
-    "canonicalAnswer": "Rosetta Stone",
-    "aliases": ["the Rosetta Stone"],
+    "replacementCatalogKey": "history-starter.replacement.20260718.howard-carter",
+    "subtopic": "Ancient History",
+    "detailTags": ["Ancient Egypt", "Archaeology"],
+    "prompt": "Which archaeologist discovered Tutankhamun's tomb in 1922?",
+    "canonicalAnswer": "Howard Carter",
+    "aliases": ["Carter"],
     "distractors": [
-      "Dead Sea Scrolls",
-      "Code of Hammurabi",
-      "Behistun Inscription"
+      "Flinders Petrie",
+      "Arthur Evans",
+      "Heinrich Schliemann"
     ],
-    "explanation": "The Rosetta Stone provided parallel texts that helped scholars decipher Egyptian hieroglyphs.",
-    "details": "The decree appears in hieroglyphic, Demotic, and ancient Greek scripts. Jean-Francois Champollion used the inscriptions in his breakthrough decipherment.",
+    "explanation": "Howard Carter discovered Tutankhamun's nearly intact tomb in Egypt's Valley of the Kings.",
+    "details": "Carter's team found the tomb after years of excavation funded by Lord Carnarvon. Its extraordinary contents transformed public interest in ancient Egypt and provided archaeologists with a rich royal burial assemblage.",
+    "difficulty": 2,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/topic/Rosetta-Stone"
-    }
+      "url": "https://www.britannica.com/biography/Howard-Carter"
+    },
+    "answerMode": "recall"
   },
   "history-starter.treaty-year.sino-japanese-friendship-and-trade-treaty": {
     "subtopics": ["Islamic History"],
@@ -637,21 +653,25 @@
     }
   },
   "world-turning-points.treaty-year.treaty-of-the-eighteen-articles": {
-    "subtopics": ["International Organizations"],
-    "prompt": "Which international organization preceded the United Nations?",
-    "canonicalAnswer": "League of Nations",
-    "aliases": [],
+    "replacementCatalogKey": "world-turning-points.replacement.20260718.helsinki-accords",
+    "subtopic": "Modern History",
+    "detailTags": ["Cold War", "European Diplomacy"],
+    "prompt": "Which 1975 agreement sought to reduce Cold War tensions and recognized Europe's postwar borders?",
+    "canonicalAnswer": "Helsinki Accords",
+    "aliases": ["Helsinki Final Act", "Final Act of the Conference on Security and Cooperation in Europe"],
     "distractors": [
-      "Council of Europe",
-      "Warsaw Pact",
-      "Organization of American States"
+      "Camp David Accords",
+      "SALT I",
+      "Treaty of Rome"
     ],
-    "explanation": "The League of Nations was the principal international organization created after World War I.",
-    "details": "It sought to prevent war through collective security but lacked the participation and enforcement power needed to stop aggression in the 1930s.",
+    "explanation": "The Helsinki Accords were signed in 1975 by the United States, Canada, the Soviet Union, and most European states.",
+    "details": "The agreement addressed security, economic cooperation, borders, and human rights. Although not a treaty, its human-rights commitments became an important standard used by dissidents and monitoring groups.",
+    "difficulty": 4,
     "source": {
       "label": "Encyclopaedia Britannica",
-      "url": "https://www.britannica.com/topic/League-of-Nations"
-    }
+      "url": "https://www.britannica.com/event/Helsinki-Accords"
+    },
+    "answerMode": "recall"
   },
   "world-turning-points.turning-point-year.toplica-insurrection": {
     "subtopics": ["African History"],

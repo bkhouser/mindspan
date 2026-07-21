@@ -308,6 +308,74 @@ export type Database = {
           },
         ]
       }
+      attempt_credit_corrections: {
+        Row: {
+          attempt_id: string
+          awarded_by: string | null
+          awarded_to: string
+          corrected_attempt: Json
+          created_at: string
+          id: string
+          mastery_success_delta: number
+          original_attempt: Json
+          points_awarded: number
+          question_feedback_id: string
+        }
+        Insert: {
+          attempt_id: string
+          awarded_by?: string | null
+          awarded_to: string
+          corrected_attempt: Json
+          created_at?: string
+          id?: string
+          mastery_success_delta: number
+          original_attempt: Json
+          points_awarded: number
+          question_feedback_id: string
+        }
+        Update: {
+          attempt_id?: string
+          awarded_by?: string | null
+          awarded_to?: string
+          corrected_attempt?: Json
+          created_at?: string
+          id?: string
+          mastery_success_delta?: number
+          original_attempt?: Json
+          points_awarded?: number
+          question_feedback_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "attempt_credit_corrections_attempt_id_fkey"
+            columns: ["attempt_id"]
+            isOneToOne: true
+            referencedRelation: "attempts"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "attempt_credit_corrections_awarded_by_fkey"
+            columns: ["awarded_by"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "attempt_credit_corrections_awarded_to_fkey"
+            columns: ["awarded_to"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "attempt_credit_corrections_question_feedback_id_fkey"
+            columns: ["question_feedback_id"]
+            isOneToOne: true
+            referencedRelation: "question_feedback"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       attempts: {
         Row: {
           assisted: boolean
@@ -421,6 +489,38 @@ export type Database = {
             columns: ["created_by"]
             isOneToOne: false
             referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      detail_tags: {
+        Row: {
+          created_at: string
+          id: string
+          name: string
+          slug: string
+          topic_id: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          name: string
+          slug: string
+          topic_id: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          name?: string
+          slug?: string
+          topic_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "detail_tags_topic_id_fkey"
+            columns: ["topic_id"]
+            isOneToOne: false
+            referencedRelation: "topics"
             referencedColumns: ["id"]
           },
         ]
@@ -1015,13 +1115,44 @@ export type Database = {
           },
         ]
       }
+      question_detail_tags: {
+        Row: {
+          detail_tag_id: string
+          question_id: string
+        }
+        Insert: {
+          detail_tag_id: string
+          question_id: string
+        }
+        Update: {
+          detail_tag_id?: string
+          question_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "question_detail_tags_detail_tag_id_fkey"
+            columns: ["detail_tag_id"]
+            isOneToOne: false
+            referencedRelation: "detail_tags"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "question_detail_tags_question_id_fkey"
+            columns: ["question_id"]
+            isOneToOne: false
+            referencedRelation: "questions"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       question_editorial_reviews: {
         Row: {
           created_at: string
           notes: string | null
           player_feedback_reviewed_at: string | null
           question_version_id: string
-          reviewed_by: string
+          review_origin: string
+          reviewed_by: string | null
           updated_at: string
           verdict: string
         }
@@ -1030,7 +1161,8 @@ export type Database = {
           notes?: string | null
           player_feedback_reviewed_at?: string | null
           question_version_id: string
-          reviewed_by: string
+          review_origin?: string
+          reviewed_by?: string | null
           updated_at?: string
           verdict: string
         }
@@ -1039,7 +1171,8 @@ export type Database = {
           notes?: string | null
           player_feedback_reviewed_at?: string | null
           question_version_id?: string
-          reviewed_by?: string
+          review_origin?: string
+          reviewed_by?: string | null
           updated_at?: string
           verdict?: string
         }
@@ -1338,6 +1471,8 @@ export type Database = {
           created_by: string | null
           details: string
           difficulty: number
+          editorial_content_hash: string | null
+          editorial_key: string | null
           expires_at: string | null
           explanation: string
           id: string
@@ -1358,6 +1493,8 @@ export type Database = {
           created_by?: string | null
           details: string
           difficulty: number
+          editorial_content_hash?: string | null
+          editorial_key?: string | null
           expires_at?: string | null
           explanation: string
           id?: string
@@ -1378,6 +1515,8 @@ export type Database = {
           created_by?: string | null
           details?: string
           difficulty?: number
+          editorial_content_hash?: string | null
+          editorial_key?: string | null
           expires_at?: string | null
           explanation?: string
           id?: string
@@ -1832,6 +1971,13 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      apply_catalog_editorial_approvals_v1: {
+        Args: { payload: Json }
+        Returns: {
+          result_applied: boolean
+          result_key: string
+        }[]
+      }
       assign_question_subtopics_v1: {
         Args: {
           subtopic_names: string[]
@@ -1847,6 +1993,21 @@ export type Database = {
           insight_awarded: number
           name: string
           slug: string
+        }[]
+      }
+      award_reviewed_answer_credit_for_reviewer_v1: {
+        Args: { p_question_feedback_id: string }
+        Returns: {
+          result_corrected: boolean
+          result_points_awarded: number
+        }[]
+      }
+      award_reviewed_answer_credit_v1: {
+        Args: { p_question_feedback_id: string }
+        Returns: {
+          result_corrected: boolean
+          result_points_awarded: number
+          result_user_id: string
         }[]
       }
       can_review_questions: { Args: { check_user?: string }; Returns: boolean }
@@ -1878,6 +2039,15 @@ export type Database = {
         }
         Returns: string
       }
+      finalize_normalized_taxonomy_v1: {
+        Args: never
+        Returns: {
+          detail_tags: number
+          mastery_rows: number
+          primary_subtopics: number
+          published_questions: number
+        }[]
+      }
       import_question_batch_v1: {
         Args: { payload: Json; target_admin: string }
         Returns: {
@@ -1895,6 +2065,7 @@ export type Database = {
         Returns: boolean
       }
       is_sys_admin: { Args: { check_user?: string }; Returns: boolean }
+      normalize_seed_question_taxonomy_v1: { Args: never; Returns: undefined }
       question_quality_answer_summary_v1: {
         Args: { p_question_version_id: string }
         Returns: {
@@ -1973,6 +2144,33 @@ export type Database = {
         }[]
       }
       sync_published_catalog_v2: {
+        Args: { payload: Json }
+        Returns: {
+          result_action: string
+          result_key: string
+          result_question_id: string
+          result_version_id: string
+        }[]
+      }
+      sync_published_catalog_v3: {
+        Args: { payload: Json }
+        Returns: {
+          result_action: string
+          result_key: string
+          result_question_id: string
+          result_version_id: string
+        }[]
+      }
+      sync_published_catalog_v4: {
+        Args: { payload: Json }
+        Returns: {
+          result_action: string
+          result_key: string
+          result_question_id: string
+          result_version_id: string
+        }[]
+      }
+      sync_published_catalog_v5: {
         Args: { payload: Json }
         Returns: {
           result_action: string
