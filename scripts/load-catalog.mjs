@@ -34,6 +34,17 @@ for (let index = 0; index < questions.length; index += 200) {
 
 console.log({ inserted, updated, skipped, total: questions.length });
 
+const { data: taxonomySummary, error: taxonomyError } = await admin.rpc(
+  "finalize_normalized_taxonomy_v1",
+);
+if (taxonomyError) throw taxonomyError;
+console.log({ taxonomy: taxonomySummary?.[0] ?? null });
+
+const { data: refreshedSeedFingerprints, error: fingerprintError } =
+  await admin.rpc("refresh_seed_editorial_fingerprints_v1");
+if (fingerprintError) throw fingerprintError;
+console.log({ refreshedSeedFingerprints });
+
 const editorialApprovals = loadEditorialApprovals();
 let approvalsApplied = 0;
 for (let index = 0; index < editorialApprovals.length; index += 200) {
@@ -43,16 +54,11 @@ for (let index = 0; index < editorialApprovals.length; index += 200) {
     { payload: batch },
   );
   if (error) throw error;
-  approvalsApplied += (data ?? []).filter((result) => result.result_applied)
-    .length;
+  approvalsApplied += (data ?? []).filter(
+    (result) => result.result_applied,
+  ).length;
 }
 console.log({
   editorialApprovals: editorialApprovals.length,
   approvalsApplied,
 });
-
-const { data: taxonomySummary, error: taxonomyError } = await admin.rpc(
-  "finalize_normalized_taxonomy_v1",
-);
-if (taxonomyError) throw taxonomyError;
-console.log({ taxonomy: taxonomySummary?.[0] ?? null });

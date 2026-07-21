@@ -6,7 +6,7 @@ release day to reconstruct them from commit history.
 
 ## Unreleased
 
-## 1.0.0-rc.5 - 2026-07-21
+## 1.0.0-rc.6 - 2026-07-21
 
 ### Fixed
 
@@ -17,8 +17,11 @@ release day to reconstruct them from commit history.
 - Preserved the retired question's historical taxonomy and per-question state
   so catalog finalization retains its subtopic evidence while the replacement
   begins with full novel-question value.
+- Refreshed deterministic editorial fingerprints for the original seed
+  questions after taxonomy normalization so their completed portable reviews
+  are recognized consistently across development and production.
 - Updated the Question Quality browser test to verify the complete current
-  version 2 action-item export contract. The superseded rc.2, rc.3, and rc.4
+  version 2 action-item export contract. The superseded rc.2 through rc.5
   candidates were not deployed.
 
 ## 1.0.0-rc.1 - 2026-07-20
@@ -36,7 +39,7 @@ release day to reconstruct them from commit history.
   well as questions marked **Needs revision** or carrying unresolved player
   feedback, preventing rejected items from disappearing before remediation.
 - Completed the final July 21 review round by preserving 888 exported
-  approvals and raising the Rey/*Force Awakens* question from difficulty 2 to
+  approvals and raising the Rey/_Force Awakens_ question from difficulty 2 to
   3. No question identity or historical player record changed.
 - Applied the second completed July 21 question-review pass: six difficulty
   corrections, five requested answer-alias changes, a required-choice fix,

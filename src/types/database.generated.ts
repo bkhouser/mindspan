@@ -2106,6 +2106,7 @@ export type Database = {
           joined_group: string
         }[]
       }
+      refresh_seed_editorial_fingerprints_v1: { Args: never; Returns: number }
       replace_question_subtopics_v1: {
         Args: {
           subtopic_names: string[]

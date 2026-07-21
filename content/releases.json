@@ -1,7 +1,7 @@
 {
   "releases": [
     {
-      "version": "1.0.0-rc.5",
+      "version": "1.0.0-rc.6",
       "releasedAt": "2026-07-21",
       "title": "Catalog replacement correction",
       "summary": "This maintenance release corrects how chained question replacements are resolved while preserving all player history and earned points.",
@@ -29,6 +29,10 @@
             },
             {
               "text": "Historical topic and subtopic progress remains attached to the retired question, while its replacement begins with full value as a new question.",
+              "audience": "all"
+            },
+            {
+              "text": "Completed question-review approvals are now recognized consistently after taxonomy updates.",
               "audience": "all"
             }
           ]
