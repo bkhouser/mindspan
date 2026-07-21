@@ -116,7 +116,7 @@ test("a system administrator can review and export question quality", async ({
       };
       questions: Array<{ id: string }>;
     };
-    expect(exported.schemaVersion).toBe(1);
+    expect(exported.schemaVersion).toBe(2);
     expect(exported.selection).toEqual({
       needsRevision: true,
       unresolvedPlayerFlags: true,
