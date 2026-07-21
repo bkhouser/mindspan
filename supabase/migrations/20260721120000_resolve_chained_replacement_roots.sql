@@ -66,11 +66,11 @@ begin
         where question_id = root_question
           and status <> 'retired';
 
+        -- Remove the superseded question from active packs, but retain its
+        -- taxonomy links. Historical attempts still contribute to their
+        -- original subtopic when normalized mastery is rebuilt, while the
+        -- distinct successor starts with fresh per-question repeat state.
         delete from public.pack_questions
-        where question_id = root_question;
-        delete from public.question_subtopics
-        where question_id = root_question;
-        delete from public.question_detail_tags
         where question_id = root_question;
 
         update public.questions
@@ -135,9 +135,10 @@ begin
     where question_id = root_question
       and status <> 'retired';
 
+    -- Pack membership controls play eligibility. Taxonomy links are historical
+    -- metadata and must remain so an old attempt continues to contribute to
+    -- the same derived subtopic mastery after catalog finalization.
     delete from public.pack_questions where question_id = root_question;
-    delete from public.question_subtopics where question_id = root_question;
-    delete from public.question_detail_tags where question_id = root_question;
 
     update public.questions
     set retired_at = coalesce(retired_at, now())

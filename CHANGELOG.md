@@ -6,7 +6,7 @@ release day to reconstruct them from commit history.
 
 ## Unreleased
 
-## 1.0.0-rc.4 - 2026-07-21
+## 1.0.0-rc.5 - 2026-07-21
 
 ### Fixed
 
@@ -14,8 +14,11 @@ release day to reconstruct them from commit history.
   removed from active play even when an intermediate replacement was never
   published. Existing attempts, points, mastery, feedback, approvals, and
   immutable question history remain unchanged.
+- Preserved the retired question's historical taxonomy and per-question state
+  so catalog finalization retains its subtopic evidence while the replacement
+  begins with full novel-question value.
 - Updated the Question Quality browser test to verify the complete current
-  version 2 action-item export contract. The superseded rc.2 and rc.3
+  version 2 action-item export contract. The superseded rc.2, rc.3, and rc.4
   candidates were not deployed.
 
 ## 1.0.0-rc.1 - 2026-07-20

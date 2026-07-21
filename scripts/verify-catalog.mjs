@@ -42,7 +42,11 @@ const [
 ] = await Promise.all([
   supabase
     .from("question_subtopics")
-    .select("question_id", { count: "exact", head: true }),
+    .select("question_id,questions!inner(retired_at)", {
+      count: "exact",
+      head: true,
+    })
+    .is("questions.retired_at", null),
   supabase
     .from("question_detail_tags")
     .select("question_id", { count: "exact", head: true }),
