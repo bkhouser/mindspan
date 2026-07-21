@@ -112,6 +112,7 @@ test("a system administrator can review and export question quality", async ({
       schemaVersion: number;
       selection: {
         needsRevision: boolean;
+        rejected: boolean;
         unresolvedPlayerFlags: boolean;
       };
       questions: Array<{ id: string }>;
@@ -119,6 +120,7 @@ test("a system administrator can review and export question quality", async ({
     expect(exported.schemaVersion).toBe(2);
     expect(exported.selection).toEqual({
       needsRevision: true,
+      rejected: true,
       unresolvedPlayerFlags: true,
     });
     expect(

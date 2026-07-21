@@ -1,7 +1,7 @@
 {
   "releases": [
     {
-      "version": "1.0.0-rc.3",
+      "version": "1.0.0-rc.4",
       "releasedAt": "2026-07-21",
       "title": "Catalog replacement correction",
       "summary": "This maintenance release corrects how chained question replacements are resolved while preserving all player history and earned points.",
