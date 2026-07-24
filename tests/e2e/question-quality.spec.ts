@@ -33,6 +33,17 @@ test("a system administrator can review and export question quality", async ({
   const password = "Mindspan-Quality-2026!";
   let userId: string | undefined;
   let reviewedVersionId: string | undefined;
+  let originalReview:
+    | {
+        notes: string | null;
+        player_feedback_reviewed_at: string | null;
+        review_origin: string;
+        reviewed_by: string | null;
+        updated_at: string;
+        verdict: string;
+      }
+    | null
+    | undefined;
 
   try {
     const { data: created, error: createError } =
@@ -65,7 +76,7 @@ test("a system administrator can review and export question quality", async ({
       .click();
     await expect(page).toHaveURL(/\/home/);
 
-    await page.goto("/admin/question-quality");
+    await page.goto("/admin/question-quality?view=all");
     await expect(
       page.getByRole("heading", { name: "Question quality" }),
     ).toBeVisible();
@@ -73,15 +84,23 @@ test("a system administrator can review and export question quality", async ({
     await expect(page.getByText("Canonical answer")).toBeVisible();
 
     reviewedVersionId =
-      (await page
-        .locator('input[name="versionId"]')
-        .getAttribute("value")) ?? undefined;
+      (await page.locator('input[name="versionId"]').getAttribute("value")) ??
+      undefined;
     expect(reviewedVersionId).toBeTruthy();
+    const { data: existingReview, error: existingReviewError } = await admin
+      .from("question_editorial_reviews")
+      .select(
+        "notes,player_feedback_reviewed_at,review_origin,reviewed_by,updated_at,verdict",
+      )
+      .eq("question_version_id", reviewedVersionId!)
+      .maybeSingle();
+    if (existingReviewError) throw existingReviewError;
+    originalReview = existingReview;
     await page.getByLabel("Editorial notes").fill("Playwright review");
     await page.getByRole("button", { name: /Needs revision/ }).click();
-    await expect(
-      page.locator('input[name="versionId"]'),
-    ).not.toHaveValue(reviewedVersionId!);
+    await expect(page.locator('input[name="versionId"]')).not.toHaveValue(
+      reviewedVersionId!,
+    );
     await expect
       .poll(async () => {
         const { data: review } = await admin
@@ -127,11 +146,19 @@ test("a system administrator can review and export question quality", async ({
       exported.questions.some((question) => question.id === reviewedVersionId),
     ).toBe(true);
   } finally {
-    if (reviewedVersionId)
-      await admin
-        .from("question_editorial_reviews")
-        .delete()
-        .eq("question_version_id", reviewedVersionId);
+    if (reviewedVersionId) {
+      if (originalReview) {
+        await admin
+          .from("question_editorial_reviews")
+          .update(originalReview)
+          .eq("question_version_id", reviewedVersionId);
+      } else {
+        await admin
+          .from("question_editorial_reviews")
+          .delete()
+          .eq("question_version_id", reviewedVersionId);
+      }
+    }
     if (userId) await admin.auth.admin.deleteUser(userId);
   }
 });

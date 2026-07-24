@@ -4,6 +4,15 @@ This file tracks notable player- and administrator-visible changes to Mindspan.
 Add entries under **Unreleased** as each change is completed; do not wait until
 release day to reconstruct them from commit history.
 
+## 1.0.1 - 2026-07-24
+
+### Fixed
+
+- Corrected release-validation browser tests to use the configured local mail
+  endpoint and to preserve an existing editorial approval after test review.
+  This keeps the deployment gate reliable when the core catalog is fully
+  reviewed.
+
 ## 1.0.0 - 2026-07-24
 
 ### Added

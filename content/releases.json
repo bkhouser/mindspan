@@ -1,6 +1,29 @@
 {
   "releases": [
     {
+      "version": "1.0.1",
+      "releasedAt": "2026-07-24",
+      "title": "Mindspan 1.0.1",
+      "summary": "A reliability update that completes Mindspan 1.0's production release validation.",
+      "highlights": [
+        {
+          "text": "Improved release verification for invited sign-up, email delivery, and fully reviewed question packs.",
+          "audience": "all"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "Reliable release validation",
+          "items": [
+            {
+              "text": "Mindspan's production checks now use the configured local email endpoint and safely preserve existing editorial review decisions while validating question-quality tools.",
+              "audience": "all"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "1.0.0",
       "releasedAt": "2026-07-24",
       "title": "Mindspan 1.0",

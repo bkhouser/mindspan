@@ -17,7 +17,8 @@ const fileValues = existsSync(".env.local")
 const values = { ...fileValues, ...process.env };
 const supabaseUrl = values.NEXT_PUBLIC_SUPABASE_URL;
 const secretKey = values.SUPABASE_SECRET_KEY;
-if (!supabaseUrl || !secretKey)
+const mailpitUrl = values.MAILPIT_URL;
+if (!supabaseUrl || !secretKey || !mailpitUrl)
   throw new Error("Supabase test environment is not configured");
 
 test("an invited player can onboard and finish an assisted question", async ({
@@ -64,9 +65,9 @@ test("an invited player can onboard and finish an assisted question", async ({
     await expect
       .poll(
         async () => {
-          const list = (await fetch(
-            "http://127.0.0.1:54324/api/v1/messages",
-          ).then((response) => response.json())) as {
+          const list = (await fetch(`${mailpitUrl}/api/v1/messages`).then(
+            (response) => response.json(),
+          )) as {
             messages: Array<{ ID: string; To: Array<{ Address: string }> }>;
           };
           const message = list.messages.find((candidate) =>
@@ -74,7 +75,7 @@ test("an invited player can onboard and finish an assisted question", async ({
           );
           if (!message) return false;
           const detail = (await fetch(
-            `http://127.0.0.1:54324/api/v1/message/${message.ID}`,
+            `${mailpitUrl}/api/v1/message/${message.ID}`,
           ).then((response) => response.json())) as {
             HTML?: string;
             Text?: string;
@@ -178,15 +179,12 @@ test("an invited player can onboard and finish an assisted question", async ({
     await expect(page.getByTestId("topic-proficiency")).toContainText(
       /proficiency/i,
     );
-    const feedbackResponse = page.waitForResponse(
-      (response) => response.url().endsWith("/api/question-feedback"),
+    const feedbackResponse = page.waitForResponse((response) =>
+      response.url().endsWith("/api/question-feedback"),
     );
     await page.getByRole("button", { name: "Good question" }).click();
     const savedFeedback = await feedbackResponse;
-    expect(
-      savedFeedback.status(),
-      await savedFeedback.text(),
-    ).toBe(200);
+    expect(savedFeedback.status(), await savedFeedback.text()).toBe(200);
     await expect(page.getByText("Saved", { exact: true })).toBeVisible();
     await expect
       .poll(async () => {
