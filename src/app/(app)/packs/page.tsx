@@ -1,11 +1,5 @@
 import Link from "next/link";
-import {
-  ClipboardCheck,
-  LockKeyhole,
-  PackageOpen,
-  Play,
-  Sparkles,
-} from "lucide-react";
+import { ClipboardCheck, PackageOpen, Play, Sparkles } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { DifficultyStars } from "@/components/difficulty-stars";
 import { PackProgressBar } from "@/components/pack-progress-bar";
@@ -16,7 +10,7 @@ import {
 } from "@/domain/pack-progress";
 import { requireUser } from "@/lib/auth";
 import { fetchAllPages } from "@/lib/supabase-pagination";
-import { unlockPack } from "./actions";
+import { UnlockPackForm } from "./unlock-pack-form";
 
 function AverageDifficulty({
   value,
@@ -60,13 +54,13 @@ export default async function PacksPage() {
     );
   }
 
-  async function loadAllQuestionStates() {
+  async function loadAllAttempts() {
     return fetchAllPages((from, to) =>
       supabase
-        .from("user_question_state")
-        .select("question_id,attempt_count,correct_count")
+        .from("attempts")
+        .select("correct,created_at,question_versions!inner(question_id)")
         .eq("user_id", user.id)
-        .order("question_id")
+        .order("created_at")
         .range(from, to),
     );
   }
@@ -88,7 +82,7 @@ export default async function PacksPage() {
     { data: unlocks },
     { data: ledger },
     packQuestions,
-    questionStates,
+    attempts,
     publishedVersions,
   ] = await Promise.all([
     supabase
@@ -97,10 +91,13 @@ export default async function PacksPage() {
       .eq("enabled", true)
       .order("is_starter", { ascending: false })
       .order("name"),
-    supabase.from("pack_unlocks").select("pack_id").eq("user_id", user.id),
+    supabase
+      .from("pack_unlocks")
+      .select("pack_id,unlocked_at")
+      .eq("user_id", user.id),
     supabase.from("insight_ledger").select("amount").eq("user_id", user.id),
     loadAllPackQuestions(),
-    loadAllQuestionStates(),
+    loadAllAttempts(),
     loadAllPublishedVersions(),
   ]);
   const owned = new Set(unlocks?.map((item) => item.pack_id));
@@ -110,7 +107,12 @@ export default async function PacksPage() {
   );
   const progressByPack = calculatePackProgress(
     packQuestions.filter((link) => playableQuestions.has(link.question_id)),
-    questionStates,
+    attempts.map((attempt) => ({
+      correct: attempt.correct,
+      created_at: attempt.created_at,
+      question_id: attempt.question_versions.question_id,
+    })),
+    unlocks ?? [],
   );
   const averageDifficultyByPack = calculatePackAverageDifficulty(
     packQuestions,
@@ -121,17 +123,11 @@ export default async function PacksPage() {
 
   return (
     <>
-      <header className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <p className="text-sm font-black uppercase tracking-[.2em] text-[var(--brand)]">
-            Question catalog
-          </p>
-          <h1 className="mt-2 text-4xl font-black">Question Packs</h1>
-        </div>
-        <div className="inline-flex items-center gap-2 rounded-full bg-amber-300/10 px-4 py-2 font-black text-amber-200">
-          <Sparkles aria-hidden="true" size={18} />
-          {balance} Insight
-        </div>
+      <header>
+        <p className="text-sm font-black uppercase tracking-[.2em] text-[var(--brand)]">
+          Question catalog
+        </p>
+        <h1 className="mt-2 text-4xl font-black">Question Packs</h1>
       </header>
 
       <section className="mt-8" aria-labelledby="unlocked-packs-heading">
@@ -211,17 +207,7 @@ export default async function PacksPage() {
                         />
                       </td>
                       <td className="px-5 py-4 text-right">
-                        <div className="flex flex-wrap justify-end gap-2">
-                          {hasQuestionReviewAccess ? (
-                            <Link
-                              aria-label={`Review ${pack.name}`}
-                              className="inline-flex min-h-10 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-white/10 px-4 py-2 font-black text-white transition hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
-                              href={`/admin/question-quality?pack=${encodeURIComponent(pack.id)}&view=unreviewed`}
-                            >
-                              <ClipboardCheck aria-hidden="true" size={15} />
-                              Review pack
-                            </Link>
-                          ) : null}
+                        <div className="flex flex-col items-end gap-2">
                           <Link
                             aria-label={`Play ${pack.name}`}
                             className="inline-flex min-h-10 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-[var(--brand)] px-4 py-2 font-black text-slate-950 transition hover:bg-[var(--brand-strong)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
@@ -234,6 +220,16 @@ export default async function PacksPage() {
                             />
                             Play pack
                           </Link>
+                          {hasQuestionReviewAccess ? (
+                            <Link
+                              aria-label={`Review ${pack.name}`}
+                              className="inline-flex min-h-9 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-white/10 px-4 py-2 text-xs font-black text-white transition hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)] focus-visible:ring-offset-2 focus-visible:ring-offset-[var(--surface)]"
+                              href={`/admin/question-quality?pack=${encodeURIComponent(pack.id)}&view=unreviewed`}
+                            >
+                              <ClipboardCheck aria-hidden="true" size={14} />
+                              Review pack
+                            </Link>
+                          ) : null}
                         </div>
                       </td>
                     </tr>
@@ -252,13 +248,19 @@ export default async function PacksPage() {
 
       {lockedPacks.length ? (
         <section className="mt-10" aria-labelledby="unlock-packs-heading">
-          <div>
-            <h2 className="text-2xl font-black" id="unlock-packs-heading">
-              Unlock more packs
-            </h2>
-            <p className="mt-1 text-sm text-[var(--muted)]">
-              Spend Insight to add another pack to your catalog.
-            </p>
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="text-2xl font-black" id="unlock-packs-heading">
+                Unlock more packs
+              </h2>
+              <p className="mt-1 text-sm text-[var(--muted)]">
+                Spend Insight to add another pack to your catalog.
+              </p>
+            </div>
+            <div className="inline-flex items-center gap-2 rounded-full bg-amber-300/10 px-4 py-2 font-black text-amber-200">
+              <Sparkles aria-hidden="true" size={18} />
+              {balance} Insight
+            </div>
           </div>
           <div className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
             {lockedPacks.map((pack) => {
@@ -287,32 +289,29 @@ export default async function PacksPage() {
                     <p className="text-sm font-black text-sky-100">
                       {total} {total === 1 ? "question" : "questions"}
                     </p>
-                    <AverageDifficulty showValue value={averageDifficulty} />
+                    <div className="flex items-center gap-2">
+                      <span className="text-xs font-bold text-[var(--muted)]">
+                        Avg. difficulty
+                      </span>
+                      <AverageDifficulty showValue value={averageDifficulty} />
+                    </div>
                   </div>
+                  <UnlockPackForm
+                    canAfford={balance >= pack.price_insight}
+                    packId={pack.id}
+                    packName={pack.name}
+                    priceInsight={pack.price_insight}
+                  />
                   {hasQuestionReviewAccess ? (
                     <Link
                       aria-label={`Review ${pack.name}`}
-                      className="mt-6 inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 font-black text-white transition hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)]"
+                      className="mt-3 inline-flex min-h-10 w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 text-sm font-black text-white transition hover:bg-white/15 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand)]"
                       href={`/admin/question-quality?pack=${encodeURIComponent(pack.id)}&view=unreviewed`}
                     >
-                      <ClipboardCheck aria-hidden="true" size={16} />
+                      <ClipboardCheck aria-hidden="true" size={15} />
                       Review pack
                     </Link>
                   ) : null}
-                  <form
-                    action={unlockPack}
-                    className={hasQuestionReviewAccess ? "mt-3" : "mt-6"}
-                  >
-                    <input name="packId" type="hidden" value={pack.id} />
-                    <button
-                      className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-full bg-white/10 px-4 font-black disabled:opacity-40"
-                      disabled={balance < pack.price_insight}
-                      type="submit"
-                    >
-                      <LockKeyhole aria-hidden="true" size={16} />
-                      Unlock · {pack.price_insight}
-                    </button>
-                  </form>
                 </Card>
               );
             })}

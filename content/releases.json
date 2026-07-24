@@ -1,6 +1,70 @@
 {
   "releases": [
     {
+      "version": "1.0.0",
+      "releasedAt": "2026-07-24",
+      "title": "Mindspan 1.0",
+      "summary": "Mindspan's first full release adds final polish to play, packs, groups, and account support while keeping the reviewed 1,500-question catalog and all player progress intact.",
+      "highlights": [
+        {
+          "text": "Answer results now distinguish the question's topic from its source pack more clearly.",
+          "audience": "all"
+        },
+        {
+          "text": "Unlocking a pack asks for confirmation before spending Insight.",
+          "audience": "all"
+        },
+        {
+          "text": "Interrupted answer submissions can be retried safely without duplicate credit.",
+          "audience": "all"
+        },
+        {
+          "text": "System administrators can safely drain play before an update and perform audited account-support actions.",
+          "audience": "admin"
+        }
+      ],
+      "sections": [
+        {
+          "heading": "A more polished game",
+          "items": [
+            {
+              "text": "Answer results use distinct labeled fields for the topic and source pack, making the context of each question easier to scan.",
+              "audience": "all"
+            },
+            {
+              "text": "Question Packs keeps your Insight balance alongside available unlocks, labels average-difficulty stars, confirms an unlock before Insight is spent, and keeps reviewer actions secondary to Play or Unlock.",
+              "audience": "all"
+            },
+            {
+              "text": "Pack progress counts only answers given after you unlocked that pack, so a question later moved into a pack does not appear as earlier activity.",
+              "audience": "all"
+            },
+            {
+              "text": "If a connection or update interrupts an answer submission, retrying now returns the same finalized result instead of awarding credit twice.",
+              "audience": "all"
+            }
+          ]
+        },
+        {
+          "heading": "Groups and support",
+          "items": [
+            {
+              "text": "Group administrators manage a member's membership from that member's shared profile, keeping the group member list focused on people and progress.",
+              "audience": "all"
+            },
+            {
+              "text": "Before a production update, system administrators can pause new questions while players with an active question finish safely.",
+              "audience": "admin"
+            },
+            {
+              "text": "System administrators can send a password-reset email or suspend and restore access with a required reason and an immutable audit record. These actions preserve the player's groups, progress, packs, and history.",
+              "audience": "admin"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "version": "1.0.0-rc.6",
       "releasedAt": "2026-07-21",
       "title": "Catalog replacement correction",

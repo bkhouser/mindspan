@@ -18,6 +18,8 @@ import {
   updateFeedbackStatus,
   updateGlobalTimer,
 } from "./actions";
+import { AdminMaintenanceControl } from "./admin-maintenance-control";
+import { AdminSupportControls } from "./admin-support-controls";
 import { UserRoleControl } from "./user-role-control";
 
 export default async function AdminPage({
@@ -35,6 +37,7 @@ export default async function AdminPage({
     { count: questionCount },
     { data: settings },
     { count: questionFeedbackCount },
+    { count: activePresentationCount },
   ] = await Promise.all([
     supabase
       .from("packs")
@@ -56,7 +59,9 @@ export default async function AdminPage({
       .limit(20),
     supabase
       .from("profiles")
-      .select("id,display_name,role,beta_access_granted_at,created_at")
+      .select(
+        "id,display_name,role,beta_access_granted_at,created_at,disabled_at",
+      )
       .order("created_at", { ascending: false })
       .limit(20),
     supabase
@@ -65,13 +70,18 @@ export default async function AdminPage({
       .eq("status", "published"),
     supabase
       .from("system_settings")
-      .select("default_timer_seconds")
+      .select("default_timer_seconds,maintenance_mode,maintenance_started_at")
       .eq("id", true)
       .single(),
     supabase
       .from("question_feedback")
       .select("id", { count: "exact", head: true })
       .eq("sentiment", "down"),
+    supabase
+      .from("question_presentations")
+      .select("id", { count: "exact", head: true })
+      .is("finalized_at", null)
+      .gt("expires_at", new Date().toISOString()),
   ]);
   const inviteUrl = query.invite
     ? `${publicEnv().NEXT_PUBLIC_SITE_URL}/login?invite=${encodeURIComponent(query.invite)}`
@@ -184,6 +194,29 @@ export default async function AdminPage({
         </Card>
         <Card className="p-6">
           <div className="flex items-center gap-3">
+            <Shield
+              className={
+                settings?.maintenance_mode
+                  ? "text-amber-200"
+                  : "text-[var(--brand)]"
+              }
+            />
+            <div>
+              <h2 className="text-xl font-black">Release safety</h2>
+              <p className="text-sm text-[var(--muted)]">
+                {settings?.maintenance_mode
+                  ? "Update drain is active. New play is paused."
+                  : "Use an update drain before production deployment."}
+              </p>
+            </div>
+          </div>
+          <AdminMaintenanceControl
+            activePresentationCount={activePresentationCount ?? 0}
+            enabled={Boolean(settings?.maintenance_mode)}
+          />
+        </Card>
+        <Card className="p-6">
+          <div className="flex items-center gap-3">
             <Package className="text-[var(--brand)]" />
             <h2 className="text-xl font-black">Global pack availability</h2>
           </div>
@@ -220,9 +253,23 @@ export default async function AdminPage({
           <div className="mt-4 divide-y divide-white/10">
             {users?.map((profile) => (
               <div className="flex items-center gap-3 py-3" key={profile.id}>
-                <span className="min-w-0 flex-1 truncate text-sm font-bold">
-                  {profile.display_name}
-                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <span className="truncate text-sm font-bold">
+                      {profile.display_name}
+                    </span>
+                    {profile.disabled_at ? (
+                      <span className="rounded-full bg-rose-300/15 px-2 py-0.5 text-[10px] font-black uppercase tracking-wide text-rose-100">
+                        Suspended
+                      </span>
+                    ) : null}
+                  </div>
+                  <AdminSupportControls
+                    disabled={Boolean(profile.disabled_at)}
+                    displayName={profile.display_name}
+                    userId={profile.id}
+                  />
+                </div>
                 <UserRoleControl
                   currentRole={profile.role}
                   displayName={profile.display_name}

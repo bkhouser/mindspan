@@ -31,9 +31,7 @@ describe("PlayGame choice submission", () => {
       />
     );
     container.innerHTML = renderToString(game);
-    expect(
-      container.querySelector<HTMLButtonElement>("button"),
-    ).toBeEnabled();
+    expect(container.querySelector<HTMLButtonElement>("button")).toBeEnabled();
 
     const root = hydrateRoot(container, game);
     await waitFor(() =>
@@ -160,6 +158,104 @@ describe("PlayGame choice submission", () => {
     expect(
       screen.getByText(/Submitted with \d+s left · \d+ pts if correct/),
     ).toBeVisible();
+  });
+
+  it("reuses the answer idempotency key when a submission is retried", async () => {
+    const answerKey = "00000000-0000-4000-8000-000000000001";
+    vi.spyOn(crypto, "randomUUID").mockReturnValue(answerKey);
+    const fetchMock = vi
+      .spyOn(globalThis, "fetch")
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ id: "session-retry" }), { status: 201 }),
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            id: "presentation-retry",
+            prompt: "What is the capital of France?",
+            answerMode: "recall",
+            topic: {
+              id: "topic-1",
+              slug: "geography",
+              name: "Geography",
+            },
+            difficulty: 1,
+            media: null,
+            timeLimitSeconds: 30,
+            scoringTimeLimitSeconds: 30,
+            startingPoints: 100,
+            expiresAt: new Date(Date.now() + 30_000).toISOString(),
+            mediaLoadDeadline: null,
+          }),
+          { status: 200 },
+        ),
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({ error: { message: "Connection interrupted" } }),
+          { status: 503 },
+        ),
+      )
+      .mockResolvedValueOnce(
+        new Response(
+          JSON.stringify({
+            correct: true,
+            submittedAnswer: "Paris",
+            timedOut: false,
+            canonicalAnswer: "Paris",
+            explanation: "Paris is the capital of France.",
+            details: "It is located on the Seine.",
+            source: null,
+            packNames: ["Geography Starter"],
+            earnedPoints: 100,
+            topicMastery: { proficiency: 1 },
+            subtopicMastery: [],
+            achievements: [],
+            insightBalance: 0,
+          }),
+          { status: 200 },
+        ),
+      )
+      .mockResolvedValueOnce(
+        new Response(JSON.stringify({ id: "presentation-prepared" }), {
+          status: 200,
+        }),
+      );
+
+    render(
+      <PlayGame
+        immediateChoiceSubmit={false}
+        initialMode="mixed"
+        packs={[]}
+        showPlayIntro={false}
+        standardTimerSeconds={30}
+        topics={[]}
+      />,
+    );
+
+    await userEvent.click(
+      screen.getByRole("button", { name: "Start playing" }),
+    );
+    const input = await screen.findByPlaceholderText("Type your answer");
+    await userEvent.type(input, "Paris");
+    await userEvent.click(
+      screen.getByRole("button", { name: "Lock in answer" }),
+    );
+    expect(await screen.findByText("Connection interrupted")).toBeVisible();
+
+    await userEvent.click(
+      screen.getByRole("button", { name: "Lock in answer" }),
+    );
+    expect(await screen.findByText(/That.s right/)).toBeVisible();
+
+    const answerBodies = fetchMock.mock.calls
+      .filter(([url]) => String(url).endsWith("/answer"))
+      .map(([, init]) => JSON.parse(String((init as RequestInit).body)));
+    expect(answerBodies).toHaveLength(2);
+    expect(answerBodies.map((body) => body.idempotencyKey)).toEqual([
+      answerKey,
+      answerKey,
+    ]);
   });
 
   it("explains scoring and lets the player turn off the introduction", async () => {
@@ -291,8 +387,11 @@ describe("PlayGame choice submission", () => {
     ).toBeVisible();
     expect(screen.getByText("Your answer")).toBeVisible();
     expect(screen.getAllByText("Au")).toHaveLength(2);
+    expect(screen.getByTestId("question-topic")).toHaveTextContent(
+      "TopicScience & Nature",
+    );
     expect(screen.getByTestId("question-pack")).toHaveTextContent(
-      "Science & Nature Starter",
+      "PackScience & Nature Starter",
     );
     expect(screen.getByTestId("question-pack")).not.toHaveTextContent(
       "Question pack",

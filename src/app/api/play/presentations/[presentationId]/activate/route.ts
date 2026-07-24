@@ -4,7 +4,12 @@ import type {
   QuestionPresentation,
   TopicSlug,
 } from "@/domain/types";
-import { ApiError, apiContext, errorResponse } from "@/lib/api";
+import {
+  ApiError,
+  apiContext,
+  assertNewPlayWorkAllowed,
+  errorResponse,
+} from "@/lib/api";
 
 export async function POST(
   _: Request,
@@ -22,6 +27,7 @@ export async function POST(
     if (!original) throw new ApiError("PRESENTATION_NOT_FOUND", 404);
     if (original.finalized_at)
       throw new ApiError("PRESENTATION_FINALIZED", 409);
+    if (!original.activated_at) await assertNewPlayWorkAllowed(admin);
 
     const [{ data: session }, { data: version }] = await Promise.all([
       admin

@@ -9,7 +9,12 @@ import type {
   QuestionPresentation,
   TopicSlug,
 } from "@/domain/types";
-import { ApiError, apiContext, errorResponse } from "@/lib/api";
+import {
+  ApiError,
+  apiContext,
+  assertNewPlayWorkAllowed,
+  errorResponse,
+} from "@/lib/api";
 
 const QUERY_BATCH_SIZE = 100;
 const schema = z.object({
@@ -30,6 +35,7 @@ export async function POST(
     const { sessionId } = await params;
     const input = schema.parse(await request.json());
     const { user, admin } = await apiContext();
+    await assertNewPlayWorkAllowed(admin);
     const { data: session } = await admin
       .from("play_sessions")
       .select("*")

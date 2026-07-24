@@ -2,21 +2,21 @@ project_id = "mindspan"
 
 [api]
 enabled = true
-port = 54321
+port = 55321
 schemas = ["public", "graphql_public"]
 extra_search_path = ["public", "extensions"]
 
 [db]
-port = 54322
+port = 55422
 major_version = 17
 
 [studio]
 enabled = true
-port = 54323
+port = 55323
 
 [local_smtp]
 enabled = true
-port = 54324
+port = 55324
 
 [auth]
 enabled = true

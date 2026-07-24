@@ -1,7 +1,12 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { DEFAULT_TIMER_SECONDS } from "@/domain/timer-rules";
-import { ApiError, apiContext, errorResponse } from "@/lib/api";
+import {
+  ApiError,
+  apiContext,
+  assertNewPlayWorkAllowed,
+  errorResponse,
+} from "@/lib/api";
 
 const schema = z
   .object({
@@ -20,6 +25,7 @@ const schema = z
 export async function POST(request: Request) {
   try {
     const { user, supabase, admin } = await apiContext();
+    await assertNewPlayWorkAllowed(admin);
     const input = schema.parse(await request.json());
     const { data: settings } = await admin
       .from("system_settings")

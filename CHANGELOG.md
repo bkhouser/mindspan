@@ -4,7 +4,38 @@ This file tracks notable player- and administrator-visible changes to Mindspan.
 Add entries under **Unreleased** as each change is completed; do not wait until
 release day to reconstruct them from commit history.
 
-## Unreleased
+## 1.0.0 - 2026-07-24
+
+### Added
+
+- System administrators can now begin an update drain that pauses new play
+  work while allowing players with active questions to finish safely.
+- The administrator user list now provides audited password-reset emails and
+  suspend/restore access controls without exposing passwords or answer history.
+
+### Changed
+
+- Clarified the answer-result metadata by presenting the question topic and
+  source pack as separately labeled, visually distinct fields.
+- Moved group membership administration from the group member list to each
+  member's shared profile, visible only to administrators of shared groups.
+- Moved the player's Insight balance beside the **Unlock more packs** heading,
+  where it directly supports pack-unlock decisions.
+- Positioned the reviewer-only **Review pack** action beneath the primary Play
+  or Unlock action throughout the Question Packs page.
+- Labeled the star display on locked pack cards as **Avg. difficulty** so it
+  cannot be mistaken for a quality rating.
+- Added a confirmation prompt before spending Insight to unlock a question
+  pack.
+
+### Fixed
+
+- Answer submissions now retain their idempotency key through a transient
+  network or deployment interruption, so retrying returns the finalized result
+  instead of duplicating credit or leaving the player without feedback.
+- Pack progress now counts only answers submitted after the player unlocked
+  that pack, preventing answers to questions later moved between packs from
+  appearing as activity in a newly unlocked pack.
 
 ## 1.0.0-rc.6 - 2026-07-21
 
@@ -39,8 +70,7 @@ release day to reconstruct them from commit history.
   well as questions marked **Needs revision** or carrying unresolved player
   feedback, preventing rejected items from disappearing before remediation.
 - Completed the final July 21 review round by preserving 888 exported
-  approvals and raising the Rey/_Force Awakens_ question from difficulty 2 to
-  3. No question identity or historical player record changed.
+  approvals and raising the Rey/_Force Awakens_ question from difficulty 2 to 3. No question identity or historical player record changed.
 - Applied the second completed July 21 question-review pass: six difficulty
   corrections, five requested answer-alias changes, a required-choice fix,
   clearer Sherlock Holmes wording, and a substantive Battle of Hattin

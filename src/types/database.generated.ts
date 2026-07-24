@@ -1614,18 +1614,27 @@ export type Database = {
         Row: {
           default_timer_seconds: number
           id: boolean
+          maintenance_message: string | null
+          maintenance_mode: boolean
+          maintenance_started_at: string | null
           updated_at: string
           updated_by: string | null
         }
         Insert: {
           default_timer_seconds?: number
           id?: boolean
+          maintenance_message?: string | null
+          maintenance_mode?: boolean
+          maintenance_started_at?: string | null
           updated_at?: string
           updated_by?: string | null
         }
         Update: {
           default_timer_seconds?: number
           id?: boolean
+          maintenance_message?: string | null
+          maintenance_mode?: boolean
+          maintenance_started_at?: string | null
           updated_at?: string
           updated_by?: string | null
         }
@@ -2123,6 +2132,12 @@ export type Database = {
           p_verdict: string
         }
         Returns: undefined
+      }
+      set_user_access_v1: {
+        Args: { p_disabled: boolean; p_reason: string; p_user_id: string }
+        Returns: {
+          disabled_at: string
+        }[]
       }
       set_user_role_v1: {
         Args: {

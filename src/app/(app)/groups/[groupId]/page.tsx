@@ -1,11 +1,8 @@
-import { Crown, UserMinus, UserPlus } from "lucide-react";
+import { Crown, UserPlus } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { CopyButton } from "@/components/copy-button";
-import {
-  groupActivityDetail,
-  groupActivityLabel,
-} from "@/domain/activity";
+import { groupActivityDetail, groupActivityLabel } from "@/domain/activity";
 import {
   compareOverallPointStandings,
   compareTopicPointStandings,
@@ -17,13 +14,7 @@ import { Card } from "@/components/ui/card";
 import { GroupCoverage } from "@/components/group-coverage";
 import { requireUser } from "@/lib/auth";
 import { publicEnv } from "@/lib/env";
-import {
-  changeMemberRole,
-  createGroupInvite,
-  removeMember,
-  revokeGroupInvite,
-  updateGroup,
-} from "../actions";
+import { createGroupInvite, revokeGroupInvite, updateGroup } from "../actions";
 
 export default async function GroupPage({
   params,
@@ -389,35 +380,6 @@ export default async function GroupPage({
                   >
                     {member.name}
                   </Link>
-                  {isAdmin && member.id !== user.id ? (
-                    <div className="flex gap-1">
-                      <form action={changeMemberRole}>
-                        <input name="groupId" type="hidden" value={groupId} />
-                        <input name="userId" type="hidden" value={member.id} />
-                        <input
-                          name="role"
-                          type="hidden"
-                          value={member.role === "admin" ? "member" : "admin"}
-                        />
-                        <button
-                          className="p-2 text-xs text-[var(--muted)]"
-                          title={member.role === "admin" ? "Demote" : "Promote"}
-                        >
-                          {member.role === "admin" ? "Member" : "Admin"}
-                        </button>
-                      </form>
-                      <form action={removeMember}>
-                        <input name="groupId" type="hidden" value={groupId} />
-                        <input name="userId" type="hidden" value={member.id} />
-                        <button
-                          aria-label={`Remove ${member.name}`}
-                          className="p-2 text-rose-300"
-                        >
-                          <UserMinus size={16} />
-                        </button>
-                      </form>
-                    </div>
-                  ) : null}
                 </div>
               ))}
             </div>

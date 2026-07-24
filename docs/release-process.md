@@ -93,3 +93,34 @@ revised questions intentionally return to the unreviewed queue.
    rollback compatibility before deployment.
 8. Deploy the immutable release, verify health and restart persistence, then
    smoke-test the update display and visible version in production.
+
+## Drained production deployment
+
+For every ordinary production application deployment, use the release-safety
+control in **Admin** before activating a new artifact:
+
+1. Start the update drain. This rejects new play sessions, question selection,
+   background prefetch, and timer activation with a friendly retry message.
+2. Wait for the active-presentation count to reach zero, or use the documented
+   bounded deployment timeout. Players who already have an active question can
+   still reveal choices, finish it, and retry its idempotent submission.
+3. Take the normal protected backups, apply only the reviewed forward
+   migrations, stage and activate the immutable artifact, and run health and
+   signed-out route checks.
+4. If activation succeeds, end the update drain and verify a fresh play session
+   can start. If activation fails, roll back to the previous compatible artifact
+   before ending the drain.
+
+The deployment runner may set the same `system_settings.maintenance_mode` value
+directly under its protected database credentials when no administrator browser
+session is available. Record that operational change with the deployment log.
+
+## Essential account support
+
+System administrators can send a standard password-reset email and suspend or
+restore an account from the recent-users control. Both actions require a reason
+and create immutable audit records. Suspending an account blocks Mindspan access
+immediately while preserving its groups, attempts, mastery, feedback, awards,
+Insight, packs, and other history. Do not call it a guaranteed external-session
+revocation until the hosted Supabase behavior has been verified in the
+production smoke test.

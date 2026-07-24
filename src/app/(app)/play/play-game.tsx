@@ -1,12 +1,6 @@
 "use client";
 
-import {
-  useCallback,
-  useEffect,
-  useRef,
-  useState,
-  useTransition,
-} from "react";
+import { useCallback, useEffect, useRef, useState, useTransition } from "react";
 import {
   CheckCircle2,
   ChevronRight,
@@ -95,6 +89,7 @@ export function PlayGame({
   const [, startIntroTransition] = useTransition();
   const submitting = useRef(false);
   const markingMediaReady = useRef(false);
+  const answerIdempotencyKey = useRef<string | undefined>(undefined);
   const autoStartAttempted = useRef(false);
   const questionFeedback = useRef<QuestionFeedbackHandle>(null);
   const preparedNext = useRef<
@@ -114,6 +109,7 @@ export function PlayGame({
   }
 
   const showQuestion = useCallback((next: QuestionPresentation) => {
+    answerIdempotencyKey.current = crypto.randomUUID();
     setPresentation(next);
     setChoices(next.initialChoices);
     setRemainingMs(next.timeLimitSeconds * 1000);
@@ -205,7 +201,9 @@ export function PlayGame({
             answer: value,
             timedOut,
             clientElapsedMs: Math.round(clientElapsedMs),
-            idempotencyKey: crypto.randomUUID(),
+            idempotencyKey:
+              answerIdempotencyKey.current ??
+              (answerIdempotencyKey.current = crypto.randomUUID()),
           },
         );
         setResult(response);
@@ -510,19 +508,32 @@ export function PlayGame({
               </div>
             </div>
             <div className="mt-5 flex flex-wrap items-center gap-2.5">
-              <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-bold">
-                {presentation.topic.name}
+              <span
+                className="inline-flex items-baseline gap-2 rounded-xl border border-emerald-300/20 bg-emerald-300/[.08] px-3 py-2"
+                data-testid="question-topic"
+              >
+                <span className="text-[9px] font-black uppercase tracking-[.14em] text-emerald-200/70">
+                  Topic
+                </span>
+                <span className="text-xs font-bold text-emerald-50">
+                  {presentation.topic.name}
+                </span>
               </span>
               {result.packNames.length ? (
                 <span
-                  className="rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-bold"
+                  className="inline-flex items-baseline gap-2 rounded-xl border border-sky-300/20 bg-sky-300/[.07] px-3 py-2"
                   data-testid="question-pack"
                 >
-                  {result.packNames.join(", ")}
+                  <span className="text-[9px] font-black uppercase tracking-[.14em] text-sky-200/70">
+                    Pack
+                  </span>
+                  <span className="text-xs font-bold text-sky-50">
+                    {result.packNames.join(", ")}
+                  </span>
                 </span>
               ) : null}
-              <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5">
-                <span className="text-xs font-bold text-[var(--muted)]">
+              <span className="inline-flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-3 py-2">
+                <span className="text-[9px] font-black uppercase tracking-[.14em] text-[var(--muted)]">
                   Difficulty
                 </span>
                 <DifficultyStars

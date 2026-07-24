@@ -38,8 +38,6 @@ export async function POST(
       .eq("user_id", user.id)
       .single();
     if (!presentation) throw new ApiError("PRESENTATION_NOT_FOUND", 404);
-    if (presentation.finalized_at)
-      throw new ApiError("PRESENTATION_FINALIZED", 409);
     if (!presentation.activated_at)
       throw new ApiError("PRESENTATION_NOT_ACTIVE", 409);
     const { data: version } = await admin
@@ -55,6 +53,7 @@ export async function POST(
       { data: current },
       { data: questionState },
       { data: subtopicLinks },
+      { data: existingAttempt },
     ] = await Promise.all([
       admin
         .from("answer_aliases")
@@ -84,7 +83,19 @@ export async function POST(
         .from("question_subtopics")
         .select("subtopics(id,name)")
         .eq("question_id", version.question_id),
+      admin
+        .from("attempts")
+        .select(
+          "id,presentation_id,correct,timed_out,earned_points,submitted_answer",
+        )
+        .eq("user_id", user.id)
+        .eq("idempotency_key", input.idempotencyKey)
+        .maybeSingle(),
     ]);
+    if (existingAttempt && existingAttempt.presentation_id !== presentation.id)
+      throw new ApiError("IDEMPOTENCY_KEY_REUSED", 409);
+    if (presentation.finalized_at && !existingAttempt)
+      throw new ApiError("PRESENTATION_FINALIZED", 409);
     const packNames = [
       ...new Set(
         (packLinks ?? []).flatMap((link) => {
@@ -94,6 +105,87 @@ export async function POST(
       ),
     ].sort((left, right) => left.localeCompare(right));
     const assessmentMode = presentation.algorithm_version === "assessment-v1";
+    const citation = version.question_citations?.[0] ?? {
+      label: "Source",
+      url: "https://example.com",
+    };
+    const subtopics = (subtopicLinks ?? []).flatMap((link) => {
+      const subtopic = Array.isArray(link.subtopics)
+        ? link.subtopics[0]
+        : link.subtopics;
+      return subtopic ? [subtopic] : [];
+    });
+
+    if (existingAttempt) {
+      const retryState: MasteryState = current
+        ? {
+            topicId: version.topic_id,
+            weightedSuccesses: Number(current.weighted_successes),
+            weightedEvidence: Number(current.weighted_evidence),
+            uniqueQuestions: current.unique_questions,
+            correctAttempts: current.correct_attempts,
+            totalAttempts: current.total_attempts,
+            assistedCorrectAttempts: current.assisted_correct_attempts,
+          }
+        : {
+            topicId: version.topic_id,
+            weightedSuccesses: 0,
+            weightedEvidence: 0,
+            uniqueQuestions: 0,
+            correctAttempts: 0,
+            totalAttempts: 0,
+            assistedCorrectAttempts: 0,
+          };
+      const [subtopicResult, ledgerResult] = await Promise.all([
+        subtopics.length
+          ? admin
+              .from("user_subtopic_mastery")
+              .select(
+                "subtopic_id,correct_attempts,total_attempts,unique_questions",
+              )
+              .eq("user_id", user.id)
+              .in(
+                "subtopic_id",
+                subtopics.map((subtopic) => subtopic.id),
+              )
+          : Promise.resolve({ data: [] }),
+        admin.from("insight_ledger").select("amount").eq("user_id", user.id),
+      ]);
+      const subtopicRows = subtopicResult.data ?? [];
+      return NextResponse.json({
+        attemptId: existingAttempt.id,
+        correct: existingAttempt.correct,
+        submittedAnswer: existingAttempt.submitted_answer ?? "",
+        timedOut: existingAttempt.timed_out,
+        canonicalAnswer: version.canonical_answer,
+        explanation: version.explanation,
+        details: version.details,
+        source: citation,
+        packNames,
+        earnedPoints: existingAttempt.earned_points,
+        topicMastery: topicMastery(retryState),
+        subtopicMastery: subtopics.map((subtopic) => {
+          const row = subtopicRows.find(
+            (item) => item.subtopic_id === subtopic.id,
+          );
+          return {
+            id: subtopic.id,
+            name: subtopic.name,
+            proficiency: row
+              ? accuracy({
+                  correctAttempts: row.correct_attempts,
+                  totalAttempts: row.total_attempts,
+                })
+              : 0,
+            uniqueQuestions: row?.unique_questions ?? 0,
+          };
+        }),
+        achievements: [],
+        insightBalance:
+          ledgerResult.data?.reduce((sum, item) => sum + item.amount, 0) ?? 0,
+      });
+    }
+
     const started = new Date(
       presentation.media_ready_at ??
         presentation.loading_grace_expires_at ??
@@ -261,16 +353,6 @@ export async function POST(
             .eq("id", user.id);
       }
     }
-    const citation = version.question_citations?.[0] ?? {
-      label: "Source",
-      url: "https://example.com",
-    };
-    const subtopics = (subtopicLinks ?? []).flatMap((link) => {
-      const subtopic = Array.isArray(link.subtopics)
-        ? link.subtopics[0]
-        : link.subtopics;
-      return subtopic ? [subtopic] : [];
-    });
     const [subtopicRows, progression] = await Promise.all([
       (async () => {
         if (!subtopics.length) return [];

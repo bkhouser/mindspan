@@ -100,6 +100,7 @@ export async function changeMemberRole(formData: FormData) {
     .eq("user_id", input.userId);
   if (error) throw error;
   revalidatePath(`/groups/${input.groupId}`);
+  revalidatePath(`/profiles/${input.userId}`);
 }
 
 export async function removeMember(formData: FormData) {
@@ -113,4 +114,5 @@ export async function removeMember(formData: FormData) {
     .eq("user_id", userId);
   if (error) throw error;
   revalidatePath(`/groups/${groupId}`);
+  redirect(`/groups/${groupId}`);
 }

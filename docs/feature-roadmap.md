@@ -207,8 +207,9 @@ Included:
   answer-acceptance patterns with an explanation of each ranking.
 - Add controlled content correction and attempt regrading with compensating,
   auditable updates.
-- Add the useful Home group-status panel, richer licensed multimedia and
-  transcripts, and opt-in reminders/healthy-session controls.
+- Add an aggregate coverage row to the group heatmap, the useful Home
+  group-status panel, richer licensed multimedia and transcripts, and opt-in
+  reminders/healthy-session controls.
 
 Gate: administrative pages must isolate their data and permissions, system
 ratings must show insufficient evidence rather than false precision, and no
@@ -237,8 +238,10 @@ and cost budgets, and an AI failure must never interrupt normal answer feedback.
 Use the proven AI foundation to build resumable private lessons from the
 player's interests, limited evidence, recurring misses, and due reviews. Lessons
 remain noncompetitive; only reviewed Mindspan questions can add normal mastery
-or points. Add active learning formats such as relative timeline challenges that
-teach chronological relationships without requiring exact-date recall. Measure
+or points. Add standalone learning-game modes including **Timeline**, which
+teaches chronological relationships without requiring exact-date recall, and
+**Match**, which teaches paired relationships through two-column matching.
+These modes may be launched independently or recommended from a lesson. Measure
 success through later recall rather than opens or reading time.
 
 ### 1.6.0 — Custom AI Packs
@@ -268,6 +271,68 @@ exist.
   content releases without waiting for a major feature version.
 
 ## Learning games
+
+### Match game
+
+**Status:** Defined
+
+**Priority:** Medium-high candidate
+
+**Target:** 1.5.0 — Personalized Learning
+
+Add **Match** as a standalone game mode alongside **Timeline**. It presents two
+related lists and asks the player to pair every item on one side with its
+corresponding item on the other. Useful pair types include common
+name/scientific name, band/band member, band/song, car make/car model,
+person/accomplishment, work/creator, and place/landmark.
+
+Proposed experience:
+
+1. Present four to eight items in each column, with the right-hand list
+   shuffled independently from the left.
+2. Let the player select an item from either column and then its match using
+   touch, mouse, or keyboard controls. Draw a clear connection between paired
+   items and allow pairs to be changed before submission.
+3. After submission, mark each pair correct or incorrect, reveal the correct
+   pairings, and provide a concise explanation or memory cue for missed pairs.
+4. Offer another mixed set or let the player focus on a topic, subtopic, pack,
+   or relationship type.
+
+Players can launch Match directly from the learning-games area; personalized
+lessons may recommend a relevant Match set but do not own or contain the mode.
+
+Implementation principles:
+
+- Store reviewed relationships with stable identities, direction-neutral
+  labels, source citations, topic/subtopic classification, and short learning
+  context. Do not generate pairings by parsing ordinary question wording.
+- Build each round so every item has exactly one unambiguous partner within
+  that round. Avoid sets where duplicate names, aliases, memberships, cover
+  versions, or other many-to-many relationships create multiple valid answers.
+- Grade individual pairs as well as the completed board so partial success is
+  useful and missed relationships can be scheduled for later review.
+- Default to untimed learning. A future timed variant may have a separate
+  score, but should not affect ordinary trivia points or leaderboards without a
+  specific fairness review.
+- Reduce recurrence for consistently mastered pairs and vary distractor sets
+  so success requires knowing the relationship rather than memorizing a fixed
+  screen position.
+- Use authored and reviewed pair data initially. AI may later propose candidate
+  relationships or explanations, but cannot publish them automatically.
+
+Acceptance criteria:
+
+- Every round has one defensible one-to-one solution, and all accepted aliases
+  are considered during editorial validation.
+- Touch, mouse, and keyboard users can create, revise, and submit every pairing.
+- Feedback identifies each missed pair and supplies enough context to make the
+  relationship memorable.
+- Progress persists across devices and supports later review of missed or weak
+  relationships.
+- Match has its own stable route and resumable game flow parallel to Timeline.
+- Replaying the same board cannot generate normal trivia points, mastery, or
+  Insight.
+- Relationship corrections are versioned without rewriting completed runs.
 
 ### Relative timeline challenges
 
@@ -994,6 +1059,60 @@ progress without making them more valuable than harder knowledge. Treat
 “Questions for Dummies” only as a concept reference unless branding review
 confirms that the name can be used.
 
+### SAT-style verbal and math expansion packs
+
+**Status:** Candidate
+
+**Target:** Future reviewed content release; not tied to a feature version
+
+Develop separate verbal and mathematics expansion packs inspired by the kinds
+of knowledge and reasoning used in college-admission test preparation. Working
+titles should use Mindspan branding, such as **Verbal Foundations** and **Math
+Foundations**, with “SAT-style” used only as a descriptive comparison after an
+appropriate naming and trademark review.
+
+The verbal pack may cover vocabulary in context, sentence structure, grammar
+and usage, transitions, concise passage analysis, argument structure, and
+evidence-based interpretation. The math pack may cover algebra, functions,
+geometry, ratios and percentages, data analysis, probability, and applied word
+problems. Organize both packs by detailed skill tags so players can identify
+specific strengths and weaknesses rather than receiving only one broad pack
+score.
+
+Content and gameplay principles:
+
+- Author original questions and explanations. Do not copy, lightly paraphrase,
+  scrape, or imply access to proprietary test questions, and do not imply
+  sponsorship or endorsement by the College Board.
+- Prefer questions that teach durable verbal or mathematical reasoning rather
+  than trivia about test-taking rules. Explain the reasoning process and why
+  plausible alternatives fail.
+- Support required-choice questions where the options are integral to the
+  problem, as well as typed numeric answers with equivalent numerical and
+  written forms when appropriate.
+- Add accessible mathematical notation, diagrams, tables, and short reading
+  passages before releasing question types that require them. Give passage,
+  calculation, and multi-step questions suitable additional time without
+  inflating their competitive value.
+- Distribute difficulty intentionally and consider separate introductory and
+  advanced packs after enough questions exist to make each one coherent.
+- Keep ordinary Mindspan scoring, repeat decay, feedback, immutable versioning,
+  and editorial review. Do not present Mindspan proficiency as a predicted SAT
+  score without a separately validated assessment model.
+
+Acceptance criteria:
+
+- Every question is original, reviewed, sourced where applicable, and assigned
+  to a specific verbal or mathematical skill tag.
+- Mathematical answers accept equivalent valid forms, units, rounding ranges,
+  and alternate solution paths where the authored problem permits them.
+- Reading and language questions have one defensible answer supported by the
+  supplied text rather than unstated outside knowledge.
+- Keyboard and screen-reader users can understand and answer every equation,
+  table, diagram, and passage-based question.
+- Pack descriptions clearly state that the material is unofficial practice and
+  does not predict a score or imply affiliation with the test owner.
+
 ### Licensed Jeopardy! archive expansion packs
 
 **Status:** Candidate  
@@ -1107,6 +1226,35 @@ Acceptance criteria:
   remain the authority for movement between tiers.
 - Players can ignore weekly competition and continue normal Mindspan play with
   no loss of ordinary access, mastery, points, or pack progress.
+
+### Aggregate group coverage row
+
+**Status:** Scheduled
+
+**Target:** 1.3.0 — Operations and Group Polish
+
+Add a clearly separated summary row to the bottom of the group coverage
+heatmap. Each topic cell should show the average percentage correct among
+members who have played that topic together with a participation count such as
+**4/6 played**. This provides both group strength and total coverage without
+treating an unplayed topic as an incorrect answer or allowing one prolific
+player's attempt volume to dominate the group average.
+
+Use the same fixed cell sizes and color scale as the member rows, but give the
+aggregate row a distinct label and border so it cannot be mistaken for another
+person. A topic with no player evidence should remain explicitly unplayed. The
+existing concise coverage summary should use the same aggregation rules so the
+two views cannot disagree.
+
+Acceptance criteria:
+
+- Every topic reports both average performance and the number of members with
+  evidence.
+- Member averages are equally weighted; question volume affects each member's
+  own percentage but does not give that member more weight in the group row.
+- Unplayed topics remain distinct from 0% performance.
+- Values and heatmap intensity update immediately after membership or mastery
+  changes and remain readable on mobile and with assistive technology.
 
 ### Group status panel on Home
 

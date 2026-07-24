@@ -3,10 +3,15 @@ export interface PackQuestionLink {
   question_id: string;
 }
 
-export interface QuestionProgressState {
-  attempt_count: number;
-  correct_count: number;
+export interface PackQuestionAttempt {
+  correct: boolean;
+  created_at: string;
   question_id: string;
+}
+
+export interface PackUnlock {
+  pack_id: string;
+  unlocked_at: string;
 }
 
 export interface PackProgress {
@@ -22,12 +27,20 @@ export interface QuestionDifficulty {
 
 export function calculatePackProgress(
   links: PackQuestionLink[],
-  states: QuestionProgressState[],
+  attempts: PackQuestionAttempt[],
+  unlocks?: PackUnlock[],
 ) {
   const questionsByPack = new Map<string, Set<string>>();
-  const stateByQuestion = new Map(
-    states.map((state) => [state.question_id, state]),
+  const attemptsByQuestion = new Map<string, PackQuestionAttempt[]>();
+  const unlockedAtByPack = new Map(
+    unlocks?.map((unlock) => [unlock.pack_id, Date.parse(unlock.unlocked_at)]),
   );
+
+  for (const attempt of attempts) {
+    const questionAttempts = attemptsByQuestion.get(attempt.question_id) ?? [];
+    questionAttempts.push(attempt);
+    attemptsByQuestion.set(attempt.question_id, questionAttempts);
+  }
 
   for (const link of links) {
     const questions = questionsByPack.get(link.pack_id) ?? new Set<string>();
@@ -39,10 +52,13 @@ export function calculatePackProgress(
     [...questionsByPack].map(([packId, questions]) => {
       let answered = 0;
       let correct = 0;
+      const unlockedAt = unlockedAtByPack.get(packId) ?? -Infinity;
       for (const questionId of questions) {
-        const state = stateByQuestion.get(questionId);
-        if ((state?.attempt_count ?? 0) > 0) answered += 1;
-        if ((state?.correct_count ?? 0) > 0) correct += 1;
+        const eligibleAttempts = (
+          attemptsByQuestion.get(questionId) ?? []
+        ).filter((attempt) => Date.parse(attempt.created_at) >= unlockedAt);
+        if (eligibleAttempts.length > 0) answered += 1;
+        if (eligibleAttempts.some((attempt) => attempt.correct)) correct += 1;
       }
       return [packId, { answered, correct, total: questions.size }];
     }),

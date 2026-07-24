@@ -100,6 +100,62 @@ try {
     "a normal player must not assign global roles",
   );
 
+  const { error: suspendAccessError } = await systemAdmin.client.rpc(
+    "set_user_access_v1",
+    {
+      p_disabled: true,
+      p_reason: "RLS support-action verification",
+      p_user_id: member.id,
+    },
+  );
+  assert(
+    !suspendAccessError,
+    `a system admin must be able to suspend an account${suspendAccessError ? `: ${suspendAccessError.message}` : ""}`,
+  );
+  const { data: suspendedMember } = await admin
+    .from("profiles")
+    .select("disabled_at")
+    .eq("id", member.id)
+    .single();
+  assert(
+    Boolean(suspendedMember?.disabled_at),
+    "suspending an account must set disabled_at",
+  );
+  const { data: accessAudit } = await admin
+    .from("admin_audit_log")
+    .select("id")
+    .eq("actor_user_id", systemAdmin.id)
+    .eq("action", "user.access_suspended")
+    .eq("target_id", member.id);
+  assert(
+    accessAudit?.length === 1,
+    "suspending an account must create an immutable audit record",
+  );
+  const { error: restoreAccessError } = await systemAdmin.client.rpc(
+    "set_user_access_v1",
+    {
+      p_disabled: false,
+      p_reason: "RLS support-action cleanup",
+      p_user_id: member.id,
+    },
+  );
+  assert(
+    !restoreAccessError,
+    `a system admin must be able to restore an account${restoreAccessError ? `: ${restoreAccessError.message}` : ""}`,
+  );
+  const { error: unauthorizedAccessError } = await owner.client.rpc(
+    "set_user_access_v1",
+    {
+      p_disabled: true,
+      p_reason: "Unauthorized attempt",
+      p_user_id: outsider.id,
+    },
+  );
+  assert(
+    Boolean(unauthorizedAccessError),
+    "a normal player must not change another account's access",
+  );
+
   const { data: group, error: groupError } = await admin
     .from("groups")
     .insert({ name: "RLS verification group", created_by: owner.id })
@@ -662,6 +718,40 @@ try {
   assert(
     Boolean(memberSettingsError) || memberSettingsUpdate?.length === 0,
     "a normal player must not change the global timer",
+  );
+  const { data: memberMaintenanceUpdate, error: memberMaintenanceError } =
+    await member.client
+      .from("system_settings")
+      .update({ maintenance_mode: true })
+      .eq("id", true)
+      .select("id");
+  assert(
+    Boolean(memberMaintenanceError) || memberMaintenanceUpdate?.length === 0,
+    "a normal player must not begin an update drain",
+  );
+  const { error: maintenanceStartError } = await systemAdmin.client
+    .from("system_settings")
+    .update({
+      maintenance_mode: true,
+      maintenance_started_at: new Date().toISOString(),
+      maintenance_message: "RLS verification drain",
+    })
+    .eq("id", true);
+  assert(
+    !maintenanceStartError,
+    "a system admin must be able to begin an update drain",
+  );
+  const { error: maintenanceEndError } = await systemAdmin.client
+    .from("system_settings")
+    .update({
+      maintenance_mode: false,
+      maintenance_started_at: null,
+      maintenance_message: null,
+    })
+    .eq("id", true);
+  assert(
+    !maintenanceEndError,
+    "a system admin must be able to end an update drain",
   );
 
   const { data: memberSession, error: memberSessionError } = await member.client
